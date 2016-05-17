@@ -244,8 +244,8 @@ xml
 
 ### The Bootstrap Sequence
   - The following principles the sequence of operations that will occur in this html page by browser:
-    - <script> tags always block page until the script is fetched and evaluated. (Parsing of browser is blocked until nocache.js file is fetched totally)
-    - <img> tags do not block page
+    - script tags always block page until the script is fetched and evaluated. (Parsing of browser is blocked until nocache.js file is fetched totally)
+    - img tags do not block page
     - The **body.onload()** event will only fire once all external resources are fetched, including images and frames.
 
 
