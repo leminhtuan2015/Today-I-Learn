@@ -90,6 +90,33 @@
 
   - The Syntax of **Swift** is the same the syntax of **Scala**
 
+### Type Safety and Type Inference
+
+  - Type Safety: A type safe language encourages you to be clear about the types of variables.
+
+  - Type inference : Type inference refers to the automatic deduction of the data type of an expression in a programming language.
+
+  - For example Java and Javascript
+     - Java        : type safety - The Java language is designed to enforce type safety
+     - Javascript  : type inference
+
+```java
+Int x = 1   // Java type safety
+```
+
+```Javascript
+var x = 1   // Javascript type inference
+```
+
+  - Swift is type safe. But it also support type inference
+
+  - If you dont specify the type of value you need, Swift uses type inference to work out the appropriate type.
+
+  - Type inference enables a compiler to deduce the type of the variables when it compiles your code.
+
+  - When you use **type inference** Swift will automatically assign the type for the variables.
+
+
 ### Define a variable
 
 ```
