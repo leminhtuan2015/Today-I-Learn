@@ -74,8 +74,12 @@
   - https://swift.org/getting-started/#using-the-build-system
 
   - Allow you debug app in terminal.
+  
+# 3. Convention - Api design
+  
+- https://swift.org/documentation/api-design-guidelines/
 
-# 3. Tutorial
+# 4. Tutorial
 
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
 
