@@ -1,6 +1,6 @@
-#7 Apache Ant.
+#1 Apache Ant.
 
-##7.1 Overview.
+##1.1 Overview.
 
   - https://ant.apache.org/manual/index.html
 
@@ -17,7 +17,7 @@
     - Npm (Javascript)
     - Activator (Php)
 
-## 7.2 Why we need a build tool such as ant?
+## 1.2 Why we need a build tool such as ant?
   - When develop a project dev spend much of time doing tasks like build and deployment that include:
     - Compiling the code
     - Packaging the binaries
@@ -27,29 +27,26 @@
 
   - To automate and simplify the above tasks, Apache Ant is useful.
 
-## 7.3 Ant tutorial
+## 1.3 Ant tutorial
 
-### 7.3.1 build.xml
+### build.xml
 
   - https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html
 
   - http://www.tutorialspoint.com/ant/ant_build_files.htm
 
-  -  Ant's build file is written in XML.
+  - Ant's build file is written in XML.
 
   - Ant's build file, called **build.xml** is located at base directory of the project.
 
-### 7.3.2 Demo
+### Demo
 
 ```sh
 mkdir ant_demo
 cd ant_demo
-
 vim build.xml      // (:put+) to copy code to file
-
 ant [target_name]
 // ant (will run the default target)
-
 ```
 
 **File build.xml***
@@ -75,7 +72,7 @@ ant [target_name]
 
   - A target is a collection of tasks that you want to run as one unit
 
-### 7.3.3 Ant property
+### Ant property
   - We can define a variable by <property> tag : <property name="sitename" value="www.tutorialspoint.com"/>
 
 => We have a variable name **sitename** with the value is **www.tutorialspoint.com**
@@ -92,7 +89,7 @@ ant [target_name]
 </project>
 ```
 
-### 7.3.4 Ant - Data Types
+### Ant - Data Types
 
   - Path: The **path** data type is commonly used to represent a class-path
 
