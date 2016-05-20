@@ -30,7 +30,7 @@
 
 ![cordovaapparchitecture.png](https://bitbucket.org/repo/LBgyxe/images/3318572151-cordovaapparchitecture.png)
 
-## Native app, Webapp, Hybird app
+### Native app, Webapp, Hybird app
   - http://developer.telerik.com/featured/what-is-a-webview/
 
   - Wit Android **native** app, we can manage the life-cicle of app, we can manage the state of each activities. but with **hybird** app we just use engine **WebView** to render the HTML, CSS, JS.  => We need other way to manage the life-cicle of **hybird** app.
@@ -43,14 +43,15 @@
 ![apps.png](https://bitbucket.org/repo/LBgyxe/images/3753108653-apps.png)
 
 ##1.3 WebView
-###1.3.1 What is **WebView**
+
+### What is **WebView**
   - The system webview is a native component provided by the operating system to be able to load web content.
 
   - WebView is a View that displays web pages. Display some HTML, CSS, JS content within your Activity. It uses the WebKit rendering engine to display web pages.
 
   - We build a mobile app using web technologies and present the whole thing in a WebView  => all web technologies can run on native app.
 
-###1.3.2 Cordovar is just use WebView to render HTML, JS, CSS
+### Cordovar is just use WebView to render HTML, JS, CSS
 
   - Android app is made from set of **activities**, each *activity* have a life-cicle **BUT** Cordova is can NOT make Javascript have a life-cicle, It just embed the Javascript in (WebView)
 
@@ -70,7 +71,8 @@
 
 
 ##1.5 Tutorials
-###1.5.1 Content Security Policy (CSP)
+
+### Content Security Policy (CSP)
   - We can not make inline javascript in Cordova
 
     - http://stackoverflow.com/questions/31060722/cordova-refuse-to-execute-inline-event-handler-because-it-violates-the-followi
