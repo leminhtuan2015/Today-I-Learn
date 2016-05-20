@@ -108,13 +108,21 @@ Int x = 1   // Java type safety
 var x = 1   // Javascript type inference
 ```
 
-  - Swift is type safe. But it also support type inference
+#### Type Safety
+  - Swift is a type-safe language which means if a part of your code expects a String, you can't pass it an Int by mistake.
 
-  - If you dont specify the type of value you need, Swift uses type inference to work out the appropriate type.
+  - As Swift is type-safe, it performs type-checks when compiling your code and flags any mismatched types as errors.
+
+  - Swift is type safe. But it also support type inference
 
   - Type inference enables a compiler to deduce the type of the variables when it compiles your code.
 
   - When you use **type inference** Swift will automatically assign the type for the variables.
+  
+#### Type Inference
+  - Type inference enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide. 
+  
+  -   - If you dont specify the type of value you need, Swift uses type inference to work out the appropriate type.
 
 
 ### Define a variable
@@ -232,3 +240,4 @@ print(statistics.sum)
 print(statistics.2)
 
 ```
+
