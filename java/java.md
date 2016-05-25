@@ -11,7 +11,7 @@
 ```
 
 
-#### When run/compile a Java project by console (terminal) like `java/ant/maven` we need point out where is class path
+#### When run/compile a Java project by console (terminal) like `java/ant/maven` we need point out where is class path (For Java Virtual Machine can see where is classpath)
 
 ```
 $ java -cp /path/to/libs   org.mypackage.HelloWorld             // Linux
