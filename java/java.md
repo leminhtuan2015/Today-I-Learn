@@ -1,6 +1,6 @@
 # 1. Overview
 
-## What is the difference between **classpath in Java** and **build path in eclipse**?
+## What is the difference between `classpath in Java` and `build path in eclipse`?
 
 #### When run/compile a Java project use IDE like Eclipse we need to add libraries (.jar files) to **build path** of Eclipse
 
