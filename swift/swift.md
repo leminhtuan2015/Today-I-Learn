@@ -8,11 +8,11 @@
     - object-oriented.
     - functional.
   -  Swift is intended as a replacement for C-based languages (C, C++, and Objective-C).
-## Design patterns
+#### Design patterns
 - IOS frameworks rely on design patterns such as model-view-controller and delegation in their implementation
 - The first thing to notice is that **iOS apps** use a model-view-controller architecture
 
-## Features
+#### Features
   - Memory is managed automatically.
   - Supports inferred types.
 ```
@@ -27,7 +27,7 @@
   - Generics.
   - Functional programming patterns, e.g., map and filter.
 
-## Projects
+#### Projects
   - The Swift language is managed as a collection of project.
     - *Swift compiler* command line tool. (Responsible for translating Swift source code into efficient, executable machine code)
     - *Standard library* bundled as part of the language.
@@ -36,7 +36,7 @@
     - *Swift package manager* for distributing and building Swift source code.
 
 # 2. Getting started
-## Swift REPL (read-eval-print-loop) *interactive shell*
+#### Swift REPL (read-eval-print-loop) *interactive shell*
   - Swift REPL is a *interactive shell* the same
     - irb                 : Ruby    (interpreted)
     - rails c             : Rails   (interpreted)
@@ -49,23 +49,24 @@
   - Swift and Scala both have *interactive shell* but they is *compiled languages*
   - All of the functionality of Swift is available to you from the REPL
 
-## LLDB Debugger
+#### LLDB Debugger
   - https://swift.org/getting-started/#using-the-build-system
   - Allow you debug app in terminal.
   
-# 3. Convention - Api design
-- https://swift.org/documentation/api-design-guidelines/
+# 3. App Programming Guide for iOS.
+  - https://developer.apple.com/swift/resources/
+
 
 # 4. Tutorial
 
-#### Syntax
-  - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
+#### The Swift Programming Language
+  - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html
   
-#### Life circle
+#### App Programming Guide for iOS
   - https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
 
-#### First app
-  - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson1.html#//apple_ref/doc/uid/TP40015214-CH3-SW1
+#### Start Developing iOS Apps (Swift)
+  - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html
   
 ### 4.0 Cheetsheet
 
