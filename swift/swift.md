@@ -60,13 +60,15 @@
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
   
   - https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
+
+  - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson1.html#//apple_ref/doc/uid/TP40015214-CH3-SW1
   
 ### 4.0 Cheetsheet
 
 #### Entry point (The Main Function)
   @UIApplicationMain statement in AppDelegate.Swift creates a implicit entry point for Swift program
 
-  - The swift Book says: Code written at global scope is used as the entry point for the program, so you don’t need a main function.
+  - The swift Book says: "Code written at global scope is used as the entry point for the program, so you don’t need a main function".
   - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
 ####  The Structure of an App  
   - The heart of every iOS app is the **UIApplication** object,
