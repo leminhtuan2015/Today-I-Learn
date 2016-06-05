@@ -56,7 +56,7 @@
 # 3. App Programming Guide for iOS.
   - https://developer.apple.com/swift/resources/
   
-#### The App Bundle (Folder structure)
+#### 3.1 The App Bundle (Folder structure)
   - When you build your iOS app, Xcode packages it as a bundle
   - A bundle is a directory in the file system that groups executable code and related resources such as images and sounds together in one place.
   - **App executable (hello.app)** :
@@ -70,23 +70,10 @@
     - Storyboards contain the views and view controllers that the app presents on screen. 
     - Views in a storyboard are organized according to the view controller that presents them. 
     - Storyboards also identify the transitions (called segues) that take the user from one set of views to another.
-
-# 4. Tutorial
-
-#### The Swift Programming Language
-  - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html
-  
-#### App Programming Guide for iOS
-  - https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
-
-#### Start Developing iOS Apps (Swift)
-  - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html
-  
-### 4.0 Cheetsheet
+#### 3.2 The App Life Cycle
 
 #### Entry point (The Main Function)
   @UIApplicationMain statement in AppDelegate.Swift creates a implicit entry point for Swift program
-
   - The swift Book says: "Code written at global scope is used as the entry point for the program, so you don’t need a main function".
   - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
   
@@ -96,6 +83,16 @@
 ![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/mvc-ios.png)
 
 ![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/details-mvc.png)
+
+# 4. Tutorial
+#### The Swift Programming Language
+  - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html
+  
+#### App Programming Guide for iOS
+  - https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
+
+#### Start Developing iOS Apps (Swift)
+  - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html
 
 ### 4.1 Syntax
 
