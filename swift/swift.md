@@ -10,6 +10,7 @@
   -  Swift is intended as a replacement for C-based languages (C, C++, and Objective-C).
 ## Design patterns
 - IOS frameworks rely on design patterns such as model-view-controller and delegation in their implementation
+- The first thing to notice is that **iOS apps** use a model-view-controller architecture
 
 ## Features
   - Memory is managed automatically.
@@ -56,18 +57,19 @@
 - https://swift.org/documentation/api-design-guidelines/
 
 # 4. Tutorial
-
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
-
-  - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
-
-  - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AboutTheLanguageReference.html#//apple_ref/doc/uid/TP40014097-CH29-ID345
+  
+  - https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
+  
 ### 4.0 Cheetsheet
-#### Entry point:
+
+#### Entry point (The Main Function)
   @UIApplicationMain statement in AppDelegate.Swift creates a implicit entry point for Swift program
 
   - The swift Book says: Code written at global scope is used as the entry point for the program, so you don’t need a main function.
   - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
+####  The Structure of an App  
+  - The heart of every iOS app is the **UIApplication** object,
 
 ### 4.1 Syntax
 
