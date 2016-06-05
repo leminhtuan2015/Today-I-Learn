@@ -55,8 +55,13 @@
   
 # 3. App Programming Guide for iOS.
   - https://developer.apple.com/swift/resources/
+
+#### 3.1 Entry point (The Main Function)
+  @UIApplicationMain statement in AppDelegate.Swift creates a implicit entry point for Swift program
+  - The swift Book says: "Code written at global scope is used as the entry point for the program, so you don’t need a main function".
+  - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
   
-#### 3.1 The App Bundle (Folder structure)
+#### 3.2 The App Bundle (Folder structure)
   - When you build your iOS app, Xcode packages it as a bundle
   - A bundle is a directory in the file system that groups executable code and related resources such as images and sounds together in one place.
   - **App executable (hello.app)** :
@@ -70,19 +75,34 @@
     - Storyboards contain the views and view controllers that the app presents on screen. 
     - Views in a storyboard are organized according to the view controller that presents them. 
     - Storyboards also identify the transitions (called segues) that take the user from one set of views to another.
-#### 3.2 The App Life Cycle
 
-#### Entry point (The Main Function)
-  @UIApplicationMain statement in AppDelegate.Swift creates a implicit entry point for Swift program
-  - The swift Book says: "Code written at global scope is used as the entry point for the program, so you don’t need a main function".
-  - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
-  
-#### The Structure of an App
+#### 3.4 The Structure of an App
   - The heart of every iOS app is the **UIApplication** object.
   
 ![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/mvc-ios.png)
 
 ![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/details-mvc.png)
+
+#### 3.5 The App Life Cycle  - Execution States for Apps
+
+  - **Not running : **
+    - The app has not been launched or was running but was terminated by the system.
+  - **Inactive    : **
+    - The app is running in the foreground but is currently not receiving events. (It may be executing other code though.)
+    - An app usually stays in this state only briefly as it transitions to a different state.
+  - **Active :**
+    - The app is running in the foreground and is receiving events. This is the normal mode for foreground apps.
+  - **Background:**
+    - The app is in the background and executing code. 
+    - Most apps enter this state briefly on their way to being suspended. 
+    - However, an app that requests extra execution time may remain in this state for a period of time. 
+    - In addition, an app being launched directly into the background enters this state instead of the inactive state. 
+    - For information about how to execute code while in the background, see Background Execution.
+  - **Suspended :**
+    - The app is in the background but is not executing code. 
+    - The system moves apps to this state automatically and does not notify them before doing so. 
+    - While suspended, an app remains in memory but does not execute any code.
+    - When a low-memory condition occurs, the system may purge suspended apps without notice to make more space for the foreground app.
 
 # 4. Tutorial
 #### The Swift Programming Language
