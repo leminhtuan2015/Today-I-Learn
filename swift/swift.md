@@ -72,7 +72,11 @@
   - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
   
 #### The Structure of an App
-  - The heart of every iOS app is the **UIApplication** object,
+  - The heart of every iOS app is the **UIApplication** object.
+  
+![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/mvc-ios.png)
+
+![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/details-mvc.png)
 
 ### 4.1 Syntax
 
