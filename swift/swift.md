@@ -70,7 +70,8 @@
 
   - The swift Book says: "Code written at global scope is used as the entry point for the program, so you don’t need a main function".
   - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
-####  The Structure of an App  
+  
+#### The Structure of an App
   - The heart of every iOS app is the **UIApplication** object,
 
 ### 4.1 Syntax
