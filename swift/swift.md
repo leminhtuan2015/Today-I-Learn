@@ -1,61 +1,41 @@
 # 1. Overview.
   - Swift (programming language) designed by *Apple Inc*.
-
   - Swift is an opensource tool under Apache 2.0 license.
-
   - First appeared:	June 2, 2014.
-
   - It is a *compiled programming language*.
-
   - Paradigm: Swift use multi-paradigm
     - Protocol-oriented programming.
-
     - object-oriented.
-
     - functional.
-
   -  Swift is intended as a replacement for C-based languages (C, C++, and Objective-C).
+## Design patterns
+- IOS frameworks rely on design patterns such as model-view-controller and delegation in their implementation
 
 ## Features
   - Memory is managed automatically.
-
   - Supports inferred types.
-
 ```
   int i;    // declare type
 ```
-
 ```
   var i;    // inferred-type
 ```
-
   - Dont need semicolons (*;*) at the end of each line code.
-
   - Closures unified with function pointers.
-
   - Tuples and multiple return values.
-
   - Generics.
-
   - Functional programming patterns, e.g., map and filter.
 
 ## Projects
-
   - The Swift language is managed as a collection of project.
-
     - *Swift compiler* command line tool. (Responsible for translating Swift source code into efficient, executable machine code)
-
     - *Standard library* bundled as part of the language.
-
     - *Core libraries* that provide higher-level functionality.
-
     - *LLDB debugger* which includes the Swift REPL.
-
     - *Swift package manager* for distributing and building Swift source code.
 
 # 2. Getting started
 ## Swift REPL (read-eval-print-loop) *interactive shell*
-
   - Swift REPL is a *interactive shell* the same
     - irb                 : Ruby    (interpreted)
     - rails c             : Rails   (interpreted)
@@ -66,17 +46,13 @@
     - php -a              : PHP     (interpreted)
 
   - Swift and Scala both have *interactive shell* but they is *compiled languages*
-
   - All of the functionality of Swift is available to you from the REPL
 
 ## LLDB Debugger
-
   - https://swift.org/getting-started/#using-the-build-system
-
   - Allow you debug app in terminal.
   
 # 3. Convention - Api design
-  
 - https://swift.org/documentation/api-design-guidelines/
 
 # 4. Tutorial
@@ -86,11 +62,18 @@
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
 
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AboutTheLanguageReference.html#//apple_ref/doc/uid/TP40014097-CH29-ID345
-## Syntax
+### 4.0 Cheetsheet
+#### Entry point:
+  @UIApplicationMain statement in AppDelegate.Swift creates a implicit entry point for Swift program
+
+  - The swift Book says: Code written at global scope is used as the entry point for the program, so you don’t need a main function.
+  - If you have a look at your AppDelegate there is a marker @UIApplicationMain which is outside of any scope and considered as entry point.
+
+### 4.1 Syntax
 
   - The Syntax of **Swift** is the same the syntax of **Scala**
 
-### Type Safety and Type Inference
+### 4.2 Type Safety and Type Inference
 
   - Type Safety: A type safe language encourages you to be clear about the types of variables.
 
@@ -125,18 +108,29 @@ var x = 1   // Javascript type inference
   -   - If you dont specify the type of value you need, Swift uses type inference to work out the appropriate type.
 
 
-### Define a variable
+### 4.3 Define a variable
+
+- Create a variable :
 
 ```
-var a = 42          // variable
-let b = 42          // constant
-c = 50
+  var a = 42          // variable
+  let b = 42          // constant
+  c = 50
 
-var x: Double = 70  // explicit
-var y = 70          // implicit
+  var x: Double = 70  // explicit
+  var y = 70          // implicit
 ```
 
-### Convert variable type
+- Swift auto detect you type of variables
+- Each variable in Swift must have a type, when one variable is asigned a type that can NOT change anymore.
+- Once a constant or variable has a type, that type can’t be changed.
+
+```
+var a = 1      // the a variable will be asigned type is Int
+a = "hello"    // ERROR, a cannot be re-asigned to String type.
+```
+
+### 4.4 Convert variable type
 
   - Values are never implicitly converted to another type
 
@@ -156,7 +150,7 @@ let width = 94
 let widthLabel = label + String(width)
 ```
 
-### Swift interpolation
+### 4.5 Swift interpolation
 
   - "\()"
 
@@ -165,8 +159,9 @@ let widthLabel = label + String(width)
   let appleSummary = "I have \(apples) apples."
 ```
 
-### Array
+### 4.6 Array
 
+  - An array is a data type that keeps track of an ordered collection of items.
   - Define an array by "[]"
 
 ```swift
@@ -179,7 +174,7 @@ var list = []            // Create an empty list, implicit
 
 ```
 
-### Functions and Closures
+### 4.7 Functions and Closures
 
   - Swift support First-class-function
     - supports passing functions as arguments
@@ -189,10 +184,10 @@ var list = []            // Create an empty list, implicit
 
   - Use **->** to define the function’s return type
 
-#### First-class-function
+### 4.8 First-class-function
   - Functions are a first-class type. This means that a function can return another function as its value.
 
-##### Return a function
+####  Return a function
 ```swift
 func makeIncrementer() -> ((Int) -> Int) {
     func addOne(number: Int) -> Int {
@@ -203,7 +198,7 @@ func makeIncrementer() -> ((Int) -> Int) {
 var increment = makeIncrementer()
 increment(7)
 ```
-##### A function can take another function as one of its arguments.
+#### A function can take another function as one of its arguments.
 
 ``` swift
 func hasAnyMatches(list: [Int], condition: (Int) -> Bool) -> Bool {
@@ -221,7 +216,7 @@ var numbers = [20, 19, 7, 12]
 hasAnyMatches(numbers, condition: lessThanTen)
 ```
 
-#### Return multiple values from a function.
+### 4.9 Return multiple values from a function.
 
   - Use **Tuple** to return multiple
 
@@ -240,4 +235,8 @@ print(statistics.sum)
 print(statistics.2)
 
 ```
+
+### 4.10 Optional type
+
+
 
