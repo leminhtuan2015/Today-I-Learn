@@ -1,12 +1,12 @@
-#1. Javascript FUNCTIONAL OR OBJECT ORIENTED?
-#2. JavaScript, object oriented?
-#3. Nodejs require exports vs module.exports
-#4. Referrence
+**1. Javascript FUNCTIONAL OR OBJECT ORIENTED?**
+**2. JavaScript, object oriented?**
+**3. Nodejs require exports vs module.exports**
+**4. Referrence**
 
 
 Trả lời: 
 
-#1. Javascript FUNCTIONAL OR OBJECT ORIENTED?
+**1. Javascript FUNCTIONAL OR OBJECT ORIENTED?**
 
 - "JAVASCRIPT: FUNCTIONAL OR OBJECT ORIENTED?"
 
@@ -33,7 +33,7 @@ Why? How?
 
 - Trong bài này em sẽ tập trung vào việc JS code theo OBJECT ORIENTED.
 
-## 2. JavaScript, object oriented?
+**2. JavaScript, object oriented?**
  
  - Oject-oriented programing(OOP) là mô hình lập trình dựa trên khái niệm "object", trong thế giới của OOP mọi thứ đều là object.
  
@@ -76,9 +76,9 @@ Why? How?
 `+ kí hiệu [] đại diện cho array`
 
 
-###3. Nodejs - require exports vs module.exports
+**3. Nodejs - require exports vs module.exports**
  
-#### A: require, exports, module.exports
+** A: require, exports, module.exports**
  
  - Node là framework hỗ trợ run JS code ở server side.
  
@@ -121,7 +121,7 @@ Why? How?
 - Bằng cách làm như trên của Nodejs, mỗi file js có để được object hóa hoàn toàn, lúc này ta có thể coi mỗi file .js như một object với những thuộc tính và function riêng, đảm nhiệm một chức năng riêng, sau đó gọi và sử dụng các object này bằng cách require()
 
 
-####Demo:
+**Demo:**
  - Tạo một file có tên test.js
 
 ```js
@@ -167,7 +167,7 @@ var getName = function(){
 
 => Trả lời em cũg k hiểu tại sao nó lại đẻ ra 2 object(cùng troe vào 1 vùng nhớ) trong khi đó chỉ cần return về duy nhất object là `module.exports`.
  
-#### `Chú ý khi sử dụng 2 biến module.exports và exports `
+** `Chú ý khi sử dụng 2 biến module.exports và exports `**
 
   + 2 biến exports và module.exports đều cùng trỏ vào một vị trí nhớ, vì vậy khi ta add thêm trường hoặc function bằng một trong hai biến đó thì vùng nhớ A sẽ được có thêm các thành phần được add
 
@@ -195,7 +195,7 @@ lúc này `exports` đã trỏ đến một nới hoàn toàn mới k còn liên
 
 Và kết quả ta nhận về khi require cũng chỉ là những thành phần mà object `module.exports` trỏ tới
 
-### 4. Referrence
+**4. Referrence**
  - http://stackoverflow.com/questions/16383795/difference-between-module-exports-and-exports-in-the-commonjs-module-system
  - http://stackoverflow.com/questions/7137397/module-exports-vs-exports-in-node-js
  - http://stackoverflow.com/questions/5311334/what-is-the-purpose-of-node-js-module-exports-and-how-do-you-use-it/5311377#5311377
