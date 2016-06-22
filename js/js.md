@@ -1,12 +1,12 @@
-####1. Javascript FUNCTIONAL OR OBJECT ORIENTED?
-####2. JavaScript, object oriented?
-####3. Nodejs require exports vs module.exports
-####4. Referrence
+#1. Javascript FUNCTIONAL OR OBJECT ORIENTED?
+#2. JavaScript, object oriented?
+#3. Nodejs require exports vs module.exports
+#4. Referrence
 
 
 Trả lời: 
 
-##1. Javascript FUNCTIONAL OR OBJECT ORIENTED?
+#1. Javascript FUNCTIONAL OR OBJECT ORIENTED?
 
 - "JAVASCRIPT: FUNCTIONAL OR OBJECT ORIENTED?"
 
@@ -110,14 +110,11 @@ Why? How?
   + `return module.exports;` 
   ở cuối file
  
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/nodejscompile.png_ludcg7thz5) 
  
  - `return module.exports;` : module.exports là một object, object này được return ở cuối của mọi file trong nodejs, vậy object này trả về cho ai, trả về khi nào
   => object module.exports này trả về khi require() được gọi. 
 
  - `require("path/to/file/abc.js")` : nhận về object `module.exports` được trả lại trong file abc.js
-
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/objec.png_9qhjaukv4l)
 
 - `x` là một object được gán bằng object `module.exports`
 
@@ -163,13 +160,7 @@ var getName = function(){
 
 ```
 
-=> Kết quả khi require() file test.js mà file này k gán giá trị vào biến `module.exports`:
-
-(Sẽ là một object rỗng như bên dưới)
-
-
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/Screenshot%20from%202016-05-03%2011%3A20%3A49.png_6unwjd42n7)
-
+=> Kết quả khi require() file test.js mà file này k gán giá trị vào biến `module.exports`: => Kết quả sẽ là một object rỗng
 
 ### B: exports, module.exports
  - Câu hỏi: `Đã có module.exports rồi và khi require một file ta cũng chỉ nhận lại được object module.exports vậy thế exports sinh ra với mục đích gì?`
@@ -181,8 +172,6 @@ var getName = function(){
   + 2 biến exports và module.exports đều cùng trỏ vào một vị trí nhớ, vì vậy khi ta add thêm trường hoặc function bằng một trong hai biến đó thì vùng nhớ A sẽ được có thêm các thành phần được add
 
   + exports.name = "hello" => Vùng nhớ A sẽ có thêm một biến name = "hello"
-
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/Screenshot%20from%202016-05-03%2011%3A35%3A31.png_tf5xa3t437)
 
   + Nhưng khi ta không add thêm thành phần vào mà gán exports bằng một biến khác thì lúc này exports sẽ trỏ đến vùng nhớ hoàn toàn khác (Không phải vùng nhớ A), vì thế kết quả trả về mà ta nhận được không hề có thành phần của exports 
 
@@ -204,14 +193,7 @@ ví dụ:
 => Kết quả nhận về chỉ  hàm getName được add bởi `module.exports.getName = getName;`
 lúc này `exports` đã trỏ đến một nới hoàn toàn mới k còn liên quan gì đến `module.exports`
 
-
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/Screenshot%20from%202016-05-03%2012%3A58%3A28.png_kalx2fv9yc)
-
 Và kết quả ta nhận về khi require cũng chỉ là những thành phần mà object `module.exports` trỏ tới
-
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/Screenshot%20from%202016-05-03%2011%3A42%3A05.png_1kjxczsxc6)
-
-
 
 ### 4. Referrence
  - http://stackoverflow.com/questions/16383795/difference-between-module-exports-and-exports-in-the-commonjs-module-system
