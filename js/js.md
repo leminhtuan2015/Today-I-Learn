@@ -1,7 +1,7 @@
-**1. Javascript FUNCTIONAL OR OBJECT ORIENTED?**
-**2. JavaScript, object oriented?**
-**3. Nodejs require exports vs module.exports**
-**4. Referrence**
+- **1. Javascript FUNCTIONAL OR OBJECT ORIENTED?**
+- **2. JavaScript, object oriented?**
+- **3. Nodejs require exports vs module.exports**
+- **4. Referrence**
 
 
 Trả lời: 
