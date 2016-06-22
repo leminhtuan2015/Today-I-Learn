@@ -1,10 +1,10 @@
-**1. VARIABLE**
-**2. OBJECT** 
-**3. SCOPE.** 
-**4. Meta-programming (Writing code dynamically)**
-**5. Modules**
-**6. Hook Methods**
-**7. Super basic memoization** 
+- **1. VARIABLE**
+- **2. OBJECT** 
+- **3. SCOPE.** 
+- **4. Meta-programming (Writing code dynamically)**
+- **5. Modules**
+- **6. Hook Methods**
+- **7. Super basic memoization** 
 <hr>
 
 **`Let's get started.`** 
