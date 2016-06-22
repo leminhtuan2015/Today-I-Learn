@@ -33,7 +33,7 @@
 ```
 ls -l          // List files in folder
 
-ls -l *.java   // List files end with `.java`, ** *.java` is the argrument of `option l`**
+ls -l *.java   // List files end with .java,  *.java` is the argrument of `option l
 ```
 
 - Option   : `-l`
