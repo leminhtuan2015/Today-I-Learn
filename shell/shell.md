@@ -29,11 +29,12 @@
 **Arguments**
 - An option may be have **required** or **optional** argrument
 - EX:
-``
+
+```
 ls -l          // List files in folder
 
 ls -l *.java   // List files end with `.java`, `*.java` is the argrument of `option l`
-``
+```
 
 - Option   : `-l`
 - Argrument: `*.java` 
