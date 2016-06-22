@@ -78,7 +78,7 @@ Why? How?
 
 **3. Nodejs - require exports vs module.exports**
  
-** A: require, exports, module.exports**
+**A: require, exports, module.exports**
  
  - Node là framework hỗ trợ run JS code ở server side.
  
@@ -140,12 +140,8 @@ Why? How?
 
 - Trong node console ta `require("./test")` => sẽ nhận lại object với một biến và một hàm chính là biến và hàm ta đã add vào object `module.exports`.
 
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/Screenshot%20from%202016-05-03%2011%3A12%3A53.png_ewp1endl0y)
-
 
 - Gán require() cho một oibect khác và gọi ra các thành phần trong object nhận lại:
-
-![alt text](https://s3-ap-southeast-1.amazonaws.com/kipalog.com/ecccccb6dc35f41e05c70fa555f8e4ab59e69ac5.png_b1qhjr545d)
 
 - Nếu ta không add thêm thành phần vào biến `module.exports` hay không gán module.exports bằng một object nào đó thì hiển nhiên module.exports sẽ không chứa bất kỳ dữ liệu gì, và kết qủa require() nhận lại được sẽ là một object rỗng.
 
