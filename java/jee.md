@@ -1,5 +1,7 @@
 #Java EE
 
+http://docs.oracle.com/javaee/6/tutorial/doc/giqsx.html#gkcaw
+
 ## WEB structure.
 - In the Java EE architecture, a web module is the smallest deployable and usable unit of web resources
 - A web module has a specific structure
