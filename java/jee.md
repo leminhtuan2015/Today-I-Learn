@@ -35,3 +35,38 @@ public class GreetingServlet extends HttpServlet {
 - This annotation indicates that the URL pattern /greeting follows the context root. Therefore, when the servlet is deployed locally, it is accessed with the following URL:
 
 => http://localhost:8080/hello2/greeting
+
+#The diffrent betwween Java web (Compiled) and Ruby-PHP-Nodejs (Script Language Web)
+
+  - The **Script languagle** will be execute the source at run time (Have no compile time).
+  - The **Compiled languagle** will be compiled first, after that system will execute the ***conpiled code*
+
+##Java web run time.
+
+                                              WAR(web archive)
+                                                      |
+                                                      |
+                               __________________________________________
+                               |                                        |
+                               |                                        |
+                               |                                        |
+                            **WEB-INF**                     **Static/Resource/JSP**
+                               |
+                               |
+              _________________|__________________
+              |                |                  |
+              |                |                  |
+              |                |                  |
+          **web.xml**       **lib**           **classes**
+          
+  - **web.xml** : URL mapping
+  - **classes** : .java compiled to .class and placed at classes folder  (THE MAPPING FORM **src** to the compiled file), 
+    - **classes** = **src + compiled** 
+  - *lib***     : contain all dependency for .class file
+    - lib contain .jar (Java archive) files, jar is a collection of .class file.
+  - **Static/Resource/JSP**: Contain css, js, html, jsp.....
+          
+  - At **RUN TIME** Java web container just only care and loooking for **war** folder. Web container (Tomcat, Jetty, Apache) DO NOT care about source (/src/*.java)
+  - Web container (Tomcat, Jetty, Apache) Just only need .class file those compiled from .java file at war/WEB-INF/class
+  - 
+  =>>>>>>>> JAVA WEB MUST BE COMPILED BEFORE RUN **(classes = src + compile)**
