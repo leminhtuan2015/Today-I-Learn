@@ -1,5 +1,6 @@
 #Java EE
 
+## WEB structure.
 - In the Java EE architecture, a web module is the smallest deployable and usable unit of web resources
 - A web module has a specific structure
 The document root contains a subdirectory named WEB-INF, which can contain the following files and directories:
@@ -14,3 +15,21 @@ The document root contains a subdirectory named WEB-INF, which can contain the f
 - A web module can be deployed as an unpacked file structure or can be packaged in a JAR file known as a Web Archive (WAR) file
   - JAR: Java Archive
   - WAR: Wew Archive
+
+##Configuring Web Applications
+####Mapping URLs to Web Components.
+
+- When it receives a request, the web container must determine which web component should handle the request.
+- The web container does so by mapping the URL path contained in the request to a web application and a web component
+- A URL path contains the context root and, optionally, a URL pattern:
+  - **http://host:port/context-root[/url-pattern]**
+
+EX:
+```
+@WebServlet("/greeting")
+public class GreetingServlet extends HttpServlet {
+```
+
+- This annotation indicates that the URL pattern /greeting follows the context root. Therefore, when the servlet is deployed locally, it is accessed with the following URL:
+
+=> http://localhost:8080/hello2/greeting
