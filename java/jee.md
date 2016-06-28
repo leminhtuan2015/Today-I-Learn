@@ -50,14 +50,14 @@ public class GreetingServlet extends HttpServlet {
                                |                                        |
                                |                                        |
                                |                                        |
-                            **WEB-INF**                     **Static/Resource/JSP**
+                            WEB-INF                          Static/Resource/JSP
                                |
                                |
               _________________|__________________
               |                |                  |
               |                |                  |
               |                |                  |
-          **web.xml**       **lib**           **classes**
+          web.xml             lib             classes
           
   - **web.xml** : URL mapping
   - **classes** : .java compiled to .class and placed at classes folder  (THE MAPPING FORM **src** to the compiled file), 
@@ -68,5 +68,7 @@ public class GreetingServlet extends HttpServlet {
           
   - At **RUN TIME** Java web container just only care and loooking for **war** folder. Web container (Tomcat, Jetty, Apache) DO NOT care about source (/src/*.java)
   - Web container (Tomcat, Jetty, Apache) Just only need .class file those compiled from .java file at war/WEB-INF/class
-  - 
-  =>>>>>>>> JAVA WEB MUST BE COMPILED BEFORE RUN **(classes = src + compile)**
+  
+
+
+  ####=>>>>>>>> JAVA WEB MUST BE COMPILED BEFORE RUN **(classes = src + compile)**
