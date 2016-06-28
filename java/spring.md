@@ -32,6 +32,7 @@
           |                |                  |
       web.xml             lib             classes
 
+
   - Step 2: User maven/ gradle/ ant dowload lib from Maven repository : https://mvnrepository.com/tags/spring
     - https://mvnrepository.com/artifact/org.springframework/spring-context-support/4.3.0.RELEASE
     - https://mvnrepository.com/artifact/org.springframework/spring-core/4.3.0.RELEASE
