@@ -134,10 +134,12 @@
 	    http://www.springframework.org/schema/mvc
 	    http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd ">
 
+    <!-- Point to the controllers of web app (Define the controller layer)-->
     <context:component-scan base-package="com.koolsoft.audiostories.server.spring.controllers" />
     <mvc:annotation-driven />
     <mvc:default-servlet-handler />
 
+    <!-- Define the view layer-->
     <bean
        class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">
@@ -159,22 +161,4 @@
 </beans>
 ```
 
-```xml
-<context:component-scan base-package="com.koolsoft.audiostories.server.spring.controllers" />
 
-// Point to the controllers of web app (Define the controller layer)
-```
-
-```xml
-    <bean
-       class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix">
-            <value>/jsp/</value>
-        </property>
-        <property name="suffix">
-            <value>.jsp</value>
-        </property>
-    </bean>
-    
-    //Define the view layer
-```
