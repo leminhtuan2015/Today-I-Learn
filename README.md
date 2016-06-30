@@ -3,29 +3,13 @@
 
 ### TODO QUEUE.
 
-mvn dependency:copy-dependencies -DoutputDirectory=./libs
-mvn install dependency:copy-dependencies
+- use string javascript
 
-use string javascript
+- grade maven ant
 
-grade maven ant
+- nginx for php, java, ruby
 
-nginx php, java, ruby
+- OFY = ORM
+- Default object in controller of spring. In ruby we have params object what is in spring
 
-mysql connect other host
-
-https://cloud.google.com/appengine/docs/java/tools/appcfg-arguments
-gae for ruby- Create rails truce, say do build len gae
-appcfg.sh -A audio18-68 -V web --enable_jar_splitting update war
-
-OFY = ORM
-
-Default object in controller of spring
-
-In ruby we have params object what is in spring
-
-đang dở doc cho spring
-
-
-GWT: ant compile http://www.gwtproject.org/doc/latest/tutorial/appengine.html#intro
 
