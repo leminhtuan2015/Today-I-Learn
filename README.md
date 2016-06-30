@@ -20,4 +20,8 @@ appcfg.sh -A audio18-68 -V web --enable_jar_splitting update war
 
 OFY = ORM
 
+Default object in controller of spring
+
+In ruby we have params object what is in spring
+
 
