@@ -1,0 +1,133 @@
+#1. GWT tools
+- gwt-dev.jar
+  - com.google.gwt.dev.DevMode
+  - com.google.gwt.dev.Compiler
+
+#2. Create build.xml for ant 
+
+##Step1: Create build.xml file.
+
+```xml
+  <?xml version="1.0"?>
+  <project name="PROJECT_NAME" basedir="." default="gwt-compile">
+  
+  </project>
+```
+
+##Step2: Add a property for the GWT SDK directory.
+
+```
+  <!-- Configure path to GWT SDK -->
+  <property name="gwt.sdk" location="_Path to GWT_SDK" />
+```
+
+##Step3: Add a property for a GWT tools class path.
+```xml
+  <path id="project.class.path">
+    <pathelement location="war/WEB-INF/classes"/>
+    <pathelement location="${gwt.sdk}/gwt-user.jar"/>
+    <fileset dir="${gwt.sdk}" includes="gwt-dev*.jar"/>
+      <!-- Add any additional non-server libs (such as JUnit) -->
+    <fileset dir="war/WEB-INF/lib" includes="**/*.jar"/>
+  </path>
+```
+
+##Step4: Modify the “libs” ant target so that the required jar files are copied to WEB-INF/lib.
+```xml
+  <target name="libs" description="Copy libs to WEB-INF/lib">
+    <mkdir dir="war/WEB-INF/lib" />
+    <copy todir="war/WEB-INF/lib" file="${gwt.sdk}/gwt-servlet.jar" />
+  </target>
+```
+
+##Step5: Compile .java to .class file
+
+```xml
+  <target name="javac" depends="libs" description="Compile java source">
+    <mkdir dir="war/WEB-INF/classes"/>
+    <javac srcdir="src" includes="**" encoding="utf-8"
+        destdir="war/WEB-INF/classes"
+        source="1.5" target="1.5" nowarn="true"
+        debug="true" debuglevel="lines,vars,source">
+      <classpath refid="project.class.path"/>
+    </javac>
+    <copy todir="war/WEB-INF/classes">
+      <fileset dir="src" excludes="**/*.java"/>
+    </copy>
+  </target>
+```
+
+##Step6: Modify the “devmode” ant target to use the App Engine development server instead of the servlet container which comes with GWT.
+```xml
+  <target name="devmode" depends="javac" description="Run development mode"">
+    <java failonerror="true" fork="true" classname="com.google.gwt.dev.DevMode"">
+      <classpath>
+        <pathelement location="src"/>
+        <path refid="project.class.path"/>
+      </classpath>
+      <jvmarg value="-Xmx256M"/>
+      <arg value="-startupUrl"/>
+      <arg value="StockWatcher.html"/>
+      <!-- Additional arguments like -style PRETTY or -logLevel DEBUG -->
+      <arg value="-server"/>
+      <arg value="com.google.appengine.tools.development.gwt.AppEngineLauncher"/>
+      <arg value="com.google.gwt.sample.stockwatcher.StockWatcher"/>
+    </java>
+  </target>
+```
+
+##Step 7: Compile Java to JavaScript
+
+```xml
+    <!-- Invoke the GWT compiler to create the Javascript for us -->
+    <target name="gwt-compile" depends="compile">
+        <java failonerror="true" fork="true" classname="com.google.gwt.dev.Compiler">
+            <classpath>
+                <!-- src dir is added to ensure the module.xml file(s) are on the classpath -->
+                <pathelement location="${src.dir}"/>
+                <pathelement location="${build.dir}"/>
+                <path refid="project.classpath"/>
+            </classpath>
+            <jvmarg value="-Xmx1024m"/>
+            <jvmarg value="-Dfile.encoding=UTF-8"/>
+            <!--<arg value="-compileReport"/>-->
+            <arg value="${gwt.audiostories}"/>
+        </java>
+    </target>
+```
+
+
+#NOTICE
+
+```xml
+<target name="devmode" depends="javac" description="Run development mode">
+  <java failonerror="true" fork="true" classname="com.google.gwt.dev.DevMode">
+.......
+.......
+  </java>
+</target>
+```
+**THE SAME**
+```java
+java -Xmx256M -cp "src;war/WEB-INF/classes;\gwt-2.0.0\gwt-user.jar;\gwt-2.0.0\gwt-dev.jar"
+  com.google.gwt.dev.DevMode -startupUrl Hello.html com.google.gwt.sample.hello.Hello
+```
+
+
+
+=>>>>>>>>>>>>>>>>>
+
+build.xml
+```xml
+
+```
+
+
+
+
+
+
+
+
+
+
