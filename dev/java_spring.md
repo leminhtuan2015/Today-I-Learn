@@ -172,12 +172,26 @@ application context.
 </beans>
 ```
 # Dependency Management
-GroupId________________ArtifactId______________Description
-org.springframework____spring-aop______________Proxy-based AOP support
-org.springframework____spring-context__________Application context runtime,including scheduling an
-org.springframework____spring-core_____________Core utilities, used by many other Spring modules
-org.springframework____spring-jdbc_____________JDBC support package, including DataSource setup and JDBC access support
-org.springframework____spring-orm______________Object/Relational Mapping,including JPA and Hibernate support
-org.springframework____spring-web______________Web support packages, including client and web remoting
-org.springframework____spring-webmvc___________REST Web Services and model-view-controller implementation for web applications
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+|GroupId               |ArtifactId     |Description                                                                     |
+|----------------------|---------------|--------------------------------------------------------------------------------|
+|org.springframework   |pring-aop      |Proxy-based AOP support								|
+|org.springframework   |spring-context |Application context runtime,including scheduling an				|
+|org.springframework   |spring-core    |Core utilities, used by many other Spring modules				|
+|org.springframework   |spring-jdbc    |JDBC support package, including DataSource setup and JDBC access support	|
+|org.springframework   |spring-orm     |Object/Relational Mapping,including JPA and Hibernate support			|
+|org.springframework   |spring-web     |Web support packages, including client and web remoting				|
+|org.springframework   |spring-webmvc  |REST Web Services and model-view-controller implementation for web applications |
 
