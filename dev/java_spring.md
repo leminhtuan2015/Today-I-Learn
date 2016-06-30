@@ -11,8 +11,9 @@
 ##2. Create Java web - Spring Project.
 
   - Step 1: Create Java web app (Java EE http://docs.oracle.com/javaee/6/tutorial/doc/geysj.html)
-    - Create a Java web app by Maven/ Ant / Eclipse ........
-    
+
+### Create a Java web app by Maven/ Ant / Eclipse ........
+
                                        ___src/
                                       |
                                       |    
@@ -39,13 +40,14 @@
     - ........
     - ........
   - Step 3: Copy Spring libs in war/WEB-INF/lib
-  
-  - Step 4: Enjoin coding in **src** (All your .java in src/ will be compiled to .class files and put in war/WEB-INF/classes)
+  - step 4: Config web.xml
+  - step 5: Config spring-svelet.xml
+  - Step 6: Enjoin coding in **src** (All your .java in src/ will be compiled to .class files and put in war/WEB-INF/classes)
   
 
 ###====>>>> WEB container (tomcat, jetty) just execute the war file.
 
-##3. Structure - Configtion
+##3. Java WEB Structure
 
                                        ___src/
                                       |
@@ -67,7 +69,11 @@
       web.xml             lib             classes
       
       
-####web.xml
+##4. Java web app Spring configtion
+
+###Create web.xml
+
+- The web.xml file contains several elements that are required for a Facelets application
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -79,8 +85,8 @@
 
   <!-- Servlets --> 
 	
-	<!-- SPRING -->
-	<servlet>
+<!-- SPRING -->
+   <servlet>
         <servlet-name>spring</servlet-name>
         <servlet-class>
             org.springframework.web.servlet.DispatcherServlet
@@ -101,16 +107,74 @@
 
     <listener>
         <listener-class>
-            org.springframework.web.context.ContextLoaderListener
+	    org.springframework.web.context.ContextLoaderListener
         </listener-class>
     </listener>
     
       <!-- Default page to serve -->
-	  <welcome-file-list>
-	    <welcome-file>index.html</welcome-file>
-	  </welcome-file-list>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
 
 </web-app>
+```
 
+###Create war/WEB-INF/spring-servlet.xml
 
+```xml
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:mvc="http://www.springframework.org/schema/mvc" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+	    http://www.springframework.org/schema/beans 
+	    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+	    http://www.springframework.org/schema/context 
+	    http://www.springframework.org/schema/context/spring-context-4.0.xsd
+	    http://www.springframework.org/schema/mvc
+	    http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd ">
+
+    <context:component-scan base-package="com.koolsoft.audiostories.server.spring.controllers" />
+    <mvc:annotation-driven />
+    <mvc:default-servlet-handler />
+
+    <bean
+       class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix">
+            <value>/jsp/</value>
+        </property>
+        <property name="suffix">
+            <value>.jsp</value>
+        </property>
+    </bean>
+    
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+    <mvc:resources mapping="/audiostories/**" location="/audiostories/" />
+    <mvc:resources mapping="/components/**" location="/components/" />
+    <mvc:resources mapping="/css/**" location="/css/" />
+    <mvc:resources mapping="/js/**" location="/js/" />
+    <mvc:resources mapping="/rollups/**" location="/rollups/" />
+    <mvc:resources mapping="/images/**" location="/images/" />
+    <mvc:annotation-driven />
+</beans>
+```
+
+```xml
+<context:component-scan base-package="com.koolsoft.audiostories.server.spring.controllers" />
+
+// Point to the controllers of web app (Define the controller layer)
+```
+
+```xml
+    <bean
+       class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix">
+            <value>/jsp/</value>
+        </property>
+        <property name="suffix">
+            <value>.jsp</value>
+        </property>
+    </bean>
+    
+    //Define the view layer
 ```
