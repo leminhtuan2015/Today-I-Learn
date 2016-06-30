@@ -115,9 +115,98 @@ java -Xmx256M -cp "src;war/WEB-INF/classes;\gwt-2.0.0\gwt-user.jar;\gwt-2.0.0\gw
 
 
 
-=>>>>>>>>>>>>>>>>>
+#=>
 
 build.xml
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="gae_gwt" basedir="." default="gwt-compile">
+
+	<property name="gwt.sdk"
+		location="/Users/leminhtuan/Documents/GAE/GWT/SDK/gwt-2.7.0" />
+	<property name="gae.sdk"
+		location="/Users/leminhtuan/Documents/GAE/SDK/Java/appengine-java-sdk-1.9.38" />
+	<property name="gwt.args" value="" />
+
+	<path id="project.classpath">
+		<pathelement location="war/WEB-INF/classes" />
+		<pathelement location="${gwt.sdk}/gwt-user.jar" />
+		<pathelement location="${gwt.sdk}/gwt-dev.jar" />
+		<pathelement location="${gwt.sdk}/gwt-codeserver.jar" />
+		<fileset dir="war/WEB-INF/lib" includes="*.jar" />
+	</path>
+
+	<!-- Invoke the GWT compiler to create the Javascript for us -->
+	<target name="prepare">
+		<mkdir dir="build" />
+	</target>
+
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+
+	<!-- Compile the java source code using javac -->
+	<target name="compile" depends="prepare">
+		<javac srcdir="src" destdir="build">
+			<classpath refid="project.classpath" />
+		</javac>
+	</target>
+
+	<target name="gwt-compile" depends="compile">
+		<java failonerror="true" fork="true" classname="com.google.gwt.dev.Compiler">
+			<classpath>
+				<!-- src dir is added to ensure the module.xml file(s) are on the classpath -->
+				<pathelement location="src" />
+				<pathelement location="build" />
+				<pathelement location="${gwt.sdk}/gwt-codeserver.jar"/>
+				<path refid="project.classpath" />
+			</classpath>
+			<jvmarg value="-Xmx1024m" />
+			<jvmarg value="-Dfile.encoding=UTF-8" />
+			<!--<arg value="-compileReport"/> -->
+			<arg value="com.lmt.gae_gwt" />
+		</java>
+	</target>
+
+
+	<!-- DEV MODE -->
+	<target name="libs" description="Copy libs to WEB-INF/lib">
+		<mkdir dir="war/WEB-INF/lib" />
+		<copy todir="war/WEB-INF/lib" file="${gwt.sdk}/gwt-servlet.jar" />
+		<copy todir="war/WEB-INF/lib" file="${gwt.sdk}/gwt-servlet-deps.jar" />
+		<!-- Add any additional server libs that need to be copied -->
+	</target>
+
+	<target name="javac" depends="libs" description="Compile java source to bytecode">
+		<mkdir dir="war/WEB-INF/classes" />
+		<javac srcdir="src" includes="**" encoding="utf-8" destdir="war/WEB-INF/classes"
+			source="1.7" target="1.7" nowarn="true" debug="true" debuglevel="lines,vars,source">
+			<classpath refid="project.classpath" />
+		</javac>
+		<copy todir="war/WEB-INF/classes">
+			<fileset dir="src" excludes="**/*.java" />
+		</copy>
+	</target>
+
+	<target name="devmode" depends="javac"
+		description="Run development mode (pass -Dgwt.args=-nosuperDevMode to fallback to classic DevMode)">
+		<java failonerror="true" fork="true" classname="com.google.gwt.dev.DevMode"
+			maxmemory="1g">
+			<classpath>
+				<pathelement location="src" />
+				<path refid="project.classpath" />
+			</classpath>
+			<arg value="-startupUrl" />
+			<arg value="index.html" />
+			<arg line="-war" />
+			<arg value="war" />
+			<!-- Additional arguments like -style PRETTY, -logLevel DEBUG or -nosuperDevMode -->
+			<arg line="${gwt.args}" />
+			<arg value="com.lmt.Gae_gwt" />
+			<arg value="com.lmt.Gae_gwt" />
+		</java>
+	</target>
+
+</project>
 
 ```
