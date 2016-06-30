@@ -4,13 +4,24 @@
 - http://krams915.blogspot.com/2010/12/spring-3-mvc-using-modelattribute-in.html
 
 ##1. Overview
-
-- Spring is the framework for Java, Support create MVC web app
 - http://spring.io/
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/
+- http://docs.spring.io/spring/docs/current/spring-framework-reference/pdf/spring-framework-reference.pdf
+- Spring is the framework for Java, Support create MVC web app
+- The Spring Framework is a Java platform that provides comprehensive infrastructure support for
+developing Java applications. Spring handles the infrastructure so you can focus on your application.
+
+- The Web layer consists of the spring-web, spring-webmvc, spring-websocket, and springwebmvc-portlet
+modules.
+- The spring-web module provides basic web-oriented integration features such as multipart file upload
+functionality and the initialization of the IoC container using Servlet listeners and a web-oriented
+application context.
 
 ##2. Create Java web - Spring Project.
-
+  - http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
   - Step 1: Create Java web app (Java EE http://docs.oracle.com/javaee/6/tutorial/doc/geysj.html)
+  - The spring-webmvc module (also known as the Web-Servlet module) contains Spring’s modelview-controller
+(MVC) and REST Web Services implementation for web applications
 
 ### Create a Java web app by Maven/ Ant / Eclipse ........
 
@@ -160,5 +171,13 @@
     <mvc:annotation-driven />
 </beans>
 ```
-
+# Dependency Management
+GroupId                ArtifactId              Description
+org.springframework    spring-aop              Proxy-based AOP support
+org.springframework    spring-context          Application context runtime,including scheduling an
+org.springframework    spring-core             Core utilities, used by many other Spring modules
+org.springframework    spring-jdbc             JDBC support package, including DataSource setup and JDBC access support
+org.springframework    spring-orm              Object/Relational Mapping,including JPA and Hibernate support
+org.springframework    spring-web              Web support packages, including client and web remoting
+org.springframework    spring-webmvc           REST Web Services and model-view-controller implementation for web applications
 
