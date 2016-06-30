@@ -16,7 +16,7 @@
 
 ##Step2: Add a property for the GWT SDK directory.
 
-```
+```xml
   <!-- Configure path to GWT SDK -->
   <property name="gwt.sdk" location="_Path to GWT_SDK" />
 ```
