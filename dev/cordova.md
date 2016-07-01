@@ -149,12 +149,50 @@ module.exports.metadata =
 });
 ```
 
-Step 2: Auto define a module:
-- Auto add the below code to each plugin
+- Step 4: Auto define a module:
+  - Auto add the below code to each plugin
 
 ```js
 cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, exports, module) {
   // Code of www/file.js
+}
+```
+
+**File origin**
+
+```js
+  var exec = require('cordova/exec');
+  var SimpleCrypto = function() {};
+  
+  SimpleCrypto.prototype.encrypt = function(key, path, name, success, error) {
+    exec(success, error, "SimpleCrypto", "encrypt", [key, path, name]);
+  }
+  
+  SimpleCrypto.prototype.decrypt = function(key, name, success, error) {
+    exec(success, error, "SimpleCrypto", "decrypt", [key, name]);
+  }
+  
+  var simpleCrypto = new SimpleCrypto();
+  module.exports = simpleCrypto;
+```
+
+**File after Cordova add to project**
+
+```js
+cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, exports, module) {
+  var exec = require('cordova/exec');
+  var SimpleCrypto = function() {};
+  
+  SimpleCrypto.prototype.encrypt = function(key, path, name, success, error) {
+    exec(success, error, "SimpleCrypto", "encrypt", [key, path, name]);
+  }
+  
+  SimpleCrypto.prototype.decrypt = function(key, name, success, error) {
+    exec(success, error, "SimpleCrypto", "decrypt", [key, name]);
+  }
+  
+  var simpleCrypto = new SimpleCrypto();
+  module.exports = simpleCrypto;
 }
 ```
 
