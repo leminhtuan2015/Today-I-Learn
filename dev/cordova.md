@@ -1,34 +1,15 @@
 #1 Cordova (old version is named **phonegap**)
 
 ##1.1 Overview:
-
-  - https://en.wikipedia.org/wiki/Apache_Cordova
-
-  - https://cordova.apache.org/
-
-  - https://github.com/apache?utf8=%E2%9C%93&query=cordova-
-
   - Apache Cordova is an open-source mobile development framework, for developing cross-platform **hybrid applications** using HTML, CSS, and Javascript.
 
-  - Cordova command-line runs on Node.js and is available on NPM.
-
-  - **What you can do on Browser, you can 100% do it on Mobile App as well.**
-
   - Cordove is NOT belong to GOOGLE, it belong to Apache, Cordova can NOT convert any Javascript code to Mobile app, Cordova just **embed** Javascript code to the   **WebView** of Android or IOS device.
-
-  - Apache Cordova embeds the HTML5 code inside a native **WebView** on the device, using a foreign function interface to access the hardware of devices (camera, GPS...).
 
   - The core of Apache Cordova applications use **CSS3 and HTML5 for their rendering** and **JavaScript for their logic**.
 
   - Cordova use of Web-based technologies leads some Apache Cordova applications to run slower than native applications with similar functionality
 
-  - Cordova applications are **hybrid**(hỗn hợp), meaning that they are neither truly native mobile application (because all layout rendering is done via Web views instead of the platform's native UI framework) nor purely Web-based (because they are not just Web apps, but are packaged as apps for distribution and have access to native device APIs).
-
-  - The issues for some Apache Cordova applications is that it run slower than native app.
-
 ##1.2 Cordova Architecture:
-
-![cordovaapparchitecture.png](https://bitbucket.org/repo/LBgyxe/images/3318572151-cordovaapparchitecture.png)
 
 ### Native app, Webapp, Hybird app
   - http://developer.telerik.com/featured/what-is-a-webview/
@@ -40,16 +21,12 @@
     - Web app  (using HTML, JS, CSS and run app by browser).
     - Hybird app (Code app by HTML, css, js after that use WebView to wrap those HTML, JS, CSS to native app).
 
-![apps.png](https://bitbucket.org/repo/LBgyxe/images/3753108653-apps.png)
-
 ##1.3 WebView
 
 ### What is **WebView**
   - The system webview is a native component provided by the operating system to be able to load web content.
 
   - WebView is a View that displays web pages. Display some HTML, CSS, JS content within your Activity. It uses the WebKit rendering engine to display web pages.
-
-  - We build a mobile app using web technologies and present the whole thing in a WebView  => all web technologies can run on native app.
 
 ### Cordovar is just use WebView to render HTML, JS, CSS
 
@@ -63,13 +40,6 @@
 
   - The technical **FFI** allow you to call other service of other app(other app).
 
-### How HTML5, Javascript access hardware of device (such as camera, recorder, GPS, file-system, data ex: phone-number, sms).
-
-  - Apache Cordova embeds the HTML5 code inside a native WebView on the device, using a **foreign function interface** to access the hardware of devices.
-
-  - https://software.intel.com/en-us/articles/the-development-of-mobile-applications-using-html5-and-phonegap-on-intel-architecture-based
-
-
 ##1.5 Tutorials
 
 ### Content Security Policy (CSP)
@@ -82,9 +52,7 @@
 ```html
 <button onclick="alert()">Click me</button>    //Bad code
 ```
-
-=====>  Good code is below
-
+Good code is below
 
 ```html
 <button id="btn">Click me</button>
@@ -99,3 +67,97 @@ var showMessage = function() {
 
 document.getElementById("btn").addEventListener("click", showMessage);
 ```
+
+### Cordova plugin.
+#### Structure of a cordova plugin
+ - Cordova plugin contain **3** things:
+   - plugin.xml                                         (define the plugin)
+   - www/file.js                                        (js code)
+   - src/ios/native.m **OR** src/android/native.java    (native code)
+  
+#### plugin.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.disusered.simplecrypto" version="0.2.0">
+  <name>SimpleCrypto</name>
+  <js-module name="SimpleCrypto" src="www/SimpleCrypto.js">
+    <clobbers target="cordova.plugins.SimpleCrypto" />
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="SimpleCrypto">
+        <param name="ios-package" value="SimpleCrypto" />
+      </feature>
+    </config-file>
+    <framework src="Foundation.framework" />
+    <framework src="Security.framework" />
+    <source-file src="src/ios/SimpleCrypto.m" />
+  </platform>
+</plugin>
+```
+
+**Define module**
+
+```xml
+  <js-module name="SimpleCrypto" src="www/SimpleCrypto.js">
+    <clobbers target="cordova.plugins.SimpleCrypto" />
+  </js-module>
+```
+
+**clobbers** make us can require the **www/SimpleCrypto.js** by 2 ways:
+
+```js
+  // First way
+  var cryptor = cordova.plugins.SimpleCrypto
+```
+
+```js
+  // Second ways
+  var cryptor = cordova.require("com.disusered.simplecrypto.SimpleCrypto");
+```
+
+#### What will Cordova do when we add a plugin?: (Cordova will automatic create some files )
+
+- Step 1:
+  - Copy files in **src/native_file** of plugin in **Plugins**
+  
+- Step 2:
+  - Copy file in **www/js_file** of plugin in **Staging/plugins/*
+  
+- Step3 : create file cordova_plugin.js
+
+```js
+cordova.define('cordova/plugin_list', function(require, exports, module) {
+module.exports = [
+    {
+        "file": "plugins/com.disusered.simplecrypto/www/SimpleCrypto.js",
+        "id": "com.disusered.simplecrypto.SimpleCrypto",
+        "pluginId": "com.disusered.simplecrypto",
+        "clobbers": [
+            "cordova.plugins.SimpleCrypto"
+        ]-
+    }
+];
+module.exports.metadata = 
+// TOP OF METADATA
+{
+    "com.disusered.simplecrypto": "0.2.0",
+    "cordova-plugin-whitelist": "1.2.2"
+}
+// BOTTOM OF METADATA
+});
+```
+
+Step 2: Auto define a module:
+- Auto add the below code to each plugin
+
+```js
+cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, exports, module) {
+  // Code of www/file.js
+}
+```
+
+=> auto wrap the **Staging/plugins/com.disusered.simplecrypto/www/SimpleCrypto.js** by the code above.
+
+
