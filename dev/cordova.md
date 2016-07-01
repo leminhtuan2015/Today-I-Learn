@@ -175,9 +175,8 @@ cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, expo
   var simpleCrypto = new SimpleCrypto();
   module.exports = simpleCrypto;
 ```
- |
- |
-\/
+
+=>
 
 **File after Cordova add to project**
 
