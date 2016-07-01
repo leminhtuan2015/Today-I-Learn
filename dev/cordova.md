@@ -176,10 +176,10 @@ cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, expo
   module.exports = simpleCrypto;
 ```
 
-**File after Cordova add to project**
+File after Cordova add to project
 
 ```js
-cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, exports, module) {
+cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, exports, module) {  // THIS LINE AUTO ADDED
   var exec = require('cordova/exec');
   var SimpleCrypto = function() {};
   
@@ -193,7 +193,7 @@ cordova.define("com.disusered.simplecrypto.SimpleCrypto", function(require, expo
   
   var simpleCrypto = new SimpleCrypto();
   module.exports = simpleCrypto;
-}
+}  // THIS LINE AUTO ADDED
 ```
 
 => auto wrap the **Staging/plugins/com.disusered.simplecrypto/www/SimpleCrypto.js** by the code above.
