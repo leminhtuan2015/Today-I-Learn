@@ -173,18 +173,6 @@ application context.
 ```
 # Dependency Management
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-
 |GroupId               |ArtifactId     |Description                                                                     |
 |----------------------|---------------|--------------------------------------------------------------------------------|
 |org.springframework   |pring-aop      |Proxy-based AOP support								|
@@ -194,4 +182,92 @@ application context.
 |org.springframework   |spring-orm     |Object/Relational Mapping,including JPA and Hibernate support			|
 |org.springframework   |spring-web     |Web support packages, including client and web remoting				|
 |org.springframework   |spring-webmvc  |REST Web Services and model-view-controller implementation for web applications |
+
+## Spring MVC – @RequestBody and @ResponseBody
+ - Source: spring-web.jar
+   - org.springframework.web.bind.annotation.RequestBody
+   - org.springframework.web.bind.annotation.ResponseBody
+
+ - Spring can convert the incoming **JSON** to **Java Object** and **vice versa**
+ 
+ - JSON object:
+
+```json
+{ "id" : "1", "name" : "Fudd" }
+``` 
+
+ - Java object:
+
+```java
+public class Person{
+    private String id;
+    private String name;
+    // + getters, setters
+}
+```
+
+ - Spring controller:
+
+```
+@RequestMapping("/test")
+public @ResponseBody Person getPerson(@RequestBody Person person, ModelMap model){
+    return new Person("1", person.getName() + "Hello");
+}
+```
+
+- Step 1:
+  Client send JSON object to Spring controller:
+```js
+var person = {"id" : "1", "name": "tuan"}  // JSON OBJECT
+
+// SEND JSON OBJECT TO SPRING CONTROLLER
+$.ajax({
+	type : 'POST',
+	url : '/test',
+	dataType : 'json',
+	data : JSON.stringify(person),
+	contentType : 'application/json',
+	processData : false,
+	success : function(data) {
+	  // DATA IS JSON OBJECT
+	},
+	error : function(e) {
+	}
+});
+```
+
+- Step 2: Spring controller will convert **JSON object** to **Java object** with **@RequestBody**
+
+- Step 3: Spring controller will convert **Java object** to ***JSON object* with  **@ResponseBody**
+
+## Spring MVC - @RequestParam vs @PathVariable
+  - @PathVariable is to obtain some placeholder from the uri
+  - @RequestParam is to obtain an parameter
+  
+Step 1: Request to URl **Assume this Url http://localhost:8080/MyApp/user/1234/invoices?type=candy**
+```java
+@RequestMapping(value="/user/{userId}/invoices", method = RequestMethod.GET)
+public List<Invoice> listUsersInvoices(@PathVariable("userId") int uId, @RequestParam("type") String) {
+  // uid = 1234
+  // type = candy
+  ...
+  ...
+}
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
 
