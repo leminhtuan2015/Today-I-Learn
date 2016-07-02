@@ -244,9 +244,12 @@ $.ajax({
   - @PathVariable is to obtain some placeholder from the uri
   - @RequestParam is to obtain an parameter
   
-Step 1: Request to URl **Assume this Url http://localhost:8080/MyApp/user/1234/invoices?type=candy**
+Step 1: Request to URl Assume this Url 
+
+**http://localhost:8080/MyApp/user/1234/invoices?type=candy**
+
 ```java
-@RequestMapping(value="/user/{userId}/invoices", method = RequestMethod.GET)
+@RequestMapping(value="/users/{userId}/invoices", method = RequestMethod.GET)
 public List<Invoice> listUsersInvoices(@PathVariable("userId") int uId, @RequestParam("type") String) {
   // uid = 1234
   // type = candy
