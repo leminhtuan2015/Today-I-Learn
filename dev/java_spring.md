@@ -240,6 +240,29 @@ $.ajax({
 
 - Step 3: Spring controller will convert **Java object** to ***JSON object* with  **@ResponseBody**
 
+## What if the properties of **JSON object** and **Java object** DO NOT match with each other
+
+###`JSON OBJECT AND JAVA OBJECT HAVE TO HAVE THE SAME NAME IF WANT TO MATCH WITH EACH OTHER`
+
+- For example: 
+
+```json
+<!--JSON object-->
+var person = {"id": 1, "age": 25, "sex": "male"}
+```
+
+```java
+public class Person{
+    private String id;
+    private String name;
+    // + getters, setters
+}
+```
+
+=> JSON have 3 properties **(id, age, sex)**, Java have 2 properties **(id, name)**
+
+When convert between JSON to JAVA, Spring will match the properties with **THE SAME ** name to assign the value.
+
 ## Spring MVC - @RequestParam vs @PathVariable
   - @PathVariable is to obtain some placeholder from the uri
   - @RequestParam is to obtain an parameter
