@@ -259,6 +259,12 @@ public class Person{
 }
 ```
 
+=> 
+```
+// After convert form JSON to JAVA
+Person(id = 1, name = null)
+```
+
 => JSON have 3 properties **(id, age, sex)**, Java have 2 properties **(id, name)**
 
 When convert between JSON to JAVA, Spring will match the properties with **THE SAME ** name to assign the value.
