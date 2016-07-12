@@ -21,3 +21,6 @@ https://www.jetbrains.com/help/idea/2016.1/debugging-your-first-java-application
 http://docs.oracle.com/javase/1.5.0/docs/tooldocs/solaris/jdb.html
 http://www.javaworld.com/article/2077445/testing-debugging/debug-with-jdb.html
 https://www.packtpub.com/books/content/debugging-java-programs-using-jdb
+
+Google Cloud
+- http://www.cyberciti.biz/faq/google-cloud-compute-engin-ssh-into-an-instance-from-linux-unix-appleosx/
