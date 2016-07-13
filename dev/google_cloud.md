@@ -21,24 +21,24 @@
  - https://cloud.google.com/sdk/gcloud/reference/
  
  - **gcloud config**
-     ```sh
-       gcloud config list
-       gcloud config set project example.com:my-project
-     ```
+    ```sh
+      gcloud config list
+      gcloud config set project example.com:my-project
+    ```
  
  - **gcloud app**: Manage your App Engine app. 
-     ```sh
-       gcloud app versions list
-     ```
+    ```sh
+      gcloud app versions list
+    ```
  - **gcloud compute**: Read and manipulate Google Compute Engine resources.
-     ```sh
-         gcloud compute instances list
-     ```
+    ```sh
+      gcloud compute instances list
+    ```
  
  - **gcloud projects**: Manage your projects.
     ```sh
       gcloud projects list
-   ```
+    ```
  
  - **gcloud sql**: Manage Cloud SQL databases.
 
@@ -67,15 +67,15 @@
       gcloud config list
   ```
 
-```sh
-  cd path/to/GAE/project
-  appcfg.sh -A [PROJECT_ID] list_versions war
-  
-  #=> return all version of this project
-```
-
-```sh
-  gcloud app versions list
+  ```sh
+    cd path/to/GAE/project
+    appcfg.sh -A [PROJECT_ID] list_versions war
     
-  #=>  return all version of curent project
-```
+    #=> return all version of this project
+  ```
+  
+  ```sh
+    gcloud app versions list
+      
+    #=>  return all version of curent project
+  ```
