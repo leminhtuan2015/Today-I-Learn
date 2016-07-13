@@ -64,7 +64,7 @@
 - gcloud : Manager one app at the its config.
 
   ```sh 
-      gcloud config list
+    gcloud config list
   ```
 
   ```sh
