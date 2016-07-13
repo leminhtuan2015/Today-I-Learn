@@ -31,6 +31,23 @@
 ## gcloud CLI
  - https://cloud.google.com/sdk/gcloud/reference/
  
+ - **gcloud info** : Show all infimations of this Google Cloud
+  ```
+  Account: [minhtuan.techno@gmail.com]
+  Project: [tuanminhle1992]
+  
+  Current Properties:
+    [core]
+      project: [tuanminhle1992]
+      account: [minhtuan.techno@gmail.com]
+      disable_usage_reporting: [False]
+    [app]
+      suppress_change_warning: [true]
+    [compute]
+      region: [asia-east1]
+      zone: [asia-east1-a]
+  ```
+
  - **gcloud config**
     ```sh
       # Show current account, project
@@ -38,6 +55,8 @@
 
       # Change current App engine project
       gcloud config set project [PROJECT_ID]
+      
+      # The file config is: /Users/leminhtuan/.config/gcloud/configurations/config_default
     ```
  
  - **gcloud app**: Manage your App Engine app. 
@@ -94,4 +113,12 @@
     gcloud app versions list
       
     #=>  return all version of curent project
+  ```
+  
+  ### Deploy app to GAE
+  
+  - ***appcfg.sh* deploy war folder to GAE
+  
+  ```sh
+  appcfg.sh -A [PROJECT_ID] -V [VERSION_NAME] --enable_jar_splitting set_default_version war
   ```
