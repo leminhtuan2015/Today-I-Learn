@@ -42,4 +42,40 @@
  
  - **gcloud sql**: Manage Cloud SQL databases.
 
+# Google Cloud SDK VS Google App Engine SDK (GAE)
 
+##Google Cloud CLI:
+  - gcloud
+  - gsutil
+  - bq
+  
+## Google App Engine CLI
+  - dev_appserver.sh    //Run Jetty (Java Web Servlet Container ~ Tomcat) - run **war** folder
+  - appcfg.sh           // Deploy **war** folder to **Google App Engile**
+  - google_sql.sh
+  - run_java
+  - endpoints.sh
+
+## gcloud VS appcfg.sh
+
+### Get list of versions
+
+- appcfg.sh: Manager one app at WEB-INF/appengine-web.xml
+- gcloud : Manager one app at the its config.
+
+  ```sh 
+      gcloud config list
+  ```
+
+```sh
+  cd path/to/GAE/project
+  appcfg.sh -A [PROJECT_ID] list_versions war
+  
+  #=> return all version of this project
+```
+
+```sh
+  gcloud app versions list
+    
+  #=>  return all version of curent project
+```
