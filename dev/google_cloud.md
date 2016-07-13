@@ -104,14 +104,6 @@
 ## gcloud VS appcfg.sh
 
 ### Get list of versions
-
-- appcfg.sh: Manager one app at WEB-INF/appengine-web.xml
-- gcloud : Manager one app at the its config.
-
-  ```sh 
-    gcloud config list
-  ```
-
 - **appcfg.sh** list version of project
   ```sh
     cd path/to/GAE/project
@@ -127,10 +119,21 @@
     #=>  return all version of curent project
   ```
   
+### Change default version
+- **appcfg.sh** change default version of a GAE project
+  ```sh
+      appcfg.sh -A [APP_ID] -V [VERSION] --enable_jar_splitting set_default_version war
+  ```
+  
+- **gcloud** change default version of a GAE project
+  ```sh
+      gcloud preview app modules set-default default --version=[VERSION_NAME]
+  ```
+  
   ### Deploy app to GAE
   
   - ***appcfg.sh* deploy war folder to GAE
   
   ```sh
-  appcfg.sh -A [PROJECT_ID] -V [VERSION_NAME] --enable_jar_splitting set_default_version war
+      appcfg.sh -A [PROJECT_ID] -V [VERSION_NAME] --enable_jar_splitting set_default_version war
   ```
