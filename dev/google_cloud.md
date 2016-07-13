@@ -37,7 +37,7 @@
       gcloud config list
 
       # Change current App engine project
-      gcloud config set [project PROJECT_ID]
+      gcloud config set project [PROJECT_ID]
     ```
  
  - **gcloud app**: Manage your App Engine app. 
