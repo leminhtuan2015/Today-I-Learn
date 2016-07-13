@@ -81,6 +81,7 @@
     gcloud config list
   ```
 
+- **appcfg.sh** list version of project
   ```sh
     cd path/to/GAE/project
     appcfg.sh -A [PROJECT_ID] list_versions war
@@ -88,6 +89,7 @@
     #=> return all version of this project
   ```
   
+  - **gcloud** list version of project
   ```sh
     gcloud app versions list
       
