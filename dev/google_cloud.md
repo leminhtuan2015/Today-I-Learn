@@ -16,14 +16,26 @@
   - **Google Cloud SQL instances**
   - **Google Cloud Deployment manager deployments** (use gcloud to **deploy App Engine applications** and perform other tasks).
   
+##Setup gcloud at first time.
+  ```sh
+    gcloud auth login
+    
+    gcloud init
+  ```
+  
+- Choose the account.
+- Pick cloud project.
   
 ## gcloud CLI
  - https://cloud.google.com/sdk/gcloud/reference/
  
  - **gcloud config**
     ```sh
+      # Show current account, project
       gcloud config list
-      gcloud config set project example.com:my-project
+
+      # Change current App engine project
+      gcloud config set [project PROJECT_ID]
     ```
  
  - **gcloud app**: Manage your App Engine app. 
