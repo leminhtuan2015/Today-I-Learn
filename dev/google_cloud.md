@@ -18,8 +18,10 @@
   
 ##Setup gcloud at first time.
   ```sh
+    # Login in the Google Cloud Account
     gcloud auth login
     
+    # Setup Account, Project
     gcloud init
   ```
   
