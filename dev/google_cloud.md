@@ -1,5 +1,17 @@
 # Google Cloud
 
+## Google Cloud support:
+### Compute:
+  - **Google App Engine**: (A platform for building scalable web apps and mobile backends) - https://cloud.google.com/appengine
+  - **Google Compute Engine**: (Run large-scale workloads on virtual machines hosted on Google's infrastructure) - https://cloud.google.com/compute
+
+### Storage and Databases
+  - **Google Cloud Storage**  - https://cloud.google.com/storage
+  - **Google Cloud Datastore** (A managed, NoSQL, schemaless database for storing non-relational data)https://cloud.google.com/datastore
+  - **Google Cloud SQL** Store and manage data using a fully-managed, relational MySQL database - https://cloud.google.com/sql
+  
+### ...................
+
 ## Google Cloud SDK
 - https://cloud.google.com/sdk/docs/
 - **Google Cloud SDK** is a set of tools that you can use to manage resources and applications hosted on Google Cloud Platform.
