@@ -9,7 +9,7 @@
   - **bq**
 
 ## gcloud
-- gcloud is a part of the **Google Cloud SDK**
+- **gcloud** is a part of the **Google Cloud SDK**
 - **gcloud** is a tool that provides the primary command-line interface to Google Cloud Platform
 - For example, you can use gcloud to create and manage:
   - **Google Compute Engine** virtual machine instances and other resources
