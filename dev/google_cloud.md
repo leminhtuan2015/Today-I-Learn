@@ -89,7 +89,7 @@
     #=> return all version of this project
   ```
   
-  - **gcloud** list version of project
+- **gcloud** list version of project
   ```sh
     gcloud app versions list
       
