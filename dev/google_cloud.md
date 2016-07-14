@@ -130,9 +130,9 @@
       gcloud preview app modules set-default default --version=[VERSION_NAME]
   ```
   
-  ### Deploy app to GAE
+### Deploy app to GAE
   
-  - ***appcfg.sh* deploy war folder to GAE
+- ***appcfg.sh* deploy war folder to GAE
   
   ```sh
       appcfg.sh -A [PROJECT_ID] -V [VERSION_NAME] --enable_jar_splitting set_default_version war
