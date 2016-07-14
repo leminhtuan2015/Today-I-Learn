@@ -71,7 +71,7 @@
       # The file config is: /Users/leminhtuan/.config/gcloud/configurations/config_default
     ```
  
- - **gcloud app**: Manage your App Engine app. 
+ - **gcloud app**: Manage your App Engine app. - Manager only 1 project GAE
     ```sh
       gcloud app versions list
     ```
@@ -80,7 +80,7 @@
       gcloud compute instances list
     ```
  
- - **gcloud projects**: Manage your projects.
+ - **gcloud projects**: Manage your projects. Manage all GAE of your Account
     ```sh
       gcloud projects list
     ```
