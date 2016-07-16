@@ -1,3 +1,6 @@
+Manage Version (Status) of files.
+
+
 # 1. Mercurial
   - git clone http:\\                   : hg clone https://leminhtuan2015@bitbucket.org/leminhtuan2015/gwt-documents
   - git pull FRAMGIA MASTER             : git pull PATH
