@@ -74,6 +74,12 @@
   ```
   
 ## Gradle Building A Android Project.
+
+  - Step 0: Dowload Android SDK and config ANDROID_HOME envirment variable.
+    ```
+      ANDROID_HOME="path/to/android/sdk"
+      PATH="$PATH:ANDROID_HOME"
+    ```
   
   - Step 1: Create a project folders structure.
     
@@ -171,7 +177,7 @@
         }
     
         dependencies {
-            classpath 'com.android.tools.build:gradle:1.1.3'
+            classpath 'com.android.tools.build:gradle:2.1.2'
         }
     }
     
