@@ -153,5 +153,13 @@ ant [target_name]
 $ ant resolve
 ```
   
+# Ant build with NOT default build.xml
 
+- What if you wantto compile with file named xxx.xml
+
+```sh
+    ant -buildfile unix_build.xml devmode
+    
+  # ant buildfile [XML_FILE] [TASK_NAME]
+```
   
