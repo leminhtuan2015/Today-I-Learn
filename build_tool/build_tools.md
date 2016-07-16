@@ -2,6 +2,13 @@
   - The process of building a computer program is usually managed by a build tool, 
   - Build automation involves scripting or automating the process of compiling computer source code into binary code.
 
+## What is do.
+  - Compiling computer source code into binary code
+  - Packaging binary code to Application
+  - .....
+  - Deploy
+  - Run
+
 ## List buildtools.
 
 | Tool name                    |        Build language             |  Description language     |    File buld     |
