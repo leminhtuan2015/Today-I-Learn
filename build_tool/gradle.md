@@ -193,8 +193,13 @@
     }
   ```
   
-  - Step 7: Build Android -> APK
+ - Step 7: Build Android -> APK
   ```
     gradle build
   ```
+  
+  - Step 8: Install .apk app
+    ```
+      adb install path/to/apk  (build/outputs/apk)
+    ```
 
