@@ -256,8 +256,3 @@ Step 5:Run  project
 ```sh
 $ java -jar [file_dot_jar]
 ```
-
-### 9. Many Thanks!
-
-This is so so basic knowledge about Apache Maven, Please leave me a comment, give me some feedbacks so that i could better myself day by day.
-Thank you guys so alots. (thankyou)
