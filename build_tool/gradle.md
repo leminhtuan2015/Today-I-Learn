@@ -79,6 +79,8 @@
     
     ```
       mkdir -p src/main/java/org/hello
+      mkdir -p src/main/res/values/
+      mkdir -p src/main/res/layout/
     ```
     
   - Step 2: Create the ** Android Manifest** file : 
