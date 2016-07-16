@@ -74,6 +74,7 @@
   ```
   
 ## Gradle Building A Android Project.
+  - https://spring.io/guides/gs/gradle-android/
 
   - Step 0: Dowload Android SDK and config ANDROID_HOME envirment variable.
     ```
