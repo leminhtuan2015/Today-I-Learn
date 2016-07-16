@@ -72,6 +72,117 @@
     
     hello, world
   ```
+  
+## Gradle Building A Android Project.
+  
+  - Step 1: Create a project folders structure.
+    
+    ```
+      mkdir -p src/main/java/org/hello
+    ```
+    
+  - Step 2: Create the ** Android Manifest** file : 
+    - src/main/AndroidManifest.xml
 
+    ```
+    <?xml version="1.0" encoding="utf-8"?>
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="org.hello"
+        android:versionCode="1"
+        android:versionName="1.0.0" >
+    
+        <application android:label="@string/app_name" >
+            <activity
+                android:name=".HelloActivity"
+                android:label="@string/app_name" >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+        </application>
+    
+    </manifest>
+    ```
+    
+  - Step 3: Add a text string.
+    - src/main/res/values/strings.xml
+    
+    ```
+      <?xml version="1.0" encoding="utf-8"?>
+      <resources>
+          <string name="app_name">Android Gradle</string>
+      </resources>
+    ```
 
+  - Step 4: Add a layout.
+    - src/main/res/layout/hello_layout.xml
+
+    ```
+      <?xml version="1.0" encoding="utf-8"?>
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          >
+      <TextView
+          android:id="@+id/text_view"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          />
+      </LinearLayout>
+    ```
+  - Step 5: Create the Main Activity.
+    - src/main/java/org/hello/HelloActivity.java
+
+  ```
+    package org.hello;
+    
+    import android.app.Activity;
+    import android.os.Bundle;
+    import android.widget.TextView;
+    
+    public class HelloActivity extends Activity {
+    
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.hello_layout);
+        }
+    
+          @Override
+          public void onStart() {
+              super.onStart();
+              TextView textView = (TextView) findViewById(R.id.text_view);
+              textView.setText("Hello world!");
+          }
+      
+      }
+    ```
+  - Step 6: Create build.gradle file
+    - build.gradle placed at root of project (like build.xml of ant)
+  
+  ```
+    buildscript {
+        repositories {
+            jcenter()
+        }
+    
+        dependencies {
+            classpath 'com.android.tools.build:gradle:1.1.3'
+        }
+    }
+    
+    apply plugin: 'com.android.application'
+    
+    android {
+        compileSdkVersion 22
+        buildToolsVersion "22.0.1"
+    }
+  ```
+  
+  - Step 7: Build Android -> APK
+  ```
+    gradle build
+  ```
 
