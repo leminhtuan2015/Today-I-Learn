@@ -169,6 +169,9 @@
     ```
   - Step 6: Create build.gradle file
     - build.gradle placed at root of project (like build.xml of ant)
+      - Choose the:  **compileSdkVersion**
+      - Choose the:  **buildToolsVersion**
+      - Choose the gradle build version: classpath 'com.android.tools.build:gradle:2.1.2'
   
   ```
     buildscript {
