@@ -10,9 +10,7 @@
   - apt-get  Linux
   - yum      Linux
   - brew     OSX
-  
   - bower: a package manager for the web developers
-  
   - composer PHP
   - SBT      Scala (http://www.scala-sbt.org/)
   - Maven    Java
