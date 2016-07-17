@@ -206,9 +206,15 @@
 ## Gradle signed APK with keystore.
 
  - Step 1: Create file **release-signing.properties**
-   ```
+ 
+   ```xml
     key.store=../../../../../../../Dropbox/Audio18/KeystoreAndroid/audio18pro.keystore
     key.alias=18audio
     key.store.password=18audio
     key.alias.password=18audio
    ```
+   
+   - Step 2:
+     ```
+      gradle build
+    ```
