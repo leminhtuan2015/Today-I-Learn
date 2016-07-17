@@ -214,7 +214,7 @@
     key.alias.password=18audio
    ```
    
-   - Step 2:
-     ```
-      gradle build
+- Step 2:
+   ```
+    gradle build
     ```
