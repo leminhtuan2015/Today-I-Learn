@@ -18,4 +18,6 @@
   - npm      JavaScript
   - bundle   Ruby (https://github.com/bundler/bundler)
   - pip      Python
+  - gem      Ruby
+  - cocoapods  (Ruby gem) manager dependency of IOS
   
