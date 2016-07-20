@@ -19,5 +19,5 @@
   - bundle   Ruby (https://github.com/bundler/bundler)
   - pip      Python
   - gem      Ruby
-  - cocoapods  (Ruby gem) manager dependency of IOS
+  - cocoapods  (Ruby gem) - CocoaPods manages library dependencies for your Xcode projects
   
