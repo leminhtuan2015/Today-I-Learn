@@ -29,3 +29,5 @@
 - sed , jq shell
 - debug Java
 
+
+http://stackoverflow.com/questions/4114095/revert-git-repository-to-a-previous-commit
