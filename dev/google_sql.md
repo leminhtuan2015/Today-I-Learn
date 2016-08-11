@@ -18,3 +18,15 @@
   
   mysql -h 104.199.162.25 -u root
 ```
+
+# Step 4
+  - Import file .sql
+
+
+```
+mysql -h 104.199.162.25 -u root
+show databases;
+create database [DATABASE_NAME];
+
+mysql -h 104.199.162.25 -u root [DATABASE_NAME] < path/to/file.sql
+```
