@@ -38,4 +38,8 @@ mysql -h 104.199.162.25 -u root [DATABASE_NAME] < path/to/file.sql
   gcloud sql instances describe [INSTANCE_NAME]
 ```
 
-###
+### Authorize Connect From **local machine** to **Google cloud SQL**
+https://cloud.google.com/sql/docs/mysql-client
+
+### Authorize Connect From **Google App Engine** to **Google cloud SQL**
+https://cloud.google.com/sql/docs/app-engine-connect
