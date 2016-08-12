@@ -42,8 +42,9 @@ mysql -h 104.199.162.25 -u root [DATABASE_NAME] < path/to/file.sql
   - https://cloud.google.com/sql/docs/mysql-client
   - Make your local machine can access to **Google cloud SQl**
   - GO TO THE CLOUD SQL INSTANCES PAGE > Access control > Authorization >  Authorized networks > click Add network 
-  
-```
+
+- PHP app code
+```php
   define('DB_HOST', '146.148.88.114' );  // 146.148.88.114 is IP of Google cloud SQL Instance
   define('DB_NAME', 'b3ful');
   define('DB_USER', 'root');
@@ -57,4 +58,12 @@ mysql -h 104.199.162.25 -u root [DATABASE_NAME] < path/to/file.sql
 ```
   gcloud sql instances patch [SQL_INSTANCE_NAME] --authorized-gae-apps [GAE_APP_ID]
 
+```
+
+- PHP app code
+```php
+  define('DB_HOST', ':/cloudsql/your-project-id:wordpress');
+  define('DB_NAME', 'b3ful');
+  define('DB_USER', 'root');
+  # define('DB_PASSWORD', '');  // DONT NEED DB_PASSWORD
 ```
