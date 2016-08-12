@@ -1,16 +1,16 @@
 ## How to import file mysql.spl to Google SQL?
 
-# Step 1:
+## Step 1:
   - Goto Google SQL
   - Create an instance
   - Config Authorized networks (To make you can conect to Google SQL from Mysql on your local machine)
     - Check your IP (https://www.whatismyip.com/)
     - Add your IP to make you can access from your local machine
     
-# Step 2:
+## Step 2:
   - Get the IPv4 of your Google SQL instance (in Properties of your instance)
 
-# Step 3
+## Step 3
   - Connect to your Google SQL instance from your Local machine
   
 ```sh
@@ -19,10 +19,9 @@
   mysql -h 104.199.162.25 -u root
 ```
 
-# Step 4
+## Step 4
   - Import file .sql
-
-
+  
 ```
 mysql -h 104.199.162.25 -u root
 show databases;
@@ -30,3 +29,13 @@ create database [DATABASE_NAME];
 
 mysql -h 104.199.162.25 -u root [DATABASE_NAME] < path/to/file.sql
 ```
+
+## Gcloud SQL
+
+## Get info of SQL instance
+
+```sh
+  gcloud sql instances describe [INSTANCE_NAME]
+```
+
+##
