@@ -5,7 +5,7 @@
   - Create an instance
   - Config Authorized networks (To make you can conect to Google SQL from Mysql on your local machine)
     - Check your IP (https://www.whatismyip.com/)
-    - Add your IP to make you can access from your local machine
+    - Add your IP to make you can access from your local machine (GO TO THE CLOUD SQL INSTANCES PAGE > Access control > Authorization >  Authorized networks > click Add network )
     
 ### Step 2:
   - Get the IPv4 of your Google SQL instance (in Properties of your instance)
