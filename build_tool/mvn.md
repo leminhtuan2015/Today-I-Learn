@@ -1,11 +1,3 @@
-## MVN for manager dependencies
-
-```sh
-mvn dependency:resolve
-//OR
-mvn clean install
-```
-
 ## MVN file .pom
 
 ```xml
@@ -42,10 +34,22 @@ mvn clean install
 </project>
 ```
 
+## MVN for manager dependencies
+
+```sh
+mvn dependency:resolve
+//OR
+mvn clean install
+```
+
 ## Copy dependencies to the directory
 
 - All the dependencies will be download at **target/dependency**
 
 ```
   mvn dependency:copy-dependencies
+  
+  //OR
+  
+  mvn dependency:copy-dependencies -DoutputDirectory=[OUTPUT_DIR]
 ```
