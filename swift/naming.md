@@ -1,0 +1,1 @@
+AppDelegate ~ AppEntrypoint (Delegate ~ Entrypoint)
