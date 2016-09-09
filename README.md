@@ -49,3 +49,5 @@ onDisconnect > just called when you shutdown the app , when you lost wifi or int
 firebase.on, once > có thể hiểu là đăng ký các kết nối đến sẻver , nếu có mạng sẽ thực thi ngay, nếu k có mạng sẽ lưu vào cache và chờ đến khi có mạng sẽ TỰ ĐỘNG tạo kết nối và thực thi 
 
 - Khi đang mở các soket đến sẻver firebase và sau đó mất mạng => các connection KHÔNG bị díconnect mà sẽ chờ đên khi có mạng và kết nối lại => khi có mạng các socket (on, once) sẽ được kết nối lại một cách tự động (CHÚ Ý: khí kết nối lại các socket thì có 2 bước là: 1: huỷ kết nối, 2: tạo kêt nối mới ) => các hàm database.disconnect() sẽ được gọi nếu ta đăng ký sự kiện onDisconnect()  (các code của onDisconnect() sẽ thự hiện phía sẻver )
+- 
+- Sự kiện on khi đc đăng kí 1 lần thì sẽ đc fire đến khi huỷ lắng nghe bằng off, còn onDisconnect chỉ đc fire 1 lần duy nhất (> mỗi lần kết nối phải đăng kí onDisconnect())
