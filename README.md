@@ -42,3 +42,5 @@ Trường hợp 2: nếu đã tạo socket thành công thông qua on, once .. m
 
 http://stackoverflow.com/questions/11351689/detect-if-firebase-connection-is-lost-regained
 https://www.firebase.com/docs/web/guide/offline-capabilities.html
+
+onDisconnect > just called when you shutdown the app , when you lost wifi or internet this function is not be called => : BECAUSE when lost wifi firebase sill remain connection that mean socket connection if NOT be deleted and will be reconnect when you open wifi again
