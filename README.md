@@ -31,4 +31,7 @@
 
 
 
-
+q- eclipse speedup builder
+- firebase lost wifi => NOT delete socket connection stackover..
+- auto reconnect when online 
+- - all firebase onDisconnection code is run at ser-ver side
