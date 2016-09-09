@@ -44,3 +44,6 @@ http://stackoverflow.com/questions/11351689/detect-if-firebase-connection-is-los
 https://www.firebase.com/docs/web/guide/offline-capabilities.html
 
 onDisconnect > just called when you shutdown the app , when you lost wifi or internet this function is not be called => : BECAUSE when lost wifi firebase sill remain connection that mean socket connection if NOT be deleted and will be reconnect when you open wifi again
+
+
+firebase.on, once > có thể hiểu là đăng ký các kết nối đến sẻver , nếu có mạng sẽ thực thi ngay, nếu k có mạng sẽ lưu vào cache và chờ đến khi có mạng sẽ TỰ ĐỘNG tạo kết nối và thực thi 
