@@ -35,3 +35,10 @@ q- eclipse speedup builder
 - firebase lost wifi => NOT delete socket connection stackover..
 - auto reconnect when online 
 - - all firebase onDisconnection code is run at ser-ver side
+- các hàm on, once là các hàm tạo socket kết nối đến firebase 
+Khi mất mạng mà kết nối  đến firebase.on, once , .. thì dù mất mạng cũng k bao h báo lối, mà các kết nối đó sẽ được ở trạng thái chờ (các trạng thái này được cache trong bộ nhớ của broswer ), một khi có mạng nó sẽ tự động được mở lại các socket đã lưu trong cache 
+
+Trường hợp 2: nếu đã tạo socket thành công thông qua on, once .. mà bị mất mạng thì các socket cũng k bị huỷ mà nó cũng vẫn đc lưu lại trong câche , đến khi có mạng trở lại thì các socket này sẽ tự động đc kết nối lại 
+
+http://stackoverflow.com/questions/11351689/detect-if-firebase-connection-is-lost-regained
+https://www.firebase.com/docs/web/guide/offline-capabilities.html
