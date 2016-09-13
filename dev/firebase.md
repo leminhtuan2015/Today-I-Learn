@@ -55,20 +55,66 @@ OR
 #### Stop listening location on server.
   - off() will stop on()
   - Remove listeners registered on data nodes
-  
+
 ```js
-    FirebaseComment.mainApp.database().ref("url").off("value");
+    // Stop listening the node on server.
+    FirebaseComment.mainApp.database().ref("url/to/node").off("value");
 ```
 
 Or
 
 ```js
-currentConnection = FirebaseComment.mainApp.database().ref("url").on("value",
-    function(dataSnapshot) {
-	console.log("value changed ON view" + JSON.stringify(dataSnapshot.val()));
-});		
-
-FirebaseComment.mainApp.database().ref("url").off("value", currentConnection);
+	currentConnection = FirebaseComment.mainApp.database().ref("url").on("value",
+	    function(dataSnapshot) {
+		console.log("value changed ON view" + JSON.stringify(dataSnapshot.val()));
+	});		
+	
+	FirebaseComment.mainApp.database().ref("url/to/node").off("value", currentConnection);
 ```
 
+### Write data (insert data to server)
+  - set() write data to node
+  
 
+#### Set an object
+```js
+	FirebaseComment.mainApp.database().ref("url/to/node").set({key1: value1, key2: value2},
+		    function(error) {
+			  if (error) {
+			      console.log('Synchronization failed storeData');
+			  } else {
+			      console.log('Synchronization succeeded storeData' + 
+			  }
+		});
+```
+
+OR
+
+#### Set a value
+```js
+	FirebaseComment.mainApp.database().ref("url/to/node").set(value,
+		    function(error) {
+			  if (error) {
+			      console.log('Synchronization failed storeData');
+			  } else {
+			      console.log('Synchronization succeeded storeData' + 
+			  }
+		});
+```
+### Remove data (delete a data node)
+
+```js
+	FirebaseComment.mainApp.database().ref("url/to/node").remove(
+		function(error) {
+			  if (error) {
+			      console.log('Synchronization failed unview');
+			  } else {
+			      console.log('Synchronization succeeded unview');
+			  }
+		});
+```
+
+### Dis-connection
+  - Firebase socket just disconnection when you close app or close browser.
+  - When lost wifi or lost internet Firebase socket NOT be closed. (Firebase socket still alive if lost wifi/internet and AUTOMATICLY re-connect when you re-connect to wifi or internet)
+  - The code `onDisconnect()` will be executed on `SERVER SIDE`.
