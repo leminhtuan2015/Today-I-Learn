@@ -117,4 +117,10 @@ OR
 ### Dis-connection
   - Firebase socket just disconnection when you close app or close browser.
   - When lost wifi or lost internet Firebase socket NOT be closed. (Firebase socket still alive if lost wifi/internet and AUTOMATICLY re-connect when you re-connect to wifi or internet)
-  - The code `onDisconnect()` will be executed on `SERVER SIDE`.
+  - The code `onDisconnect()` will be executed on `SERVER SIDE`. all firebase onDisconnection code is run at server side
+  - When you lost wifi or lost internet your Firebase socket NOT close or disconnect, them will be cached and will AUTO reconnect to server if you have wifi.
+  - onDisconnect > just called when you shutdown the app
+ 
+
+### - firebase.on, once => có thể hiểu là đăng ký các kết nối đến server , nếu có mạng sẽ thực thi ngay, nếu k có mạng sẽ lưu vào cache và chờ đến khi có mạng sẽ TỰ ĐỘNG tạo kết nối và thực thi
+
