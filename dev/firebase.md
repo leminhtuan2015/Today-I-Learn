@@ -124,3 +124,11 @@ OR
 
 ### - firebase.on, once => có thể hiểu là đăng ký các kết nối đến server , nếu có mạng sẽ thực thi ngay, nếu k có mạng sẽ lưu vào cache và chờ đến khi có mạng sẽ TỰ ĐỘNG tạo kết nối và thực thi
 
+### - Khi đang mở các soket đến server firebase và sau đó mất mạng => các connection KHÔNG bị disconnect mà sẽ chờ đên khi có mạng và kết nối lại => khi có mạng các socket (on, once) sẽ được kết nối lại một cách tự động 
+
+### - (CHÚ Ý: khí kết nối lại các socket thì có 2 bước là: 
+  - 1: huỷ kết nối
+  - 2: tạo kêt nối mới 
+ => các hàm `database.disconnect()` sẽ được gọi nếu ta đăng ký sự kiện `onDisconnect()`  
+(các code của onDisconnect() sẽ thực hiện phía server )
+
