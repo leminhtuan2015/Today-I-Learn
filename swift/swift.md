@@ -17,8 +17,6 @@
   - Supports inferred types.
 ```
   int i;    // declare type
-```
-```
   var i;    // inferred-type
 ```
   - Dont need semicolons (*;*) at the end of each line code.
@@ -85,9 +83,9 @@
 
 #### 3.5 The App Life Cycle  - Execution States for Apps
 
-  - **Not running : **
+  - **Not running :**
     - The app has not been launched or was running but was terminated by the system.
-  - **Inactive    : **
+  - **Inactive    :**
     - The app is running in the foreground but is currently not receiving events. (It may be executing other code though.)
     - An app usually stays in this state only briefly as it transitions to a different state.
   - **Active :**
