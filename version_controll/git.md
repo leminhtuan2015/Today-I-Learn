@@ -1,4 +1,4 @@
-### HEAD
+## HEAD
   - HEAD is a reference to the `last commit` in the currently checked-out branch.
   - HEAD = ID of last commit (HEAD = last commit)
   - HEAD = 973b50d
@@ -24,9 +24,12 @@
     b50a4a6 Add dictionary to some game
     aa08b74 Merged in local_push_lotification_click (pull request #557)
 ```
-  
+## reset
 
-### checkout
+  - git reset --soft
+  - git reset --hard
+
+## checkout
 
 #### Show files changed
 
@@ -48,7 +51,7 @@
   git checkout HEAD -- path/to/file
 ```
 
-### Undo "git commit --amend --no-edit"
+## Undo "git commit --amend --no-edit"
 
 ```sh
 //STEP 1: Show HEAD log
