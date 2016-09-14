@@ -3,12 +3,12 @@
 
   - iOS frameworks rely on design patterns such as model-view-controller and delegation in their implementation
   
-  # - Model:
+  - `Model:`
       - Data Objects
-  # - View
+  - `View`
       - UIWindown
       - UI Objects
-  # - Controller
+  - `Controller`
       - UIAppication : The UIApplication object manages the event loop and other high-level app behaviors.
       - ViewController
       - ApplicationDelegate
