@@ -1,4 +1,4 @@
-# 1. Tutorial
+## Tutorial
 #### The Swift Programming Language
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html
   
@@ -8,11 +8,11 @@
 #### Start Developing iOS Apps (Swift)
   - https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html
 
-### 1.1 Syntax
+## Syntax
 
   - The Syntax of **Swift** is the same the syntax of **Scala**
 
-### 1.2 Type Safety and Type Inference
+## Type Safety and Type Inference
 
   - Type Safety: A type safe language encourages you to be clear about the types of variables.
 
@@ -47,7 +47,7 @@ var x = 1   // Javascript type inference
   -   - If you dont specify the type of value you need, Swift uses type inference to work out the appropriate type.
 
 
-### 1.3 Define a variable
+## Define a variable
 
 - Create a variable :
 
@@ -69,7 +69,7 @@ var a = 1      // the a variable will be asigned type is Int
 a = "hello"    // ERROR, a cannot be re-asigned to String type.
 ```
 
-### 1.4 Convert variable type
+## Convert variable type
 
   - Values are never implicitly converted to another type
 
@@ -89,7 +89,7 @@ let width = 94
 let widthLabel = label + String(width)
 ```
 
-### 1.5 Swift interpolation
+## Interpolation
 
   - "\()"
 
@@ -98,7 +98,7 @@ let widthLabel = label + String(width)
   let appleSummary = "I have \(apples) apples."
 ```
 
-### 1.6 Array
+## Array
 
   - An array is a data type that keeps track of an ordered collection of items.
   - Define an array by "[]"
@@ -113,7 +113,7 @@ var list = []            // Create an empty list, implicit
 
 ```
 
-### 1.7 Functions and Closures
+## Functions and Closures
 
   - Swift support First-class-function
     - supports passing functions as arguments
@@ -123,10 +123,10 @@ var list = []            // Create an empty list, implicit
 
   - Use **->** to define the function’s return type
 
-### 1.8 First-class-function
+## First-class-function
   - Functions are a first-class type. This means that a function can return another function as its value.
 
-####  Return a function
+#### Return a function
 ```swift
 func makeIncrementer() -> ((Int) -> Int) {
     func addOne(number: Int) -> Int {
@@ -155,7 +155,7 @@ var numbers = [20, 19, 7, 12]
 hasAnyMatches(numbers, condition: lessThanTen)
 ```
 
-### 1.9 Return multiple values from a function.
+## Return multiple values from a function.
 
   - Use **Tuple** to return multiple
 
@@ -175,7 +175,27 @@ print(statistics.2)
 
 ```
 
-### 1.10 Optional type
+## Functions and Methods
+  - `Functions and Methods are deffrent`
+  - A function is a reusable, is a block of code that can be referred (called) to from many places in a program.
+  - Declare a function by `func`
+  - Call a function by call the name of function.
+  
+```swift
+  func greet(name: String, day: String) -> String {
+      return "Hello \(name), today is \(day)."
+  }
+```
 
+  - Methods is exist in Class, we call methods on the object of class.
+  - Call a method using the dot syntax
+  - For example: insert is a method of array object (array is a object)
+  
+```swift
+  var array = ["apple", "banana", "dragonfruit"]
+  array.insert("cherry", atIndex: 2)
+  array
+```
+## Classes and Initializers
 
 
