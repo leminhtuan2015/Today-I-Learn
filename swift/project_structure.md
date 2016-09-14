@@ -4,7 +4,7 @@
   - **App executable (hello.app)** :
     - The executable file contains your app’s compiled code. The name of your app’s executable file is the same as your app name
 
-  - **Info.plist** : 
+  - **Info.plist (information property list)** : 
     - This file contains metadata about your app, which the system uses to interact with your app. 
     - Xcode creates this file for you automatically based on your project’s configuration and settings.
   
