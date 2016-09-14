@@ -4,10 +4,13 @@
   - HEAD = 973b50d
   - Example:
  
+
+#### Show the HEAD
 ```sh
     git show HEAD
 ```
-  
+
+#### HEAD = 973b50d
 ```sh
     973b50d Merged in nguyenhongquan/loxo-language/fix_bug_diction_ongame (pull request #562)
     93d9c0a Fix some bug dictionary on game
