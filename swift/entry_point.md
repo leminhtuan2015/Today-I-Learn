@@ -1,6 +1,5 @@
 
-## 2. App Programming Guide for iOS.
-  - https://developer.apple.com/swift/resources/
+## 2. App Programming Guide for iOS.https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072-CH1-SW1https://developer.apple.com/swift/resources/
 
 ## Entry point (The Main Function)
   @UIApplicationMain statement in AppDelegate.Swift creates a implicit entry point for Swift program
