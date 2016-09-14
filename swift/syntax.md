@@ -176,7 +176,7 @@ print(statistics.2)
 ```
 
 ## Functions and Methods
-  - `Functions and Methods are deffrent`
+  - `Functions and Methods are deffrent` : Functions are defined in class = Methods
   - A function is a reusable, is a block of code that can be referred (called) to from many places in a program.
   - Declare a function by `func`
   - Call a function by call the name of function.
@@ -186,7 +186,7 @@ print(statistics.2)
       return "Hello \(name), today is \(day)."
   }
 ```
-
+  - Functions that are defined within a specific type are called methods
   - Methods is exist in Class, we call methods on the object of class.
   - Call a method using the dot syntax
   - For example: insert is a method of array object (array is a object)
@@ -198,4 +198,44 @@ print(statistics.2)
 ```
 ## Classes and Initializers
 
+#### Class
+  - Classes store additional information about themselves in the form of properties, and define their behavior using methods
+  - An object is an instance of a class
 
+```
+class Person {
+    var name = "Jone"                  // propertie
+    func talk() -> String {            // method
+        return "Hello, how are you?"
+    }
+}
+
+var person = Person()                   // object person is an instance of a Person class
+```
+
+#### Initializer
+  - 
+  
+```swift
+class Person {
+    var name = "Jone"                  // propertie
+    
+    init(name: String) {               // Initializer = Contructor
+        self.name = name
+    }
+    
+    func talk() -> String {            // method
+        return "Hello, how are you?"
+    }
+}
+
+let person = Person(name: "my named shape")
+```
+
+#### Inheritance
+
+```swift
+  class Child: Parent{
+    // Class Child inherit class Parent
+  }
+```
