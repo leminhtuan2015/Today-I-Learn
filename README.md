@@ -1,5 +1,8 @@
 # TIL logs.
 
+shutdown -h +4
+(shutdown in 4 minus)
+
 
 ### TODO QUEUE.
 - use strictjavascript
