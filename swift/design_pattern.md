@@ -1,6 +1,8 @@
 
 ## iOS frameworks design patterns
 
+#### MVC design pattern
+
   - iOS frameworks rely on design patterns such as model-view-controller and delegation in their implementation
   - ViewController: https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457
   
@@ -26,10 +28,23 @@
       - ApplicationDelegate 
           - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events.
   
-
-## Delegate 
-
-  - AppDelegate ~ AppEntrypoint (Delegate ~ Entrypoint)
+## Structures
+#### The App Delegate Source File `(AppDelegate.swift)`
+  - AppDelegate ~ Entrypoint
+  - AppDelegate is declaced by `UIApplicationMain` attribute (@UIApplicationMain)
+  - The AppDelegate.swift source file has two primary functions:
+    - It creates the `entry point` to your app and a `run loop` that delivers input events to your app
+    - It defines the AppDelegate class, The AppDelegate class is where you write your custom app-level code.
+  - The AppDelegate class contains a single property: window
   
-## ViewController
-  - ViewController ~ Controller In MVC parttern, (ViewController = C)
+#### The View Controller Source File `(ViewController.swift)`
+  - ViewController equivalent Controller In MVC parttern, (ViewController = C)
+  - ViewController is a sub-class of UIViewController, ViewController inherits all the behavior defined by UIViewController.
+  
+#### View
+  - All view objects in iOS are of type `UIView` => All view in IOS is subclasse of `UIView`.
+  - For example : UITextField is a subclass of `UIView`.
+
+#### The Storyboard Source File `(Main.storyboard)`
+  -  A storyboard is a user interface filse, storyboard <=> files layout.xml of Android
+  -  A storyboard file can contain many UI element, such as buttons and text-fields
