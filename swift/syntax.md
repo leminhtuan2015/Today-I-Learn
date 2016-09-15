@@ -239,3 +239,47 @@ let person = Person(name: "my named shape")
     // Class Child inherit class Parent
   }
 ```
+
+#### Enumerations and Structures
+  - Struct include : 
+    - methods
+    - properties
+    - initializers
+  - Struct => pass value (tham trị)
+  - Classe => pass reference (pointer)  (tham chiếu  hay con trỏ)
+  - Structures support many of the same behaviors as classes, including methods and initializers
+  - One of the most important differences between structures and classes is that structures are always copied when they are passed around in your code, but classes are passed by reference
+  - Structures are great for defining lightweight data types that don’t need to have capabilities like inheritance and type casting.
+
+#### Protocols
+
+  - `Protocols` equivalent `Interface`
+  - The protocol can then be adopted by a class, structure, or enumeration => Class, Structre, Enumeration can be implementing Protocols
+
+```swift
+  protocol ExampleProtocol {
+      var simpleDescription: String { get }
+      func adjust()
+  }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
