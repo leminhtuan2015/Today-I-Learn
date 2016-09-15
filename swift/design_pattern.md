@@ -24,4 +24,12 @@
           -  A view controller manages a single view and its collection of subviews.
           -  When presented, the view controller makes its views visible by installing them in the app’s window.
       - ApplicationDelegate 
-          - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events. 
+          - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events.
+  
+
+## Delegate 
+
+  - AppDelegate ~ AppEntrypoint (Delegate ~ Entrypoint)
+  
+## ViewController
+  - ViewController ~ Controller In MVC parttern, (ViewController = C)
