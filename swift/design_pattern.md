@@ -3,7 +3,7 @@
 
 #### MVC design pattern
 
-  - iOS frameworks rely on design patterns such as model-view-controller and delegation in their implementation
+  - iOS frameworks rely on design patterns such as `model-view-controller` and `delegation` in their implementation
   - ViewController: https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457
   
   - `Model:`
@@ -49,9 +49,12 @@
   -  A storyboard is a user interface filse, storyboard <=> files layout.xml of Android
   -  A storyboard file can contain many UI element, such as buttons and text-fields
 
-## The App Bundle (Folder structure)
+## The Project Structure
   - When you build your iOS app, Xcode packages it as a bundle
   - A bundle is a directory in the file system that groups executable code and related resources such as images and sounds together in one place.
+
+  - The heart of every iOS app is the **UIApplication** object.
+
   - **App executable (hello.app)** :
     - The executable file contains your app’s compiled code. The name of your app’s executable file is the same as your app name
 
@@ -65,8 +68,7 @@
     - Storyboards also identify the transitions (called segues) that take the user from one set of views to another.
   
 ## The Structure of an App
-  - The heart of every iOS app is the **UIApplication** object.
-  
+
 ![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/mvc-ios.png)
 
 ![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/details-mvc.png)
