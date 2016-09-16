@@ -18,15 +18,18 @@
       - UIViewController
           - The UIViewController class is the base class for all view controller objects.
           - it provides default functionality for loading views, presenting them, rotating them in response to device rotations
-      - UIAppication
-          - The UIApplication object manages the event loop and other high-level app behaviors.
-          - UIApplication object to deliver events to your views and view controllers.
       - ViewController
           - View controller objects manage the presentation of your app’s content on screen.
           -  A view controller manages a single view and its collection of subviews.
           -  When presented, the view controller makes its views visible by installing them in the app’s window.
-      - ApplicationDelegate 
-          - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events.
+         
+## The Heart Of IOS Application
+- The heart of every iOS app is the **UIApplication** object.
+- UIAppication
+  - The UIApplication object manages the event loop and other high-level app behaviors.
+  - UIApplication object to deliver events to your views and view controllers.
+- ApplicationDelegate 
+  - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events.
   
 ## Structures
 #### The App Delegate Source File `(AppDelegate.swift)`
@@ -48,46 +51,20 @@
 #### The Storyboard Source File `(Main.storyboard)`
   -  A storyboard is a user interface filse, storyboard <=> files layout.xml of Android
   -  A storyboard file can contain many UI element, such as buttons and text-fields
+  - Storyboards contain the views and view controllers that the app presents on screen. 
+  - Views in a storyboard are organized according to the view controller that presents them. 
+  - Storyboards also identify the transitions (called segues) that take the user from one set of views to another.
 
-## The Project Structure
-  - When you build your iOS app, Xcode packages it as a bundle
-  - A bundle is a directory in the file system that groups executable code and related resources such as images and sounds together in one place.
-
-  - The heart of every iOS app is the **UIApplication** object.
-
+#### .app File
   - **App executable (hello.app)** :
     - The executable file contains your app’s compiled code. The name of your app’s executable file is the same as your app name
 
-  - **Info.plist (information property list)** : 
+#### The Information Property List File `(Info.plist)`
     - This file contains metadata about your app, which the system uses to interact with your app.
       - App name
       - App name display on screen
       - Version
       - Build version
     - Xcode creates this file for you automatically based on your project’s configuration and settings.
-  
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
-	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABLE_NAME)</string>
-	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	......
 ```
-  
-  - **MainBoard.storyboard** :
-    - Storyboards contain the views and view controllers that the app presents on screen. 
-    - Views in a storyboard are organized according to the view controller that presents them. 
-    - Storyboards also identify the transitions (called segues) that take the user from one set of views to another.
-  
-## The Structure of an App
-
-![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/mvc-ios.png)
-
-![alt tag](https://raw.githubusercontent.com/leminhtuan2015/Today-I-learned/master/swift/images/details-mvc.png)
+ 
