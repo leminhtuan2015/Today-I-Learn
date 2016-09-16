@@ -14,6 +14,7 @@
       - UIWindown
       - UIView
       - UI Objects
+      - StoryBoard files
   - `Controller`
       - UIViewController
           - The UIViewController class is the base class for all view controller objects.
@@ -32,7 +33,7 @@
   - The app delegate is the heart of your custom code. This object works in tandem with the UIApplication object to handle app initialization, state transitions, and many high-level app events.
   
 ## Structures
-#### The App Delegate Source File `(AppDelegate.swift)`
+#### The App Delegate Source File `(AppDelegate.swift)` ====================> **Entry point**
   - AppDelegate ~ Entrypoint
   - AppDelegate is declaced by `UIApplicationMain` attribute (@UIApplicationMain)
   - The AppDelegate.swift source file has two primary functions:
@@ -40,20 +41,20 @@
     - It defines the AppDelegate class, The AppDelegate class is where you write your custom app-level code.
   - The AppDelegate class contains a single property: window
   
-#### The View Controller Source File `(ViewController.swift)`
+#### The View Controller Source File `(ViewController.swift)` ====================> **Controller**
   - ViewController equivalent Controller In MVC parttern, (ViewController = C)
   - ViewController is a sub-class of UIViewController, ViewController inherits all the behavior defined by UIViewController.
-  
-#### View Elements
-  - All view objects in iOS are of type `UIView` => All view in IOS is subclasse of `UIView`.
-  - For example : UITextField is a subclass of `UIView`.
 
-#### The Storyboard Source File `(Main.storyboard)`
+#### The Storyboard Source File `(Main.storyboard)` ====================> **View**
   -  A storyboard is a user interface filse, storyboard <=> files layout.xml of Android
   -  A storyboard file can contain many UI element, such as buttons and text-fields
   - Storyboards contain the views and view controllers that the app presents on screen. 
   - Views in a storyboard are organized according to the view controller that presents them. 
   - Storyboards also identify the transitions (called segues) that take the user from one set of views to another.
+
+#### View Elements
+  - All view objects in iOS are of type `UIView` => All view in IOS is subclasse of `UIView`.
+  - For example : UITextField is a subclass of `UIView`.
 
 #### The AppName.app File `(hello.app)` 
   - The executable file contains your app’s compiled code. The name of your app’s executable file is the same as your app name
