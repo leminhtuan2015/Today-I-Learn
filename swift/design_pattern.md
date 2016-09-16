@@ -42,6 +42,7 @@
   - The AppDelegate class contains a single property: window
   
 #### The View Controller Source File `(ViewController.swift)` ====================> **Controller**
+  - A controller that managers a view.
   - ViewController equivalent Controller In MVC parttern, (ViewController = C)
   - ViewController is a sub-class of UIViewController, ViewController inherits all the behavior defined by UIViewController.
 
