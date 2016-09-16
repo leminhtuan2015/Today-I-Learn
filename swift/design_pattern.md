@@ -55,16 +55,15 @@
   - Views in a storyboard are organized according to the view controller that presents them. 
   - Storyboards also identify the transitions (called segues) that take the user from one set of views to another.
 
-#### .app File
-  - **App executable (hello.app)** :
-    - The executable file contains your app’s compiled code. The name of your app’s executable file is the same as your app name
+#### The AppName.app File `(hello.app)` 
+  - The executable file contains your app’s compiled code. The name of your app’s executable file is the same as your app name
 
 #### The Information Property List File `(Info.plist)`
-    - This file contains metadata about your app, which the system uses to interact with your app.
-      - App name
-      - App name display on screen
-      - Version
-      - Build version
-    - Xcode creates this file for you automatically based on your project’s configuration and settings.
+  - This file contains metadata about your app, which the system uses to interact with your app.
+    - App name
+    - App name display on screen
+    - Version
+    - Build version
+  - Xcode creates this file for you automatically based on your project’s configuration and settings.
 ```
  
