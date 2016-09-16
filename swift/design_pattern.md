@@ -41,7 +41,7 @@
   - ViewController equivalent Controller In MVC parttern, (ViewController = C)
   - ViewController is a sub-class of UIViewController, ViewController inherits all the behavior defined by UIViewController.
   
-#### View
+#### View Elements
   - All view objects in iOS are of type `UIView` => All view in IOS is subclasse of `UIView`.
   - For example : UITextField is a subclass of `UIView`.
 
@@ -59,8 +59,27 @@
     - The executable file contains your app’s compiled code. The name of your app’s executable file is the same as your app name
 
   - **Info.plist (information property list)** : 
-    - This file contains metadata about your app, which the system uses to interact with your app. 
+    - This file contains metadata about your app, which the system uses to interact with your app.
+      - App name
+      - App name display on screen
+      - Version
+      - Build version
     - Xcode creates this file for you automatically based on your project’s configuration and settings.
+  
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	......
+```
   
   - **MainBoard.storyboard** :
     - Storyboards contain the views and view controllers that the app presents on screen. 
