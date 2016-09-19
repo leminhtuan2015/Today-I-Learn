@@ -67,12 +67,11 @@
     - Version
     - Build version
   - Xcode creates this file for you automatically based on your project’s configuration and settings.
-```
  
 ## View Layer, The Basic User Interface.
 
 #### Referrences
-  - View layer : https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code
+  - https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code
 
 #### The Ways To Implement Views Layer
   - We can implement `View Layer` by 3 ways:
