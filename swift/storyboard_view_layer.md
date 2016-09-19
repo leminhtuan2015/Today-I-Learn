@@ -1,4 +1,8 @@
+## View
+  - An object that’s used to construct your UI and display content to the user.
+
 ## StoryBoard
+  - A file that contains many `view objects` 
   - `Storyboard` is the one of ways to create the UI (View Layer) in IOS application.
   - `Storyboard` creates UI by `XML` code
   - `Storyboard` automatically generates the xml source code in `.storyboard` files
