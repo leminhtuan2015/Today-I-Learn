@@ -1,0 +1,17 @@
+## View Controller
+  - `View Controller` is the object that control the `view`
+  - `View Controller` is the `Controller layer` in MVC
+  - Every `View Controller` is inherited from `UIViewController`
+  
+## Understand the View Controller Lifecycle
+
+#### UIViewController class
+  - `View controller` is an object that manages a set of views
+  - Every `View Controller` is inherited from `UIViewController`
+  - UIViewController methods get called as follows:
+  
+    - ViewDidLoad():
+      - Called when the view controller’s content view (the top of its view hierarchy) is created and loaded from a storyboard.
+      - This method is intended for initial setup
+
+  
