@@ -11,6 +11,7 @@
     - Step 1: TextField -> ID_1254_xyx0
     - Step 2: var txt -> ID_1254_xyx0
     - => var txt -> TextField
+    - The same `findElementById` of `Android`
 
 ```xml
     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
