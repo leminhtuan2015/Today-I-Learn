@@ -1,5 +1,13 @@
 ## View
   - An object that’s used to construct your UI and display content to the user.
+  - We can implement `View Layer` by 3 ways:
+    - iOS Storyboards: A visual tool for laying out multiple application views and the transitions between them. A Storyboard is a board with a story to tell.
+  
+    - NIBs (or XIBs): Each NIB file corresponds to a single view element and can be laid out in the Interface Builder, making it a visual tool as well. Note that the name “NIB” is derived from the file extension (previously .nib and now .xib, although the old pronunciation has persisted).
+      - NIB : NeXT Interface Builder
+      - XIB : Mac OS X Interface Builder
+
+    - Custom Code: i.e., no GUI tools, but rather, handling all custom positioning, animation, etc. programmatically.
 
 ## StoryBoard
   - A file that contains many `view objects` 
