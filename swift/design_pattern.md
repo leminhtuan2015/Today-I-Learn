@@ -75,8 +75,7 @@
 
 #### The Ways To Implement Views Layer
   - We can implement `View Layer` by 3 ways:
-    - iOS Storyboards: A visual tool for laying out multiple application views and the transitions between them. 
-    - A Storyboard is a board with a story to tell.
+    - iOS Storyboards: A visual tool for laying out multiple application views and the transitions between them. A Storyboard is a board with a story to tell.
   
     - NIBs (or XIBs): Each NIB file corresponds to a single view element and can be laid out in the Interface Builder, making it a visual tool as well. Note that the name “NIB” is derived from the file extension (previously .nib and now .xib, although the old pronunciation has persisted).
 
