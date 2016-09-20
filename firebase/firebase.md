@@ -137,5 +137,5 @@ OR
     - set()
     - push()
     - update()
-  - set(object, data)
+  - Function set()
 
