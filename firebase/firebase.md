@@ -132,3 +132,10 @@ OR
  => các hàm `database.disconnect()` sẽ được gọi nếu ta đăng ký sự kiện `onDisconnect()`  
 (các code của onDisconnect() sẽ thực hiện phía server )
 
+### Firebase Insert Data into Database
+  - Firebase provide some ways to insert data to database
+    - set()
+    - push()
+    - update()
+  - set(object, data)
+
