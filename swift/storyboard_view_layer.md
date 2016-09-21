@@ -9,6 +9,19 @@
 
     - Custom Code: i.e., no GUI tools, but rather, handling all custom positioning, animation, etc. programmatically.
 
+## Gesture Recognizer
+  - An object that you attach to a view that allows the view to respond to actions the way a control does.
+  - Some views is NOT designed to respond to input of user, such as (when user tap, click).
+  - To give a view the same capabilities as a control (that’s triggered when a user taps on) by adding a gesture recognizer to it.
+  - You can write an action method that occurs when a gesture recognizer recognizes its assigned gesture
+  - `Button view object` is the view object conatain `gesture recognizer`
+
+#### Type Of Gesture Recognizer
+  - UITapGestureRecognizer
+  
+#### Connect the Gesture Recognizer to Code
+  - The same add action for `button view object`
+
 ## StoryBoard
   - A file that contains many `view objects` 
   - `Storyboard` is the one of ways to create the UI (View Layer) in IOS application.
@@ -44,3 +57,15 @@
 ```
 
 #### StoryBoard Auto Layout
+
+## Create a Custom View (Custom UIView)
+
+#### Steps create a UIView
+  - Choose File > New > File (or press Command-N).
+  - On the left of the dialog that appears, select Source under iOS.
+  - Select Cocoa Touch Class, and click Next.
+  - In the Class field, type [View_Name].
+  - In the “Subclass of” field, select UIView.
+  - Make sure the Language option is set to Swift.
+
+## Connect StoryBoard To Custom View
