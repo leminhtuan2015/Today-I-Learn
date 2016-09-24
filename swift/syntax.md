@@ -7,8 +7,8 @@
   - class A{} 
     - A is NOT a object // NO A is a class, so A() is a object
     - A() is a object
-    - var a = A() => a i a object 
-    - //TODO
+    - var a = A() => a is a object 
+    - var i = Int() => i is a Int object, 3 is a Int object
 
 ## Object
 
