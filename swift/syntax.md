@@ -38,6 +38,14 @@
   // In Swift, then, 1 is an object
 ```
 
+## Class - Data type
+  - Class is nothing more a *data type** => **class** is just a data type
+  - Int is a data type
+  - String is a data type
+  - class Person(){}=> Person is a data type 
+
+  #### - Int ~ String ~ Person ~ Data Type
+  
 ## Tutorial
 #### The Swift Programming Language
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html
