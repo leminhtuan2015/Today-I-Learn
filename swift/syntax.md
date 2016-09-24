@@ -1,3 +1,43 @@
+## Swift
+### Everything in **Swift** is a **object**
+  - In Swift, “everything is an object.”
+  - In Swift, then, 1 is an object
+  - 3 is a object
+  - "hello" is a String object
+  - class A{} 
+    - A is NOT a object // NO A is a class, so A() is a object
+    - A() is a object
+    - var a = A() => a i a object 
+    - //TODO
+
+## Object
+
+#### WHat is a **object**
+  - In Swift, then, 1 is an object
+  - In Swift, then, "hello" is an object
+  - **Object** is something you can send a message to.
+  - **Message** is the data 
+  - => `Object` is something you can send **data** to.
+  - In Swift, the syntax of message-sending is dot-notation
+  
+```swift
+  class Person{
+    func say(word: String){/* logic code*/}
+  }
+  
+  Person().say("Hello")
+  
+  // Person() is the object
+  // func say(word: String) is the message
+  // We can send the message to the Person() object by the dot anotation (.)
+```
+  - The idea of everything being an object mean everything can be send message to.
+
+```swift
+  1.description // send message "description" for number 1 (object 1)
+  // In Swift, then, 1 is an object
+```
+
 ## Tutorial
 #### The Swift Programming Language
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html
@@ -240,7 +280,7 @@ let person = Person(name: "my named shape")
   }
 ```
 
-#### Enumerations and Structures
+## Enumerations and Structures
   - Struct include : 
     - methods
     - properties
@@ -251,7 +291,7 @@ let person = Person(name: "my named shape")
   - One of the most important differences between structures and classes is that structures are always copied when they are passed around in your code, but classes are passed by reference
   - Structures are great for defining lightweight data types that don’t need to have capabilities like inheritance and type casting.
 
-#### Protocols
+## Protocols (= Interface of Java)
 
   - `Protocols` equivalent `Interface`
   - The protocol can then be adopted by a class, structure, or enumeration => Class, Structre, Enumeration can be implementing Protocols
@@ -262,8 +302,28 @@ let person = Person(name: "my named shape")
       func adjust()
   }
 ```
+## Extention
+  - Target : Add more `func`  or `properties` to a **Class** or a type, For example: Add more function and properties for an class
+  
+```swift
 
+extension SomeType: SomeProtocol, AnotherProtocol {
+   // protocol requirements is described here
+}
 
+extension Int {
+   var add: Int {return self + 100 }
+   var sub: Int { return self - 10 }
+   var mul: Int { return self * 10 }
+   var div: Int { return self / 5 }
+}
+
+let addition = 3.add
+println("Addition is \(addition)")
+```
+
+## Reference Types And Value Types
+ - https://www.raywenderlich.com/112027/reference-value-types-in-swift-part-1
 
 
 
