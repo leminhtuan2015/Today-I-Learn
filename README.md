@@ -4,19 +4,11 @@ shutdown -h +4
 (shutdown in 4 minus)
 
 
-### TODO QUEUE.
+### TODO LIST.
 - use strictjavascript
-- Default object in controller of spring. In ruby we have params object what is in spring
-- sed , jq shell
-- debug Java
-- web bower. web pack…
-- https://github.com/FasterXML/jackson-core   => Crossfilter
-- http://stackoverflow.com/questions/4114095/revert-git-repository-to-a-previous-commit
-- https://www.ansible.com/
-- - git checkout -- hello.file
-- https://www.vagrantup.com
-
-
+- inherit diagram
+- _ ?, ! option variable swift
+- 
 
 
 | Tables                       |      Are                          |  Cool                     |
