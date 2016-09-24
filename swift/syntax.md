@@ -49,6 +49,7 @@
 ## Tutorial
 #### The Swift Programming Language
   - https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html
+  - http://www.apeth.com/swiftBook/index.html
   
 #### App Programming Guide for iOS
   - https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/TheAppLifeCycle/TheAppLifeCycle.html
