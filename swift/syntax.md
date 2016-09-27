@@ -355,7 +355,19 @@ println("Addition is \(addition)")
   - Use **==** to compare
 
 ## Closure
+  - Closure is the block of code that can be passed around
+  - Closure can be assign for a variable, constant
+  - **Function** is the special cases of closures
+  
+#### The syntact of closure.
 
+  ```swift
+     { (parameters) -> return type
+      in
+      statements
+     
+     }
+  ```
 
 
 
