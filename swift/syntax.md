@@ -358,6 +358,7 @@ println("Addition is \(addition)")
   - Closure is the block of code that can be passed around
   - Closure can be assign for a variable, constant
   - **Function** is the special cases of closures
+  - **Closures** and **Functions** is the **Reference Types**
   
 #### The syntact of closure.
 
@@ -368,11 +369,29 @@ println("Addition is \(addition)")
      
      }
   ```
+#### Define a Closure
+  - http://fuckingclosuresyntax.com/
+  
+  - As a variable:
+  ```swift
+    var closureName: (ParameterTypes) -> (ReturnType)
+  ```
+  - As an argument to a function call:
+  
+  ```swift
+    funcName({ (ParameterTypes) -> (ReturnType) in statements })
+  ```
+  - As a function parameter:
+  
+  ```swift
+    array.sort({ (item1: Int, item2: Int) -> Bool in return item1 < item2 })
+  ```
+  
+  - As the last function parameter:
 
-
-
-
-
+  ```swift
+    array.sort { (item1, item2) in return item1 < item2 }
+  ```
 
 
 
