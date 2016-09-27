@@ -333,8 +333,28 @@ println("Addition is \(addition)")
 
 ## Reference Types And Value Types
  - https://www.raywenderlich.com/112027/reference-value-types-in-swift-part-1
+ 
+#### Reference Types
+  - Reference Types = The Pointer = The Object
+  - Copy **Address** when pass the parameters
+  - Everything that inherits from NSObject is stored as a reference type
+  - Reference Types
+    - **class**
+  
+#### Value Types
+  - Copy **Value** when pass the parameters
+  - Value Types
+    - **struct**
+    - **enum**
+    - **tuples**
+    
+#### Compare Reference Types vs Reference Types
+  - Use **===** to compare
+  
+#### Compare Value Types vs Value Types
+  - Use **==** to compare
 
-
+## Closure
 
 
 
