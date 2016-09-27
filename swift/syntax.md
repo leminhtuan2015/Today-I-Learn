@@ -360,6 +360,16 @@ println("Addition is \(addition)")
   - **Function** is the special cases of closures
   - **Closures** and **Functions** is the **Reference Types**
   
+```swift
+  function hello(){
+    print("hello")
+  }
+  
+  var functionPointer = hello
+  
+  functionPointer() // hello
+```
+  
 #### The syntact of closure.
 
   ```swift
