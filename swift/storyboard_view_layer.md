@@ -5,7 +5,7 @@
   
     - NIBs (or XIBs): Each NIB file corresponds to a single view element and can be laid out in the Interface Builder, making it a visual tool as well. Note that the name “NIB” is derived from the file extension (previously .nib and now .xib, although the old pronunciation has persisted).
       - NIB : NeXT Interface Builder
-      - XIB : Mac OS X Interface Builder
+      - XIB : XML Interface Builder
 
     - Custom Code: i.e., no GUI tools, but rather, handling all custom positioning, animation, etc. programmatically.
 
