@@ -67,23 +67,8 @@
     - Version
     - Build version
   - Xcode creates this file for you automatically based on your project’s configuration and settings.
- 
-## View Layer, The Basic User Interface.
 
-#### Referrences
-  - https://www.toptal.com/ios/ios-user-interfaces-storyboards-vs-nibs-vs-custom-code
-
-#### The Ways To Implement Views Layer
-  - We can implement `View Layer` by 3 ways:
-    - iOS Storyboards: A visual tool for laying out multiple application views and the transitions between them. A Storyboard is a board with a story to tell.
-  
-    - NIBs (or XIBs): Each NIB file corresponds to a single view element and can be laid out in the Interface Builder, making it a visual tool as well. Note that the name “NIB” is derived from the file extension (previously .nib and now .xib, although the old pronunciation has persisted).
-
-    - Custom Code: i.e., no GUI tools, but rather, handling all custom positioning, animation, etc. programmatically.
-    
-
-
-## View Controller **C layer**
+## View Controller: **C layer**
   - Every app has at least one view controller, and most apps have several
   - Each view controller manages a portion of your app’s user interface as well as the interactions between that interface and the underlying data
   - `View Controller` is the object that control the `view`
@@ -97,7 +82,7 @@
     - Content view controllers manage a discrete piece of your app’s content and are the main type of view controller that you create.
     - Container view controllers collect information from other view controllers (known as child view controllers) and present it in a way that facilitates navigation or presents the content of those view controllers differently.
   
-## Understand the View Controller Lifecycle
+#### Understand the View Controller Lifecycle
 
 #### UIViewController class
   - `View controller` is an object that manages a set of views
@@ -114,5 +99,52 @@
       - Intended for any operations that you want to occur **as soon as** the view becomes visible
       - This method is always called immediately **after** the content view appears onscreen.
 
+## View : **V layer**
+#### The Ways To Implement Views Layer
+  - An object that’s used to construct your UI and display content to the user.
+  - We can implement `View Layer` by 3 ways:
+    - iOS Storyboards: A visual tool for laying out multiple application views and the transitions between them. A Storyboard is a board with a story to tell.
   
+    - NIBs (or XIBs): Each NIB file corresponds to a single view element and can be laid out in the Interface Builder, making it a visual tool as well. Note that the name “NIB” is derived from the file extension (previously .nib and now .xib, although the old pronunciation has persisted).
+      - NIB : NeXT Interface Builder
+      - XIB : XML Interface Builder
+
+    - Custom Code: i.e., no GUI tools, but rather, handling all custom positioning, animation, etc. programmatically.
+
+#### StoryBoard
+  - A file that contains many `view objects` 
+  - `Storyboard` is the one of ways to create the UI (View Layer) in IOS application.
+  - `Storyboard` creates UI by `XML` code
+  - `Storyboard` automatically generates the xml source code in `.storyboard` files
+  
+#### How `Storyboard` works?
+  - Step 1: Mapping one view object to the ID
+  - Step 2: Connection the ID of object to a variable
+  
+  - Example:
+    - Step 1: TextField -> ID_1254_xyx0
+    - Step 2: var txt -> ID_1254_xyx0
+    - => var txt -> TextField
+    - The same `findElementById` of `Android`
+
+```xml
+    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+        <subviews>
+            <!--TEXT FIELD is assigned to an random ID-->
+            <textField id="mBm-wv-l6k1">
+                <rect key="frame" x="119" y="180" width="97" height="30"/>
+            </textField>
+        </subviews>
+    </view>
+    
+    <!--CONNECTION-->
+    <connections>
+        <!-- Connect the variable name to a ID-->
+        <outlet property="txt1" destination="mBm-wv-l6k" id="R8q-gZ-9HS"/>
+    </connections>
+
+```
+
+#### StoryBoard Auto Layout
+
 
