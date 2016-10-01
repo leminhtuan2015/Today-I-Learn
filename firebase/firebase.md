@@ -138,4 +138,14 @@ OR
     - push()
     - update()
   - Function set()
+  
+## Update/Set Multiple Record In Table With Firebase
+
+  - Each **Location** is the same a **Table** in SQL => We can update **Multiple** object in a table.
+  - For example:
+  
+  ```xml
+        
+  
+  ```  
 
