@@ -38,9 +38,10 @@
 
 ```sh
     cd PROJECT_SOURCE # Place contain app.yaml file
+    
     gcloud app deploy [app.yaml] --project [PROJECT_ID] -v [YOUR_VERSION_ID]
     
-    #gcloud app deploy cdxdnd/app.yaml --project b3ful68
+    #gcloud app deploy cdxdnd/app.yaml --project b3ful68 -v v1
 ```
 
 ### Step 4: Import SQL file to GOOGLE SQL
