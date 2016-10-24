@@ -47,6 +47,13 @@
 ### Step 4: Import SQL file to GOOGLE SQL
 
 ### Step 5: Connect PHP GAE with GOOGLE SQL
+  - Create Google SQL Instance
+  - Connect To GOOGLE SQl
+  
+```php
+  $link = mysql_connect(':/cloudsql/b3ful68:us-central1:ksmysql', 'root', '');
+```
+  - **NOTICE**: Althought you password of your MYSQ Server is `root` but ypu dont need to fill password in `mysql_connect` function
 
 ## BUGS
 #### Python Crash
