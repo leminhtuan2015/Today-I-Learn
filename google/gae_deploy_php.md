@@ -37,7 +37,13 @@
   
   dev_appserver.py app.yaml
 ```
-### Step 3: Deploy PHP source to GAE 
+### Step 3: Deploy PHP source to GAE
+
+```sh
+    gcloud app deploy [app.yaml] --project [PROJECT_ID]
+    
+    #gcloud app deploy cdxdnd/app.yaml --project b3ful68
+```
 
 ### Step 4: Import SQL file to GOOGLE SQL
 
