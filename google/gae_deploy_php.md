@@ -54,6 +54,8 @@
   $link = mysql_connect(':/cloudsql/b3ful68:us-central1:ksmysql', 'root', '');
 ```
   - **NOTICE**: Althought you password of your MYSQ Server is `root` but ypu dont need to fill password in `mysql_connect` function
+  - http://stackoverflow.com/questions/19980298/could-not-connect-to-google-cloud-sql-using-php-google-sdk
+  - https://groups.google.com/forum/#!topic/google-appengine-stackoverflow/j-L8y38NbnQ
 
 ## BUGS
 #### Python Crash
