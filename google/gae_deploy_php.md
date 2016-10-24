@@ -3,9 +3,6 @@
 ### Step 1: Create **app.yaml** file (`app.yaml` is the same `routing` file)
 
 ```yaml
-    application: b3ful68
-    version: cdxdnd-v1
-
     runtime: php55
     api_version: 1
 
@@ -40,7 +37,7 @@
 ### Step 3: Deploy PHP source to GAE
 
 ```sh
-    gcloud app deploy [app.yaml] --project [PROJECT_ID]
+    gcloud app deploy [app.yaml] --project [PROJECT_ID] -v [YOUR_VERSION_ID]
     
     #gcloud app deploy cdxdnd/app.yaml --project b3ful68
 ```
