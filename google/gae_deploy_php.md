@@ -46,5 +46,14 @@
 
 ### Step 4: Import SQL file to GOOGLE SQL
 
-### Step 5: Connect PHP GAE with GOOGLE SQL 
+### Step 5: Connect PHP GAE with GOOGLE SQL
+
+## BUGS
+#### Python Crash
+  - If python keep crash when deploy to GAE:
+  - https://code.google.com/p/google-cloud-sdk/issues/detail?id=1168
+  
+  ```sh
+    gcloud config set app/num_file_upload_processes 1
+  ```
 
