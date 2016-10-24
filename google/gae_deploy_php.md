@@ -37,6 +37,7 @@
 ### Step 3: Deploy PHP source to GAE
 
 ```sh
+    cd PROJECT_SOURCE # Place contain app.yaml file
     gcloud app deploy [app.yaml] --project [PROJECT_ID] -v [YOUR_VERSION_ID]
     
     #gcloud app deploy cdxdnd/app.yaml --project b3ful68
