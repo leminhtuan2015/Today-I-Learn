@@ -359,6 +359,41 @@ println("Addition is \(addition)")
   - Closure can be assign for a variable, constant
   - **Function** is the special cases of closures
   - **Closures** and **Functions** is the **Reference Types**
+  - **Functions are a special kind of closures.** There are three kinds of closures:
+    - global functions – they have a name and cannot capture any values
+        ```
+          func hello(){
+          }
+        ```
+    - nested functions – they have a name and can capture values from their enclosing functions
+        ```
+          func hello(){
+            func hehe(){
+            }
+          }
+        
+        ```
+    - closure expressions – they don’t have a name and can capture values from their context
+        ```
+          var hello: () -> (String) = {
+              return "Hello!"
+          }
+          
+          hello() // Hello!
+          
+          // a closure that take one Int and return an Int
+          var double: (Int) -> (Int) = { x in
+              return 2 * x
+          }
+
+          double(2) // 4
+
+          // you can pass closures in your code, for example to other variables
+          var alsoDouble = double
+
+          alsoDouble(3) // 6
+        ```
+        
   
 ```swift
   function hello(){
@@ -381,6 +416,7 @@ println("Addition is \(addition)")
   ```
 #### Define a Closure
   - http://fuckingclosuresyntax.com/
+  - https://www.weheartswift.com/closures/
   
   - As a variable:
   ```swift
@@ -403,12 +439,49 @@ println("Addition is \(addition)")
     array.sort { (item1, item2) in return item1 < item2 }
   ```
 
+#### Demo Closure
+    ```swift
+    var noParameterAndNoReturnValue: () -> () = {
+        print("Hello!")
+    }
+
+    var noParameterAndReturnValue: () -> (Int) = {
+        return 1000
+    }
+
+    var oneParameterAndReturnValue: (Int) -> (Int) = { x in
+        return x % 10
+    }
+
+    var multipleParametersAndReturnValue: (String, String) -> (String) = 
+        { (first, second) -> String in
+        return first + " " + second
+    }
+
+    ```
+
+======================: The examples from above don’t declare the type of each parameter, if you do so you don’t need to state the return type of the closure because it can be inferred.
 
 
+  ```swift
+      var noParameterAndNoReturnValue = {
+          print("Hello!")
+      }
 
+      var noParameterAndReturnValue = { () -> Int in
+          return 1000
+      }
 
+      var oneParameterAndReturnValue = { (x: Int) -> Int in
+          return x % 10
+      }
 
-
+      var multipleParametersAndReturnValue = 
+          { (first: String, second: String) -> String in
+          return first + " " + second
+      }
+  
+  ```
 
 
 
