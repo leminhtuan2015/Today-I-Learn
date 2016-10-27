@@ -11,6 +11,10 @@ cp -r data/data/com.hltcorp.gre sdcard/
 adb pull sdcard/com.hltcorp.gre/ ~/Desktop
 ```
 
+https://en.wikipedia.org/wiki/Closure_(computer_programming)
+
+Life circle ViewController
+https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson4.html
 
 ### TODO LIST.
 - use strictjavascript
