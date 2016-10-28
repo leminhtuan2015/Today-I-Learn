@@ -16,6 +16,8 @@ https://en.wikipedia.org/wiki/Closure_(computer_programming)
 Life circle ViewController
 https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson4.html
 
+http://nshipster.com/method-swizzling/
+
 ### TODO LIST.
 - use strictjavascript
 - inherit diagram
