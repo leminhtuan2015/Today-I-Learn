@@ -7,10 +7,8 @@ Require: ROOTED DEVICE
 ### TERMINAL ANDROID
   ```
   app="APP_NAME"
-  
   cd /data/data/$app
-  
-  cd /sdard/$app
+  cd /sdcard/$app
   ```
 ### HACK
 GET DATA
