@@ -1,14 +1,16 @@
 ## Hack data of any apps
-
 Require: ROOTED DEVICE
-
-### TERMINAL ANDROID
-  ```
-  app="APP_NAME"
-  ```
 ### TERMINAL MAC
   ```
   app="APP_NAME"
+  ```
+### TERMINAL ANDROID
+  ```
+  app="APP_NAME"
+  
+  cd /data/data/$app
+  
+  cd /sdard/$app
   ```
 ### HACK
 GET DATA
