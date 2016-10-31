@@ -1,19 +1,32 @@
 ## Hack data of any apps
 
 Require: ROOTED DEVICE
-```
+
+### TERMINAL ANDROID
+
+  ```
+  app="APP_NAME"
+  ```
+
+### TERMINAL MAC
+  ```
+  app="APP_NAME"
+  ```
+
+### HACK
+GET DATA
+  ```sh
+  adb shell
   su
-  cp -r data/data/com.hltcorp.gre sdcard/
-  adb pull sdcard/com.hltcorp.gre/ ~/Desktop
-```
+  app="APP_NAME"
 
+  cp -r /data/data/$app/ /sdcard
 
-```sh
-adb shell
-su
-app="APP_NAME"
+  adb pull sdcard/$app/ ~/Desktop/$app
+  ```
 
-cp -r /data/data/$app/ /sdcard
+REMOVE DATA FROM SDCARD
 
-adb pull sdcard/$app/ ~/Desktop/$app
-``
+  ```sh
+  rm -r /sdcard/$app
+  ```
