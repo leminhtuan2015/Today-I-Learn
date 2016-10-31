@@ -13,7 +13,7 @@ adb shell
 su
 app="APP_NAME"
 
-cp -r /data/data/$app /sdcard
+cp -r /data/data/$app/ /sdcard
 
 adb pull sdcard/$app/ ~/Desktop
 ``
