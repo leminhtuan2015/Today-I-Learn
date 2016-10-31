@@ -15,5 +15,5 @@ app="APP_NAME"
 
 cp -r /data/data/$app/ /sdcard
 
-adb pull sdcard/$app/ ~/Desktop
+adb pull sdcard/$app/ ~/Desktop/$app
 ``
