@@ -1,5 +1,5 @@
 
-# The App Life Cycle  - Execution States for Apps
+## The App Life Cycle  - Execution States for Apps
 
   - **Not running :**
     - The app has not been launched or was running but was terminated by the system.
@@ -19,3 +19,5 @@
     - The system moves apps to this state automatically and does not notify them before doing so. 
     - While suspended, an app remains in memory but does not execute any code.
     - When a low-memory condition occurs, the system may purge suspended apps without notice to make more space for the foreground app.
+
+## The Life Cycle Of ViewControllers
