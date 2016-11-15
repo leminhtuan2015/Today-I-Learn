@@ -39,3 +39,4 @@ http://nshipster.com/method-swizzling/
 |                              |                                   |                           |
 
 
+KHI build ios chi can biet team ID xcode se tu dong tim provision
