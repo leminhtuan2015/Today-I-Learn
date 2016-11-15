@@ -40,3 +40,7 @@ http://nshipster.com/method-swizzling/
 
 
 KHI build ios chi can biet team ID xcode se tu dong tim provision
+
+Check dependencies
+ENGLISH has conflicting provisioning settings. ENGLISH is automatically signed for development, but a conflicting code signing identity iPhone Distribution has been manually specified. Set the code signing identity value to "iPhone Developer" in the build settings editor, or switch to manual signing in the project editor.
+Code signing is required for product type 'Application' in SDK 'iOS 10.1'
