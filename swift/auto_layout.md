@@ -1,11 +1,11 @@
-#### Pixel
-#### What is autolayout?
-#### How to autolayout a UIView object?
-#### Show/Hide a UIView object by use autolayout
-#### change layout at runtime
+## Pixel
+## What is autolayout?
+## How to autolayout a UIView object?
+## Show/Hide a UIView object by use autolayout
+## change layout at runtime
 
 
-#### Pixel
+## Pixel
 
   - **Pixel** (picture element) : 
     - Smallest addressable element in an devices screen.
@@ -20,7 +20,7 @@
 ![alt text](https://github.com/leminhtuan2015/Today-I-learned/blob/master/images/pixel_alignment_2x.png?raw=true")
   
   
-#### What is autolayout?
+## What is autolayout?
   - UI In IOS
 ![alt text](https://github.com/leminhtuan2015/Today-I-learned/blob/master/images/coordinate_differences_2x.png?raw=true")
 
