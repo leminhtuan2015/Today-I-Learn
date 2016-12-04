@@ -46,4 +46,24 @@
    - **Constraints** typically represent for that height/width
    - If we change the Constraints => UI will be update
 
+### How to autolayout a UIView object?
 
+  - Each UI view object need 2 attribute to be autolayout
+    - Position (x, y)
+    - Size (width, height)
+  - We need defind : x, y, with, height for the UI view you want to be autolayouted
+ 
+#### Show/Hide a UIView object by use autolayout
+  - If you want to show/hide a UI view object you should change the **height constraints** or **width constraints**
+  
+```swift
+  @IBOutlet weak var adsContainerHeightConstraint: NSLayoutConstraint!
+  
+  self.adsContainerHeightConstraint.constant = 60 // SHOW
+  self.view.layoutIfNeeded()
+  
+  self.adsContainerHeightConstraint.constant = 0 // HIDE
+  self.view.layoutIfNeeded()
+```
+  
+  
