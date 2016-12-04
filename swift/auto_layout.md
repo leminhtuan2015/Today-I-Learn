@@ -1,11 +1,13 @@
-## Pixel
-## What is autolayout?
-## How to autolayout a UIView object?
-## Show/Hide a UIView object by use autolayout
-## change layout at runtime
+### Pixel
+### What is autolayout?
+### How to autolayout a UIView object?
+### Show/Hide a UIView object by use autolayout
+### change layout at runtime
+
+--------------------------------------------------------
 
 
-## Pixel
+### Pixel
 
   - **Pixel** (picture element) : 
     - Smallest addressable element in an devices screen.
@@ -20,7 +22,7 @@
 ![alt text](https://github.com/leminhtuan2015/Today-I-learned/blob/master/images/pixel_alignment_2x.png?raw=true")
   
   
-## What is autolayout?
+### What is autolayout?
   - UI In IOS
 ![alt text](https://github.com/leminhtuan2015/Today-I-learned/blob/master/images/coordinate_differences_2x.png?raw=true")
 
@@ -28,6 +30,20 @@
 
 ![alt text](https://github.com/leminhtuan2015/Today-I-learned/blob/master/images/flipped_coordinates-2_2x.png?raw=true")
 
-
+ - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size
+   => If we build UI in IOS by **pixcel** that will NOT work well on some devices.
+   
+   EX: If we build UI in Iphone 5s by **pixcel** => On Iphone 6s/7 => Your UIview will be lost it layout.
+   
+ - Auto alyout will be the solution for above proplems.
+   - Auto alyout build UI view by **create constraints** and **NOT pixcel**
+   - Auto Layout dynamically calculates the size and position of all the views
+   - Based on constraints placed on those views
+   - Auto Layout defines your user interface using a series of **constraints**. **Constraints** typically represent a relationship between two views.
+   
+ - Constraints
+   - **Constraints** typically represent a relationship between two views.
+   - **Constraints** typically represent for that height/width
+   - If we change the Constraints => UI will be update
 
 
