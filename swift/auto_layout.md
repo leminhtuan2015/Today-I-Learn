@@ -3,6 +3,7 @@
 ### How to autolayout a UIView object?
 ### Show/Hide a UIView object by use autolayout
 ### change layout at runtime
+### Auto Layout is All About Constraints
 
 --------------------------------------------------------
 
@@ -70,5 +71,15 @@
   self.adsContainerHeightConstraint.constant = 0 // HIDE
   self.view.layoutIfNeeded()
 ```
+
+### Auto Layout is All About Constraints
+  - As mentioned before, auto layout is a constraint-based layout system. It allows developers to create an adaptive UI that responds appropriately to changes in screen size and device orientation.
+  - Constraints express rules for the layout of the UiView in the interface.
   
-  
+  - Create constraints: 
+    - **Align** – Create alignment constraints, such as aligning the left edges of two views.
+    - **Pin** – Create spacing constraints, such as defining the width of a UI control.
+    - **Issues** – Resolve layout issues.
+    - **Stack** – Embed views into a stack view. Stack view is a new feature since Xcode 7. We will further discuss about it in the next chapter.
+    
+    
