@@ -82,4 +82,5 @@
     - **Issues** – Resolve layout issues.
     - **Stack** – Embed views into a stack view. Stack view is a new feature since Xcode 7. We will further discuss about it in the next chapter.
     
+    ![alt text](https://github.com/leminhtuan2015/Today-I-learned/blob/master/images/auto-layout-4.png?raw=true")
     
