@@ -47,13 +47,18 @@
    - If we change the Constraints => UI will be update
 
 ### How to autolayout a UIView object?
+  - The  **SuperView** (root view) of each story-board is the **UIView** 
+    - The SuperView 's coordinate is corresponse with the screen coordinate
+    - The sub view 's coordinate is corresponse with the **parent view**
 
   - Each UI view object need 2 attribute to be autolayout
     - Position (x, y)
     - Size (width, height)
-  - We need defind : x, y, with, height for the UI view you want to be autolayouted
+  - We must define : x, y, with, height for the UI view you want to be autolayouted
+  
+  => **To Autolayout** MUST BE DEFINE 4 attributes [x, y, width, height]
  
-#### Show/Hide a UIView object by use autolayout
+### Show/Hide a UIView object by use autolayout
   - If you want to show/hide a UI view object you should change the **height constraints** or **width constraints**
   
 ```swift
