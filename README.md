@@ -53,5 +53,8 @@ Change the config in "/Applications/XAMPP/xamppfiles/etc/php.ini"
 display_errors=On
 error_log="/Applications/XAMPP/xamppfiles/logs/php_error_log"
 
+step2: show log
+error_log(print_r($content, true));
+
 tail -f /Applications/XAMPP/xamppfiles/logs/php_error_log
 
