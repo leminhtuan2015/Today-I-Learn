@@ -58,3 +58,8 @@ error_log(print_r($content, true));
 
 tail -f /Applications/XAMPP/xamppfiles/logs/php_error_log
 
+
+////
+
+
+$context = context_user::instance($USER->id);
