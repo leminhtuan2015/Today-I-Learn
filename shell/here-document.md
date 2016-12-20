@@ -1,7 +1,5 @@
 ### Here-Document
 
-### Here-Document
-
 - https://en.wikipedia.org/wiki/Here_document
 
 - **here document** (here-document, here-text, heredoc, hereis, here-string or here-script) is a file literal or input stream literal.
