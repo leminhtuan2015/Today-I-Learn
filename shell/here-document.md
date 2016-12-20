@@ -25,10 +25,16 @@ NOTICE: **leminhtuan** is the keyword to mark the begin and the end the block of
 
 ##### **here document** in shell script file.
 
-- Make a script file with bellow content.
+- Make a script named **myscript** file with bellow content.
 
 ```sh
 tr a-z A-Z << leminhtuan
 hello
 leminhtuan
+```
+
+- Run the script:
+
+```sh
+./myscript
 ```
