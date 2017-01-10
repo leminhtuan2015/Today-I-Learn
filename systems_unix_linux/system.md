@@ -54,4 +54,4 @@
 ### 5. Unix vs Linux
  - Unix and Linux: Không có 1 chút liên quan gì đến nhau về mặt **code**, Unix và Linux đc phát triển  hề sử dụng hay vay mượn code của nhau
  
- - Nhưng tại sao khi sử dụng Unix và Linux ta có cảm giác chúng giống nhau là vì như trên đã nói **GNU** muốn xây dựng 1 OS giống Unix nhưng mà miễn phí => Tại sao Linux khá giống Unix 
+ - Nhưng tại sao khi sử dụng Unix và Linux ta có cảm giác chúng giống nhau là vì như trên đã nói **GNU** muốn xây dựng 1 OS giống Unix nhưng mà miễn phí (Để ng dùng đễ  dàng chuyển từ Unix sang Linux) => đó là lý do tại sao Linux khá giống Unix 
