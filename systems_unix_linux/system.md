@@ -41,4 +41,19 @@
  - **1992** **GNU/Linux systems** was released under the GNU General Public License. => **GNU/Linux systems** = Linux + GNU
  - **2004** The first release of Ubuntu (baby of Linux OS) is released October 20, 2004.
  
- ### 1. Unix/BSD
+### 1. Unix/BSD
+ - Unix is the operating system is developed starting in the 1970s by **At&T**
+ - BSD derivative (based on) Unix. => BSD <- Unix
+ - Both Unix and the C programming language were developed by AT&T in the 1970s
+ - Unix is developed starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie
+ - **Mac OS <- Darwin (operating system) <- Berkeley Software Distribution (BSD) <-  Unix operating system**
+
+### 2. GNU
+ -The aim of GNU is to make a OS (operating system) is like **Unix** and FREE (GNU want to clone Unix and free it)
+
+### 3. Linux
+ - 1991 **Linux kernel** was borned
+ 
+### 4. GNU/Linux
+ - 1992 GNU + LINUX = GNU/Linux
+ 
