@@ -17,5 +17,5 @@ AJAX: Asynchronous JavaScript and XML
   
 ### How to use?
   - We can user AJAX from:
-    - Server side - Server side ( should be request and get JSON object)
-    - Client side - Server side ( should be request and get HTML text)
+    - Server side - Server side ( should be request and get JSON object) - Web service
+    - Client side - Server side ( should be request and get HTML text) - Web Application
