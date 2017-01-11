@@ -1,8 +1,10 @@
 AJAX: Asynchronous JavaScript and XML
 
-What is it?
+### What is it?
 
-- AJAX is the use of the XMLHttpRequest object to communicate with server-side scripts. 
+- AJAX is the use of the XMLHttpRequest object to communicate with server-side scripts.
+  - Submitting forms and uploading files
+  - It can be used to send and receive binary content
 - AJAX can send as well as receive information in a variety of formats, including 
   - JSON
   - XML
@@ -12,3 +14,8 @@ What is it?
 - The two major features of AJAX allow you to do the following:
   - Make requests to the server without reloading the page
   - Receive and work with data from the server
+  
+### How to use?
+  - We can user AJAX from:
+    - Server side - Server side ( should be request and get JSON object)
+    - Client side - Server side ( should be request and get HTML text)
