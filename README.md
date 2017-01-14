@@ -23,6 +23,7 @@ http://nshipster.com/method-swizzling/
 - inherit diagram
 - _ ?, ! option variable swift
 - 
+https://github.com/fastlane/fastlane/issues/5066
 
 
 | Tables                       |      Are                          |  Cool                     |
