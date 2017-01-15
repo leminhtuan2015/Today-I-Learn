@@ -50,10 +50,12 @@
             dataType: "html"
           });
 
-          request.done(function( msg ) {
-            // Render the html responsed from serverinto browser
+          request.done(function( result ) {
+            // Render the html responsed from server into browser
+            // result can be HTML text or JSON
+            
             $( "#log" ).empty()
-            $( "#log" ).html( msg );
+            $( "#log" ).html( result );
           });
 
           request.fail(function( jqXHR, textStatus ) {
