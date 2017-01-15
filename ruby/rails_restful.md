@@ -6,6 +6,8 @@
   
 ### Only 7 Method for each controller.
   - You just need ONLY 7 method for each controller
+ 
+ ```
     - INDEX   - (html list item)
     - NEW     - (HTML form)
     - CREATE  - (redirect)
@@ -13,4 +15,5 @@
     - UPDATE  - (redirect)
     - SHOW    - (html item)
     - DELETE  - (redirect)
+ ```
     
