@@ -1,5 +1,9 @@
 ### RESTFUL
 ### Only 7 Method for each controller.
+### RESTFUL implement with AJAX
+
+
+-------------------------------------------------------------------------------------------------------------------------------
 
 ### RESTFUL
   - Representational state transfer (REST) or RESTful
@@ -16,4 +20,4 @@
     - SHOW    - (html item)
     - DELETE  - (redirect)
  ```
-    
+ ![Image of Yaktocat](https://github.com/leminhtuan2015/Wiki/blob/master/images/resful.png)
