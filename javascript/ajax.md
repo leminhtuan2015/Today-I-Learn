@@ -4,7 +4,7 @@
 
 ---------------------------------------------------------------------------------------
 
-AJAX: Asynchronous JavaScript and XML
+AJAX: Asynchronous JavaScript and XML: => MAKE REQUEST IN BACKGROUND OF BROWSER (NOT RELOAD PAGE WHEN REQUEST)
 
 ### What is it?
 
