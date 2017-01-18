@@ -24,26 +24,22 @@
 ### Form, AJAX, Link send data to server
 
 - **By Form:**
-
+<span style="color:red"> Will be sending a JSON object {"firstname": "Mickey", "lastname": "Mouse"}</span>
 ```
 <form action="action_page.php" method="post">
   <input type="text" name="firstname" value="Mickey">
   <input type="text" name="lastname" value="Mouse">
   <input type="submit" value="Submit">
 </form>
-
-=> Will be sending a JSON object {"firstname": "Mickey", "lastname": "Mouse"}
 ```
 
 - **By Link**
-
+<span style="color:red"> Will be sending a JSON object {"firstname": "Mickey", "lastname": "Mouse"}</span>
 ```
 <a href="/server/controller/user/?firstname=Mickey&lastname=Mouse" > Link </a>
-
-=> Will be sending a JSON object {"firstname": "Mickey", "lastname": "Mouse"}
 ```
 - **By AJAX**
-
+<span style="color:red"> Will be sending a JSON object {"action": "download", "id": "fileId"}</span>
 ```
 $.ajax({
   type: 'get',
@@ -52,8 +48,6 @@ $.ajax({
   success: function (result) {
   }
 });
-
-=> Will be sending a JSON object {"action": "download", "id": "fileId"}
 ```
 
 
