@@ -3,7 +3,7 @@
 
 ----------------
 ### What is Tor? (The Onion Router)
- - Tor the same a **Proxy server** you can use to protect the personal privacy (hide you IP)
+ - Tor the same a **SOCKS Proxy server** you can use to protect the personal privacy (hide you IP)
  - Tor is free software for enabling anonymous communication. The Tor Project is a nice distributed anonymizing network
  - Using Tor makes it more difficult for Internet activity to be traced back to the use
  - Tor consisting of more than seven thousand (**7000** or more now) relays to conceal a user's IP
@@ -15,7 +15,7 @@
   - Tor browser: Tor itself and a built-in copy of **Firefox**, Tor Browser it’s a modified version of **Firefox**
   - Tor terminal tool (Tor without graphical interface)
   
-### Tor on MAC
+##### Tor on MAC
   - We can use Tor without graphical interface.
   - These are advanced installation instructions for running Tor in a command line
   
@@ -23,7 +23,8 @@
   sudo port install tor 
   # Or: sudo brew install tor
 ```
-##### Network config 
+##### Network config : Routing network traffic through Tor
+  - When run Tor, you computer will not automaticaly be routed through Tor => you must be do this
   - In order for all your system traffic being routed through Tor you need to adjust your system’s network proxy
   - Setting proxy network
   - To use SOCKS directly (for instant messaging, Jabber, IRC, etc), you can point your application directly at Tor:
