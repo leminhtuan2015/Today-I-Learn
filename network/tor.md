@@ -1,6 +1,6 @@
 ### What is Tor?
 ### How to use Tor?
-### Network config : Routing all your system network traffic through Tor proxy.
+### Proxy settings : Routing all your system network traffic through Tor proxy.
 
 ----------------
 ### What is Tor? (The Onion Router)
