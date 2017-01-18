@@ -1,4 +1,5 @@
 ### What is Tor?
+### How Tor work?
 ### How to use Tor?
 ### How to use Tor as a socks5 proxy
 ### Proxy settings : Routing all your browser network traffic through Tor proxy
@@ -12,6 +13,17 @@
  - Tor's use is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential communication by keeping their Internet activities from being monitored
 
 ![](https://github.com/leminhtuan2015/Wiki/blob/master/images/Tor-onion-network.png)
+
+
+### How Tor work?
+- After run tor on terminal, it will create a SOCKS proxy at your computer **localhost:9050**
+- Typically Tor listens for SOCKS connections on port 9050. Tor Browser listens on port 9150.
+- Now you can routing your request through this SOCKS and you request will use Tor proxy (your IP be hidden)
+
+```sh
+curl --socks5-hostname 127.0.0.1:9050 http://icanhazip.com/
+```
+
 
 ### How to use Tor?
 
