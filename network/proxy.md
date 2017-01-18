@@ -26,11 +26,27 @@
 ### Why Use a Proxy?
  - Proxy servers are used for both **legal** and **illegal** purposes.
    - **legal**
+     - When use Proxy, It’s the proxy that’s connecting to the server, not you, so your IP isn’t disclosed.
      - To prevent DoS
      - Make parent block porn website from childrent
      - Hide your home IP address from the rest of the world
      - This can provide you with more privacy then if you were simply connecting directly to the internet
      - By connecting to the internet through proxies, the home IP address of your machine will not be shown but rather the IP of the proxy server will be shown
+     
+ -  A basic advantage of using Proxy is that they make you more anonymous
+ 
+##### Request without a proxy
+
+ _________________                                     ________________
+|                 |                                   |                |
+| Your Computer   | <-------------------------------->|     Internet   |
+|________________ |                                   |________________|
+ 
+ - You’re connecting directly to the server.
+   - It knows your external IP
+   - It knows the cookies you have on your computer
+   - It knows what browser you’re using and **what plugins you have installed**
+   - It knows where you’re coming from.
 
 ### SOCKS
  - SOCKS (Socket Secure) is an Internet protocol that exchanges network packets between a client and server through a proxy server
