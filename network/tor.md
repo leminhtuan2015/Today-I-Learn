@@ -1,11 +1,67 @@
-https://leonid.shevtsov.me/post/an-easy-way-to-use-tor-on-os-x/
+### What is Tor?
+### How to use Tor?
 
-https://www.torproject.org/docs/tor-doc-osx.html.en
+----------------
+### What is Tor? (The Onion Router)
+ - Tor the same a **Proxy server** you can use to protect the personal privacy (hide you IP)
+ - Tor is free software for enabling anonymous communication. The Tor Project is a nice distributed anonymizing network
+ - Using Tor makes it more difficult for Internet activity to be traced back to the use
+ - Tor consisting of more than seven thousand (**7000** or more now) relays to conceal a user's IP
+ - Tor's use is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential communication by keeping their Internet activities from being monitored
 
-http://nessy.info/?p=119
+!()[https://github.com/leminhtuan2015/Wiki/blob/master/images/Tor-onion-network.png]
 
-https://kremalicious.com/simple-tor-setup-on-mac-os-x/
+### How to use Tor?
+  - Tor browser: Tor itself and a built-in copy of **Firefox**, Tor Browser it’s a modified version of **Firefox**
+  - Tor terminal tool (Tor without graphical interface)
+  
+### Tor on MAC
+  - We can use Tor without graphical interface.
+  - These are advanced installation instructions for running Tor in a command line
+  
+```sh
+  sudo port install tor 
+  # Or: sudo brew install tor
+```
+##### Network config 
+  - In order for all your system traffic being routed through Tor you need to adjust your system’s network proxy
+  - Setting proxy network
+  - To use SOCKS directly (for instant messaging, Jabber, IRC, etc), you can point your application directly at Tor:
+    - host: localhost 
+    - port 9050
+  
+```sh
+  #!/usr/bin/env bash
 
-https://check.torproject.org/
+  # 'Wi-Fi' or 'Ethernet' or 'Display Ethernet'
+  INTERFACE=Wi-Fi
 
-http://icanhazip.com/
+  # Ask for the administrator password upfront
+  sudo -v
+
+  # Keep-alive: update existing `sudo` time stamp until finished
+  while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+  # trap ctrl-c and call disable_proxy()
+  function disable_proxy() {
+      sudo networksetup -setsocksfirewallproxystate $INTERFACE off
+      echo "$(tput setaf 64)" #green
+      echo "SOCKS proxy disabled."
+      echo "$(tput sgr0)" # color reset
+  }
+  trap disable_proxy INT
+
+  # Let's roll
+  sudo networksetup -setsocksfirewallproxy $INTERFACE 127.0.0.1 9050 off
+  sudo networksetup -setsocksfirewallproxystate $INTERFACE on
+
+  echo "$(tput setaf 64)" # green
+  echo "SOCKS proxy 127.0.0.1:9050 enabled."
+  echo "$(tput setaf 136)" # orange
+  echo "Starting Tor..."
+  echo "$(tput sgr0)" # color reset
+
+  tor
+```
+
+
