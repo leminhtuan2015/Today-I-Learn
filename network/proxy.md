@@ -1,7 +1,7 @@
 ### What is Proxy?
 ### How Proxy work?
 ### Why Use a Proxy?
-### SOCKS
+### SOCKS (Socket Secure Internet protocol)
 
 
 -----------------
