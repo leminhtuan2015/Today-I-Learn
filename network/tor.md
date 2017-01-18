@@ -1,6 +1,6 @@
 ### What is Tor?
 ### How to use Tor?
-### Proxy settings : Routing all your system network traffic through Tor proxy.
+### Proxy settings : Routing all your browser network traffic through Tor proxy (Browser <---> Tor proxy server <----> Internet)
 
 ----------------
 ### What is Tor? (The Onion Router)
@@ -25,7 +25,8 @@
   # Or: sudo brew install tor
 ```
 
-### Network config : Routing network traffic through Tor
+### Proxy settings : Routing network traffic through Tor
+  - This script make your browser connect to **Tor proxy server**
   - https://kremalicious.com/simple-tor-setup-on-mac-os-x/
   - When run Tor, you computer will not automaticaly be routed through Tor => you must be do this
   - In order for all your system traffic being routed through Tor you need to adjust your system’s network proxy
