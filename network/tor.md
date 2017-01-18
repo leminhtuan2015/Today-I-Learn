@@ -1,6 +1,6 @@
 ### What is Tor?
 ### How to use Tor?
-### Proxy settings : Routing all your browser network traffic through Tor proxy (Browser <---> Tor proxy server <----> Internet)
+### Proxy settings : Routing all your browser network traffic through Tor proxy
 
 ----------------
 ### What is Tor? (The Onion Router)
@@ -16,23 +16,25 @@
   - Tor browser: Tor itself and a built-in copy of **Firefox**, Tor Browser it’s a modified version of **Firefox**
   - Tor terminal tool (Tor without graphical interface)
   
-##### Tor on MAC
+##### Install Tor on MAC
   - We can use Tor without graphical interface.
   - These are advanced installation instructions for running Tor in a command line
   
-```sh
-  sudo port install tor 
-  # Or: sudo brew install tor
-```
+  ```sh
+    sudo port install tor 
+    # Or: sudo brew install tor
+  ```
 
 ### Proxy settings : Routing network traffic through Tor
+  - After you run Tor, it will auto create a **SOCKS** listening on **127.0.0.1:9050** 
+      => You must be route network traffic to **127.0.0.1:9050**
+      
   - This script make your browser connect to **Tor proxy server**
-  - https://kremalicious.com/simple-tor-setup-on-mac-os-x/
   - When run Tor, you computer will not automaticaly be routed through Tor => you must be do this
   - In order for all your system traffic being routed through Tor you need to adjust your system’s network proxy
   - Setting proxy network
-  - To use SOCKS directly (for instant messaging, Jabber, IRC, etc), you can point your application directly at Tor:
-    - host: localhost 
+  - To use SOCKS directly you can point your application directly at Tor:
+    - host: 127.0.0.1 (localhost) 
     - port 9050
   
 ```sh
