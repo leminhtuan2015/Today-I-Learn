@@ -4,7 +4,7 @@
 ### SOCKS (Socket Secure Internet protocol)
 ### SOCKS proxy and an HTTP proxy
 ### What’s the Difference Between a VPN and a Proxy?
-
+### How To Route Web Traffic Using a SOCKS Tunnel
 
 -----------------
 ### Proxy
@@ -53,10 +53,34 @@
  - Socks (or "SOCKS") is a protocol that a proxy server can use to accept requests from client users in a company's network so that it can forward them across the Internet. 
  
 ### SOCKS proxy and an HTTP proxy
- - Both proxy **SOCKS proxy and HTTP proxy** is **Proxy server**
+ - Both proxy **SOCKS proxy** and **HTTP proxy** is **Proxy server**
  - HTTP proxies (The oldest type of proxy server) proxy HTTP requests, while SOCKS proxies proxy socket connections.
  - A HTTP Proxy will only proxy connections that use the http protocol
  - A SOCKS proxy is operating at a lower level and so an application, which supports SOCKS proxying, can use it to proxy a connection. Tor uses SOCKS because it is opens up the range of applications that can use it (IRC, SSH, etc)
   
 ### What’s the Difference Between a VPN and a Proxy?
  - Virtual Private Networks, like proxies, make your traffic appear as if it comes from a remote IP address. 
+ 
+### How To Route Web Traffic Using a SOCKS Tunnel
+
+##### Open a SOCKS proxy
+  - A SOCKS proxy is basically an SSH tunnel.
+  - A SOCKS proxy is basically an SSH tunnel in which specific applications forward traffic down the tunnel to the server, and then on the server , the proxy forwards the traffic out to the Internet.
+  -  **To create a SOCKS proxy you have to ssh to the server proxy ** because after you ssh to a server, a SOCKS automaticly created on local computer
+  
+  - STEP 1: Setting Up the Tunnel
+  
+  ```sh
+    ssh user@server -D port
+  ```
+  - The above command will do two things:
+    - Open a SSH tunnel to server
+    - Create a SOCKS5 proxy listen on **localhost:port**
+    
+  - STEP 2: Route Traffic Using a SOCKS Tunnel
+    
+    ```
+    curl --socks5-hostname localhost:port http://icanhazip.com/ 
+    ```
+
+
