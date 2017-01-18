@@ -4,7 +4,7 @@
 ### SOCKS (Socket Secure Internet protocol)
 ### SOCKS proxy and an HTTP proxy
 ### What’s the Difference Between a VPN and a Proxy?
-### How To Route Web Traffic Using a SOCKS Tunnel
+### How To Route Web Traffic Using a SOCKS Tunnel (Create a Server proxy)
 
 -----------------
 ### Proxy
@@ -61,7 +61,10 @@
 ### What’s the Difference Between a VPN and a Proxy?
  - Virtual Private Networks, like proxies, make your traffic appear as if it comes from a remote IP address. 
  
-### How To Route Web Traffic Using a SOCKS Tunnel
+### How To Route Web Traffic Using a SOCKS Tunnel (Create a Server proxy)
+##### Required
+  - A VPS, A server Amazon, Google, ......
+  - You have the permission to access to this server through SSH
 
 ##### Open a SOCKS proxy
   - A SOCKS proxy is basically an SSH tunnel.
