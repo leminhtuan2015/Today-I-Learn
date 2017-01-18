@@ -25,7 +25,8 @@
 
 - **By Form:**
 - <p style="color:red"> Will be sending a JSON object {"firstname": "Mickey", "lastname": "Mouse"}</p>
-```
+
+```html
 <form action="action_page.php" method="post">
   <input type="text" name="firstname" value="Mickey">
   <input type="text" name="lastname" value="Mouse">
@@ -35,12 +36,14 @@
 
 - **By Link**
 - <p style="color:red"> Will be sending a JSON object {"firstname": "Mickey", "lastname": "Mouse"}</p>
-```
+
+```html
 <a href="/server/controller/user/?firstname=Mickey&lastname=Mouse" > Link </a>
 ```
 - **By AJAX**
 - <p style="color:red"> Will be sending a JSON object {"action": "download", "id": "fileId"}</p>
-```
+
+```javascript
 $.ajax({
   type: 'get',
   url: '/moodle/koolsoft/file/?action=download',
