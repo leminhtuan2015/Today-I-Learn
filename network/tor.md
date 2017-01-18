@@ -1,5 +1,6 @@
 ### What is Tor?
 ### How to use Tor?
+### Network config : Routing all your system network traffic through Tor proxy.
 
 ----------------
 ### What is Tor? (The Onion Router)
@@ -23,7 +24,9 @@
   sudo port install tor 
   # Or: sudo brew install tor
 ```
-##### Network config : Routing network traffic through Tor
+
+### Network config : Routing network traffic through Tor
+  - https://kremalicious.com/simple-tor-setup-on-mac-os-x/
   - When run Tor, you computer will not automaticaly be routed through Tor => you must be do this
   - In order for all your system traffic being routed through Tor you need to adjust your system’s network proxy
   - Setting proxy network
