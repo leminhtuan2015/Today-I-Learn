@@ -10,7 +10,7 @@
  - Tor consisting of more than seven thousand (**7000** or more now) relays to conceal a user's IP
  - Tor's use is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential communication by keeping their Internet activities from being monitored
 
-!()[https://github.com/leminhtuan2015/Wiki/blob/master/images/Tor-onion-network.png]
+!(hello)[https://github.com/leminhtuan2015/Wiki/blob/master/images/Tor-onion-network.png]
 
 ### How to use Tor?
   - Tor browser: Tor itself and a built-in copy of **Firefox**, Tor Browser it’s a modified version of **Firefox**
