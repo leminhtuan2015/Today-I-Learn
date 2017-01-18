@@ -2,6 +2,7 @@
 ### How Proxy work?
 ### Why Use a Proxy?
 ### SOCKS (Socket Secure Internet protocol)
+#### SOCKS proxy and an HTTP proxy
 
 
 -----------------
@@ -33,3 +34,10 @@
 ### SOCKS
  - SOCKS (Socket Secure) is an Internet protocol that exchanges network packets between a client and server through a proxy server
  - Socks (or "SOCKS") is a protocol that a proxy server can use to accept requests from client users in a company's network so that it can forward them across the Internet. 
+ 
+### SOCKS proxy and an HTTP proxy
+ - Both proxy **SOCKS proxy and HTTP proxy** is **Proxy server**
+ - HTTP proxies (The oldest type of proxy server) proxy HTTP requests, while SOCKS proxies proxy socket connections.
+ - A HTTP Proxy will only proxy connections that use the http protocol
+ - A SOCKS proxy is operating at a lower level and so an application, which supports SOCKS proxying, can use it to proxy a connection. Tor uses SOCKS because it is opens up the range of applications that can use it (IRC, SSH, etc)
+  
