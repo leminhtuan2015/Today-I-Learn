@@ -22,6 +22,7 @@
     - AJAX
   
 ### Form, AJAX, Link send data to server
+- ALL THREE WAY **FROM, LINK, AJAX** WILL BE CONVERT DATA TO JSON OBJECT AND SEND TO SERVER.
 
 - **By Form:**
 - <p style="color:red"> Will be sending a JSON object {"firstname": "Mickey", "lastname": "Mouse"}</p>
