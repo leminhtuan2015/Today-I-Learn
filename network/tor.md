@@ -1,5 +1,6 @@
 ### What is Tor?
 ### How to use Tor?
+### How to use Tor as a socks5 proxy
 ### Proxy settings : Routing all your browser network traffic through Tor proxy
 
 ----------------
@@ -13,10 +14,13 @@
 ![](https://github.com/leminhtuan2015/Wiki/blob/master/images/Tor-onion-network.png)
 
 ### How to use Tor?
+
+##### Install Tor on MAC as browser
+  - Dowload browser at:   https://www.torproject.org/
   - Tor browser: Tor itself and a built-in copy of **Firefox**, Tor Browser it’s a modified version of **Firefox**
   - Tor terminal tool (Tor without graphical interface)
   
-##### Install Tor on MAC
+##### Install Tor on MAC as a terminal tool
   - We can use Tor without graphical interface.
   - These are advanced installation instructions for running Tor in a command line
   
@@ -24,6 +28,16 @@
     sudo port install tor 
     # Or: sudo brew install tor
   ```
+  
+### How to use Tor as a socks5 proxy
+ - You can definitely use Tor as a socks5 proxy.
+ - When you start a Tor session, it also comes with a socks5 proxy at port 9150 on your computer (localhost:9050)
+ - After running Tor now you can connect to socks5 proxy
+ 
+  ```sh
+  curl --socks5-hostname 127.0.0.1:9050 http://icanhazip.com/
+  ```
+  - Or you also can config your network computer/ network browxer to connect to socks5 proxy
 
 ### Proxy settings : Routing network traffic through Tor
   - After you run Tor, it will auto create a **SOCKS** listening on **127.0.0.1:9050** 
