@@ -1,3 +1,26 @@
-http://www.devdungeon.com/content/making-tor-requests-command-line-curl
+### Ways to make request to server
+### Make request throught Proxy server (Tor)
 
-http://tor.stackexchange.com/questions/1596/using-curl-over-a-normal-tor-installation-not-tor-browser-bundle-on-debian-whe
+-----------------------------
+
+### Ways to make request to server
+ - Browser
+   - Form
+   - Link
+   - AJAX
+ - Terminal
+   - CURL
+   - WGET
+
+### Make request throught Proxy server (Tor)
+
+```sh
+  curl --socks5-hostname localhost:9050 https://check.torproject.org
+```
+
+```sh
+  curl -x socks5h://127.0.0.1:9050/ https://www.torproject.org/
+```
+  
+
+
