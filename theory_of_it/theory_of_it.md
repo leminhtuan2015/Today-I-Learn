@@ -1,6 +1,14 @@
 ### Theory of IT
 ### Theory of IT For?
 
+### Programing languages will be designed for supporting some theory (Not all theories). 
+  - For example 
+    - Ruby-------->: 100% OOP
+    - Javascript-->: OOP + FP
+    - Swift------->: OOP + FP
+    - Haskell----->: FB
+    - Scala------->: OOP + FB
+
 --------------------
 
 ### Theory of IT
