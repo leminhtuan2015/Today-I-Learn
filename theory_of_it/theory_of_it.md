@@ -1,4 +1,5 @@
 ### Theory of IT
+### Theory of IT For?
 
 --------------------
 
@@ -17,8 +18,7 @@
   
   - ORM (Object Relationship Mapping)
   
-  
-  => 
+### Theory of IT For?
   - All is the theory in IT, those theory will be implemented by programing languages such as Java, C, Swift, Javascript, PHP ......
   - First you study well about theory after that you need a programing language to implement.
   - The theories can be apply for **Programing languages / Programing Framework**
