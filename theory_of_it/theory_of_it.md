@@ -20,6 +20,8 @@
   - **Programming paradigm**
     - OOP
     - FP
+      - FP Pure
+      - FP Impure
     
   - **Programming technique**
     - High Order Function
@@ -29,6 +31,11 @@
     
   - **Web**
     - RESTFul (Representational state transfer)
+    
+  - **Compile type**
+    - Compiled languages
+    - Scripting languages
+    - Interpreted languages
   
 
   
