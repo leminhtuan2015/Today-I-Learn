@@ -4,19 +4,25 @@
 --------------------
 
 ### Theory of IT
-  - MVC
-  - MVVM
-  - MVP
+  - **Software design pattern**
+    - MVC
+    - MVVM
+    - MVP
   
-  - OOP
-  - FP
+  - **Programming paradigm**
+    - OOP
+    - FP
+    
+  - **Programming technique**
+    - High Order Function
+    - Pure function
+    - First class function
+    - ORM (Object Relationship Mapping)
+    
+  - **Web**
+    - RESTFul (Representational state transfer)
   
-  - Pure function
-  - First class function
-  
-  - RESTFul
-  
-  - ORM (Object Relationship Mapping)
+
   
 ### Theory of IT For?
   - All is the theory in IT, those theory will be implemented by programing languages such as Java, C, Swift, Javascript, PHP ......
