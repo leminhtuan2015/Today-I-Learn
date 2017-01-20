@@ -31,6 +31,8 @@
     
   - **Web**
     - RESTFul (Representational state transfer)
+    - Stateless Web Tier
+    - Non-blocking I/O
     
   - **Compile type**
     - Compiled languages
