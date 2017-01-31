@@ -26,3 +26,5 @@
   - Although most languages were designed to support a specific programming paradigm, many general languages are flexible enough to support multiple paradigms
     - Such as : Javascript, Scala, Swift support both OOP and FP
   - For example, most languages that contain **function pointers** can be used to credibly support **functional programming**
+  
+  [](!https://github.com/leminhtuan2015/Wiki/blob/master/images/oop_fp.png)
