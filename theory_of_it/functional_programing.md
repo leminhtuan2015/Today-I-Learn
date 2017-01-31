@@ -14,3 +14,6 @@
 
 
 ### Basic Concepts
+  - **Functional programming** is a form of **declarative programming**
+  - **Object-oriented programming** primarily support **imperative (procedural) programming**
+  - Object-oriented programming (OOP) languages such as C#, Visual Basic, C++, and Java, were designed to primarily support imperative (procedural) programming
