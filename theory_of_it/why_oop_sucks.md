@@ -1,6 +1,9 @@
 ### Object Oriented Programming is Inherently Harmful
 ### Why OO sucks
 
+### References
+  - http://harmful.cat-v.org/software/OO_programming/why_oo_sucks
+
 ----------------------------------
 
 ### Object Oriented Programming is Inherently Harmful
