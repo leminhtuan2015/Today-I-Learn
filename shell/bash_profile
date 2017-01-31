@@ -1,0 +1,70 @@
+export PS1="\w $ "
+export PATH="/usr/local/bin:$PATH"
+
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
+ANDROID_HOME=/Users/leminhtuan/Documents/Android/SDK/android-sdk-macosx
+GOOGLE_CLOUD="/Users/leminhtuan/Documents/GoogleCloud/GC/SDK/google-cloud-sdk/bin"
+export GEM_HOME=$HOME/.gem
+
+export PATH=$GEM_HOME/bin:$PATH
+export PATH="$JAVA_HOME/bin:$PATH"
+export PATH="$GOOGLE_CLOUD:$PATH"
+export PATH="/Users/leminhtuan/Documents/GoogleCloud/GAE/SDK/Java/appengine-java-sdk-1.9.38/bin:$PATH"
+export PATH="$GAA:$PATH"
+export PATH="/usr/local/mysql/bin:$PATH"
+export PATH="${ANDROID_HOME}/tools/:${ANDROID_HOME}/platform-tools:$PATH"
+
+alias xcb="/Users/leminhtuan/Documents/Swift/XCBUILD/xcbuild/build/xcbuild"
+alias eclipse='./Documents/GWT/eclipse/eclipse &' 
+alias cdd='cd ~/Documents/' 
+alias cdk='cd ~/Documents/Koolsoft' 
+alias v='sudo vim' 
+alias c='clear'
+
+alias gcan='git commit --amend --no-edit'
+alias glo1='git log --oneline'
+alias co='cordova'
+alias gpo='git push origin'
+alias gc-m='git commit -m'
+alias gco-b='git checkout -b'
+alias gcom='git checkout master'
+alias key="/Users/leminhtuan/Documents/Android/keystore/keystore_creater"
+alias keyhash="/Users/leminhtuan/Documents/Android/keystore/keyhash"
+alias devappserver='dev_appserver.sh' 
+alias idb="ios-deploy --bundle"
+alias ipa="ios-deploy --no-wifi  --bundle"
+alias apki="adb install"
+alias apku="adb uninstall"
+o="origin"
+alias glom="gl origin master"
+alias glksm="gl ks master"
+alias gpks="git push ks"
+
+alias vg='vagrant'
+alias vgu='vagrant up'
+alias vgd='vagrant destroy'
+alias vgr='vagrant reload'
+alias vgh='vagrant halt'
+alias vgs='vagrant ssh'
+alias vgst='vagrant status'
+alias vgsu='vagrant suspend'
+alias vgsh='vagrant share'
+alias vgl='vagrant login'
+alias vgp='vagrant provision'
+alias vgi='vagrant init'
+alias vgpi='vagrant plugin'
+alias vgpkg='vagrant package'
+alias vggs='vagrant global-status'
+alias vgc='vagrant connect'
+alias vgrdp='vagrant rdp'
+
+alias cdm="cd /Applications/XAMPP/xamppfiles/htdocs/moodle"
+
+alias dic='/Users/leminhtuan/Documents/Swift/Git/pyglossary/pyglossary.pyw'
+
+alias sf='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder
+/System/Library/CoreServices/Finder.app'
+alias hf='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder
+/System/Library/CoreServices/Finder.app'
+source ~/.profile
+
