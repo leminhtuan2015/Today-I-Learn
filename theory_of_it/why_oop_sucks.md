@@ -34,6 +34,7 @@ manipulating complex object structures.
 
  - Consider “time”. In an OO language “time” has to be an object. But in a non OO language a “time” is a instance of a data type. For example, in Erlang there are lots of different varieties of time, these can be clearly and unambiguously specified using type declarations, as follows:
 
+```
 -deftype day() = 1..31.
 -deftype month() = 1..12.
 -deftype year() = int().
@@ -42,7 +43,9 @@ manipulating complex object structures.
 -deftype second() = 1..60.
 -deftype abstime() = {abstime, year(), month(), day(), hour(), min(), sec()}.
 -deftype hms() = {hms, hour(), min(), sec()}.
-...
+
+```
+
  - Note that these definitions do not belong to any particular object. they are ubiquitous and data structures representing times can be manipulated by any function in the system.
 
  - There are no associated methods.
