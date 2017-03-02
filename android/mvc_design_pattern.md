@@ -1,3 +1,3 @@
 
-Activity => Controller
-XML layout => View
+- Activity => Controller
+- XML layout => View
