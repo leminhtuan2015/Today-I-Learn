@@ -1,6 +1,7 @@
 ### MVC
 ### `Web controller` layer -VS- `Application controller` layer
 ### Life of `Web controller` layer and `Application controller` layer
+### All is Objects
 
 -------
 
@@ -60,3 +61,10 @@
 #### Life Circle Of **Swift-IOS Controller** (`ViewController`)
   
   - http://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
+
+### All is Objects
+
+  - Everything is **objects**
+  - Java Android **create the Activities** by: **Create object of Activity classes**
+  - Java Android Activity life is that: `OS create instance object of that Activity class and store it in stack`
+  
