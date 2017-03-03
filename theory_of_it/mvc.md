@@ -66,5 +66,6 @@
 
   - Everything is **objects**
   - Java Android **create the Activities** by: **Create object of Activity classes**
-  - Java Android Activity life is that: `OS create instance object of that Activity class and store it in stack`
+  - Java Android Activity life is that: `OS create instance object of that Activity class and store that object in stack`
+  - Activity(Controller) live in memory is the **Object** of the Activity
   
