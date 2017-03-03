@@ -33,12 +33,12 @@
      - In IOS  **Controller** is `ViewController`
      
 ### Life of `Web controller` layer and `Application controller` layer
-  - Life Circle Of **Web Controller** (`Controller`)
+#### Life Circle Of **Web Controller** (`Controller`)
     - Controller of Web is manage by **Web Container (Nginx, Puma, Tomcat)**
     - Each request from client to server the **Web Container** will create a **new instance** of the **Controller class** and this **instance** will serve the request
     - After the request done (User receives the response) **Web Container** will delete that **instance** to save disk-memory
   
-  - Life Circle Of **Android Controller** (`Activity`)
+#### Life Circle Of **Android Controller** (`Activity`)
     - Controller of App is manage by **Opera System (OS)**
     - When user open one sence **OS** will create **a new Activity** that mean: Create **a new instance of the Activity**
     
