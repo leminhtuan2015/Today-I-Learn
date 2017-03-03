@@ -1,4 +1,4 @@
-### MVC
+### MVC (With Android, IOS, Web)
 ### `Web controller` layer -VS- `Application controller` layer
 ### Life of `Web controller` layer and `Application controller` layer
 ### Example Android Activity (as controller)
