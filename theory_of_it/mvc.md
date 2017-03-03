@@ -68,7 +68,10 @@
   - Java Android **create the Activities** by: **Create object of Activity classes**
   - Java Android Activity life is that: `OS create instance object of that Activity class and store that object in stack`
   - Activity(Controller) live in memory is the **Object** of the Activity.
-  - Đối với Web mỗi request sẽ tạo mới một **instance object** của một Controller, nhưng đối với App thì nó chỉ tạo ra **Duy nhất ** một **instance object** cho một Controller.
-  - Cơ chế của App (Android, IOS) thì lại **Chỉ khởi tạo duy nhất một instance object của mỗi Activity**, sau đó lưu các **instance object** trong stack để re-use khi cần.
-  - Cơ chế hoạt động của App như vậy là do để tiết kiệm bộ nhớ, Pin, tăng performent, giảm tốn kém tài nguyên.
+  
+  - Đối với Web mỗi request sẽ tạo mới một **instance object** của một Controller, nhưng đối với App thì nó chỉ tạo ra **Duy nhất** một **instance object** cho một Controller.
+  
+  - Cơ chế của App (Android, IOS) thì lại **Chỉ khởi tạo duy nhất một instance object của mỗi Activity**, sau đó lưu các **instance object** trong stack để re-use khi cần.
+  
+  - Cơ chế hoạt động của App như vậy là do để tiết kiệm bộ nhớ, Pin, tăng performent, giảm tốn kém tài nguyên.
   
