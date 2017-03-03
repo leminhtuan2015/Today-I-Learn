@@ -18,10 +18,11 @@
   - Web (Java Spring, Ruby on Rail, Play - Scala, Php)
   - Application (Java - Android, Swift - IOS)
   
-### MVC Web VS MVC App
-  - MVC Web
-    - 
+### Web controller layer -VS- Application controller layer
+  - Web controller layer
+    - In RoR **Controller** that is controller folder
     
     
-  - MVC App
-    - 
+  - Application controller layer
+    - In Android the **Controller** is **Activity**
+    - In IOS  **Controller** is **ViewController**
