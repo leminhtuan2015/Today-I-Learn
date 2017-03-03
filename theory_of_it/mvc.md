@@ -24,7 +24,7 @@
   - Web (Java Spring, Ruby on Rail, Play - Scala, Php)
   - Application (Java - Android, Swift - IOS)
   
-### Web controller layer -VS- Application controller layer
+### `Web controller` layer -VS- `Application controller` layer
   - Web controller layer
      - In RoR **Controller** that is controller folder
     
@@ -32,7 +32,7 @@
      - In Android the **Controller** is `Activity`
      - In IOS  **Controller** is `ViewController`
      
-### Life of Web controller layer and Application controller layer
+### Life of `Web controller` layer and `Application controller` layer
   - Life Circle Of **Web Controller** (`Controller`)
     - Controller of Web is manage by **Web Container (Nginx, Puma, Tomcat)**
     - Each request from client to server the **Web Container** will create a **new instance** of the **Controller class** and this **instance** will serve the request
