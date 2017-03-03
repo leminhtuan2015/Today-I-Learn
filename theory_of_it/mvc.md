@@ -61,8 +61,9 @@
 #### Life Circle Of **Swift-IOS Controller** (`ViewController`)
   
   - http://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
-
-### All is Objects
+  
+  
+### Example Android Activity (as controller)
 
   - Everything is **objects**
   - Java Android **create the Activities** by: **Create object of Activity classes**
@@ -81,9 +82,7 @@
    app
    
   - Mỗi khi thay đổi trạng thái của Controller thì các hàm của object controller đó sẽ tự động được gọi.
-    - onCreate
-    - onRestart 
-    - onResum
+    - onCreate, onRestart, onResum, ....
     
   - EACH **CONTROLLER (ACTIVITY)** SHOUD BE HAVE ONLY ONE **INSTANCE OBJECT**
   - **INSTANCE OBJECT** OF EACH **CONTROLLER (ACTIVITY)** JUST ONLY CREATE ONE TIME, AND BE STORED IN STACK
