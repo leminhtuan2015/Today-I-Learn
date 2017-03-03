@@ -14,6 +14,10 @@
     - Easy to manage source code
     - Decrease bugs
     - Easy to teamwork
+    
+### Controller is the main
+  - Updating the contents of the views, usually in response to changes to the underlying data.
+  - Responding to user interactions with views
   - User will contact with **Sofware system** throught the **Controller layer**
   - All the action of User is handle by **Controller layer**
   - Controller layer is the main component of most framework such as Swift IOS, Java Android or Web framework.
@@ -53,5 +57,6 @@
    - The reason activities is just **created only one time** is for the best performent, memory, pin,....
    - You can create many instance of one Activity by start many time the same Activity BUT dont do it.
   
+#### Life Circle Of **Swift-IOS Controller** (`ViewController`)
   
-  
+  - http://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
