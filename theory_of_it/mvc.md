@@ -24,5 +24,5 @@
     
     
   - Application controller layer
-    - In Android the **Controller** is **Activity**
-    - In IOS  **Controller** is **ViewController**
+    - In Android the **Controller** is `Activity`
+    - In IOS  **Controller** is `ViewController`
