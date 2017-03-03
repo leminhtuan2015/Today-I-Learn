@@ -1,8 +1,7 @@
 ### Pixel
 ### What is autolayout?
 ### How to autolayout a UIView object?
-### Show/Hide a UIView object by use autolayout
-### change layout at runtime
+### Change layout at runtime
 ### Auto Layout is All About Constraints
 
 --------------------------------------------------------
@@ -47,8 +46,9 @@
   - We must define : x, y, with, height for the UI view you want to be autolayouted
   
   => **To Autolayout** MUST BE DEFINE 4 attributes [x, y, width, height]
- 
-### Show/Hide a UIView object by use autolayout
+
+### Change layout at runtime
+#### Show/Hide a UIView object by use autolayout
   - If you want to show/hide a UI view object you should change the **height constraints** or **width constraints**
   
 ```swift
