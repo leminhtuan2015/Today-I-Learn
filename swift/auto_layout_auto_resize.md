@@ -1,8 +1,9 @@
 ### Pixel
-### What is autolayout?
-### How to autolayout a UIView object?
-### Change layout at runtime (Autolayout at runtime)
-### Auto Layout is All About Constraints
+### Autoresize?
+### Autolayout?
+### Autolayout a UIView object?
+### Change the layout at runtime (Autolayout at runtime)
+### AutoLayout is All About Constraints
 
 --------------------------------------------------------
 
@@ -17,8 +18,11 @@
   
 - If the image have size **1024 px x 1024 px** => Correspond with the matix [1024; 1024] each element in the matix is a pixel.
 - We create the image by fill the element in matrix with a color.
-  
-### What is autolayout?
+
+### Autoresize?
+ - 
+
+### Autolayout?
  - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size
    => If we build UI in IOS by **pixcel** that will NOT work well on some devices.
    
