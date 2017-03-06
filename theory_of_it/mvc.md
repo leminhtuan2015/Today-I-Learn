@@ -1,4 +1,6 @@
-### MVC (With Android, IOS, Web)
+MVC In Android, IOS, Web
+
+### What is MVC?
 ### The `Web controller` layer -VS- `Application controller` layer
 ### Life of `Web controller` layer and `Application controller` layer
 ### Example Android Activity (as controller)
@@ -16,7 +18,7 @@
     - Decrease bugs
     - Easy to teamwork
     
-### Controller is the main
+#### Controller is the brain in MVC
   - Updating the contents of the views, usually in response to changes to the underlying data.
   - Responding to user interactions with views
   - User will contact with **Sofware system** throught the **Controller layer**
@@ -24,10 +26,7 @@
   - Controller layer is the main component of most framework such as Swift IOS, Java Android or Web framework.
   - Each **Controller** have one **View** to render that view
   - Each **Controller** mainly manage one **Model**
-  
-### Where is it used for
-  - Web (Java Spring, Ruby on Rail, Play - Scala, Php)
-  - Application (Java - Android, Swift - IOS)
+
   
 ### `Web controller` layer -VS- `Application controller` layer
   - Web controller layer
