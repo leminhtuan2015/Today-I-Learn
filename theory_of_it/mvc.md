@@ -1,4 +1,6 @@
-MVC In Android, IOS, Web
+# MVC In Android, IOS, Web
+
+--------
 
 ### What is MVC?
 ### The `Web controller` layer -VS- `Application controller` layer
