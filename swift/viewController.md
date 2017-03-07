@@ -29,13 +29,17 @@
    let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
    let navController = UINavigationController(rootViewController: homeViewController)
    self.present(navController, animated: true, completion: nil)
+   
+   OR
+   
+   self.navigationController?.pushViewController(signupViewController, animated: true)
   
 ```
 
 ##### performSegue
 
 ```swift
-
+  self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
 ```
   
 - Segue : Should segue from controller to controller NOT from UIButton to controller
