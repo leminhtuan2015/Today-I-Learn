@@ -20,7 +20,7 @@
   // Swift 3.0
 
   let storyboard = UIStoryboard(name: "Main", bundle: nil)
-  let controller = storyboard.instantiateViewController(withIdentifier: "someViewController")
+  let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
   self.present(controller, animated: true, completion: nil)
   
   ---------------------------------------------------------------
