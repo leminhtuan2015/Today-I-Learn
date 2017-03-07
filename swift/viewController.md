@@ -37,6 +37,9 @@
    self.navigationController?.pushViewController(signupViewController, animated: true)
    
    ---------------------------------------------------------------
+   self.navigationController?.pushViewController(signupViewController, animated: true)
+   
+   ---------------------------------------------------------------
    // Come back to previous ViewController
    
    navigationController?.popViewController(animated: true)
