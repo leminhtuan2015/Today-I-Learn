@@ -15,7 +15,7 @@
     - instantiateViewController
     - performSegue
 
-##### instantiateViewController
+##### instantiateViewController OR performSegue
 ```swift
   // Swift 3.0
 
@@ -40,16 +40,24 @@
    // Come back to previous ViewController
    
    navigationController?.popViewController(animated: true)
+   
+   ---------------------------------------------------------------
+   // Use Segue
+   self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
   
-```
-
-##### performSegue
-
-```swift
-  self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
 ```
   
 - Segue : Should segue from controller to controller NOT from UIButton to controller
+
+
+### Navigation ViewController
+### Storyboard ID
+### Storyboard Segue
+
+
+
+
+
 
 http://stackoverflow.com/questions/30009400/what-is-the-difference-between-using-instantiateviewcontrollerwithidentifier-and
 
