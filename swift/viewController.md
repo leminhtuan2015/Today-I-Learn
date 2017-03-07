@@ -23,6 +23,7 @@
   let controller = storyboard.instantiateViewController(withIdentifier: "someViewController")
   self.present(controller, animated: true, completion: nil)
   
+  ---------------------------------------------------------------
   If Is Embeded NavigationController
   
    let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -31,6 +32,7 @@
    self.present(navController, animated: true, completion: nil)
    
    OR
+   ---------------------------------------------------------------
    
    let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
    let signupViewController = storyboard.instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
