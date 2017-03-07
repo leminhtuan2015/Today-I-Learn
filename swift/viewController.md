@@ -1,7 +1,29 @@
-- Segue 
-  - Should segue from controller to controller NOT from UIButton to controller
-- Send Data between 2 VC
-- Navigation controller
+### ViewController in Swift IOS
+### Start a ViewController (transition to a new ViewController)
+### Navigation ViewController
+
+-----------------------
+### ViewController in Swift IOS
+  - ViewController is the **brain** - Controller layer
+  - Model is the **muscal** - Model layer
+  - Storyboard is the **clothes** - View layer
+
+### Start a ViewController (transition to a new ViewController)
+
+```swift
+  // Swift 3.0
+
+  let storyboard = UIStoryboard(name: "MyStoryboardName", bundle: nil)
+  let controller = storyboard.instantiateViewController(withIdentifier: "someViewController")
+  self.present(controller, animated: true, completion: nil)
+```
+
+
+```swift
+
+```
+  
+- Segue : Should segue from controller to controller NOT from UIButton to controller
 
 http://stackoverflow.com/questions/30009400/what-is-the-difference-between-using-instantiateviewcontrollerwithidentifier-and
 
