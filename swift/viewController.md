@@ -32,6 +32,8 @@
    
    OR
    
+   let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
+   let signupViewController = storyboard.instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
    self.navigationController?.pushViewController(signupViewController, animated: true)
   
 ```
