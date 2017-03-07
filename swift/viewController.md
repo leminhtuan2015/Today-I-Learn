@@ -16,6 +16,14 @@
   let storyboard = UIStoryboard(name: "MyStoryboardName", bundle: nil)
   let controller = storyboard.instantiateViewController(withIdentifier: "someViewController")
   self.present(controller, animated: true, completion: nil)
+  
+  If Is Embeded NavigationController
+  
+   let storyboard = UIStoryboard(name: "Main", bundle: nil)
+   let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+   let navController = UINavigationController(rootViewController: homeViewController)
+   self.present(navController, animated: true, completion: nil)
+  
 ```
 
 
