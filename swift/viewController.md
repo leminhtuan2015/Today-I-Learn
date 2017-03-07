@@ -17,13 +17,14 @@
 
 ##### instantiateViewController OR performSegue
 ```swift
-  // Swift 3.0
+  // present UIViewController
 
   let storyboard = UIStoryboard(name: "Main", bundle: nil)
   let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
   self.present(controller, animated: true, completion: nil)
   
   ---------------------------------------------------------------
+  // present UINavigationController
   
    let storyboard = UIStoryboard(name: "Main", bundle: nil)
    let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
@@ -31,22 +32,21 @@
    self.present(navController, animated: true, completion: nil)
    
    ---------------------------------------------------------------
+   // pushViewController
    
    let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
    let signupViewController = storyboard.instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
    self.navigationController?.pushViewController(signupViewController, animated: true)
    
    ---------------------------------------------------------------
-   self.navigationController?.pushViewController(signupViewController, animated: true)
-   
-   ---------------------------------------------------------------
-   // Come back to previous ViewController
+   // popViewController : Come back to previous ViewController
    
    navigationController?.popViewController(animated: true)
    
    ---------------------------------------------------------------
-   // Use Segue
+   // performSegue : Use Segue
    // Segue : Should segue from controller to controller NOT from UIButton to controller
+   
    self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
   
 ```
