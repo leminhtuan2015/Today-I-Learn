@@ -10,8 +10,12 @@
   - Model is the **muscal** - Model layer
   - Storyboard is the **clothes** - View layer
 
-### Start a ViewController (transition to a new ViewController)
+### Start a ViewController (transition to a ViewController)
+  - 2 ways to transition to a ViewController :
+    - instantiateViewController
+    - performSegue
 
+##### instantiateViewController
 ```swift
   // Swift 3.0
 
@@ -28,6 +32,7 @@
   
 ```
 
+##### performSegue
 
 ```swift
 
