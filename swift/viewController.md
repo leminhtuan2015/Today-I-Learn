@@ -49,3 +49,5 @@ http://stackoverflow.com/questions/30009400/what-is-the-difference-between-using
 http://stackoverflow.com/questions/13013476/ios-how-to-acheive-behavior-like-androids-startactivityforresult
 
 https://developer.apple.com/reference/uikit/uiviewcontroller#//apple_ref/doc/uid/TP40006926-CH3-SW96
+
+http://stackoverflow.com/questions/25444213/presenting-viewcontroller-with-navigationviewcontroller-swift
