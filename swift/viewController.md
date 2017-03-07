@@ -43,11 +43,10 @@
    
    ---------------------------------------------------------------
    // Use Segue
+   // Segue : Should segue from controller to controller NOT from UIButton to controller
    self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
   
 ```
-  
-- Segue : Should segue from controller to controller NOT from UIButton to controller
 
 
 ### Navigation ViewController
