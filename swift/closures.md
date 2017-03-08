@@ -40,7 +40,6 @@
         }
 
         A.show(callback: callback)
-        }
     }
 ```
 
