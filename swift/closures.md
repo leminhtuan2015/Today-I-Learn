@@ -27,7 +27,7 @@
     }
 
     class B {
-        show(callback: {
+        A.show(callback: {
             // this is a body of callback function
             print("hello")
         })
