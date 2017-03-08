@@ -21,12 +21,12 @@
 ```swift
 
     class A {
-      func show(callback: @escaping () -> Void = {}){
+      class func show(callback: @escaping () -> Void = {}){
           callback()
       }
     }
 
-    class B(){
+    class B {
         show(callback: {
             // this is a body of callback function
             print("hello")
@@ -39,7 +39,7 @@
             print("hello")
         }
 
-        show(callback: callback)
+        A.show(callback: callback)
         }
     }
 ```
