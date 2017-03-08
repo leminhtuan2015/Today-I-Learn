@@ -19,36 +19,46 @@
 - Example closure for callback
 
 ```swift
-    func show(callback: @escaping () -> Void = {}){
-        callback()
+
+    class A {
+      func show(callback: @escaping () -> Void = {}){
+          callback()
+      }
     }
 
-    show(callback: {
-        // this is a body of callback function
-        print("hello")
-    })
+    class B(){
+        show(callback: {
+            // this is a body of callback function
+            print("hello")
+        })
     
-    OR
-    
-    func callback(){
-        // this is a body of callback function
-        print("hello")
-    }
-    
-    show(callback: callback)
+        OR
 
+        func callback(){
+            // this is a body of callback function
+            print("hello")
+        }
+
+        show(callback: callback)
+        }
+    }
 ```
 
 ```swift
-     func updatePassword(callback: @escaping (_ isSuccess: Bool, _ message: String, _ user: User?) -> Void) {
-        callback(true, "OKIE", User())
+
+    class A {
+       class func updatePassword(callback: @escaping (_ isSuccess: Bool, _ message: String, _ user: User?) -> Void) {
+          callback(true, "OKIE", User())
+       }
      }
 
+  class B {
      func callback(isSuccess: Bool, message: String, user: User?){
        // this is a body of callback function
      }
      
      // pass callback as an agrument
-     updatePassword(callback: callback)
+     A.updatePassword(callback: callback)
+   }
 
 ```
