@@ -1,4 +1,5 @@
 ### Closure Expression Syntax
+### Closure use for callback
 
 --------------------------------------
 
@@ -14,7 +15,8 @@
 
 - **Function** is the special case of **Closure**
 
-- Example closure
+### Closure use for callback
+- Example closure for callback
 
 ```swift
     func show(callback: @escaping () -> Void = {}){
