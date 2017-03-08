@@ -25,6 +25,15 @@
         // this is a body of callback function
         print("hello")
     })
+    
+    OR
+    
+    func callback(){
+        // this is a body of callback function
+        print("hello")
+    }
+    
+    show(callback: callback)
 
 ```
 
@@ -34,8 +43,10 @@
      }
 
      func callback(isSuccess: Bool, message: String, user: User?){
+       // this is a body of callback function
      }
-            
+     
+     // pass callback as an agrument
      updatePassword(callback: callback)
 
 ```
