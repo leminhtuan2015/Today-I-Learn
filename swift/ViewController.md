@@ -38,6 +38,7 @@ self.present(controller, animated: true, completion: nil)
 
 ### Navigation ViewController
   - Navigation ViewController: is the stack to store many ViewController
+  - We use the terms **push** and **pop** a lot to talk about stacks => in **Navigation ViewController** we will **push** or **pop** a ViewController to present a ViewController
   
   - Go to ViewController in Navigation ViewController
   
