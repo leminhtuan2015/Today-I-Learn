@@ -1,17 +1,21 @@
 ### ViewController Segue
+### ViewController Prepare For Segue (pass data between ViewControllers)
 
 -------------------------------------
 
 ### ViewController Segue
+
   - **Segue**: is the **Relationship** between ViewControllers
   - **Segue** is the relationship from one **ViewController** to the other **ViewController**
   - When create a **Segue** you should only **Ctrl drag** (create relationship) from a **ViewController** to other **ViewController** (DO NOT CREATE SEGUE FROM BUTTON TO ViewController)
   - Nghĩa là khi tạo 1 **Segue** mình chỉ nên kéo từ **ViewController** sang một **ViewController** khác, KHÔNG nên tạo **Segue** bằng cách kéo từ một **Button** sang **ViewController**
   - One **ViewController** may have many **Segue** (Relationship) to other **ViewControllers**
 
-#### ViewController `prepare for segue`
+### ViewController Prepare For Segue
+
   - From **ViewController A** move to **ViewController B** you can use **Segue**
   - Before you **performSegue** the **ViewController** will automaticly call **`prepare(for segue: `** to get the instance of destination **ViewController**
+  - Use for **pass data** between ViewControllers
   
   - `prepare(for segue: ` is the method called right before `self.performSegue(withIdentifier:`
   
