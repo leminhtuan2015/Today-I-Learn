@@ -55,9 +55,9 @@
 
 ### Navigation ViewController
   - Navigation ViewController: is the stack to store many ViewController
- - http://rshankar.com/navigation-controller-in-ios/
- - https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
- https://makeapppie.com/2016/06/27/using-segues-and-delegates-for-navigation-controllers-in-swift-3-0/
+  - http://rshankar.com/navigation-controller-in-ios/
+  - https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
+  - https://makeapppie.com/2016/06/27/using-segues-and-delegates-for-navigation-controllers-in-swift-3-0/
  
 ### Storyboard ID
   - Storyboard ID: is the ID of a ViewController in Storyboard
@@ -65,6 +65,7 @@
   - **Storyboard ID** used for instantiate a ViewController
   
   - Example:
+
   ```swift
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
@@ -78,6 +79,8 @@
   - Nghĩa là khi tạo 1 **Segue** mình chỉ nên kéo từ **ViewController** sang một **ViewController** khác, KHÔNG nên tạo **Segue** bằng cách kéo từ một **Button** sang **ViewController**
   - One **ViewController** may have many **Segue** (Relationship) to other **ViewControllers**
   
+  
+  - TODO
 http://stackoverflow.com/questions/30009400/what-is-the-difference-between-using-instantiateviewcontrollerwithidentifier-and
 
 http://stackoverflow.com/questions/13013476/ios-how-to-acheive-behavior-like-androids-startactivityforresult
