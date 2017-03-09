@@ -18,11 +18,11 @@
  - First way **`present ViewController`**
 
 ```swift
-  // present UIViewController
+// present UIViewController
 
-  let storyboard = UIStoryboard(name: "Main", bundle: nil)
-  let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
-  self.present(controller, animated: true, completion: nil)
+let storyboard = UIStoryboard(name: "Main", bundle: nil)
+let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
+self.present(controller, animated: true, completion: nil)
 ```
 
  - Second way **`perform Segue`**
@@ -41,25 +41,25 @@
   - Go to ViewController in Navigation ViewController
   
 ```swift
-  ---------------------------------------------------------------
-  // present UINavigationController
+---------------------------------------------------------------
+// present UINavigationController
 
-   let storyboard = UIStoryboard(name: "Main", bundle: nil)
-   let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-   let navController = UINavigationController(rootViewController: homeViewController)
-   self.present(navController, animated: true, completion: nil)
+ let storyboard = UIStoryboard(name: "Main", bundle: nil)
+ let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+ let navController = UINavigationController(rootViewController: homeViewController)
+ self.present(navController, animated: true, completion: nil)
 
-   ---------------------------------------------------------------
-   // pushViewController
+ ---------------------------------------------------------------
+ // pushViewController
 
-   let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
-   let signupViewController = storyboard.instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
-   self.navigationController?.pushViewController(signupViewController, animated: true)
+ let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
+ let signupViewController = storyboard.instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
+ self.navigationController?.pushViewController(signupViewController, animated: true)
 
-   ---------------------------------------------------------------
-   // popViewController : Come back to previous ViewController
+ ---------------------------------------------------------------
+ // popViewController : Come back to previous ViewController
 
-   navigationController?.popViewController(animated: true)
+ navigationController?.popViewController(animated: true)
 ```
 
   - https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
@@ -72,9 +72,9 @@
   - Example:
 
   ```swift
-    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
-    self.present(controller, animated: true, completion: nil)
+  let storyboard = UIStoryboard(name: "Main", bundle: nil)
+  let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
+  self.present(controller, animated: true, completion: nil)
   ```
 
 
