@@ -11,6 +11,7 @@
 
 #### ViewController `prepare for segue`
   - From **ViewController A** move to **ViewController B** you can use **Segue**
+  - Before you **performSegue** the **ViewController** will automaticly call **`prepare(for segue: `** to get the instance of destination **ViewController**
   
   - `prepare(for segue: ` is the method called right before `self.performSegue(withIdentifier:`
   
