@@ -12,6 +12,12 @@
 #### ViewController `prepare for segue`
   - From **ViewController A** move to **ViewController B** you can use **Segue**
   
+  - `prepare(for segue: ` is the method called right before `self.performSegue(withIdentifier:`
+  
+  ```swift
+      override func prepare(for segue: UIStoryboardSegue, sender: Any?) { }
+  ```
+  
   - Demo:
   
   ```swift
