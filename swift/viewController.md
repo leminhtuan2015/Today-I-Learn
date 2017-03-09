@@ -2,7 +2,7 @@
 ### Start a ViewController (transition to a new ViewController)
 ### Navigation ViewController
 ### Storyboard ID
-### Storyboard Segue
+### ViewController Segue
 
 -----------------------
 ### ViewController in Swift IOS
@@ -72,15 +72,56 @@
     self.present(controller, animated: true, completion: nil)
   ```
 
-### Storyboard Segue
+### ViewController Segue
   - **Segue**: is the **Relationship** between ViewControllers
   - **Segue** is the relationship from one **ViewController** to the other **ViewController**
   - When create a **Segue** you should only **Ctrl drag** (create relationship) from a **ViewController** to other **ViewController** (DO NOT CREATE SEGUE FROM BUTTON TO ViewController)
   - Nghĩa là khi tạo 1 **Segue** mình chỉ nên kéo từ **ViewController** sang một **ViewController** khác, KHÔNG nên tạo **Segue** bằng cách kéo từ một **Button** sang **ViewController**
   - One **ViewController** may have many **Segue** (Relationship) to other **ViewControllers**
+
+#### ViewController `prepare for segue`
+  - From **ViewController A** move to **ViewController B** you can use **Segue**
+  
+  - Demo:
+  
+  ```swift
+    import UIKit
+
+    class HomeViewController: BasicViewController {
+      
+        @IBAction func buttonUserInfo(_ sender: Any) {
+            // When clicked this button -> will perform a Segue to move to other ViewController
+            
+            self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_USER_INFO, sender: self)
+        }
+        
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            // This function is called BEFORE performSegue
+            
+            Logger.log(string: "SEGUE \(segue.identifier)")
+            
+            if segue.identifier == Constant.STORY_BOARD_SEGUE_TRANFER_COIN {
+                let vc = segue.destinationViewController as! PaymentViewController
+                vc.name = "LeMinhTuan"
+            }
+        }
+    
+    }
+    
+  ```
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   - TODO
+  
 http://stackoverflow.com/questions/30009400/what-is-the-difference-between-using-instantiateviewcontrollerwithidentifier-and
 
 http://stackoverflow.com/questions/13013476/ios-how-to-acheive-behavior-like-androids-startactivityforresult
