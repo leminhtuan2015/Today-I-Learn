@@ -38,6 +38,8 @@
 ### Navigation ViewController
   - Navigation ViewController: is the stack to store many ViewController
   
+  - Go to ViewController in Navigation ViewController
+  
   ```swift
     ---------------------------------------------------------------
     // present UINavigationController
@@ -59,9 +61,8 @@
 
      navigationController?.popViewController(animated: true)
   ```
-  - http://rshankar.com/navigation-controller-in-ios/
+
   - https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
-  - https://makeapppie.com/2016/06/27/using-segues-and-delegates-for-navigation-controllers-in-swift-3-0/
  
 ### Storyboard ID
   - Storyboard ID: is the ID of a ViewController in Storyboard
