@@ -58,13 +58,23 @@
  https://makeapppie.com/2016/06/27/using-segues-and-delegates-for-navigation-controllers-in-swift-3-0/
  
 ### Storyboard ID
+  - Each **ViewController** in StoryBoard have its own **ID**
+  - **Storyboard ID** used for instantiate a ViewController
+  
+  - Example:
+  ```swift
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
+    self.present(controller, animated: true, completion: nil)
+  ```
+
 ### Storyboard Segue
-
-
-
-
-
-
+  - **Segue**: is the **Relationship** between ViewControllers
+  - **Segue** is the relationship from one **ViewController** to the other **ViewController**
+  - When create a **Segue** you should only **Ctrl drag** (create relationship) from a **ViewController** to other **ViewController** (DO NOT CREATE SEGUE FROM BUTTON TO ViewController)
+  - Nghĩa là khi tạo 1 **Segue** mình chỉ nên kéo từ **ViewController** sang một **ViewController** khác, KHÔNG nên tạo **Segue** bằng cách kéo từ một **Button** sang **ViewController**
+  - One **ViewController** may have many **Segue** (Relationship) to other **ViewControllers**
+  
 http://stackoverflow.com/questions/30009400/what-is-the-difference-between-using-instantiateviewcontrollerwithidentifier-and
 
 http://stackoverflow.com/questions/13013476/ios-how-to-acheive-behavior-like-androids-startactivityforresult
