@@ -100,8 +100,8 @@
             
             Logger.log(string: "SEGUE \(segue.identifier)")
             
-            if segue.identifier == Constant.STORY_BOARD_SEGUE_TRANFER_COIN {
-                let vc = segue.destinationViewController as! PaymentViewController
+            if segue.identifier == Constant.STORY_BOARD_SEGUE_USER_INFO {
+                let vc = segue.destination as! PaymentViewController
                 vc.name = "LeMinhTuan"
             }
         }
