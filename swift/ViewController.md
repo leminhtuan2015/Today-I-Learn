@@ -12,10 +12,10 @@
 
 ### Start a ViewController (transition to a ViewController)
  - 2 ways to transition to a ViewController :
-    - instantiate ViewController.
-    - perform Segue
+    - **present ViewController**
+    - **perform Segue**
     
- - First way `present UIViewController`
+ - First way **`present ViewController`**
 
   ```swift
     // present UIViewController
@@ -25,7 +25,7 @@
     self.present(controller, animated: true, completion: nil)
   ```
 
-  - Second way `perform Segue`
+ - Second way **`perform Segue`**
   
   ```swift
      // performSegue : Use Segue
