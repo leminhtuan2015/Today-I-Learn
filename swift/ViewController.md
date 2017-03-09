@@ -11,9 +11,9 @@
   - Storyboard is the **clothes** - View layer
 
 ### Start a ViewController (transition to a ViewController)
-  - 2 ways to transition to a ViewController :
+ - 2 ways to transition to a ViewController :
     - instantiate ViewController.
-    - perform Segue.
+    - perform Segue
     
  - First way `present UIViewController`
 
