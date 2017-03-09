@@ -60,6 +60,7 @@
  https://makeapppie.com/2016/06/27/using-segues-and-delegates-for-navigation-controllers-in-swift-3-0/
  
 ### Storyboard ID
+  - Storyboard ID: is the ID of a ViewController in Storyboard
   - Each **ViewController** in StoryBoard have its own **ID**
   - **Storyboard ID** used for instantiate a ViewController
   
