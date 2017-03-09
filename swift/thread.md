@@ -11,35 +11,35 @@
 ## Coding
 ```swift
 
-    DispatchQueue.global(qos: .background).async {
-      // Create a background thread and execute longtime-tasks // 
-        self.copyDatabaseFiles()
-        self.createTables()
-        self.unzipDatabase()
+  DispatchQueue.global(qos: .background).async {
+    // Create a background thread and execute longtime-tasks // 
+      self.copyDatabaseFiles()
+      self.createTables()
+      self.unzipDatabase()
 
-        DispatchQueue.main.async {
-        // After done all tasks at background thread => come back to main thread
-            Drop.upAll()
-            if self.activityIndicatorView != nil {
-                Indicator.stop(activityIndicatorView: self.activityIndicatorView!)
-            }
-        }
-    }
-    
-   // Other way (with libs) ----------------------------------------------------
-   
-   
-      Async.background {
-      // Create a background thread and execute longtime-tasks // 
-          self.copyDatabaseFiles()
-          self.createTables()
-          self.unzipDatabase()
-
-      }.main {
+      DispatchQueue.main.async {
       // After done all tasks at background thread => come back to main thread
-          progressView.remove()
           Drop.upAll()
-          Indicator.stop(activityIndicatorView: activityIndicatorView)
+          if self.activityIndicatorView != nil {
+              Indicator.stop(activityIndicatorView: self.activityIndicatorView!)
+          }
       }
+  }
+
+ // Other way (with libs) ----------------------------------------------------
+   
+   
+  Async.background {
+  // Create a background thread and execute longtime-tasks // 
+      self.copyDatabaseFiles()
+      self.createTables()
+      self.unzipDatabase()
+
+  }.main {
+  // After done all tasks at background thread => come back to main thread
+      progressView.remove()
+      Drop.upAll()
+      Indicator.stop(activityIndicatorView: activityIndicatorView)
+  }
 
 ```
