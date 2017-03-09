@@ -15,7 +15,8 @@
     - instantiate ViewController
     - perform Segue
 
-##### instantiateViewController OR performSegue
+##### `present UIViewController` OR `perform Segue`
+
 ```swift
   // present UIViewController
 
@@ -25,7 +26,6 @@
   
  ---------------------------------------------------------------
    // performSegue : Use Segue
-   // Segue : Should segue from controller to controller NOT from UIButton to controller
    
    self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
   
