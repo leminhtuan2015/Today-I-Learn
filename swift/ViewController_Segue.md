@@ -23,7 +23,7 @@
       override func prepare(for segue: UIStoryboardSegue, sender: Any?) { }
   ```
   
-  - Demo:
+  - Demo: **Pass data to other ViewController**
   
   ```swift
     import UIKit
@@ -43,6 +43,8 @@
             
             if segue.identifier == Constant.STORY_BOARD_SEGUE_USER_INFO {
                 let vc = segue.destination as! PaymentViewController
+                
+                // Pass Data to PaymentViewController
                 vc.name = "LeMinhTuan"
             }
         }
