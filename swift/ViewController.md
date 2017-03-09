@@ -12,27 +12,26 @@
 
 ### Start a ViewController (transition to a ViewController)
   - 2 ways to transition to a ViewController :
-    - instantiate ViewController
-    - perform Segue
-
+    - instantiate ViewController.
+    - perform Segue.
  - `present UIViewController`
 
-    ```swift
-      // present UIViewController
+  ```swift
+    // present UIViewController
 
-      let storyboard = UIStoryboard(name: "Main", bundle: nil)
-      let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
-      self.present(controller, animated: true, completion: nil)
-    ```
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
+    self.present(controller, animated: true, completion: nil)
+  ```
 
   - OR `perform Segue`
   
-    ```swift
-       // performSegue : Use Segue
+  ```swift
+     // performSegue : Use Segue
 
-       self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
+     self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
 
-    ```
+  ```
 
 
 ### Navigation ViewController
