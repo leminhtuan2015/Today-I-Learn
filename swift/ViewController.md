@@ -21,7 +21,8 @@
 // present UIViewController
 
 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
+let controller = storyboard
+    .instantiateViewController(withIdentifier: "someViewController") as! UIViewController
 self.present(controller, animated: true, completion: nil)
 ```
 
@@ -45,7 +46,8 @@ self.present(controller, animated: true, completion: nil)
 // present UINavigationController
 
  let storyboard = UIStoryboard(name: "Main", bundle: nil)
- let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+ let homeViewController = storyboard
+     .instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
  let navController = UINavigationController(rootViewController: homeViewController)
  self.present(navController, animated: true, completion: nil)
 
@@ -53,7 +55,8 @@ self.present(controller, animated: true, completion: nil)
  // pushViewController
 
  let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
- let signupViewController = storyboard.instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
+ let signupViewController = storyboard
+     .instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
  self.navigationController?.pushViewController(signupViewController, animated: true)
 
  ---------------------------------------------------------------
@@ -73,7 +76,8 @@ self.present(controller, animated: true, completion: nil)
 
   ```swift
   let storyboard = UIStoryboard(name: "Main", bundle: nil)
-  let controller = storyboard.instantiateViewController(withIdentifier: "someViewController") as! UIViewController
+  let controller = storyboard
+      .instantiateViewController(withIdentifier: "someViewController") as! UIViewController
   self.present(controller, animated: true, completion: nil)
   ```
 
