@@ -6,14 +6,15 @@
 
 -----------------------
 ### ViewController in Swift IOS
+  - **ViewController** is the best impotant in IOS 
   - ViewController is the **brain** - Controller layer
   - Model is the **muscal** - Model layer
   - Storyboard is the **clothes** - View layer
 
 ### Start a ViewController (transition to a ViewController)
   - 2 ways to transition to a ViewController :
-    - instantiateViewController
-    - performSegue
+    - instantiate ViewController
+    - perform Segue
 
 ##### instantiateViewController OR performSegue
 ```swift
