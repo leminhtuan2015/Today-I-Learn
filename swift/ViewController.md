@@ -14,7 +14,8 @@
   - 2 ways to transition to a ViewController :
     - instantiate ViewController.
     - perform Segue.
- - `present UIViewController`
+    
+ - First way `present UIViewController`
 
   ```swift
     // present UIViewController
@@ -24,7 +25,7 @@
     self.present(controller, animated: true, completion: nil)
   ```
 
-  - OR `perform Segue`
+  - Second way `perform Segue`
   
   ```swift
      // performSegue : Use Segue
