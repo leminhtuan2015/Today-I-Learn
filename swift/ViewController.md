@@ -54,7 +54,9 @@ self.present(controller, animated: true, completion: nil)
       .instantiateViewController(withIdentifier: "someViewController") as! UIViewController
   self.present(controller, animated: true, completion: nil)
   ```
+  
 ### Symbols (Main API)
+
 - https://developer.apple.com/reference/uikit/uiviewcontroller#//apple_ref/doc/uid/TP40006926-CH3-SW96
 
 - Configuring a View Controller Using Nib Files
