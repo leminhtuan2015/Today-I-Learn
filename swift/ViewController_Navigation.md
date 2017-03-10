@@ -46,3 +46,6 @@
 
 ### Embed an existing view controller within a navigation controller in a storyboard
 
+  - Step 1: Select a View controller (nhấn nút màu vàng của một view controller trên storyboard)
+  - Step 2: Choose Editor > Embed In > Navigation Controller.
+
