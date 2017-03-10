@@ -14,12 +14,11 @@
     - **present ViewController**
     - **perform Segue**
     
- ```
- - **FUCKING FUCKING FUCKING ME - important - important - important**
+ - **FUCKING FUCKING FUCKING - important - important - important**
    - Anytime you go to a new destination view controller IOS will create a new instance of that view controller
    - Segues create a new instance of the destination view controller
    - `storyboard.instantiateViewController` also create a new instance of the view controller
- ```
+
  - First way **`present ViewController`**
 
 ```swift
