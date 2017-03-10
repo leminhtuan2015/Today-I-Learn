@@ -1,5 +1,5 @@
 ### ViewController in Swift IOS
-### Start a ViewController (transition to a new ViewController)
+### Start a ViewController (move from one ViewController to another ViewController)
 ### Storyboard ID
 ### Symbols (Main API Of UIViewController)
 
@@ -40,7 +40,7 @@ self.present(controller, animated: true, completion: nil)
      self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
   ```
   
-  - `performSegueWithIdentifer` and `instantiateViewControllerWithIdentifier` both are used to move from one viewController to another viewController, but when use `performSegueWithIdentifer` you should also use `prepareForSegue` to pass data to second ViewController
+ - `performSegueWithIdentifer` and `instantiateViewControllerWithIdentifier` both are used to move from one viewController to another viewController, but when use `performSegueWithIdentifer` you should also use `prepareForSegue` to pass data to second ViewController
  
 ### Storyboard ID
   - Storyboard ID: is the ID of a ViewController in Storyboard
