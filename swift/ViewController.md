@@ -82,16 +82,7 @@ self.present(controller, animated: true, completion: nil)
 
   func performSegue(withIdentifier: String, sender: Any?)
   // Initiates the segue with the specified identifier 
-  //from the current view controller 's storyboard file.
-
-  func allowedChildViewControllersForUnwinding(from: UIStoryboardUnwindSegueSource)
-  // Returns an array of child view controllers that should be searched for an unwind segue destination.
-
-  func childViewControllerContaining(UIStoryboardUnwindSegueSource)
-  // Returns the child view controller that contains the source of the unwind segue.
-
-  func canPerformUnwindSegueAction(Selector, from: UIViewController, withSender: Any)
-  // Called on a view controller to determine whether it wants to respond to an unwind action.
+  // from the current view controller \'s storyboard file.
 
   func unwind(for: UIStoryboardSegue, towardsViewController: UIViewController)
   // Called when an unwind segue transitions to a new view controller.
