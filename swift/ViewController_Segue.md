@@ -13,6 +13,15 @@
 
 ### ViewController Prepare For Segue
 
+```swift
+  // This method lets you configure a view controller before it's presented.
+  
+  // This method is overrided from UIViewController
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  }
+```
+
   - From **ViewController A** move to **ViewController B** you can use **Segue**
   - Before you **performSegue** the **ViewController** will automaticly call **`prepare(for segue: `** to get the instance of destination **ViewController**
   - Use for **pass data** between ViewControllers
