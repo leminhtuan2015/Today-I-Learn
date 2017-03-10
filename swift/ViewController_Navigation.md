@@ -10,6 +10,7 @@
   - Navigation ViewController: is the **stack** to store many ViewController
   - A **navigation controller** manages **transitions backward and forward** through a **series of view controllers**
   - We use the terms **push** and **pop** a lot to talk about stacks => in **Navigation ViewController** we will **push** or **pop** a ViewController to present a ViewController
+  - In **Navigation ViewControlle** **push** and **pop** a view controller that mean: **Add** or **Remove** a view controller to **stack**
   
   - Go to ViewController in Navigation ViewController
   
@@ -40,8 +41,8 @@
  // POP TO ROOT of navigation controller
  
  navigationController?.popToRootViewController(animated: true)
- 
- 
+
 ```
 
+### Embed an existing view controller within a navigation controller in a storyboard
 
