@@ -87,3 +87,26 @@ self.present(controller, animated: true, completion: nil)
   func unwind(for: UIStoryboardSegue, towardsViewController: UIViewController)
   // Called when an unwind segue transitions to a new view controller.
 ```
+
+- Managing the View
+
+```swift
+  var view: UIView!
+  //The view that the controller manages.
+
+  func loadView()
+  //Creates the view that the controller manages.
+
+  func viewDidLoad()
+  //Called after the controller's view is loaded into memory.
+
+  func loadViewIfNeeded()
+  //Loads the view controller’s view if it has not yet been loaded.
+
+  var viewIfLoaded: UIView?
+  //The view controller’s view, or nil if the view is not yet loaded.
+
+  var title: String?
+  //A localized string that represents the view this controller manages.
+
+```
