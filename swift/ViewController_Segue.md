@@ -1,16 +1,22 @@
-### Segue
+### Segue - Create the Segue
 ### Pass data between view controllers using the prepare(for:sender:) method
-### Unwind segue 
+### Unwind segue - Create the unwind segue
+### Pass data to previous View Controller when un-segue
 
 -------------------------------------
 
-### Segue
-
+### Segue - Create the Segue
+  - **View Controller** <-> Segue <-> **View Controller**
   - **Segue**: is the **Relationship** between ViewControllers
   - **Segue** is the relationship from one **ViewController** to the other **ViewController**
   - When create a **Segue** you should only **Ctrl drag** (create relationship) from a **ViewController** to other **ViewController** (DO NOT CREATE SEGUE FROM BUTTON TO ViewController)
   - Nghĩa là khi tạo 1 **Segue** mình chỉ nên kéo từ **ViewController** sang một **ViewController** khác, KHÔNG nên tạo **Segue** bằng cách kéo từ một **Button** sang **ViewController**
   - One **ViewController** may have many **Segue** (Relationship) to other **ViewControllers**
+  
+##### Create the Segue
+  - Open storyboard
+  - Control-drag one **View Controller** to one (or many) other **View Controlle**
+  - Set ID for the segue
 
 ### Pass data between view controllers using the prepare(for:sender:) method
 
@@ -68,3 +74,24 @@
   - An unwind segue moves **backward** through one or more segues to return the user to a scene managed by an existing view controller
   -  While regular **segues create a new instance** of the destination view controller, unwind segues let you **return to view controllers that already exist**.
   - Use unwind segues to implement navigation back to an existing view controller
+  
+#### Create the unwind segue
+
+- Open your storyboard.
+- On the canvas, Control-drag from the **Any button** to the **Exit** item at the top of the meal detail scene.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
