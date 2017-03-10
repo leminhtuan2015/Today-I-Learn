@@ -110,3 +110,19 @@ self.present(controller, animated: true, completion: nil)
   //A localized string that represents the view this controller manages.
 
 ```
+
+- Responding to View Events
+
+```swift
+  func viewWillAppear(Bool)
+  //Notifies the view controller that its view is about to be added to a view hierarchy.
+  
+  func viewDidAppear(Bool)
+  //Notifies the view controller that its view was added to a view hierarchy.
+  
+  func viewWillDisappear(Bool)
+  //Notifies the view controller that its view is about to be removed from a view hierarchy.
+  
+  func viewDidDisappear(Bool)
+  //Notifies the view controller that its view was removed from a view hierarchy.
+```
