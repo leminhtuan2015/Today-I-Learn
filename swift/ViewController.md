@@ -10,7 +10,7 @@
   - Model is the **muscal** - Model layer
   - Storyboard is the **clothes** - View layer
 
-### Start a ViewController (transition to a ViewController)
+### Start a ViewController (move from one ViewController to another ViewController)
  - 2 ways to transition to a ViewController :
     - **present ViewController**
     - **perform Segue**
@@ -38,8 +38,9 @@ self.present(controller, animated: true, completion: nil)
      // performSegue : Use Segue
 
      self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
-
   ```
+  
+  - `performSegueWithIdentifer` and `instantiateViewControllerWithIdentifier` both are used to move from one viewController to another viewController, but when use `performSegueWithIdentifer` you should also use `prepareForSegue` to pass data to second ViewController
  
 ### Storyboard ID
   - Storyboard ID: is the ID of a ViewController in Storyboard
