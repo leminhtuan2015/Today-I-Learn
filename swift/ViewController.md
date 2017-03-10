@@ -58,14 +58,40 @@ self.present(controller, animated: true, completion: nil)
 
 - Configuring a View Controller Using Nib Files
 
-  ```swift
+```swift
   init(nibName: String?, bundle: Bundle?)
   // Returns a newly initialized view controller with the nib file in the specified bundle.
-  
+
   var nibName: String?
   // The name of the view controller's nib file, if one was specified.
-  
+
   var nibBundle: Bundle?
   // The view controller's nib bundle if it exists.
-  ```
+```
+- Interacting with Storyboards and Segues
 
+```swift
+  var storyboard: UIStoryboard?
+  // The storyboard from which the view controller originated.
+  
+  func shouldPerformSegue(withIdentifier: String, sender: Any?)
+  // Determines whether the segue with the specified identifier should be performed.
+
+  func prepare(for: UIStoryboardSegue, sender: Any?)
+  // Notifies the view controller that a segue is about to be performed.
+
+  func performSegue(withIdentifier: String, sender: Any?)
+  // Initiates the segue with the specified identifier from the current view controller's storyboard file.
+
+  func allowedChildViewControllersForUnwinding(from: UIStoryboardUnwindSegueSource)
+  // Returns an array of child view controllers that should be searched for an unwind segue destination.
+
+  func childViewControllerContaining(UIStoryboardUnwindSegueSource)
+  // Returns the child view controller that contains the source of the unwind segue.
+
+  func canPerformUnwindSegueAction(Selector, from: UIViewController, withSender: Any)
+  // Called on a view controller to determine whether it wants to respond to an unwind action.
+
+  func unwind(for: UIStoryboardSegue, towardsViewController: UIViewController)
+  // Called when an unwind segue transitions to a new view controller.
+```
