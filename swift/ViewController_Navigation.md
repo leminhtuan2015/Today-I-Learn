@@ -1,7 +1,5 @@
 ### Navigation ViewController
 ### Embed an existing view controller within a navigation controller in a storyboard
-### Create segues between view controllers
-### Pass data between view controllers using the prepare(for:sender:) method
 
 -------------------------------------
 
