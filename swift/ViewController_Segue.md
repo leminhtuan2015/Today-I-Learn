@@ -1,5 +1,5 @@
 ### Segue
-### Prepare For Segue (pass data between ViewControllers)
+### Pass data between view controllers using the prepare(for:sender:) method
 ### Unwind segue 
 
 -------------------------------------
@@ -12,7 +12,7 @@
   - Nghĩa là khi tạo 1 **Segue** mình chỉ nên kéo từ **ViewController** sang một **ViewController** khác, KHÔNG nên tạo **Segue** bằng cách kéo từ một **Button** sang **ViewController**
   - One **ViewController** may have many **Segue** (Relationship) to other **ViewControllers**
 
-### Prepare For Segue
+### Pass data between view controllers using the prepare(for:sender:) method
 
 ```swift
   // This method lets you configure a view controller before it's presented.
@@ -64,7 +64,7 @@
   ```
 
 ### Unwind segue
-
-  - An unwind segue moves backward through one or more segues to return the user to a scene managed by an existing view controller
-  -  While regular segues create a new instance of the destination view controller, unwind segues let you return to view controllers that already exist.
+  - **Segue** => Create a new instance of ViewController **BUT** **Unwind segue** DO NOT do it, unwind segue return to view controllers that already exist
+  - An unwind segue moves **backward** through one or more segues to return the user to a scene managed by an existing view controller
+  -  While regular **segues create a new instance** of the destination view controller, unwind segues let you **return to view controllers that already exist**.
   - Use unwind segues to implement navigation back to an existing view controller
