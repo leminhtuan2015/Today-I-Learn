@@ -12,8 +12,6 @@
 
 - https://developer.apple.com/reference/uikit/uiviewcontroller#//apple_ref/doc/uid/TP40006926-CH3-SW96
 
-- http://stackoverflow.com/questions/25444213/presenting-viewcontroller-with-navigationviewcontroller-swift
-
 
 | Tables                       |      Are                          |  Cool                     |
 |------------------------------|-----------------------------------|---------------------------|
