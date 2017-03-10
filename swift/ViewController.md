@@ -1,6 +1,5 @@
 ### ViewController in Swift IOS
 ### Start a ViewController (transition to a new ViewController)
-### Navigation ViewController
 ### Storyboard ID
 
 -----------------------
@@ -34,39 +33,6 @@ self.present(controller, animated: true, completion: nil)
      self.performSegue(withIdentifier: Constant.STORY_BOARD_SEGUE_SIGNUP, sender: self)
 
   ```
-
-
-### Navigation ViewController
-  - Navigation ViewController: is the stack to store many ViewController
-  - We use the terms **push** and **pop** a lot to talk about stacks => in **Navigation ViewController** we will **push** or **pop** a ViewController to present a ViewController
-  
-  - Go to ViewController in Navigation ViewController
-  
-```swift
----------------------------------------------------------------
-// present UINavigationController
-
- let storyboard = UIStoryboard(name: "Main", bundle: nil)
- let homeViewController = storyboard
-     .instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
- let navController = UINavigationController(rootViewController: homeViewController)
- self.present(navController, animated: true, completion: nil)
-
- ---------------------------------------------------------------
- // pushViewController
-
- let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
- let signupViewController = storyboard
-     .instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
- self.navigationController?.pushViewController(signupViewController, animated: true)
-
- ---------------------------------------------------------------
- // popViewController : Come back to previous ViewController
-
- navigationController?.popViewController(animated: true)
-```
-
-  - https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
  
 ### Storyboard ID
   - Storyboard ID: is the ID of a ViewController in Storyboard
@@ -84,22 +50,4 @@ self.present(controller, animated: true, completion: nil)
 
 
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  - TODO
-  
-http://stackoverflow.com/questions/30009400/what-is-the-difference-between-using-instantiateviewcontrollerwithidentifier-and
 
-http://stackoverflow.com/questions/13013476/ios-how-to-acheive-behavior-like-androids-startactivityforresult
-
-https://developer.apple.com/reference/uikit/uiviewcontroller#//apple_ref/doc/uid/TP40006926-CH3-SW96
-
-http://stackoverflow.com/questions/25444213/presenting-viewcontroller-with-navigationviewcontroller-swift
