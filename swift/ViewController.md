@@ -15,6 +15,7 @@
     - **perform Segue**
     
  - **FUCKING FUCKING FUCKING ME - important - important - important**
+   - <span style="color:blue">Important</span>
    - Anytime you go to a new destination view controller IOS will create a new instance of that view controller
    - Segues create a new instance of the destination view controller
    - `storyboard.instantiateViewController` also create a new instance of the view controller
