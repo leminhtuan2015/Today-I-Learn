@@ -1,17 +1,21 @@
 ### Navigation ViewController
+### Embed an existing view controller within a navigation controller in a storyboard
+### Create segues between view controllers
+### Pass data between view controllers using the prepare(for:sender:) method
 
 -------------------------------------
 
 ### Navigation ViewController
 
-  - Navigation ViewController: is the stack to store many ViewController
+  - Navigation ViewController: is the **stack** to store many ViewController
+  - A **navigation controller** manages **transitions backward and forward** through a **series of view controllers**
   - We use the terms **push** and **pop** a lot to talk about stacks => in **Navigation ViewController** we will **push** or **pop** a ViewController to present a ViewController
   
   - Go to ViewController in Navigation ViewController
   
 ```swift
 ---------------------------------------------------------------
-// present UINavigationController
+// PRESENT a View Controller
 
  let storyboard = UIStoryboard(name: "Main", bundle: nil)
  let homeViewController = storyboard
@@ -20,7 +24,7 @@
  self.present(navController, animated: true, completion: nil)
 
  ---------------------------------------------------------------
- // pushViewController
+ // PUSH a View Controller
 
  let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
  let signupViewController = storyboard
@@ -28,9 +32,16 @@
  self.navigationController?.pushViewController(signupViewController, animated: true)
 
  ---------------------------------------------------------------
- // popViewController : Come back to previous ViewController
+ // POP a View Controller : Come back to previous ViewController
 
  navigationController?.popViewController(animated: true)
+ 
+ ---------------------------------------------------------------
+ // POP TO ROOT of navigation controller
+ 
+ navigationController?.popToRootViewController(animated: true)
+ 
+ 
 ```
 
-  - https://makeapppie.com/2016/07/11/programmatic-navigation-view-controllers-in-swift-3-0/
+
