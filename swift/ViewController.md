@@ -1,6 +1,7 @@
 ### ViewController in Swift IOS
 ### Start a ViewController (transition to a new ViewController)
 ### Storyboard ID
+### Symbols
 
 -----------------------
 ### ViewController in Swift IOS
@@ -53,7 +54,18 @@ self.present(controller, animated: true, completion: nil)
       .instantiateViewController(withIdentifier: "someViewController") as! UIViewController
   self.present(controller, animated: true, completion: nil)
   ```
+### Symbols
 
+- Configuring a View Controller Using Nib Files
 
+  ```swift
+  init(nibName: String?, bundle: Bundle?)
+  // Returns a newly initialized view controller with the nib file in the specified bundle.
   
+  var nibName: String?
+  // The name of the view controller's nib file, if one was specified.
+  
+  var nibBundle: Bundle?
+  // The view controller's nib bundle if it exists.
+  ```
 
