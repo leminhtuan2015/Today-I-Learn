@@ -1,7 +1,7 @@
 ### ViewController in Swift IOS
 ### Start a ViewController (transition to a new ViewController)
 ### Storyboard ID
-### Symbols
+### Symbols (Main API)
 
 -----------------------
 ### ViewController in Swift IOS
@@ -54,7 +54,7 @@ self.present(controller, animated: true, completion: nil)
       .instantiateViewController(withIdentifier: "someViewController") as! UIViewController
   self.present(controller, animated: true, completion: nil)
   ```
-### Symbols
+### Symbols (Main API)
 
 - Configuring a View Controller Using Nib Files
 
@@ -125,4 +125,19 @@ self.present(controller, animated: true, completion: nil)
   
   func viewDidDisappear(Bool)
   //Notifies the view controller that its view was removed from a view hierarchy.
+```
+
+- Presenting View Controllers
+```swift
+  func show(UIViewController, sender: Any?)
+  //Presents a view controller in a primary context.
+  
+  func showDetailViewController(UIViewController, sender: Any?)
+  //Presents a view controller in a secondary (or detail) context.
+  
+  func present(UIViewController, animated: Bool, completion: (() -> Void)? = nil)
+  //Presents a view controller modally.
+  
+  func dismiss(animated: Bool, completion: (() -> Void)? = nil)
+  //Dismisses the view controller that was presented modally by the view controller.
 ```
