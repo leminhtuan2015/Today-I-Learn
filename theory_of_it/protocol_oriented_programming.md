@@ -7,7 +7,8 @@
   - A **protocol** defines a blueprint of **methods, properties**, and other requirements
   - The **protocol** can then be adopted by a class, structure, or enumeration to provide an actual implementation of those requirements
   
-  ```swift
+  
+```swift
   protocol SomeProtocol {
       // protocol definition goes here
   }
