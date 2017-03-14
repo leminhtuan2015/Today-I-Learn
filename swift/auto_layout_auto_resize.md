@@ -41,6 +41,7 @@
    - Each View object we must define 4 attribute: **x, y, with, height** for the UI view you want to be autolayouted
      - Position (x, y)
      - Size (width, height)
+     
 - Auto Layout is All About Constraints
    - As mentioned before, auto layout is a constraint-based layout system. It allows developers to create an adaptive UI that responds appropriately to changes in screen size and device orientation.
    - Constraints express rules for the layout of the UiView in the interface.
