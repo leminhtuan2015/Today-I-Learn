@@ -1,9 +1,7 @@
 ### Pixel
 ### Autoresize?
 ### Autolayout?
-### Autolayout a UIView object?
 ### Change the layout at runtime (Autolayout at runtime)
-### AutoLayout is All About Constraints
 
 --------------------------------------------------------
 
@@ -20,60 +18,50 @@
 - We create the image by fill the element in matrix with a color.
 
 ### Autoresize?
- - 
+ - UIObject will be auto resize on the bigger or smaller screen device
 
 ### Autolayout?
- - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size
-   => If we build UI in IOS by **pixcel** that will NOT work well on some devices.
+ - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size . If we build UI in IOS by **pixcel** that will NOT work well on some devices.
    
-   EX: If we build UI in Iphone 5s by **pixcel** => On Iphone 6s/7 => Your UIview will be lost it layout.
+ - EX: If we build UI in Iphone 5s by **pixcel** => On Iphone 6s or 7 => Your UIview will be lost it layout.
    
  - Auto alyout will be the solution for above proplems.
    - Auto alyout build UI view by **create constraints** and **NOT pixcel**
    - Auto Layout dynamically calculates the size and position of all the views
    - Based on constraints placed on those views
-   - Auto Layout defines your user interface using a series of **constraints**. **Constraints** typically represent a relationship between two views.
+   - Auto Layout is a series of **constraints**. **Constraints** represent a relationship between two views.
    
  - Constraints
-   - **Constraints** typically represent a relationship between two views.
-   - **Constraints** typically represent for that height/width
+   - **Constraints** represent a relationship between two views.
+   - **Constraints** represent for that height/width
    - If we change the Constraints => UI will be update
 
-### How to autolayout a UIView object?
-  - The  **SuperView** (root view) of each story-board is the **UIView** 
-    - The SuperView 's coordinate is corresponse with the screen coordinate
-    - The sub view 's coordinate is corresponse with the **parent view**
-
-  - Each UI view object need 2 attribute to be autolayout
-    - Position (x, y)
-    - Size (width, height)
-  - We must define : x, y, with, height for the UI view you want to be autolayouted
+ - How to autolayout a UIView object?
+   - **Autolayout** MUST BE DEFINE 4 attributes ** x, y, width, height**
+   - Each View object we must define 4 attribute: **x, y, with, height** for the UI view you want to be autolayouted
+     - Position (x, y)
+     - Size (width, height)
+- Auto Layout is All About Constraints
+   - As mentioned before, auto layout is a constraint-based layout system. It allows developers to create an adaptive UI that responds appropriately to changes in screen size and device orientation.
+   - Constraints express rules for the layout of the UiView in the interface.
   
-  => **To Autolayout** MUST BE DEFINE 4 attributes [x, y, width, height]
-
+   - Create constraints: 
+        - **Align** – Create alignment constraints, such as aligning the left edges of two views.
+        - **Pin** – Create spacing constraints, such as defining the width of a UI control.
+        - **Issues** – Resolve layout issues.
+        - **Stack** – Embed views into a stack view. Stack view is a new feature since Xcode 7. We will further discuss about it in the next chapter.
+    
 ### Change layout at runtime
-#### Show/Hide a UIView object by use autolayout
+  - Show/Hide a UIView object by use autolayout
   - If you want to show/hide a UI view object you should change the **height constraints** or **width constraints**
   
-```swift
-  @IBOutlet weak var adsContainerHeightConstraint: NSLayoutConstraint!
-  
-  self.adsContainerHeightConstraint.constant = 60 // SHOW
-  self.view.layoutIfNeeded()
-  
-  self.adsContainerHeightConstraint.constant = 0 // HIDE
-  self.view.layoutIfNeeded()
-```
+    ```swift
+      @IBOutlet weak var adsContainerHeightConstraint: NSLayoutConstraint!
 
-### Auto Layout is All About Constraints
-  - As mentioned before, auto layout is a constraint-based layout system. It allows developers to create an adaptive UI that responds appropriately to changes in screen size and device orientation.
-  - Constraints express rules for the layout of the UiView in the interface.
-  
-  - Create constraints: 
-    - **Align** – Create alignment constraints, such as aligning the left edges of two views.
-    - **Pin** – Create spacing constraints, such as defining the width of a UI control.
-    - **Issues** – Resolve layout issues.
-    - **Stack** – Embed views into a stack view. Stack view is a new feature since Xcode 7. We will further discuss about it in the next chapter.
-    
-    ![alt text](https://github.com/leminhtuan2015/Today-I-learned/blob/master/images/auto-layout-4.png?raw=true")
+      self.adsContainerHeightConstraint.constant = 60 // SHOW
+      self.view.layoutIfNeeded()
+
+      self.adsContainerHeightConstraint.constant = 0 // HIDE
+      self.view.layoutIfNeeded()
+    ```
     
