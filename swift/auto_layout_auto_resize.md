@@ -1,24 +1,17 @@
-### Pixel
-### Autoresize?
+### Pixel in multiple devices IOS (IPhone 4, IPhone 5, IPhone 6, IPhone 7)
 ### Autolayout?
 ### Change the layout at runtime (Autolayout at runtime)
 
 --------------------------------------------------------
 
 
-### Pixel
-
-- **Pixel** (picture element) : 
-- Smallest addressable element in an devices screen.
-- It is the smallest controllable element of a picture represented on the screen
-    
-- The word **pixel** is based on a contraction of pix (from word "pictures", where it is shortened to "pics", and "cs" in "pics" sounds like "x") and el (for "element");
-  
-- If the image have size **1024 px x 1024 px** => Correspond with the matix [1024; 1024] each element in the matix is a pixel.
-- We create the image by fill the element in matrix with a color.
-
-### Autoresize?
- - UIObject will be auto resize on the bigger or smaller screen device
+### Pixel in multiple devices IOS (IPhone 4, IPhone 5, IPhone 6, IPhone 7)
+  - The UIView in IOS must be have 4 properties x, y, width, height => (x, y, w, h)
+  - (x, y, w, h) in multiple devices will be changed 
+  - (IPhone 5) = 1.5 * (IPhone 4)
+  - (IPhone 6) = 1.5 * (IPhone 4)
+  - (IPhone 7) = 2.0 * (IPhone 4)
+  - Example: The UIView in IPhone 4s have (x, y, w, h) = (1, 1, 1, 1) => on IPhone 7 that will be (2, 2, 2, 2)
 
 ### Autolayout?
  - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size . If we build UI in IOS by **pixcel** that will NOT work well on some devices.
