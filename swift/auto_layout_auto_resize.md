@@ -16,11 +16,11 @@
 
 - Khi Autolayout
   - Thường sẽ phải căn 3 hoặc 4 phía.
-  - Nếu căn 1 góc sẽ lỗi vì căn 1 phía sẽ chỉ xác định được x hoặc y mà ta cần phải xác định cả x và y
-  - Nếu chỉ căn 2 phía thì:
-    - Phải căn  mà 2 phía này KHÔNG đối diện nhau thì sẽ chả có ý nghĩa gì 
-    - Nếu chỉ căn 2 phía đối điện nhau thì sẽ lỗi vì chỉ xác định được x hoặc y mà ta cần xác định cả x và 
-- Sau khi M (x, y, w, h) được autolayout thì thì lúc này **x, y** sẽ được **ưu tiên** còn **w, h** sẽ là khoảng trống trừ đi độ dài các **constant** trong **constraint**
+  - Nếu căn 1 góc sẽ lỗi vì căn 1 phía sẽ chỉ xác định được x hoặc y mà ta cần phải xác định cả x và y
+  - Nếu chỉ căn 2 phía thì:
+    - Phải căn  mà 2 phía này KHÔNG đối diện nhau thì sẽ chả có ý nghĩa gì
+    - Nếu chỉ căn 2 phía đối điện nhau thì sẽ lỗi vì chỉ xác định được x hoặc y mà ta cần xác định cả x và 
+ - Sau khi M (x, y, w, h) được autolayout thì thì lúc này **x, y** sẽ được **ưu tiên** còn **w, h** sẽ là khoảng trống trừ đi độ dài các **constant** trong **constraint**
   
  
 ### Autolayout?
