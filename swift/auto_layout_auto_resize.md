@@ -14,8 +14,8 @@
 ####  IMPOTANT
 - Khi không dùng Autolayout: Trên IPhone4 điểm M (x, y, w, h) thì khi trên IPhone 7 điểm M vẫn là M(x, y. w, h) điều này dẫn đến việc bị lệch layout giữa các devices khác nhau của IPhone
 
-- Khi Autolayout 
-  - Thường sẽ phải căn 3 hoặc 4 phía.
+- Khi Autolayout
+  - Thường sẽ phải căn 3 hoặc 4 phía.
   - Nếu căn 1 góc sẽ lỗi vì căn 1 phía sẽ chỉ xác định được x hoặc y mà ta cần phải xác định cả x và y
   - Nếu chỉ căn 2 phía thì:
     - Phải căn  mà 2 phía này KHÔNG đối diện nhau thì sẽ chả có ý nghĩa gì 
