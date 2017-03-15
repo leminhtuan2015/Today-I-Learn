@@ -11,8 +11,14 @@
  -  Maybe on IPhone4 M is the center point but in IPhone7 M is Not the center point
  - => That is why we need Autolayout
  
-####  
-- Khi không dùng Autolayout: Trên IPhone4 điểm M (x, y, w, h) thì khi trên IPhone 7 điểm M vẫn là M(x, y. w, h) điều này dẫn đến 
+####  IMPOTANT
+- Khi không dùng Autolayout: Trên IPhone4 điểm M (x, y, w, h) thì khi trên IPhone 7 điểm M vẫn là M(x, y. w, h) điều này dẫn đến việc bị lệch layout giữa các devices khác nhau của IPhone
+
+- Khi Autolayout 
+  - hường sẽ phải căn 3 hoặc 4 góc
+  - ếu căn 1 góc sẽ lỗi vì căn 1 gọc sẽ chỉ xác định được x hoặc y mà ta cần phải xác định cả x và y
+  - 
+- Sau khi M (x, y, w, h) được autolayout thì 
   
  
 ### Autolayout?
