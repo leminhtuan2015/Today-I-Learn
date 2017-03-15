@@ -8,8 +8,8 @@
   
   ![](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/swift/images/ios_resolution_small.png)
 
-  
-  
+ -  Maybe on IPhone4 M is the center point but in IPhone7 M is Not center point
+ - => That is why we need Autolayout
   
   
   
