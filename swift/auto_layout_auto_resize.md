@@ -1,22 +1,18 @@
-### Pixel in multiple devices IOS (IPhone 4, IPhone 5, IPhone 6, IPhone 7)
+### iPhone Resolutions
 ### Autolayout?
 ### Change the layout at runtime (Autolayout at runtime)
 
 --------------------------------------------------------
+### iPhone Resolutions
+  - The UIView in IOS **must** be have 4 properties x, y, width, height => (x, y, w, h)
+  
 
-
-### Pixel in multiple devices IOS (IPhone 4, IPhone 5, IPhone 6, IPhone 7)
-  - The UIView in IOS must be have 4 properties x, y, width, height => (x, y, w, h)
-  - (x, y, w, h) in multiple devices will be changed
-  - Những điều sau sẽ xảy ra trong trường hợp **CHƯA autolayout**
-    - (IPhone 5) = 1.5 * (IPhone 4)
-    - (IPhone 6) = 1.5 * (IPhone 4)
-    - (IPhone 7) = 2.0 * (IPhone 4)
-    - 1.5 hay 2.0 là tỷ lệ giữa các màn hình của IP6 và IP7 so với IP4 (một UIView object của IP7 sẽ to gấp đôi so với IP4)
-    - Example: The UIView in IPhone 4s have (x, y, w, h) = (1, 1, 1, 1) => on IPhone 7 that will be (2, 2, 2, 2)
-    - Việc chuyển đổi (x, y, w, h) theo tỷ lệ hình như này sẽ không giải quyết được vấn đề 1 view lằm cân đối trên tất cả các màn hình, ví dụ ở IP4 có A(5, 5, 5, 5) sẽ lằm chính gữa màn hình nhưng khi sang IP7 thì A sẽ trở thành A(10, 10, 10, 10) và lúc này trên IP7 A không c lằm chính giữa nữa (bị lệch) => Auto-layout sẽ giải quyết vấn đề này
-   - Khi đã **autolayout** thì (x, y, w, h) của một UIView sẽ không còn được chuyển đổi theo tỷ lệ như trên nữa
-  
+  
+  
+  
+  
+  
+  
 ### Autolayout?
  - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size . If we build UI in IOS by **pixcel** that will NOT work well on some devices.
    
