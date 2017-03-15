@@ -6,7 +6,7 @@
 ### iPhone Resolutions
   - The UIView in IOS **must** be have 4 properties x, y, width, height => (x, y, w, h)
   
-  ![](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/swift/images/ios_resolution.png)
+  ![](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/swift/images/ios_resolution_small.png)
 
   
   
