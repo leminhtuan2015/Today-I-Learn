@@ -21,7 +21,7 @@
     - Phải căn  mà 2 phía này KHÔNG đối diện nhau thì sẽ chả có ý nghĩa gì
     - Nếu chỉ căn 2 phía đối điện nhau thì sẽ lỗi vì chỉ xác định được x hoặc y mà ta cần xác định cả x và 
  - Sau khi M (x, y, w, h) được autolayout thì thì lúc này **x, y** sẽ được **ưu tiên** còn **w, h** sẽ là khoảng trống trừ đi độ dài các **constant** trong **constraint**
- - Sau khi autolayout thì độ dài, độ rộng của các UIView sẽ thay đổi theo constraint, chúng sẽ dài ra hoặc thu ngắn lại
+ - Sau khi autolayout thì độ dài, độ rộng của các UIView sẽ thay đổi theo constraint, chúng sẽ dài ra hoặc thu ngắn lại, việc dài hay ngắn sẽ là khoảng trống xung quanh trừ đi các **constant** trong **constraint**
   
  
 ### Autolayout?
