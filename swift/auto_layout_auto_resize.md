@@ -7,12 +7,16 @@
 
 ### Pixel in multiple devices IOS (IPhone 4, IPhone 5, IPhone 6, IPhone 7)
   - The UIView in IOS must be have 4 properties x, y, width, height => (x, y, w, h)
-  - (x, y, w, h) in multiple devices will be changed 
-  - (IPhone 5) = 1.5 * (IPhone 4)
-  - (IPhone 6) = 1.5 * (IPhone 4)
-  - (IPhone 7) = 2.0 * (IPhone 4)
-  - Example: The UIView in IPhone 4s have (x, y, w, h) = (1, 1, 1, 1) => on IPhone 7 that will be (2, 2, 2, 2)
-
+  - (x, y, w, h) in multiple devices will be changed
+  
+  - Những điều trên đúng trong trường hợp **CHƯA autolayout**
+    - (IPhone 5) = 1.5 * (IPhone 4)
+    - (IPhone 6) = 1.5 * (IPhone 4)
+    - (IPhone 7) = 2.0 * (IPhone 4)
+    - Example: The UIView in IPhone 4s have (x, y, w, h) = (1, 1, 1, 1) => on IPhone 7 that will be (2, 2, 2, 2)
+    
+  - Nhưng khi đã **autolayout** thì (x, y, w, h) của một UIView sẽ không còn được chuyển đổi như trên nữa
+  
 ### Autolayout?
  - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size . If we build UI in IOS by **pixcel** that will NOT work well on some devices.
    
