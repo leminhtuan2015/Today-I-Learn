@@ -8,12 +8,13 @@
   
   ![](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/swift/images/ios_resolution_small.png)
 
- -  Maybe on IPhone4 M is the center point but in IPhone7 M is Not center point
+ -  Maybe on IPhone4 M is the center point but in IPhone7 M is Not the center point
  - => That is why we need Autolayout
-  
-  
-  
-  
+ 
+####  
+- Khi không dùng Autolayout: Trên IPhone4 điểm M (x, y, w, h) thì khi trên IPhone 7 điểm M vẫn là M(x, y. w, h) điều này dẫn đến 
+  
+ 
 ### Autolayout?
  - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size . If we build UI in IOS by **pixcel** that will NOT work well on some devices.
    
