@@ -73,3 +73,12 @@
     ```
     
 ### StackView
+  - Stacks views are really simple: they are contain arrays of sub views
+  - The stack view manages the layout of all the sub views
+  - The stack view manages the layout of its sub views and automatically applies layout constrants for you
+  - You can embed a stack view in another stack view to build more complex user interfaces
+  - `Don’t get me wrong. It doesn’t mean you do not need to deal with auto layout. You still need to define the layout constrants for the stack views itself`
+  - Why we use **UIStackView**
+    - Auto resize its sub views
+    - Auto layout its subview
+    - Easy to add/remove it subview, easier to build complex user interfaces.
