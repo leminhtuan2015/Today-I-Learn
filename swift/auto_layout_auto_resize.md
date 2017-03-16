@@ -1,6 +1,7 @@
 ### iPhone Resolutions
 ### Autolayout?
 ### Change the layout at runtime (Autolayout at runtime)
+### StackView
 
 --------------------------------------------------------
 ### iPhone Resolutions
@@ -71,3 +72,4 @@
       self.view.layoutIfNeeded()
     ```
     
+### StackView
