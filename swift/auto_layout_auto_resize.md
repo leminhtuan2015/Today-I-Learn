@@ -18,10 +18,11 @@
   - Thường sẽ phải căn 3 hoặc 4 phía.
   - Nếu căn 1 góc sẽ lỗi vì căn 1 phía sẽ chỉ xác định được x hoặc y mà ta cần phải xác định cả x và y
   - Nếu chỉ căn 2 phía thì:
-    - Phải căn  mà 2 phía này KHÔNG đối diện nhau thì sẽ chả có ý nghĩa gì
-    - Nếu chỉ căn 2 phía đối điện nhau thì sẽ lỗi vì chỉ xác định được x hoặc y mà ta cần xác định cả x và 
+    - Phải căn  mà 2 phía này **KHÔNG đối diện nhau** thì sẽ chả có ý nghĩa gì
+    - Nếu chỉ căn 2 phía **đối điện nhau** thì sẽ lỗi vì chỉ xác định được x hoặc y mà ta cần xác định cả x và y
  - Sau khi M (x, y, w, h) được autolayout thì thì lúc này **x, y** sẽ được **ưu tiên** còn **w, h** sẽ là khoảng trống trừ đi độ dài các **constant** trong **constraint**
  - Sau khi autolayout thì độ dài, độ rộng của các UIView sẽ thay đổi theo constraint, chúng sẽ dài ra hoặc thu ngắn lại, việc dài hay ngắn sẽ là khoảng trống xung quanh trừ đi các **constant** trong **constraint**
+ - `Autolayout luôn **ưu tiên** (x, y) còn (w, h) thì sẽ phụ thuộc theo (x, y) => ta nên autolayout ở màn hình nhỏ nhất của Storyboard`
   
  
 ### Autolayout?
