@@ -40,7 +40,7 @@
  navigationController?.popToRootViewController(animated: true)
  
 ---------------------------------------------------------------
-//  dismiss : close ViewControllers that presented
+// dismiss : close ViewControllers that presented
 // HIDE a NavigationController or HIDE a ViewController
 
 navigationController?.dismiss(animated: true, completion: nil)
