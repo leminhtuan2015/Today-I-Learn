@@ -145,3 +145,7 @@ self.present(controller, animated: true, completion: nil)
   func dismiss(animated: Bool, completion: (() -> Void)? = nil)
   //Dismisses the view controller that was presented modally by the view controller.
 ```
+
+
+### 
+  - `UIApplication.shared.keyWindow?.rootViewController`
