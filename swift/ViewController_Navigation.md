@@ -14,7 +14,7 @@
   
 ```swift
 ---------------------------------------------------------------
-// PRESENT a View Controller
+// PRESENT a View Controller (SHOW a VC)
 
  let storyboard = UIStoryboard(name: "Main", bundle: nil)
  let homeViewController = storyboard
@@ -23,8 +23,7 @@
  self.present(navController, animated: true, completion: nil)
 
  ---------------------------------------------------------------
- // PUSH a View Controller
-
+ // PUSH a View Controller (SHOW a VC)
  let storyboard = UIStoryboard(name: Constant.STORY_BOARD_MAIN_NAME, bundle: nil)
  let signupViewController = storyboard
      .instantiateViewController(withIdentifier: Constant.STORY_BOARD_SIGNUP_ID) as! SignupViewController
@@ -36,10 +35,16 @@
  navigationController?.popViewController(animated: true)
  
  ---------------------------------------------------------------
- // POP TO ROOT of navigation controller
+ // POP TO ROOT of navigation controller 
  
  navigationController?.popToRootViewController(animated: true)
+ 
+---------------------------------------------------------------
+// HIDE a NavigationController or HIDE a ViewController
 
+navigationController?.dismiss(animated: true, completion: nil)
+
+viewController.dismiss(animated: true, completion: nil)
 ```
 
 ### Embed an existing view controller within a navigation controller in a storyboard
