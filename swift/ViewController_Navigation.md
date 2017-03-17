@@ -41,7 +41,7 @@
  
 ---------------------------------------------------------------
 // dismiss : close ViewControllers that presented
-// HIDE a NavigationController or HIDE a ViewController
+// dismiss = un-present : come back to the previous ViewController that present this ViewController
 
 navigationController?.dismiss(animated: true, completion: nil)
 
