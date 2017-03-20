@@ -25,6 +25,21 @@
  - Sau khi autolayout thì độ dài, độ rộng của các UIView sẽ thay đổi theo constraint, chúng sẽ dài ra hoặc thu ngắn lại, việc dài hay ngắn sẽ là khoảng trống xung quanh trừ đi các **constant** trong **constraint**
  - `Autolayout luôn **ưu tiên** (x, y) còn (w, h) thì sẽ phụ thuộc theo (x, y) => ta nên autolayout ở màn hình nhỏ nhất của Storyboard`
   
+  - ERROR AUTOLAYOUT
+  
+  ```swift
+  Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800008b180 UIButton:0x7fcb41607900'TransferCoin'.width == 88   (active)>",
+    "<NSLayoutConstraint:0x60800008bb30 UIView:0x7fcb41405250.trailingMargin == UIButton:0x7fcb41607900'TransferCoin'.trailing + 100   (active)>",
+    "<NSLayoutConstraint:0x60800008bbd0 UIButton:0x7fcb41607900'TransferCoin'.leading == UIView:0x7fcb41405250.leadingMargin + 100   (active)>",
+    "<NSLayoutConstraint:0x608000087170 'UIView-Encapsulated-Layout-Width' UIView:0x7fcb41405250.width == 375   (active)>"
+)
+  ```
  
 ### Autolayout?
  - We should NOT build UI in IOS by **pixel**, because We have much device IOS and each device have the diffrent screen size . If we build UI in IOS by **pixcel** that will NOT work well on some devices.
