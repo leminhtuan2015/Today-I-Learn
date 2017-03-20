@@ -25,8 +25,11 @@
  - Sau khi autolayout thì độ dài, độ rộng của các UIView sẽ thay đổi theo constraint, chúng sẽ dài ra hoặc thu ngắn lại, việc dài hay ngắn sẽ là khoảng trống xung quanh trừ đi các **constant** trong **constraint**
  - `Autolayout luôn **ưu tiên** (x, y) còn (w, h) thì sẽ phụ thuộc theo (x, y) => ta nên autolayout ở màn hình nhỏ nhất của Storyboard`
   
-  - ERROR AUTOLAYOUT
-  
+#### ERROR AUTOLAYOUT
+  - This error occur when you have a **redundant constraints**
+  - Lỗi trên xuất hiện khi add 5 contraints (left, right, top, width, height): Lý do ở đây là khi ta đã định
+   nghĩa (left, right) contraints thì lúc này mặc định độ rộng của View sẽ là phần còn lại sau khi đã trừ đi (left, right) suy ra lúc này ta đang thừa width contraint (bỏ width contriant đi sẽ hết lỗi)
+  
 ```error
 	Unable to simultaneously satisfy constraints.
 	Probably at least one of the constraints in the following list is one you don't want. 
