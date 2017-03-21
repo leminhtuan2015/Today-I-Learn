@@ -42,6 +42,8 @@ extension UINavigationController {
             }
             return super.supportedInterfaceOrientations
         }
+        
+        // return UIInterfaceOrientationMask.portrait
     }
 }
 ```
