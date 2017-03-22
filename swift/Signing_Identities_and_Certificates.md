@@ -19,8 +19,11 @@
      - bundle id
      - method of deployment
      - team identifier
-  - Sử dụng file provisioning profile để provision lên app, mục đích để app có thể submit lên Appstore
-    
+  - Sử dụng file provisioning profile để provision lên app
+  - Mục đích Provisioning là:
+    - để app có thể submit lên Appstore
+    - để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
+    
 ### Apple concepts about signing app
 #### Basic
   - Xcode : IDE for coding app
