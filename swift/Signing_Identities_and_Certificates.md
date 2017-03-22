@@ -5,3 +5,8 @@
 
 
 -------------------------------------------
+
+### Code Signing App
+  - All apps must be **code signed** and **provisioned** to launch on a device, or to be uploaded to iTunes Connect
+    - **code signed**
+    - **provisioned**
