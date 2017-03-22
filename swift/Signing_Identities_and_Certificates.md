@@ -65,11 +65,11 @@
    - Signing Identities and Provisioning Profiles được lưu trên tài khoản Apple Developer của Dev 
    - https://developer.apple.com/account/ios/certificate/development
    - Signing Identities sẽ hiện nút create nếu bạn chưa 
-   - Signing Identities sẽ hiện nút reset nếu đăng nhập tài khoản ở Macbook khác ((Macbook đang dùng chính KHÔNG phải là máy tạo ra Signing Identities - do private key không khớp)
+   - Signing Identities sẽ hiện nút reset nếu đăng nhập tài khoản ở Macbook khác (Macbook đang dùng chính KHÔNG phải là máy tạo ra Signing Identities - do private key không khớp)
    - Signing Identities sẽ hiện trắng (chả có nút gì) nếu hợp lệ (Macbook đang dùng chính là máy tạo ra Signing Identities)
  - Step 2: trong mục ***signing identities*** 
    - click ***create*** của IOS Distribution (Nếu chưa có signing identities)
-   - click ***reset*** nếu chuyển 
+   - click ***reset*** nếu chuyển 
  - Step 3: Lên trang cá nhân Apple Dev
    - Tạo mới provission profile ứng với signing identities ở bước trên
    - edit lại toàn bộ signing identities của provission profile.
