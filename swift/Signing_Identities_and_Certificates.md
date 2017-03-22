@@ -26,10 +26,10 @@
     - nếu KHÔNG Provisioning thì app không thể cài được trên các thiết bị Apple (IPhone, IPad)
 
 ##### Cơ chế của Provisioning là:
-  - 1: Phải Provisioning mới có thể cài app lên thiết bị
-  - 2: Khi đã Provisioning thì chỉ có thể cài thông qua Apple store
-  - => 2 điều trên để khẳng định bạn chỉ có thể bán app thông qua Apple Store
-  - Như vậy mục đích của việc Provisioning là Apple chỉ cho phép bạn bán app thông qua **duy nhất Apple store** mà không được bán thông qua các chợ đen nào khác
+ - 1: Phải Provisioning mới có thể cài app lên thiết bị
+ - 2: Khi đã Provisioning thì chỉ có thể cài thông qua Apple store
+ - => 2 điều trên để khẳng định bạn chỉ có thể bán app thông qua Apple Store
+ - Như vậy mục đích của việc Provisioning là Apple chỉ cho phép bạn bán app thông qua **duy nhất Apple store** mà không được bán thông qua các chợ đen nào khác
   
 ### Apple concepts about signing app
 #### Basic
