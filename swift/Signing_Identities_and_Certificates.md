@@ -7,10 +7,16 @@
 -------------------------------------------
 
 ### Code Signing and Provisioning
-  - All apps must be **code signed** and **provisioned** to launch on a device, or to be uploaded to iTunes Connect
-    - **Signing** (signing identities)
-    - **Provisioning** (provisioning profiles)
-    
+  - All apps must be **signed** and **provisioned** to launch on a device, or to be uploaded to iTunes Connect
+    - **Signing** : signing identities/identity certificate là tên gọi của file certificate mà Apple cấp cho dev, ví dụ: ios_distribution.cer. Sử dụng file signing identities/identity certificate để sign lên app
+     - **Provisioning** provisioning profile là tên gọi của các file provision mà do Dev tạo ra, file này chứa những thông tin về người tạo ra app và ID của app như
+       - certificates that can be used to sign the application
+       - bundle id
+       - method of deployment
+       - team identifier
+       
+       
+     
 ### Apple concepts about signing app
 #### Basic
   - Xcode : IDE for coding app
