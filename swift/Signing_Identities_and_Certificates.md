@@ -3,6 +3,7 @@
 ### References
   - https://pewpewthespells.com/blog/migrating_code_signing.html#introduction-to-code-signing
   - https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html
+  - https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef#.3yfeyw82j
 
 
 -------------------------------------------
@@ -51,4 +52,7 @@
 #### For Signing and Provisioning
   - ***Signing Identity*** : The certificate file (.cer) contain public-private key pair that Apple creates for you (***ios_distribution.cer***), and you will be stored it in ***Keychain Access*** for signing your ios app
   - ***Provisioning Profile*** : The provision file (.provision) contain bundle id, team identifier, ... for provisioning your ios app, provision files be stored in XCode
+  
+### XCode Signing Identity and Provisioning Profiles
+  - Choose Xcode > Preferences > Accounts > Select your team > View Details.
 
