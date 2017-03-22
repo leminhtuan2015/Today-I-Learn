@@ -1,5 +1,6 @@
 ### Code Signing and Provisioning
 ### Apple concepts about signing app
+### XCode Signing Identity and Provisioning Profiles
 ### References
   - https://pewpewthespells.com/blog/migrating_code_signing.html#introduction-to-code-signing
   - https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html
@@ -55,4 +56,6 @@
   
 ### XCode Signing Identity and Provisioning Profiles
   - Choose Xcode > Preferences > Accounts > Select your team > View Details.
-
+  - If Xcode displays a **Create button**, the signing identity **doesn’t exist in your developer account or on your Mac**
+  - If Xcode displays a **Reset button**, the signing identity is **not usable on your Mac** (it is missing the private key)
+  - 
