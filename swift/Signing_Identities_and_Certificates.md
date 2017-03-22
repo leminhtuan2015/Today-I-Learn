@@ -16,12 +16,12 @@
   - Xcode : IDE for coding app
   - App ID: Account Apple Developer
   - Member Center: https://developer.apple.com/account/#/welcome (where you can create Provisioning Profiles, App IDs Certificates)
-  - Keychain Access : Tool manage **Signing Identity***
-    - Create ***Certificate Signing Request (CSR)***
-    - Store ***Signing Identity***
   
 #### Advance
-  - Certificate Signing Request (CSR): Create a file ***CertificateSigningRequest.certSigningRequest*** on Macbook by ***Keychain Access*** and submit to Apple
+  - Keychain Access : Tool manage **Signing Identity***
+    - Create ***Certificate Signing Request (CSR)*** (for submit this file to Apple)
+    - Store ***Signing Identity*** (Store certificate file on Mackbook)
+  - Certificate Signing Request (CSR): The file ***CertificateSigningRequest.certSigningRequest*** contain private key of your Macbook, it is created by ***Keychain Access***
   - Signing Identity : The public-private key pair that Apple creates for you, 
   - Provisioning Profile
   - Private & Public Key
