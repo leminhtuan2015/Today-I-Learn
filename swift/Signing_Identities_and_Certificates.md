@@ -39,7 +39,7 @@
 #### Basic
   - Xcode : IDE for coding app
   - App ID: Account Apple Developer
-  - Member Center: https://developer.apple.com/account/#/welcome (where you can create Provisioning Profiles, App IDs Certificates)
+  - Member Center: https://developer.apple.com/account/#/welcome (where you can create Provisioning Profiles, App IDs, Certificates, ...)
   
 #### For creating Signing Identity
   - ***Keychain Access*** : Tool manage ***Signing Identity***
