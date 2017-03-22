@@ -47,5 +47,5 @@
     - Store ***Signing Identity*** (Store certificate file)
   - ***Certificate Signing Request (CSR)*** : The file ***CertificateSigningRequest.certSigningRequest*** contain private key of your Macbook, it is created by ***Keychain Access*** and you will submit it to Apple
   - ***Signing Identity*** : The certificate file (.cer) contain public-private key pair that Apple creates for you (***ios_distribution.cer***), and you will be stored it in ***Keychain Access*** for signing your ios app
-  - ***Provisioning Profile*** : The provision file (.provision) contain bundle id, team identifier, ... for provisioning your ios app, provision file be stored in XCode
+  - ***Provisioning Profile*** : The provision file (.provision) contain bundle id, team identifier, ... for provisioning your ios app, provision files be stored in XCode
 
