@@ -25,9 +25,9 @@
     - để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
 
 #### CHÚ Ý
-  - App đã được Provisioning thì chỉ có thể cài thông qua Apple Store
-  - App chưa Provisioning thì có thể cài không cần qua Apple Store
-  - Như vậy mục đích của việc Provisioning là Apple chỉ cho phép bạn bán app thông qua duy nhất Apple store mà không được b  thông qua các chợ đen nào khác
+ - App đã được Provisioning thì chỉ có thể cài thông qua Apple Store
+ - App chưa Provisioning thì có thể cài không cần qua Apple Store
+ - Như vậy mục đích của việc Provisioning là Apple chỉ cho phép bạn bán app thông qua duy nhất Apple store mà không được b  thông qua các chợ đen nào khác
   
 ### Apple concepts about signing app
 #### Basic
