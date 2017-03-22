@@ -13,7 +13,7 @@
   - **signing identities/identity certificate** là tên gọi của file certificate mà Apple cấp cho dev, ví dụ: ios_distribution.cer.
   - Sử dụng file signing identities/identity certificate để sign lên app, mục đích chỉ ra ai là người tạo ra app
   
-#### Provisioning*
+#### Provisioning
   - **provisioning profile** là tên gọi của các file provision mà do Dev tạo ra, file này chứa những thông tin về người tạo ra app và ID của app như
      - certificates that can be used to sign the application
      - bundle id
@@ -24,11 +24,12 @@
     - để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
     - để app có thể submit lên Appstore
     - nếu KHÔNG Provisioning thì app không thể cài được trên các thiết bị Apple (IPhone, IPad)
-    
-#### CHÚ Ý
- - App đã được Provisioning thì chỉ có thể cài thông qua Apple Store
- - App chưa Provisioning thì có thể cài không cần qua Apple Store
- - Như vậy mục đích của việc Provisioning là Apple chỉ cho phép bạn bán app thông qua duy nhất Apple store mà không được bán  thông qua các chợ đen nào khác
+
+##### Cơ chế của Provisioning là:
+  - 1: Phải Provisioning mới có thể cài app lên thiết bị
+  - 2: Khi đã Provisioning thì chỉ có thể cài thông qua Apple store
+  - => 2 điều trên để khẳng định bạn chỉ có thể bán app thông qua Apple Store
+  - Như vậy mục đích của việc Provisioning là Apple chỉ cho phép bạn bán app thông qua **duy nhất Apple store** mà không được bán thông qua các chợ đen nào khác
   
 ### Apple concepts about signing app
 #### Basic
