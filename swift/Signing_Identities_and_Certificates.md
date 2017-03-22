@@ -23,7 +23,7 @@
   - Mục đích Provisioning là:
     - để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
     - để app có thể submit lên Appstore
-    - nếu KHÔNG Provisioning thì app không thể cài được trên các thiết bị Apple (IPhone, IPad)
+    - nếu KHÔNG Provisioning thì app không thể cài được trên các thiết bị Apple (IPhone, IPad)
     
 #### CHÚ Ý
  - App đã được Provisioning thì chỉ có thể cài thông qua Apple Store
