@@ -11,15 +11,18 @@
     - **Signing** (signing identities)
     - **Provisioning** (provisioning profiles)
 ### Apple concepts about signing app
+
 #### Basic
   - Xcode : IDE for coding app
   - App ID: Account Apple Developer
   - Member Center: https://developer.apple.com/account/#/welcome (where you can create Provisioning Profiles, App IDs Certificates)
+  - Keychain Access : Tool manage **Signing Identity***
+    - Create ***Certificate Signing Request (CSR)***
+    - Store ***Signing Identity***
   
-#### Tool for signing
-  - Certificate Signing Request (CSR): Create a file CertificateSigningRequest.certSigningRequest on Macbook and submit to Apple
+#### Advance
+  - Certificate Signing Request (CSR): Create a file ***CertificateSigningRequest.certSigningRequest*** on Macbook by ***Keychain Access*** and submit to Apple
   - Signing Identity : The public-private key pair that Apple creates for you, 
   - Provisioning Profile
-  - Keychain
   - Private & Public Key
 
