@@ -30,7 +30,10 @@
  - 2: Khi đã Provisioning thì chỉ có thể cài thông qua Apple store
  - => 2 điều trên để khẳng định bạn chỉ có thể bán app thông qua Apple Store
  - Như vậy mục đích của việc Provisioning là Apple chỉ cho phép bạn bán app thông qua **duy nhất Apple store** mà không được bán thông qua các chợ đen nào khác
+ 
+##### Chý ý
  - Tip & Trick để có thể cài app lên iphone mà không cần qua Apple Store hay không cần Provisioning là bạn phải hy sinh ***Jail break*** máy
+ - Trong quá trình Dev thì developer có thể trực tiếp cài app lên thiết bị thông qua XCode mà không cần Provisioning
  
 ### Apple concepts about signing app
 #### Basic
