@@ -25,7 +25,8 @@
     - để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
 
 #### CHÚ Ý
-  - App đã được Provisioning thì chỉ có thể cài thông qua Applestore, nếu không muốn cài qua Appstore thì máy phải Jailbreak
+  - App đã được Provisioning thì chỉ có thể cài thông qua Apple Store
+  - App chưa Provisioning thì có thể cài không cần qua Apple Store
   
 ### Apple concepts about signing app
 #### Basic
