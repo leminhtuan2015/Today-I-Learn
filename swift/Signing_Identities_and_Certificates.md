@@ -23,7 +23,10 @@
   - Mục đích Provisioning là:
     - để app có thể submit lên Appstore
     - để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
-    
+
+#### CHÚ Ý
+  - App đã được Provisioning thì chỉ có thể cài thông qua Applestore, nếu không muốn cài qua Appstore thì máy phải Jailbreak
+  
 ### Apple concepts about signing app
 #### Basic
   - Xcode : IDE for coding app
