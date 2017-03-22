@@ -42,10 +42,10 @@
   - Member Center: https://developer.apple.com/account/#/welcome (where you can create Provisioning Profiles, App IDs Certificates)
   
 #### Advance
-  - Keychain Access : Tool manage ***Signing Identity***
+  - ***Keychain Access*** : Tool manage ***Signing Identity***
     - Create ***Certificate Signing Request (CSR)*** (create file to submit to Apple)
     - Store ***Signing Identity*** (Store certificate file)
-  - Certificate Signing Request (CSR): The file ***CertificateSigningRequest.certSigningRequest*** contain private key of your Macbook, it is created by ***Keychain Access*** and you will submit it to Apple
-  - Signing Identity : The certificate file (.cer) contain public-private key pair that Apple creates for you (***ios_distribution.cer***), and you will store it in ***Keychain Access*** for signing your ios app
-  - Provisioning Profile: The provision file (.provision) contain bundle id, team identifier, ... for provisioning your ios app
+  - ***Certificate Signing Request (CSR)***: The file ***CertificateSigningRequest.certSigningRequest*** contain private key of your Macbook, it is created by ***Keychain Access*** and you will submit it to Apple
+  - ***Signing Identity*** : The certificate file (.cer) contain public-private key pair that Apple creates for you (***ios_distribution.cer***), and you will store it in ***Keychain Access*** for signing your ios app
+  - ***Provisioning Profile*** : The provision file (.provision) contain bundle id, team identifier, ... for provisioning your ios app
 
