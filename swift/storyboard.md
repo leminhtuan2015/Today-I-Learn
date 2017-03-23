@@ -13,6 +13,38 @@
 #### Storyboard is the XML file
  - When use Storyboard to create UI
    - if you add/remove UIView to Storyboard => StoryBoard auto add/remove this in StoryBoard XML source code
-   - if you remove connection ***@IBOutlet/@IBAction*** in Controller Xcode will ***NOT*** remove this connection in  StoryBoard XML source code you have to do it yourself
+   - if you remove connection ***@IBOutlet/@IBAction*** in Controller Xcode will ***NOT*** remove this connection in  StoryBoard XML source code so you have to do it yourself.
+   
+ ```xml
+ <!--SignupViewControler-->
+        <scene sceneID="3sL-BV-g2H">
+            <objects>
+                <viewController storyboardIdentifier="SignupViewController" id="Wsg-xS-efC" customClass="SignupViewController" customModule="FujiSDK" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QWe-qS-mKa"/>
+                        <viewControllerLayoutGuide type="bottom" id="PAx-cE-dcG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ra1-sQ-5Aa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" >
+                            </textField>
+                        </subviews>
+                        <constraints>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageLogo" destination="8V1-VF-Ajs" id="aFM-Zy-g4j"/>
+                    </connections>
+                </viewController>
+            </objects>
+        </scene>
+
+ 
+ ```
  
 #### Storyboard Custom Class
+ - We can mapping the 
+ - UIViewController custom class
+ - UIView custom class
