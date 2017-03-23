@@ -18,19 +18,26 @@
  ```xml
    <scene sceneID="3sL-BV-g2H">
        <objects>
-           <!-- 1: VIEW CONTROLLER -->
+           <!-- 1: ViewController -->
            <viewController id="Wsg-xS-efC" customClass="SignupViewController" customModule="FujiSDK">
                <layoutGuides>
                    <viewControllerLayoutGuide type="top" id="QWe-qS-mKa"/>
                </layoutGuides>
+               
+               <!-- 2: View -->
                <view key="view" contentMode="scaleToFill" id="ra1-sQ-5Aa">
+                   <!-- 3: SubView -->
                    <subviews>
                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" >
                        </textField>
                    </subviews>
+                   
+                   <!-- 4: Constraints -->
                    <constraints>
                    </constraints>
                </view>
+               
+               <!-- 5: Connections -->
                <connections>
                    <outlet property="imageLogo" destination="8V1-VF-Ajs" id="aFM-Zy-g4j"/>
                </connections>
