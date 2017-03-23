@@ -1,9 +1,9 @@
 
-#Spring MVC
+# Spring MVC
 
 - http://krams915.blogspot.com/2010/12/spring-3-mvc-using-modelattribute-in.html
 
-##1. Overview
+## 1. Overview
 - http://spring.io/
 - http://docs.spring.io/spring/docs/current/spring-framework-reference/
 - http://docs.spring.io/spring/docs/current/spring-framework-reference/pdf/spring-framework-reference.pdf
@@ -56,9 +56,9 @@ application context.
   - Step 6: Enjoin coding in **src** (All your .java in src/ will be compiled to .class files and put in war/WEB-INF/classes)
   
 
-###====>>>> WEB container (tomcat, jetty) just execute the war file.
+### ====>>>> WEB container (tomcat, jetty) just execute the war file.
 
-##3. Java WEB Structure
+## 3. Java WEB Structure
 
                                        ___src/
                                       |
@@ -80,9 +80,9 @@ application context.
       web.xml             lib             classes
       
       
-##4. Java web app Spring configtion
+## 4. Java web app Spring configtion
 
-###Create web.xml
+### Create web.xml
 
 - The web.xml file contains several elements that are required for a Facelets application
 
@@ -130,7 +130,7 @@ application context.
 </web-app>
 ```
 
-###Create war/WEB-INF/spring-servlet.xml
+### Create war/WEB-INF/spring-servlet.xml
 
 ```xml
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -242,7 +242,7 @@ $.ajax({
 
 ## What if the properties of **JSON object** and **Java object** DO NOT match with each other
 
-###`JSON OBJECT AND JAVA OBJECT HAVE TO HAVE THE SAME NAME IF WANT TO MATCH WITH EACH OTHER`
+### `JSON OBJECT AND JAVA OBJECT HAVE TO HAVE THE SAME NAME IF WANT TO MATCH WITH EACH OTHER`
 
 - For example: 
 
