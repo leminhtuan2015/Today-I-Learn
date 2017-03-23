@@ -13,7 +13,7 @@
 #### Storyboard is the XML file
  - When use Storyboard to create UI
    - if you add/remove UIView to Storyboard => StoryBoard auto add/remove this in StoryBoard XML source code
-   - if you remove connection ***@IBOutlet/@IBAction*** in Controller Xcode will ***NOT*** remove this connection in  StoryBoard XML source code so you have to do it yourself.
+   - if you remove connection ***@IBOutlet/@IBAction*** (connections) in Controller Xcode will ***NOT*** remove this connections in  StoryBoard XML source code so you have to do it yourself.
    
  ```xml
    <scene sceneID="3sL-BV-g2H">
