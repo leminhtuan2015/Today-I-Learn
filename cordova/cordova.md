@@ -1,6 +1,6 @@
-#1 Cordova (old version is named **phonegap**)
+# 1 Cordova (old version is named **phonegap**)
 
-##1.1 Overview:
+## 1.1 Overview:
   - Apache Cordova is an open-source mobile development framework, for developing cross-platform **hybrid applications** using HTML, CSS, and Javascript.
 
   - Cordove is NOT belong to GOOGLE, it belong to Apache, Cordova can NOT convert any Javascript code to Mobile app, Cordova just **embed** Javascript code to the   **WebView** of Android or IOS device.
@@ -9,7 +9,7 @@
 
   - Cordova use of Web-based technologies leads some Apache Cordova applications to run slower than native applications with similar functionality
 
-##1.2 Cordova Architecture:
+## 1.2 Cordova Architecture:
 
 ### Native app, Webapp, Hybird app
   - http://developer.telerik.com/featured/what-is-a-webview/
@@ -21,7 +21,7 @@
     - Web app  (using HTML, JS, CSS and run app by browser).
     - Hybird app (Code app by HTML, css, js after that use WebView to wrap those HTML, JS, CSS to native app).
 
-##1.3 WebView
+## 1.3 WebView
 
 ### What is **WebView**
   - The system webview is a native component provided by the operating system to be able to load web content.
@@ -34,13 +34,13 @@
 
   - Cordova is simple embed the **HTML. JS, CSS** to the **WebView** of device and the *WebView* will render that HTML on the screen.
 
-##1.4 Foreign Function Interface (FFI) or (native bridge).
+## 1.4 Foreign Function Interface (FFI) or (native bridge).
 
   - https://en.wikipedia.org/wiki/Foreign_function_interface
 
   - The technical **FFI** allow you to call other service of other app(other app).
 
-##1.5 Tutorials
+## 1.5 Tutorials
 
 ### Content Security Policy (CSP)
   - We can not make inline javascript in Cordova
