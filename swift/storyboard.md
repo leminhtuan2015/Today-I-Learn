@@ -55,10 +55,10 @@
  
 #### Storyboard Custom Class
  - In Storyboard by default:
-   - ViewController have custom class is: UIViewController
-   - View have custom class is: UIView
+   - ViewController have custom class is: ***UIViewController***
+   - View have custom class is: ***UIView***
  - But we can change the custom class of objects in Storboard, for example we can change the custom class of ViewController in Stobyboard :
-   - step 1: Create a UIViewController custom class
+   - step 1: Create a class extends UIViewController
     ```swift
       class MyViewController: UIViewController {}
     ```
