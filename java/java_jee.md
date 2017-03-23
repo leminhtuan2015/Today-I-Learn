@@ -41,7 +41,7 @@ public class GreetingServlet extends HttpServlet {
   - The **Script languagle** will be execute the source at run time (Have no compile time).
   - The **Compiled languagle** will be compiled first, after that system will execute the ***conpiled code*
 
-##Java web run time.
+## Java web run time.
 
                                               WAR(web archive)
                                                       |
