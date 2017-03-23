@@ -14,6 +14,13 @@
  - When use Storyboard to create UI
    - if you add/remove UIView to Storyboard => StoryBoard auto add/remove this in StoryBoard XML source code
    - if you remove connection ***@IBOutlet/@IBAction*** (connections) in Controller Xcode will ***NOT*** remove this connections in  StoryBoard XML source code so you have to do it yourself.
+ 
+ - Each sence in StoryBoard have 5 main object
+   - 1: ViewController tag
+   - 2: view tag
+   - 3: subviews tag
+   - 4: constraints tag
+   - 5: connections tag
    
  ```xml
    <scene sceneID="3sL-BV-g2H">
