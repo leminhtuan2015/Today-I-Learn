@@ -75,8 +75,9 @@
    - edit lại toàn bộ signing identities của provission profile.
  - Step 4: Đã có signing identities IOS Distribution và provission profile => Buid thôi
   
-  
-  
+#### Để có thể build app trên máy Macbook khác (trường hợp dùng 2 Macbook hay khi làm team)
+  - Export tài khoản XCode và sau đó Import vào XCode trên những máy khác => Các máy sẽ giống hệt nhau về signing certificate và provisioning profiles
+  
   
   
   
