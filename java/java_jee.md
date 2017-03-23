@@ -1,4 +1,4 @@
-#Java EE
+## Java EE
 
 http://docs.oracle.com/javaee/6/tutorial/doc/giqsx.html#gkcaw
 
@@ -36,7 +36,7 @@ public class GreetingServlet extends HttpServlet {
 
 => http://localhost:8080/hello2/greeting
 
-#The diffrent betwween Java web (Compiled) and Ruby-PHP-Nodejs (Script Language Web)
+# The diffrent betwween Java web (Compiled) and Ruby-PHP-Nodejs (Script Language Web)
 
   - The **Script languagle** will be execute the source at run time (Have no compile time).
   - The **Compiled languagle** will be compiled first, after that system will execute the ***conpiled code*
@@ -71,4 +71,4 @@ public class GreetingServlet extends HttpServlet {
   
 
 
-  ####=>>>>>>>> JAVA WEB MUST BE COMPILED BEFORE RUN **(classes = src + compile)**
+  #### =>>>>>>>> JAVA WEB MUST BE COMPILED BEFORE RUN **(classes = src + compile)**
