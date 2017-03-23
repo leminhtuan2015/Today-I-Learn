@@ -64,7 +64,9 @@
     ```
     - step 2: In the ***Indentity Inspector*** you can change the custom class to ***MyViewController***
 
-
+ - Custom Class:
+   - ViewController object in Storyboard <- ***UIViewController***
+   - ViewController object in Storyboard <- MyViewController <- ***UIViewController***
 
 
 
