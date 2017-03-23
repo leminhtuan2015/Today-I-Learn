@@ -1,4 +1,4 @@
-##*Câu hỏi*
+## *Câu hỏi*
 #### 1. Typesafe Inc.
 #### 2. Có ranh giới giữa Scala và Java ?
 #### 3. SBT (Scala build tool).
@@ -10,7 +10,7 @@
 #### 9. Sử dụng thư viện của java trên Maven reposite cho Scala
 #### 10 .Thanks
 
-##*Trả lời*
+## *Trả lời*
 ### 1. Typesafe Inc.
 - `Typesafe Inc` Là công ty xây dựng ra Scala language (https://www.typesafe.com/)
 - Cũng đồng thời là công ty tạo ra `Play framework`
@@ -30,17 +30,17 @@
     + Có thể Sử dụng toàn bộ thư viện trên `Maven repository` trong Scala app.
     
 ### 3. SBT (Scala build tool).
-####*What is SBT ?*
+#### *What is SBT ?*
   - SBT là một open-source tool cho Scala và Java project
   - SBT tương tự
     + Maven - Java
     + Ant - Java
     + Make - Linux
-####*What is it use for ?*
+#### *What is it use for ?*
   - SBT dùng để build ra một project Scala/Java
   - SBT quản lý các thư viện trong một project Scala/Java (tương tự bundle-ruby)
 
-####*Install SBT*
+#### *Install SBT*
 
 ```shell
   echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
@@ -48,7 +48,7 @@
   sudo apt-get update
   sudo apt-get install sbt
 ```
-####*How to use ?*
+#### *How to use ?*
   - SBT cho pháp định nghĩa ra một mô tả về project trong file `build.sbt`
   - Chạy project, test, build, compile ...., Manage library.
   - Tạo một project Scala bằng sbt
@@ -66,7 +66,7 @@
     cấu trúc của 1 project (project layout folder)
     mà ta phải tạo bằng tay, thằng sbt nó dùng để chạy, build, test, quản lý thư viện.....
 
-####*Cú pháp một file .stb*
+#### *Cú pháp một file .stb*
 
 ```scala
 // Set the project name to the string "my-project" and the version to 1.0.0.
@@ -82,14 +82,14 @@ libraryDependencies ++= Seq(
 )
 ```
 
-####*SBT Commands*
+#### *SBT Commands*
 - `sbt clean` : Deletes all generated files (in the target directory).
 - `sbt compile` : Compiles the main sources (in src/main/scala and src/main/java directories).
 - `sbt run` : Runs the main class for the project in the same virtual machine as sbt.
 - `sbt console` : tarts the Scala interpreter with a classpath including the
   compiled sources and all dependencies
 
-####*SBT with libraries (libraryDependencies)*
+#### *SBT with libraries (libraryDependencies)*
 - Khi muốn dùng một thư viện nào đó ta sẽ khai báo thư viện muốn dùng trong file `build.sbt`
 
 ```scala
@@ -109,14 +109,14 @@ libraryDependencies ++= Seq(
   - `activator` : Base trên `sbt`
     + Tương tự như `rails new` trong Rails framework ta có : `activator new` trong Play
 
-####*Install*
+#### *Install*
   + step 1: Dowload from > https://www.typesafe.com/get-started
   + step 2: Sau khi nhận được 1 thư mục activator sẽ chứa một file `activator`
   + Để sử dụng ta sẽ buildpath vào .bashrc để dừng ở mọi nơi (nếu không mỗi khi dùng
     activator ta sẽ phải trỏ vào tận link tuyệt đối của
     file chứa activator.)
 
-####*How to use :*
+#### *How to use :*
   + activator new => create a play project  (rails new)
   + activator run => run a project Play     (rails server)
   + activator shell  => interact with project by terminal (rails console gọi irb)  
@@ -204,9 +204,9 @@ object Hello{
 ```
 
 ### 8. Future trong scala.
-####*Future Non-blocking scala*
+#### *Future Non-blocking scala*
 
-#####*Khái niệm*
+##### *Khái niệm*
 - Future trong scala cung cấp cơ chế `non-blocking` xử lý song song
 - Mục đích cỦa Future : For the sake of performance and speed.
 - Như List là đối tượng để lưu nhiều phần tử thì Future là một đối tượng để
@@ -219,7 +219,7 @@ object Hello{
 - Future hoạt động như một Thread, Một khi có một future đc khởi tạo thì có  thể
   coi một thread mới đc khởi tạo và chạy độc lập với Main thread.
 
-#####*Khởi tạo một Future*
+##### *Khởi tạo một Future*
 - Future thuộc : `scala.concurrent.Future`
 - import scala.concurrent package to make the type Future and the construct Future visible
 - Khi nào cần khởi tạo một Future:
@@ -277,7 +277,7 @@ object Hello {
 
 - ###*Vậy để non-blocking một tiến trình nào đó ta chỉ cần bọc nó trong một Future*
 
-####*Future workflow*
+#### *Future workflow*
 - Cách thức hoạt động một Future như nào
 
 - Khi trình biên dịch (JVM) đọc đoạn code bên dưới thì nó tạo ra một thread mới
@@ -302,7 +302,7 @@ val f: Future[Boolean] = Future {
 ```
 
 
-####*Future callback*
+#### *Future callback*
 - Vậy ta đã có thể lập trình non-blocking cho những hàm long-time, và ta sẽ phải
   suy nghĩ là vậy quản lý việc trả lại kết quả của một Future như nào ???
 - Future có một khái niệm là `callbacks` : Hàm callbacks sẽ được tự động trigger khi Future complete.
@@ -337,10 +337,10 @@ object Hello {
 }
 ```
 
-###*Future Blocking scala*
+### *Future Blocking scala*
 - Như đã nói ở phần trên :
 
-#####*Future hoạt động như một Thread, tiến trình đc bọc trong Future đc chạy
+##### *Future hoạt động như một Thread, tiến trình đc bọc trong Future đc chạy
   bằng một Thread đọc lập với main Thread và trả về kết quả bằng callback.*
 
 - Vậy nhưng cũng có nhiều trường hợp ta phải cần đến `Blocking` (Tuần tự) và để
@@ -403,8 +403,8 @@ java.util.concurrent.TimeoutException: Futures timed out after [1 nanosecond]
 
 ### 9. Sử dụng thư viện của java trên Maven reposite cho Scala
 
-####*Maven Central Reposite*
-####*Maven*
+#### *Maven Central Reposite*
+#### *Maven*
 - Giống như:
   + activator : Play  (built.sbt)
   + sbt : Scala  (built.sbt)
@@ -449,5 +449,3 @@ java.util.concurrent.TimeoutException: Futures timed out after [1 nanosecond]
 ```scala
 libraryDependencies += "redis.clients" % "jedis" % "2.4.2"
 ```
-###*Thanks*
-- Please leave a comment so that i can better myself.
