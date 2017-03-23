@@ -16,32 +16,27 @@
    - if you remove connection ***@IBOutlet/@IBAction*** in Controller Xcode will ***NOT*** remove this connection in  StoryBoard XML source code so you have to do it yourself.
    
  ```xml
- <!--SignupViewControler-->
-        <scene sceneID="3sL-BV-g2H">
-            <objects>
-                <viewController storyboardIdentifier="SignupViewController" id="Wsg-xS-efC" customClass="SignupViewController" customModule="FujiSDK" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QWe-qS-mKa"/>
-                        <viewControllerLayoutGuide type="bottom" id="PAx-cE-dcG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ra1-sQ-5Aa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" >
-                            </textField>
-                        </subviews>
-                        <constraints>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="imageLogo" destination="8V1-VF-Ajs" id="aFM-Zy-g4j"/>
-                    </connections>
-                </viewController>
-            </objects>
-        </scene>
-
- 
+   <scene sceneID="3sL-BV-g2H">
+       <objects>
+           <!-- 1: VIEW CONTROLLER -->
+           <viewController id="Wsg-xS-efC" customClass="SignupViewController" customModule="FujiSDK">
+               <layoutGuides>
+                   <viewControllerLayoutGuide type="top" id="QWe-qS-mKa"/>
+               </layoutGuides>
+               <view key="view" contentMode="scaleToFill" id="ra1-sQ-5Aa">
+                   <subviews>
+                       <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" >
+                       </textField>
+                   </subviews>
+                   <constraints>
+                   </constraints>
+               </view>
+               <connections>
+                   <outlet property="imageLogo" destination="8V1-VF-Ajs" id="aFM-Zy-g4j"/>
+               </connections>
+           </viewController>
+       </objects>
+   </scene>
  ```
  
 #### Storyboard Custom Class
