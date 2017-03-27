@@ -17,5 +17,5 @@
   
 ### Build CMS from Cloud Database and Cloud Hosting
   - Cloud Hosting can run ***Javascript code*** (it is javascript and html server)
-  - Cloud Database have a Javascript sdk
+  - Cloud Database have a ***Javascript sdk***
   - => We can create a CMS by ***Cloud Hosting and Cloud Database***
