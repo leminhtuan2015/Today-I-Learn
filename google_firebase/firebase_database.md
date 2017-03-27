@@ -5,28 +5,30 @@
 ### Firebase Database
 
 #### Detecting Connection State (Check online/offline)
-- Firebase clients provide a special location at /.info/connected which is updated every time the client's connection state changes. Here is an example: 
+- Firebase clients provide a special location at ***/.info/connected*** which is updated every time the client's connection state changes. Here is an example: 
 
 ```js
-	var connectedRef = FirebaseComment.mainApp.database().ref(".info/connected");
-	connectedRef.on('value', function(snap) {
-		  if (snap.val() === true) {
-			  console.log("YOU ARE ON-LINE")
-		  }else{
-			  console.log("YOU ARE OFF-LINE")
-		  }
-		});
+var connectedRef = FirebaseComment.mainApp.database().ref(".info/connected");
+
+connectedRef.on('value', function(snap) {
+  if (snap.val() === true) {
+	  console.log("YOU ARE ON-LINE")
+  }else{
+	  console.log("YOU ARE OFF-LINE")
+  }
+});
 ```
 OR 
 ```js
-	var connectedRef = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com/.info/connected");
-	connectedRef.on("value", function(snap) {
-	  if (snap.val() === true) {
-	    alert("connected");
-	  } else {
-	    alert("not connected");
-	  }
-	});
+var connectedRef = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com/.info/connected");
+
+connectedRef.on("value", function(snap) {
+  if (snap.val() === true) {
+    alert("connected");
+  } else {
+    alert("not connected");
+  }
+});
 ```
 
 #### Read data from database. (register on data changed)
@@ -42,11 +44,11 @@ OR
   - once() = on() + off()
   
 ```js
-	firebaseRef.once('value', function (dataSnapshot) {
-	  // code to handle new value
-	}, function (err) {
-	  // code to handle read error
-	});
+firebaseRef.once('value', function (dataSnapshot) {
+  // code to handle new value
+}, function (err) {
+  // code to handle read error
+});
 ```
 
 #### Stop listening location on server.
@@ -54,19 +56,19 @@ OR
   - Remove listeners registered on data nodes
 
 ```js
-    // Stop listening the node on server.
-    FirebaseComment.mainApp.database().ref("url/to/node").off("value");
+  // Stop listening the node on server.
+  mainApp.database().ref("url/to/node").off("value");
 ```
 
 Or
 
 ```js
-	currentConnection = FirebaseComment.mainApp.database().ref("url").on("value",
-	    function(dataSnapshot) {
-		console.log("value changed ON view" + JSON.stringify(dataSnapshot.val()));
-	});		
-	
-	FirebaseComment.mainApp.database().ref("url/to/node").off("value", currentConnection);
+currentConnection = mainApp.database().ref("url").on("value",
+    function(dataSnapshot) {
+	console.log("value changed ON view" + JSON.stringify(dataSnapshot.val()));
+});		
+
+mainApp.database().ref("url/to/node").off("value", currentConnection);
 ```
 
 ### Write data (insert data to server)
@@ -75,40 +77,40 @@ Or
 
 #### Set an object
 ```js
-	FirebaseComment.mainApp.database().ref("url/to/node").set({key1: value1, key2: value2},
-		    function(error) {
-			  if (error) {
-			      console.log('Synchronization failed storeData');
-			  } else {
-			      console.log('Synchronization succeeded storeData' + 
-			  }
-		});
+FirebaseComment.mainApp.database().ref("url/to/node").set({key1: value1, key2: value2},
+function(error) {
+  if (error) {
+      console.log('Synchronization failed storeData');
+  } else {
+      console.log('Synchronization succeeded storeData' + 
+  }
+});
 ```
 
 OR
 
 #### Set a value
 ```js
-	FirebaseComment.mainApp.database().ref("url/to/node").set(value,
-		    function(error) {
-			  if (error) {
-			      console.log('Synchronization failed storeData');
-			  } else {
-			      console.log('Synchronization succeeded storeData' + 
-			  }
-		});
+FirebaseComment.mainApp.database().ref("url/to/node").set(value,
+function(error) {
+  if (error) {
+      console.log('Synchronization failed storeData');
+  } else {
+      console.log('Synchronization succeeded storeData' + 
+  }
+});
 ```
 ### Remove data (delete a data node)
 
 ```js
-	FirebaseComment.mainApp.database().ref("url/to/node").remove(
-		function(error) {
-			  if (error) {
-			      console.log('Synchronization failed unview');
-			  } else {
-			      console.log('Synchronization succeeded unview');
-			  }
-		});
+FirebaseComment.mainApp.database().ref("url/to/node").remove(
+function(error) {
+  if (error) {
+      console.log('Synchronization failed unview');
+  } else {
+      console.log('Synchronization succeeded unview');
+  }
+});
 ```
 
 ### Dis-connection
@@ -139,9 +141,3 @@ OR
 ## Update/Set Multiple Record In Table With Firebase
 
   - Each **Location** is the same a **Table** in SQL => We can update **Multiple** object in a table.
-  - For example:
-  
-  ```xml
-        
-  
-  ```  
