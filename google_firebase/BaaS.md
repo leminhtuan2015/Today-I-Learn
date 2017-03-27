@@ -10,5 +10,5 @@
   - BaaS reduces a development team’s need to construct complex backend infrastructure
   - Each BaaS provider a different set of backend tools and resources.
 
-### ### Platform as a service (PaaS)
+### Platform as a service (PaaS)
   - Platform as a service (PaaS) is a category of ***cloud computing services*** that provides a platform allowing customers to develop, run, and manage applications ***without the complexity of building and maintaining the infrastructure***
