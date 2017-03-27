@@ -3,6 +3,10 @@
 
 --------
 
+### Technically minded
+  - For those less technically minded, here's the analogy I use... If you want a sofa, you can certainly go to Home Depot, buy the wood, buy nails, buy a hammer, etc... and build a sofa. Or you could go to Ikea, get the pieces and have the satisfaction of "building" a sofa, with much of the hard work done.
+  - If you value your time and don't want to re-solve problems that are already solved, go with a mBaaS
+
 ### Backend as a service (BaaS)
   - Mobile backend as a service (MBaaS), also known as "backend as a service" (BaaS)
   - BaaS providing a way to link ***their applications*** to ***backend cloud storage***
