@@ -1,5 +1,5 @@
 
-### Android, IOS, Web code VIEW
+### Android, IOS, Web code VIEW (HTML, XML)
 ### Render VIEW (render html, xml)
 -----------------------------
 
