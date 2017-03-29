@@ -22,3 +22,13 @@
   - Android, IOS render ***XML*** view by ***OS***
   - In IOS Storyboard/NIB is a XML file
   - ***XML*** is the static views, if we want ***create/insert/remove/move*** views at run-time we need to code programmatically (Code in Activity/ViewController)
+  
+    ```java
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+          super.onCreate(savedInstanceState);
+          setContentView(R.layout.activity_change_password);
+
+          // activity_change_password => the XML file
+        }
+    ```
