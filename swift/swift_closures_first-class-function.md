@@ -1,12 +1,13 @@
 ### Closure Expression Syntax
 ### Closure use for callback
+### Swift first-class function
+### Function is the special case of **Closure**
 
 --------------------------------------
 
 ### Closure Expression Syntax
 
 - Closure is block of code that can pass to a function as an agrument
-
   ```swift
   { (parameters) -> return type in
       statements
@@ -16,10 +17,10 @@
 - **Function** is the special case of **Closure**
 
 ### Closure use for callback
-- Example closure for callback
+  - We can pass functions as parameter
+  - Example closure for callback
 
 ```swift
-
     class A {
       class func show(callback: @escaping () -> Void = {}){
           callback()
@@ -61,3 +62,22 @@
    }
 
 ```
+
+### Swift first-class function
+  - In swift Function are a first-class type
+  - We can pass functions as parameters
+
+```swift
+  func functionA() {
+      println("Hello by functionA")
+  }
+
+  func executeFunction(function: () -> ()) {
+      function()
+  }
+
+  executeFunction(functionA)
+```
+
+### Function is the special case of **Closure**
+  - Function is the special case of **Closure**
