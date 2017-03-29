@@ -36,6 +36,7 @@
   #### CHÚ Ý:
     - Browser sẽ thực thi mã HTML. CSS, JS line by line, từ trên xuống => Nên đặt code JS ở dưới mã HTML, Vì nếu code JS đặt trước HTML mà JS lại có truy xuất đến các Views HTML thì lúc JS sẽ không tìm thấy các Views đó (Browser chưa render ra)
     
+    
     ```html
       <div id="div_id"> Hello </div>
       
