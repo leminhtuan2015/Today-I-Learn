@@ -12,7 +12,7 @@
   - Web render view ***HTML*** by ***Browser***
   - ***HTML*** is the static views, if we want ***create/insert/remove/move*** views at run-time we have to use ***Javascript***
   - ***Javascript*** can ***create/insert/remove/move*** a view for Web at run-time
-  - ***Browser render view: *** Browser will execute all HTML and Javascript code line by line form top to bottom => We should place Javascript code below HTML code 
+  - ***Browser render view:*** Browser will execute all HTML and Javascript code line by line form top to bottom => We should place Javascript code below HTML code 
   
   ```html
     $("#div_id") // will not work if you place it before <div id="div_id">
