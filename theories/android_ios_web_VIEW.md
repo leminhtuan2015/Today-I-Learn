@@ -9,7 +9,7 @@
 
 ### Render VIEW (render html, xml)
   - ***Web***
-    - Web render view HTML by ***Browser***
+    - Web render view ***HTML*** by ***Browser***
     
   - ***Android, IOS***
-    - Android, IOS render view by ***OS***
+    - Android, IOS render ***XML*** view by ***OS***
