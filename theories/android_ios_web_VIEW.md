@@ -47,9 +47,9 @@
     // vì nó chưa được Browser render lên
    ```
    - ***Android / IOS***  khi đi vào mỗi màn hình: sẽ render code XML của màn hình đó đầu tiên trước khi làm bất kỳ điều gì khác, => ta hoàn toàn có thể:
-      - ***remove/move*** Views đã có trong XML
-      - ***create/insert*** Views mới vào trong XML
-      - Hình dung màn hình là 1 ***Canvas***, XML/HTML là mô tả vị trí các Views trong Canvas (XML/HTML là static view), sau đó ta code thể ***programmatically coding by Java/Swift*** để ***create/insert/remove/move/update*** views vào Canvas
+     - ***remove/move*** Views đã có trong XML
+     - ***create/insert*** Views mới vào trong XML
+     - Hình dung màn hình là 1 ***Canvas***, XML/HTML là mô tả vị trí các Views trong Canvas (XML/HTML là static view), sau đó ta code thể ***programmatically coding by Java/Swift*** để ***create/insert/remove/move/update*** views vào Canvas
    
   
   
