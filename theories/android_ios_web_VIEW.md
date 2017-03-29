@@ -34,7 +34,7 @@
     }
   ```
   #### CHÚ Ý:
-    - ***Browser*** sẽ thực thi code HTML, CSS, JS line by line, từ trên xuống => Nên đặt code JS ở dưới mã HTML, Vì nếu code JS đặt trước HTML mà JS lại có truy xuất đến các Views HTML thì lúc JS sẽ không tìm thấy các Views đó (Browser chưa render ra)
+   - ***Browser*** sẽ thực thi code HTML, CSS, JS line by line, từ trên xuống => Nên đặt code JS ở dưới mã HTML, Vì nếu code JS đặt trước HTML mà JS lại có truy xuất đến các Views HTML thì lúc JS sẽ không tìm thấy các Views đó (Browser chưa render ra)
     
   ```html
     <div id="div_id"> Hello </div>
@@ -46,7 +46,7 @@
     // Nếu script đặt trước đoạn render thẻ div thì $("#div_id") sẽ không tìm được thẻ cần tìm 
     // vì nó chưa được Browser render lên
    ```
-    - ***Android / IOS***  khi đi vào mỗi màn hình: sẽ render code XML của màn hình đó đầu tiên trước khi làm bất kỳ điều gì khác, => ta hoàn toàn có thể
+   - ***Android / IOS***  khi đi vào mỗi màn hình: sẽ render code XML của màn hình đó đầu tiên trước khi làm bất kỳ điều gì khác, => ta hoàn toàn có thể:
       - ***remove/move*** Views đã có trong XML
       - ***create/insert*** Views mới vào trong XML
       - Hình dung màn hình là 1 ***Canvas***, XML/HTML là mô tả vị trí các Views trong Canvas (XML/HTML là static view), sau đó ta code thể ***programmatically coding by Java/Swift*** để ***create/insert/remove/move/update*** views vào Canvas
