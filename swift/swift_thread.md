@@ -27,8 +27,7 @@
   }
 
  // Other way (with libs) ----------------------------------------------------
-   
-   
+      
   Async.background {
   // Create a background thread and execute longtime-tasks // 
       self.copyDatabaseFiles()
