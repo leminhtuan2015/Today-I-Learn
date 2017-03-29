@@ -3,8 +3,8 @@
 --------
 
 ### What is MVC?
-### The `Web controller` layer -VS- `Application controller` layer
-### Life of `Web controller` layer and `Application controller` layer
+### The controller of Web and controller of Application
+### Life of controller of Web and controller of Application
 ### Example Android Activity (as controller)
 
 -------
@@ -47,7 +47,6 @@
    - After the request done (User receives the response) **Web Container** will delete that **instance** to save disk-memory
   
 #### Life Circle Of **Android Controller** (`Activity`)
-
    - Controller of App is manage by **Opera System (OS)**
    - When user open one sence **OS** will create **a new Activity** that mean: Create **a new instance of the Activity**
 
