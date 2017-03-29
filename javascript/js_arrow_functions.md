@@ -16,6 +16,27 @@
      
   ```
 
-```js
-  var f = () => { console.log("Hello")};
-```
+  ```js
+    var f = function(){
+        console.log("Hello")
+    }
+    
+    equivalent to:
+
+    var f = () => { 
+        console.log("Hello")
+    }
+  ```
+  
+  ```js
+  app.post('/add-item', (req, res) => {
+
+  });
+
+  equivalent to:
+
+  app.post('/add-item', function(req, res) {
+
+  });
+  
+  ```
