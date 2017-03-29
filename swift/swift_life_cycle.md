@@ -1,5 +1,8 @@
 
-## The App Life Cycle  - Execution States for Apps
+### The App Life Cycle  - Execution States for Apps
+### ViewDidLoad - ViewWillAppear - ViewDidAppear
+
+--------------
 
   - **Not running :**
     - The app has not been launched or was running but was terminated by the system.
@@ -20,4 +23,6 @@
     - While suspended, an app remains in memory but does not execute any code.
     - When a low-memory condition occurs, the system may purge suspended apps without notice to make more space for the foreground app.
 
-## The Life Cycle Of ViewControllers
+### ViewDidLoad - ViewWillAppear - ViewDidAppear
+  - ViewDidLoad: Call only one time in NavigationViewController (it not be call when click back in NavigationViewController)
+  - ViewWillAppear - ViewDidAppear: Call each time view render
