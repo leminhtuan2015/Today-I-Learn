@@ -79,5 +79,19 @@
   executeFunction(functionA)
 ```
 
+```swift
+  func hello(){
+    println("Hello haha")
+  }
+  
+  var x = hello
+  
+  hello()  //  Hello haha
+  x()      //  Hello haha
+  
+  
+
+```
+
 ### Function is the special case of **Closure**
   - Function is the special case of **Closure**
