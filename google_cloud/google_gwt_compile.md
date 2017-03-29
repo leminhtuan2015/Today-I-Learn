@@ -1,11 +1,11 @@
-#1. GWT tools
+# 1. GWT tools
 - gwt-dev.jar
   - com.google.gwt.dev.DevMode
   - com.google.gwt.dev.Compiler
 
-#2. Create build.xml for ant 
+# 2. Create build.xml for ant 
 
-###Step 1: Create build.xml file.
+### Step 1: Create build.xml file.
 
 ```xml
   <?xml version="1.0"?>
@@ -14,14 +14,14 @@
   </project>
 ```
 
-###Step 2: Add a property for the GWT SDK directory.
+### Step 2: Add a property for the GWT SDK directory.
 
 ```xml
   <!-- Configure path to GWT SDK -->
   <property name="gwt.sdk" location="_Path to GWT_SDK" />
 ```
 
-###Step 3: Add a property for a GWT tools class path.
+### Step 3: Add a property for a GWT tools class path.
 ```xml
   <path id="project.class.path">
     <pathelement location="war/WEB-INF/classes"/>
@@ -32,7 +32,7 @@
   </path>
 ```
 
-###Step 4: Modify the “libs” ant target so that the required jar files are copied to WEB-INF/lib.
+### Step 4: Modify the “libs” ant target so that the required jar files are copied to WEB-INF/lib.
 ```xml
   <target name="libs" description="Copy libs to WEB-INF/lib">
     <mkdir dir="war/WEB-INF/lib" />
@@ -40,7 +40,7 @@
   </target>
 ```
 
-###Step 5: Compile .java to .class file
+### Step 5: Compile .java to .class file
 
 ```xml
   <target name="javac" depends="libs" description="Compile java source">
@@ -57,7 +57,7 @@
   </target>
 ```
 
-###Step 6: Modify the “devmode” ant target to use the App Engine development server instead of the servlet container which comes with GWT.
+### Step 6: Modify the “devmode” ant target to use the App Engine development server instead of the servlet container which comes with GWT.
 ```xml
   <target name="devmode" depends="javac" description="Run development mode"">
     <java failonerror="true" fork="true" classname="com.google.gwt.dev.DevMode"">
@@ -76,7 +76,7 @@
   </target>
 ```
 
-###Step 7: Compile Java to JavaScript
+### Step 7: Compile Java to JavaScript
 
 ```xml
     <!-- Invoke the GWT compiler to create the Javascript for us -->
@@ -97,7 +97,7 @@
 ```
 
 
-#NOTICE
+# NOTICE
 
 ```xml
 <target name="devmode" depends="javac" description="Run development mode">
@@ -115,8 +115,7 @@ java -Xmx256M -cp "src;war/WEB-INF/classes;\gwt-2.0.0\gwt-user.jar;\gwt-2.0.0\gw
 
 
 
-#=>
-BUILD FILE COMPLETED
+# => BUILD FILE COMPLETED
 
 build.xml
 ```xml
