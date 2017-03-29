@@ -29,8 +29,7 @@
   - Each **Controller** have one **View** to render that view
   - Each **Controller** mainly manage one **Model**
 
-  
-### `Web controller` layer -VS- `Application controller` layer
+### The controller of Web and controller of Application
   - Web controller layer
      - In RoR **Controller** that is controller folder
     
@@ -38,7 +37,7 @@
      - In Android the **Controller** is `Activity`
      - In IOS  **Controller** is `ViewController`
      
-### Life of `Web controller` layer and `Application controller` layer
+### Life of controller of Web and controller of Application
 
 #### Life Circle Of **Web Controller** (`Controller`)
 
