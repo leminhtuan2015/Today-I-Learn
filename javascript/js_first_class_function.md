@@ -13,4 +13,14 @@
   var myFunction = function namedFunction(){
       statements
   }
+  
+  myFunction()
+```
+
+```js
+  var y = function() {
+      console.log("1")
+  }
+
+  y()
 ```
