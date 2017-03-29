@@ -67,8 +67,33 @@
  - Custom Class:
    - ViewController object in Storyboard <- ***UIViewController***
    - ViewController object in Storyboard <- MyViewController <- ***UIViewController***
+  
+#### How `Storyboard` works?
+  - Step 1: Mapping one view object to the ID
+  - Step 2: Connection the ID of object to a variable
+  
+  - Example:
+    - Step 1: TextField -> id = mBm-wv-l6k1
+    - Step 2: var txt -> mBm-wv-l6k1
+    - => var txt -> TextField
+    - The same `findElementById` of `Android`
 
-
+```xml
+    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+        <subviews>
+            <!--TEXT FIELD is assigned to an random ID-->
+            <textField id="mBm-wv-l6k1">
+                <rect key="frame" x="119" y="180" width="97" height="30"/>
+            </textField>
+        </subviews>
+    </view>
+    
+    <!--CONNECTION-->
+    <connections>
+        <!-- Connect the variable name to a ID-->
+        <outlet property="txt1" destination="mBm-wv-l6k" id="R8q-gZ-9HS"/>
+    </connections>
+```
 
 
 
