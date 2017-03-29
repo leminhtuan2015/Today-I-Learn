@@ -21,8 +21,8 @@
 #### ***Android, IOS*** -> XML
   - Android, IOS render ***XML*** view by ***OS***
   - In IOS Storyboard/NIB is a XML file
-  - ***XML*** is the static views, if we want ***create/insert/remove/move*** views at run-time we need to code programmatically (Code in Activity/ViewController)
-  - Android and IOS will render XML code before any logic code, we can ***create/insert/remove/move*** in XML by programmatically
+  - ***XML*** is the static views, if we want ***create/insert/remove/move/update*** views at run-time we need to code programmatically (Code in Activity/ViewController)
+  - Android and IOS will render XML code before any logic code, we can ***create/insert/remove/move/update*** in XML by programmatically
   
   ```java
     @Override
@@ -46,8 +46,21 @@
     // Nếu script đặt trước đoạn render thẻ div thì $("#div_id") sẽ không tìm được thẻ cần tìm 
     // vì nó chưa được Browser render lên
    ```
-    - ***Android / IOS***  sẽ render code XML đầu tiên trước bất kỳ 
+    - ***Android / IOS***  khi đi vào mỗi màn hình: sẽ render code XML của màn hình đó đầu tiên trước khi làm bất kỳ điều gì khác, => ta hoàn toàn có thể 
+      - ***remove/move*** Views đã có trong XML 
+      - ***create/insert*** Views mới vào trong XML
+      - Hình dung màn hình là 1 ***Canvas***, XML/HTML là mô tả vị trí các Views trong Canvas (XML/HTML là static view), sau đó ta code thể ***programmatically coding by Java/Swift*** để ***create/insert/remove/move/update*** views vào Canvas
    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
