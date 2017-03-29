@@ -5,8 +5,8 @@
 - Functional p
 - https://github.com/ReactiveCocoa/ReactiveCocoa
 
-https://developer.mozilla.org/en-US/
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+- https://developer.mozilla.org/en-US/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
 
 
