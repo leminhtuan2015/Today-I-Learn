@@ -8,8 +8,8 @@
   - ***Android and IOS*** code VIEW by ***XML code***
 
 ### Render VIEW (render html, xml)
-  - ***Web***
+  - ***Web*** -> HTML
     - Web render view ***HTML*** by ***Browser***
     
-  - ***Android, IOS***
+  - ***Android, IOS*** -> XML
     - Android, IOS render ***XML*** view by ***OS***
