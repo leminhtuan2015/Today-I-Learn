@@ -1,5 +1,5 @@
 ### First-class function
-### Function type in 
+### Function type in Javascript
 ### Javascript support First-class function
 
 -------------------------------
@@ -7,7 +7,7 @@
   - Function are treated like ordinary variables 
   - The language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures
 
-### Function type in 
+### Function type in Javascript
   - We have Function type for variable in Javascript
   
 ```js
