@@ -1,14 +1,14 @@
 
 ### Android, IOS, Web code VIEW (HTML, XML)
-### Render VIEW (render html, xml)
+### Web Render VIEW (render html)
+### Android, IOS Render VIEW (render xml)
 -----------------------------
 
 ### Android, IOS, Web code VIEW
   - ***Web*** code VIEW by ***HTML code***
   - ***Android and IOS*** code VIEW by ***XML code***
 
-### Render VIEW (render html, xml)
-#### ***Web*** -> HTML
+### Web Render VIEW (render html)
   - Web render view ***HTML*** by ***Browser***
   - ***HTML*** is the static views, if we want ***create/insert/remove/move*** views at run-time we have to use ***Javascript***
   - ***Javascript*** can ***create/insert/remove/move*** a view for Web at run-time
@@ -18,7 +18,8 @@
     $("#div_id") // will not work if you place it before <div id="div_id">
   ```
     
-#### ***Android, IOS*** -> XML
+### Android, IOS Render VIEW (render xml)
+#### Why Android, IOS use XML to create VIEW
   - Why Android, IOS use XML to create VIEW: Because XML was designed to be ***self-descriptive***, easy to descript views
   - Android, IOS render ***XML*** view by ***OS***
   - In IOS Storyboard/NIB is a XML file
