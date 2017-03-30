@@ -5,6 +5,19 @@
 
 ### Navigation ViewController
 
+#### Navigation ViewController Important:
+  - Navigation ViewControlle ***Have NO UI itself***, It just use for ***stack other ViewControllers***
+  - If a ***Storyboard Entry Point*** point to a NavigationViewController then its the top ViewController will be rendered.
+  - Example:
+  
+  ```swift
+  
+  ->NavigationController [ViewController1 -> ViewController2 -> ViewController3]
+  
+  The screen will render the top view in stack NavigationController
+  
+  ```
+
   - Navigation ViewController: is the **stack** to store many ViewController
   - A **navigation controller** manages **transitions backward and forward** through a **series of view controllers**
   - We use the terms **push** and **pop** a lot to talk about stacks => in **Navigation ViewController** we will **push** or **pop** a ViewController to present a ViewController
