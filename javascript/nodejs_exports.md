@@ -26,14 +26,13 @@
 
     return module.exports;
 ```
- - Bất kì một file code nào khi được dịch thì toàn bộ đoạn code của file đó sẽ được đặt ở phần `// your code` như ví dụ trên. Nghĩa là nodejs tự động chèn thêm 2 dòng
-   + `var module = { exports: {} };`
-   + `var exports = module.exports;`
-  ở phía đầu file.
+ - Bất kì một file code nào khi được dịch thì toàn bộ đoạn code của file đó sẽ được đặt ở phần `// your code` như ví dụ trên. Nghĩa là nodejs tự động chèn thêm 2 dòng sau ở phía đầu file.
+   - `var module = { exports: {} };`
+   - `var exports = module.exports;` 
   
-  và dòng
-  + `return module.exports;` 
-  ở cuối file
+ - Và dòng sau được chèn ở cuối file
+   - `return module.exports;` 
+  
  
  
  - `return module.exports;` : module.exports là một object, object này được return ở cuối của mọi file trong nodejs, vậy object này trả về cho ai, trả về khi nào
@@ -41,25 +40,23 @@
 
  - `require("path/to/file/abc.js")` : nhận về object `module.exports` được trả lại trong file abc.js
 
-- `x` là một object được gán bằng object `module.exports`
+ - `x` là một object được gán bằng object `module.exports`
 
-- Bằng cách làm như trên của Nodejs, mỗi file js có để được object hóa hoàn toàn, lúc này ta có thể coi mỗi file .js như một object với những thuộc tính và function riêng, đảm nhiệm một chức năng riêng, sau đó gọi và sử dụng các object này bằng cách require()
+ - Bằng cách làm như trên của Nodejs, mỗi file js có để được object hóa hoàn toàn, lúc này ta có thể coi mỗi file .js như một object với những thuộc tính và function riêng, đảm nhiệm một chức năng riêng, sau đó gọi và sử dụng các object này bằng cách require()
 
 
 
-**Demo:**
+#### Example
  - Tạo một file có tên test.js
 
 ```js
     \\create a file with name is test.js
     
     var name = "Tuan LM";
-
     var getName = function(){
       return name
     }
-
-
+    
     module.exports.name = name;        // add thêm vào object module.exports biến name
     module.exports.getName = getName;  // add thêm vào object module.exports hàm getName
 ```
@@ -79,17 +76,14 @@ var name = "Tuan LM";
 var getName = function(){
   return name
 }
-
 ```
 
 => Kết quả khi require() file test.js mà file này k gán giá trị vào biến `module.exports`: => Kết quả sẽ là một object rỗng
 
 #### exports, module.exports
  - Câu hỏi: `Đã có module.exports rồi và khi require một file ta cũng chỉ nhận lại được object module.exports vậy thế exports sinh ra với mục đích gì?`
-
-=> Trả lời em cũg k hiểu tại sao nó lại đẻ ra 2 object(cùng troe vào 1 vùng nhớ) trong khi đó chỉ cần return về duy nhất object là `module.exports`.
  
-** `Chú ý khi sử dụng 2 biến module.exports và exports `**
+#### Chú ý khi sử dụng 2 biến module.exports và exports
 
   + 2 biến exports và module.exports đều cùng trỏ vào một vị trí nhớ, vì vậy khi ta add thêm trường hoặc function bằng một trong hai biến đó thì vùng nhớ A sẽ được có thêm các thành phần được add
 
