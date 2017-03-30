@@ -19,10 +19,9 @@ Answer: Depends (on your skill, taste, project needs).
 
 Question: Are there examplary libraries that can be said as primarily functional or object orientated?
 Answer: 
-  - Well, most of the libraries are like JavaScript itself in that they support multiple programming paradigms
-    - However, JQuery has a strong flavor of functional programming, 
-    - while Ext.js is a completely object oriented javascript library.
-
+  - Most of the libraries are like JavaScript itself in that they support multiple programming paradigms
+    - However, JQuery has a strong flavor of functional programming
+    - while Ext.js is a completely object oriented javascript library
 ```
 
 - Vậy nghĩa là Javascript(JS) là ngôn ngữ hỗ cả FUNCTIONAL ORIENTED, OBJECT ORIENTED và nhiều kiến trúc khác nữa.
