@@ -19,6 +19,7 @@
   ```
     
 #### ***Android, IOS*** -> XML
+  - Why Android, IOS use XML to create VIEW: Because XML was designed to be ***self-descriptive***, easy to descript views
   - Android, IOS render ***XML*** view by ***OS***
   - In IOS Storyboard/NIB is a XML file
   - ***XML*** is the static views, if we want ***create/insert/remove/move/update*** views at run-time we need to code programmatically (Code in Activity/ViewController)
