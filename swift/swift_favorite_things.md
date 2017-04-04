@@ -31,7 +31,7 @@
     }
   ```
   
-  - Call from othee swift file:
+  - Call from other swift file:
   
   ```swift
   
