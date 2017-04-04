@@ -11,6 +11,7 @@
 
     s.dependency 'Alamofire', '~> 4.4'
     s.dependency 'SwiftyJSON'
+    s.dependency 'SomeOtherPod'
 
     ......
 
