@@ -42,3 +42,14 @@
   hello() // Hello 10 20
   
   ```
+  
+#### Example entry-point
+  - Change ***AppDelegate.swift*** -> ***Main.swift***
+  - In ***Main.swift*** change ***class AppDelegate: UIResponder, UIApplicationDelegate {}*** -> ***class AppMain: UIResponder, UIApplicationDelegate {}***
+  
+  ```
+  @UIApplicationMain
+  class Hello: UIResponder, UIApplicationDelegate { 
+     ...
+  }
+  ```
