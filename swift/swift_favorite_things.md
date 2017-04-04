@@ -44,8 +44,8 @@
   ```
   
 #### Example entry-point
-  - Change ***AppDelegate.swift*** -> ***Main.swift***
-  - In ***Main.swift*** change ***class AppDelegate: UIResponder, UIApplicationDelegate {}*** -> ***class AppMain: UIResponder, UIApplicationDelegate {}***
+  - Change ***AppDelegate.swift*** ------> ***Main.swift***
+  - In ***Main.swift*** change ***class AppDelegate*** ------> ***class Hello***
   
   ```
   @UIApplicationMain
