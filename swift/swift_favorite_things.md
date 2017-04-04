@@ -47,7 +47,9 @@
   - Change ***AppDelegate.swift*** ------> ***Main.swift***
   - In ***Main.swift*** change ***class AppDelegate*** ------> ***class Hello***
   
-  ```
+  ```swift
+  // file Main.swift
+  
   @UIApplicationMain
   class Hello: UIResponder, UIApplicationDelegate { 
      ...
