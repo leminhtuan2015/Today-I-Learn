@@ -48,8 +48,22 @@
     end
 
     ```
+    
+- Step 3: From your Xcode application project
 
-- Step 3: import your pod and have fun
+  ```
+  platform :ios, '8.0'
+  use_frameworks!
+  
+  target 'FujiSDK-Test' do
+
+    pod 'Tuan', :path => '../Tuan'
+
+  end
+  ```
+
+
+- Step 4: import your pod and have fun
 
   ```
     import Tuan
