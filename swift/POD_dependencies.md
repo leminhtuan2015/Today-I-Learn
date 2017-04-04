@@ -1,6 +1,5 @@
 ### POD dependencies
-### Dynamic frameworks
-### Static libraries
+### Static vs Dynamic Frameworks (Libraries)
 ### Reject installation if a static library is used as a transitive dependency while using frameworks
 
 ---------------------------------
@@ -20,9 +19,13 @@
   end
   ```
   
-### Dynamic frameworks
-
-### Static libraries
+### Static vs Dynamic Frameworks (Libraries)
+  - Static frameworks are linked at compile time
+  - Dynamic frameworks are linked at runtime, and can be modified without relinking
+  - If you’ve ever used a non-Apple framework prior to iOS 8, you were using a static framework which was compiled into the source code of your app
+  
+  - https://pewpewthespells.com/blog/static_and_dynamic_libraries.html
+  - http://code.hootsuite.com/an-introduction-to-creating-and-distributing-embedded-frameworks-in-ios/
 
 ### Reject installation if a static library is used as a transitive dependency while using frameworks
   - Some time ***We can NOT use pod as dependency***
