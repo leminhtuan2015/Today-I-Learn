@@ -8,6 +8,7 @@
 ### Create POD library (Make your own pod)
 
 - You can use other pod in your own pod by using ***dependency***
+- After install pod you can use all source of that library by ***import***
 
 - Step 1:
 ```
