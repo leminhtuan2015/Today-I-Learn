@@ -1,1 +1,47 @@
 
+### Create POD library
+### Reject installation if a static library is used as a transitive dependency while using frameworks
+### Framework works in podfile but not in podspec
+
+--------------------------------------------------------
+
+### Create POD library
+
+- Step 1:
+```
+pod lib create [pod name]
+```
+
+- Step 2:
+
+```swift
+Pod::Spec.new do |s|
+
+  s.name          = "Tuan"
+  s.version       = "1.0.0"
+  s.summary       = "Sort description of 'FujiSDK' framework"
+  s.homepage      = "https://fujigame.net/"
+  s.license       = "MIT"
+  s.author        = "Nick D., Tuan L."
+  s.platform      = :ios, "8.0"
+  s.ios.deployment_target = '8.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+
+  s.source        = { :git => 'nami-net@nami-net.git.backlog.jp:/FJ_GAME_PF/fuji_sdk_swift.git', :tag => s.version.to_s }
+  s.source_files  = "Tuan", "Tuan/Classes/**/*", "Tuan.podspec"
+
+  s.resource_bundles = {
+    'Tuan' => ["Tuan/**/*.{lproj,storyboard,png,jpg,jpeg}"]
+  }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+
+  s.dependency 'RxSwift', '~> 3.0.1'
+  s.dependency 'Alamofire', '~> 4.4'
+
+  s.framework    = 'StoreKit'
+  # s.frameworks = 'UIKit', 'MapKit'
+  
+end
+
+```
