@@ -19,6 +19,11 @@
 
   end
   ```
+  
+### Dynamic frameworks
+
+### Static libraries
+
 ### Reject installation if a static library is used as a transitive dependency while using frameworks
   - Some time ***We can NOT use pod as dependency***
   
@@ -27,10 +32,14 @@
   
   => Will thought error
   
-  Error: target has transitive dependencies that include static binaries
+  Error: [!] The 'Pods' target has transitive dependencies that include static binaries
 
   ```
-  - You can't have static binaries that are transitive dependencies of multiple dynamic binaries, since that would lead to duplicate symbols and non-deterministic behavior.
+  
+  - Error mean: 
+    - You can't have static binaries that are transitive dependencies of multiple dynamic binaries, since that would lead to duplicate symbols and non-deterministic behavior.
+  
+    - This is intended behavior -- Google really would need to provide a dynamic framework in order for it to be usable as a transitive dependency when integrating with frameworks, exactly as the error says
   
   
   - https://github.com/CocoaPods/CocoaPods/issues/2926
