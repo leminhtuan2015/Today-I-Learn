@@ -1,6 +1,6 @@
 ### CocoaPods
-### CocoaPods as lib
-### CocoaPods as dependency
+### CocoaPods as lib (Podfile)
+### CocoaPods as dependency (.podspec)
 
 
 ------------------
@@ -16,8 +16,8 @@
   # Xcode 7 + 8
   $ sudo gem install cocoapods
   ```
-### CocoaPods as lib
-  - ***Podfile***
+### CocoaPods as lib (Podfile)
+  - ***Podfile*** : install lib to IOS application 
   
   ```
     platform :ios, '8.0'
@@ -30,8 +30,8 @@
     end
   ```
 
-### CocoaPods as dependency
-  - ***FujiSDK.podspec***
+### CocoaPods as dependency (.podspec)
+  - ***FujiSDK.podspec*** : Build your own pod lib and you can user other pod lib in your pod lib
   
   ```
       Pod::Spec.new do |s|
