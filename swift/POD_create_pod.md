@@ -5,7 +5,9 @@
 
 --------------------------------------------------------
 
-### Create POD library
+### Create POD library (Make your own pod)
+
+- You can use other pod in your own pod by using ***dependency***
 
 - Step 1:
 ```
