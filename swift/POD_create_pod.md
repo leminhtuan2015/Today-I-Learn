@@ -12,7 +12,7 @@
 pod lib create [pod name]
 ```
 
-- Step 2:
+- Step 2: Change your `.podspec` file
 
 ```swift
 Pod::Spec.new do |s|
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
-  s.dependency 'RxSwift', '~> 3.0.1'
+  s.dependency 'RxSwift', '~> 3.1.0'
   s.dependency 'Alamofire', '~> 4.4'
 
   s.framework    = 'StoreKit'
