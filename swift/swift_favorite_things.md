@@ -1,5 +1,6 @@
 
 ### Some favorite things in Swift
+### Example
 
 ----------------
 
@@ -9,8 +10,9 @@
   - File .swift can be contain class with difference name (tên class và tên file không cần giống nhau)
   - Function can be placed out of Class
   - Variable can be placed at top-level
-  - Expressions are ***NOT*** allowed at the top level (Không cho phép gọi hàm ở top level, mà phải gọi trong class/trong hàm)
-  
+  - Expressions are ***NOT*** allowed at the top level (Không cho phép gọi hàm ở top level, mà phải gọi trong class/trong hàm)
+ 
+### Example
 #### Example ***Test.swift***
 
   ```swift
