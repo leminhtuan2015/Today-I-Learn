@@ -7,8 +7,9 @@
   - Entry point is declare by ***@UIApplicationMain***
   - File .swift can be not contain any class (file swift có thể không chứa class)
   - File .swift can be contain class with difference name (tên class và tên file không cần giống nhau)
-  - Function can be placed out of function
+  - Function can be placed out of Class
   - Variable can be placed at top-level
+  - Expressions are ***NOT*** allowed at the top level (Không cho phép gọi hàm ở top level, mà phải gọi trong class/trong hàm)
   
 #### Example ***Test.swift***
 
