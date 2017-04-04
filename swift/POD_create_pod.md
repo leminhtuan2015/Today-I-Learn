@@ -1,7 +1,5 @@
 
 ### Create POD library
-### Reject installation if a static library is used as a transitive dependency while using frameworks
-### Framework works in podfile but not in podspec
 
 --------------------------------------------------------
 
