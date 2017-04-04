@@ -10,20 +10,22 @@
   - Function can be placed out of function
   - Variable can be placed at top-level
   
-  - This is ***Test.swift***
+#### Example ***Test.swift***
+
   ```swift
     import Foundation
 
-    var test = 10
+    var test = 10  // Placed at top-level 
 
+    // Function dont need to be inside class
     func hello(){
         print("Hello \(test) \(test1)")
     }
 
     var test1 = 20
 
+    // Class name and file name are NOT related 
     class A {
-
         init() {}
 
         func hello() {
