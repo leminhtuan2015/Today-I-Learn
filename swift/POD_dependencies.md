@@ -40,8 +40,7 @@
     - You can't have static binaries that are transitive dependencies of multiple dynamic binaries, since that would lead to duplicate symbols and non-deterministic behavior.
   
     - This is intended behavior -- Google really would need to provide a dynamic framework in order for it to be usable as a transitive dependency when integrating with frameworks, exactly as the error says
-  
-  
-  - https://github.com/CocoaPods/CocoaPods/issues/2926
-  - https://github.com/CocoaPods/CocoaPods/issues/3841#issuecomment-123803940
-  - https://github.com/CocoaPods/CocoaPods/issues/3729
+    
+    - https://github.com/CocoaPods/CocoaPods/issues/2926
+    - https://github.com/CocoaPods/CocoaPods/issues/3841#issuecomment-123803940
+    - https://github.com/CocoaPods/CocoaPods/issues/3729
