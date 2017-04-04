@@ -15,7 +15,8 @@
   ```swift
     import Foundation
 
-    var test = 10  // Placed at top-level 
+    // Variable can be placed at top-level 
+    var test = 10  
 
     // Function dont need to be inside class
     func hello(){
