@@ -44,3 +44,17 @@
     - https://github.com/CocoaPods/CocoaPods/issues/2926
     - https://github.com/CocoaPods/CocoaPods/issues/3841#issuecomment-123803940
     - https://github.com/CocoaPods/CocoaPods/issues/3729
+    
+    
+    
+  - SOLUTION:
+    - Copy all framework, not use as dependencies that worked for me.
+    - https://github.com/CocoaPods/CocoaPods/issues/4053
+    
+    
+    
+    
+    
+    
+    
+    
