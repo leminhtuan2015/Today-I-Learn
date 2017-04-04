@@ -47,7 +47,7 @@
 
     ```
     
-- Step 3: From your Xcode application project
+- Step 3: From your Xcode application project in ***Podfile***
 
   ```
   platform :ios, '8.0'
