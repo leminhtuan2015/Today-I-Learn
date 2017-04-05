@@ -125,7 +125,8 @@ func getVariable(){
 }
 
 Mỗi lần gọi hàm "getVariable" thì chỉ in ra "called s1" 1 lần duy nhất
-Nghĩa là biến s1 sẽ được khởi tạo giá trị duy nhất 1 lần và từ lần sau khi đọc ra giá trị và trả lại luôn
+Nghĩa là biến s1 sẽ được khởi tạo giá trị duy nhất 1 lần 
+và từ lần sau khi đọc ra giá trị và trả lại luôn
 ```
 
 
