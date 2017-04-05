@@ -22,7 +22,7 @@
 
 ```swift
   let storyboard = UIStoryboard(name: "Main", bundle: nil)
-  let controller = storyboard.instantiateViewController(withIdentifier: "ViewController_ID") as! UIViewController
+  let controller = storyboard.instantiateViewController(withIdentifier: "VC_ID") as! UIViewController
 ```
 
   
