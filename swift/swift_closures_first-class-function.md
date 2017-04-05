@@ -100,16 +100,16 @@
 ### Passing and returning functions
 
 ```swift
-private var callbackGoogleLoginButtonClicked: (_ status: CallbackType, _ message: String) -> Void = {_ in
+private var callback: (_ status: CallbackType, _ message: String) -> Void = {_ in
     Logger.log(string: "Call back gg login")
 }
 
-public func setCallbackGoogleLogin(callback: @escaping (_ status: CallbackType, _ message: String?) -> Void) {
-    self.callbackGoogleLoginButtonClicked = callback
+public func setCallback(callback: @escaping (_ status: CallbackType, _ message: String?) -> Void) {
+    self.callback = callback
 }
 
-public func getCallbackGoogleLogin() -> ((CallbackType, String) -> Void) {
-    return self.callbackGoogleLoginButtonClicked
+public func getCallback() -> ((CallbackType, String) -> Void) {
+    return self.callback
 }
 ```
 
