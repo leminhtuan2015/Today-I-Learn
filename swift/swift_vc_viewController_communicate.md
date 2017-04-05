@@ -22,12 +22,24 @@
 
   ```swift
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let controller = storyboard.instantiateViewController(withIdentifier: "VC_ID") as! UIViewController
+    let viewController = storyboard.instantiateViewController(withIdentifier: "VC_ID") as! UIViewController
   ```
 
   - Show (Modal) the other ViewController from ViewController
   
   ```swift
-    self.present(controller, animated: true, completion: nil)
+    self.present(viewController, animated: true, completion: nil)
+    
+    // dissmis
+    // viewController.dismiss(animated: true, completion: nil)
+  ```
+  
+  - Show (Push) the other ViewController from inside NavigationViewController
+  
+  ```swift
+    self.navigationController?.pushViewController(viewController, animated: true)
+    
+    // dissmiss
+    // self.navigationController?.popViewController(animated: true)
   ```
 
