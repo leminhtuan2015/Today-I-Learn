@@ -4,7 +4,7 @@
 ### @escaping
 ### File vs Class
 ### Value Parameters - reference parameter
-### Lazy variable
+### Lazy variable (Stored Property)
 
 
 ----------------
@@ -26,6 +26,14 @@
 ### @objc attribute
   - The @objc attribute makes your Swift API available in Objective-C and the Objective-C runtime
   - You can call Swift from Objective-C 
+  
+### @escaping
+
+scaping and Non-Escaping in Swift 3
+
+In Swift 1 and 2, closure parameters were escaping by default. If you knew your closure wouldn’t escape the function body, you could mark the parameter with the @noescape attribute.
+
+In Swift 3, it’s the other way around: closure parameters are non-escaping by default. If you intend for it to escape the function, you have to mark it with the @escaping attribute.
  
 ### File vs Class
   - File .swift can be not contain any class (file swift có thể không chứa class)
@@ -77,7 +85,7 @@
   }
   
   ```
-### Lazy variable
+### Lazy variable (Stored Property)
 
 ```swift
 lazy var myLabel: UILabel = {
