@@ -1,6 +1,6 @@
 ### NIB, XIB
 ### Storyboard
-
+### Storyboad initial ViewController (Entry-point ViewController)
 --------------------------
 ### NIB, XIB
  - NIBs and XIBs are files that describe user interfaces, and are built using Interface Builder.
@@ -96,10 +96,17 @@
 ```
 
 
+### Storyboad initial ViewController (Entry-point ViewController)
 
-
-
-
+ - Storyboard declare Entry-point ViewController by ***initialViewController*** in document tag
+ 
+```xml
+<document
+   ...
+   initialViewController="veM-9P-u2A">
+   
+   // veM-9P-u2A : is a ID of ViewController 
+```
 
 
 
