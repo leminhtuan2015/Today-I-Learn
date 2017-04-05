@@ -1,6 +1,8 @@
 
 ### @UIApplicationMain: Entry-point
 ### File vs Class
+### Value Parameters - reference parameter
+
 ----------------
 
 ### @UIApplicationMain: Entry-point
@@ -55,4 +57,15 @@
   
   ```
   
+### Value Parameters - reference parameter
+  - In Swift you ***CAN NOT*** change ***Value Parameters*** of function
+  
+  ```swift
+  
+  func myFunction(name: String){
+     name = "changed"  // Error here because you can not change the "name" parameters
+     print(name)
+  }
+  
+  ```
 
