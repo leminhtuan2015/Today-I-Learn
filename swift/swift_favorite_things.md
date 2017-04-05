@@ -1,19 +1,28 @@
 
-### Some favorite things in Swift
-### Example
-
+### @UIApplicationMain: Entry-point
+### File vs Class
 ----------------
 
-### Some favorite things in Swift
+### @UIApplicationMain: Entry-point
   - Entry point is declare by ***@UIApplicationMain***
+  - Change ***AppDelegate.swift*** ------> ***Main.swift***
+  - In ***Main.swift*** change ***class AppDelegate*** ------> ***class Hello***
+  
+  ```swift
+  // file Main.swift
+  
+  @UIApplicationMain
+  class Hello: UIResponder, UIApplicationDelegate { 
+     ...
+  }
+  ```
+ 
+### File vs Class
   - File .swift can be not contain any class (file swift có thể không chứa class)
   - File .swift can be contain class with difference name (tên class và tên file không cần giống nhau)
   - Function can be placed out of Class
   - Variable can be placed at top-level
   - Expressions are ***NOT*** allowed at the top level (Không cho phép gọi hàm ở top level, mà phải gọi trong class/trong hàm)
- 
-### Example
-#### Example ***Test.swift***
 
   ```swift
     import Foundation
@@ -46,15 +55,4 @@
   
   ```
   
-#### Example entry-point
-  - Change ***AppDelegate.swift*** ------> ***Main.swift***
-  - In ***Main.swift*** change ***class AppDelegate*** ------> ***class Hello***
-  
-  ```swift
-  // file Main.swift
-  
-  @UIApplicationMain
-  class Hello: UIResponder, UIApplicationDelegate { 
-     ...
-  }
-  ```
+
