@@ -2,6 +2,7 @@
 ### Closure use for callback
 ### Swift first-class function
 ### Function is the special case of **Closure**
+### Passing and returning functions
 
 --------------------------------------
 
@@ -95,3 +96,27 @@
 
 ### Function is the special case of **Closure**
   - Function is the special case of **Closure**
+
+### Passing and returning functions
+
+```swift
+    private var callbackGoogleLoginButtonClicked: (_ status: CallbackType, _ message: String) -> Void = {_ in
+        Logger.log(string: "Call back gg login")
+    }
+    
+    public func setCallbackGoogleLogin(callback: @escaping (_ status: CallbackType, _ message: String?) -> Void) {
+        self.callbackGoogleLoginButtonClicked = callback
+    }
+    
+    public func getCallbackGoogleLogin() -> ((CallbackType, String) -> Void) {
+        return self.callbackGoogleLoginButtonClicked
+    }
+    
+```
+
+
+
+
+
+
+
