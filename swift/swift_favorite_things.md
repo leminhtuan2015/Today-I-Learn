@@ -103,13 +103,19 @@ public func setCallback(callback: @escaping (_ status: CallbackType, _ message: 
   
   ```
 ### Lazy variable (Stored Property)
+  - The closure is only evaluated once
+  - The closure associated to the lazy property is executed only if you read that property
 
 ```swift
-lazy var myLabel: UILabel = {
-    var temporaryLabel: UILabel = UILabel()
-    ...
-    return temporaryLabel
-}()
+  // this closure only is executed ONCE time
+  var s1: String = {
+    return "test"
+  }()
+
+  // Only is executed when you use the s2 variable
+  lazy var s2: String = {
+    return "test"
+  }()
 ```
 
 
