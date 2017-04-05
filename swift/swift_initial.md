@@ -19,6 +19,8 @@
      // veM-9P-u2A : is a ID of ViewController 
   ```
 
- - Step 4: Run code in ViewController of the sence (viewDidLoad, viewWillAppear, ...)
+ - Step 4: Run code in initialViewController (viewDidLoad, viewWillAppear, ...)
  
  - Step 5: Render UI to screen
+ 
+ - Step 6: Render other ViewController
