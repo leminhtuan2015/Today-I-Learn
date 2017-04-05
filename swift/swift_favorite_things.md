@@ -1,7 +1,7 @@
 
 ### @UIApplicationMain attribute
 ### @objc attribute
-### @escaping
+### @escaping - @noescape
 ### File vs Class
 ### Value Parameters - reference parameter
 ### Lazy variable (Stored Property)
@@ -27,13 +27,26 @@
   - The @objc attribute makes your Swift API available in Objective-C and the Objective-C runtime
   - You can call Swift from Objective-C 
   
-### @escaping
+### @escaping - @noescape
+- @escaping - @noescape : Use for when you pass function/closure for a function as parameter
 
-scaping and Non-Escaping in Swift 3
+```swift
+var callback: (_ status: CallbackType, _ message: String) -> Void = {_ in
+    Logger.log(string: "Call back gg login")
+}
+    
+public func setCallback(callback: @escaping (_ status: CallbackType, _ message: String?) -> Void) {
+    self.callback = callback
+}
 
-In Swift 1 and 2, closure parameters were escaping by default. If you knew your closure wouldn’t escape the function body, you could mark the parameter with the @noescape attribute.
+// Trong trường hợp này ta phải dùng @escaping bởi vì biến callback được gán là global variable => biến này vẫn tồn tại cho dù hàm đã kết thúc
+```
 
-In Swift 3, it’s the other way around: closure parameters are non-escaping by default. If you intend for it to escape the function, you have to mark it with the @escaping attribute.
+- Escaping and Non-Escaping in Swift 3
+- In Swift 1 and 2 : closure parameters were escaping by default
+- In Swift 3 : closure parameters are non-escaping by default
+- ***@escaping : *** function/closure parameter still alive when function end
+- ***@noescape : *** function/closure parameter out of scope  when function end
  
 ### File vs Class
   - File .swift can be not contain any class (file swift có thể không chứa class)
