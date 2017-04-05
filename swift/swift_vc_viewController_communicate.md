@@ -11,11 +11,11 @@
 
   - {VC <-> VC <-> VC}
   - {VC <-> ***[VC <-> VC]*** <-> VC }
-  - UINavigationViewController is a subclass of UIViewController
   
+  - UINavigationViewController is a subclass of UIViewController
   - A UINavigationController manages a stack of ViewControllers and adds a ***back button***
   - ***present*** ViewController is a method of the UIViewController class you use to present a ***modal*** ViewController
-  
+  - You also can ***present*** a UINavigationViewController (UINavigationViewController is a subclass of UIViewController)
   
 ### Start/Init/Instance a ViewController
  - Use function ***instantiateViewController***
@@ -29,10 +29,11 @@
   
   ```swift
     self.present(viewController, animated: true, completion: nil)
+    self.present(anyNavigationController, animated: true, completion: nil)
     
     // dissmis
-    // viewController.dismiss(animated: true, completion: nil)
-    // navigationController?.dismiss(animated: true, completion: nil)
+    viewController.dismiss(animated: true, completion: nil)
+    navigationController?.dismiss(animated: true, completion: nil)
   ```
   
   - Show (Push) the other ViewController from inside NavigationViewController
@@ -41,6 +42,7 @@
     self.navigationController?.pushViewController(viewController, animated: true)
     
     // dissmiss
-    // self.navigationController?.popViewController(animated: true)
+    
+    self.navigationController?.popViewController(animated: true)
   ```
 
