@@ -108,15 +108,24 @@ public func setCallback(callback: @escaping (_ status: CallbackType, _ message: 
 
 ```swift
   var s1: String = {
-    // Đoạn code đặt trong closure này chỉ đc chạy duy nhất 1 lần
-     // ....
+     // Đoạn code đặt trong closure này chỉ đc chạy duy nhất 1 lần
+    print("called s1")
     return "test"
   }()
 
   // Only is executed when you use the s2 variable
   lazy var s2: String = {
+    // Đoạn code đặt trong closure này chỉ đc chạy duy nhất 1 lần
+    print("called s2")
     return "test"
   }()
+
+func getVariable(){
+    print(s1)
+}
+
+Mỗi lần gọi hàm "getVariable" thì chỉ in ra "called s1" 1 lần duy nhất
+Nghĩa là biến s1 sẽ được khởi tạo giá trị duy nhất 1 lần và từ lần sau khi đọc ra giá trị và trả lại luôn
 ```
 
 
