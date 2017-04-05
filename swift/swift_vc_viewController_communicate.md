@@ -1,5 +1,5 @@
 ### ViewController Communicate
-
+### Start/Init/Instance a ViewController
 ----------------------
 
 ### ViewController Communicate
@@ -15,5 +15,15 @@
   
   - A UINavigationController manages a stack of ViewControllers and adds a ***back button***
   - ***present*** ViewController is a method of the UIViewController class you use to present a ***modal*** ViewController
+  
+  
+### Start/Init/Instance a ViewController
+ - Use function ***instantiateViewController***
+
+```swift
+  let storyboard = UIStoryboard(name: "Main", bundle: nil)
+  let controller = storyboard.instantiateViewController(withIdentifier: "ViewController_ID") as! UIViewController
+```
+
   
 
