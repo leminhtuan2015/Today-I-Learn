@@ -1,5 +1,6 @@
 
-### @UIApplicationMain: Entry-point
+### @UIApplicationMain attribute
+### @objc attribute
 ### File vs Class
 ### Value Parameters - reference parameter
 
@@ -18,6 +19,10 @@
      ...
   }
   ```
+  
+### @objc attribute
+  - The @objc attribute makes your Swift API available in Objective-C and the Objective-C runtime
+  - You can call Swift from Objective-C 
  
 ### File vs Class
   - File .swift can be not contain any class (file swift có thể không chứa class)
@@ -59,6 +64,7 @@
   
 ### Value Parameters - reference parameter
   - In Swift you ***CAN NOT*** change ***Value Parameters*** of function
+  - This is different from JavaScript, Javascript ***CAN*** change ***Value Parameters*** of function
   
   ```swift
   
