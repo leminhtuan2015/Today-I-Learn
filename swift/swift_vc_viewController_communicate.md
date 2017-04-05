@@ -32,6 +32,7 @@
     
     // dissmis
     // viewController.dismiss(animated: true, completion: nil)
+    // navigationController?.dismiss(animated: true, completion: nil)
   ```
   
   - Show (Push) the other ViewController from inside NavigationViewController
