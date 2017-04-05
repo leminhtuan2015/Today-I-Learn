@@ -20,10 +20,14 @@
 ### Start/Init/Instance a ViewController
  - Use function ***instantiateViewController***
 
-```swift
-  let storyboard = UIStoryboard(name: "Main", bundle: nil)
-  let controller = storyboard.instantiateViewController(withIdentifier: "VC_ID") as! UIViewController
-```
+  ```swift
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let controller = storyboard.instantiateViewController(withIdentifier: "VC_ID") as! UIViewController
+  ```
 
+  - Show (Modal) the other ViewController from ViewController
   
+  ```swift
+    self.present(controller, animated: true, completion: nil)
+  ```
 
