@@ -107,8 +107,9 @@ public func setCallback(callback: @escaping (_ status: CallbackType, _ message: 
   - The closure associated to the lazy property is executed only if you read that property
 
 ```swift
-  // this closure only is executed ONCE time
   var s1: String = {
+    // Đoạn code đặt trong closure này chỉ đc chạy duy nhất 1 lần
+     // ....
     return "test"
   }()
 
