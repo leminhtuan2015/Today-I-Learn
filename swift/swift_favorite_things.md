@@ -1,8 +1,11 @@
 
 ### @UIApplicationMain attribute
 ### @objc attribute
+### @escaping
 ### File vs Class
 ### Value Parameters - reference parameter
+### Lazy variable
+
 
 ----------------
 
@@ -74,4 +77,19 @@
   }
   
   ```
+### Lazy variable
+
+```swift
+lazy var myLabel: UILabel = {
+    var temporaryLabel: UILabel = UILabel()
+    ...
+    return temporaryLabel
+}()
+```
+
+
+
+
+
+
 
