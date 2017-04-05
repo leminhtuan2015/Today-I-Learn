@@ -39,14 +39,18 @@ public func setCallback(callback: @escaping (_ status: CallbackType, _ message: 
     self.callback = callback
 }
 
-// Trong trường hợp này ta phải dùng @escaping bởi vì biến callback được gán là global variable => biến này vẫn tồn tại cho dù hàm đã kết thúc
+@escaping : Scope của closure nằm ngoài scope của hàm, hàm chạy xong nhưng closure vẫn tồn tại 
+@noescape : Scope của closure nằm trong scope của hàm, hàm chạy xong và closure cũng bị xóa khỏi bộ nhớ
+
+// Trong trường hợp này ta phải dùng @escaping bởi vì biến callback được gán là global variable 
+// => biến này vẫn tồn tại cho dù hàm đã kết thúc
 ```
 
 - Escaping and Non-Escaping in Swift 3
 - In Swift 1 and 2 : closure parameters were escaping by default
 - In Swift 3 : closure parameters are non-escaping by default
-- ***@escaping : *** function/closure parameter still alive when function end
-- ***@noescape : *** function/closure parameter out of scope  when function end
+- ***@escaping :*** function/closure parameter still alive when function end
+- ***@noescape :*** function/closure parameter out of scope  when function end
  
 ### File vs Class
   - File .swift can be not contain any class (file swift có thể không chứa class)
