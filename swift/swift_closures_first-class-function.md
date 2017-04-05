@@ -100,7 +100,7 @@
 ### Passing and returning functions
 
 ```swift
-private var callback: (_ status: CallbackType, _ message: String) -> Void = {_ in
+var callback: (_ status: CallbackType, _ message: String) -> Void = {_ in
     Logger.log(string: "Call back gg login")
 }
 
