@@ -2,6 +2,8 @@
 ### @UIApplicationMain attribute
 ### @objc attribute
 ### @escaping - @noescape
+### @IBOutlet - @IBAction
+
 ### File vs Class
 ### Value Parameters - reference parameter
 ### Lazy variable (Stored Property)
@@ -51,6 +53,9 @@ public func setCallback(callback: @escaping (_ status: CallbackType, _ message: 
 - In Swift 3 : closure parameters are non-escaping by default
 - ***@escaping :*** function/closure parameter still alive when function end
 - ***@noescape :*** function/closure parameter out of scope  when function end
+
+### @IBOutlet - @IBAction
+ - IBAction and IBOutlet are macros defined to denote variables and methods that can be referred to in Interface Builder
  
 ### File vs Class
   - File .swift can be not contain any class (file swift có thể không chứa class)
