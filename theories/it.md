@@ -1,5 +1,5 @@
-### Theory of IT
-### Theory of IT For?
+### IT
+### IT For?
 
 ### Programing languages will be designed for supporting some theory (Not all theories). 
   - For example 
