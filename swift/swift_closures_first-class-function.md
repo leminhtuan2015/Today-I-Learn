@@ -91,7 +91,7 @@ updatePassword(callback: callback)
 ### Passing and returning functions
 
 ```swift
-var callback: (_ status: CallbackType, _ message: String) -> Void = { (_ status: CallbackType, _ message: String) in
+var callback: (_ status: CallbackType, _ message: String) -> Void = {(_ status: CallbackType, _ message: String) in
     Logger.log(string: "Call back gg login")
 }
 
