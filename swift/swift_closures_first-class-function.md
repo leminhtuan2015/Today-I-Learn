@@ -96,6 +96,11 @@ var callback: (_ status: CallbackType, _ message: String) -> Void = {
     Logger.log(string: "Call back gg login : " + message)
 }
 
+-----OR-------
+var callback = {(_ status: CallbackType, _ message: String) -> Void in
+    Logger.log(string: "Call back gg login : " + message)
+}
+
 public func setCallback(callback: @escaping (_ status: CallbackType, _ message: String?) -> Void) {
     self.callback = callback
 }
