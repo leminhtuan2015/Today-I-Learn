@@ -29,6 +29,9 @@
 #### Lazy-evaluation, or delayed-evaluation
 - Lazy-evaluation, or delayed-evaluation: delaying processing of values until the moment when it is actually needed. If, as an example, you have some code that generated list of Fibonacci numbers with lazy-evaluation enabled, this would not actually be processed and calculated until one of the values in the result was required by another function, such as puts.
 #### First class functions
+- First class functions are functions that are treated like an object (or are assignable to a variable)
+- First class functions means the language supports passing functions as arguments to other functions, returning them as the values from other functions, and assigning them to variables or storing them in data structures 
+- Higher order functions are functions that take at least one first class function as a parameter.
 
 #### Pure functions
 - A pure function is a function where the return value is only determined by its input values, without observable side effects
