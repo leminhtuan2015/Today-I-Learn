@@ -12,11 +12,11 @@
   ```
  
 ### Xcode add folder(referenced folder) - màu  xanh biển
-  - Folder là 1 dạng đặc bệt của file, Cũng phải add vào bằng Xcode: Right click -> Add files to ... -> chọn tới folder
+  - Folder là 1 dạng đặc bệt của file, Cũng phải add vào bằng Xcode: Right click -> Add files to ... -> chọn tới folder
   
   ```swift
     let path = Bundle.main.path(forResource: fileName, ofType: nil, inDirectory: inDirectory)!
   ```
   
 ### Xcode new group(symbolic group) - màu vàng
-  - Group chỉ có ý nghĩa là hiển thị để dễ nhìn trên Xcode IDE, còn vị trí thực sự của các files/foldels trên ổ cứng sẽ không thay đổi
+  - Group chỉ có ý nghĩa là hiển thị để dễ nhìn trên Xcode IDE, còn vị trí thực sự của các files/foldels trên ổ cứng sẽ không thay đổi
