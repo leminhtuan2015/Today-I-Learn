@@ -7,6 +7,7 @@
   - ***Programming paradigm có trước và các ngôn ngữ lập trình có sau, Programming paradigms là bản thiết kế của các ngôn ngữ lập trình.***
   - Programming paradigm (Coding style) là lý thuyết về lập trình, một tập hợp các quy định và tính năng của ngôn ngữ lập trình.
   - Programming paradigm sinh ra để dev hạn chế tối đa bug trong quá trình coding, dễ mở rộng và maintain app project.
+  - ***Functional*** code ***co-exists*** very well with code written in other styles (for example OOP).
   - Programming paradigms are a way to classify programming languages based on the features of various programming languages
   - One programming language may have many programming paradigm (1 - n)
   - A multi-paradigm programming language is a programming language that supports more than one programming paradigm, one language may have many paradigm is to allow programmers to use the most suitable programming style
