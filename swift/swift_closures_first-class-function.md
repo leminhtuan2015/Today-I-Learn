@@ -42,16 +42,16 @@
 ```
 
 ```swift
- func updatePassword(callback: @escaping (_ isSuccess: Bool, _ message: String, _ user: User?) -> Void) {
-    callback(true, "OKIE", User())
- }
+func updatePassword(callback: @escaping (_ isSuccess: Bool, _ message: String, _ user: User?) -> Void) {
+  callback(true, "OKIE", User())
+}
        
- func callback(isSuccess: Bool, message: String, user: User?){
-   // this is a body of callback function
- }
+func callback(isSuccess: Bool, message: String, user: User?){
+ // this is a body of callback function
+}
      
- // pass callback as an agrument
- updatePassword(callback: callback)
+// pass callback as an agrument
+updatePassword(callback: callback)
 
 ```
 
@@ -102,6 +102,8 @@ public func setCallback(callback: @escaping (_ status: CallbackType, _ message: 
 public func getCallback() -> ((CallbackType, String) -> Void) {
     return self.callback
 }
+
+getCallback()(nil, "OK")
 ```
 
 
