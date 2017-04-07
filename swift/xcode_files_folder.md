@@ -5,7 +5,7 @@
 -------------------------------------
 ### Xcode add files
   - XCode không quản lý file mà ta create/copy vào folder chứa xcode project, mà ta phải mở xcode lên và add files/folder bằng  Xcode.
-  - Nếu create hay copy 1 file/folder nào đó vào folder chứa project Xcode thì khi mở XCode lên file/folder vừa create/copy sẽ không thấy xuất hiện trong Xcode, mà lúc này ta phải thực hiện trong XCode: Right click -> Add files to ... -> chọn files/Folder
+  - Nếu create hay copy 1 file/folder nào đó vào folder chứa project Xcode thì khi mở XCode lên file/folder vừa create/copy sẽ không thấy xuất hiện trong Xcode, mà lúc này ta phải thực hiện trong XCode: Right click -> Add files to ... -> chọn files/Folder
   
   ```swift
     let path = Bundle.main.path(forResource: fileName, ofType: nil)!
