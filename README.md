@@ -1,4 +1,9 @@
 ### To Do List
+
+- https://www.sitepoint.com/functional-programming-techniques-with-ruby-part-i/
+- http://stackoverflow.com/questions/159797/is-ruby-a-functional-language
+- http://softwareengineering.stackexchange.com/questions/241104/programming-language-vs-markup-language-vs-scripting-language
+
   
 - https://github.com/ReactiveX/RxSwift
 - https://github.com/ReactiveCocoa/ReactiveCocoa
