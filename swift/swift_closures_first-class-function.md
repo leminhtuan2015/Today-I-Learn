@@ -22,23 +22,23 @@
   - Example closure for callback
 
 ```swift
-      func show(callback: @escaping () -> Void = {}){
-          callback()
-      }
-      
-      show(callback: {
-          // this is a body of callback function
-          print("hello")
-      })
+  func show(callback: @escaping () -> Void = {}){
+      callback()
+  }
 
-      -----------OR----------------------------
-      
-      func callback(){
-          // this is a body of callback function
-          print("hello")
-      }
+  show(callback: {
+      // this is a body of callback function
+      print("hello")
+  })
 
-      show(callback: callback)
+  -----------OR----------------------------
+
+  func callback(){
+      // this is a body of callback function
+      print("hello")
+  }
+
+  show(callback: callback)
 ```
 
 ```swift
