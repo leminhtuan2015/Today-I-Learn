@@ -1,7 +1,6 @@
 ### To Do List
 
 - http://stackoverflow.com/questions/24002369/how-to-call-objective-c-code-from-swift
-- Where build setting file ox xcode
 
 -------------
 
