@@ -11,10 +11,10 @@
   - Build Phases
   - Build Rules
   - => All above items is the configs of one IOS Xcode project, the config file is stored at : 
-    - ***[PROJECT_NAME].xcodeproj/project.pbxpro***
+    - ***[PROJECT_NAME].xcodeproj/project.pbxproj***
     
   ```
   Project_Name.xcodeproj/
-	          xcuserdata
-	          project.pbxproj
+	              xcuserdata
+	              project.pbxproj // is the config file of Xcode project
   ```
