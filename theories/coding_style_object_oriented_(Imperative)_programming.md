@@ -1,10 +1,23 @@
+### Basic
+### Abstraction
+### Class
+### Encapsulation
+### Information hiding
+### Inheritance
+### Interface
+### Messaging
+### Object
+### Polymorphism
+### Procedure
 
+---------------------
 ### Basic
 - Imperative (OOP): Write correct sequence of codes in the correct order. Step by step. Focus on solve problem by answer question how.
 - Declarative (FP): Write code to describes what you want to do.
 
 - Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods.
 
+### Abstraction
 - Abstraction: The process of picking out (abstracting) common features of objects and procedures.
 - Class: A category of objects. The class defines all the common properties of the different objects that belong to it.
 - Encapsulation: The process of combining elements to create a new entity. A procedure is a type of encapsulation because it combines a series of computer instructions.
