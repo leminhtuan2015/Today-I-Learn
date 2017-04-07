@@ -97,6 +97,14 @@ var x = {() -> Void in
   print("Hi")
 }
 
+//OR
+
+/*
+var x: () -> Void = {() -> Void in
+  print("Hi")
+}
+*/
+
 var y = hello
 
 
