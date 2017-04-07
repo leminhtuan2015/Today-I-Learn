@@ -19,7 +19,7 @@
 	              project.pbxproj // is the config file of Xcode project
   ```
 
-#### [PROJECT_NAME].xcodeproj/project.pbxproj
+##### Example: [PROJECT_NAME].xcodeproj/project.pbxproj
 ```
 0126DEF61E794D1100EAEA44 /* Debug */ = {
 	isa = XCBuildConfiguration;
