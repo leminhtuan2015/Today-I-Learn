@@ -1,5 +1,10 @@
 ### To Do List
-  
+
+- http://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming
+- http://stackoverflow.com/questions/2835801/why-hasnt-functional-programming-taken-over-yet
+ 
+----------------
+
 - https://github.com/ReactiveX/RxSwift
 - https://github.com/ReactiveCocoa/ReactiveCocoa
 - https://firebase.google.com/docs/cloud-messaging/
