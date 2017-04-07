@@ -97,23 +97,24 @@ var x = {() -> Void in
   print("Hi")
 }
 
-//OR
-
+//OR (Other way to create a function/closure)
 /*
 var x: () -> Void = {() -> Void in
+  print("Hi")
+}
+
+var x: () -> Void = {_ in
   print("Hi")
 }
 */
 
 var y = hello
 
-
 hello()
 x()
 y()
 
 =>
-
 hello
 Hi
 hello
