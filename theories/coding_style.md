@@ -1,5 +1,5 @@
 ### Programming paradigm (Coding style)
-
+### OOP vs FP
 --------------
 
 ### Programming paradigm (Coding style)
@@ -11,3 +11,18 @@
     - FP: functional which disallows side effects
     - IP: imperative which allows side effects
     - DP: declarative which does not state the order in which operations execute
+    
+### OOP vs FP
+  - **Functional programming** is a form of **declarative programming**
+  - **Object-oriented programming** primarily support **imperative (procedural) programming**
+  - Object-oriented programming (OOP) languages such as C#, Visual Basic, C++, and Java, were designed to primarily support imperative (procedural) programming
+  
+  - The functional programming paradigm was explicitly created to support a **pure functional** approach to problem solving.
+  
+  - **imperative programming (OOP)**, a developer writes code that describes in exacting detail the steps that the computer must take to accomplish the goal. This is sometimes referred to as algorithmic programming
+  - **functional programming (FP)** involves composing the problem as a set of functions to be executed. You define carefully the input to each function, and what each function returns.
+  - Although most languages were designed to support a specific programming paradigm, many general languages are flexible enough to support multiple paradigms
+    - Such as : Javascript, Scala, Swift support both OOP and FP
+  - For example, most languages that contain **function pointers** can be used to credibly support **functional programming**
+  
+  ![](https://github.com/leminhtuan2015/Wiki/blob/master/images/oop_fp.png)
