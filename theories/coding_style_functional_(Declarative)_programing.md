@@ -12,7 +12,9 @@
 - https://msdn.microsoft.com/en-us/library/mt693186.aspx
 
 --------------------
-
+### Basic
+- Imperative: Write correct sequence of codes in the correct order. Step by step. Focus on solve problem by answer question how.
+- Declarative: Write code to describes what you want to do.
 
 ### Immutable values
   - Immutable values: once a “variable” is set, it cannot be changed. In Ruby, this means you effectively have to treat variables like constants.
