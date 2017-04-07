@@ -93,7 +93,7 @@ updatePassword(callback: callback)
 ```swift
 var callback: (_ status: CallbackType, _ message: String) -> Void = {
   (_ status: CallbackType, _ message: String) -> Void in
-    Logger.log(string: "Call back gg login")
+    Logger.log(string: "Call back gg login : " + message)
 }
 
 public func setCallback(callback: @escaping (_ status: CallbackType, _ message: String?) -> Void) {
