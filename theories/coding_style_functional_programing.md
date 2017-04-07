@@ -1,11 +1,12 @@
-#### Basic Concepts
-#### Immutability
-#### Value types
-#### Pure functions
-#### First-class functions
-#### Higher-order functions
-#### Chaining, Composition and Currying
-#### References
+### Immutable values
+### No side-effects
+### Higher-order functions
+### Currying
+### Recursion
+### Lazy-evaluation, or delayed-evaluation
+### First class functions
+### Pure functions
+### References
 - https://medium.com/swift-programming/swift-functional-programming-basic-concepts-a6b0c3937d56#.e95ns4kuk
 - https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536#.r0t8ym2id
 - https://msdn.microsoft.com/en-us/library/mt693186.aspx
@@ -13,18 +14,22 @@
 --------------------
 
 
-### Basic Concepts
-#### OOP vs FP
-  - **Functional programming** is a form of **declarative programming**
-  - **Object-oriented programming** primarily support **imperative (procedural) programming**
-  - Object-oriented programming (OOP) languages such as C#, Visual Basic, C++, and Java, were designed to primarily support imperative (procedural) programming
+### Immutable values
+  - Immutable values: once a “variable” is set, it cannot be changed. In Ruby, this means you effectively have to treat variables like constants.
+### No side-effects
+  - No side-effects: when passed a given value, a function must always return the same result. This goes hand in hand with having immutable values; a function can never take a value and change it, as this would be causing a side-effect that is tangential to returning a result.
   
-  - The functional programming paradigm was explicitly created to support a **pure functional** approach to problem solving.
+### Higher-order functions
+  - Higher-order functions: these are functions that allow functions as arguments, or use functions as the return value. This is, arguably, one of the most critical features of any functional language.
   
-  - **imperative programming (OOP)**, a developer writes code that describes in exacting detail the steps that the computer must take to accomplish the goal. This is sometimes referred to as algorithmic programming
-  - **functional programming (FP)** involves composing the problem as a set of functions to be executed. You define carefully the input to each function, and what each function returns.
-  - Although most languages were designed to support a specific programming paradigm, many general languages are flexible enough to support multiple paradigms
-    - Such as : Javascript, Scala, Swift support both OOP and FP
-  - For example, most languages that contain **function pointers** can be used to credibly support **functional programming**
+### Currying
+  - Currying: enabled by higher-order functions, currying is transforming a function that takes multiple arguments into a function that takes one argument. This goes hand in hand with partial function application, which is transforming a multi-argument function into a function that takes less arguments then it did originally.
   
-  ![](https://github.com/leminhtuan2015/Wiki/blob/master/images/oop_fp.png)
+### Recursion
+  - Recursion: looping by calling a function from within itself. When you don’t have access to mutable data, recursion is used to build up and chain data construction. This is because looping is not a functional concept, as it requires variables to be passed around to store the state of the loop at a given time.
+
+### Lazy-evaluation, or delayed-evaluation
+  - Lazy-evaluation, or delayed-evaluation: delaying processing of values until the moment when it is actually needed. If, as an example, you have some code that generated list of Fibonacci numbers with lazy-evaluation enabled, this would not actually be processed and calculated until one of the values in the result was required by another function, such as puts.
+### First class functions
+
+### Pure functions
