@@ -10,7 +10,7 @@
 
 - Closure is block of code that can pass to a function as an agrument
   ```swift
-  { (parameters) -> return type in
+  { (parameters) -> [return type] in
       statements
   }
   ```
@@ -91,7 +91,8 @@ updatePassword(callback: callback)
 ### Passing and returning functions
 
 ```swift
-var callback: (_ status: CallbackType, _ message: String) -> Void = {(_ status: CallbackType, _ message: String) in
+var callback: (_ status: CallbackType, _ message: String) -> Void = {
+  (_ status: CallbackType, _ message: String) -> Void in
     Logger.log(string: "Call back gg login")
 }
 
