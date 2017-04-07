@@ -87,6 +87,30 @@ updatePassword(callback: callback)
 
 ### Function is the special case of **Closure**
   - Function is the special case of **Closure**
+  
+```swift
+func hello(){
+  print("hello")
+}
+
+var x = {() -> Void in
+  print("Hi")
+}
+
+var y = hello
+
+
+hello()
+x()
+y()
+
+=>
+
+hello
+Hi
+hello
+
+```
 
 ### Passing and returning functions
 
