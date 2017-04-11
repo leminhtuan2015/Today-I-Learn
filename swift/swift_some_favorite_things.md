@@ -135,7 +135,7 @@ Nghĩa là biến s1 sẽ được khởi tạo giá trị duy nhất 1 lần
 và từ lần sau khi đọc ra giá trị và trả lại luôn
 ```
 
-#### Getter - Setter
+### Getter - Setter
 
 ```swift
 //
