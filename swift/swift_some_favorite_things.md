@@ -1,12 +1,13 @@
 
-### @UIApplicationMain attribute
-### @objc attribute
-### @escaping - @noescape
-### @IBOutlet - @IBAction
+#### @UIApplicationMain attribute
+#### @objc attribute
+#### @escaping - @noescape
+#### @IBOutlet - @IBAction
 
-### File vs Class
-### Value Parameters - reference parameter
-### Lazy variable (Stored Property)
+#### File vs Class
+#### Value Parameters - reference parameter
+#### Lazy variable (Stored Property)
+#### Getter - Setter
 
 
 ----------------
@@ -134,9 +135,35 @@ Nghĩa là biến s1 sẽ được khởi tạo giá trị duy nhất 1 lần
 và từ lần sau khi đọc ra giá trị và trả lại luôn
 ```
 
+#### Getter - Setter
 
+```swift
+//
+//  Media.swift
+//  LanguageListening
+//
+//  Created by Fuji on 4/11/17.
+//  Copyright © 2017 Admin. All rights reserved.
+//
 
+import Foundation
 
-
-
+class Media {
+    private var _id: String?
+    
+    init() {}
+    
+    var id: String? {
+        set(id) {
+            print("Set ID")
+            _id = id
+        }
+        
+        get {
+            print("Get ID")
+            return _id
+        }
+    }
+}
+```
 
