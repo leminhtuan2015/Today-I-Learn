@@ -138,14 +138,6 @@ và từ lần sau khi đọc ra giá trị và trả lại luôn
 ### Getter - Setter
 
 ```swift
-//
-//  Media.swift
-//  LanguageListening
-//
-//  Created by Fuji on 4/11/17.
-//  Copyright © 2017 Admin. All rights reserved.
-//
-
 import Foundation
 
 class Media {
