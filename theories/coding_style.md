@@ -3,7 +3,8 @@
 --------------
 
 ### Programming paradigm (Coding style) [IMPORTANT]
-  - ***Dù là OOP hay FB thì mục đích cũng chỉ là tạo ra phần mềm tốt nhất, dễ debug, dễ mở rộng***
+  - ***Dù là OOP hay FB thì mục đích cũng chỉ là tạo ra phần mềm tốt nhất, dễ debug, dễ mở rộng*** 
+  - (Both OOP and FP have the shared goal of creating understandable, flexible programs that are free of bugs. But they have two different approaches for how to best create those programs.)
   - ***Programming paradigm có trước và các ngôn ngữ lập trình có sau, Programming paradigms là bản thiết kế của các ngôn ngữ lập trình.***
   - Dev có thể code lẫn lộn FP và OOP trong cùng 1 project, nhưng mục đích cuối cùng của FP hay OOP vẫn là làm code giảm bugs hơn.
   - Programming paradigm (Coding style) là lý thuyết về lập trình, một tập hợp các quy định và tính năng của ngôn ngữ lập trình.
