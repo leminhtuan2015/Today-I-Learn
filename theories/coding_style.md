@@ -1,6 +1,11 @@
+### Documents
 ### Programming paradigm (Coding style)
 ### OOP vs FP
+
 --------------
+
+### Documents
+  - http://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming
 
 ### Programming paradigm (Coding style) [IMPORTANT]
   - ***Dù là OOP hay FB thì mục đích cũng chỉ là tạo ra phần mềm tốt nhất, dễ debug, dễ mở rộng*** 
