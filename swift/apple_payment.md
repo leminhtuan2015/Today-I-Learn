@@ -1,5 +1,8 @@
 ### Apple payment
 ### In App Purchase
+### References
+  - https://www.raywenderlich.com/122144/in-app-purchase-tutorial
+  - https://code.tutsplus.com/tutorials/in-app-purchase-tutorial-with-swift-3-ios-sdk--cms-27595
 
 -------------------------------------
 ### Apple payment
