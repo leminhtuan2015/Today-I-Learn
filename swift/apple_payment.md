@@ -19,7 +19,7 @@
 ### In App Purchase
   - ***Consumable IAP***: Buy multiple times (buy coins, buy gems, buy gold, ...)
   - ***Non-Consumable IAP***: Buy one time (remove ads, buy content, unlock premium version...)
-  - ***Restore Purchase (in case you use Non-Consumable IAP)***: users will be able to purchase it ***only once***, and Apple requires the ability to restore purchases. That happens in case 
+  - ***Restore Purchase :in case you use Non-Consumable IAP*** : users will be able to purchase it ***only once***, and Apple requires the ability to restore purchases. That happens in case 
     - Users uninstall the app and reinstall it again
     - Or download it from another device with your same Apple ID and need to get your purchases back without paying for them twice
   - ***Reference Name***: this name will be used on iTunes Connect and in Sales and Trends reports. It won't be displayed on the App Store and you can type any name you want, but it can't be longer than 64 characters.
