@@ -6,6 +6,13 @@
 
 -------------------------------------
 ### Apple payment
+
+Apple User <-> App <-> Apple Store <-> Dev
+
+- Apple user pay money ---------> Apple Store
+- Dev get money <-------- Apple Store
+
+
 ##### What is it?
   - making money from apps
 
