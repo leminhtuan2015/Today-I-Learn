@@ -20,6 +20,7 @@
   - Sử dụng file signing identities/signing certificate để sign lên app, mục đích chỉ ra ai là người tạo ra app
   
 #### Provisioning
+  - Users/[TUAN]/Library/MobileDevice/Provisioning\ Profiles
   - **provisioning profile** là tên gọi của các file provision mà do Dev tạo ra, file này chứa những thông tin về người tạo ra app và ID của app như
      - certificates that can be used to sign the application
      - bundle identifier
