@@ -60,6 +60,7 @@
   - If Xcode displays a **Reset button**, the signing identity is **not usable on your Mac** (it is missing the private key)
 
 ### First time build and submit to Apple store
+ - Điều kiện để build app cần 2 thứ: ***Certificate + Provision***
  - Hoàn toàn làm mọi thứ trong XCode
  
  - Step 1:  Choose Xcode > Preferences > Accounts > Select your team > View Details
