@@ -85,10 +85,10 @@
   - Export tài khoản XCode và sau đó Import vào XCode trên những máy khác => Các máy sẽ giống hệt nhau về signing certificate và provisioning profiles
   
 ### TL;DR
-  - Step 1: Create Certificate
-  - Step 2: Create Provision
-  - Step 3: Click on Certificate to add it to Keychain Access
-  - Step 4: In Xcode link app to Provision
-  - Step 5: Run/Build/Install to Iphone
+ - Step 1: Create Certificate
+ - Step 2: Create Provision
+ - Step 3: Click on Certificate to add it to Keychain Access
+ - Step 4: In Xcode link app to Provision
+ - Step 5: Run/Build/Install to Iphone
   
   
