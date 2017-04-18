@@ -2,6 +2,7 @@
 ### Apple concepts about signing app
 ### XCode Signing Identity and Provisioning Profiles
 ### First time build and submit to Apple store
+### TL;DR
 ### References
   - https://pewpewthespells.com/blog/migrating_code_signing.html#introduction-to-code-signing
   - https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html
@@ -83,7 +84,11 @@
 #### Để có thể build app trên máy Macbook khác (trường hợp dùng 2 Macbook hay khi làm team)
   - Export tài khoản XCode và sau đó Import vào XCode trên những máy khác => Các máy sẽ giống hệt nhau về signing certificate và provisioning profiles
   
-  
-  
+### TL;DR
+  - Step 1: Create Certificate
+  - Step 2: Create Provision
+  - Step 3: Click on Certificate to add it to Keychain Access
+  - Step 4: In Xcode link app to Provision
+  - Step 5: Run/Build/Install to Iphone
   
   
