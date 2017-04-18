@@ -18,7 +18,7 @@
 
 ### In App Purchase
   - ***Consumable IAP***: Buy multiple times (buy coins, buy gems, buy gold, ...)
-  - ***Non-Consumable IAP***: Buy one time (remove ads, buy content, ...)
+  - ***Non-Consumable IAP***: Buy one time (remove ads, buy content, unlock premium version...)
   - ***Restore Purchase***: users will be able to purchase it ***only once***, and Apple requires the ability to restore purchases. That happens in case 
     - Users uninstall the app and reinstall it again
     - Or download it from another device with your same Apple ID and need to get your purchases back without paying for them twice
