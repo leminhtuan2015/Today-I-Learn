@@ -3,6 +3,7 @@
 
 -------------------------------------
 ### Apple payment
+##### What is it?
   - making money from apps
 
 ##### How Apple get money from users
