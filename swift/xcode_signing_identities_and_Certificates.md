@@ -1,6 +1,7 @@
 ### Code Signing and Provisioning
 ### Apple concepts about signing app
 ### XCode Signing Identity and Provisioning Profiles
+### First time build and submit to Apple store
 ### References
   - https://pewpewthespells.com/blog/migrating_code_signing.html#introduction-to-code-signing
   - https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html
@@ -58,7 +59,7 @@
   - If Xcode displays a **Create button**, the signing identity **doesn’t exist in your developer account or on your Mac**
   - If Xcode displays a **Reset button**, the signing identity is **not usable on your Mac** (it is missing the private key)
 
-#### Để buid đc app và submit đc lên Applestore
+### First time build and submit to Apple store
  - Hoàn toàn làm mọi thứ trong XCode
  
  - Step 1:  Choose Xcode > Preferences > Accounts > Select your team > View Details
@@ -70,12 +71,12 @@
    
  - Step 2: trong mục ***signing identities*** 
    - click ***create*** của IOS Distribution (Nếu chưa có signing identities)
-   - click ***reset*** nếu chuyển 
-   
+   - click ***reset*** nếu chuyển sang Macbook mới
+   
  - Step 3: Lên trang cá nhân Apple Dev
    - Tạo mới provission profile ứng với signing identities ở bước trên
-   - edit lại toàn bộ signing identities của provission profile.
-   
+   - edit lại toàn bộ signing identities của provission profile
+    
  - Step 4: Đã có signing identities IOS Distribution và provission profile => Buid
   
 #### Để có thể build app trên máy Macbook khác (trường hợp dùng 2 Macbook hay khi làm team)
