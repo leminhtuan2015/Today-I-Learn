@@ -46,11 +46,11 @@
   - Member Center: https://developer.apple.com/account/#/welcome (where you can create Provisioning Profiles, App IDs, Certificates, ...)
   
 #### For creating Signing Identity
-  - ***Keychain Access*** : Tool manage ***Signing Identity*** : Là một tool để CRUD các certificate của Apple, Ta hoàn taonf có thể tạo các Signing Identity/Signing certificate trong XCode và sau đó các certificate này sẽ tự động xuất hiện trong Keychain Access
+  - ***Keychain Access*** : Tool manage ***Signing Identity/Certificate*** 
   - ***Certificate Signing Request (CSR)*** : The file ***CertificateSigningRequest.certSigningRequest*** contain private key of your Macbook, it is created by ***Keychain Access*** and you will submit it to Apple
   
 #### For Signing and Provisioning
-  - ***Signing Identity*** : The certificate file (.cer) contain public-private key pair that Apple creates for you (***ios_distribution.cer***), and you will be stored it in ***Keychain Access*** for signing your ios app
+  - ***Signing Identity/Certificate*** : The certificate file (.cer) be stored it in ***Keychain Access*** for signing your ios app
   - ***Provisioning Profile*** : The provision file (.provision) contain bundle id, team identifier, ... for provisioning your ios app, provision files be stored in XCode
   
 ### XCode Signing Identity and Provisioning Profiles
@@ -60,20 +60,23 @@
 
 #### Để buid đc app và submit đc lên Applestore
  - Hoàn toàn làm mọi thứ trong XCode
+ 
  - Step 1:  Choose Xcode > Preferences > Accounts > Select your team > View Details
    - Sau khi đăng nhập XCode sẽ hiển thị toàn bộ ***Signing Identities and Provisioning Profiles*** nếu đã tạo
    - Signing Identities and Provisioning Profiles được lưu trên tài khoản Apple Developer của Dev 
-   - https://developer.apple.com/account/ios/certificate/development
    - Signing Identities sẽ hiện nút create nếu bạn chưa 
    - Signing Identities sẽ hiện nút reset nếu đăng nhập tài khoản ở Macbook khác (Macbook đang dùng chính KHÔNG phải là máy tạo ra Signing Identities - do private key không khớp)
    - Signing Identities sẽ hiện trắng (chả có nút gì) nếu hợp lệ (Macbook đang dùng chính là máy tạo ra Signing Identities)
+   
  - Step 2: trong mục ***signing identities*** 
    - click ***create*** của IOS Distribution (Nếu chưa có signing identities)
    - click ***reset*** nếu chuyển 
+   
  - Step 3: Lên trang cá nhân Apple Dev
    - Tạo mới provission profile ứng với signing identities ở bước trên
    - edit lại toàn bộ signing identities của provission profile.
- - Step 4: Đã có signing identities IOS Distribution và provission profile => Buid thôi
+   
+ - Step 4: Đã có signing identities IOS Distribution và provission profile => Buid
   
 #### Để có thể build app trên máy Macbook khác (trường hợp dùng 2 Macbook hay khi làm team)
   - Export tài khoản XCode và sau đó Import vào XCode trên những máy khác => Các máy sẽ giống hệt nhau về signing certificate và provisioning profiles
