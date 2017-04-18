@@ -71,11 +71,11 @@
    
  - Step 2: trong mục ***signing identities*** 
    - click ***create*** của IOS Distribution (Nếu chưa có signing identities)
-   - click ***reset*** nếu chuyển sang Macbook mới
+   - click ***reset*** nếu chuyển sang Macbook mới
    
  - Step 3: Lên trang cá nhân Apple Dev
    - Tạo mới provission profile ứng với signing identities ở bước trên
-   - edit lại toàn bộ signing identities của provission profile
+   - edit lại toàn bộ signing identities của provission profile
     
  - Step 4: Đã có signing identities IOS Distribution và provission profile => Buid
   
