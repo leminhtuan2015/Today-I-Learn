@@ -1,5 +1,5 @@
 ### Apple payment
-
+### In App Purchase
 
 -------------------------------------
 ### Apple payment
@@ -12,3 +12,5 @@
 ##### How developer get money
   - Developer have to link a bank account to the Apple Dev ID
   - After take money from user, Apple will push that money to "Somewhere on Apple server", and you will have to move that money from Apple to your bank account
+
+### In App Purchase
