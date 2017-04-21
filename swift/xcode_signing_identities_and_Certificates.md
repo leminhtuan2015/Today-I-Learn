@@ -87,12 +87,13 @@
  -  Để có thể build app trên máy Macbook khác (trường hợp dùng 2 Macbook hay khi làm team) ta sẽ phải mang (Certificate + Provision) sang máy khác để import vào trong XCode, có 1 cách là export tất cả (Certificate + Provision) thành 1 file và mang sang máy Mac khác import
  - Export tài khoản XCode và sau đó Import vào XCode trên những máy khác => Các máy sẽ giống hệt nhau về signing certificate và provisioning profiles
   
-  ```js
-     Xcode -> Preference -> select account to export -> Export development Acount
-     
-     // Bản chất là mang Certificate + Provision sang máy khác để build
-  ```
-  
+```js
+   Xcode -> Preference -> select account to export -> Export development Acount
+
+   // Bản chất là mang Certificate + Provision sang máy khác để build
+```
+  
+ 
 ### TL;DR
  - Step 1: Create Certificate
  - Step 2: Create Provision
