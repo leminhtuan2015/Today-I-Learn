@@ -2,6 +2,7 @@
 ### Apple concepts about signing app
 ### XCode Signing Identity and Provisioning Profiles
 ### First time build and submit to Apple store
+### Export Apple Account
 ### TL;DR
 ### References
   - https://pewpewthespells.com/blog/migrating_code_signing.html#introduction-to-code-signing
@@ -81,9 +82,14 @@
    - edit lại toàn bộ signing identities của provission profile
     
  - Step 4: Đã có signing identities IOS Distribution và provission profile => Buid
-  
-#### Để có thể build app trên máy Macbook khác (trường hợp dùng 2 Macbook hay khi làm team)
+ 
+### Export Apple Account
+  -  Để có thể build app trên máy Macbook khác (trường hợp dùng 2 Macbook hay khi làm team) ta sẽ phải mang (Certificate + Provision) sang máy khác để import vào trong XCode, có 1 cách là export tất cả (Certificate + Provision) thành 1 file và mang sang máy Mac khác import
   - Export tài khoản XCode và sau đó Import vào XCode trên những máy khác => Các máy sẽ giống hệt nhau về signing certificate và provisioning profiles
+  
+  ```js
+     Xcode -> Preference -> select account to export -> Export development Acount
+  ```
   
 ### TL;DR
  - Step 1: Create Certificate
