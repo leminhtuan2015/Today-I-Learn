@@ -41,6 +41,7 @@ Apple User <-> App <-> Apple Store <-> Dev
 ### Sandbox user
   - Sandbox user is the email is NOT a Apple ID
   - Sandbox user can make test purchase without visa card
+  - Sanbox user just only on Apple , With Android you have to have visa card for test payment purchase
 
 
 
