@@ -1,5 +1,6 @@
 ### Apple payment
 ### In App Purchase
+### Sandbox user
 ### References
   - https://www.raywenderlich.com/122144/in-app-purchase-tutorial
   - https://code.tutsplus.com/tutorials/in-app-purchase-tutorial-with-swift-3-ios-sdk--cms-27595
@@ -35,3 +36,15 @@ Apple User <-> App <-> Apple Store <-> Dev
   - ***Localizations***: For the sake of this tutorial we've chosen only English, but you can add more languages by clicking on the (+) button. Then type a Display Name and a Description. Both of them will be visible on the App Store.
   - ***Screenshot***: Upload a screenshot for review. It will not be displayed in the App Store and it must have a valid size for your app platform, so if your app is Universal, you may upload an iPad screenshot.
   - ***Review Notes***: Any additional information about your IAP which may be helpful for the reviewer.
+  
+  
+### Sandbox user
+  - Sandbox user is the email is NOT a Apple ID
+  - Sandbox user can make test purchase without visa card
+
+
+
+
+
+
+
