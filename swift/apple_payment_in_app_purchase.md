@@ -25,6 +25,11 @@ Apple User <-> App <-> Apple Store <-> Dev
   - After take money from user, Apple will push that money to "Somewhere on Apple server", and you will have to move that money from Apple to your bank account
 
 ### In App Purchase
+
+```
+YOU MUST DONE TAX, CONTACT, BANKING SO YOU CAN MAKE IAP
+```
+
   - ***Consumable IAP***: Buy multiple times (buy coins, buy gems, buy gold, ...)
   - ***Non-Consumable IAP***: Buy one time (remove ads, buy content, unlock premium version...)
   - ***Restore Purchase :in case you use Non-Consumable IAP*** : users will be able to purchase it ***only once***, and Apple requires the ability to restore purchases. That happens in case 
