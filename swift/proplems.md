@@ -1,6 +1,7 @@
-### Auto Layout keeps stretching UIImageView
-### Button setImage keep stretching
-### Disable Rotation of UIViewController Embedded Into UINavigationController
+##### Auto Layout keeps stretching UIImageView
+##### Button setImage keep stretching
+##### Disable Rotation of UIViewController Embedded Into UINavigationController
+##### Export Failed IPA - "No applicable devices found"
 
 ---------------- 
 
@@ -16,34 +17,47 @@
 
 ```swift
 extension UINavigationController {
-    
-    override open var shouldAutorotate: Bool {
-        get {
-            if let visibleVC = visibleViewController {
-                return visibleVC.shouldAutorotate
-            }
-            return super.shouldAutorotate
-        }
-    }
-    
-    override open var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation{
-        get {
-            if let visibleVC = visibleViewController {
-                return visibleVC.preferredInterfaceOrientationForPresentation
-            }
-            return super.preferredInterfaceOrientationForPresentation
-        }
-    }
-    
-    override open var supportedInterfaceOrientations: UIInterfaceOrientationMask{
-        get {
-            if let visibleVC = visibleViewController {
-                return visibleVC.supportedInterfaceOrientations
-            }
-            return super.supportedInterfaceOrientations
-        }
-        
-        // return UIInterfaceOrientationMask.portrait
-    }
+  override open var shouldAutorotate: Bool {
+      get {
+          if let visibleVC = visibleViewController {
+              return visibleVC.shouldAutorotate
+          }
+          return super.shouldAutorotate
+      }
+  }
+
+  override open var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation{
+      get {
+          if let visibleVC = visibleViewController {
+              return visibleVC.preferredInterfaceOrientationForPresentation
+          }
+          return super.preferredInterfaceOrientationForPresentation
+      }
+  }
+
+  override open var supportedInterfaceOrientations: UIInterfaceOrientationMask{
+      get {
+          if let visibleVC = visibleViewController {
+              return visibleVC.supportedInterfaceOrientations
+          }
+          return super.supportedInterfaceOrientations
+      }
+
+      // return UIInterfaceOrientationMask.portrait
+  }
 }
 ```
+##### Export Failed IPA - "No applicable devices found"
+ - https://github.com/fastlane/fastlane/issues/3184
+ 
+ ```
+ $ gem install CFPropertyList
+ $ gem install sqlite3
+ ```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
