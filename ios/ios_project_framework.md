@@ -3,6 +3,7 @@
 ### Target
 ### scheme
 ### Framework
+### Pods install Framework
 
 ------------
 
@@ -40,5 +41,16 @@
 
 #### Use Framework from other project
   - There are 2 ways to use framework:
-    - Use pods ***Automate*** : ***Auto manager dependency frameworks for you***
-    - Use Embedded Framework ***Manual*** : ***You have to add dependency frameworks into project by yourself***
+    - ***Automate*** Use pods : ***Auto manager dependency frameworks for you***
+    - ***Manual*** Use Embedded Framework: ***You have to add dependency frameworks into project by yourself***
+      - Project -> Target -> General -> Embedded Framework
+
+### Pods install Framework
+  - 
+
+
+
+
+
+
+
