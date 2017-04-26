@@ -36,8 +36,7 @@
 #### Linked Framework (linked frameworks and libraries)
   - Link the library with any target you want to use it in. You need this to be able to import the framework in your code
 #### Embedded Framework (Embedded Binaries)
-
-  
+  - Embed the library only in the containing app target. This will actually copy the framework in your app bundle. If you don't embed it your app will crash on startup, because your framework can't be found
 
 #### Use Framework from other project
   - There are 2 ways to use framework:
