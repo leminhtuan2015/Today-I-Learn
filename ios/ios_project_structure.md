@@ -27,6 +27,6 @@
   - A scheme represents a collection of targets that you work with together
   
 #### Framework
-  - Framework = packages (npm javascript), gems (Ruby), jars (Java),
+  - ***Framework = packages (npm javascript), gems (Ruby), jars (Java)***
   - A framework is a dynamic library and resources for that library, such as images and localization strings. Frameworks have the file extension .framework.
   - Frameworks are self-contained, reusable chunks of code and resources that you can import into other IOS App
