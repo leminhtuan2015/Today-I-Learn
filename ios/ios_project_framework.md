@@ -40,5 +40,5 @@
 
 #### Use Framework from other project
   - There are 2 ways to use framework:
-    - Use pods: ***Auto manager dependency frameworks for you***
-    - Use Embedded Framework: ***You have to add dependency frameworks into project by yourself***
+    - Use pods ***Automate*** : ***Auto manager dependency frameworks for you***
+    - Use Embedded Framework ***Manual*** : ***You have to add dependency frameworks into project by yourself***
