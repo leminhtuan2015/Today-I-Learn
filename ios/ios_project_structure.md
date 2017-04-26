@@ -1,18 +1,18 @@
-#### Workspace
-#### Project
-#### Target
-#### scheme
-#### Framework
+### Workspace
+### Project
+### Target
+### scheme
+### Framework
 
 ------------
 
-#### Workspace
+### Workspace
   - Contains one or more ***projects***. These projects usually relate to one another
   
-#### Project
+### Project
   - Contains one or more ***Targets***.
   
-#### Target
+### Target
   - A target defines a single product 
   - A Target defines a list of ***build settings*** for that project
   - A target is an end product created by running "build" in Xcode
@@ -22,11 +22,11 @@
     - or static library
     - or a unit test bundle
 
-#### scheme
+### scheme
   - A scheme defines what happens when you press "Build", "Test", "Profile"
   - A scheme represents a collection of targets that you work with together
   
-#### Framework
+### Framework
 
 #### Framework
   - ***Framework (IOS) = packages (npm javascript), gems (Ruby), jars (Java)***
@@ -34,6 +34,7 @@
   - Frameworks are self-contained, reusable chunks of code and resources that you can import into other IOS App
   
 #### Linked Framework (linked frameworks and libraries)
+  - Link the library with any target you want to use it in. You need this to be able to import the framework in your code
 #### Embedded Framework (Embedded Binaries)
 
   
