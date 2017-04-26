@@ -22,3 +22,7 @@
     - or a unit test bundle
 
 ##### scheme
+  - A scheme defines what happens when you press "Build", "Test", "Profile"
+  - A scheme represents a collection of targets that you work with together
+  
+##### Framework
