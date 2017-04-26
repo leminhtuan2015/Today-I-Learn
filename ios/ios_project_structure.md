@@ -3,7 +3,6 @@
 #### Target
 #### scheme
 #### Framework
-#### Use Framework from other project
 
 ------------
 
@@ -28,8 +27,17 @@
   - A scheme represents a collection of targets that you work with together
   
 #### Framework
+
+#### Framework
   - ***Framework (IOS) = packages (npm javascript), gems (Ruby), jars (Java)***
   - A framework is a dynamic library and resources for that library, such as images and localization strings. Frameworks have the file extension .framework.
   - Frameworks are self-contained, reusable chunks of code and resources that you can import into other IOS App
+  
+#### Linked Framework (linked frameworks and libraries)
+#### Embedded Framework (Embedded Binaries)
+
+  
 
 #### Use Framework from other project
+  - There are 2 ways to use framework:
+    - 
