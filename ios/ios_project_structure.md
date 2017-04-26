@@ -40,4 +40,5 @@
 
 #### Use Framework from other project
   - There are 2 ways to use framework:
-    - 
+    - Use pods
+    - Use Embedded Framework
