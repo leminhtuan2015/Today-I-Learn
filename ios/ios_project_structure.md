@@ -13,7 +13,8 @@
   - Contains one or more ***Targets***.
   
 ##### Target
-  - Target defines a list of ***build settings*** for that project
+  - A target defines a single product 
+  - A Target defines a list of ***build settings*** for that project
   - A target is an end product created by running "build" in Xcode
   - Target might be:
     - an app
