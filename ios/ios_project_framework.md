@@ -54,7 +54,7 @@
 #### Automate (Use Pod)
   - Step 1: In framework project, create a file ***PROJECT_NAME.podspec***
   - Step 2: In application project, create a file ***Podfile***
-  - Step 3: In application project: run ***$ Pod install***
+  - Step 3: In application project: run ***$ Pod install***
 
 ```
 Pod::Spec.new do |s|
