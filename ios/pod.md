@@ -35,15 +35,24 @@
   - [PROJECT_NAME].podspec là file mô tả sẽ đóng gói những source nào thành thư viện
   - ***FujiSDK.podspec*** : Build your own pod lib and you can user other pod lib in your pod lib
   
+  - Step 1: Create lib folder
+  ```
+    $ mkdir MyLib
+    $ cd MyLib
+    $ touch MyLib.podspec
+    $ mkdir MyLib
+  ```
+  
+  - Step 2: Edit MyLib.podspec file
   ```
     Pod::Spec.new do |s|
 
-    s.name          = "FujiSDK"
+    s.name          = "MyLib"
     ...........
     s.platform      = :ios, "8.0"
     s.source        = { :git => "nami-net@nami-net.git.backlog.jp:/FJ_GAME_PF/fuji_sdk_swift.git" }
-    s.source_files  = "FujiSDK", "FujiSDK/**/*.{h,m,swift}", "FujiSDK.podspec"
-    s.resource_bundles = {"FujiSDK" => ["FujiSDK/**/*.{lproj,storyboard,png,jpg,jpeg}"]}
+    s.source_files  = "MyLib", "MyLib/**/*.{h,m,swift}"
+    s.resource_bundles = {"MyLib" => ["MyLib/**/*.{lproj,storyboard,png,jpg,jpeg}"]}
 
     s.dependency 'Alamofire', '~> 4.4'
     s.dependency 'SwiftyJSON'
@@ -51,3 +60,5 @@
     s.framework    = 'StoreKit'
   end
   ```
+  
+  - Step 3: Add all your source code file in ***MyLib/MyLib***
