@@ -45,7 +45,7 @@
   
   - Step 2: Edit MyLib.podspec file
   ```
-    Pod::Spec.new do |s|
+  Pod::Spec.new do |s|
 
     s.name          = "MyLib"
 
@@ -73,7 +73,6 @@
       pod "MyLib", path: "PATH_TO_MyLib"
 
     end
-
   ```
   
   
