@@ -78,7 +78,15 @@ Pod::Spec.new do |s|
 end
 ```
 
+```
+platform :ios, '8.0'
 
+target 'FujiSDK-Test' do
+  use_frameworks!
+
+  pod 'FujiSDK', :path => '../FujiSDK'
+end
+```
 
 
 
