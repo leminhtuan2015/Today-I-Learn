@@ -62,6 +62,26 @@
   ```
   
   - Step 3: Add all your source code file in ***MyLib/MyLib***, create .swift file, .storyboard file ....
+  
+  ```
+    touch Tuan.swift
+  ```
+  
+  ```
+  import Foundation
+
+  public class Tuan {
+
+      public init() {}
+
+      public func hello() {
+        print("Hello Le")
+
+      }
+
+  }
+  ```
+  
   - Step 4: install Lib, in application project
   
   ```
