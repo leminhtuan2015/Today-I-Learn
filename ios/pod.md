@@ -64,6 +64,7 @@
   - Step 3: Add all your source code file in ***MyLib/MyLib***, create .swift file, .storyboard file ....
   
   ```
+    cd MyLib/MyLib
     touch Tuan.swift
   ```
   
