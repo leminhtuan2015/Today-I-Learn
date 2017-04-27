@@ -56,7 +56,7 @@
     cp abc.framework ./ #copy file abc.framework to MyFramework folder
   ```
   
-  - MyFramework.podspec
+    - MyFramework.podspec
   
   ```
     Pod::Spec.new do |s|
@@ -84,7 +84,7 @@
   vim Podfile
   ```
   
-  - Podfile
+    - Podfile
   ```
     platform :ios, '8.0'
 
