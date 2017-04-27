@@ -6,8 +6,8 @@
 ------------------
 
 ### CocoaPods
-- CocoaPods just a tool to pakage source code (.swift, .storyboard, .*) to a folder
-- CocoaPods là 1 tool để đóng gói source code vào trong 1 folder, sau đó khi combile sẽ compile đống source đó thành ***Framework***
+- CocoaPods just a tool to pakage source code (.swift, .storyboard, .*) to a Lib
+- CocoaPods là 1 tool để đóng gói source code thành 1 thư viện để có thể import vào application project, sau đó khi combile sẽ compile đống source thư viện đó thành ***Framework***
 - CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects.
 - CocoaPods:
   - Intergrate a lib for IOS app
@@ -33,7 +33,7 @@
 
 ### Use Pod for create library (.podspec)
   - [PROJECT_NAME].podspec là file mô tả sẽ đóng gói những source nào thành thư viện
-  - ***FujiSDK.podspec*** : Build your own pod lib and you can user other pod lib in your pod lib
+  - ***FujiSDK.podspec*** : Build your own pod lib and you can user other pod lib in your pod lib
   
   - Step 1: Create lib folder
   ```
