@@ -14,4 +14,4 @@
 ### Add framework to project by Pod
   - Để add framework vào project ta có 2 cách
     - Cách 1: Project -> Target -> General -> Embedded Binaries -> Add framework
-    - Cách 2: Use Pod
+    - Cách 2: Use Pod
