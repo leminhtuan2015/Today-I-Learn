@@ -98,5 +98,21 @@ end
 
     end
   ```
+  - Step 5: Use your lib
+  
+```
+import UIKit
+import MyFramework
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        Tuan().goodbye()
+    }
+}
+```
+  
   
   
