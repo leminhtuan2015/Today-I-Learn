@@ -45,20 +45,23 @@
   
   - Step 2: Edit MyLib.podspec file
   ```
-  Pod::Spec.new do |s|
+Pod::Spec.new do |s|
 
-    s.name          = "MyLib"
+  s.name          = "MyLib"
+  s.version       = "1.0.0"
+  s.summary       = "Sort description of MyLib"
+  s.homepage      = "https://fujigame.net/"
+  s.license       = "MIT"
+  s.author        = "Nick D., Tuan L."
+  s.platform      = :ios, "8.0"
+  s.source        = { :path => '.' }
+  s.source_files  = "MyLib", "MyLib/**/*.{h,m,swift}"
+  s.resource_bundles = {"MyLib" => ["MyLib/**/*.{lproj,storyboard,png,jpg,jpeg}"]}
 
-    s.platform      = :ios, "8.0"
-    s.source        = { :git => "nami-net@nami-net.git.backlog.jp:/FJ_GAME_PF/fuji_sdk_swift.git" }
-    s.source_files  = "MyLib", "MyLib/**/*.{h,m,swift}"
-    s.resource_bundles = {"MyLib" => ["MyLib/**/*.{lproj,storyboard,png,jpg,jpeg}"]}
+  s.dependency 'Alamofire', '~> 4.4'
 
-    s.dependency 'Alamofire', '~> 4.4'
-    s.dependency 'SwiftyJSON'
-
-    s.framework    = 'StoreKit'
-  end
+  s.framework    = 'StoreKit'
+end
   ```
   
   - Step 3: Add all your source code file in ***MyLib/MyLib***, create .swift file, .storyboard file ....
