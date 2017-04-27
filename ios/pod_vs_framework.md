@@ -4,7 +4,7 @@
 ----------------
 
 ### Pod vs Framework
-  - Pod and Framework là 2 khái niệm hoàn toàn độc lập (Không hề liên quan)
+  - ***Pod*** and ***Framework*** là 2 khái niệm hoàn toàn độc lập (Không hề liên quan)
   - ***Pod:*** 1 tool Ruby cho phép 
     - Đóng gói source thành 1 lib có thể import vào application
     - Add lib vào 1 project
