@@ -49,10 +49,11 @@
   - Step 1: In framework project, create a file ***PROJECT_NAME.podspec***
   
   ```
-    mkdir MyFramework
-    cd MyFramework
-    touch MyFramework.podspec
-    vim MyFramework.podspec
+    FRAME_WORK_NAME="MyFramework"
+    mkdir "$FRAME_WORK_NAME"
+    cd "$FRAME_WORK_NAME"
+    touch "$FRAME_WORK_NAME.podspec"
+    vim "$FRAME_WORK_NAME.podspec"
     cp abc.framework ./ #copy file abc.framework to MyFramework folder
   ```
   
