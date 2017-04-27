@@ -3,7 +3,7 @@
 ### Target
 ### scheme
 ### Framework
-### Use Framework
+### Add framework to application project
 
 ------------
 
@@ -45,7 +45,7 @@
     - ***Manual*** Use Embedded Framework: ***You have to add dependency frameworks into project by yourself***
       - Project -> Target -> General -> Embedded Framework
 
-### Use Framework
+### Add framework to application project
   - There are 2 ways to use framework:
 
 #### Manual (Use Embedded Framework)
