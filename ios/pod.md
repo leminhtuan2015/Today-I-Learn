@@ -102,7 +102,7 @@ end
   
 ```
 import UIKit
-import MyFramework
+import MyLib
 
 class ViewController: UIViewController {
 
