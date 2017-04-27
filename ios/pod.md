@@ -57,9 +57,9 @@ Pod::Spec.new do |s|
   s.source_files  = "MyLib", "MyLib/**/*.{h,m,swift}"
   s.resource_bundles = {"MyLib" => ["MyLib/**/*.{lproj,storyboard,png,jpg,jpeg}"]}
 
-  s.dependency 'Alamofire', '~> 4.4'
+  #s.dependency 'Alamofire', '~> 4.4'
 
-  s.framework    = 'StoreKit'
+  #s.framework    = 'StoreKit'
 end
   ```
   
