@@ -68,5 +68,21 @@
   ```
   
   - Step 3: In application project: run ***$ Pod install***
+  
+  - Step 4: Use your Framework
+  
+  ```
+    import UIKit
+    import MyFramework
+
+    class ViewController: UIViewController {
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+
+            Tuan().goodbye()
+        }
+    }
+  ```
 
 
