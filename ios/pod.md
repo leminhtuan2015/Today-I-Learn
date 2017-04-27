@@ -24,16 +24,16 @@
     platform :ios, '8.0'
     use_frameworks!
 
-    target 'FujiSDK-Test' do
+    target 'FRAMEWORK_NAME' do
 
-      pod 'FujiSDK', :path => '../FujiSDK'
+      pod 'FRAMEWORK_NAME', :path => 'PATH_TO_FRAMEWORK'
 
     end
   ```
 
 ### Use Pod for create library (.podspec)
-  - [PROJECT_NAME].podspec là file mô tả sẽ đóng gói những source nào thành thư viện
-  - ***FujiSDK.podspec*** : Build your own pod lib and you can user other pod lib in your pod lib
+  - [FRAMEWORK_NAME].podspec là file mô tả sẽ đóng gói những source nào thành thư viện
+  - ***FRAMEWORK_NAME.podspec*** : Build your own pod lib and you can user other pod lib in your pod lib
   
   - Step 1: Create lib folder
   ```
