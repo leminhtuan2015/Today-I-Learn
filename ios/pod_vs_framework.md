@@ -16,7 +16,7 @@
     - Cách 1: Manual: Project -> Target -> General -> Embedded Binaries -> Add framework
     - Cách 2: Automate: Use Pod
 
-#### Cách 2: Automate: Use Pod
+#### Cách 2: Automate: Add framework to project by Pod
 
 - Step 1: In framework project, create a file ***PROJECT_NAME.podspec***
   
