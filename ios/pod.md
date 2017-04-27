@@ -66,6 +66,7 @@
   ```
     cd MyLib/MyLib
     touch Tuan.swift
+    vim Tuan.swift # add the follow source code
   ```
   
   ```
