@@ -84,6 +84,7 @@
   vim Podfile
   ```
   
+  - Podfile
   ```
     platform :ios, '8.0'
 
