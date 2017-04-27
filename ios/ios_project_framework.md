@@ -39,12 +39,6 @@
 #### Embedded Framework (Embedded Binaries)
   - Embed the library only in the containing app target. This will actually copy the framework in your app bundle. If you don't embed it your app will crash on startup, because your framework can't be found
 
-#### Use Framework from project
-  - There are 2 ways to use framework:
-    - ***Automate*** Use pods : ***Auto manager dependency frameworks for you***
-    - ***Manual*** Use Embedded Framework: ***You have to add dependency frameworks into project by yourself***
-      - Project -> Target -> General -> Embedded Framework
-
 ### Add framework to application project
   - There are 2 ways to use framework:
 
@@ -53,36 +47,56 @@
  
 #### Automate (Use Pod)
   - Step 1: In framework project, create a file ***PROJECT_NAME.podspec***
+  
+  ```
+    mkdir MyFramework
+    cd MyFramework
+    touch MyFramework.podspec
+    vim MyFramework.podspec
+    cp abc.framework ./ #copy file abc.framework to MyFramework folder
+  ```
+  
+  - MyFramework.podspec
+  
+  ```
+    Pod::Spec.new do |s|
+      s.name          = "MyFramework"
+      s.version       = "1.0.0"
+      s.summary       = "Sort description of 'MyFramework' framework"
+      s.homepage      = "https://fujigame.net/"
+      s.license       = "MIT"
+      s.author        = "Nick D., Tuan L."
+      s.platform      = :ios, "8.0"
+      s.source        = { :path => '.' }
+      s.public_header_files = "MyFramework.framework/Headers/*.h"
+      s.module_map = "MyFramework.framework/Modules/module.modulemap"
+      s.vendored_frameworks = "MyFramework.framework"
+      s.requires_arc = true
+
+      s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+    end
+  ```
+  
   - Step 2: In application project, create a file ***Podfile***
+  
+  ```
+  touch Podfile
+  vim Podfile
+  ```
+  
+  ```
+    platform :ios, '8.0'
+
+    target 'MyFramework' do
+      use_frameworks!
+
+      pod 'MyFramework', :path => '../PATH_TO_MyFramework'
+    end
+  ```
+  
   - Step 3: In application project: run ***$ Pod install***
 
-```
-Pod::Spec.new do |s|
-  
-  s.name          = "FRAMEWORK_NAME"
-  s.version       = "1.0.0"
-  s.summary       = "Sort description of 'FRAMEWORK_NAME' framework"
-  s.homepage      = "https://fujigame.net/"
-  s.license       = "MIT"
-  s.author        = "Nick D., Tuan L."
-  s.platform      = :ios, "8.0"
-  s.source        = { :git => "nami-net@nami-net.git.backlog.jp:/FJ_GAME_PF/fuji_sdk_swift.git" }
-  s.source_files  = "FRAMEWORK_NAME", "FRAMEWORK_NAME/**/*.{h,m,swift}", "FRAMEWORK_NAME.podspec"
 
-  s.resource_bundles = {"FRAMEWORK_NAME" => ["FRAMEWORK_NAME/**/*.{lproj,storyboard,png,jpg,jpeg}"]}
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
-end
-```
-
-```
-platform :ios, '8.0'
-
-target 'PROJECT_NAME' do
-  use_frameworks!
-
-  pod 'FRAMEWORK_NAME', :path => '../PATH_TO_FRAMEWORK'
-end
-```
 
 
 
