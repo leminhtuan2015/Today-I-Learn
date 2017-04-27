@@ -32,7 +32,7 @@
   ```
 
 ### Use Pod for create library (.podspec)
-  - [PROJECT_NAME].podspec là file mô tả sẽ đóng gói những source nào thành thư viện
+  - [PROJECT_NAME].podspec là file mô tả sẽ đóng gói những source nào thành thư viện
   - ***FujiSDK.podspec*** : Build your own pod lib and you can user other pod lib in your pod lib
   
   - Step 1: Create lib folder
@@ -61,4 +61,19 @@
   end
   ```
   
-  - Step 3: Add all your source code file in ***MyLib/MyLib***
+  - Step 3: Add all your source code file in ***MyLib/MyLib***, create .swift file, .storyboard file ....
+  - Step 4: install Lib, in application project
+  
+  ```
+    platform :ios, '8.0'
+
+    target 'MyProject' do
+      use_frameworks!
+
+      pod "MyLib", path: "PATH_TO_MyLib"
+
+    end
+
+  ```
+  
+  
