@@ -37,10 +37,10 @@
   
   - Step 1: Create lib folder
   ```
-    $ mkdir MyLib
-    $ cd MyLib
-    $ touch MyLib.podspec
-    $ mkdir MyLib
+    mkdir MyLib
+    cd MyLib
+    touch MyLib.podspec
+    mkdir MyLib
   ```
   
   - Step 2: Edit MyLib.podspec file
@@ -48,7 +48,7 @@
     Pod::Spec.new do |s|
 
     s.name          = "MyLib"
-    ...........
+
     s.platform      = :ios, "8.0"
     s.source        = { :git => "nami-net@nami-net.git.backlog.jp:/FJ_GAME_PF/fuji_sdk_swift.git" }
     s.source_files  = "MyLib", "MyLib/**/*.{h,m,swift}"
@@ -56,7 +56,7 @@
 
     s.dependency 'Alamofire', '~> 4.4'
     s.dependency 'SwiftyJSON'
-    ...........
+
     s.framework    = 'StoreKit'
   end
   ```
