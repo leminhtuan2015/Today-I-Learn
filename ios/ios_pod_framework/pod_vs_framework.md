@@ -8,7 +8,7 @@
     - ***Pod:*** 1 tool Ruby cho phép Đóng gói source thành 1 lib có thể import vào application
     - ***Add lib vào 1 project*** / ***Add Framework vào 1 project***
   - ***Framework:***
-    - Là support của Apple cho phép đóng gói source thành thư viện giống như (jar - Java, gem - Ruby, ...)
+    - Là support của Apple cho phép đóng gói source thành thư viện giống như (jar - Java, gem - Ruby, aar - Android ...)
    
 ### Add framework to project by Pod
   - Để add framework vào project ta có 2 cách:
