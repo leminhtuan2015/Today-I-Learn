@@ -16,6 +16,9 @@
     - Cách 2: Automate: Use Pod
 
 #### Cách 2: Automate: Add framework to project by Pod
+- Step 1: Build ra file .framework
+- step 2: import file .framework vào project bằng ***pod***
+-------
 
 - Step 1: In framework project, create a file ***PROJECT_NAME.podspec***
   
