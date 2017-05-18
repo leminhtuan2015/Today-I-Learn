@@ -1,9 +1,12 @@
-- https://developer.android.com/guide/components/fundamentals.html
+### Project Structure
 
+----------------------
 
-# Android VS IOS-Swift
+### Project Structure
 
-- Activity = ViewController = [Controller layer in MVC]
-- XML layout = Storyboard = [View layer in MVC]
-- manifest.xml = info.plist = [Project Config File]
-- Intent = Segue = [Start a controller]
+* Android **project** is contain many **modules**
+  * Project level : 
+    * settings.gradle : Config modules it should include in project
+    * build.gradle
+  * Module level :
+    * build.gradle
