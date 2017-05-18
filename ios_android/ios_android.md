@@ -5,14 +5,14 @@
 
 ### Project Structure
 * IOS: **Project** has many **Targets**
- * **Target** is: **Framework(.framework)** OR **Application**
- * Framework in IOS => build .framework (for import in other projects)
- * Application in IOS => build .ipa
+  * **Target** is: **Framework(.framework)** OR **Application**
+  * Framework in IOS => build .framework (for import in other projects)
+  * Application in IOS => build .ipa
 
 * Android: **Project** has many **Modules**
- *  **Modules** is: **Library(.aar)** OR **Application**
- *  Library in Android => build .aar (for import in other projects)
- *  Application in Android => build .apk
+  *  **Modules** is: **Library(.aar)** OR **Application**
+  *  Library in Android => build .aar (for import in other projects)
+  *  Application in Android => build .apk
 
 ### Mindset
 
