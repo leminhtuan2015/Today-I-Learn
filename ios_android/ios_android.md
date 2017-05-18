@@ -26,3 +26,4 @@
 * IOS - ViewController = Android - Activity
 * IOS - StoryBoard = Android - XML-Layout
 * IOS - Object = Android - Object
+* IOS - info.plist = Android - manifest.xml
