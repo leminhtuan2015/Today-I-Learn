@@ -5,18 +5,18 @@
 
 ### Project Structure
 * IOS: **Project** has many **Targets**
-  * Target
+  * Target have 2 type
     * Framework: **.framework**
     * Application
-  * Framework in IOS => build .framework (for import in other projects)
-  * Application in IOS => build .ipa
+  * Target: Framework in IOS => build .framework (for import in other projects)
+  * Target: Application in IOS => build .ipa
 
 * Android: **Project** has many **Modules**
-  *  Modules
+  *  Modules have 2 type
      * Library: **.aar**
      * Application
-  *  Library in Android => build .aar (for import in other projects)
-  *  Application in Android => build .apk
+  *  Modules: Library in Android => build .aar (for import in other projects)
+  *  Modules: Application in Android => build .apk
 
 * Đối với IOS và Android: **Project** chỉ là wrap lại các **Targets** và **Modules**
   * IOS: Target là
