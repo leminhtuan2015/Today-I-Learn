@@ -19,7 +19,7 @@
   *  Modules: Application in Android => build .apk
 
 * Đối với IOS và Android: **Project** chỉ là wrap lại các **Targets** và **Modules**
-  * IOS: Target là
+* Targets + Modules : là những phần chứa code cho mỗi **project**
 
 ### Mindset
 
