@@ -18,7 +18,7 @@
   *  Modules: Library in Android => build .aar (for import in other projects)
   *  Modules: Application in Android => build .apk
 
-* Đối với IOS và Android: **Project** chỉ là wrap lại các **Targets** và **Modules**
+* Đối với IOS và Android: **Project** chỉ là file config wrap lại các **Targets** và **Modules**
 * Targets + Modules : là những phần chứa code cho mỗi **project**
 
 ### Mindset
