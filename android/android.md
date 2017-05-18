@@ -1,5 +1,5 @@
 ### Project Structure
-
+### Gradle
 ----------------------
 
 ### Project Structure
@@ -12,3 +12,17 @@
     * **build.gradle** Config dependencies
     
 * Each module in Android have it own **build.gradle** for build its module
+
+### Gradle
+
+#### Import Other Library
+
+* Import **FujiSDK** project library into project 
+* **settings.gradle**
+
+```
+include ':app'
+include ':FujiSDK'
+
+project(':FujiSDK').projectDir = new File(settingsDir, '../Android')
+```
