@@ -38,7 +38,7 @@
 class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
-* Android Entry-point: **`android.intent.action.MAIN`**
+* Android Entry-point: **`android.intent.action.MAIN`** (AndroidManifest.xml)
 
 ```
 <activity android:name=".MainActivity">
