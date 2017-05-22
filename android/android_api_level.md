@@ -5,8 +5,8 @@
 ### Android Version History
 
 |   Code name	|   Version number	|   Initial release date |   API leve.  |   Support status|
-|--: 		      |--:					       |--:                     |--:           |--:           |
-|   			    |      1.0          | September 23, 2008.    |      1       |   Unsupported   |
+|--: 		      |--:					       |--:                    |--:           |--:           |
+|   			    |      1.0          | September 23, 2008     |      1       |   Unsupported   |
 |   			    |      1.1          |February 9, 2009        |      2       |   Unsupported  |
 |Cupcake     |      1.5			      |  April 27, 2009        |      3       |    Unsupported |
 |Donut       |      1.6		        |  September 15, 2009    |      4       |    Unsupported |
@@ -18,6 +18,6 @@
 |Jelly Bean  |      4.1-4.3.1     |  July 9, 2012          |      16–18   |    Unsupported |
 |KitKat      |      4.4-4.4.4		  |  October 31, 2013      |      19      |    Supported   |
 |Lollipop (L)|      5.0–5.1.1     |  November 12, 2014     |      21–22   |    Supported   |
-|Marshmallow (M)|   6.0–6.0.1     |  October 5, 2015       |       23     |    Supported .  |
-|**Nougat (N)**  |  **7.0–7.1.2** |  **August 22, 2016**   |   **24-25**  | **Supported** . |
-|O           |      8.0			      |  TBA.                  |       26     |    Beta.     |
+|Marshmallow (M)|   6.0–6.0.1     |  October 5, 2015       |       23     |    Supported   |
+|**Nougat (N)**  |  **7.0–7.1.2** |  **August 22, 2016**   |   **24-25**  | **Supported**  |
+|O           |      8.0			      |  TBA                   |       26     |    Beta        |
