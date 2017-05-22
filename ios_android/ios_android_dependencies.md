@@ -1,6 +1,7 @@
 
 ### IOS, Android Dependencies
 ### Where The Dependencies is fetched from? 
+### Local Dependencies
 --------------------
 
 ### IOS Dependencies
@@ -38,3 +39,18 @@ allprojects {
     }
 }
 ```
+### Local Dependencies
+
+* IOS
+
+```
+pod 'Name', :path => 'path/to/Pod'
+```
+* Android
+
+```
+dependencies {
+    compile project(':FujiSDK')
+}
+```
+
