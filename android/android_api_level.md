@@ -41,6 +41,7 @@ android {
 
 * **minSdkVersion** (lowest possible SDK)
 * **compileSdkVersion** (latest SDK)
-* minSdkVersion <= targetSdkVersion <= compileSdkVersion
+* **targetSdkVersion** has mean nothing with how your app is compiled or what APIs you can utilize, If you do not specify the targetSdkVersion, it defaults to the minSdkVersion
+* **minSdkVersion** <= **targetSdkVersion** <= **compileSdkVersion**
 
 
