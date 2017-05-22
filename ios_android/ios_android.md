@@ -31,14 +31,14 @@
 
 ### Entry-point
 
-* IOS Entry-point : `@UIApplicationMain`
+* IOS Entry-point : **`@UIApplicationMain`**
 
 ```
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
-* Android Entry-point: `android.intent.action.MAIN`
+* Android Entry-point: **`android.intent.action.MAIN`**
 
 ```
 <activity android:name=".MainActivity">
