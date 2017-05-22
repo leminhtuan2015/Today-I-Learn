@@ -7,8 +7,8 @@
 ### IOS Version History
 |   Code name	|   Version number	|   Initial release date |   API leve.  |   Support status          |
 |--:          |--:                |--:                     |--:           |--:                        |
-|  iPhone OS 1|      1.0          |  March 6, 2008         |              |                           |
-|  iPhone OS 2|      2.0          |  July 11, 2008         | iPhone 3G    |                           |
+|  iPhone OS 1|         1.0       |  March 6, 2008         |              |                           |
+|  iPhone OS 2|          2.0      |  July 11, 2008         | iPhone 3G    |                           |
 |  iPhone OS 3|      3.0-3.2      |  June 17, 2009         | iPhone 3GS   |                           |
 |  iOS 4      |      4.0-4.2      |  June 21, 2010         | iPhone 4     |                           |
 |  iOS 5      |      5.0 - 5.1.1  |  June 6, 2011          | iPhone 4S    |                           |
