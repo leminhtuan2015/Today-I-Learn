@@ -51,6 +51,8 @@ pod 'Name', :path => 'path/to/Pod'
 ```
 dependencies {
     compile project(':FujiSDK')
+    compile files('libs/gcm.jar')
+    compile(name: 'payment-0.6.0', ext: 'aar') {transitive = true}
 }
 ```
 
