@@ -4,9 +4,9 @@
 
 ### Android Activity
 
-  - When you **Start** an activity that mean: Create a new **object instance** of an **activity class**
+* Android activity is **Controller** in MVC Android
+* When you **Start** an activity that mean: Create a new **object instance** of an **activity class**
   
-
 ```java
 public class MyActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class MyActivity extends AppCompatActivity {
 
 ```
 
-- Start an Activity
+* Start an Activity
 
 ```java
         Intent intent = new Intent(context, MyActivity.class);
@@ -27,5 +27,5 @@ public class MyActivity extends AppCompatActivity {
         context.startActivity(intent);
 ```
 
-- When you **Start** the **MyActivity** that mean : Create a new **object instance** of the **MyActivity class** and this object will be **stored** in stack
-- You can have many the same Activity live in the stack but that is NOT good
+* When you **Start** the **MyActivity** that mean : Create a new **object instance** of the **MyActivity class** and this object will be **stored** in stack
+* You can have many the same Activity live in the stack but that is NOT good
