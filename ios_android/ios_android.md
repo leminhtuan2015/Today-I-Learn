@@ -1,5 +1,6 @@
 ### Project Structure
 ### Mindset
+### Entry-point
 
 --------------------------
 
@@ -24,6 +25,52 @@
 ### Mindset
 
 * IOS - ViewController = Android - Activity
-* IOS - StoryBoard = Android - XML-Layout
+* IOS - StoryBoard = Android - XML-Layout (Both are XML)
 * IOS - Object = Android - Object
 * IOS - info.plist = Android - manifest.xml
+
+### Entry-point
+
+* IOS Entry-point : `@UIApplicationMain`
+
+```
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+}
+```
+* Android Entry-point: `android.intent.action.MAIN`
+
+```
+<activity android:name=".MainActivity">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+    </intent-filter>
+</activity>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
