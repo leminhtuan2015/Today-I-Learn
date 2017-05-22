@@ -1,4 +1,5 @@
 ### Android Version History
+### Gradle Build Config Version
 
 --------------------
 
@@ -21,3 +22,19 @@
 |Marshmallow (M)|   6.0–6.0.1     |  October 5, 2015       |       23     |    Supported   |
 |**Nougat (N)**  |  **7.0–7.1.2** |  **August 22, 2016**   |   **24-25**  | **Supported**  |
 |O           |      8.0			      |  TBA                   |       26     |    Beta        |
+
+
+### Gradle Build Config Version
+```
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.fuji.platform"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 17032000
+        versionName "1.0"
+    }
+}
+```
