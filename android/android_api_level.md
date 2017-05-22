@@ -38,3 +38,9 @@ android {
     }
 }
 ```
+
+* **minSdkVersion** (lowest possible SDK)
+* **compileSdkVersion** (latest SDK)
+* minSdkVersion <= targetSdkVersion <= compileSdkVersion
+
+
