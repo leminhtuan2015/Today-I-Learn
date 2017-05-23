@@ -4,7 +4,8 @@
 
 ### Gradle
 * Gradle used to build Android project to APK
-* **Project level : ** have 2 gradle file
+
+* **Project level :** have 2 gradle file
   * setting.gradle : File config modules contain in project
   * project/build.gradle : File config remote repositories for fetching dependencies
   
