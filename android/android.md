@@ -4,7 +4,7 @@
 
 ### Project Structure
 
-* Android **project** is contain many **modules**
+* Android **project** is contain many **modules** (at least one module that is **app**)
   * Project level : 
     * **settings.gradle** : Config **modules** it should include in **project**
     * **build.gradle** : Config build script
