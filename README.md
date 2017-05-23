@@ -1,7 +1,7 @@
 ### To Do List
  
 ----------------
-*IOS
+* IOS
 - https://medium.com/swiftindia/build-a-custom-universal-framework-on-ios-swift-549c084de7c8
 - https://github.com/ReactiveX/RxSwift
 - https://github.com/ReactiveCocoa/ReactiveCocoa
@@ -10,22 +10,9 @@
 - https://dangthaison91.wordpress.com/2015/10/24/declarative-programming/
 - https://dangthaison91.wordpress.com/2016/05/31/introduction-functional-reactive-programming/
 
-*Android:
+* Android:
 
-<android.support.v7.widget.Toolbar
-
-<android.support.design.widget.BottomNavigationView
-
-<android.support.v4.view.ViewPager
-        android:id="@+id/pager"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:layout_below="@id/tab_layout"/>
-        
-xmlns:app="http://schemas.android.com/apk/res-auto"
-
-
-xmlns:android="http://schemas.android.com/apk/res/android"
+https://developer.android.com/topic/libraries/data-binding/index.html
 
 
 
