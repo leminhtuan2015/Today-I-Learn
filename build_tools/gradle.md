@@ -195,27 +195,29 @@
 ```   
   
  - Step 7: Build Android -> APK
-  ```
-    gradle build
-  ```
+ 
+```
+gradle build
+```
   
   - Step 8: Install .apk app
-    ```
-      adb install path/to/apk  (build/outputs/apk)
-    ```
+  
+```
+  adb install path/to/apk  (build/outputs/apk)
+```
 
 ## Gradle signed APK with keystore.
 
  - Step 1: Create file **release-signing.properties**
  
-   ```xml
-    key.store=../../../../../../../Dropbox/Audio18/KeystoreAndroid/audio18pro.keystore
-    key.alias=18audio
-    key.store.password=18audio
-    key.alias.password=18audio
-   ```
+```xml
+key.store=../../../../../../../Dropbox/Audio18/KeystoreAndroid/audio18pro.keystore
+key.alias=18audio
+key.store.password=18audio
+key.alias.password=18audio
+```
    
 - Step 2:
-   ```
-    gradle build
-    ```
+```
+gradle build
+```
