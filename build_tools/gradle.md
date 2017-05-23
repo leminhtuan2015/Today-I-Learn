@@ -144,54 +144,55 @@
   - Step 5: Create the Main Activity.
     - src/main/java/org/hello/HelloActivity.java
 
-  ```
-    package org.hello;
-    
-    import android.app.Activity;
-    import android.os.Bundle;
-    import android.widget.TextView;
-    
-    public class HelloActivity extends Activity {
-    
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.hello_layout);
-        }
-    
-          @Override
-          public void onStart() {
-              super.onStart();
-              TextView textView = (TextView) findViewById(R.id.text_view);
-              textView.setText("Hello world!");
-          }
-      
+```
+  package org.hello;
+
+  import android.app.Activity;
+  import android.os.Bundle;
+  import android.widget.TextView;
+
+  public class HelloActivity extends Activity {
+
+      @Override
+      public void onCreate(Bundle savedInstanceState) {
+          super.onCreate(savedInstanceState);
+          setContentView(R.layout.hello_layout);
       }
-    ```
-  - Step 6: Create build.gradle file
+
+        @Override
+        public void onStart() {
+            super.onStart();
+            TextView textView = (TextView) findViewById(R.id.text_view);
+            textView.setText("Hello world!");
+        }
+
+    }
+  ```
+  
+- Step 6: Create build.gradle file
     - build.gradle placed at root of project (like build.xml of ant)
       - Choose the:  **compileSdkVersion**
       - Choose the:  **buildToolsVersion**
       - Choose the gradle build version: classpath 'com.android.tools.build:gradle:2.1.2'
-  
+
   ```
     buildscript {
         repositories {
             jcenter()
         }
-    
+
         dependencies {
-            classpath 'com.android.tools.build:gradle:2.1.2'
-        }
-    }
-    
-    apply plugin: 'com.android.application'
-    
-    android {
-        compileSdkVersion 22
-        buildToolsVersion "22.0.1"
-    }
-  ```
+          classpath 'com.android.tools.build:gradle:2.1.2'
+      }
+  }
+
+  apply plugin: 'com.android.application'
+
+  android {
+      compileSdkVersion 22
+      buildToolsVersion "22.0.1"
+  }
+```   
   
  - Step 7: Build Android -> APK
   ```
