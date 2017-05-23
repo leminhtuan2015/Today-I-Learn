@@ -90,7 +90,7 @@
       mkdir -p src/main/res/layout/
     ```
     
-  - Step 2: Create the ** Android Manifest** file : 
+  - Step 2: Create the **Android Manifest** file : 
     - src/main/AndroidManifest.xml
 
     ```
