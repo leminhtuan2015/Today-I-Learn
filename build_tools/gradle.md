@@ -175,7 +175,7 @@
       - Choose the:  **buildToolsVersion**
       - Choose the gradle build version: classpath 'com.android.tools.build:gradle:2.1.2'
 
-  ```
+```
     buildscript {
         repositories {
             jcenter()
@@ -218,6 +218,7 @@ key.alias.password=18audio
 ```
    
 - Step 2:
+
 ```
-gradle build
+  gradle build
 ```
