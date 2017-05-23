@@ -14,6 +14,8 @@
 
 <android.support.v7.widget.Toolbar
 
+<android.support.design.widget.BottomNavigationView
+
 <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
