@@ -21,6 +21,11 @@
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:layout_below="@id/tab_layout"/>
+        
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+xmlns:android="http://schemas.android.com/apk/res/android"
 
 
 
