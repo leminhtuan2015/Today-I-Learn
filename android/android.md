@@ -16,7 +16,7 @@
 
 ### Gradle
 
-#### Import Other Library to Project
+#### Import Other Modules to Project
 
 * Import **FujiSDK** project library into project 
 * **settings.gradle**
@@ -28,7 +28,7 @@ include ':FujiSDK'
 project(':FujiSDK').projectDir = new File(settingsDir, '../Android')
 ```
 
-#### Import Library to Module
+#### Import Modules to Module
 * In **build.gradle** of **app** module
 
 ```
