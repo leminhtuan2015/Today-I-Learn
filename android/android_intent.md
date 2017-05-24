@@ -1,5 +1,6 @@
 ### Intent Android
 ### Move Bettween Activities
+### Start Activity For Result
 --------
 ### Intent Android
 
@@ -17,3 +18,42 @@ Intent i = new Intent(this, NextActivity.class);
 startActivity(i);
 ```
 
+### Start Activity For Result
+* From your **FirstActivity** call the **SecondActivity**
+* Do some logic in **SecondActivity** and return back to **FirstActivity**
+
+```
+//FirstActivity
+
+Intent i = new Intent(this, SecondActivity.class);
+startActivityForResult(i, 1);
+
+@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+    if (requestCode == 1) {
+        if(resultCode == Activity.RESULT_OK){
+            String result=data.getStringExtra("result");
+        }
+        if (resultCode == Activity.RESULT_CANCELED) {
+            //Write your code if there's no result
+        }
+    }
+}//onActivityResult
+
+-------------------------------------------------
+
+//SecondActivity
+
+Intent returnIntent = new Intent();
+returnIntent.putExtra("result",result);
+setResult(Activity.RESULT_OK,returnIntent);
+finish();
+
+// OR If you don't want to return data:
+
+Intent returnIntent = new Intent();
+setResult(Activity.RESULT_CANCELED, returnIntent);
+finish();
+
+```
