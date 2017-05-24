@@ -12,7 +12,7 @@
 
 ### Android Support Library Version (jar/aar)
 ```
-Android Support Library just is a jar/aar file
+Android Support Library just is a .jar or .aar file
 ```
 
 * **v4 Support Library** : This library is designed to be used with Android 1.6 (API level 4) and higher.
