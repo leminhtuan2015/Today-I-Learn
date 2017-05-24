@@ -1,5 +1,5 @@
 ### IOS/Android API Level
-
+### How Apple/Google update IOS/Android Version
 
 -----------------------------
 
@@ -29,3 +29,31 @@ if Float(UIDevice.current.systemVersion)! < 9.3 {
 * Android 5.0 : **API 21**
 * Android 7.0 : **API 24**
 * Android 7.1.1, Android 7.1 : **API 25**
+
+### How Apple/Google update IOS/Android Version
+
+* With Apple, they do both:
+  * Develop IOS opera system
+  * Develop Device - IPhone, IPad ...
+  
+Therefor when they have a new IOS version (10.0 -> 10.1) they can **immediately** notify to all IOS device for update new IOS version 
+
+* 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
