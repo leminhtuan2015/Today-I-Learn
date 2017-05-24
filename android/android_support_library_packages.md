@@ -11,7 +11,8 @@
 * The Support Libraries provide additional **classes, function and features** not available in the standard Framework API for easier development and support across more devices
 
 ```
-=> Dùng Android Support Library để có thể chạy được code mới của các version Android API mới hơn trên các thiết bị cũ.
+=> Dùng Android Support Library để có thể chạy được code mới 
+của các version Android API mới hơn trên các thiết bị cũ.
 (Bản chất Android Support Library là các file .jar/.arr được add thêm vào source của APK application)
 ```
 
