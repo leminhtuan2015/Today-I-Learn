@@ -7,7 +7,7 @@
 
 * API : **Include the functions and code (classes, modules)** that your applications can use to interact with the underlying Android system (Android OS)
 * Most changes in the API are **additive and introduce new or replacement functionality** the older replaced parts are **deprecated but are NOT removed**
-* API is placed inside IOS/Android (OS)
+* **API is placed inside IOS/Android (OS)**
 * With each **version of IOS/Android (OS)** => **version of API** will be updated (add more or deprecated)
 * Choosing a lower API level may support more devices but gain less functionality for your app. you may also work harder to achieve features you could've easily gained if you chose higher API level.
 
