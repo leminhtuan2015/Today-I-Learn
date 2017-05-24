@@ -1,6 +1,7 @@
 ### Intent Android
 ### Move Bettween Activities
 ### Start Activity For Result
+### Dismiss/Close a Activity
 --------
 ### Intent Android
 
@@ -57,3 +58,24 @@ setResult(Activity.RESULT_CANCELED, returnIntent);
 finish();
 
 ```
+### Dismiss/Close a Activity
+
+```
+// Closing Activity
+finish();
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
