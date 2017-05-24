@@ -5,5 +5,6 @@
 
 ### IOS/Android API Level
 
-* API : Include the functions, code for deve The you can communicate with the devices' built in functions
-* With each version of IOS/Android (OS) it 
+* API : **Include the functions and code (classes, modules)** that your applications can use to interact with the underlying Android system (Android OS)
+* 
+* With each version of IOS/Android (OS) API will be updated (add more/ de)
