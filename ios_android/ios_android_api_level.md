@@ -33,12 +33,14 @@ if Float(UIDevice.current.systemVersion)! < 9.3 {
 ### How Apple/Google update IOS/Android Version
 
 * With Apple, they do both:
-  * Develop IOS opera system
-  * Develop Device - IPhone, IPad ...
+  * Develop **IOS opera system**
+  * Develop **Devices** - IPhone, IPad ...
   
-Therefor when they have a new IOS version (10.0 -> 10.1) they can **immediately** notify to all IOS device for update new IOS version 
+Therefor when Apple have a new IOS version (10.0 -> 10.1), Apple can **immediately** notify to all IOS device for update new IOS version 
 
-* 
+* With Google, They just only develop **Android opera system**, and NOT develop **Android devices**
+
+Therefor when Google have a new Android version (7.0 -> 7.1), Google CAN NOT notify to users to update new Android version, instead of that is **Mobibe distributor** such as SamSung, Sony,... 
   
   
   
