@@ -35,7 +35,10 @@ func ratingButtonTapped() {
         <state key="normal" title="P"/>
         
         <connections>
-              <action selector="playButton:" destination="d2Z-AE-9rH" eventType="touchUpInside" id="VhN-lf-znv"/>
+              <action selector="playButton:" 
+                      destination="d2Z-AE-9rH" 
+                      eventType="touchUpInside" 
+                      id="VhN-lf-znv"/>
         </connections>
 </button>
 ```
