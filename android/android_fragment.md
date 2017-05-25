@@ -1,5 +1,6 @@
 ### Fragment
 ### Adding a user interface for Fragment
+### Adding a fragment to an activity
 
 -----------
 
@@ -26,3 +27,5 @@ public static class ExampleFragment extends Fragment {
     }
 }
 ```
+### Adding a fragment to an activity
+* **A Fragment `must` always be embedded in an Activity**
