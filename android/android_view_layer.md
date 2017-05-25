@@ -6,7 +6,7 @@
 
 * Each View Object in Android will be mapped with one in XML (XML layout)
 
-* **Android Button programmatically**
+* **Android Button Programmatically**
 
 ```
 //the layout on which you are working
