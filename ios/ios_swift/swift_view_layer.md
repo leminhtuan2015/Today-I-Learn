@@ -5,7 +5,7 @@
 ### Swift View Layer
 * Each view object in Swift will be mapping with one XML tag
  
-* Swift Button programmatically
+* **Swift Button Programmatically**
 
 ```
 let button = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
@@ -18,7 +18,7 @@ func ratingButtonTapped() {
 }
 ```
  
-* Swift Button XML (Storyboard)
+* **Swift Button XML (Storyboard)**
  
 ```
 <button opaque="NO" contentMode="scaleToFill" 
