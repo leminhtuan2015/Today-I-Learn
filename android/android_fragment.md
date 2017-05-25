@@ -28,4 +28,4 @@ public static class ExampleFragment extends Fragment {
 }
 ```
 ### Adding a fragment to an activity
-* **A Fragment `must` always be embedded in an Activity**
+* **A Fragment must always be embedded in an Activity**
