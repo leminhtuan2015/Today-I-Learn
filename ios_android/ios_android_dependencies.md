@@ -1,7 +1,7 @@
 
-### IOS, Android Dependencies
+### IOS, Android Remote Dependencies
 ### Where The Dependencies is fetched from? 
-### Local Dependencies
+### IOS, Android Local Dependencies
 --------------------
 
 ### IOS Dependencies
@@ -39,14 +39,16 @@ allprojects {
     }
 }
 ```
-### Local Dependencies
+### IOS, Android Local Dependencies
 
 * IOS
+  * Create Podspect file
 
 ```
 pod 'Name', :path => 'path/to/Pod'
 ```
 * Android
+  * Create Android Library
 
 ```
 dependencies {
