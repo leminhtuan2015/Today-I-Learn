@@ -1,6 +1,8 @@
 ### Fragment
+### Adding a user interface for Fragment
 
 -----------
+
 ### Fragment
 
 * A Fragment is a section of an Activity, which has:
@@ -10,3 +12,17 @@
 
 * A Fragment must always be embedded in an Activity
 * Fragment like a "sub activity" that you can reuse in different activities
+
+### Adding a user interface for Fragment
+* Inflate the layout for fragment
+* To provide a **layout for a fragment**, you must implement the `onCreateView()` of `Fragment class`
+
+```
+public static class ExampleFragment extends Fragment {
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.example_fragment, container, false);
+    }
+}
+```
