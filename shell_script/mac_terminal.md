@@ -3,16 +3,21 @@
 --------------------------------------------
 ### Open App From Terminal
 
-```
-APP_NAME="Google\ Chrome"
+* There are 2 way to open app from terminal
 
+```
 # APP_NAME is the file .app in the Applications folder
 
 /usr/bin/open -a Google\ Chrome http://stackoverflow.com/
 
 /usr/bin/open -a Safari http://stackoverflow.com/
+
+/usr/bin/open -a firefox http://google.com
 ```
 
+```
+/Applications/Firefox.app/Contents/MacOS/firefox -private-window http://google.com
+```
 
 https://support.mozilla.org/en-US/questions/1092082
 
