@@ -12,3 +12,8 @@ APP_NAME="Google\ Chrome"
 
 /usr/bin/open -a Safari http://stackoverflow.com/
 ```
+
+
+https://support.mozilla.org/en-US/questions/1092082
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options
