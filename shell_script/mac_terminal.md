@@ -19,3 +19,5 @@ https://support.mozilla.org/en-US/questions/1092082
 https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options
 
 http://peter.sh/experiments/chromium-command-line-switches/
+
+https://kb.iu.edu/d/ajfi
