@@ -21,3 +21,5 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options
 http://peter.sh/experiments/chromium-command-line-switches/
 
 https://kb.iu.edu/d/ajfi
+
+https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
