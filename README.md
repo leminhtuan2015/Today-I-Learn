@@ -24,6 +24,8 @@ TextView userName = (TextView)findViewById(R.id.usernameValue);
 import com.fuji.fujisdk.R;
 
 
+MenuInflater inflater
+
 
 
 
