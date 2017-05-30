@@ -17,6 +17,8 @@
 
 ```
 /Applications/Firefox.app/Contents/MacOS/firefox -private-window http://google.com
+
+/Applications/TorBrowser.app/Contents/MacOS/firefox http://google.com
 ```
 
 https://support.mozilla.org/en-US/questions/1092082
