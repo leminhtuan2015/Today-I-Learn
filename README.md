@@ -51,3 +51,5 @@ findByID, setOnclick
 @IBAction func playButton(_ sender: Any) {
     changeVideoState()
 }
+
+https://developer.android.com/guide/topics/ui/settings.html
