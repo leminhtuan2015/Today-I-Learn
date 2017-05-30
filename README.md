@@ -33,3 +33,8 @@ R.menu.search
 R.layout.controller_home
 
 R.id.item_search
+
+actionView
+
+
+app:actionViewClass="android.support.v7.widget.SearchView"
