@@ -26,6 +26,5 @@ import com.fuji.fujisdk.R;
 
 MenuInflater inflater
 
-
-
+LayoutInflater inflater
 
