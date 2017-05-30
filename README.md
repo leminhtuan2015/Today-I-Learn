@@ -28,3 +28,8 @@ MenuInflater inflater
 
 LayoutInflater inflater
 
+R.menu.search
+
+R.layout.controller_home
+
+R.id.item_search
