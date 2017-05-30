@@ -54,6 +54,8 @@ findByID, setOnclick
 
 https://developer.android.com/guide/topics/ui/settings.html
 
+http://www.vogella.com/tutorials/AndroidListView/article.html#listfragments
+
 ```
 View view = inflater.inflate(R.layout.fragment_search, container, false);
 final ListView listview = (ListView) view.findViewById(R.id.listview);
