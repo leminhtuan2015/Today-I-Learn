@@ -17,5 +17,13 @@
 
 
 
+setContentView(R.layout.activity_user_info);
+
+TextView userName = (TextView)findViewById(R.id.usernameValue);
+
+import com.fuji.fujisdk.R;
+
+
+
 
 
