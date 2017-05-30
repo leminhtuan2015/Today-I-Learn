@@ -42,3 +42,12 @@ app:actionViewClass="android.support.v7.widget.SearchView"
 http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
 
 https://developer.android.com/training/appbar/action-views.html
+
+
+@IBOutlet weak var playButton: UIButton!
+
+findByID, setOnclick
+  
+@IBAction func playButton(_ sender: Any) {
+    changeVideoState()
+}
