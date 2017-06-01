@@ -6,7 +6,7 @@
 
 * **Each View Object in Android will be mapped with one XML Tag (XML layout)**
 
-* **Android Button Programmatically**
+* **Create Android Button Programmatically**
 
 ```
 //the layout on which you are working
@@ -22,7 +22,7 @@ btnTag.setId(some_random_id);
 layout.addView(btnTag);
 ```
 
-* **Android Button XML (XML layout)**
+* **Create Android Button XML (XML layout)**
 ```
 // ANDROID CODE
 
