@@ -20,7 +20,7 @@ func ratingButtonTapped() {
  
 * **Swift Button XML (Storyboard)**
  
-```
+```xml
 <button opaque="NO" contentMode="scaleToFill" 
          contentHorizontalAlignment="center" 
          translatesAutoresizingMaskIntoConstraints="NO" 
