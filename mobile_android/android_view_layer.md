@@ -75,6 +75,31 @@ final ListView listview = (ListView) view.findViewById(R.id.listview);
 
 ### Android LayoutInflater (Inflater)
 
+* Instantiates a **layout XML file** into its **corresponding View objects**
+
+* Use `getLayoutInflater()` or `getSystemService(Class)`
+
+* Example:
+  * In HTML, JQuery you can instantiate o HTML tag into View object by
+ 
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<body></body>
+
+<script>
+var text = "This Is Me, Click Me now!"
+
+var para = document.createElement("p");
+var node = document.createTextNode(text);
+
+para.appendChild(node)
+
+})
+$("body").append(para) . // $("body") is get body html tag
+</script>
+```
+      
 
 
 
