@@ -44,12 +44,7 @@ b1.setOnClickListener(new View.OnClickListener() {
   android:id="@+id/button"
   android:text="Button"
   android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
-  android:layout_alignTop="@+id/editText"
-  android:layout_alignLeft="@+id/textView1"
-  android:layout_alignStart="@+id/textView1"
-  android:layout_alignRight="@+id/editText"
-  android:layout_alignEnd="@+id/editText" />
+  android:layout_height="wrap_content" />
 ```
 
 ### Android set View for Activity (Controller)
