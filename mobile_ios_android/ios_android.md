@@ -1,6 +1,8 @@
 ### Project Structure
 ### Mindset
 ### Entry-point
+### Set View for Controller
+
 
 --------------------------
 
@@ -46,8 +48,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {}
     </intent-filter>
 </activity>
 ```
+### Set View for Controller
 
+* IOS
+  * In Storyboard -> Select a Sence -> ViewController -> tab  Indentity Inspector -> Custom Class -> Select Controller class
 
+* Android
+
+```java
+setContentView(R.layout.activity_user_info);
+```
 
 
 
