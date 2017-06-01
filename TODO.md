@@ -15,24 +15,8 @@
 - https://developer.android.com/topic/libraries/data-binding/index.html
 - https://developer.android.com/topic/libraries/support-library/index.html
 
-
-
-setContentView(R.layout.activity_user_info);
-
-TextView userName = (TextView)findViewById(R.id.usernameValue);
-
-import com.fuji.fujisdk.R;
-
-
 MenuInflater inflater
-
 LayoutInflater inflater
-
-R.menu.search
-
-R.layout.controller_home
-
-R.id.item_search
 
 actionView
 
@@ -44,53 +28,11 @@ http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
 https://developer.android.com/training/appbar/action-views.html
 
 
-@IBOutlet weak var playButton: UIButton!
-
-findByID, setOnclick
-  
-@IBAction func playButton(_ sender: Any) {
-    changeVideoState()
-}
-
-https://developer.android.com/guide/topics/ui/settings.html
-
-http://www.vogella.com/tutorials/AndroidListView/article.html#listfragments
-
 ```
 View view = inflater.inflate(R.layout.fragment_search, container, false);
 final ListView listview = (ListView) view.findViewById(R.id.listview);
 
 find view in fragment
-```
-
-
-
-```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<body></body>
-
-<script>
-var text = "This Is Me, Click Me now!"
-
-var para = document.createElement("p");
-var node = document.createTextNode(text);
-
-para.appendChild(node)
-
-$(para).click(function(){ 
-	alert("Clicked 0")
-})
-
-para.addEventListener('click', function(){ 
-	alert("Clicked 1")
-
-	node.nodeValue="You Already Clicked, Refresh Your Browser";
-}, true); 
-	
-$("body").append(para)
-</script>
-
 ```
 
 
