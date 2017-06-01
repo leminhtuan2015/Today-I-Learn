@@ -10,7 +10,7 @@
   * `Web:` **Javascript (Logic) - HTML (View)**
 
 * **IOS/Android/Web** all use **XML/HTML** to render **View Layer**
-* But you still can create **View** by code, **Every Languages is support create View by Native code such as Java, Swift, Javascript, ......**
+* But you still can create **View** by code, **Every Languages is support create View by native code such as Java, Swift, Javascript, ......**
 
 * **Web Example:** We can create **View** of Web by Javascript code
 
