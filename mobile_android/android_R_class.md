@@ -1,7 +1,19 @@
+### R Android
+
+---------------------------
+
+### R Android
+
+* **R** is the dynamically auto generated class
+* **R** is created during build process to dynamically identify all assets (from strings to android widgets to layouts)
 
 ```java
+R.menu.search
+R.layout.controller_home
+R.id.item_search
+```
 
-
+```java
 package com.fuji.fujisdk;
 
 public final class R {
