@@ -15,6 +15,7 @@
 - https://developer.android.com/topic/libraries/data-binding/index.html
 - https://developer.android.com/topic/libraries/support-library/index.html
 
+------------------------
 
 * actionView
 * app:actionViewClass="android.support.v7.widget.SearchView"
