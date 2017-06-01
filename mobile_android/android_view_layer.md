@@ -1,5 +1,6 @@
 ### Android View Layer
 ### Android set View for Activity (Controller)
+### Android get View for Activity (Controller)
 
 -----------------------
 
@@ -56,6 +57,24 @@ b1.setOnClickListener(new View.OnClickListener() {
   
   setContentView(R.layout.activity_user_info);
 ```
+
+### Android get View for Activity (Controller)
+* Get from Activity (Controller)
+
+```java
+findViewById(R.id.linear_layout_tags);
+```
+* Get from Fragment (Sub Controller)
+
+```java
+View view = inflater.inflate(R.layout.fragment_search, container, false);
+final ListView listview = (ListView) view.findViewById(R.id.listview);
+```
+
+
+
+
+
 
 
 
