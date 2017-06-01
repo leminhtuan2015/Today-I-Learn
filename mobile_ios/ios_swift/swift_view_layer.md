@@ -7,7 +7,7 @@
  
 * **Swift Button Programmatically**
 
-```
+```swift
 let button = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
 button.backgroundColor = UIColor.red
 button.addTarget(self, action: #selector(ratingButtonTapped), for: .touchUpInside)
