@@ -2,6 +2,7 @@
 ### Mindset
 ### Entry-point
 ### Set View for Controller
+### Get Views for Controller
 
 
 --------------------------
@@ -59,8 +60,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {}
 setContentView(R.layout.activity_user_info);
 ```
 
+### Get Views for Controller
 
+* IOS
 
+```swift
+@IBOutlet weak var playButton: UIButton!
+
+@IBAction func playButton(_ sender: Any) {
+  changeVideoState() 
+}
+```
+* Android
+
+```java
+Button btnSignup = (Button)findViewById(R.id.btnSignup);
+
+btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              // LOGIC
+            }
+        });
+```
 
 
 
