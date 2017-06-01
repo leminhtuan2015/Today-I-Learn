@@ -4,9 +4,10 @@
 
 ### IOS, Android, Web : View Layer
 
-* `IOS:` **Swift (Logic) - XML (View)**
-* `Android:` **Java (Logic) - XML (View)**
-* `Web:` **Javascript (Logic) - HTML (View)**
+* How IOS/Android/Web render View
+  * `IOS:` **Swift (Logic) - XML (View)**
+  * `Android:` **Java (Logic) - XML (View)**
+  * `Web:` **Javascript (Logic) - HTML (View)**
 
 * **IOS/Android/Web** all use **XML/HTML** to render **View Layer**
 * But you still can create **View** by code
