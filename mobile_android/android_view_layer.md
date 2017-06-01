@@ -74,13 +74,13 @@ final ListView listview = (ListView) view.findViewById(R.id.listview);
 ```
 
 ### Android LayoutInflater (Inflater)
-
+* The way to convert XML layout to View bbject
 * Instantiates a **layout XML file** into its **corresponding View objects**
-
 * Use `getLayoutInflater()` or `getSystemService(Class)`
 
 * Example:
-  * In HTML, JQuery you can instantiate o HTML tag into View object by
+  * In **HTML**, using **JQuery** to instantiate a **HTML tag** into View object
+  * In **Android**, using **LayoutInflater**  to instantiate a **XML Layout** into View object
  
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -98,6 +98,13 @@ para.appendChild(node)
 })
 $("body").append(para) . // $("body") is get body html tag
 </script>
+```
+
+```java
+LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+View view = inflater.inflate(R.layout.mylayout, parent, false);
+
+TextView textView = (TextView) view.findViewById(R.id.cell_title);
 ```
       
 
