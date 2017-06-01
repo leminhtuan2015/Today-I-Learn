@@ -6,6 +6,7 @@
 
 * **R** is the dynamically auto generated class
 * **R** is created during build process to dynamically identify all assets (from strings to android widgets to layouts)
+* Each android module have one **R** class
 
 ```java
 import com.fuji.fujisdk.R;
