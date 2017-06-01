@@ -8,6 +8,8 @@
 * **R** is created during build process to dynamically identify all assets (from strings to android widgets to layouts)
 
 ```java
+import com.fuji.fujisdk.R;
+
 R.menu.search
 R.layout.controller_home
 R.id.item_search
@@ -40,6 +42,5 @@ public final class R {
     public static final class string {
         public static int abc_action_bar_home_description=0x7f050000;
     }
-    
 }
 ```
