@@ -13,29 +13,29 @@
 
 * Exxample: I can create **View** of HTML by Javascript code
 
-```
+```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <body></body>
 
 <script>
-var text = "This Is Me, Click Me now!"
+	var text = "This Is Me, Click Me now!"
 
-var para = document.createElement("p");
-var node = document.createTextNode(text);
+	var para = document.createElement("p");
+	var node = document.createTextNode(text);
 
-para.appendChild(node)
+	para.appendChild(node)
 
-$(para).click(function(){ 
-	alert("Clicked 0")
-})
+	$(para).click(function(){ 
+		alert("Clicked 0")
+	})
 
-para.addEventListener('click', function(){ 
-	alert("Clicked 1")
+	para.addEventListener('click', function(){ 
+		alert("Clicked 1")
 
-	node.nodeValue="You Already Clicked, Refresh Your Browser";
-}, true); 
-	
-$("body").append(para)
+		node.nodeValue="You Already Clicked, Refresh Your Browser";
+	}, true); 
+
+	$("body").append(para)
 </script>
 ```
