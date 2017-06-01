@@ -15,16 +15,11 @@
 - https://developer.android.com/topic/libraries/data-binding/index.html
 - https://developer.android.com/topic/libraries/support-library/index.html
 
-MenuInflater inflater
-LayoutInflater inflater
 
-actionView
-
-app:actionViewClass="android.support.v7.widget.SearchView"
-
-http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
-
-https://developer.android.com/training/appbar/action-views.html
+* actionView
+* app:actionViewClass="android.support.v7.widget.SearchView"
+* http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
+* https://developer.android.com/training/appbar/action-views.html
 
 
 
