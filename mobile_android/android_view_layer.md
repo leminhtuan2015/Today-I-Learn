@@ -8,7 +8,7 @@
 
 * **Create Android Button Programmatically**
 
-```
+```java
 //the layout on which you are working
 LinearLayout layout = (LinearLayout) findViewById(R.id.linear_layout_tags);
 
@@ -23,7 +23,7 @@ layout.addView(btnTag);
 ```
 
 * **Create Android Button XML (XML layout)**
-```
+```xml
 // ANDROID CODE
 
 b1=(Button)findViewById(R.id.button);
