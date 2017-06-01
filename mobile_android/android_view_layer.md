@@ -83,6 +83,7 @@ final ListView listview = (ListView) view.findViewById(R.id.listview);
   * In **Android**, using **LayoutInflater**  to instantiate a **XML Layout** into View object
  
 ```
+// HTML 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <body></body>
@@ -101,6 +102,7 @@ $("body").append(para) . // $("body") is get body html tag
 ```
 
 ```java
+// ANDROID
 LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 View view = inflater.inflate(R.layout.mylayout, parent, false);
 
