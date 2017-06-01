@@ -20,19 +20,11 @@ LayoutInflater inflater
 
 actionView
 
-
 app:actionViewClass="android.support.v7.widget.SearchView"
 
 http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
 
 https://developer.android.com/training/appbar/action-views.html
 
-
-```
-View view = inflater.inflate(R.layout.fragment_search, container, false);
-final ListView listview = (ListView) view.findViewById(R.id.listview);
-
-find view in fragment
-```
 
 
