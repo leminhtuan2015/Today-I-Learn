@@ -1,4 +1,5 @@
 ### Android View Layer
+### Android set View for Activity (Controller)
 
 -----------------------
 
@@ -46,3 +47,17 @@ b1.setOnClickListener(new View.OnClickListener() {
   android:layout_alignRight="@+id/editText"
   android:layout_alignEnd="@+id/editText" />
 ```
+
+
+### Android set View for Activity (Controller)
+
+```java
+  // setContentView is the method of Activity (Controller)
+  
+  setContentView(R.layout.activity_user_info);
+```
+
+
+
+
+
