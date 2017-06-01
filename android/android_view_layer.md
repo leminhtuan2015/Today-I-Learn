@@ -4,7 +4,7 @@
 
 ### Android View Layer
 
-* Each View Object in Android will be mapped with one in XML (XML layout)
+* **Each View Object in Android will be mapped with one XML Tag (XML layout)**
 
 * **Android Button Programmatically**
 
