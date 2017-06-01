@@ -1,6 +1,7 @@
 ### Android View Layer
 ### Android set View for Activity (Controller)
 ### Android get View for Activity (Controller)
+### Android LayoutInflater (Inflater)
 
 -----------------------
 
@@ -25,7 +26,7 @@ layout.addView(btnTag);
 ```
 
 * **Create Android Button XML (XML layout)**
-```xml
+```java
 // ANDROID CODE
 
 b1=(Button)findViewById(R.id.button);
@@ -35,7 +36,9 @@ b1.setOnClickListener(new View.OnClickListener() {
       Toast.makeText(MainActivity.this,"YOUR MESSAGE",Toast.LENGTH_LONG).show();
    }
 });
-      
+```
+
+```xml   
 // XML CODE
 <Button
   android:id="@+id/button"
@@ -48,7 +51,6 @@ b1.setOnClickListener(new View.OnClickListener() {
   android:layout_alignRight="@+id/editText"
   android:layout_alignEnd="@+id/editText" />
 ```
-
 
 ### Android set View for Activity (Controller)
 
@@ -71,8 +73,7 @@ View view = inflater.inflate(R.layout.fragment_search, container, false);
 final ListView listview = (ListView) view.findViewById(R.id.listview);
 ```
 
-
-
+### Android LayoutInflater (Inflater)
 
 
 
