@@ -11,7 +11,7 @@
 * **IOS/Android/Web** all use **XML/HTML** to render **View Layer**
 * But you still can create **View** by code
 
-* Exxample: I can create **View** of HTML by Javascript code
+* Example: I can create **View** of HTML by Javascript code
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
