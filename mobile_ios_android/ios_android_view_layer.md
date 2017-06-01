@@ -4,6 +4,6 @@
 
 ### IOS, Android, Web : View Layer
 
-* IOS: **Swift (Logic) - XML (View)**
-* Android: **Java (Logic) - XML (View)**
-* Web: **Javascript (Logic) - HTML (View)**
+* `IOS:` **Swift (Logic) - XML (View)**
+* `Android:` **Java (Logic) - XML (View)**
+* `Web:` **Javascript (Logic) - HTML (View)**
