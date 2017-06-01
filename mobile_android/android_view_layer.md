@@ -74,7 +74,7 @@ final ListView listview = (ListView) view.findViewById(R.id.listview);
 ```
 
 ### Android LayoutInflater (Inflater)
-* The way to convert XML layout to View bbject
+* The way to convert XML layout to View object (XML Layout to Java Object)
 * Instantiates a **layout XML file** into its **corresponding View objects**
 * Use `getLayoutInflater()` or `getSystemService(Class)`
 
