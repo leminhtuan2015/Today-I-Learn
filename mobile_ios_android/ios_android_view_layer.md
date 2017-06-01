@@ -20,24 +20,24 @@
 <body></body>
 
 <script>
-	var text = "This Is Me, Click Me now!"
+var text = "This Is Me, Click Me now!"
 
-	var para = document.createElement("p");
-	var node = document.createTextNode(text);
+var para = document.createElement("p");
+var node = document.createTextNode(text);
 
-	para.appendChild(node)
+para.appendChild(node)
 
-	$(para).click(function(){ 
-		alert("Clicked 0")
-	})
+$(para).click(function(){ 
+	alert("Clicked 0")
+})
 
-	para.addEventListener('click', function(){ 
-		alert("Clicked 1")
+para.addEventListener('click', function(){ 
+	alert("Clicked 1")
 
-		node.nodeValue="You Already Clicked, Refresh Your Browser";
-	}, true); 
+	node.nodeValue="You Already Clicked, Refresh Your Browser";
+}, true); 
 
-	$("body").append(para)
+$("body").append(para)
 </script>
 ```
 
@@ -57,6 +57,18 @@ btnTag.setId(some_random_id);
 layout.addView(btnTag);
 ```
 
+* **IOS Example:** We can create **View** of IOS by Swift code
+
+```swift
+let button = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
+button.backgroundColor = UIColor.red
+button.addTarget(self, action: #selector(ratingButtonTapped), for: .touchUpInside)
+addSubview(button)
+
+func ratingButtonTapped() {
+    print("Button pressed")
+}
+```
 
 
 
