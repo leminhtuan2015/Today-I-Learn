@@ -19,6 +19,26 @@ Intent i = new Intent(this, NextActivity.class);
 startActivity(i);
 ```
 
+```java
+protected void goToController(Class targetController){
+    Intent intent = new Intent(this, targetController);
+    this.startActivity(intent);
+}
+
+goToController(VideoPlayerController.class);
+```
+* A goToController B
+* B goToController C
+* C goToController D
+* D goToController A
+
+```
+A ----> B ---> C ---> D ---> A
+```
+
+* When you `goToController();` => Android will create a new instance of `Controller (Activity)` and display it on screen
+* When you `finish();` => remove the controller
+
 ### Start Activity For Result
 * From your **FirstActivity** call the **SecondActivity**
 * Do some logic in **SecondActivity** and return back to **FirstActivity**
