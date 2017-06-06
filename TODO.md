@@ -24,6 +24,8 @@
 
 
 
-https://console.firebase.google.com
-https://console.cloud.google.com/
-https://console.developers.google.com/
+* https://console.firebase.google.com
+* https://console.cloud.google.com/
+* https://console.developers.google.com/
+* https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_ios/ios_swift/swift_life_cycle.md
+
