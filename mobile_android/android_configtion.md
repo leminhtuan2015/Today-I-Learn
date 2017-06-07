@@ -9,3 +9,6 @@
 * 4: signingConfigs Signed Your App By KeyStore
 * 5: package "com.fuji.platform"
 
+#### Notice
+* **applicationId** is diffrent from **package**, **applicationId** can be `com.xxx` but **package** can be `com.yyy`
+
