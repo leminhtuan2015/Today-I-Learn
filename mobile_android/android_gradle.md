@@ -1,5 +1,6 @@
 ### Gradle
 ### Gradle Sign App
+### Gradle Import Dependencies
 
 --------
 
@@ -43,5 +44,31 @@ android {
             signingConfig signingConfigs.release
         }
     }
+}
+```
+
+### Gradle Import Dependencies
+
+#### Import Other Modules to Project
+
+* Import **FujiSDK** project library into project 
+* **settings.gradle**
+
+```
+include ':app'
+include ':FujiSDK'
+
+project(':FujiSDK').projectDir = new File(settingsDir, '../Android')
+```
+
+#### Import Modules to Module
+* In **build.gradle** of **app** module
+
+```
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.2.0'
+
+    compile project(':FujiSDK')
 }
 ```
