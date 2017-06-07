@@ -1,4 +1,5 @@
 ### Android Configtion
+### Android Configtion ApplicationID vs Package Name
 ----------------------------------
 
 ### Android Configtion
@@ -9,7 +10,7 @@
 * 4: **signingConfigs** Signed Your App By KeyStore
 * 5: **package name** "com.fuji.platform"
 
-#### Notice
+### Android Configtion ApplicationID vs Package Name
 * **applicationId** != **package name**
 * **package name** == **folder structure**
 * **applicationId** is diffrent from **package Name**
