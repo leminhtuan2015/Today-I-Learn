@@ -30,4 +30,4 @@
 * https://console.developers.google.com/
 * https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_ios/ios_swift/swift_life_cycle.md
 * NavigationVC = Statck = Android
-
+* Android : package name != ApplicationID
