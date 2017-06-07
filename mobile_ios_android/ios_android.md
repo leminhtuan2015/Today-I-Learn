@@ -77,11 +77,11 @@ setContentView(R.layout.activity_user_info);
 Button btnSignup = (Button)findViewById(R.id.btnSignup);
 
 btnSignup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-              // LOGIC
-            }
-        });
+    @Override
+    public void onClick(View view) {
+      // LOGIC
+    }
+});
 ```
 
 
