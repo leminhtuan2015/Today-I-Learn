@@ -1,4 +1,5 @@
 ### Gradle
+### Gradle Sign App
 
 --------
 
@@ -11,3 +12,35 @@
   
 * **Module level**
   * `project/app/build.gradle` : File config **How to build module**, **dependencies of module**
+
+### Gradle Sign App
+
+```
+android {
+    signingConfigs {
+        release {
+            storeFile rootProject.file(keystoreProperties['storeFile'])
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storePassword keystoreProperties['storePassword']
+        }
+
+        debug {
+            storeFile rootProject.file(keystoreProperties['storeFile'])
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+}
+```
