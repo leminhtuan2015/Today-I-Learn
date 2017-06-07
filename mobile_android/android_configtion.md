@@ -10,12 +10,12 @@
 * 5: package "com.fuji.platform"
 
 #### Notice
-* **applicationId** != **package**
-* **package** == **folder structure**
-* **applicationId** is diffrent from **package**
-  * **applicationId** can be `com.xxx` but **package** can be `com.yyy`
+* **applicationId** != **package name**
+* **package name** == **folder structure**
+* **applicationId** is diffrent from **package Name**
+  * **applicationId** can be `com.xxx` but **package name** can be `com.yyy`
   * **applicationId** can be `com.xxx` but **folder structure** can be `module_name/app/src/main/java/com/yyy` 
 
-* **package** is the same **folder structure**
-  * **package** is `com.yyy` => **folder structure** must be `module_name/app/src/main/java/com/yyy`
+* **package Name** is the same **folder structure**
+  * **package Name** is `com.yyy` => **folder structure** must be `module_name/app/src/main/java/com/yyy`
 
