@@ -18,5 +18,5 @@
   * **applicationId** can be `com.xxx` but **folder structure** can be `module_name/app/src/main/java/com/yyy` 
 
 * **package Name** is the same **folder structure**
-  * **package Name** is `com.yyy` => **folder structure** must be `module_name/app/src/main/java/com/yyy`
+  * **package name** is `com.yyy` => **folder structure** must be `module_name/app/src/main/java/com/yyy`
 
