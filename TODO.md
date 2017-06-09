@@ -28,4 +28,5 @@
 
 * https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_ios/ios_swift/swift_life_cycle.md
 * Build Fat (arm64, armv7)
+* https://stackoverflow.com/questions/39890114/creating-a-universal-framework-using-xcode-8
 * Enable able bitcpbe
