@@ -13,7 +13,7 @@
 ```
 // Intent(currentActivity, nextActivityClass)
 
-Intent i = new Intent(this, NextActivity.class);  // => Android OS will create a new instance of NextActivity
+Intent i = new Intent(this, NextActivity.class); // Android OS will create a new instance of NextActivity
 startActivity(i);
 ```
 
