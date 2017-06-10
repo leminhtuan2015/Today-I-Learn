@@ -3,5 +3,6 @@
 -------------------------------------------------------
 ### IOS Android Life Cycle
 
-* **ViewDidLoad (One Time)** -> **ViewWillAppear** -> **ViewDidAppear**
-* **OnCreate (One Time)** -> **OnStart** -> **OnResum**
+* IOS:  **ViewDidLoad (One Time)** -> **ViewWillAppear** -> **ViewDidAppear**
+* ANDROID: **OnCreate (One Time)** -> **OnStart** -> **OnResum**
+* ANDROID: **OnCreate (One Time)** -> **onCreateView** -> **onActivityCreated** -> **OnStart** -> **OnResum**
