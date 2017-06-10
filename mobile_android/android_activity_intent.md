@@ -10,6 +10,13 @@
 - Intent is a object to **start (or create new) a Activity**
 - Intent maybe contain data to transit between activities
 
+```
+// Intent(currentActivity, nextActivityClass)
+
+Intent i = new Intent(this, NextActivity.class);  // => Android OS will create a new instance of NextActivity
+startActivity(i);
+```
+
 ### Move Bettween Activities
 
 ```
