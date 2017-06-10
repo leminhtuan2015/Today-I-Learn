@@ -25,6 +25,4 @@
 
 ----------------------------
 
-* Build Fat (arm64, armv7)
-* https://stackoverflow.com/questions/39890114/creating-a-universal-framework-using-xcode-8
 * Enable able bitcode
