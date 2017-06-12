@@ -28,3 +28,4 @@
 * Enable able bitcode IOS
 * NETWORK: ISP, DNS, WebRTC
 * https://github.com/diafygi/webrtc-ips
+* http://lifehacker.com/uses-for-potatoes-that-arent-making-french-fries-1795992984
