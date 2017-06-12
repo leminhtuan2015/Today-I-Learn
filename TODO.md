@@ -25,4 +25,5 @@
 
 ----------------------------
 
-* Enable able bitcode
+* Enable able bitcode IOS
+* NETWORK: ISP, DNS, WebRTC
