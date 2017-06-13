@@ -24,6 +24,7 @@
 
 
 ----------------------------
+* https://developer.android.com/studio/build/multidex.html
 * multiDexEnabled true
 * Enable able bitcode IOS - ios_config_build
 * NETWORK: ISP, DNS, WebRTC
