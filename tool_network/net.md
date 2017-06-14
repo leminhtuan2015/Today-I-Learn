@@ -7,16 +7,38 @@
 
 -----------------------------------------
 
-### IPSec Protocol (IP security)
+### IP security - IPSec Protocol
 * Is used to secure communications over the Internet.
 
-### SSL Protocol (Secure Sockets Layer)
+### SSL Protocol - Secure Sockets Layer
 * Use cryptography to secure communications over the Internet.
 
-### Internet service provider (ISP)
+### ISP - Internet service provider
 * Is an organization that provides services accessing and using the Internet (such as FPT or VNPT, Vietel)
+* USA ISP Providers
+  * Comcast
+  * AT&T
+  * Time Warner Cable
+  * CenturyLink
+  * Charter
+  * Verizon
+  * Cox
+  * Optimum
+  * Frontier
+  * Suddenlink
+  * EarthLink
+  * Windstream
+  * Cable One
+  * NetZero
+  * Juno
+  * AOL
+  * MSN
+  * Mediacom
+  * Basic ISP
+  * ISP.com
+  
 
-### Domain Name Service (DNS)
+### DNS - Domain Name Service
 * Is used to resolve **human-readable** hostnames like **www.google.com** into **machine-readable** IP addresses like 204.13.248.115
 
 ### WebRTC - Web Real Time Connection
