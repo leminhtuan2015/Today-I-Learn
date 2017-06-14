@@ -14,4 +14,4 @@
 * Use cryptography to secure communications over the Internet.
 
 ### Internet service provider (ISP)
-* Is an organization that provides services accessing and using the Internet (FPT/VNPT)
+* Is an organization that provides services accessing and using the Internet (such as FPT or VNPT)
