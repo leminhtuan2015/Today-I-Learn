@@ -5,7 +5,7 @@
 
 ### Virtual Private Network (VPN)
 
-* YOU <-----> VPN <------> INTERNET
+* **YOU <-----> VPN <-----> INTERNET**
 * VPN, like proxies, make your traffic appear as if it comes from a remote IP address.
 * VPN encrypts all of your traffic (Proxy is Not), replacing your ISP and routing all traffic through the VPN server, 
 * VPNs are set up at the **operating system level**, and the VPN connection captures the entire network connection of the device it is configured on.
