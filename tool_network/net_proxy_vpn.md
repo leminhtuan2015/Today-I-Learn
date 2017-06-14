@@ -5,7 +5,6 @@
 
 * **Proxy** config at application level (Web browser) >< **VPN**  VPNs are set up at the operating system level (OS)
 * **Proxy** NOT encrypt your data from PC to VPN server >< **VPN**  encrypt your data from you PC to VPN server
-
 * 1. Online Security
   * VPN – It gives high-level encryption up to 256-bit. VPN is more like a safe vault, once you have availed it, all your communications are completely secure.
   * Proxy – it gives very low-level security. Only on SSL connection everything is encrypted but on non-SSL connection everything is vulnerable to cyber threats.
