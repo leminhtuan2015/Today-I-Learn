@@ -1,7 +1,8 @@
-### Internet service provider (ISP)
-### IPSec Protocol (IP security)
-### SSL Protocol (Secure Sockets Layer)
-### Domain Name Service (DNS)
+### ISP - Internet service provider
+### IPSec - IP security Protocol
+### SSL - Secure Sockets LayerProtocol
+### DNS - Domain Name Service
+### WebRTC - Web Real Time Connection
 
 
 -----------------------------------------
@@ -17,3 +18,7 @@
 
 ### Domain Name Service (DNS)
 * Is used to resolve **human-readable** hostnames like **www.google.com** into **machine-readable** IP addresses like 204.13.248.115
+
+### WebRTC - Web Real Time Connection
+* Firefox and Chrome have implemented WebRTC that allow requests to STUN servers be made that will return the local and public IP addresses for the user
+* These request results are available to javascript, so you can now obtain a users local and public IP addresses in javascript
