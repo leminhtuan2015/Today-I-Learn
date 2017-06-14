@@ -23,10 +23,6 @@
 
 
 * https://developer.android.com/studio/build/multidex.html
-* multiDexEnabled true
-* Enable able bitcode IOS - ios_config_build
-* NETWORK: VPN, ISP, DNS, WebRTC
-* https://github.com/diafygi/webrtc-ips
-* http://lifehacker.com/uses-for-potatoes-that-arent-making-french-fries-1795992984
-* Buy Google play Acount
+* Android : multiDexEnabled true
+* IOS : Enable able bitcode IOS - ios_config_build
 
