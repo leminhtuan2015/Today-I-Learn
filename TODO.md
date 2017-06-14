@@ -15,7 +15,6 @@
 - https://developer.android.com/topic/libraries/data-binding/index.html
 - https://developer.android.com/topic/libraries/support-library/index.html
 
-------------------------
 
 * actionView
 * app:actionViewClass="android.support.v7.widget.SearchView"
@@ -23,10 +22,11 @@
 * https://developer.android.com/training/appbar/action-views.html
 
 
-----------------------------
 * https://developer.android.com/studio/build/multidex.html
 * multiDexEnabled true
 * Enable able bitcode IOS - ios_config_build
-* NETWORK: ISP, DNS, WebRTC
+* NETWORK: VPN, ISP, DNS, WebRTC
 * https://github.com/diafygi/webrtc-ips
 * http://lifehacker.com/uses-for-potatoes-that-arent-making-french-fries-1795992984
+* Buy Google play Acount
+
