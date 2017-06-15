@@ -1,4 +1,5 @@
 ### CTR (Click Through Rate)
+### Verify IP
 
 
 -------------------------------
@@ -9,7 +10,11 @@
 * http://www.seosiren.com/how-to-protect-your-google-adsense-high-ctr/
 
 
-
+### Verify IP
+* https://icanhazip.com/
+* http://api.ipify.org/
+* http://ip-api.com/json/162.220.220.60
+* http://whoer.net/
 
 * IP Used
 
