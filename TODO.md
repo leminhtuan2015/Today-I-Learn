@@ -26,3 +26,10 @@
 * Android : multiDexEnabled true
 * IOS : Enable able bitcode IOS - ios_config_build
 
+
+* IP Used
+
+* 162.220.220.61
+* 34.192.250.252
+* 107.170.210.13
+* 104.200.142.232
