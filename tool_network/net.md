@@ -3,6 +3,7 @@
 ### ISP - Internet service provider
 ### DNS - Domain Name Service
 ### WebRTC - Web Real Time Connection
+### IKE - Internet Key Exchange
 
 
 -----------------------------------------
@@ -45,3 +46,17 @@
 * https://github.com/diafygi/webrtc-ips
 * Firefox and Chrome have implemented WebRTC that allow requests to STUN servers be made that will return the local and public IP addresses for the user
 * These request results are available to javascript, so you can now obtain a users local and public IP addresses in javascript
+
+### IKE - Internet Key Exchange
+* Is the protocol used to set up a security association (SA) in the IPsec protocol suite
+
+
+
+
+
+
+
+
+
+
+
