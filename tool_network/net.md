@@ -3,7 +3,7 @@
 ### ISP - Internet service provider
 ### DNS - Domain Name Service
 ### WebRTC - Web Real Time Connection
-### IKE - Internet Key Exchange
+### IKE (IKEv1, IKEv2) - Internet Key Exchange
 
 
 -----------------------------------------
