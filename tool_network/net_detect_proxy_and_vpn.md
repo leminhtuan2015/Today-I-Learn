@@ -1,6 +1,6 @@
-### By TimeZone
-### By Language
-### By Location
+### By TimeZone - No Permission
+### By Language - No Permission
+### By Location - Permission
 
 --------------------
 
