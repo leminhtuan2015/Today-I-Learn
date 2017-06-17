@@ -38,8 +38,6 @@
 * 138.197.194.168
 
 ------------------
-* login fb
-* show hide movie
 * confirm logout
 * time of media
 * Bottom bar
