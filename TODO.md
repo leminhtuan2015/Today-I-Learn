@@ -38,9 +38,6 @@
 * 138.197.194.168
 
 ------------------
-
-* payment test (add visa card), save pay on server
-* Change app id, app dev id
 * login fb
 * show hide movie
 * confirm logout
