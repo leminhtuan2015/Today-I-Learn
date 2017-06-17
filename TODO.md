@@ -38,7 +38,6 @@
 * 138.197.194.168
 
 ------------------
-* confirm logout
 * time of media
 * Bottom bar
 
