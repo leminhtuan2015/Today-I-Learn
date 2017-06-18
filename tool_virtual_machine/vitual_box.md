@@ -18,5 +18,6 @@
   * Linking **/Ubuntu/Document/Shared_Folder** to **/MacOS/Document/Shared_Folder**
   
   ```sh
-  
+      sudo mount -t vboxsf -o uid=1000,gid=1000  Shared  /Ubuntu/Document/Shared_Folder
+      //Shared is the shared folder name at step 1
   ```
