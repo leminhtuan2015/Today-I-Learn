@@ -26,6 +26,7 @@
 * Android : multiDexEnabled true
 * IOS : Enable able bitcode IOS - ios_config_build
 
+
 ----------------------
 * US
 * 162.220.220.61
