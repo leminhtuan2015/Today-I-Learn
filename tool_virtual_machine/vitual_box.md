@@ -15,7 +15,7 @@
   * **On VirtualBox Ubuntu** -> create a shared folder (**/Ubuntu/Document/Shared_Folder**)
   
 * Step 4: Mount Shared folder on **VirtualBox Ubuntu**
-  * * **On VirtualBox Ubuntu** : Linking **/Ubuntu/Document/Shared_Folder** to **/MacOS/Document/Shared_Folder**
+  * Linking **/Ubuntu/Document/Shared_Folder** to **/MacOS/Document/Shared_Folder**
   
   ```sh
   
