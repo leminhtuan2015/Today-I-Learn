@@ -10,12 +10,7 @@
 - https://dangthaison91.wordpress.com/2015/10/24/declarative-programming/
 - https://dangthaison91.wordpress.com/2016/05/31/introduction-functional-reactive-programming/
 
-* Android:
-
-- https://developer.android.com/topic/libraries/data-binding/index.html
-- https://developer.android.com/topic/libraries/support-library/index.html
-
-
+------------------------------
 * actionView
 * app:actionViewClass="android.support.v7.widget.SearchView"
 * http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
