@@ -1,7 +1,7 @@
 ### To Do List
  
 ----------------
-* IOS
+* **IOS**
 - https://medium.com/swiftindia/build-a-custom-universal-framework-on-ios-swift-549c084de7c8
 - https://github.com/ReactiveX/RxSwift
 - https://github.com/ReactiveCocoa/ReactiveCocoa
@@ -11,15 +11,11 @@
 - https://dangthaison91.wordpress.com/2016/05/31/introduction-functional-reactive-programming/
 
 ------------------------------
+* **Android**
 * actionView
 * app:actionViewClass="android.support.v7.widget.SearchView"
 * http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
 * https://developer.android.com/training/appbar/action-views.html
-
-
-* https://developer.android.com/studio/build/multidex.html
-* Android : multiDexEnabled true
-* IOS : Enable able bitcode IOS - ios_config_build
 
 
 ----------------------
