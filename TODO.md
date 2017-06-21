@@ -18,6 +18,11 @@
 * http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
 * https://developer.android.com/training/appbar/action-views.html
 
+-----------
+
+* NODE
+* module.exports vs require : lÀ 2 bạn thân
+
 
 ----------------------
 * US
