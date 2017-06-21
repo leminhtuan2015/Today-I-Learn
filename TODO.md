@@ -25,6 +25,7 @@
 * module.exports function 
 * module.exports object
 * require("path")(params)
+* global.db = mongoose.createConnection(uri);
 
 
 ----------------------
