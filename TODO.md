@@ -27,6 +27,7 @@
 * require("path")(params)
 * global.db = mongoose.createConnection(uri);
 * https://github.com/Automattic/mongoose/blob/master/examples/statics/statics.js
+* https://docs.npmjs.com/files/package.json
 
 
 ----------------------
