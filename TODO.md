@@ -22,6 +22,9 @@
 
 * NODE
 * module.exports vs require : lÀ 2 bạn thân
+* module.exports function 
+* module.exports object
+* require("path")(params)
 
 
 ----------------------
