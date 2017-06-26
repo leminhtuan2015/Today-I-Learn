@@ -28,7 +28,7 @@
 * global.db = mongoose.createConnection(uri);
 * https://github.com/Automattic/mongoose/blob/master/examples/statics/statics.js
 * https://docs.npmjs.com/files/package.json
-
+* New object nodejs (jsvascript)
 
 * GG 
 * Reward Video Ad
