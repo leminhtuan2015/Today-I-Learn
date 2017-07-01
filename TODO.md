@@ -22,6 +22,7 @@
 -----------
 
 * **NODE**
+* express is the module for handle http request ò javascript
 * module.exports vs require : lÀ 2 bạn thân
 * module.exports function 
 * module.exports object
