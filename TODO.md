@@ -24,6 +24,7 @@
 * **NODE**
 * node_express
 * express is the module for handle http request ò javascript
+* firebase functions express
 * module.exports vs require : lÀ 2 bạn thân
 * module.exports function 
 * module.exports object
