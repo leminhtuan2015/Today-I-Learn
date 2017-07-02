@@ -22,6 +22,8 @@
 -----------
 
 * **NODE**
+* adpota 
+* express ndejs - express firebase function
 * node_express
 * express is the module for handle http request ò javascript
 * firebase functions express
