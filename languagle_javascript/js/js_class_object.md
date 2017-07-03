@@ -48,7 +48,10 @@ module.exports = Person
 
 ```js
 // constructor call
+var Person = require("../models/Person")
 var tuan = new Person('Tuan');
+
+tuan.showName()
 ```
 
 
