@@ -9,3 +9,4 @@
 ### What is NPM?
 * NPM = Node Package Manager
 * NPM is a package manager for Node.js packages, it is the same **pod** of IOS
+* The NPM program is installed on your computer when you install Node.js
