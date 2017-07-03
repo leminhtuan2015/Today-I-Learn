@@ -21,12 +21,8 @@
 * node_express
 * express is the module for handle http request ò javascript
 * firebase functions express
-* module.exports vs require : lÀ 2 bạn thân
-* module.exports function 
-* module.exports object
-* require("path")(params)
+
 * global.db = mongoose.createConnection(uri);
-* https://github.com/Automattic/mongoose/blob/master/examples/statics/statics.js
 * https://docs.npmjs.com/files/package.json
 * New object nodejs (jsvascript)
 
