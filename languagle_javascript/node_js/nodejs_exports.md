@@ -25,8 +25,8 @@ module.exports = function (table_name){
 
 ```js
 module.exports = function(router){
-	router.get('/random_story/ad', function(req, res, next) {
-		ad_controller.index(req, res, next)
-	})
+    router.get('/random_story/ad', function(req, res, next) {
+	ad_controller.index(req, res, next)
+    })
 }
 ```
