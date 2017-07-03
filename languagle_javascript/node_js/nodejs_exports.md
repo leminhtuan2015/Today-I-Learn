@@ -20,6 +20,7 @@ var myObj = require("path/to/module")
 
 ### Exports function
 
+#### Exports function with return
 ```js
 module.exports = function (table_name){
     var TABLE_NAME = table_name
@@ -35,6 +36,7 @@ var myObj = require("path/to/module")("my_table_name")
 
 ```
 
+#### Exports function without return
 ```js
 module.exports = function(router){
     router.get('/random_story/ad', function(req, res, next) {
@@ -48,3 +50,17 @@ var myObj = require("path/to/module")(my_router)
 
 // myObj == function
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
