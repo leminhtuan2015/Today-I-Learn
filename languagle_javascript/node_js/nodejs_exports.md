@@ -14,7 +14,7 @@ module.exports = obj
 
 var myObj = require("path/to/module")
 
-// myObj is obj
+// myObj == obj
 
 ```
 
