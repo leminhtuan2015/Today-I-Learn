@@ -11,6 +11,9 @@ var person = {firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"}
 ```
 
 ### JavaScript Class
+
+* http://book.mixu.net/node/ch6.html
+
 * **Javascript Class native**
 ```js
 function Person(name) {
