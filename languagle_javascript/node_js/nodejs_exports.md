@@ -27,7 +27,11 @@ module.exports = function (table_name){
     return media   // with return object
 }
 
-var 
+// When you require
+
+var myObj = require("path/to/module")("my_table_name")
+
+// myObj == media
 
 ```
 
@@ -37,4 +41,10 @@ module.exports = function(router){
 	ad_controller.index(req, res, next)
     })
 }
+
+// When you require
+
+var myObj = require("path/to/module")(my_router)
+
+// myObj == function
 ```
