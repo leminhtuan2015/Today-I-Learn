@@ -24,3 +24,8 @@ npm install express --save
 
 * NPM creates a folder named "node_modules", where the package will be placed. All packages you install in the future will be placed in this folder.
 
+### Using a Package
+
+```js
+var uc = require('upper-case');
+```
