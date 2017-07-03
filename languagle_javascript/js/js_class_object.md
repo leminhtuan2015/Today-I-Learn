@@ -11,7 +11,7 @@ var person = {firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"}
 ```
 
 ### JavaScript Class
-* Javascript Class native
+* **Javascript Class native**
 ```js
 function Person(name) {
   this.name = name
@@ -30,7 +30,7 @@ person.name
 person.showName()
 ```
 
-* Javascript Class in Nodejs
+* **Javascript Class in Nodejs**
 
 ```js
 function Person(name) {
