@@ -4,9 +4,9 @@
 
 ---------------------------------------------------------------------------------------
 
-AJAX: Asynchronous JavaScript and XML: => MAKE REQUEST IN BACKGROUND OF BROWSER (NOT RELOAD PAGE WHEN REQUEST)
-
 ### What is it?
+* **AJAX** = **Asynchronous JavaScript and XML**
+* AJAX => MAKE REQUEST IN BACKGROUND OF BROWSER (NOT RELOAD PAGE WHEN REQUEST)
 
 - **AJAX just is the technical of javascript run only on browser**
 - **AJAX (javascript) can only run on web browser**
