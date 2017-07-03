@@ -10,6 +10,12 @@ var obj = {}
 
 module.exports = obj
 
+// When you require
+
+var myObj = require("path/to/module")
+
+// myObj is obj
+
 ```
 
 ### Exports function
@@ -20,6 +26,8 @@ module.exports = function (table_name){
     var media = mongoose.model(TABLE_NAME, media_model)
     return media   // with return object
 }
+
+var 
 
 ```
 
