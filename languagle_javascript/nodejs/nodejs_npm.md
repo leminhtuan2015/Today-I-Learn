@@ -10,6 +10,13 @@
 * NPM is a package manager for Node.js packages, it is the same **pod** of IOS
 * The NPM program is installed on your computer when you install Node.js
 
+### Setup new NPM 
+
+```sh
+npm init // This will ask you a bunch of questions, and then write a package.json for you
+npm install // By default, npm install will install all modules listed as dependencies in package.json
+```
+
 ### What is a Package/Module?
 * A package in Node.js contains all the files you need for a module.
 * Modules are JavaScript libraries you can include in your project.
