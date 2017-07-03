@@ -21,8 +21,6 @@
 * node_express
 * express is the module for handle http request ò javascript
 * firebase functions express
-
-* global.db = mongoose.createConnection(uri);
 * https://docs.npmjs.com/files/package.json
 * New object nodejs (jsvascript)
 
