@@ -7,14 +7,14 @@
 * JavaScript objects are containers properties and methods
 
 ```js
-var person = {firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"};
+var person = {firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"}
 ```
 
 ### JavaScript Class
 
 ```js
 function Person(name) {
-  this.name = name;
+  this.name = name
   this.showName = function(){
       console.log("My name is : " + name)
   }
