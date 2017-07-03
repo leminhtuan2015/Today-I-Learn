@@ -4,6 +4,7 @@
 ### IOS
 
 * Distributing Apple Developer Enterprise Program Apps
+* https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html
 
 ------------------------------
 ### Android
