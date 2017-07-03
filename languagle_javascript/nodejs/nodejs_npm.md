@@ -27,7 +27,7 @@ npm install // By default, npm install will install all modules listed as depend
 ```shell
 npm install express
 
-npm install express --save
+npm install express --save // install and add this package to package.json file
 ```
 
 * NPM creates a folder named "node_modules", where the package will be placed. All packages you install in the future will be placed in this folder.
