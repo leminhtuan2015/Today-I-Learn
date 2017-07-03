@@ -17,11 +17,7 @@
 
 ### NODE
 * adpota 
-* express ndejs - express firebase function
-* node_express
-* express is the module for handle http request ò javascript
-* firebase functions express
-* https://docs.npmjs.com/files/package.json
+* express nodejs - express firebase function
 * New object nodejs (jsvascript)
 
 ### GG 
