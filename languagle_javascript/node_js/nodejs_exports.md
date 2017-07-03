@@ -3,7 +3,7 @@
 --------------------------
 
 
-### Nodejs require exports vs module.exports
+### Nodejs `require`, `exports` vs `module.exports`
  
 #### require, exports, module.exports
  
