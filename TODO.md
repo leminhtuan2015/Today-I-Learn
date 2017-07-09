@@ -25,6 +25,10 @@
 * Reward Video Ad
 
 
-
+* IT NEXT
+* (Artificial Intelligence – AI)
+* Big Data - Data Science
+* Internet of Things (IoT)
+* Robotics
 
 
