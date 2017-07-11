@@ -11,6 +11,10 @@
 * .mobileprovision
 * https://www.appcoda.com/firebase-push-notifications/
 
+* App ID ->
+* Provision ->
+* Cer -> 
+
 ------------------------------
 ### Android
 * actionView
