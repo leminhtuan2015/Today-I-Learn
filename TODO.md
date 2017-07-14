@@ -17,9 +17,6 @@
 
 -----------
 
-### NODE
-* https://www.npmjs.com/package/wasm
-
 ### GG 
 * Reward Video Ad
 
