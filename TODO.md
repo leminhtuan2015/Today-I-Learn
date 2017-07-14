@@ -15,24 +15,13 @@
 * Provision ->
 * Cer -> 
 
-------------------------------
-### Android
-* actionView
-* app:actionViewClass="android.support.v7.widget.SearchView"
-* http://www.grokkingandroid.com/adding-actionviews-to-your-actionbar/
-* https://developer.android.com/training/appbar/action-views.html
-
 -----------
 
 ### NODE
-* adpota 
-* express nodejs - express firebase function
-* New object nodejs (jsvascript)
 * https://www.npmjs.com/package/wasm
 
 ### GG 
 * Reward Video Ad
-
 
 * IT NEXT
 * (Artificial Intelligence – AI)
