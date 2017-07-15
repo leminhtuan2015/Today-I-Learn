@@ -15,6 +15,10 @@
 * Provision ->
 * Cer -> 
 
+* Selector problems
+
+https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
+
 -----------
 
 ### GG 
