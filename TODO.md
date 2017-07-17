@@ -31,3 +31,11 @@ https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
 * Robotics
 
 
+
+```
+proj.SetBuildProperty(target, "FRAMEWORK_SEARCH_PATHS", "$(inherited)");
+		proj.SetBuildProperty(target, "FRAMEWORK_SEARCH_PATHS", "$(SRCROOT)/Frameworks");
+		
+		proj.AddBuildProperty(target, "FRAMEWORK_SEARCH_PATHS", "$(inherited)");
+		proj.AddBuildProperty(target, "FRAMEWORK_SEARCH_PATHS", "$(PROJECT_DIR)/Libraries");
+```
