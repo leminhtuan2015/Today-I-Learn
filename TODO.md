@@ -39,3 +39,10 @@ proj.SetBuildProperty(target, "FRAMEWORK_SEARCH_PATHS", "$(inherited)");
 		proj.AddBuildProperty(target, "FRAMEWORK_SEARCH_PATHS", "$(inherited)");
 		proj.AddBuildProperty(target, "FRAMEWORK_SEARCH_PATHS", "$(PROJECT_DIR)/Libraries");
 ```
+
+```
+- Edit file aar 
+$ unzip myLib.aar -d tempFolder # or other extracting tool
+# Change whatever you need
+$ jar cvf myNewLib.aar -C tempFolder/ .
+```
