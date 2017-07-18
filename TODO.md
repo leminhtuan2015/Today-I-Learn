@@ -48,3 +48,22 @@ $ unzip myLib.aar -d tempFolder # or other extracting tool
 # Change whatever you need
 $ jar cvf myNewLib.aar -C tempFolder/ .
 ```
+
+
+
+
+-------------------
+
+* Example sentenc
+* Done save with link
+* Font awsome in image
+*
+
+
+
+
+
+
+
+
+
