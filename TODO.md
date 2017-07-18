@@ -16,6 +16,8 @@
 * Cer -> 
 
 * Selector problems
+https://github.com/showcases/swift
+
 
 https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
 
