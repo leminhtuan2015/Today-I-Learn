@@ -16,10 +16,16 @@
 * Cer -> 
 
 * Selector problems
-https://github.com/showcases/swift
+* https://github.com/showcases/swift
 
 
-https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
+* https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
+* https://github.com/onevcat/Kingfisher
+* https://github.com/Codeido/PMAlertController
+* https://github.com/overboming/ZCAnimatedLabel
+* https://github.com/lexrus/LTMorphingLabel
+* https://github.com/onmyway133/fantastic-ios-animation/blob/master/Animation/tabbar.md
+* https://github.com/cjwirth/RichEditorView
 
 -----------
 
