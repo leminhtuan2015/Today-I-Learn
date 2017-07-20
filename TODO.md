@@ -15,6 +15,8 @@
 * Provision ->
 * Cer -> 
 
+* Build ARMV7s architectures
+
 * Selector problems
 * https://github.com/showcases/swift
 
@@ -59,11 +61,6 @@ $ jar cvf myNewLib.aar -C tempFolder/ .
 
 
 -------------------
-
-* Example sentenc
-* Done save with link
-* Font awsome in image
-*
 
 
 
