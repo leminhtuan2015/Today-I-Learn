@@ -16,6 +16,9 @@
 * Cer -> 
 
 * Build ARMV7s architectures
+]
+
+* static and class function
 
 * Selector problems
 * https://github.com/showcases/swift
