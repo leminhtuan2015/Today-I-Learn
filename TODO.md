@@ -6,24 +6,6 @@
 * Distributing Apple Developer Enterprise Program Apps
 * https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html
 
-* .certSigningRequest
-* .p12
-* .mobileprovision
-* https://www.appcoda.com/firebase-push-notifications/
-
-* App ID ->
-* Provision ->
-* Cer -> 
-
-* Build ARMV7s architectures
-]
-
-* static and class function
-
-* Selector problems
-* https://github.com/showcases/swift
-
-
 * https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
 * https://github.com/onevcat/Kingfisher
 * https://github.com/Codeido/PMAlertController
