@@ -10,3 +10,17 @@ ffmpeg -i input.mp4 -vf "transpose=3,transpose=2" output.mp4
 ./ffmpeg -i input.mp4 -c copy -an output.mp4
 
 ```
+
+### Add Audio to Video
+
+```sh
+ffmpeg -i videos/B1.mov -i videos/7838967.LOFI.mp3 -codec copy videos/C.mov
+```
+
+### Watermark
+
+```sh
+ffmpeg -i B2.mov -i logo.png -filter_complex \
+"overlay=main_w-overlay_w-5:15" \
+-codec:a copy output.mp4
+```
