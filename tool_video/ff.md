@@ -30,3 +30,8 @@ ffmpeg -i B2.mov -i logo.png -filter_complex \
 ```sh
 ffmpeg -i movie.mp4 movie.avi
 ```
+### Sound
+
+```sh
+ffmpeg -i movie.avi -af "atempo=3/4,asetrate=44100*4/3" movie_ok.avi
+```
