@@ -24,3 +24,9 @@ ffmpeg -i B2.mov -i logo.png -filter_complex \
 "overlay=main_w-overlay_w-5:15" \
 -codec:a copy output.mp4
 ```
+
+### Convert Format
+
+```sh
+ffmpeg -i movie.mp4 movie.avi
+```
