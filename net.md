@@ -13,10 +13,17 @@
 * https://www.youtube.com/channel/UCNnYQa-qxOhn13PHppCSemg/videos
 
 ### JA
+
 * 172.104.80.128
 
 ### Sin
+
 * 128.199.89.11
 
 ### US
+
 * 107.170.203.222
+
+### De
+
+* 172.104.141.20
