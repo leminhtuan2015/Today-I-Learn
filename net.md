@@ -12,6 +12,10 @@
 * https://www.youtube.com/user/bygonetoons/videos
 * https://www.youtube.com/channel/UCNnYQa-qxOhn13PHppCSemg/videos
 
+### 2
+
+* https://www.youtube.com/channel/UC3IUdPJMHrhASeBUPBH8gJg/videos
+
 ### JA
 
 * 172.104.80.128
