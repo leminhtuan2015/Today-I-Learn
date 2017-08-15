@@ -1,6 +1,6 @@
 ### To Do List
  
-----------------
+----------------------------------------------------------------------------
 ### IOS
 
 * Distributing Apple Developer Enterprise Program Apps
@@ -14,10 +14,12 @@
 * https://github.com/onmyway133/fantastic-ios-animation/blob/master/Animation/tabbar.md
 * https://github.com/cjwirth/RichEditorView
 
------------
+----------------------------------------------------------------------------
 
 ### Facebook
 * https://developers.facebook.com/docs/audience-network
+
+----------------------------------------------------------------------------
 
 ### GG 
 * Reward Video Ad
@@ -28,11 +30,7 @@ $ unzip myLib.aar -d tempFolder # or other extracting tool
 # Change whatever you need
 $ jar cvf myNewLib.aar -C tempFolder/ .
 ```
-
-
-
-
--------------------
+----------------------------------------------------------------------------
 
 
 
