@@ -4,7 +4,7 @@
 ### IOS
 
 * Distributing Apple Developer Enterprise Program Apps
-*https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html
+* https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html
 
 * https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
 * https://github.com/onevcat/Kingfisher
