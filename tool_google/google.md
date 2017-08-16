@@ -12,6 +12,6 @@
 -----------------------
 
 * **CPC** Cost Per Click
-* **CTR** Click Through Rate
+* **CTR** Click Through Rate (Percentage of clicks per impression)
 * **CPM** Cost Per Mile = Cost Per Thousand (in Latin, French and Italian mille means one thousand)
 * **RPM** Revenue per Mille
