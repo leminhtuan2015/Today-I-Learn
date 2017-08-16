@@ -8,3 +8,10 @@
 - https://play.google.com/apps/publish ------: **play store**--------------: Google Play Store
 - https://www.google.com/adsense ------------: **Ad Sense**
 - https://apps.admob.com --------------------: **Ad Mobibe**
+
+-----------------------
+
+* **CPC** Cost Per Click
+* **CPM** Cost Per Mile = Cost Per Thousand (in Latin, French and Italian mille means one thousand)
+* **RPM** Revenue per Mille
+* **CTR** Click Through Rate
