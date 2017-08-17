@@ -3,16 +3,10 @@
 ----------------------------------------------------------------------------
 ### IOS
 
+* swift 3 preprocessor macro
+* https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
 * Distributing Apple Developer Enterprise Program Apps
 * https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html
-
-* https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
-* https://github.com/onevcat/Kingfisher
-* https://github.com/Codeido/PMAlertController
-* https://github.com/overboming/ZCAnimatedLabel
-* https://github.com/lexrus/LTMorphingLabel
-* https://github.com/onmyway133/fantastic-ios-animation/blob/master/Animation/tabbar.md
-* https://github.com/cjwirth/RichEditorView
 
 ----------------------------------------------------------------------------
 
