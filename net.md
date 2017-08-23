@@ -2,7 +2,6 @@
 * https://www.youtube.com/channel/UC0-EeLQ66VPTDCiMHdN3Pqw/videos
 * https://www.youtube.com/channel/UC8UJW_uTJ9rGeE7LZKQhJjw/videos
 * https://www.youtube.com/channel/UC6jDChn6UytkZ_hv_axX-hA/videos
-* https://www.youtube.com/channel/UC9vP7ed-Cu0r-WfQQ7ceEvg/videos
 * https://www.youtube.com/user/bygonetoons/videos
 * https://www.youtube.com/channel/UC8UJW_uTJ9rGeE7LZKQhJjw
 * https://www.youtube.com/channel/UCrUOasJcpsJlll2q7fG12TA
