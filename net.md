@@ -13,6 +13,11 @@
 
 ### 2
 
+```
+Thanks for watching. If you like video please ☞ "ＳＵＢＣＲＩＢＥ" - "ＬＩＫＥ" - "SHARE" -"ＣＯＭＭＥＮＴ".
+We update the  Mikey mouse, Doanld Duck, Chip and Dale, Pluto collection everyday.
+```
+
 * https://www.youtube.com/channel/UC3IUdPJMHrhASeBUPBH8gJg/videos
 * http://duydam.com/rut-gon-link-kiem-tien/top-6-trang-rut-gon-link-kiem-tien-online-tot.html
 
