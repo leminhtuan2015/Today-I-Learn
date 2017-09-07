@@ -17,8 +17,7 @@
   * **Apple is apparently starting to remove access to the UDID (Unique Device IDentifier) in iOS5**
   * **UDID is deprecated; we are not allowed to get UDID due to user privacy purposes. Apple does not allow to get any identifiers that uniquely identifies a device, such as IMEI, MAC address, UDID etc.**
 
-----------------------------------------------------------------------------
-* IDFV (Identifier for Vendor) A vendor is defined by the first two parts of the reverse DNS formatted CFBundleIdentifier. 
+* **IDFV** (Identifier for Vendor) A vendor is defined by the first two parts of the reverse DNS formatted CFBundleIdentifier. 
   * For example, com.2359media.app1 and com.2359media.app2 would have the same identifierForVendor. 
   * But my.hungrygowhere.iphoneapp and com.2359media.hgwm would get a different identifierForVendor.
 
