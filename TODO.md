@@ -8,26 +8,13 @@
 * Distributing Apple Developer Enterprise Program Apps
 * https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html
 
-```
-Advertising Identifier
 
-Does this app use the Advertising Identifier (IDFA)?
-The Advertising Identifier (IDFA) is a unique ID for each iOS device and is the only way to offer targeted ads. Users can choose to limit ad targeting on their iOS device.
+* IDFA: (Identifier for Advertising/Advertising Identifier): The Advertising Identifier (IDFA) is a unique ID for each iOS device and is the only way to offer targeted ads.
 
-If your app is using the Advertising Identifier, check your code—including any third-party code—before you submit it to make sure that your app uses the Advertising Identifier only for the purposes listed below and respects the Limit Ad Tracking setting. If you include third-party code in your app, you are responsible for the behavior of such code, so be sure to check with your third-party provider to confirm compliance with the usage limitations of the Advertising Identifier and the Limit Ad Tracking setting.
+* UDID: (unique device ID) 
 
-This app uses the Advertising Identifier to (select all that apply):
-```
 
 ----------------------------------------------------------------------------
-
-### Facebook
-* https://developers.facebook.com/docs/audience-network
-
-----------------------------------------------------------------------------
-
-### GG 
-* Reward Video Ad
 
 ```
 - Edit file aar 
@@ -37,8 +24,6 @@ $ jar cvf myNewLib.aar -C tempFolder/ .
 ```
 ----------------------------------------------------------------------------
 
-ios unique id device
-2017-09-06	6,176	6,176	6,076	69	1.12%	$0.166	$1.881	$9.716
 
 
 
