@@ -3,7 +3,8 @@
 ----------------------------
 ### HOW TO DETECT UNIQUE IOS DEVICE
 
-* **From IOS 5 the is no way**
+#### Setting -> Safary -> Block cookei + Block tracking
+#### From IOS 5 the is no way
 
 * **IDFA** (Identifier for Advertising/Advertising Identifier): The Advertising Identifier (IDFA) is a unique ID for each iOS device and is the only way to offer targeted ads.
 
