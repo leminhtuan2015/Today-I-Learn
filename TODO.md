@@ -6,7 +6,12 @@
 * https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/DistributingEnterpriseProgramApps/DistributingEnterpriseProgramApps.html
 
 
+### ADS
+* https://apps.admob.com/v2/reports/network?d=1&dr=2__&cc=USD&m=9,7,13,14,12
 
+
+Date	AdMob Network requests	Matched requests	Match rate	Impressions	Clicks	Impressions CTR	Impression RPM	Estimated earnings
+9/8/2017		515				515				100.00%		512			4		0.78%			$0.98			$0.50
 
 
 
