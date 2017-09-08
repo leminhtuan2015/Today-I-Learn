@@ -23,3 +23,19 @@
          FBAdSettings.clearTestDevices()
      }
   ```
+
+### ADS: No Fill
+
+* Khi IDFA lạ (không gắn với bât kỳ user nào của facebook) thì facebook sẽ không hiện ad (No fill 1001)
+
+```
+FB AD BANNER ERROR : Error Domain=com.facebook.ads.sdk Code=1001 "No fill" UserInfo={FBAdErrorDetailKey={
+    msg = "No fill. We are not able to serve ads to this person. Please refer to https://developers.facebook.com/docs/audience-network/faq#a12. If you are integrating Audience Network for the first time, you can use test ads https://developers.facebook.com/docs/audience-network/testing.";
+}, NSLocalizedDescription=No fill}
+
+```
+
+
+
+
+
