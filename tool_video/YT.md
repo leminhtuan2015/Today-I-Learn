@@ -9,8 +9,8 @@
 * https://www.youtube.com/user/MimziesChoice/videos
 * https://www.youtube.com/watch?v=fnR9s2JOxdQ
 
-### Trap Fish
-* 
+### Trap Fish (Amazing Electric Fan Guard Fish Trap - Net Fishing In The River)
+* https://www.youtube.com/channel/UCnGFE66f0KW6CUzzAOGgVxg/videos
 
 ### DIY ROOM DECOR
 * https://www.youtube.com/watch?v=g-XIdoVr0SI
