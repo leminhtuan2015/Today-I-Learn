@@ -32,6 +32,9 @@
 ### Source 6
 * https://www.youtube.com/channel/UCbCASR70ppNlBxV-oZJIjHA/videos
 
+### Source 7 
+* https://www.youtube.com/results?search_query=horror+stories
+
 ### YT
 
 #### Descript
