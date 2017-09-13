@@ -19,6 +19,9 @@
 #### Thumbnail
   * Using best image
   * A good preview image (thumbnail) increases click-through rates enormously
+  
+### Setting Chanel Tag
+  * Chanel > Advance > Chanel tag
 ------------------------------------------------
 
 
@@ -29,9 +32,6 @@
 * #2: Include Keywords in Your Title, Description, Tags
 * #3: Add keyword at the beginning of Your Title, Description
 * #4: Customize the Video Thumbnail
-
-### Chanel Tag
-* Chanel > Advance > Chanel tag
 
 ### PIN
 ```
