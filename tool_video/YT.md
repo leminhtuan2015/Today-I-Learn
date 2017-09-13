@@ -1,7 +1,7 @@
 ### UPLOAD TIME
-* Between 2 p.m. and 4 p.m. on Monday, Tuesday and Wednesday
-* Between 12 p.m. and 3 p.m. on Thursday and Friday
-* On Saturday and Sunday, a post-time between 9 a.m. and 11 a.m. is optimal
+* ***Monday, Tuesday and Wednesday*** Between 2 p.m. and 4 p.m.
+* ***Thursday and Friday*** Between 12 p.m. and 3 p.m. 
+* ***On Saturday and Sunday, a post-time*** between 9 a.m. and 11 a.m. is optimal
 
 ### SEO (Rank Better on YouTube)
 * http://searchengineland.com/the-key-to-top-video-rankings-on-youtube-google-35930
