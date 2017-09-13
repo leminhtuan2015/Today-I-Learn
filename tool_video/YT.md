@@ -6,17 +6,17 @@
 ### SEO (Rank Better on YouTube)
 
 ------------------------------------------------
-* Title (your title should have around 120 characters)
+#### Title (your title should have around 120 characters)
   * Titles are generally cut off at around **60 characters** in YouTube searches.
   * Tip: Put your keyword at the beginning of the title to give a slight SEO boost to your video.
   * I like to keep my titles as short as I can
-* Description
+#### Description
   * Put your keyword at the beginning of the description
   * Only the first 55 to 70 characters of the description are actually displayed by YouTube
   * Make sure you have your main keyword and parts of the other keywords in the first 2 lines
-* Tags
+#### Tags
   *  You should try to assign up to 10 tags, reflecting the most relevant keywords.
-* Thumbnail
+#### Thumbnail
   * Using best image
   * A good preview image (thumbnail) increases click-through rates enormously
 ------------------------------------------------
@@ -32,9 +32,6 @@
 
 ### Chanel Tag
 * Chanel > Advance > Chanel tag
-
-### Thumbnail
-* Attractive thumbnail
 
 ### PIN
 ```
