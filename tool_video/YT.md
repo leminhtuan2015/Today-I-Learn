@@ -11,8 +11,9 @@
 * https://serps.com/blog/8-ways-to-rank-higher-on-youtube/
 * https://www.onlinedimes.com/rank-youtube/
 
-#### Thumnail
-* https://img.youtube.com/vi/nWKPMzeBHNI/mqdefault.jpg
+### Chanel Tag
+
+* Chanel > Advance > Chanel tag
 
 ### PIN
 ```
