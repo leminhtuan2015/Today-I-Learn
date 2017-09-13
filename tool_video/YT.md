@@ -4,6 +4,8 @@
 * ***On Saturday and Sunday, a post-time*** between 9 a.m. and 11 a.m. is optimal
 
 ### SEO (Rank Better on YouTube)
+
+------------------------------------------------
 * Title (your title should have around 120 characters)
   * Titles are generally cut off at around **60 characters** in YouTube searches.
   * Tip: Put your keyword at the beginning of the title to give a slight SEO boost to your video.
@@ -16,13 +18,16 @@
   *  You should try to assign up to 10 tags, reflecting the most relevant keywords.
 * Thumbnail
   * Using best image
+  * A good preview image (thumbnail) increases click-through rates enormously
+------------------------------------------------
+
 
 * If you want to let Google and YouTube really know what your video is about, then you need to optimize the title, description, and tags.
 * If you want to get really fancy, add a transcript to the description and use YouTube’s annotation feature to add captions or subtitles.
 
 * #1: Choose Strong Keywords
 * #2: Include Keywords in Your Title, Description, Tags
-* #3: Add keyword at the beginning
+* #3: Add keyword at the beginning of Your Title, Description
 * #4: Customize the Video Thumbnail
 
 ### Chanel Tag
