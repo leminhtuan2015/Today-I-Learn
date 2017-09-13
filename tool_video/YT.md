@@ -13,7 +13,9 @@
   * Only the first 55 to 70 characters of the description are actually displayed by YouTube
   * Make sure you have your main keyword and parts of the other keywords in the first 2 lines
 * Tags
+  *  You should try to assign up to 10 tags, reflecting the most relevant keywords.
 * Thumbnail
+  * Using best image
 
 * If you want to let Google and YouTube really know what your video is about, then you need to optimize the title, description, and tags.
 * If you want to get really fancy, add a transcript to the description and use YouTube’s annotation feature to add captions or subtitles.
