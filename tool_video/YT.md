@@ -20,7 +20,7 @@
   * Using best image
   * A good preview image (thumbnail) increases click-through rates enormously
   
-### Setting Chanel Tag
+#### Setting Chanel Tag
   * Chanel > Advance > Chanel tag
 ------------------------------------------------
 
