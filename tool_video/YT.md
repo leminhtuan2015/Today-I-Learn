@@ -4,12 +4,9 @@
 * ***On Saturday and Sunday, a post-time*** between 9 a.m. and 11 a.m. is optimal
 
 ### SEO (Rank Better on YouTube)
-* http://searchengineland.com/the-key-to-top-video-rankings-on-youtube-google-35930
-* http://www.socialmediaexaminer.com/higher-youtube-search-results/
-* https://www.clickz.com/how-to-make-your-videos-rank-better-on-youtube/30912/
-* https://econsultancy.com/blog/7929-how-to-rank-highly-in-youtube-searches/
-* https://serps.com/blog/8-ways-to-rank-higher-on-youtube/
-* https://www.onlinedimes.com/rank-youtube/
+* Title
+* Description
+* Tags
 
 ### Chanel Tag
 * Chanel > Advance > Chanel tag
