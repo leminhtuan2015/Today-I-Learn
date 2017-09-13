@@ -3,6 +3,7 @@
 ----------------------------
 ### HOW TO DETECT UNIQUE IOS DEVICE
 
+#### Untrack
 * Step 1 Setting -> Safary -> Block cookei + Block tracking
 * Step 2 Remove all apps relate with G (Youtube, Map, G+)
 
@@ -19,3 +20,7 @@
 * **IDFV** (Identifier for Vendor) A vendor is defined by the first two parts of the reverse DNS formatted CFBundleIdentifier. 
   * For example, com.2359media.app1 and com.2359media.app2 would have the same identifierForVendor. 
   * But my.hungrygowhere.iphoneapp and com.2359media.hgwm would get a different identifierForVendor.
+
+#### From IOS 10.3 Keychain will be removed when an app is deleted
+
+* As of iOS 10.3 Beta 2 this is no longer true. All Keychain entries will be removed when an app is deleted.
