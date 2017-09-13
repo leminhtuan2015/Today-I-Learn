@@ -31,6 +31,13 @@
 * https://www.youtube.com/user/ericafew/videos
 
 
+
+### TIME
+* Between 2 p.m. and 4 p.m. on Monday, Tuesday and Wednesday
+* Between 12 p.m. and 3 p.m. on Thursday and Friday
+* On Saturday and Sunday, a post-time between 9 a.m. and 11 a.m. is optimal
+
+
 #### Thumnail
 * https://img.youtube.com/vi/nWKPMzeBHNI/mqdefault.jpg
 
