@@ -24,6 +24,9 @@
   * Chanel > Advance > Chanel tag
 ------------------------------------------------
 
+* https://www.onlinedimes.com/rank-youtube/
+* https://econsultancy.com/blog/7929-how-to-rank-highly-in-youtube-searches/
+* https://www.clickz.com/how-to-make-your-videos-rank-better-on-youtube/30912/
 
 * If you want to let Google and YouTube really know what your video is about, then you need to optimize the title, description, and tags.
 * If you want to get really fancy, add a transcript to the description and use YouTube’s annotation feature to add captions or subtitles.
