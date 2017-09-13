@@ -10,7 +10,8 @@
   * I like to keep my titles as short as I can
 * Description
   * Put your keyword at the beginning of the description
-  * Only the first 55 to 70 characters of the description are actually displayed by YouTube,
+  * Only the first 55 to 70 characters of the description are actually displayed by YouTube
+  * Make sure you have your main keyword and parts of the other keywords in the first 2 lines
 * Tags
 * Thumbnail
 
