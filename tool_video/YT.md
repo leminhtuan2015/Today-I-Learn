@@ -7,6 +7,7 @@
 * Title (your title should have around 120 characters)
   * Titles are generally cut off at around **60 characters** in YouTube searches.
   * Tip: Put your keyword at the beginning of the title to give a slight SEO boost to your video.
+  * I like to keep my titles as short as I can
 * Description
   * Put your keyword at the beginning of the description
   * Only the first 55 to 70 characters of the description are actually displayed by YouTube,
