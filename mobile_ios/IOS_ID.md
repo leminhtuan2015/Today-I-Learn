@@ -3,6 +3,12 @@
 ----------------------------
 ### HOW TO DETECT UNIQUE IOS DEVICE
 
+* IDFA
+* UUID
+* UDID
+* IDFV
+* Keychain
+
 #### Untrack
 * Step 1 Setting -> Safary -> Block cookei + Block tracking
 * Step 2 Remove all apps relate with G (Youtube, Map, G+)
