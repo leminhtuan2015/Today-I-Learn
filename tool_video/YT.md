@@ -12,8 +12,10 @@
 * https://www.onlinedimes.com/rank-youtube/
 
 ### Chanel Tag
-
 * Chanel > Advance > Chanel tag
+
+### Thumbnail
+* Attractive thumbnail
 
 ### PIN
 ```
