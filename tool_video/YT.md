@@ -7,21 +7,27 @@
 
 ------------------------------------------------
 #### Regularly upload to YT
-* Regularly upload to YT (Max 2 Vid / day)
+  * Regularly upload to YT (Max 2 Vid / day)
 
 #### Title (your title should have around 120 characters)
   * Titles are generally cut off at around **60 characters** in YouTube searches.
   * Tip: Put your keyword at the beginning of the title to give a slight SEO boost to your video.
   * I like to keep my titles as short as I can
+  
 #### Description
   * Put your keyword at the beginning of the description
   * Only the first 55 to 70 characters of the description are actually displayed by YouTube
   * Make sure you have your main keyword and parts of the other keywords in the first 2 lines
+  
 #### Tags
   *  You should try to assign up to 10 tags, reflecting the most relevant keywords.
+  
 #### Thumbnail
   * Using best image
   * A good preview image (thumbnail) increases click-through rates enormously
+  
+#### Longer videos rank better
+  * Make Your Video At Least 5-Minutes Long
   
 #### Setting Chanel Tag
   * Chanel > Advance > Chanel tag
@@ -31,8 +37,10 @@
 
 * YouTube still finds it difficult to read video content, so you need to put keyword in ***title, description, tags***
 * It also helps to put your keyword phrase ***at the beginning of your title***
-*  “Riding a Bike: Learn How in 10 Easy Steps” ---- “10 Easy Steps to Learning to Ride a Bike.”
+* "Riding a Bike: Learn How in 10 Easy Steps" ---- "10 Easy Steps to Learning to Ride a Bike."
 
+
+### Trict
 * https://www.onlinedimes.com/rank-youtube/
 * https://econsultancy.com/blog/7929-how-to-rank-highly-in-youtube-searches/
 * https://www.clickz.com/how-to-make-your-videos-rank-better-on-youtube/30912/
