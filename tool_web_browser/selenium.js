@@ -1,7 +1,7 @@
 // Step 1: Download geckodriver (for macos)
 // Step 2: export PATH="$PATH:$HOME/.rvm/bin:/Users/fuji/Documents/my/selenium/geckodriver"
 // Step 3: npm install selenium-webdriver
-// Step 4: node app.js
+// Step 4: node selenium.js
 
 
 var webdriver = require('selenium-webdriver')
