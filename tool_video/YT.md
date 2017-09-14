@@ -24,6 +24,12 @@
   * Chanel > Advance > Chanel tag
 ------------------------------------------------
 
+### TIP
+
+* YouTube still finds it difficult to read video content, so you need to put keyword in ***title, description, tags***
+* It also helps to put your keyword phrase ***at the beginning of your title***
+*  “Riding a Bike: Learn How in 10 Easy Steps” ---- “10 Easy Steps to Learning to Ride a Bike.”
+
 * https://www.onlinedimes.com/rank-youtube/
 * https://econsultancy.com/blog/7929-how-to-rank-highly-in-youtube-searches/
 * https://www.clickz.com/how-to-make-your-videos-rank-better-on-youtube/30912/
