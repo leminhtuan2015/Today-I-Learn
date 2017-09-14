@@ -1,8 +1,12 @@
 ### UPLOAD TIME
-* ***Monday, Tuesday and Wednesday*** Between 2 p.m. and 4 p.m.
-* ***Thursday and Friday*** Between 12 p.m. and 3 p.m. 
-* ***On Saturday and Sunday, a post-time*** between 9 a.m. and 11 a.m. is optimal
 
+#### Best Time
+  * ***Monday, Tuesday and Wednesday*** Between 2 p.m. and 4 p.m.
+  * ***Thursday and Friday*** Between 12 p.m. and 3 p.m. 
+  * ***On Saturday and Sunday, a post-time*** between 9 a.m. and 11 a.m. is optimal
+
+#### Best Day
+  * We found the best days to post a video to YouTube is on a Thursday or Friday.
 ### SEO (Rank Better on YouTube)
 
 ------------------------------------------------
