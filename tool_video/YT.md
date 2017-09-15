@@ -17,7 +17,7 @@
   * Titles are generally cut off at around **60 characters** in YouTube searches.
   * Tip: Put your keyword at the beginning of the title to give a slight SEO boost to your video.
   * I like to keep my titles as short as I can
-  
+  * Name of file.avi, thumnail is the title
 #### Description
   * Your videos description is **VERY** important
   * Because Google and YouTube can’t “listen” to videos, they rely on your text description to determine your video’s content.
