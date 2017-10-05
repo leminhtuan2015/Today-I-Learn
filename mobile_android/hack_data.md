@@ -17,8 +17,14 @@ GET DATA
   su
   app="APP_NAME"
   cp -r /data/data/$app/ /sdcard
+  
+  ```
+  
+### TERMINAL MAC
+  ```
   adb pull sdcard/$app/ ~/Desktop/$app
   ```
+  
 REMOVE DATA FROM SDCARD
   ```sh
   rm -r /sdcard/$app
