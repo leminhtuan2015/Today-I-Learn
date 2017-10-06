@@ -18,6 +18,11 @@ GET DATA
   app="APP_NAME"
   cp -r /data/data/$app/ /sdcard
   
+  
+  #APK
+  
+  cp /data/app/$app /sdcard
+  
   ```
   
 ### TERMINAL MAC
