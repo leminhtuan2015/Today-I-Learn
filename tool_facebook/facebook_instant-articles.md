@@ -2,6 +2,8 @@
 ### Where is Instant Articles work?
 ### Monetization in Instant Articles
 
+--------------------------------------------
+
 
 ### What is Instant Articles?
 - An Instant Article is an HTML document optimized for fast mobile performance
