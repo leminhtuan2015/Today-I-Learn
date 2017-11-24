@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en" prefix="op: http://media.facebook.com/op#">
   <head>
@@ -78,3 +79,4 @@
     </article>
   </body>
 </html>
+```
