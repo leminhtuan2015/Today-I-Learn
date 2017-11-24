@@ -1,6 +1,7 @@
 ### What is Instant Articles?
 ### Where is Instant Articles work?
 ### Monetization in Instant Articles
+### Integrate ads in your Instant Articles
 
 --------------------------------------------
 
@@ -15,3 +16,6 @@
 
 ### Monetization in Instant Articles
 - Publishers can directly sell and deliver banner ads, video ads (click to play or sound off), and animated ads containing HTML, Javascript or CSS (provided the ads do not expand, collapse or any block content). Publishers can also monetize through the Facebook Audience Network, delivering high value, relevant and engaging ads from over 3 million advertisers on Facebook.
+
+### Integrate ads in your Instant Articles
+- Integrate ads in your Instant Articles, integrating Audience Network ads within Facebook Instant Articles, using a JavaScript tag
