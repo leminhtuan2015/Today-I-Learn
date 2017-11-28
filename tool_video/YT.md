@@ -1,5 +1,8 @@
 ### UPLOAD TIME
+### SEO (Rank Better on YouTube)
 
+-------------------------------------
+### UPLOAD TIME
 #### Best Time
   * ***Monday, Tuesday and Wednesday*** Between 2 p.m. and 4 p.m.
   * ***Thursday and Friday*** Between 12 p.m. and 3 p.m. 
@@ -7,9 +10,16 @@
 
 #### Best Day
   * We found the best days to post a video to YouTube is on a Thursday or Friday.
+  
+  
 ### SEO (Rank Better on YouTube)
 
-------------------------------------------------
+```
+#### 1st: Match Description
+#### 2nd: Match title
+#### 3th: Time of Video (Longger is better)
+```
+
 #### Regularly upload to YT
   * Regularly upload to YT (Max 2 Vid / day)
 
