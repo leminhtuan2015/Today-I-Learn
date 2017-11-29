@@ -26,3 +26,6 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
 
 ### BAAS
 - https://github.com/heroiclabs/nakama
+
+
+/Applications/VLC.app/Contents/MacOS/VLC 1.mp4 2.mp4 3.mp4 --sout "#gather:std{access=file,dst=all.mp4}" --sout-keep &
