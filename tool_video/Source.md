@@ -5,7 +5,7 @@
 ### LH
 
 * https://www.youtube.com/channel/UCo6DJdltbIub80bLiyJRv3w/videos MrGear
-* * https://www.youtube.com/channel/UCatfiM69M9ZnNhOzy0jZ41A/videos Power_Vision
+* https://www.youtube.com/channel/UCatfiM69M9ZnNhOzy0jZ41A/videos Power_Vision
 
 -------------------
 * https://www.youtube.com/channel/UCCohOo_tNjrR5JxgLjOb25A/videos Skybek
