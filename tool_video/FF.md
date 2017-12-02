@@ -41,3 +41,9 @@ ffmpeg -i movie.avi -af "atempo=3/4,asetrate=44100*4/3" movie_ok.avi
 ```sh
 ffmpeg -i movie.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
 ```
+
+### Get MP3 from MP4
+
+```sh
+ffmpeg -i Creative.mp4 filename.mp3
+```
