@@ -25,6 +25,12 @@ ffmpeg -i B2.mov -i logo.png -filter_complex \
 -codec:a copy output.mp4
 ```
 
+```sh
+ffmpeg -i INPUT.mp4  -i 7.png -filter_complex \
+"overlay=main_w-overlay_w-0:1" \
+-codec:a copy output.mp4
+```
+
 ### Convert Format
 
 ```sh
