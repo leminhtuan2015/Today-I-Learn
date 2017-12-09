@@ -1,8 +1,8 @@
-### Wild Animals
-* https://www.youtube.com/user/MimziesChoice/videos
-* https://www.youtube.com/channel/UC1mIxTEk1Q9IMIPwV67JSdQ/videos
+### 1
+* https://www.youtube.com/channel/UCWkgU1AcvVqn65OwDvj8LcA/videos
+* https://www.youtube.com/user/Hadoukentheband/videos
 
-### LH
+### 2
 
 * https://www.youtube.com/channel/UCo6DJdltbIub80bLiyJRv3w/videos MrGear
 * https://www.youtube.com/channel/UCatfiM69M9ZnNhOzy0jZ41A/videos Power_Vision
