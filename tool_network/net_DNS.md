@@ -11,4 +11,5 @@ Complex pagesrequire often  multiple DNS lookups before they start loading,
 so your computer may be performing hundreds of lookups a day.
 
 ### Google Public DNS
-Configure your network settings to use the IP addresses 8.8.8.8 and 8.8.4.4 as your DNS servers.
+* Configure your network settings to use the 
+* IP addresses 8.8.8.8 and 8.8.4.4 as your DNS servers.
