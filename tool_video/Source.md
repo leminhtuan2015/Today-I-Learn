@@ -5,6 +5,17 @@
 
 ### 2 LifeHack
 
+```
+"How to make" "Life hack" "Home made" "Hand made" diy "Life Hacks" Tricks Tests Ways Experiments "Life Hack" Trick "Test Way" Experiment
+```
+
+```
+Life hacks video that will make your life that much easier. This awesome life hacks video is genius life hacks or ideas, very simple and funny inventions. You can do this new tip, tricks , life hacks in your home with friends or for a school science experiment.
+
+There are always these pesky little obstacles in life that make everything so difficult, please like and share my life hacks video to make life easier, Our life hack video makes some aspect of one's life easier or more efficient.
+
+```
+
 * https://www.youtube.com/channel/UCo6DJdltbIub80bLiyJRv3w/videos MrGear ok
 * https://www.youtube.com/channel/UCatfiM69M9ZnNhOzy0jZ41A/videos Power_Vision ok
 * https://www.youtube.com/channel/UCNtiHX9Vziz3cdoCaWyHohA/videos VitaliUS ok 
