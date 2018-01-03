@@ -26,6 +26,9 @@
 
 * **ios/** — Like the android directory this is where all of your native iOS code lives. You’ll find your xcode project in there, .plist files, .h files, .m files, etc. So if you want to open your project in xcode you would open ios/<PROJECT_NAME>.xcodeproj. You’ll rarely have to work in this directory.
 
+* **index.android.js** : Android entry file
+* **index.ios.js** : iOS entry file
+
 * **index.ios.js** — This is the **entry point** for your ios app into the React Native code. It’s where you’ll want to register your app (via **AppRegistry**).
 
 * **index.android.js** — Same as index.ios.js just for Android. You’ll notice that it’s exactly the same code as the ios one, we’ll work on that in the next section
