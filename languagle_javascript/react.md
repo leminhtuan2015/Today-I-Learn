@@ -37,6 +37,13 @@
 
 * **node_modules/**: Contain Javascript dependencies modules
 
+* Create a new folder named **src** to contain all Javascript (React) files
+  * src/components
+  * src/helpers
+  * src/styles
+  * src/
+  * ...
+
 
 
 
