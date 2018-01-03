@@ -11,3 +11,11 @@
 #### React Native
 * React Native lets you build mobile apps using only JavaScript
 * With React Native, you don't build a mobile web app, an HTML5 app, or a hybrid app; you build a real mobile app that's indistinguishable from an app built using Objective-C or Java
+
+##### Install
+* brew install watchman
+* npm install -g react-native-cli
+* react-native init new-app
+* cd new-app
+* react-native start
+* react-native run-ios
