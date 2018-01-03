@@ -33,6 +33,10 @@
 
 * **index.android.js** — Same as index.ios.js just for Android. You’ll notice that it’s exactly the same code as the ios one, we’ll work on that in the next section
 
+* **package.json**: Config file of project
+
+* **node_modules/**: Contain Javascript dependencies modules
+
 
 
 
