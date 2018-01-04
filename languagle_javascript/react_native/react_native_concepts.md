@@ -22,6 +22,7 @@
 
 * **state** : is the attribute in each **Components**
 * Initial **state** is defined inside the Components class by using the state = {} syntax
+* Each time when **setState** is called, the **render()** function in a Component will be called simultaneously
 
 ```js
  state = {}
