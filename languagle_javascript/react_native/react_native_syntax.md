@@ -3,7 +3,7 @@
 #### Objects
 #### Classes (extends)
 #### Spread
-#### Modules
+#### Modules (How to use code from other file)
 
 --------------------
 #### Variables
@@ -87,3 +87,37 @@ class Cat extends Pet {
 let myCat = new Cat();
 
 ```
+
+
+#### Modules
+* Use code from other file
+
+```js
+export Class
+export Object
+export Variable
+export Function
+```
+
+```js
+import OBJECT_NAME from 'PATH/TO/FILE'
+
+OBJECT_NAME = What ever is exported from that file
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
