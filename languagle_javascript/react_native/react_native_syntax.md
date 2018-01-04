@@ -1,4 +1,8 @@
+#### Variables
 #### Arrow functions
+#### Objects
+#### Spread
+#### Modules
 
 --------------------
 
