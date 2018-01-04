@@ -4,11 +4,24 @@
 
 #### React Native : props vs state (Of Components)
 * **Components**, **props**, and **state** are key concepts of the **React Native framework**
-* props (properties) immutated
-* state (state) mutated
-* **props** = short for properties
-* props vs state are attributes of component
+* props (short for properties) immutated : **is the attribute of component**
+* state (state) mutated : **is the attribute of component**
+* props vs state are **attributes of component**
 * There are two types of data that control a **component**: **props** and **state**
+* Example : one basic React Native component is the Image. When you create an image, you can use a prop named source to control what image it shows.
+
+```js
+export default class Bananas extends Component {
+  render() {
+    let pic = {
+      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
+    };
+    return (
+      <Image source={pic} style={{width: 193, height: 110}}/>
+    );
+  }
+}
+```
 
 ##### State (Of Components)
 
