@@ -23,6 +23,7 @@
 * **state** : is the attribute in each **Components**
 * Initial **state** is defined inside the Components class by using the state = {} syntax
 * Each time when **setState** is called, the **render()** function in a Component will be called simultaneously
+* Each react component has its own state. State is a collection of values that need to be maintained by component itself
 
 ```js
  state = {}
@@ -57,6 +58,7 @@ export default Home;
 ##### Props (Of Components)
 
 * Example : one basic React Native component is the Image. When you create an image, you can use a prop named source to control what image it shows.
+* Props are accessed by  {this.props}
 
 ```js
 export default class Bananas extends Component {
