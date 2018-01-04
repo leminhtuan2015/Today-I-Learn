@@ -9,5 +9,5 @@ buttonPress = () => {console.log("press")}
 ```
 
 ```js
-buttonPress{console.log("press")} 
+buttonPress(){console.log("press")}
 ```
