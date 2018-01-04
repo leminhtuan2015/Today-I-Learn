@@ -2,6 +2,7 @@
 #### React Native : Components
 #### React Native : Events
 #### React Native : Navigator
+#### React Native : Redux
 --------------------------------------------
 
 #### React Native : props vs state (Of Components)
