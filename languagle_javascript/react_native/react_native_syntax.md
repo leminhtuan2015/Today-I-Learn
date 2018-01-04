@@ -1,5 +1,13 @@
-#### Syntax
+#### Arrow functions
 
 --------------------
 
-#### Syntax
+#### Arrow functions
+
+```js
+buttonPress = () => {console.log("press")} 
+```
+
+```js
+buttonPress{console.log("press")} 
+```
