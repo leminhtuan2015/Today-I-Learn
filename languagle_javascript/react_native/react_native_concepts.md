@@ -43,3 +43,20 @@ class Home extends Component {
 
 export default Home;
 ```
+
+
+##### Props (Of Components)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
