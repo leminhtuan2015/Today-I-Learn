@@ -1,5 +1,6 @@
 #### React Native : props vs state
 #### React Native : components
+#### React Native : events
 --------------------------------------------
 
 #### React Native : props vs state (Of Components)
@@ -78,11 +79,29 @@ export default class Bananas extends Component {
 * Each **Component** have a arrow method named **render() {}** to render view on screen
 * **render()** is called each time **state** of component is changed, such as each time when **setState** is called, the **render()** function in a Component will be called simultaneously
 
+#### React Native : events
 
-
-
-
-
+```js
+class Touch extends Component {
+  handlePress(){
+    console.log('press');
+  }
+  handleLongPress(){
+    console.log('longPress');
+  }
+  render() {
+    return (
+      <TouchableHighlight
+        onPress={this.handlePress}
+        onLongPress={this.handleLongPress}>
+        <View>
+          <Text>Press me!</Text>
+        </View>
+      </TouchableHighlight>
+    );
+  }
+}
+```
 
 
 
