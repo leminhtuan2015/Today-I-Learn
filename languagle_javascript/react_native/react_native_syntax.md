@@ -1,7 +1,7 @@
 #### Variables
 #### Arrow functions
 #### Objects
-#### Classes
+#### Classes (extends)
 #### Spread
 #### Modules
 
@@ -43,4 +43,47 @@ const info = {
     state: 'Tennessee',
   },
 };
+```
+
+#### Classes (extends)
+
+```js
+class Pet {
+    
+    // biến trong class
+    food = `something eatable`; 
+
+    // Hàm (method) trong class
+    eat() {
+        console.log('I can eat ${ this.food }'); 
+    }
+    
+    // Hàm khởi tạo (constructor) cho class Pet
+    constructor(name, age) {
+        this.name = name;
+        this.age  = age;
+    }
+}
+
+let myPet = new Pet('Beo', 2);
+
+
+
+class Cat extends Pet {
+
+    static numberOfLegs = 4; // biến static trong class
+  
+    // Hàm static trong class
+    static lazy() { 
+        console.log(`All cats are lazy`);
+    }
+
+    constructor(name, age) {
+        super(name, age); // gọi lên hàm dựng của parent class: Pet
+        this.food = `fishes`;
+    }
+}
+
+let myCat = new Cat();
+
 ```
