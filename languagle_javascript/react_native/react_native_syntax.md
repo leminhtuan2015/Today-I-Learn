@@ -6,6 +6,12 @@
 #### Modules
 
 --------------------
+#### Variables
+* **var**, **let**, **const**
+* **var**: var is function scoped 
+* **let**: let is block scoped, Only exist in nearest block scoped
+* **const**: As let and Can not modify
+
 
 #### Arrow functions
 
