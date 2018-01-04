@@ -4,10 +4,19 @@
 
 #### React Native : props vs state (Of Components)
 * **Components**, **props**, and **state** are key concepts of the **React Native framework**
-* props (short for properties) immutated : **is the attribute of component**
-* state (state) mutated : **is the attribute of component**
+* props (short for properties) immutated : **is the immutated attribute of component**
+* state (state) mutated : **is the mutated attribute of component**
 * props vs state are **attributes of component**
 * There are two types of data that control a **component**: **props** and **state**
+* Example:
+
+```js
+<a href="http://google.com"> LINK </a>
+```
+
+* **a** : Is the component
+* **href** : Is the **props** of component **a**
+* **LINK** : Is the **state** of component **a**
 
 ##### State (Of Components)
 
