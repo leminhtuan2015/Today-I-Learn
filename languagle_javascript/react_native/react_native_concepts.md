@@ -1,5 +1,5 @@
 #### React Native : props vs state
-
+#### React Native : components
 --------------------------------------------
 
 #### React Native : props vs state (Of Components)
@@ -73,7 +73,10 @@ export default class Bananas extends Component {
 }
 ```
 
-
+#### React Native : components
+* Every view (button, image, text, ...) in React native is sub-class of **Component** class
+* Each **Component** have a arrow method named **render() {}** to render view on screen
+* **render()** is called each time **state** of component is changed, such as each time when **setState** is called, the **render()** function in a Component will be called simultaneously
 
 
 
