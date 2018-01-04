@@ -1,7 +1,7 @@
 #### What is difference between React native vs React JS?
 #### React Native
 #### React Native File Structure
-#### API
+
 
 ------------------------------
 #### What is difference between React native vs React JS?
@@ -44,11 +44,3 @@
   * src/styles
   * src/
   * ...
-
-#### API
-
-* AppRegistry.registerComponent('demo_react_native', () => Home);
-
-
-
-
