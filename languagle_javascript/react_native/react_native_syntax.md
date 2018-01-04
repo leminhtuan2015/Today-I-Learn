@@ -30,3 +30,17 @@ var myFunction = function [name]([param1[, param2[, ..., paramN]]]) {
    statements
 };
 ```
+#### Object
+
+* Object in Javascript is a JSON
+
+```js
+const info = {
+  name: 'Spencer',
+  company: 'Handlebar Labs',
+  location: {
+    city: 'Nashville',
+    state: 'Tennessee',
+  },
+};
+```
