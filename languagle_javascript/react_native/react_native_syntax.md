@@ -1,4 +1,5 @@
 #### What is "this" Context
+#### Function as a callback
 #### Variables
 #### Arrow functions
 #### Objects
@@ -35,6 +36,47 @@ obj.foo() === obj; // true
 
 * An arrow function **does not have its own "this"**
 * The "this" in arrow function is the enclosing execution context, the this of parent scope.
+
+#### Function as a callback
+
+* When you pass the function as a callback `onPress={this.callback}` the "this" in callback() will be **null** because we do not know which object call the function callback()
+
+* => When use function as a callback you have to use **arrow function**
+
+```js
+class HomeView extends Component<{}> {
+
+  buttonPress_func = () => {    
+    this.props.navigator.push({     // "this" is the object called buttonPress_func() , that is null because we do not know which object call this function
+      screen: 'DetailView',
+      title: undefined,
+    });
+  }
+
+  buttonPress_arrow_func = () => {    
+    this.props.navigator.push({     // "this" is the object of parent scope
+      screen: 'DetailView',
+      title: undefined,
+    });
+  }
+ 
+ render() {
+    return (
+      <View style={styles.container}>
+        <Button
+          onPress={this.buttonPress_arrow_func}  // "this" is the object of HomeView (the object call render())
+          title="Learn More"
+          color="#841584"
+        />
+      </View>
+    );
+  }
+}
+
+export default HomeView
+```
+
+
 
 #### Variables
 * **var**, **let**, **const**
