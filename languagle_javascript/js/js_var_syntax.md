@@ -19,6 +19,7 @@ var x = (1 + 2)
 
 class DetailView extends Component<{}> {
  
+ // view is a variable
  view = (
   <View style={styles.container}>
    <Button
