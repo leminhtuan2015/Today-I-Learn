@@ -1,3 +1,4 @@
+#### What is "this" Context
 #### Variables
 #### Arrow functions
 #### Objects
@@ -6,6 +7,25 @@
 #### Modules (How to use code from other file)
 
 --------------------
+
+#### What is "this" Context
+
+* Context is most often determined by how a function is invoked. 
+* When a function is called as a method of an object, **"this"** is set to the **"object"** the method is called on:
+* Example : **"this"** is the object called the function "foo"
+* **this** ở trong 1 function chính là con trỏ (object) đang gọi đến function đó.
+
+```js
+var obj = {
+    foo: function() {
+        return this;  // "this" is the object call the function "foo"
+    }
+};
+
+obj.foo() === obj; // true
+
+```
+
 #### Variables
 * **var**, **let**, **const**
 * **var**: var is function scoped 
