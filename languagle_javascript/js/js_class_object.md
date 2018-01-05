@@ -12,7 +12,36 @@ var person = {firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"}
 
 ### JavaScript Class
 
-* http://book.mixu.net/node/ch6.html
+* **Javascript Class declarations**
+
+```js
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
+```
+* **Javascript Class expressions**
+
+```js
+// unnamed
+var Rectangle = class {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+
+// named
+var Rectangle = class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+```
+
 
 * **Javascript Class native**
 ```js
