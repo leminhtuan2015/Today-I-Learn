@@ -47,7 +47,9 @@ obj.foo() === obj; // true
 class HomeView extends Component<{}> {
 
   buttonPress_func = () => {    
-    this.props.navigator.push({     // "this" is the object called buttonPress_func() , that is null because we do not know which object call this function
+    this.props.navigator.push({     
+    // "this" is the object called buttonPress_func() , 
+    // that is null because we do not know which object call this function
       screen: 'DetailView',
       title: undefined,
     });
@@ -64,7 +66,8 @@ class HomeView extends Component<{}> {
     return (
       <View style={styles.container}>
         <Button
-          onPress={this.buttonPress_arrow_func}  // "this" is the object of HomeView (the object call render())
+          onPress={this.buttonPress_arrow_func}  
+          // "this" is the object of HomeView (the object call render())
           title="Learn More"
           color="#841584"
         />
