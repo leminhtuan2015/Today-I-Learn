@@ -11,9 +11,10 @@
 #### What is "this" Context
 
 * Context is most often determined by how a function is invoked. 
+* Inside a function, the value of **this** depends on how the function is called.
 * When a function is called as a method of an object, **"this"** is set to the **"object"** the method is called on:
-* Example : **"this"** is the object called the function "foo"
 * **this** ở trong 1 function chính là con trỏ (object) đang gọi đến function đó.
+* Example : **"this"** is the object called the function "foo"
 
 ```js
 var obj = {
@@ -25,6 +26,15 @@ var obj = {
 obj.foo() === obj; // true
 
 ```
+
+##### "this" in function
+
+* Every function defined its own "this" value, that mean "this" in function is the object that called the function
+
+##### "this" in arrow function
+
+* An arrow function **does not have its own "this"**
+* The "this" in arrow function is the enclosing execution context, the this of parent scope.
 
 #### Variables
 * **var**, **let**, **const**
