@@ -39,6 +39,8 @@ obj.foo() === obj; // true
 
 #### Function as a callback
 
+* Once you’ve passed a method as a callback, you have no idea how it will be called, and thus no idea what this will be. => That is, unless you use an arrow function.
+
 * When you pass the function as a callback `onPress={this.callback}` the "this" in callback() will be **null** because we do not know which object call the function callback()
 
 * => When use function as a callback you have to use **arrow function**
