@@ -25,7 +25,8 @@
 
 #### REDUX library
 * Redux is an implementation library for data handling in client applications that was inspired by Flux. 
-* Redux implemented on the ideas of Flux (Redux is a Flux library)
+* Redux implemented on the ideas of Flux
+* Redux is one of the most common implementation of Flux
 
 ### FLUX
 
