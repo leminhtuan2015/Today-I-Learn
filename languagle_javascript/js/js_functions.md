@@ -5,6 +5,23 @@
 
 ### Function
 
+* In Javascript We can use function as:
+  * As a nomal function
+  * As a Class, Each function will return a new object
+  
+```js
+
+function Person(){
+  this.name = "tuan" 
+  console.log("the name is : " + this.name) // the name is : tuan
+}
+
+var p = new Person() // the name is : tuan
+
+console.log("My name :" + p.name) // My name :tuan
+
+```
+
 ### Keyword 'this' in Function
 
 * **'this'** in function is the object that called the function
