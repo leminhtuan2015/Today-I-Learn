@@ -42,3 +42,13 @@
 * If your application deals with **dynamic data** then yes, **you should probably use Flux**.
 
 * If your application is just static views that don't share state, and you never save nor update data, **then no, Flux won't give you any benefit**.
+
+* How do you passing data from this screen to other screen? In **IOS native/Android native**, you are easy to pass object between **ViewController/Activity** but in React Native we have to use **Flux** to pass data (state) between screens.
+
+
+
+
+
+
+
+
