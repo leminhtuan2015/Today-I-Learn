@@ -46,7 +46,7 @@ function Person(){
 Person() // Call Person method by global context
 ```
 
-* Case 1
+* Example 1
 
 ```js
 // 'this' is the context (object) that called the Person function
@@ -63,7 +63,7 @@ Person() // the name is : tuan , because in this case 'this' = global context =>
 var p = new Person() // the name is : undefined , because is this case 'this' = object p => this.name is p.name => undefined
 ```
 
-* Case 2
+* Example 2
 
 ```js
 // this.name is undefined because 'this' is global context and we have no variable name in global context
@@ -78,7 +78,7 @@ Person() // the name is : undefined
 var p = new Person() // the name is : undefined
 ```
 
-* Case 3
+* Example 3
 
 ```js
 // Before call Person method global context have no variable 'name'
@@ -96,7 +96,7 @@ Person() // the name is : tuan
 console.log("the name is : " + this.name) //the name is : tuan
 ```
 
-* Case 4 
+* Example 4 
 
 ```js
 // Before call Person method global context have no variable 'name'
