@@ -37,6 +37,8 @@ function Person(){
 }
 
 Person() // the name is : undefined
+
+var p = new Person() // the name is : undefined
 ```
 
 * Case 3
@@ -57,6 +59,25 @@ Person() // the name is : tuan
 console.log("the name is : " + this.name) //the name is : tuan
 ```
 
+* Case 4 
+
+```js
+// Before call Person method global context have no variable 'name'
+// After call Person method the p object have : p.name = "tuan"
+
+function Person(){
+  this.name = "tuan" 
+  console.log("the name is : " + this.name) 
+}
+
+console.log("the name is : " + this.name) //the name is : undefined
+
+var p = new Person() // the name is : tuan
+
+console.log("the name is : " + p.name) //the name is : tuan
+
+console.log("the name is : " + this.name) //the name is : undefined
+```
 
 
 
