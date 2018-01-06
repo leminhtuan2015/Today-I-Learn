@@ -1,9 +1,9 @@
-### React Native Javascript applications
+### React Native Javascript applications (Flux)
 
 
 --------------------------------------------------------------
 
-### React Native Javascript applications
+### React Native Javascript applications (Flux)
 
 * IOS native (Swift) use **MVC** design pattern
   * Model - User, Books, ... (Create by dev)
