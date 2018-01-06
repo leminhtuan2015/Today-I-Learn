@@ -21,7 +21,9 @@ function Person(){
   console.log("the name is : " + this.name) // the name is : tuan
 }
 
-Person() // the name is : tuan
+Person() // the name is : tuan , because in this case 'this' = global context => this.name = tuan
+
+var p = new Person() // the name is : undefined , because is this case 'this' = object p => this.name is p.name => undefined
 ```
 
 * Case 2
