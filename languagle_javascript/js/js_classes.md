@@ -3,6 +3,16 @@
 -----------------------------------------------------
 ### JavaScript Class
 
+* **Classes** in Javascript are **"special functions"**
+
+```js
+class Foo {}
+
+console.log(typeof Foo); // function
+```
+
+#### Ways to create class
+
 * **Javascript Class declarations (ECMAScript 2015)**
 
 ```js
