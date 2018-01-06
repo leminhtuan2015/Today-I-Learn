@@ -7,6 +7,8 @@
 
 ### Keyword 'this' in Function
 
+* **'this'** in function is the object that called the function
+
 * Case 1
 
 ```js
