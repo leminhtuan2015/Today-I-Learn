@@ -59,7 +59,7 @@ export default Home;
 
 
 ##### Props (Of Components)
-
+* Props are Read-Only
 * Example : one basic React Native component is the Image. When you create an image, you can use a prop named source to control what image it shows.
 * Props are accessed by  {this.props}
 
