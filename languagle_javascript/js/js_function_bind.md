@@ -1,0 +1,26 @@
+### bind() function
+
+--------------------------------------------------
+
+### bind() function
+
+* Example
+
+```js
+var module = {
+  x: 42,
+  getX: function() {
+    return this.x;
+  }
+}
+
+var retrieveX = module.getX;
+
+console.log(retrieveX()); // The function gets invoked at the global scope
+// expected output: undefined
+
+var boundGetX = retrieveX.bind(module);
+console.log(boundGetX());
+// expected output: 42
+
+```
