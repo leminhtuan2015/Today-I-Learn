@@ -26,6 +26,26 @@ console.log("My name :" + p.name) // My name :tuan
 
 * **'this'** in function is the object that called the function
 
+```js
+function Person(){
+  console.log("the name is : " + this.name)  // this = p
+}
+
+var p = new Person()
+```
+
+
+* By default:
+```js
+// If the function is not called by any object it is default called by global context
+
+function Person(){
+  console.log("the name is : " + this.name)  // this = global context
+}
+
+Person() // Call Person method by global context
+```
+
 * Case 1
 
 ```js
