@@ -1,18 +1,9 @@
-### JavaScript Object
 ### JavaScript Class
 
 -----------------------------------------------------
-
-### JavaScript Object
-* JavaScript objects are containers properties and methods
-
-```js
-var person = {firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"}
-```
-
 ### JavaScript Class
 
-* **Javascript Class declarations**
+* **Javascript Class declarations (ECMAScript 2015)**
 
 ```js
 class Rectangle {
@@ -22,7 +13,7 @@ class Rectangle {
   }
 }
 ```
-* **Javascript Class expressions**
+* **Javascript Class expressions (ECMAScript 2015)**
 
 ```js
 // unnamed
@@ -43,7 +34,7 @@ var Rectangle = class Rectangle {
 ```
 
 
-* **Javascript Class native**
+* **Javascript Class (from function)**
 ```js
 function Person(name) {
   this.name = name
@@ -52,14 +43,12 @@ function Person(name) {
   }
 }
 
-// Create new Persion object
-
-var person = new Person("tuan")
+var person = new Person("tuan") // Create new Persion object
 
 // Use properties and methods of object
 
-person.name
-person.showName()
+person.name // 'tuan'
+person.showName()  // My name is : tuan
 ```
 
 * **Javascript Class in Nodejs**
