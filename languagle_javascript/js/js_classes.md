@@ -1,4 +1,4 @@
-### JavaScript Class
+### JavaScript Class (special function)
 
 -----------------------------------------------------
 ### JavaScript Class
