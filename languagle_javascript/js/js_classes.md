@@ -21,6 +21,10 @@ class Person {
     this.name = name; // this = person : this is a object is call the Person function
     this.age = age;
   }
+  
+  showName(){
+      console.log("My name is : " + this.name)
+  }
 }
 
 var person = new Person("tuan", 1)
@@ -34,6 +38,10 @@ var Person = class {
     this.name = name;
     this.age = age;
   }
+  
+  showName(){
+      console.log("My name is : " + this.name)
+  }
 };
 
 // named
@@ -41,6 +49,10 @@ var Person = class Person {
   constructor(name, age) {
     this.name = name;
     this.age = age;
+  }
+  
+  showName(){
+      console.log("My name is : " + this.name)
   }
 };
 ```
