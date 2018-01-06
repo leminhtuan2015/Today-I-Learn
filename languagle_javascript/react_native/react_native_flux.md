@@ -16,6 +16,7 @@
   * Controller - Activity
 
 #### FLUX architecture
+* Flux = **MVVM** design pattern
 * Flux is a concept of an architecture
 * Each Mobile app framework have it own design, React Native Javascript application should use **FLUX** design pattern
 * Flux is an **architecture** for creating **data layers (Model layer)** in JavaScript applications
