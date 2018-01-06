@@ -10,7 +10,7 @@
   * As a Class, Each function will return a new object
   
 ```js
-
+// As a class
 function Person(){
   this.name = "tuan" 
   console.log("the name is : " + this.name) // the name is : tuan
