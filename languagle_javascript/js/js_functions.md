@@ -1,11 +1,11 @@
 ### Function
-### 'this' in Function
+### Keyword 'this' in Function
 
 -----------------------------
 
 ### Function
 
-### 'this' in Function
+### Keyword 'this' in Function
 
 ```js
 var name = "tuan"
