@@ -6,29 +6,31 @@
 * **Javascript Class declarations (ECMAScript 2015)**
 
 ```js
-class Rectangle {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
+class Person {
+  constructor(name, age) {
+    this.name = name; // this = person : this is a object is call the Person function
+    this.age = age;
   }
 }
+
+var person = new Person("tuan", 1)
 ```
 * **Javascript Class expressions (ECMAScript 2015)**
 
 ```js
 // unnamed
-var Rectangle = class {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
+var Person = class {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
   }
 };
 
 // named
-var Rectangle = class Rectangle {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
+var Person = class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
   }
 };
 ```
