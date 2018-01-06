@@ -6,9 +6,9 @@
 * **Classes** in Javascript are **"special functions"**
 
 ```js
-class Foo {}
+class Person {}
 
-console.log(typeof Foo); // function
+console.log(typeof Person); // function
 ```
 
 #### Ways to create class
