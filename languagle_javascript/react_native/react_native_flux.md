@@ -1,5 +1,5 @@
 ### React Native Flux
-
+### Should I Use Flux?
 
 --------------------------------------------------------------
 
@@ -34,3 +34,8 @@
   * Action
   * View
   
+### Should I Use Flux?
+
+* If your application deals with **dynamic data** then yes, **you should probably use Flux**.
+
+* If your application is just static views that don't share state, and you never save nor update data, **then no, Flux won't give you any benefit**.
