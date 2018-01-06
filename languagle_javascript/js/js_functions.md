@@ -19,5 +19,18 @@ function Person(){
   console.log("the name is : " + this.name) 
 }
 
-Person() // tuan
+Person() // the name is : tuan
+```
+
+* Case 2
+
+```js
+// this.name is undefined because 'this' is global context and we have no variable name in global context
+
+function Person(){
+  var name = "tuan" 
+  console.log("the name is : " + this.name) 
+}
+
+Person() // the name is : undefined
 ```
