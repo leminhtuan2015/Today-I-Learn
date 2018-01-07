@@ -1,6 +1,6 @@
 ### React Native Flux
 ### Should I Use Flux?
-
+### Flux vs Redux
 --------------------------------------------------------------
 
 ### React Native Flux
@@ -46,9 +46,7 @@
 * How do you passing data from this screen to other screen? In **IOS native/Android native**, you are easy to pass object between **ViewController/Activity** but in React Native we have to use **Flux** to pass data (state) between screens.
 
 
-
-
-
-
+### Flux vs Redux
+*  Redux does not have a dispatcher.It relies on pure functions called reducers. It does not need a dispatcher. Each actions are handled by one or more reducers to update the single store. Since data is immutable, reducers returns a new updated state that updates the store
 
 
