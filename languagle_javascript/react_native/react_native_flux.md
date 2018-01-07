@@ -24,20 +24,20 @@
 * Flux is a pattern for managing data flow in your application
 * The **Flux application architecture** is the new paradigm for handling data within applications, developed as an alternative to traditional **Model-View-Controller (MVC)** architectures
 
+#### FLUX Parts
+* Dispatcher
+* Store
+* Action
+* View
+
 #### REDUX library
 * Redux is an implementation library for data handling in client applications that was inspired by Flux. 
 * Redux implemented on the ideas of Flux
 * Redux is one of the most common implementation of Flux
 
-### FLUX
 
-* Flux Parts
-  * Dispatcher
-  * Store
-  * Action
-  * View
-  
 ### Should I Use Flux?
+* First of all, it is totally possible to write apps with React without Flux.
 
 * If your application deals with **dynamic data** then yes, **you should probably use Flux**.
 
