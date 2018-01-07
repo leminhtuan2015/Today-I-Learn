@@ -33,4 +33,4 @@ console.log(boundGetX());
 fun.bind(thisArg)
 ```
 
-* thisArg : The value to be passed as the this parameter to the target function when the bound function is called. The value is ignored if the bound function is constructed using the new operator.
+* thisArg : The value to be passed as the this parameter to the target function when the bound function is called. The value is ignored if the bound function is constructed using the **new** operator.
