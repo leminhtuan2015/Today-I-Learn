@@ -1,6 +1,6 @@
 ### Redux diagram
 ### Redux Provider
-### Redux Store
+### Redux Store (Model Layer)
 ### Redux Connect
 
 
@@ -14,3 +14,11 @@
 
 * **Provider** is a React component given to us by the “react-redux” library. 
 * **Provider** serves just one purpose : to “provide” the store to its child components
+
+### Redux Store (Model Layer)
+
+* **Store** is the model layer
+
+### Redux Connect
+
+* Connect **Component (View)** <-> **Store (Model)** 
