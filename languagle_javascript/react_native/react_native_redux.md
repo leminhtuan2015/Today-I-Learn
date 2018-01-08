@@ -45,6 +45,8 @@ let Store = createStore(reducers)
 
 console.log("Store state: " + JSON.stringify(Store.getState()))
 
+State of app is all state object of each reducer
+
 => {"CountReducer":{"number":0},"CountReducer1":{"number1":0}}
 
 ```
