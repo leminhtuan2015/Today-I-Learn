@@ -108,7 +108,7 @@ export default Store;
 #### Redux Reducer
 
 * Each **Reducer** manager one state object
-* **Reducer** is the same model object
+* **Reducer** is the same model object, all business logic should be here
 * Reducer to update the state of the app.
 
 ### Redux life cycle
