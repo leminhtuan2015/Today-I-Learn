@@ -32,6 +32,24 @@
 * Example:
 
 ```js
+each reducer manage one state object
+we have reducer 1 state object = {number: 0}
+we have reducer 2 state object = {number1: 0}
+
+const reducers = combineReducers({
+ CountReducer,
+ CountReducer1,
+});
+
+let Store = createStore(reducers)
+
+console.log("Store state: " + JSON.stringify(Store.getState()))
+
+=> {"CountReducer":{"number":0},"CountReducer1":{"number1":0}}
+
+```
+
+```js
 export const CountReducer = (stateObject = {number: 0}, action) => {
   switch (action.type) {
   case 'INCREMENT':
