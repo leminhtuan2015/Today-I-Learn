@@ -27,6 +27,60 @@
 * Unlike in Flux, Redux only has one store for the whole app
 * Redux **Store** automatically pass the **current state** of the app and the **action** to **Reducer**
 
+* **Store** is the object that contain all state object of each **Reducer**
+
+* Example:
+
+```js
+export const CountReducer = (stateObject = {number: 0}, action) => {
+  switch (action.type) {
+  case 'INCREMENT':
+    return {number: stateObject.number + 1};
+  case 'DECREMENT':
+    return {number: stateObject.number - 1};
+  default:
+    return stateObject
+  }
+}
+
+export default CountReducer
+```
+
+```js
+export const CountReducer1 = (stateObject = {number1: 0}, action) => {
+  switch (action.type) {
+  case 'INCREMENT1':
+    return {number1: stateObject.number1 + 10};
+  case 'DECREMENT1':
+    return {number1: stateObject.number1 - 10};
+  default:
+    return stateObject
+  }
+}
+
+export default CountReducer1
+```
+
+```js
+import { createStore, combineReducers } from 'redux'
+import CountReducer from '../reducers/CountReducer'
+import CountReducer1 from '../reducers/CountReducer1'
+
+const reducers = combineReducers({
+ CountReducer,
+ CountReducer1,
+});
+
+// Pass current state and action for reducers
+let Store = createStore(reducers)
+
+console.log("Store state: " + JSON.stringify(Store.getState()))
+// Store state: {"CountReducer":{"number":0},"CountReducer1":{"number1":0}}
+
+export default Store;
+
+```
+
 #### Redux Reducer
 
 * **Reducer** is the same model object
