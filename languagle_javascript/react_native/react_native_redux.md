@@ -22,6 +22,35 @@
 
 * Connect **Component (View)** <-> **Store** 
 
+```js
+import React, { Component } from 'react';
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux';
+import CounterView from '../components/views/CounterView.js'; // CounterView is a Component (View)
+
+// 'stateObject' is the state object from <Provider store={Store}>
+// Provider is given the store as a prop
+// data = stateObject = store.getState()
+
+const mapStateToProps = (stateObject) => ({
+  data: stateObject
+})
+
+// 'dispatch' is the action from <Provider store={Store}>
+// increment = store.dispatch(store.getState(), type)
+
+const mapDispatchToProps = (dispatch) => ({
+  increment: () => { dispatch({ type: 'INCREMENT' }) },
+  decrement: () => { dispatch({ type: 'DECREMENT' }) },
+  reset: () => { dispatch({ type: 'RESET' }) },
+})
+
+// Connect View to Store
+const CounterViewContainer = connect(mapStateToProps, mapDispatchToProps)(CounterView)
+
+export default CounterViewContainer
+```
+
 #### Redux Store (Model Layer)
 
 * **Store** Contain multiple **Reducer**, each **Reducer** manage one state object
