@@ -1,5 +1,6 @@
 ### Redux diagram
 ### Redux Parts
+### Redux life cycle
 
 ----------------------------------------------------------------------
 
@@ -110,6 +111,6 @@ export default Store;
 * **Reducer** is the same model object
 * Reducer to update the state of the app.
 
-#### Cycle
+### Redux life cycle
 
-* View --(fire_event)--> Container --dispatch(action)--> Store --passing(currentState, action)--> Reducer --update(currentState)--> Done
+* **View** --(fire_event)--> **Container** --dispatch(action)--> **Store** --passing(currentState, action)--> **Reducer** --update(currentState)--> Done
