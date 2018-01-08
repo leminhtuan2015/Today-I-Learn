@@ -86,6 +86,7 @@ import { createStore, combineReducers } from 'redux'
 import CountReducer from '../reducers/CountReducer'
 import CountReducer1 from '../reducers/CountReducer1'
 
+// combineReducers : The resulting reducer calls every child reducer, and gathers their results into a single state object
 const reducers = combineReducers({
  CountReducer,
  CountReducer1,
@@ -103,6 +104,7 @@ export default Store;
 
 #### Redux Reducer
 
+* Each **Reducer** manager one state object
 * **Reducer** is the same model object
 * Reducer to update the state of the app.
 
