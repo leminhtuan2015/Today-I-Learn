@@ -33,14 +33,16 @@
 
 ```js
 each reducer manage one state object
-we have reducer 1 state object = {number: 0}
-we have reducer 2 state object = {number1: 0}
+we have reducer 1 will manage the state object = {number: 0}
+we have reducer 2 will manage the state object = {number1: 0}
 
+// combine all sub state object to one state object
 const reducers = combineReducers({
  CountReducer,
  CountReducer1,
 });
 
+// create only one state object for all application
 let Store = createStore(reducers)
 
 console.log("Store state: " + JSON.stringify(Store.getState()))
