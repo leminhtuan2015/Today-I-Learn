@@ -32,4 +32,4 @@
 
 #### Cycle
 
-* View ---(fire_event)---> Container ---(dispatch)---> Store ---passing(currentState, action)---> Reducer ---update(currentState)
+* View --(fire_event)--> Container --(dispatch)--> Store --passing(currentState, action)--> Reducer --update(currentState)--> Done
