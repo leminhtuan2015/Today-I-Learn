@@ -25,6 +25,8 @@
 #### Redux Container (Redux Connect)
 
 * Connect **Component (View)** <-> **Store** 
+* **connect()** function : It returns a component
+* Inject data and callbacks to a component
 
 ```js
 import React, { Component } from 'react';
