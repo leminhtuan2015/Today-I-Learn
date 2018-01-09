@@ -30,6 +30,8 @@
 * **connect()** function : It returns a component
 * Inject data and callbacks to a component
 
+* **Any component wrapped with connect() call will receive a dispatch function as a prop, and any state it needs from the global state.**
+
 ```js
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux'
