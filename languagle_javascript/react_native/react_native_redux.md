@@ -1,15 +1,20 @@
 ### Redux diagram
+### Redux life cycle
 ### Redux Parts
   * **Redux Provider**
   * **Redux Container (Redux Connect)**
   * **Redux Store (State Manager)**
   * **Redux Reducer**
-### Redux life cycle
+
 
 ----------------------------------------------------------------------
 
 ### Redux diagram
 ![Redux diagram](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/languagle_javascript/react_native/react_native_redux_architecture_1.png)
+
+### Redux life cycle
+
+* **View** --(fire_event)--> **Container** --mapping(action)--> **Store** --dispatch(currentState, action)--> **Reducer** --update(currentState)--> Done
 
 ### Redux Parts
 * Redux Provider (provide Store object to View)
@@ -224,6 +229,3 @@ export default Store;
 * **Reducer** is the same model object, all business logic should be here
 * Reducer to update the state of the app.
 
-### Redux life cycle
-
-* **View** --(fire_event)--> **Container** --mapping(action)--> **Store** --dispatch(currentState, action)--> **Reducer** --update(currentState)--> Done
