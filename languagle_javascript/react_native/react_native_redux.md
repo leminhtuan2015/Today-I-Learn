@@ -56,8 +56,11 @@ export default CounterViewContainer
 * **Store** Contain multiple **Reducer**, each **Reducer** manage one state object
 * Unlike in Flux, Redux only has one store for the whole app
 * Redux **Store** automatically pass the **current state** of the app and the **action** to **Reducer**
-
 * **Store** is the object that contain all state object of each **Reducer**
+
+* State (also called the state tree) is a broad term, but in the Redux API it usually refers to the single state value that is managed by the store and returned by getState(). It represents the entire state of a Redux application, which is often a deeply nested object.
+
+* By convention, the top-level state is an object or some other key-value collection like a Map, but technically it can be any type. Still, you should do your best to keep the state serializable. Don't put anything inside it that you can't easily turn into JSON.
 
 * Example:
 
