@@ -52,7 +52,8 @@ export default CounterViewContainer
 ```
 
 #### Redux Store (Model Layer)
-
+* The **Store** is the object that brings all **Reducers** together.
+* It's important to note that you'll **only have a single store in a Redux application**
 * **Store** Contain multiple **Reducer**, each **Reducer** manage one state object
 * Unlike in Flux, Redux only has one store for the whole app
 * Redux **Store** automatically pass the **current state** of the app and the **action** to **Reducer**
