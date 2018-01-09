@@ -1,6 +1,9 @@
 ### Redux diagram
 ### Redux Parts
   * Redux Provider
+  * Redux Container (Redux Connect)
+  * Redux Store (State Manager)
+  * Redux Reducer
 ### Redux life cycle
 
 ----------------------------------------------------------------------
@@ -51,6 +54,8 @@ const CounterViewContainer = connect(mapStateToProps, mapDispatchToProps)(Counte
 
 export default CounterViewContainer
 ```
+
+#### Redux Connect Explain
 
 ```js
 // connect() is a function that injects Redux-related props into your component.
@@ -114,7 +119,7 @@ const ConnectedCounter = connect(
 )(Counter)
 ```
 
-#### Redux Store (Model Layer)
+#### Redux Store (State Manager)
 * The **Store** is the object that brings all **Reducers** together.
 * It's important to note that you'll **only have a single store in a Redux application**
 * **Store** Contain multiple **Reducer**, each **Reducer** manage one state object
