@@ -1,5 +1,6 @@
 ### Redux diagram
 ### Redux Parts
+  * Redux Provider
 ### Redux life cycle
 
 ----------------------------------------------------------------------
