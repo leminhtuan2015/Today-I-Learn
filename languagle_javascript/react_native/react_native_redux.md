@@ -36,7 +36,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux';
 import CounterView from '../components/views/CounterView.js'; // CounterView is a Component (View)
 
-// 'stateObject' is the state object from <Provider store={Store}>
+// 'stateObject' is the store.getState() object from <Provider store={Store}>
 // Provider is given the store as a prop
 // data = stateObject = store.getState()
 
@@ -44,7 +44,7 @@ const mapStateToProps = (stateObject) => ({
   data: stateObject
 })
 
-// 'dispatch' is the action from <Provider store={Store}>
+// 'dispatch' is the store.dispatch() from <Provider store={Store}>
 // increment = store.dispatch(store.getState(), type)
 
 const mapDispatchToProps = (dispatch) => ({
