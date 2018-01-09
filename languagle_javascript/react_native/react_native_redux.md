@@ -22,7 +22,7 @@
 * **Provider** is a React component given to us by the “react-redux” library. 
 * **Provider** serves just one purpose : to “provide” the store to its child components
 
-#### Redux Container
+#### Redux Container (Redux Connect)
 
 * Connect **Component (View)** <-> **Store** 
 
