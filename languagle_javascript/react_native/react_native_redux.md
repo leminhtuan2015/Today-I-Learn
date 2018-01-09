@@ -63,6 +63,12 @@ export default CounterViewContainer
 
 * By convention, the top-level state is an object or some other key-value collection like a Map, but technically it can be any type. Still, you should do your best to keep the state serializable. Don't put anything inside it that you can't easily turn into JSON.
 
+* Store Methods
+  * getState() // Returns the current state tree of your application
+  * dispatch(action)  // Dispatches an action. This is the only way to trigger a state change 
+  * subscribe(listener)
+  * replaceReducer(nextReducer)
+
 * Example:
 
 ```js
@@ -146,4 +152,4 @@ export default Store;
 
 ### Redux life cycle
 
-* **View** --(fire_event)--> **Container** --dispatch(action)--> **Store** --passing(currentState, action)--> **Reducer** --update(currentState)--> Done
+* **View** --(fire_event)--> **Container** --mapping(action)--> **Store** --dispatch(currentState, action)--> **Reducer** --update(currentState)--> Done
