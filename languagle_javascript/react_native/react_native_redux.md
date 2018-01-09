@@ -24,6 +24,7 @@
 
 #### Redux Container (Redux Connect)
 
+* Container use **connect()** function to map the **stores state** and **dispatch** to the **props of a component** 
 * Connect **Component (View)** <-> **Store** 
 * **connect()** function : It returns a component
 * Inject data and callbacks to a component
