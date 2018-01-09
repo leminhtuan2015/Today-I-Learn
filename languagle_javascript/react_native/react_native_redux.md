@@ -1,9 +1,9 @@
 ### Redux diagram
 ### Redux Parts
-  * Redux Provider
-  * Redux Container (Redux Connect)
-  * Redux Store (State Manager)
-  * Redux Reducer
+  * **Redux Provider**
+  * **Redux Container (Redux Connect)**
+  * **Redux Store (State Manager)**
+  * **Redux Reducer**
 ### Redux life cycle
 
 ----------------------------------------------------------------------
