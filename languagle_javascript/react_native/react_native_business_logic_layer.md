@@ -19,3 +19,5 @@
 
 
 ### Redux-Saga (for business logic layer)
+
+* Sagas introduce a way to use ES6 generators to run additional business logic and async code
