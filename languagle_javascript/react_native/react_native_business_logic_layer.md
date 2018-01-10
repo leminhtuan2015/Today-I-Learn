@@ -5,6 +5,14 @@
 
 ### Where do you put business logic in a React/Redux app?
 
-* Don't put business logic in components. You want to keep it separate from the view logic.
+* **React Native used just only for building UI (view layer)**
+
+* The goal of React Native is the same as React (for web) in that it is a declarative UI library, React is for building compartmentalized user interfaces
+
+* React doesn't really care where the data comes from or how you manage it, that's up to the engineer to decide. Most commonly you'll see people using Redux/Flux to manage application state and to update that state in response to user input
+
+* Don't put business logic in components (View layer). You want to keep it separate from the view logic.
+
 * Actions and Reducers are also the wrong place. Well, some might fit into a reducer. But as soon as you have async stuff (i.e. API calls) then it makes sense to have a separate layer for business logic.
-* When I started out, I tried thunks (via redux-thunk) and thought they were great. But over time it seemed like they weren't good enough. I struggled big time until I found Redux-Saga, which literally revolutionized the way I think about and write Redux code.
+
+* When I started out, I tried thunks (via redux-thunk) and thought they were great. But over time it seemed like they weren't good enough. I struggled big time until I found **Redux-Saga**, which literally revolutionized the way I think about and write Redux code.
