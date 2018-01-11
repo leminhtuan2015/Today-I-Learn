@@ -20,4 +20,6 @@
 
 ### Redux-Saga (for business logic layer)
 
-* Sagas introduce a way to use ES6 generators to run additional business logic and async code
+* **redux-saga** is a **redux middleware**, which means this thread can be started, paused and cancelled from the main application with normal redux actions, 
+* **redux-saga** can access to the full **redux application state** and it can **dispatch redux actions** as well.
+* Sagas introduce a way to use ES6 generators to run additional **business logic and async** code
