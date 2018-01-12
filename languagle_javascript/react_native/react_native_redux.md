@@ -131,6 +131,10 @@ const ConnectedCounter = connect(
 ```
 
 #### Redux Store (State Manager)
+* Store (1)->(n) Reducer (1)->(1) State Object
+* 1 **Store** sẽ chứa (quản lý) tất cả các object state của các **Reducer**, 1 **Reducer** quản lý duy nhất **state object** của chính nó, **Provider** cung cấp **Store** cho view 
+* => Từ View (Component) có thể truy cập vào **Store** (tất cả các state object của các Reducer)
+
 * The **Store** is the object that brings all **Reducers** together.
 * It's important to note that you'll **only have a single store in a Redux application**
 * **Store** Contain multiple **Reducer**, each **Reducer** manage one state object
