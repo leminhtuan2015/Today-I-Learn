@@ -1,5 +1,9 @@
+### Javascript reference type and value type
 
-### Example 1
+* Các kiểu dữ liệu nguyên thuỷ như strings, numbers **always passed by value**
+* 2 kiểu dữ liệu là **Array** hoặc **Object** sẽ được hàm coi là  **reference** hay **value** tuỳ thuộc vào **Cách sử dụng biến đó trong hàm như thế nào** (Ví dụ minh hoạ bên dưới)
+
+#### Example 1
 
 * Primitive type variables like strings and numbers are always passed by value.
 * **Arrays** and **Objects** are passed by **reference** or by **value** based on these conditions:
@@ -36,7 +40,7 @@ console.log(obj) // { name: 'new_name' }
 ```
 
 
-### Example 2
+#### Example 2
 
 ```js
 
