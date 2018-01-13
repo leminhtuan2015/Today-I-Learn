@@ -38,7 +38,34 @@ console.log(obj) // { name: 'new_name' }
 
 ### Example 2
 
+```js
 
+var Person = class {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  showName(){
+      console.log("My name is : " + this.name)
+  }
+};
+
+function changeData(obj){
+  obj.name = "new name"  // CHANGE original
+  obj = {name: "new new name", age: 1}  // NOT CHANGE original
+}
+
+var person = new Person("tuan", 1)
+
+console.log(person.name) // tuan
+
+changeData(person)
+
+console.log(person.name) // new name
+
+
+```
 
 
 
