@@ -3,6 +3,7 @@
 * **Arrays** and **Objects** are passed by **reference** or by **value** based on these conditions:
 
   * if you are setting the value of an object or array it is Pass by Value.
+  
 ```js
 // Pass by Value
 object1 = {prop: "car"};
