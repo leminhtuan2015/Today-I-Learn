@@ -31,12 +31,15 @@ function changeData(obj){
 }
 
 var obj = {name: "my name"}
+var obj2 = obj
 
 console.log(obj) // { name: 'my name' }
+console.log(obj2) // { name: 'my name' 
 
 changeData(obj)
 
 console.log(obj) // { name: 'new_name' }
+console.log(obj2) // { name: 'new name' }
 ```
 
 
