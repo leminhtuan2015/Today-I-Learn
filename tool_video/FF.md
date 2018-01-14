@@ -1,4 +1,18 @@
 ### Rotate
+### Remove Audio From Video
+### Add Audio to Video
+### Watermark
+### Convert Format
+### Sound
+### Trim video
+### Get MP3 from MP4
+### Create Video
+### MP3 + Image = Video
+
+
+------------------------------------------------------------------
+
+### Rotate
 
 ```sh
 ffmpeg -i input.mp4 -vf "transpose=3,transpose=2" output.mp4
@@ -65,3 +79,10 @@ ffmpeg -f lavfi -i color=c=blue:s=1280x720:d=1.5 -vf \
   "drawtext=fontfile=/Users/fuji/Desktop/v/Roboto/Roboto-Black.ttf:fontsize=100: \
   fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2:text='www.brightup.me'" ff_only_make.mp4
 ```
+
+### MP3 + Image = Video
+
+```sh
+ffmpeg -loop 1 -i image.png -i audio.mp3 -c:a copy -c:v libx264 -shortest out.mp4
+```
+
