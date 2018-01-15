@@ -6,7 +6,8 @@
 
 ```sh
   File Missing C:\HBCD\Dos\Ghost.7z
-  This commercial application is not included in the package. Use HBCDCustomizer.exe and add HBCD\Programs\Files\Ghost32.7z
+  This commercial application is not included in the package. 
+  Use HBCDCustomizer.exe and add HBCD\Programs\Files\Ghost32.7z
 ```
 
 * Các bạn mở file: Hiren's.BootCD.15.2.iso
