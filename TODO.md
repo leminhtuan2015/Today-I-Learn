@@ -20,5 +20,5 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
 - https://github.com/heroiclabs/nakama
 
 ### React
-* react-native-ui-kitten
-* Redux
+* JSX
+* ... react
