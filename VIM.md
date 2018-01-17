@@ -2,6 +2,8 @@
 * http://vimdoc.sourceforge.net/htmldoc/change.html#d
 
 ```sh
+gv # hilight previous block
+
 u # undo
 control r # redo
 
