@@ -43,6 +43,6 @@ P # paste after
 /keyword # search
 n # next search
 
-
+v # select multiple line
 
 ```
