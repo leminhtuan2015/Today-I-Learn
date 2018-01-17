@@ -2,6 +2,11 @@
 * http://vimdoc.sourceforge.net/htmldoc/change.html#d
 
 ```sh
+u # undo
+control r # redo
+
+:e ./src/new_file_name.js # create new file
+
 :e# # edit previous file
 :e#2 # edit 2nd previous file
 
