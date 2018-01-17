@@ -1,5 +1,5 @@
-http://vimdoc.sourceforge.net/htmldoc/help.html
-http://vimdoc.sourceforge.net/htmldoc/change.html#d
+* http://vimdoc.sourceforge.net/htmldoc/help.html
+* http://vimdoc.sourceforge.net/htmldoc/change.html#d
 
 ```sh
 :e# // edit previous file
