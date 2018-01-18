@@ -33,6 +33,6 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
 * The update cycle in React Native is the same as in React: when **props or state change**, React Native re-renders the
 views.
                                                                                                                         
-  
+* React Native markup (JSX) is translated to suit the host platform, so a **<View>** might become an iOS-specific **UIView**.
   
 * ... react
