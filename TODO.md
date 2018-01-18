@@ -34,5 +34,12 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
 views.
                                                                                                                         
 * React Native markup (JSX) is translated to suit the host platform, so a **<View>** might become an iOS-specific **UIView**.
-  
+ 
+* JSX combining markup and the JavaScript that controls it into a single file.
+
+
+
+
+
+
 * ... react
