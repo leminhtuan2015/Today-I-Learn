@@ -21,4 +21,12 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
 
 ### React
 * JSX
+  * JSX = JS + XML, 
+  
+  * React view layer = XML
+  * Web view layer = HTML
+  * Android view layer = XML
+  * IOS view layer = XML
+  
+  
 * ... react
