@@ -28,7 +28,11 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
   * Android view layer = XML
   * IOS view layer = XML
   
+* React Native is “just” JavaScript + XML
 * React Native actually translates your markup (JSX) to real, native UI element
+* The update cycle in React Native is the same as in React: when **props or state change**, React Native re-renders the
+views.
+                                                                                                                        
   
   
 * ... react
