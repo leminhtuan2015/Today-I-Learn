@@ -148,8 +148,8 @@ const ConnectedCounter = connect(
 
 * Store Methods
   * getState() // Returns the current state tree of your application
-  * dispatch(action)  // Dispatches an action. This is the only way to trigger a state change 
-  * subscribe(listener)
+  * dispatch(action)  // Dispatches an action. This is the only way to trigger a state change
+  * subscribe(listener)
   * replaceReducer(nextReducer)
 
 * Example:
