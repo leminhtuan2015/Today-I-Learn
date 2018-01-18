@@ -4,6 +4,10 @@
 ```sh
 gv # hilight previous block
 
+dw # cut word (d = cut, w = word)
+yw # copy word (y = copy, w = word)
+viw, vaw # select word
+
 u # undo
 control r # redo
 
