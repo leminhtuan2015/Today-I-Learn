@@ -19,8 +19,9 @@
 * When I started out, I tried thunks (via redux-thunk) and thought they were great. But over time it seemed like they weren't good enough. I struggled big time until I found **Redux-Saga**, which literally revolutionized the way I think about and write Redux code.
 
 
-### Redux-Saga (for business logic layer)
+### Redux-Saga (for business logic +  asynchronous actions)
 
-* **redux-saga** is a **redux middleware**, which means this thread can be started, paused and cancelled from the main application with normal redux actions, 
+* **redux-saga** is a **redux middleware**
 * **redux-saga** can access to the full **redux application state** and it can **dispatch redux actions** as well.
-* Sagas introduce a way to use ES6 generators to run additional **business logic and async** code
+* Redux-Saga introduce a way to use ES6 generators to run additional **business logic and async** code
+* Redux-Saga is place to put **business logic and async actions**
