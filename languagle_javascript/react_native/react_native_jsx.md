@@ -1,6 +1,6 @@
 ### JSX
 
-* JSX = JS + XML, 
+* JSX = JS + XML (Use can see **Javascript code + XML code** in a one file)
 
 * With other Mobile Platform
   * Web view layer = HTML
