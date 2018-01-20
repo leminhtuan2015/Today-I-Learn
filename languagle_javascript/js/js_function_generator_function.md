@@ -16,4 +16,4 @@ function* genFunc() {
 
 ### Generator function
 
-* **"function*"** is a new "keyword" for generator functions
+* function* is a new "keyword" for generator functions
