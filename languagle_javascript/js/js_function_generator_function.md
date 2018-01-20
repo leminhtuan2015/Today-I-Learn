@@ -25,13 +25,16 @@ function* generatorFunction(i) {
   yield i + 10;
 }
 
-var gen = generatorFunction(10);  // That will NOT execute the function, returned an iterator object
+var gen = generatorFunction(10); // That will NOT execute the function, returned an iterator object
 
 console.log(gen.next().value);   // execute the function's body until the first yield expression
 // expected output: 10
 
-console.log(gen.next().value); // execute the function's body until the next yield expression
+console.log(gen.next().value);   // execute the function's body until the next yield expression
 // expected output: 20
+
+console.log(gen.next().value);   // executed all and return undefined
+// undefined 
 ```
 
 * Calling a generator function **does not execute its body immediately**; an iterator object for the function is returned instead. 
