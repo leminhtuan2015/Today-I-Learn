@@ -5,6 +5,7 @@
 * **React Native = JavaScript + XML**
 
 ```js
+// Function in Javascript can treat XML as a variable, return a XML
 setupView = (image) => {
   return (
     <View id="status">
