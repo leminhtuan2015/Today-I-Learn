@@ -4,7 +4,7 @@
 --------------------------------------------------------
 
 ### Where do you put business logic in a React/Redux app?
-* **Do NOT put your logic conde on component or on reducer, You should put your logic code on models or saga**
+* **Do NOT put your logic cond on component(view layer) or on reducer, You should put your logic code on models or saga**
 
 * **React Native used just only for building UI (view layer)**
 
