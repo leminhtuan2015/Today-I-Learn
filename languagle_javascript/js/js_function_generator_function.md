@@ -17,3 +17,4 @@ function* genFunc() {
 ### Generator function
 
 * function* is a new "keyword" for generator functions
+* Generator function returns a **Generator** object
