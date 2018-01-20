@@ -1,4 +1,4 @@
-### Where do you put business logic in a React/Redux app?
+### Where do you put business logic + asynchronous actions in a React/Redux app?
 ### Redux-Saga (for business logic +  asynchronous actions)
 
 --------------------------------------------------------
@@ -7,6 +7,8 @@
 * **Do NOT put your logic cond on component(view layer) or on reducer, You should put your logic code on models or saga**
 
 * **React Native used just only for building UI (view layer)**
+
+* Redux is only a state container that supports **synchronous data flows, synchronous actions** => Redux Cannot handle asynchronous actions
 
 * The goal of React Native is the same as React (for web) in that it is a declarative UI library, React is for building compartmentalized user interfaces
 
