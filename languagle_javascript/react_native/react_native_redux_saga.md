@@ -4,6 +4,7 @@
 --------------------------------------------------------
 
 ### Where do you put business logic in a React/Redux app?
+* **Do NOT put your logic conde on component or on reducer, You should put your logic code on models or saga**
 
 * **React Native used just only for building UI (view layer)**
 
@@ -17,7 +18,6 @@
 
 * When I started out, I tried thunks (via redux-thunk) and thought they were great. But over time it seemed like they weren't good enough. I struggled big time until I found **Redux-Saga**, which literally revolutionized the way I think about and write Redux code.
 
-* **=> Do NOT put your logic conde on component or on reducer, You should put your logic code on models or saga**
 
 ### Redux-Saga (for business logic layer)
 
