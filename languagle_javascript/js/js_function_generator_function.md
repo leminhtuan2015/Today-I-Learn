@@ -4,7 +4,13 @@
 -----------------------------
 
 ### Generators
+* Hàm loại này có thể chạy tưng phần được, Không nhất thiết sẽ chạy toàn bộ hàm như các hàm thông thường.
+
 * You can think of generators as processes (pieces of code) that you can pause and resume:
+
+* With a nomal function when we invoke a nomal function, all boby of that called function will be execute. But with  Generators function, it work with the deffrent way
+
+* When ivoke a generator function it is NOT executed, it will return an iterator object, we can use iterator object to execute the path of boby 's function.
 
 ```js
 function* genFunc() {
@@ -17,7 +23,7 @@ function* genFunc() {
 ### Generator function
 
 * function* is a new "keyword" for generator functions
-* Generator function returns a **Generator** object
+* Generator function returns a **iterator** object
 
 ```js
 function* generatorFunction(i) {
