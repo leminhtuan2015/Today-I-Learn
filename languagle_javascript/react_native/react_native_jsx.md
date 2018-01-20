@@ -1,6 +1,8 @@
 ### JSX
 
 * JSX = JS + XML (Use can see **Javascript code + XML code** in a one file)
+* React Native is "just" JavaScript + XML 
+* **React Native = JavaScript + XML**
 
 * With other Mobile Platform
   * Web view layer = HTML
@@ -8,8 +10,6 @@
   * IOS view layer = XML
   
 * And also : **React view layer = XML**
-  
-* React Native is "just" JavaScript + XML
 
 * React Native actually **translates your markup (JSX) to real, native UI element**
   * **<View>** might become an iOS-specific **UIView**
