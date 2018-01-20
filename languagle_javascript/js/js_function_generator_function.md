@@ -44,3 +44,17 @@ console.log(gen.next().value);   // executed all and return undefined
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
