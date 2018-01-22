@@ -4,6 +4,7 @@
 ---------------------------------------------------------------------------
 
 ### Modules
+* http://exploringjs.com/es6/ch_modules.html#sec_modules-in-javascript
 
 * Example:
 
