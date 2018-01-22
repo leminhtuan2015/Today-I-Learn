@@ -42,10 +42,9 @@ console.log(diag(4, 3)); // 5
 ### Modules import/export
 
 * Use import/export to deal with module
-  
-  
-  
-  
+
+* When we **import** module in JS compiler will runs the code inside the imported file.
+
   
   
   
