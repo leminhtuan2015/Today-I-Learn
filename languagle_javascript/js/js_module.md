@@ -1,5 +1,5 @@
 ### Modules
-
+### Modules import/export
 
 ---------------------------------------------------------------------------
 
@@ -37,3 +37,16 @@ console.log(diag(4, 3)); // 5
 * Module helps: 
   * Code Organization: let us divide up functionality of our application, provide encapsulation
   * Code reusability
+  
+  
+### Modules import/export
+
+* Use import/export to deal with module
+  
+  
+  
+  
+  
+  
+  
+  
