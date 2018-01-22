@@ -22,7 +22,17 @@ import { square, diag } from 'lib';
 console.log(square(11)); // 121
 console.log(diag(4, 3)); // 5
 ```
-
+#### What is module?
 * Each module is a piece of code that is executed once it is loaded
 * Module contain declarations (variable declarations, function declarations, etc.).
 * **Modules are singletons**. Even if a module is imported multiple times, only a single “instance” of it exists
+
+#### Use case
+* Modules help developer’s **separate functionality** and **organize the codebase**
+* **One of the largest reasons for modules is** :  JavaScript’s global namespace which can become easily polluted
+* **Functions are the only thing in JavaScript that create a new scope**; thus anything **NOT declared within a function** is apart of the global namespace
+* Everything we declare in JavaScript **NOT within a function** all is at global scope.
+
+* Module helps: 
+  * Code Organization: let us divide up functionality of our application, provide encapsulation
+  * Code reusability
