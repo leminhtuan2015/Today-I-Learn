@@ -1,7 +1,8 @@
-### MacOS shared folder with VirtualBox Ubuntu
-
+### MacOS (Host) shared folder with VirtualBox Ubuntu
+### MacOS (Host) shared folder with VirtualBox Windown
 -------------------------
-### MacOS shared folder with VirtualBox Ubuntu
+### MacOS (Host) shared folder with VirtualBox Ubuntu
+
 
 * Step 1: Create Shared Folder on **Mac**
   * **On Mac** -> In Menu bar of VirtualBox -> Devices -> Shared Folders -> Shared Folders Setting
@@ -22,3 +23,11 @@
       
       # Shared is the shared folder name at step 1
   ```
+
+
+### MacOS (Host) shared folder with VirtualBox Windown
+
+* VirtualBox Manager: Open the Shared Folders setting and click the '+' icon to add a new folder. Then, populate the Folder Path (or use the drop-down to navigate) with the folder you want shared and make sure "Auto-Mount" and "Make Permanent" are checked.
+* Once Windows is running, goto the Devices menu (at the top of the VirtualBox Manager window) and select "Insert Guest Additions CD Image...". Cycle through the prompts and once you finish installing, let it reboot.
+
+* After Windows reboots, your new drive should show up as a Network Drive in Windows Explorer.
