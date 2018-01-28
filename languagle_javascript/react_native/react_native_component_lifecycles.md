@@ -5,7 +5,8 @@
 
 ### Functions
   * Function **constructor()**
-  * FUnction **componentWillReceiveProps()**
+  * Function **componentWillReceiveProps()**
+  * Function **setState()**
 -----------------------------------
 
 ### Component Lifecycles
