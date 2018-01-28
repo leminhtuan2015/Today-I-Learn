@@ -1,6 +1,8 @@
 ### React Native : props vs state (Of Components)
+### State
 ### State Updates are Merged
   * When you call setState(), React **merges** the object you provide into the current state
+### Props
 ----------------------------------------------------------------------
 
 ### React Native : props vs state (Of Components)
@@ -19,7 +21,7 @@
 * **href** : Is the **props** of component **a**
 * **LINK** : Is the **state** of component **a**
 
-#### State (Of Components)
+### State (Of Components)
 
 * **state** : is the attribute in each **Components**
 * Initial **state** is defined inside the Components class by using the state = {} syntax
@@ -60,7 +62,7 @@ export default Home;
 * When you call **setState()**, React merges the object you provide into the current state.
 * **this.setState=({newState})** => method **setState** is JUST **Merge** newState to current state
 
-#### Props (Of Components)
+### Props (Of Components)
 * Props are Read-Only
 * Example : one basic React Native component is the Image. When you create an image, you can use a prop named source to control what image it shows.
 * Props are accessed by  {this.props}
