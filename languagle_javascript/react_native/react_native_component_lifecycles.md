@@ -1,5 +1,5 @@
 ### Component Lifecycles
-### Component APIs
+### Component APIs (functions of each component)
 ### Component Class Properties
 ### Component Instance Properties
 
