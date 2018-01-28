@@ -6,6 +6,8 @@
   * Function **constructor()**
   * Function **componentWillReceiveProps()**
   * Function **setState()**
+
+### Redux: this.props.dispatch({}) + Component API: componentWillReceiveProps()
   
 ### https://reactjs.org/docs/react-component.html
 -----------------------------------
@@ -82,7 +84,10 @@ constructor(props) {
 * call setState() will re-rendered with the updated state
   
   
-  
+### Redux: this.props.dispatch({}) + Component API: componentWillReceiveProps()
+
+* With Redux: at Container we mapping **store** to **props**
+* If this.props.dispatch({}) => make store change => make props change => componentWillReceiveProps() will be called.
   
   
   
