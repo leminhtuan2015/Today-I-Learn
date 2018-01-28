@@ -4,8 +4,8 @@
 ### Component Instance Properties
 
 ### Functions
-#### Function constructor()
-#### FUnction componentWillReceiveProps()
+  * Function constructor()
+  * FUnction componentWillReceiveProps()
 -----------------------------------
 
 ### Component Lifecycles
