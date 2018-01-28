@@ -1,4 +1,8 @@
-#### React Native : props vs state (Of Components)
+### React Native : props vs state (Of Components)
+
+----------------------------------------------------------------------
+
+### React Native : props vs state (Of Components)
 * **Components**, **props**, and **state** are key concepts of the **React Native framework**
 * props (short for properties) immutated : **is the immutated attribute of component**
 * state (state) mutated : **is the mutated attribute of component**
@@ -14,12 +18,14 @@
 * **href** : Is the **props** of component **a**
 * **LINK** : Is the **state** of component **a**
 
-##### State (Of Components)
+#### State (Of Components)
 
 * **state** : is the attribute in each **Components**
 * Initial **state** is defined inside the Components class by using the state = {} syntax
 * Each time when **setState** is called, the **render()** function in a Component will be called simultaneously
 * Each react component has its own state. State is a collection of values that need to be maintained by component itself
+
+* **this.setState=({newState})** => method **setState** is JUST **Merge** newState to current state
 
 ```js
  state = {}
@@ -51,7 +57,7 @@ export default Home;
 ```
 
 
-##### Props (Of Components)
+#### Props (Of Components)
 * Props are Read-Only
 * Example : one basic React Native component is the Image. When you create an image, you can use a prop named source to control what image it shows.
 * Props are accessed by  {this.props}
