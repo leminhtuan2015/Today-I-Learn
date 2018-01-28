@@ -1,5 +1,5 @@
 ### React Native : props vs state (Of Components)
-  * Impotant (this.setState)
+  * Impotant (this.setState) : this.setState=({newState}) => method setState is JUST Merge newState to current state
 ----------------------------------------------------------------------
 
 ### React Native : props vs state (Of Components)
