@@ -71,8 +71,10 @@ constructor(props) {
 * Calling **this.setState()** generally **doesn’t trigger componentWillReceiveProps()**
   
   
-  
-  
+#### Function setState()
+
+* call setState() will changes (**Merge**) to the component state 
+* call setState() will re-rendered with the updated state
   
   
   
