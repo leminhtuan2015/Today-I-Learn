@@ -10,7 +10,7 @@
 * **Updating**: These methods are called when a component is being re-rendered (update can be caused by changes to props or state)
 * **Unmounting**: This method is called when a component is being removed
 
-### Component APIs
+### Component APIs (functions of each component)
 * **Mounting**: these methods are called when an instance of a component is being created
   * constructor()
   * componentWillMount()
