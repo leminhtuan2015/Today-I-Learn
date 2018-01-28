@@ -3,6 +3,9 @@
 ### Component Class Properties
 ### Component Instance Properties
 
+### Functions
+#### Function constructor()
+#### FUnction componentWillReceiveProps()
 -----------------------------------
 
 ### Component Lifecycles
@@ -11,8 +14,11 @@
 * **Unmounting**: This method is called when a component is being removed
 
 ### Component APIs (functions of each component)
-* **Mounting**: these methods are called when an instance of a component is being created
+
+* **Create instant of component**
   * constructor()
+  
+* **Mounting**: these methods are called when an instance of a component is being created
   * componentWillMount()
   * render()
   * componentDidMount()
@@ -40,12 +46,28 @@
   * state
   
   
+### Function constructor()
+
+```js
+constructor(props) {
+  super(props); // You should call super(props) before any other statement
+  this.state = {  // The constructor is the right place to initialize state
+    color: props.initialColor
+  };
   
+  //Here to bind event handlers to the class instance
+}
+```
+
+* **Don’t try to call setState() from the constructor**
+* The constructor for a React component is called before it is mounted
+* You should call super(props) before any other statement **Otherwise** this.props will be **undefined** in the constructor, which can lead to bugs
+* The constructor is the right place to initialize state
   
-  
-  
-  
-  
+### FUnction componentWillReceiveProps()
+
+* componentWillReceiveProps() is invoked before a mounted component receives new props
+* Calling **this.setState()** generally **doesn’t trigger componentWillReceiveProps()**
   
   
   
