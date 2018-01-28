@@ -21,14 +21,14 @@
   * componentWillReceiveProps()
   * shouldComponentUpdate()
   * componentWillUpdate()
-  * render()
+  * render() : **render() will not be invoked if shouldComponentUpdate() returns false.**
   * componentDidUpdate()
   
 * **Unmounting**: This method is called when a component is being removed
   * componentWillUnmount()
   
 * **Change State**
-  * setState()
+  * setState() : **setState() will always lead to a re-render unless shouldComponentUpdate() returns false**
   * forceUpdate()
   
 ### Component Class Properties
