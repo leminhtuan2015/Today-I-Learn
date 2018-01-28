@@ -70,6 +70,7 @@ constructor(props) {
   
 #### Function componentWillReceiveProps()
 
+* componentWillReceiveProps is only called when the props have changed
 * componentWillReceiveProps() is invoked before a mounted component receives new props
 * Calling **this.setState()** generally **doesn’t trigger componentWillReceiveProps()**
   
