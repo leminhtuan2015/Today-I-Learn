@@ -4,6 +4,7 @@
 
 ### UUID
 * **UUID** is a 128-bit number used to **identify** information in computer systems
+* UUID hay GUID bản chất là một, đảm bảo giá trị là duy nhất trên toàn bộ thế giới (mà cũng có thể trên vũ trụ). Nhược điểm của UUID là nó phải rất dài, rất hỗn độn - ngẫu nhiên và phụ thuộc thời gian sinh
 
 * **UUID** = universally unique identifier
 * **GUID** = globally unique identifier
