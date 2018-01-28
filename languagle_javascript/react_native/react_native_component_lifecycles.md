@@ -4,8 +4,8 @@
 ### Component Instance Properties
 
 ### Functions
-  * Function constructor()
-  * FUnction componentWillReceiveProps()
+  * Function **constructor()**
+  * FUnction **componentWillReceiveProps()**
 -----------------------------------
 
 ### Component Lifecycles
@@ -45,8 +45,9 @@
   * props
   * state
   
-  
-### Function constructor()
+ 
+### Functions
+#### Function constructor()
 
 ```js
 constructor(props) {
@@ -64,7 +65,7 @@ constructor(props) {
 * You should call super(props) before any other statement **Otherwise** this.props will be **undefined** in the constructor, which can lead to bugs
 * The constructor is the right place to initialize state
   
-### FUnction componentWillReceiveProps()
+#### Function componentWillReceiveProps()
 
 * componentWillReceiveProps() is invoked before a mounted component receives new props
 * Calling **this.setState()** generally **doesn’t trigger componentWillReceiveProps()**
