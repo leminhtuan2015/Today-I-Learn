@@ -2,12 +2,14 @@
 ### Component APIs (functions of each component)
 ### Component Class Properties
 ### Component Instance Properties
-
 ### Functions
   * Function **constructor()**
   * Function **componentWillReceiveProps()**
   * Function **setState()**
+  
+### https://reactjs.org/docs/react-component.html
 -----------------------------------
+
 
 ### Component Lifecycles
 * **Mounting**: these methods are called when an instance of a component is being created
