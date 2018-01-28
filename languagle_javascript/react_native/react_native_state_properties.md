@@ -1,6 +1,6 @@
 ### React Native : props vs state (Of Components)
-  * Impotant (this.setState)
-    * **this.setState=({newState})** : method **setState** is JUST **Merge** newState to current state
+### State Updates are Merged
+  * When you call setState(), React **merges** the object you provide into the current state
 ----------------------------------------------------------------------
 
 ### React Native : props vs state (Of Components)
@@ -25,10 +25,6 @@
 * Initial **state** is defined inside the Components class by using the state = {} syntax
 * Each time when **setState** is called, the **render()** function in a Component will be called simultaneously
 * Each react component has its own state. State is a collection of values that need to be maintained by component itself
-
-##### Impotant (this.setState)
-
-* **this.setState=({newState})** => method **setState** is JUST **Merge** newState to current state
 
 ```js
  state = {}
@@ -58,7 +54,11 @@ class Home extends Component {
 
 export default Home;
 ```
+### State Updates are Merged
+##### Impotant (this.setState)
 
+* When you call **setState()**, React merges the object you provide into the current state.
+* **this.setState=({newState})** => method **setState** is JUST **Merge** newState to current state
 
 #### Props (Of Components)
 * Props are Read-Only
