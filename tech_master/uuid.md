@@ -7,4 +7,8 @@
 
 * **UUID** = universally unique identifier
 * **GUID** = globally unique identifier
-* **CUID** = Collision-resistant identifier
+* **CUID** = Collision-resistant identifier (CUID được thiết kế để giảm xác suất trùng lặp (collision resistant))
+
+
+* http://usecuid.org
+* hhttps://github.com/ericelliott/cuid
