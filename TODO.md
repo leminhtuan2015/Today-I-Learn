@@ -27,7 +27,7 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
   * https://wix.github.io/react-native-navigation/#/installation-android
   
 * IOS import other .xcproject
-* IOS import .framework
+* IOS import .framework (http://docs.onemobilesdk.aol.com/ios-ad-sdk/adding-frameworks-xcode.html)
 
 * Android import other project
 * Android import .aar
