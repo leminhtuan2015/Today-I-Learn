@@ -25,3 +25,9 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
   * https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content
   * https://wix.github.io/react-native-navigation/#/installation-ios
   * https://wix.github.io/react-native-navigation/#/installation-android
+  
+* IOS import other .xcproject
+* IOS import .framework
+
+* Android import other project
+* Android import .aar
