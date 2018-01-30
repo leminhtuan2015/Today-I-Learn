@@ -27,7 +27,9 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
   * https://wix.github.io/react-native-navigation/#/installation-android
   
 * IOS import other .xcproject
-* IOS import .framework (http://docs.onemobilesdk.aol.com/ios-ad-sdk/adding-frameworks-xcode.html)
+* IOS import .framework 
+  * (http://docs.onemobilesdk.aol.com/ios-ad-sdk/adding-frameworks-xcode.html)
+  * https://stackoverflow.com/questions/3352664/how-to-add-existing-frameworks-in-xcode-4
 * IOS: Tại sao kéo thả .framework vào project chọn (copy item if need) thì okie, tự động đc add vào build phase, nhưng trong general chon embed thì khong đc???
 
 * Android import other project
