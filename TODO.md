@@ -28,6 +28,7 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
   
 * IOS import other .xcproject
 * IOS import .framework (http://docs.onemobilesdk.aol.com/ios-ad-sdk/adding-frameworks-xcode.html)
+* IOS: Tại sao kéo thả .framework vào project chọn (copy item if need) thì okie, tự động đc add vào build phase, nhưng trong general chon embed thì khong đc???
 
 * Android import other project
 * Android import .aar
