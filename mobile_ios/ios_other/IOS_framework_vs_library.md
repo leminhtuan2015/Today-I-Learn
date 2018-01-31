@@ -7,8 +7,13 @@
 
 ### IOS Static Library (.a) vs Framework (.framework)
 * **.a** and **.framework** is the 2 type of libraries in IOS
-* Static Library **(.a)** : IOS **static libraries** are not allowed to contain images/assets (only code)
-* Framework **(.framework)** :  IOS **Framework** contain code and resources(images/assets)
+
+* Static Library **(.a)** : 
+  * IOS **static libraries** are not allowed to contain images/assets (only code)
+  * Rather than a .app or a .ipa file, a static library has the .a extension. 
+  
+* Framework **(.framework)** :  
+  * IOS **Framework** contain code and resources(images/assets)
 
 ### Add Framework (.framework) to project
 
