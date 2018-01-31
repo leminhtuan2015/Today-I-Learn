@@ -1,6 +1,6 @@
 
 ### Android Library aar, jar
-### Using Android Library
+### Using Android Library In Android Application
 --------------------------
 
 ### Android Library aar, jar
@@ -12,20 +12,33 @@
 * **aar** can contain other **aar** files and other **jar** file
 * Android Application can contain both **AAR** and **JAR**
 
-### Using Android Library
+### Using Android Library In Android Application
 
-#### Using Android Library On Local
+
+#### Method 1: Include Android Module (AAR) as a Subproject
+
+* **Gradle Project Level** : project/settings.gradle
+
+```
+include ':app'
+include ':FujiSDK'
+
+project(':FujiSDK').projectDir = new File(settingsDir, '../FujiSDK')
+```
+
+* **Gradle Module Level:** project/app/build.gradle
 
 ```
 dependencies {
     compile project(':FujiSDK') // project
-    compile files('libs/gcm.jar') // files
-    compile files('libs/YouTubeAndroidPlayerApi.jar') // files
-    compile(name: 'payment-0.6.0', ext: 'aar') {transitive = true} // Maven
 }
 ```
 
-#### Using Android Library On Remote (Maven)
+#### Method 2: Include .aar file
+
+
+
+#### Method 3: Fetch from Remote (Maven)
 
 ```
 compile 'com.inthecheesefactory.thecheeselibrary:fb-like:0.9.3'
