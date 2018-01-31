@@ -18,6 +18,7 @@
 #### Method 1: Include Android Module (AAR) as a Subproject
 
 * **Gradle Project Level** : project/settings.gradle
+* Include all modules to project
 
 ```
 include ':app'
@@ -27,6 +28,7 @@ project(':FujiSDK').projectDir = new File(settingsDir, '../FujiSDK')
 ```
 
 * **Gradle Module Level:** project/app/build.gradle
+* Include other modules to app module
 
 ```
 dependencies {
