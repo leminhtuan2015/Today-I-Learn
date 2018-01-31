@@ -7,8 +7,8 @@
 ### Add .framework to project
 
 #### **There are 2 type of adding .framework to project**
-  * Type 1: Linked Frameworks and Libraries **(Use when that is system libraries, system framework)**
-  * Type 2: Embedded Binaries **(Use when that is 3rd party libraries, 3rd party framework)**
+  * Type 1: **Linked Frameworks and Libraries** (Use when that is system libraries, system framework)
+  * Type 2: **Embedded Binaries** (Use when that is 3rd party libraries, 3rd party framework)
 
 #### **Type 1 (First Way): Linked Frameworks and Libraries**
 
