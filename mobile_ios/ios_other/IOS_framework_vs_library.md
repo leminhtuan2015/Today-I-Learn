@@ -83,6 +83,8 @@
   * 2. Select tab "Build Settings"
   * 3. Select "Objective-C Bridging Header" => Add "ProjectName/ProjectName-Bridging-Header.h"
 
+10. Now in Application Project you can use code in Static Library
+
 
 #### Method 2: Reference the headers and the library binary file (.a) directly.
 
