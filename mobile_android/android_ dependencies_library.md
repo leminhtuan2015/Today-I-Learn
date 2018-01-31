@@ -24,7 +24,7 @@ dependencies {
 }
 ```
 
-#### Method 1: Include Android Module (AAR) as a Sub-Module of app module
+#### Method 1: Include Android Module (AAR) as a Sub-Module of `app module`
 
 1. Include all modules to project
   * **Gradle Project Level** : project/settings.gradle
@@ -36,7 +36,7 @@ include ':FujiSDK' // FujiSDK is other module of project
 project(':FujiSDK').projectDir = new File(settingsDir, '../FujiSDK')
 ```
 
-2. Include other modules to **app module**
+2. Include other modules to **`app module`**
   * **Gradle Module Level:** project/app/build.gradle
 
 ```gradle
@@ -45,7 +45,7 @@ dependencies {
 }
 ```
 
-#### Method 2: Include .aar file into ***app module***
+#### Method 2: Include .aar file into `**app module**`
 
 1. copy **.aar** files to **project/app/libs**
 2. **Gradle Module Level:** project/app/build.gradle
