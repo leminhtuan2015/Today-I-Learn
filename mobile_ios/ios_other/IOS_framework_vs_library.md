@@ -59,11 +59,11 @@
 
 ### Using a Static Library (.a) in Your App
 
+#### Method 2: Include the library project as a Subproject.
+
 #### Method 1: Reference the headers and the library binary file (.a) directly.
 
 
-
-#### Method 2: Include the library project as a Subproject.
 
 
 
