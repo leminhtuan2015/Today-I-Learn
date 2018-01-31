@@ -9,6 +9,13 @@
 #### **There are 2 type of adding .framework to project**
   * Type 1: **Linked Frameworks and Libraries** (Use when that is system libraries, system framework)
   * Type 2: **Embedded Binaries** (Use when that is 3rd party libraries, 3rd party framework)
+  
+  
+#### Embedded Binaries ---VS--- Linked Frameworks and Libraries
+  * In iOS8 all 3rd party frameworks need to be "embedded".
+  * **Embedding Binaries** copies the entire framework to the target => make your app zise grows
+  * If you embed the binary it will be included into your product. 
+  * If you only **link a library or framework** without embedding it, it will not be part of your product.
 
 #### **Type 1 (First Way): Linked Frameworks and Libraries**
 
