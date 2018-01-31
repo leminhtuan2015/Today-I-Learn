@@ -91,7 +91,7 @@
 
 #### Method 2: Reference the headers and the library binary file (.a) directly.
 
-
+* https://www.raywenderlich.com/41377/creating-a-static-library-in-ios-tutorial
 
 
 
