@@ -29,7 +29,7 @@ Android Support Library just is a .jar or .aar file
 ### Adding Support Libraries
 * `project/build.gradle`
 
-```
+```gradle
 allprojects {
     repositories {
         jcenter()
@@ -42,7 +42,7 @@ allprojects {
 
 * `module/build.gradle`
 
-```
+```gradle
 dependencies {
     ...
     compile "com.android.support:support-core-utils:25.3.1"
