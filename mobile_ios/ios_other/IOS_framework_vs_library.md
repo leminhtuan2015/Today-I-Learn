@@ -1,7 +1,7 @@
 
 ### IOS Static Library (.a) vs Framework (.framework)
-### Add Static Library (.a) to project
 ### Add Framework (.framework) to project
+### Add Static Library (.a) to project
 
 --------------------------------------------------------------------------
 
@@ -50,3 +50,13 @@
 4. Open "Embedded Binaries" expander
 5. Click the + button.
 6. Select your framework.
+
+### Add Static Library (.a) to project
+
+
+
+
+
+
+
+
