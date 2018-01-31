@@ -39,7 +39,7 @@ dependencies {
 #### Method 2: Include .aar file into ***app module***
 
 1. copy **.aar** files to **project/app/libs**
-2. * **Gradle Module Level:** project/app/build.gradle
+2. **Gradle Module Level:** project/app/build.gradle
 
 ```
 compile files('libs/testaar_1-debug.aar')
