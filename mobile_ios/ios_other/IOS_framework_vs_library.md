@@ -29,7 +29,7 @@
   * If you embed the binary it will be included into your product. 
   * If you only **link a library or framework** without embedding it, it will not be part of your product.
 
-#### **Type 1 (First Way): Linked Frameworks and Libraries**
+#### **Type 1 (Method 1): Linked Frameworks and Libraries**
 
 1. In the project navigator, select your project.
 2. Select your target.
@@ -39,7 +39,7 @@
 6. Select your framework.
 7. Example : https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_ios/ios_images/adding-frameworks.png
 
-#### **Type 1 (Second Way): Linked Frameworks and Libraries**
+#### **Type 1 (Method 2): Linked Frameworks and Libraries**
 
 1. In the project navigator, select your project.
 2. Select your target.
