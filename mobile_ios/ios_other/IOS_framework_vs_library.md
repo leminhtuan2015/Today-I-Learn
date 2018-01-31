@@ -59,9 +59,19 @@
 
 ### Using a Static Library (.a) in Your App
 
-#### Method 2: Include the library project as a Subproject.
+#### Method 1: Include the static library project as a Subproject.
 
-#### Method 1: Reference the headers and the library binary file (.a) directly.
+1. Make sure the **Subproject** (the Static Library project will be added to other application project) is **closed**
+2. Right-click on the application project => "Add file to " => Add .xcproject file of Static Library project
+3. Select your target.
+4. Select the "General" tab.
+5. Open "Linked Frameworks and Libraries" expander
+6. Click the + button.
+7. Select your static library (.a file)
+
+
+
+#### Method 2: Reference the headers and the library binary file (.a) directly.
 
 
 
