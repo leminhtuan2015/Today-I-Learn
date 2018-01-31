@@ -6,7 +6,7 @@
 
 ### Add .framework to project
 
-* There are 2 type of adding .framework to project
+* **There are 2 type of adding .framework to project**
   * Type 1: Linked Frameworks and Libraries
   * Type 2: Embedded Binaries
 
