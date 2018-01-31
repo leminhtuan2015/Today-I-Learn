@@ -79,9 +79,9 @@
 
 9. Config Bridging-Header in Application Project
 
-  1. Select Application Project 
-  2. Select tab "Build Settings"
-  3. Select "Objective-C Bridging Header" => Add "ProjectName/ProjectName-Bridging-Header.h"
+  * 1. Select Application Project 
+  * 2. Select tab "Build Settings"
+  * 3. Select "Objective-C Bridging Header" => Add "ProjectName/ProjectName-Bridging-Header.h"
 
 
 #### Method 2: Reference the headers and the library binary file (.a) directly.
