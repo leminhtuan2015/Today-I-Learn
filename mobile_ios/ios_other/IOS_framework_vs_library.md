@@ -1,7 +1,7 @@
 
 ### IOS Static Library (.a) vs Framework (.framework)
-### Add Framework (.framework) to project
-### Add Static Library (.a) to project
+### Using a Framework (.framework) in Your App
+### Using a Static Library (.a) in Your App
 
 --------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@
   * IOS **Framework** contain code and resources(images/assets)
   * Rather than a .app or a .ipa file, a Framework has the .framework extension. 
 
-### Add Framework (.framework) to project
+### Using a Framework (.framework) in Your App
 
 #### **There are 2 type of adding .framework to project**
   * Type 1: **Linked Frameworks and Libraries** (Use when that is system libraries, system framework)
@@ -57,7 +57,7 @@
 5. Click the + button.
 6. Select your framework.
 
-### Add Static Library (.a) to project
+### Using a Static Library (.a) in Your App
 
 
 
