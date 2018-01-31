@@ -21,8 +21,8 @@
   * **Gradle Project Level** : project/settings.gradle
 
 ```
-include ':app'
-include ':FujiSDK'
+include ':app'  // app is the module of project
+include ':FujiSDK' // FujiSDK is other module of project
 
 project(':FujiSDK').projectDir = new File(settingsDir, '../FujiSDK')
 ```
@@ -32,7 +32,7 @@ project(':FujiSDK').projectDir = new File(settingsDir, '../FujiSDK')
 
 ```
 dependencies {
-    compile project(':FujiSDK') // project
+    compile project(':FujiSDK') // Include other module as sub-project
 }
 ```
 
