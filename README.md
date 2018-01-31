@@ -26,5 +26,7 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
   * https://wix.github.io/react-native-navigation/#/installation-ios
   * https://wix.github.io/react-native-navigation/#/installation-android
 
+* IOS use .a https://www.raywenderlich.com/41377/creating-a-static-library-in-ios-tutorial
+
 * Android import other project
 * Android import .aar
