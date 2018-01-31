@@ -1,7 +1,7 @@
 ### Gradle Project Level
 ### Gradle Module Level
 ### Gradle Module Level for Signning App
-### Gradle Import Dependencies
+### Gradle Import Dependencies (AAR) as a sub-project
 
 --------
 
@@ -49,7 +49,7 @@ android {
 }
 ```
 
-### Gradle Import Dependencies
+### Gradle Import Dependencies (AAR) as a sub-project
 
 #### Import Other Modules to Project
 
