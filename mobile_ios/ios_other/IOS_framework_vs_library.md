@@ -14,6 +14,7 @@
   
 * Framework **(.framework)** :  
   * IOS **Framework** contain code and resources(images/assets)
+  * Rather than a .app or a .ipa file, a Framework has the .framework extension. 
 
 ### Add Framework (.framework) to project
 
