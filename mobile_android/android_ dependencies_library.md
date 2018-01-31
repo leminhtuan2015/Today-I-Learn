@@ -14,6 +14,15 @@
 
 ### Using Android Library In Android Application
 
+#### 3 ways to add library to app module
+
+```
+dependencies {
+    compile project(':FujiSDK') // project (method 1)
+    compile files('libs/YouTubeAndroidPlayerApi.jar') // files (method 2)
+    compile(name: 'payment-0.6.0', ext: 'aar') {transitive = true} // Maven (method 3)
+}
+```
 
 #### Method 1: Include Android Module (AAR) as a Sub-Module of app module
 
