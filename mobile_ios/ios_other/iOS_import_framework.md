@@ -18,8 +18,7 @@
 4. Open "Link Binaries With Libraries" expander.
 5. Click the + button.
 6. Select your framework.
-
-![alt text](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_ios/ios_images/adding-frameworks.png)
+7. Example : https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_ios/ios_images/adding-frameworks.png
 
 * **Type 1 (Second Way): Linked Frameworks and Libraries**
 
