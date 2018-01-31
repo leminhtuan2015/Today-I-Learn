@@ -1,20 +1,22 @@
-### Gradle
-### Gradle Sign App
+### Gradle Project Level
+### Gradle Module Level
+### Gradle Module Level for Signning App
 ### Gradle Import Dependencies
 
 --------
 
-### Gradle
+### Gradle Project Level
 * Gradle used to build Android project to APK
 
-* **Project level :** have 2 gradle file
-  * `setting.gradle` : File config modules contain in project
-  * `project/build.gradle` : File config remote repositories for fetching dependencies
+* **Project Level :** have 2 gradle file
+  * **project/setting.gradle** : File config modules contain in project
+  * **project/build.gradle** : File config remote repositories for fetching dependencies
   
-* **Module level**
-  * `project/app/build.gradle` : File config **How to build module**, **dependencies of module**
+### Gradle Module Level
+  * **project/app** is the module of project (One project can contain many modules)
+  * **project/app/build.gradle** : File config **How to build module**, **dependencies of module**
 
-### Gradle Sign App
+### Gradle Module Level for Signning App
 
 ```
 android {
@@ -52,7 +54,7 @@ android {
 #### Import Other Modules to Project
 
 * Import **FujiSDK** project library into project 
-* **settings.gradle**
+* **project/settings.gradle**
 
 ```
 include ':app'
@@ -62,7 +64,7 @@ project(':FujiSDK').projectDir = new File(settingsDir, '../Android')
 ```
 
 #### Import Modules to Module
-* In **build.gradle** of **app** module
+* In **project/app/build.gradle** of **app** module
 
 ```
 dependencies {
