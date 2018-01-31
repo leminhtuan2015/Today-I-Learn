@@ -16,7 +16,7 @@
 
 #### 3 ways to add library to app module
 
-```
+```gradle
 dependencies {
     compile project(':FujiSDK') // project (method 1)
     compile files('libs/YouTubeAndroidPlayerApi.jar') // files (method 2)
