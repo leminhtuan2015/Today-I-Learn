@@ -7,8 +7,8 @@
 
 ### IOS Static Library (.a) vs Framework (.framework)
 
-* Static Library (.a) : IOS **static libraries** are not allowed to contain images/assets (only code)
-* Framework (.framework) :  IOS **Framework** contain code and resources(images/assets)
+* Static Library **(.a)** : IOS **static libraries** are not allowed to contain images/assets (only code)
+* Framework **(.framework)** :  IOS **Framework** contain code and resources(images/assets)
 
 ### Add .xcproject to project
 
