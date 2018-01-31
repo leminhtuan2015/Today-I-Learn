@@ -7,6 +7,9 @@
 
 ### IOS Static Library (.a) vs Framework (.framework)
 * **.a** and **.framework** is the 2 type of libraries in IOS
+* In Xcode 9
+  * Static Library (.a) just only use ObjectiveC
+  * Framework (.framework) can use ObjectiveC/Swift
 
 * Static Library **(.a)** : 
   * IOS **static libraries** are not allowed to contain images/assets (only code)
