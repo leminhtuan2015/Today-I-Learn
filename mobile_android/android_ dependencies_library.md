@@ -12,15 +12,20 @@
 * **aar** can contain other **aar** files and other **jar** file
 * Android Application can contain both **AAR** and **JAR**
 
-### Using Android Dependencies
+### Using Android Library
 
-#### Using aar, jar On Local
+#### Using Android Library On Local
 
 ```
-compile files('libs/YouTubeAndroidPlayerApi.jar')
+dependencies {
+    compile project(':FujiSDK') // project
+    compile files('libs/gcm.jar') // files
+    compile files('libs/YouTubeAndroidPlayerApi.jar') // files
+    compile(name: 'payment-0.6.0', ext: 'aar') {transitive = true} // Maven
+}
 ```
 
-#### Using  aar, jar On Remote
+#### Using Android Library On Remote (Maven)
 
 ```
 compile 'com.inthecheesefactory.thecheeselibrary:fb-like:0.9.3'
