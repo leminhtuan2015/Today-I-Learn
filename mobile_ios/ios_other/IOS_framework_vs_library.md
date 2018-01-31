@@ -68,7 +68,20 @@
 5. Open "Linked Frameworks and Libraries" expander
 6. Click the + button.
 7. Select your static library (.a file)
+8. If your Application Project is Swift and Static Library is ObjectiveC 
+  * => You must create **ProjectName-Bridging-Header.h**
 
+```c
+// MainProject-Bridging-Header.h
+
+#import <TestStaticLib/TestStaticLib.h>
+```
+
+9. Config Bridging-Header in Application Project
+
+  1. Select Application Project 
+  2. Select tab "Build Settings"
+  3. Select "Objective-C Bridging Header" => Add "ProjectName/ProjectName-Bridging-Header.h"
 
 
 #### Method 2: Reference the headers and the library binary file (.a) directly.
