@@ -18,7 +18,7 @@
 
 ### Gradle Module Level for Signning App
 
-```
+```gradle
 android {
     signingConfigs {
         release {
@@ -56,7 +56,7 @@ android {
 * Import **FujiSDK** project library into project 
 * **project/settings.gradle**
 
-```
+```gradle
 include ':app'
 include ':FujiSDK'
 
@@ -66,7 +66,7 @@ project(':FujiSDK').projectDir = new File(settingsDir, '../Android')
 #### Import Modules to Module
 * In **project/app/build.gradle** of **app** module
 
-```
+```gradle
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.2.0'
