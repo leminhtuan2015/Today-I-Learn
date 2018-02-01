@@ -21,9 +21,3 @@ https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
 
 ### React
 
-* Add Module to project
-  * https://wix.github.io/react-native-navigation/#/installation-android
-
-
-* Android import other project
-* Android import .aar
