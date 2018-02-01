@@ -13,3 +13,4 @@
 * **.pl** : Perl source file
 * **.o** : Object (compiled) file
 * **.a** : Static library files (They "contain" one or more .o files)
+* **.framework** : Cocoa touch Framework flies
