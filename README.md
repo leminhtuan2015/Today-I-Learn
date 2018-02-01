@@ -8,18 +8,19 @@
 
 ### SELEMIUM
 
-https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
+* https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2
 
 
 ### RUBY
 
-- JavaScript unescape() Function
-- https://ruby-doc.org/stdlib-1.9.3/libdoc/uri/rdoc/URI/Escape.html
+* JavaScript unescape() Function
+* https://ruby-doc.org/stdlib-1.9.3/libdoc/uri/rdoc/URI/Escape.html
 
 ### BAAS
-- https://github.com/heroiclabs/nakama
+* https://github.com/heroiclabs/nakama
 
 ### Objective_C
 
 * Basic syntax
+* https://facebook.github.io/react-native/docs/native-modules-ios.html
 
