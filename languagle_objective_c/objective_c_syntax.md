@@ -5,7 +5,7 @@
 
 ### Objective-C Functions
 
-```c
+```objective-c
 - (return_type) method_name:( argumentType1 )argumentName1 
 joiningArgument2:( argumentType2 )argumentName2 ... 
 joiningArgumentn:( argumentTypen )argumentNamen 
