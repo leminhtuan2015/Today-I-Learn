@@ -2,11 +2,13 @@
 ### IOS Static Library (.a) vs Framework (.framework)
 ### Using a Framework (.framework) in Your App
 ### Using a Static Library (.a) in Your App
+### Preference
+  * https://www.raywenderlich.com/41377/creating-a-static-library-in-ios-tutorial
 
 --------------------------------------------------------------------------
 
 ### IOS Static Library (.a) vs Framework (.framework)
-* https://github.com/leminhtuan2015/Demo_IOS_StaticLibrary_Framework
+* DEMO : https://github.com/leminhtuan2015/Demo_IOS_StaticLibrary_Framework
 * **.a** and **.framework** is the 2 type of libraries in IOS
 * In Xcode 9
   * Static Library (.a) just only use **ObjectiveC**
