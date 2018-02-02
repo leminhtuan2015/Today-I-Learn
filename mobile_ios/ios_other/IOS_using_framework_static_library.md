@@ -80,7 +80,7 @@
 5. Open "Linked Frameworks and Libraries" expander
 6. Click the + button.
 7. Select your static library (.a file)
-8. If your Application Project is Swift and Static Library is ObjectiveC 
+8. If your Application Project is Swift and Static Library is ObjectiveC (If you use Bridging-Header)
   * => You must create **ProjectName-Bridging-Header.h**
 
 ```objc
@@ -112,7 +112,15 @@
 2. Make foler Headers > copy all .h file of static library to this folder
 3. In Xcode Add 2 above folder to project
 4. Add binary (.a) file : In Application Project > General tab > Linked Frameworks and Libraries > Add other > select to .a file
-5. Add header (.h) files: 
+5. Add header (.h) files: In Application Project > Build Setting tab >  Header Search Paths > Add "PATH/TO/FOLDER/HEADER_FILES"
+
+6. If your Application Project is Swift and Static Library is ObjectiveC  (If you use Bridging-Header)
+
+```objc
+//  MainProject-Bridging-Header.h
+
+#import "TestStaticLibrary_1.h"
+```
 
 
 
