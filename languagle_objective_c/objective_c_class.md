@@ -4,7 +4,8 @@
 ----------------------------------------------------------------
 
 ### Class
-* Class in Objective C have 2 part
+* **Class = header.h + implementation.m**
+* Class in Objective C have 2 part 
   * Header file (.h)
     * The header file (with the file extension .h) **defines the class and everything about it** for the world to know
     * The header file acts as the interface, used just for **defines (Without implement)**
@@ -66,3 +67,24 @@ double breadth;  // Breadth of a box
 
 
 ### Instance vs Class Methods
+
+* Method declarations begin with either a minus (-) or a plus sign (+).
+* **Class methods** (beginning with the plus sign) (+)
+* **Nnstance method** (beginning with the minus sign) (-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
