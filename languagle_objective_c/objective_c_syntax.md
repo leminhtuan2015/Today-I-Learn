@@ -77,17 +77,17 @@ int main ()
 
 ### Objective-C Preprocessors
 
-**#define**	: Substitutes a preprocessor macro
-**#include** : Inserts a particular header from another file
-**#undef** : Undefines a preprocessor macro
-**#ifdef** : Returns true if this macro is defined
-**#ifndef** : Returns true if this macro is not defined
-**#if** : Tests if a compile time condition is true
-**#else** : The alternative for #if
-**#elif** : #else an #if in one statement
-**#endif** : Ends preprocessor conditional
-**#error** : Prints error message on stderr
-**#pragma** : Issues special commands to the compiler using a standardized method
+* **#define**	: Substitutes a preprocessor macro
+* **#include** : Inserts a particular header from another file
+* **#undef** : Undefines a preprocessor macro
+* **#ifdef** : Returns true if this macro is defined
+* **#ifndef** : Returns true if this macro is not defined
+* **#if** : Tests if a compile time condition is true
+* **#else** : The alternative for #if
+* **#elif** : #else an #if in one statement
+* **#endif** : Ends preprocessor conditional
+* **#error** : Prints error message on stderr
+* **#pragma** : Issues special commands to the compiler using a standardized method
 
 ```objc
 #define MAX_ARRAY_LENGTH 20
