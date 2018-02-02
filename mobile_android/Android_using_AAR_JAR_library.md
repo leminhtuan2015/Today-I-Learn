@@ -1,6 +1,9 @@
 
 ### Android Library aar, jar
 ### Using Android Library In Android Application
+### Preferences
+  * DEMO : https://github.com/leminhtuan2015/Demo_Android_Library_AAR
+  
 --------------------------
 
 ### Android Library aar, jar
