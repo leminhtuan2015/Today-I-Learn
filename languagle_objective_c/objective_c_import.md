@@ -4,5 +4,14 @@
 
 ### Objective C Import
 
-* **#include "headers/my_header.h"**
-* The quoted form is for "local" includes of files
+* The quoted("") form is for **local** includes of files
+
+```obj
+#include "headers/my_header.h"
+```
+
+* the angle-bracket(<>) form is for **global** includes
+
+```objc
+#import <Foundation/Foundation.h>
+```
