@@ -1,4 +1,9 @@
-### Objective C Class Syntax
+### Class
+### Instance vs Class Methods
+
+----------------------------------------------------------------
+
+### Class
 * Class in Objective C have 2 part
   * Header file (.h)
     * The header file (with the file extension .h) **defines the class and everything about it** for the world to know
@@ -21,6 +26,7 @@
 
 
 * **Interface** `Box.h`
+
 ```objc
 #import <Foundation/Foundation.h>
 
@@ -32,6 +38,9 @@ double breadth;  // Breadth of a box
 
 //Instance method
 - ( void )sayHello;
+
+//Class method
++ (void)connect;
 }
 @end
 ```
@@ -46,5 +55,14 @@ double breadth;  // Breadth of a box
 {
     NSLog( @" static lib Hello" );
 }
+
++ ( void )connect
+{
+    NSLog( @" static lib connect" );
+}
+
 @end
 ```
+
+
+### Instance vs Class Methods
