@@ -89,6 +89,26 @@ int main ()
 **#error** : Prints error message on stderr
 **#pragma** : Issues special commands to the compiler using a standardized method
 
+```objc
+#define MAX_ARRAY_LENGTH 20
+
+#import <Foundation/Foundation.h>
+#include "myheader.h"
+
+#undef  FILE_SIZE
+#define FILE_SIZE 42
+
+#ifndef MESSAGE
+   #define MESSAGE "You wish!"
+#endif
+
+#ifdef DEBUG
+   /* Your debugging statements here */
+#endif
+
+
+```
+
 ### Objective-C Functions
 
 ```objc
