@@ -104,15 +104,15 @@
 * Because of static library have 2 part
   * Part 1: Header files (.h)
   * Part 2: Binary file (.a)
-* => We need to add both path 1 and path 2 to Application Project
+* => We need to add 2 part (part 1 and part 2) to Application Project
 
 * Add Static Library to Application Project
 
 1. Make folder StaticLibrary > copy .a file to this folder
 2. Make foler Headers > copy all .h file of static library to this folder
 3. In Xcode Add 2 above folder to project
-4. Add .a file : In Application Project > General tab > Linked Frameworks and Libraries > Add other > select to .a file
-5. Add header files: 
+4. Add binary (.a) file : In Application Project > General tab > Linked Frameworks and Libraries > Add other > select to .a file
+5. Add header (.h) files: 
 
 
 
