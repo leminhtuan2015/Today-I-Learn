@@ -16,11 +16,15 @@
 
 * Static Library **(.a)** : 
   * IOS **static libraries** are not allowed to contain images/assets (only code)
-  * Rather than a .app or a .ipa file, a static library has the .a extension. 
+  * Static library has the .a extension.
+  * IOS **static libraries** have 2 part
+    * Header files (.h) : each static library will be build with Products/include/.h files
+    * Binary file (.a) : .a file contain the execute files
   
 * Framework **(.framework)** :  
   * IOS **Framework** contain code and resources(images/assets)
-  * Rather than a .app or a .ipa file, a Framework has the .framework extension. 
+  * Framework has the .framework extension.
+  * Framework just have only one part (not like static library) because .framework contain folder **Header** inside
 
 ### Using a Framework (.framework) in Your App
 
