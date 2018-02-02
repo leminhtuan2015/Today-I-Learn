@@ -69,7 +69,7 @@
 
 1. Make sure the **Subproject** (the Static Library project will be added to other application project) is **closed**
 2. Right-click on the application project => "Add file to " => Add .xcproject file of Static Library project
-3. Select your target.
+3. Select your target (Application Project).
 4. Select the "General" tab.
 5. Open "Linked Frameworks and Libraries" expander
 6. Click the + button.
@@ -77,32 +77,25 @@
 8. If your Application Project is Swift and Static Library is ObjectiveC 
   * => You must create **ProjectName-Bridging-Header.h**
 
-```c
-// MainProject-Bridging-Header.h
-
-#import <TestStaticLib/TestStaticLib.h>
-```
-
-9. Config Bridging-Header in Application Project
-
-  * 1. Select Application Project 
-  * 2. Select tab "Build Settings"
-  * 3. Select "Objective-C Bridging Header" => Add "ProjectName/ProjectName-Bridging-Header.h"
-  
 ```objc
 //  MainProject-Bridging-Header.h
 
 #import <TestStaticLib/TestStaticLib.h>
 #import <TestStaticLib/StaticLibrary.h>
-
 ```
 
+9. Config Bridging-Header in Application Project
+  * 1. Select Application Project 
+  * 2. Select tab "Build Settings"
+  * 3. Select "Objective-C Bridging Header" => Add "ProjectName/ProjectName-Bridging-Header.h"
+
 10. Now in Application Project you can use code in Static Library
+
+11. **Impotant:** : Make sure in the **Static Library** > Build Phases tab > Copy file > + all the header file in this static library
 
 
 #### Method 2: Reference the headers and the library binary file (.a) directly.
 
-* https://www.raywenderlich.com/41377/creating-a-static-library-in-ios-tutorial
 
 
 
