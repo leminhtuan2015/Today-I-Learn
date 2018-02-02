@@ -128,7 +128,34 @@ int main ()
     * **@property ... @end**
 
 
+* **Interface**
+```objc
+#import <Foundation/Foundation.h>
 
+@interface Box:NSObject
+{
+//Instance variables
+double length;   // Length of a box
+double breadth;  // Breadth of a box
+
+//Instance method
+- ( void )sayHello;
+}
+@end
+```
+
+* **Implementation**
+
+```objc
+#import "Box.h"
+
+@implementation Box
+- ( void )sayHello
+{
+    NSLog( @" static lib Hello" );
+}
+@end
+```
 
 
 
