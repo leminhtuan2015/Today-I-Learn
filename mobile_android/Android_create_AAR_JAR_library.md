@@ -13,4 +13,10 @@
 include ':app'  // app is the default module of each project
 include ':new_module_name'  // this is new module (aar)
 ```
+#### Using this new module in app module
 
+* In the **project/app/build.gradle**
+
+```gradle
+  compile project(":new_module_name")
+```
