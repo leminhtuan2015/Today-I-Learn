@@ -126,6 +126,9 @@ int main ()
     * **@implementation ... @end**
   * Properties: 
     * **@property ... @end**
+ 
+* The **instance variables are private** and are only accessible inside the class implementation.
+* Properties are introduced in Objective-C to ensure that the instance variable of the class can be accessed outside the class
 
 
 * **Interface**
