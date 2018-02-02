@@ -120,9 +120,12 @@ int main ()
 
 ### Objective C Class Syntax
 * The class is defined in two different sections namely **@interface** and **@implementation**
-  * Interface : **@interface**
-  * Implementation : **@implementation**
-  * Properties: **@property**
+  * Interface : 
+    * **@interface ...  @end**
+  * Implementation : 
+    * **@implementation ... @end**
+  * Properties: 
+    * **@property ... @end**
 
 
 
