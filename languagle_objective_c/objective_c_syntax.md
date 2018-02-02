@@ -1,12 +1,26 @@
-### Objective C Syntax
+### Objective-C Functions
+### Objective C Class
 
-----------------------------------------------------
+----------------------------------------------------------------------
 
-### Objective C Syntax
+### Objective-C Functions
+
+```c
+- (return_type) method_name:( argumentType1 )argumentName1 
+joiningArgument2:( argumentType2 )argumentName2 ... 
+joiningArgumentn:( argumentTypen )argumentNamen 
+{
+   body of the function
+}
+```
+
+### Objective C Class Syntax
 
 * Preprocessor Commands
 * Interface
 * Implementation
-* Method
+* Properties
 * Variables
 * Statements & Expressions
+
+#### Preprocessor Commands
