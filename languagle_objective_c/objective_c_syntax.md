@@ -1,6 +1,7 @@
 ### Objective-C Variables
 ### Objective-C Constants
 ### Objective-C Pointers
+### Objective-C Strings
 ### Objective-C Functions
 ### Objective C Class
 
@@ -51,6 +52,23 @@ int main ()
 
    /* access the value using the pointer */
    NSLog(@"Value of *ip variable: %d\n", *ip );
+
+   return 0;
+}
+```
+
+### Objective-C Strings
+
+* **@" Your String Here"**
+
+```objc
+#import <Foundation/Foundation.h>
+
+int main ()
+{
+   NSString *greeting = @"Hello";
+
+   NSLog(@"Greeting message: %@\n", greeting );
 
    return 0;
 }
