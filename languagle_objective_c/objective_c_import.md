@@ -11,8 +11,8 @@
 #include "headers/my_header.h"
 ```
 
-* The angle-bracket(<>) form is for **global** includes
-* Header files in **<>** bracket are searched in **system**
+* The angle-bracket(<>) form is for **global** or system includes.
+* Header files in **<>** bracket are searched in **global** or **system**
 
 ```objc
 #import <Foundation/Foundation.h>
