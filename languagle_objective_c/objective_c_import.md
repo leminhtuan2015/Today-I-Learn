@@ -7,7 +7,7 @@
 * The quoted(" ") form is for **local** includes of files
 * Header files in **" "** bracket are searched in **user or local directories**
 
-```obj
+```objc
 #include "headers/my_header.h"
 ```
 
