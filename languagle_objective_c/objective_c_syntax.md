@@ -118,7 +118,18 @@ int main ()
 ```
 
 
+* Calling Methods
+  * Class Methods
+  
+```objc
+  [className methodName];
+```
 
+  * Instance Methods
+  
+```objc
+[instanceName instanceMethod];
+```
 
 
 
