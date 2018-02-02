@@ -123,12 +123,14 @@ int main ()
   
 ```objc
   [className methodName];
+  [className methodName : argument1 : argument2];
 ```
 
   * Instance Methods
   
 ```objc
 [instanceName instanceMethod];
+[instanceName methodName : argument1 : argument2];
 ```
 
 
