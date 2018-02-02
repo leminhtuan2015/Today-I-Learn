@@ -65,7 +65,7 @@
 
 ### Using a Static Library (.a) in Your App
 
-#### Method 1: Include the static library project as a Subproject.
+#### Method 1: Include the static library project as a Sub-project.
 
 1. Make sure the **Subproject** (the Static Library project will be added to other application project) is **closed**
 2. Right-click on the application project => "Add file to " => Add .xcproject file of Static Library project
@@ -88,6 +88,14 @@
   * 1. Select Application Project 
   * 2. Select tab "Build Settings"
   * 3. Select "Objective-C Bridging Header" => Add "ProjectName/ProjectName-Bridging-Header.h"
+  
+```objc
+//  MainProject-Bridging-Header.h
+
+#import <TestStaticLib/TestStaticLib.h>
+#import <TestStaticLib/StaticLibrary.h>
+
+```
 
 10. Now in Application Project you can use code in Static Library
 
