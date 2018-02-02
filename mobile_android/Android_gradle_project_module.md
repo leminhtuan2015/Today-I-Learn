@@ -1,9 +1,29 @@
+### Project and Modules
 ### Gradle Project Level
 ### Gradle Module Level
 ### Gradle Module Level for Signning App
 ### Gradle Import Dependencies (AAR) as a sub-project
 
 --------
+### Project and Modules
+* Each Android project have one or many modules
+* **app** is the default module of the project
+* Be-side **app** module you can add many other module to the project
+
+* In **project/setting.gradle** : file config the modules of project
+
+```gradle
+
+include ':app' // Inside project
+include ':mylibrary' // Inside project
+
+include ':testaar' // Outside project
+include ':testaar_1' // Outside project
+
+project(':testaar').projectDir = new File(settingsDir, '../testaar') // Outside project
+project(':testaar_1').projectDir = new File(settingsDir, '../testaar_1') // // Outside project
+
+```
 
 ### Gradle Project Level
 * Gradle used to build Android project to APK
