@@ -6,11 +6,9 @@
 ### Objective-C Functions
 
 ```objc
-- (return_type) method_name:( argumentType1 )argumentName1 
-joiningArgument2:( argumentType2 )argumentName2 ... 
-joiningArgumentn:( argumentTypen )argumentNamen 
+- (return_type)method_name : (argument1_type)argument1_name : (argument2_type)argument2_name
 {
-   body of the function
+   //body of the function
 }
 ```
 
