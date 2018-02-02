@@ -1,8 +1,8 @@
 ### Objective C Class Syntax
 * Class in Objective C have 2 part
-  * Header file : 
+  * Header file (.h)
     * The header file (with the file extension .h) **defines the class and everything about it** for the world to know
-  * Implementation file : 
+  * Implementation file (.m)
     * (.m files) The other half of a class is the implementation file,
     * Implementation files implement all those things that we declare to be available in the header files
 
