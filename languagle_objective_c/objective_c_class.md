@@ -2,9 +2,11 @@
 * Class in Objective C have 2 part
   * Header file (.h)
     * The header file (with the file extension .h) **defines the class and everything about it** for the world to know
+    * The header file acts as the interface, used just for **defines (Without implement)**
   * Implementation file (.m)
     * (.m files) The other half of a class is the implementation file,
     * Implementation files implement all those things that we declare to be available in the header files
+    * Every method that we say a class has must be defined with all its necessary code in the implementation file
 
 * The class is defined in two different sections namely **@interface** and **@implementation**
   * Interface : 
