@@ -67,6 +67,8 @@
 
 #### Method 1: Include the static library project as a Sub-project.
 
+0. **Impotant:** : Make sure in the **Static Library** > Build Phases tab > Copy file > + all the header file in this static library (If not you will receive issue Header .h file not found)
+
 1. Make sure the **Subproject** (the Static Library project will be added to other application project) is **closed**
 2. Right-click on the application project => "Add file to " => Add .xcproject file of Static Library project
 3. Select your target (Application Project).
@@ -91,7 +93,6 @@
 
 10. Now in Application Project you can use code in Static Library
 
-11. **Impotant:** : Make sure in the **Static Library** > Build Phases tab > Copy file > + all the header file in this static library
 
 
 #### Method 2: Reference the headers and the library binary file (.a) directly.
