@@ -8,7 +8,7 @@
 
 * The term **"Cocoa"** has been used to refer generically to any class or object that is based on the Objective-C runtime and inherits from the root class, **NSObject**
 
-* **Cocoa là 1 thuật ngữ chỉ định rằng: Tất cả những gì (class, object) code bằng Objective-C và kế thừa từ NSObject đều gọi là Cocoa**
+* **Cocoa là 1 thuật ngữ của Apple để chỉ định rằng: Tất cả những gì (class, object) code bằng Objective-C và kế thừa từ NSObject đều gọi là Cocoa**
 
 * **Objective-C** is the native, primary language for developing Cocoa and Cocoa Touch applications
 
