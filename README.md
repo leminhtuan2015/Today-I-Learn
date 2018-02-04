@@ -20,9 +20,6 @@
 * https://github.com/heroiclabs/nakama
 
 ### Objective_C
-
-* Basic syntax
 * https://facebook.github.io/react-native/docs/native-modules-ios.html
-* Cocoa, Cocoa touch
 * Xcode Build setting tab : HEADER_SEARCH_PATHS, Briding header
 * Build Phase > Copy files
