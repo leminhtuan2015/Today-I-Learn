@@ -27,7 +27,7 @@
   2:6aa7d3cd33599e3024973ad9c53de3db1d4b013f:[{key:value}]
   ```
   
-  * Block 2: 
+  * Block 3: 
     * SHA of block 2 is : 42f47f0617a1c98c590a92782d930cb46abc98ce
 
   ```
