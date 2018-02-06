@@ -12,6 +12,10 @@
   * Id
   * **Hash** of previous block (use **hash function** to create hash of block)
   * Data (contain transactions)
+  
+
+https://github.com/leminhtuan2015/Today-I-Learn/blob/master/images/blockchain_structure.png
+https://github.com/leminhtuan2015/Today-I-Learn/blob/master/images/blockchain_structure_2.png
  
 #### Example
 
