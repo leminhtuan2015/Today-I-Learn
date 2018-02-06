@@ -13,7 +13,7 @@
 #### Blockchain purposes
 
 * Open distributed ledger (ledger store transactions)
-* Peer - to - Peer
+* Peer - to - Peer (data **IS NOT** store at only thirst party it is stored on every node)
 * Records **transactions** between two parties and verifies it
 * Once a data (transaction) is verified, the data **CAN NOT** be altered (changed)
 
