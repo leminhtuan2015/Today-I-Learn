@@ -41,4 +41,4 @@
 
 ### Miners
 
-* 
+* Validate 
