@@ -6,6 +6,7 @@
 * Blockchain is a data structure (the same linked list)
 * Each block contain the number of transactions infomation (it 's data)
 * Each block contain the **hash** of previous block
+* Blockchain is **immutable** data
 
 * Bitcoin is just one implementation of the blockchain
 
