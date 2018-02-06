@@ -4,11 +4,11 @@
 --------------------------------------------------------------------
 
 ### Blockchain
-* Blockchain là 1 cấu trúc dữ liệu đạng danh sách liên kết 
+* Blockchain là 1 cấu trúc dữ liệu dạng danh sách liên kết 
 * Blockchain structure
- * Id
- * Hash of previous block
- * Data
+  * Id
+  * Hash of previous block
+  * Data
  
 * Block 1: 
 
