@@ -4,5 +4,4 @@
 
 ### Blockchain Miners
 
-  * Validate transctions
-  * 
+* Validate transctions
