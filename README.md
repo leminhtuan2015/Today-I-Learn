@@ -20,8 +20,7 @@
 * Build Phase > Copy files
 
 ### React-native
-* Sqlite
-* navigationOption : obj, function
+
 
 ### Blockchain
 
