@@ -20,8 +20,8 @@
   * Block 2: 
     * SHA of block 1 is : 6aa7d3cd33599e3024973ad9c53de3db1d4b013f
 
-```
-2:6aa7d3cd33599e3024973ad9c53de3db1d4b013f:[{key:value}]
-```
+  ```
+  2:6aa7d3cd33599e3024973ad9c53de3db1d4b013f:[{key:value}]
+  ```
 
 ### Distributed Blockchain
