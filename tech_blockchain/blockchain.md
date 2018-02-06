@@ -7,7 +7,7 @@
 * Blockchain is a data structure (the same linked list)
 * Blockchain structure
   * Id
-  * **Hash** of previous block
+  * **Hash** of previous block (use **hash function** to create hash of block)
   * Data (contain transactions)
  
 * Example
