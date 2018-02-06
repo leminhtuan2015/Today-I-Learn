@@ -7,7 +7,14 @@
 
 * Bitcoin is just one implementation of the blockchain
 
-#### Blockchain structure
+#### Blockchain purposes
+
+* Open distributed ledger
+* Peer - to - Peer
+* Records **transactions** between two parties and verifies it
+* Once a data (transaction) is verified, the data **CAN NOT** be altered (changed)
+
+#### Blockchain  structure
 
   * Block headers
     * Version
