@@ -9,9 +9,15 @@
 * Bitcoin is just one implementation of the blockchain
 
 #### Blockchain structure
-  * Id
-  * **Hash** of previous block (use **hash function** to create hash of block)
-  * Data (contain transactions)
+
+variable   | bytes |  description
+           |       |
+version    |  4    |  version of the bitcoin protocol used to create the block
+prevHash   |  32   |  hash of the previous block (use **hash function** to create hash of block)
+merkleRoot |  32   |  root of a sha256 hash tree where the leaves are **transactions**
+time       |  4    |  time of block creation in seconds since 1970-01-01T00:00 UTC
+bits       |  4    |  difficulty of block hash in compressed form
+nonce      |  4    |  field used in mining
   
   * https://github.com/leminhtuan2015/Today-I-Learn/blob/master/images/blockchain_structure.png
   * https://github.com/leminhtuan2015/Today-I-Learn/blob/master/images/blockchain_structure_2.png
