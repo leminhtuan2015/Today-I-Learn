@@ -3,10 +3,14 @@
 --------------------------------------------------------------------
 
 ### Blockchain
-* Blockchain is a data structure (the same linked list)
+
+* Blockchain is a distributed database that maintains a continuously growing list of ordered records.
+* Blockchain is the same **linked list** data structure, Each block contain a **hash** of previous block
 * Each block contain the number of transactions infomation (it 's data)
 * Each block contain the **hash** of previous block
 * Data in block are **immutable** (Transactions is immutable)
+* Blocks hold batches of valid transactions that are hashed and encoded into a Merkle tree
+* Blockchain use **SHA-256** to hash it's data.
 
 * Bitcoin is just one implementation of the blockchain
 
@@ -17,7 +21,7 @@
 * Records **transactions** between two parties and verifies it
 * Once a data (transaction) is verified, the data **CAN NOT** be altered (changed)
 
-#### Blockchain  structure
+#### Blockchain structure
 
   * Block headers
     * Version
