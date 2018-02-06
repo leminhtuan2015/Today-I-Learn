@@ -1,7 +1,9 @@
-### Blockchain Miners
+### Blockchain Mining, Miners
 
 -------------------------------------------------
 
-### Blockchain Miners
+### Blockchain Mining, Miners
 
-* Validate transctions
+#### Mining
+  * Mining is the computational process of caculating a certain **hash**
+
