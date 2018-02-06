@@ -5,6 +5,7 @@
 ### Blockchain
 * Blockchain is a data structure (the same linked list)
 * Each block contain the number of transactions infomation
+* Each block contain the **hash** of previous block
 * Bitcoin is just one implementation of the blockchain
 
 #### Blockchain purposes
