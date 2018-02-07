@@ -1,11 +1,17 @@
-### Ethereum blockchain
-### Bitcoin blockchain
+### Ethereum blockchain miner
+### Bitcoin blockchain miner
 
 ----------------------------------------------------------
 
-### Ethereum blockchain
+### Ethereum blockchain miner
 
 * **Geth** : Geth = Go + ETH (Geth implemented by Go language)
-* **Geth** : The command line tools will allow you to connect your server to or run your application on the Ethereum blockchain – or your own private blockchain.
+* **Geth** : geth is the the command line interface for running a full ethereum node
+* Capabilities: 
+  * mine real ether
+  * transfer funds between addresses
+  * create contracts and send transactions
+  * explore block history
+  * and much much more
 
-### Bitcoin blockchain
+### Bitcoin blockchain miner
