@@ -24,6 +24,7 @@
 
 ### All Node in System Mine The Block Together
 * Q1: At the same time all node in system mine the block together but just only first one (miner/node) that creates a valid proof of work wins (this node found the nonce, making the valid hash => will receive rewards), What happens with all other nodes working on the same solutions (NOT win)?
+  * A1: This is one of the problem with this Proof of Work mechanism. It has to consume a lot of electricity to solve the problem. If you don't win a block's race (Do not find the nonce/ Do not make the valid hash of block), the energy used during those 10 minutes you tried to solve the problem is wasted. This is one of the reasons why the blockchain mechanism doesn't scale so well.
 
-* A1: This is one of the problem with this Proof of Work mechanism. It has to consume a lot of electricity to solve the problem. If you don't win a block's race (Do not find the nonce/ Do not make the valid hash of block), the energy used during those 10 minutes you tried to solve the problem is wasted. This is one of the reasons why the blockchain mechanism doesn't scale so well.
+
 
