@@ -6,6 +6,9 @@
 
 * Blockchain is a **distributed database** that maintains a continuously growing list of ordered records.
 * Blockchain is the same **linked list** data structure, Each block contain a **hash** of previous block
+
+#### Block
+* Block is the set of transactions 
 * Each block contain the number of transactions infomation (it's data)
 * Each block contain the **hash** of previous block, And it's Data (transactions)
 * Blocks hold batches of valid transactions that are hashed and encoded into a Merkle tree
@@ -15,8 +18,8 @@
   * Bitcoin Blockchain use **SHA-256** to hash it's data.
 
 #### Blockchain purposes
-
-* Open distributed ledger (ledger store transactions)
+* Blockchain = distributed transaction database
+* Blockchain = Open distributed ledger (ledger store transactions)
 * Peer - to - Peer (data **IS NOT** store at only thirst party it is stored on every node)
 * Records **transactions** between two parties and verifies it
 * Once a data (transaction) is verified in Blockchain, the data **CAN NOT (very difficul)** be altered (changed)
