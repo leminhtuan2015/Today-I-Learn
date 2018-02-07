@@ -5,6 +5,7 @@
 
 ### Blockchain Mining, Miners
 
+#### Mining
 * https://dev.to/damcosset/blockchain-what-is-mining-2eod
 
 * In Blockchain system
@@ -17,6 +18,9 @@
   * Mining is the mechanism that allows the blockchain to be a decencentralized security. 
   * Mining secures the bitcoin system and enable a system without a central authority
   
+#### Miners
+
+* Miners is the node (Computer) of blockchain network, miner use there computer (CPU, Chip, RAM, graphics card) to find the nonce (with difficulty) => find the certain **hash** of block => receive rewards (BTC, ETH, ...)
 * Miners validate new transactions and record them on the global ledger ( blockchain )
 * Miners receive a reward when they solve the complex mathematical problem. There are two types of rewards: new bitcoins or transaction fees (rewards can be other things, Must NOT be bitcoin)
 * All the network miners **compete** to be the first to find nonce
