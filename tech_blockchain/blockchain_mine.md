@@ -19,8 +19,10 @@
   
 * Miners validate new transactions and record them on the global ledger ( blockchain )
 * Miners receive a reward when they solve the complex mathematical problem. There are two types of rewards: new bitcoins or transaction fees (rewards can be other things, Must NOT be bitcoin)
+* All the network miners **compete** to be the first to find nonce
+* A reward is given to the **first miner** who solves each blocks problem
 
-
+* This threshold, called difficulty, is what determines the competitive nature of mining: **more computing power is added to the network, the higher this difficulty parameter increases**, increasing also the average number of calculations needed to create a new block.
 
 ### All Node in System Mine The Block Together
 * Q1: At the same time all node in system mine the block together but just only first one (miner/node) that creates a valid proof of work wins (this node found the nonce, making the valid hash => will receive rewards),What happens with all other nodes working on the same solutions (NOT win)?
