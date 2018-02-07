@@ -1,5 +1,4 @@
 ### Ethereum miner
-### Ethereum mining
 
 ----------------------------------------------------------
 
@@ -15,4 +14,4 @@
   * explore block history
   * and much much more
 
-### Ethereum mining
+* Once installed **Geth**, your node can 'talk' to other nodes, connecting it to the ethereum network. In addition to mining ether, it provides an interface for deploying your own smart contracts and sending transactions using the command line.
