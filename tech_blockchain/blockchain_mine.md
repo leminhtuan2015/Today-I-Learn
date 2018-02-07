@@ -9,6 +9,7 @@
 * https://dev.to/damcosset/blockchain-what-is-mining-2eod
 
 * In Blockchain system
+  * Mining is **Making the certain hash of block**
   * Mining is the computational process of finding a nonce and caculating a certain **hash of block**
   * Mining is making a **hash of the block** with some conditions (difficulty)
   * Mining is finding the nonce, Mining is absolutely a lottery
@@ -23,8 +24,9 @@
 * Miners is the node (Computer) of blockchain network, miner use there computer (CPU, Chip, RAM, graphics card) to find the nonce (with difficulty) => find the certain **hash** of block => receive rewards (BTC, ETH, ...)
 * Miners validate new transactions and record them on the global ledger ( blockchain )
 * Miners receive a reward when they solve the complex mathematical problem. There are two types of rewards: new bitcoins or transaction fees (rewards can be other things, Must NOT be bitcoin)
-* All the network miners **compete** to be the first to find nonce
+* All the network miners **compete** to be the first one to find nonce
 * A reward is given to the **first miner** who solves each blocks problem
+* Blockchain network have **n (X1, X2, ...Xn))** miner (node) If miner X1 finds the hash, miner X2 -> Xn will stop work on the current block and repeat the process for the next block.
 
 * This threshold, called difficulty, is what determines the competitive nature of mining: **more computing power is added to the network, the higher this difficulty parameter increases**, increasing also the average number of calculations needed to create a new block.
 
