@@ -19,7 +19,7 @@
   * Mining secures the bitcoin system and enable a system without a central authority
   
 #### Miners
-
+* Blockchain **CAN NOT** work without Miner (Computer node).
 * Miners is the node (Computer) of blockchain network, miner use there computer (CPU, Chip, RAM, graphics card) to find the nonce (with difficulty) => find the certain **hash** of block => receive rewards (BTC, ETH, ...)
 * Miners validate new transactions and record them on the global ledger ( blockchain )
 * Miners receive a reward when they solve the complex mathematical problem. There are two types of rewards: new bitcoins or transaction fees (rewards can be other things, Must NOT be bitcoin)
