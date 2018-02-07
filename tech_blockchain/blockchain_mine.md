@@ -8,8 +8,8 @@
 * https://dev.to/damcosset/blockchain-what-is-mining-2eod
 
 * In Blockchain system
-  * Mining is the computational process of caculating a certain **hash**
-  * Mining is Making a **hash of the block** with some conditions (difficulty)
+  * Mining is the computational process of finding a nonce and caculating a certain **hash of block**
+  * Mining is making a **hash of the block** with some conditions (difficulty)
   * Mining is finding the nonce, Mining is absolutely a lottery
 
 * In Blockchain Bitcoin system
@@ -23,6 +23,8 @@
 * A reward is given to the **first miner** who solves each blocks problem
 
 * This threshold, called difficulty, is what determines the competitive nature of mining: **more computing power is added to the network, the higher this difficulty parameter increases**, increasing also the average number of calculations needed to create a new block.
+
+* The first Miners find the nonce (found the hash of block) will be able to add block to blockchain => and get rewards (BTC, ETH, ...)
 
 ### All Node in System Mine The Block Together
 * Q1: At the same time all node in system mine the block together but just only first one (miner/node) that creates a valid proof of work wins (this node found the nonce, making the valid hash => will receive rewards),What happens with all other nodes working on the same solutions (NOT win)?
