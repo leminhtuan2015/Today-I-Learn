@@ -1,12 +1,13 @@
-### Ethereum blockchain miner
-### Bitcoin blockchain miner
+### Ethereum miner
+### Ethereum mining
 
 ----------------------------------------------------------
 
-### Ethereum blockchain miner
+### Ethereum miner
 
+#### Etherum miner client tool
 * **Geth** : Geth = Go + ETH (Geth implemented by Go language)
-* **Geth** : geth is the the command line interface for running a full ethereum node
+* **Geth** : is the the command line interface for running a full ethereum node
 * Capabilities: 
   * mine real ether
   * transfer funds between addresses
@@ -14,4 +15,4 @@
   * explore block history
   * and much much more
 
-### Bitcoin blockchain miner
+### Ethereum mining
