@@ -1,5 +1,5 @@
 ### Blockchain
-
+### Why The Data In Block CAN NOT (very difficul) Be Altered (changed)
 --------------------------------------------------------------------
 
 ### Blockchain
@@ -61,3 +61,24 @@
   ```
   3:42f47f0617a1c98c590a92782d930cb46abc98ce:[{key:value}]
   ```
+  
+  
+  ### Why The Data In Block CAN NOT (very difficul) Be Altered (changed)
+  
+  * Because each block contain the **hash of previous block**, If one block changed => all block after that block will be change as well.
+  * Example Blockchain : **A1 <- A2 <- A3 <- A4 <- A5 <- An**
+    * If block **A3** change => **A4** to **An** will be change too. => If you change **A3** you also have to again resolve from **block A4 to An** (exmple each block resolved in 10 minus) => Need (10 * n) minus to change a blockchain in one node
+    * After change the blockchain in one node (take 10 * n minus) you have to update it in all network
+    * And that is impossiable
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
