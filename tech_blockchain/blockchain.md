@@ -12,7 +12,10 @@
   * Social Network
   * Blockchain
 
-* Blockchain is a **distributed database** that maintains a continuously growing list of ordered records.
+* Blockchain is a : 
+  * **distributed database** that maintains a continuously growing list of ordered records.
+  * **decentralized network** operate by many node (Miner) in the blockchain network
+  
 * Blockchain is the same **linked list** data structure, Each block contain a **hash** of previous block
 
 #### Block
