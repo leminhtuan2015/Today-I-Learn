@@ -13,9 +13,9 @@
   * Blockchain
 
 * Blockchain is a : 
-  * **distributed database** that maintains a continuously growing list of ordered records.
-  * **decentralized network** operate by many node (Miner) in the blockchain network.
-  * **peer to peer**, without a middle-man (Third Party) to manage the exchange.
+  * **Distributed database** that maintains a continuously growing list of ordered records.
+  * **Decentralized network** operate by many node (Miner) in the blockchain network.
+  * **Peer to Peer**, without a middle-man (Third Party) to manage the exchange.
   
 * Blockchain is the same **linked list** data structure, Each block contain a **hash** of previous block
 
