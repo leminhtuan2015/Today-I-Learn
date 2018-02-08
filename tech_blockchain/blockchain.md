@@ -65,7 +65,9 @@
   
   ### Blockchain and Business Model
   
+  * Blockchain is the platform and we should find a Business Model (Application) to use Blockchain for support hand handle our Application problem
   
+  * Example: Blockchain is the same **Internet**, IOS/Android application is run on Internet, we should not be better Internet such as better TCP/IP ... But we need to find out a Business Model (Application) to run on Internet.
   
   
   ### Why The Data In Block CAN NOT (very difficul) Be Altered (changed)
