@@ -4,6 +4,13 @@
 
 ### Blockchain
 
+* Big thinks in IT
+  * Server
+  * Computer
+  * Network
+  * Social Network
+  * Blockchain
+
 * Blockchain is a **distributed database** that maintains a continuously growing list of ordered records.
 * Blockchain is the same **linked list** data structure, Each block contain a **hash** of previous block
 
