@@ -29,6 +29,7 @@
 * Blockchain network have **n (X1, X2, ...Xn))** miner (node) If miner X1 finds the hash, miner X2 -> Xn will stop work on the current block and repeat the process for the next block.
 
 * This threshold, called difficulty, is what determines the competitive nature of mining: **more computing power is added to the network, the higher this difficulty parameter increases**, increasing also the average number of calculations needed to create a new block.
+* If any (node) miner give up the network (Leave the blockchain) => the difficulty will be down.
 
 * The first Miners find the nonce (found the hash of block) will be able to add block to blockchain => and get rewards (BTC, ETH, ...)
 
