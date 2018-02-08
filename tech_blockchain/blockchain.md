@@ -5,7 +5,7 @@
 ### Blockchain
 
 * Big thinks in IT
-  * Server
+  * Server
   * Computer
   * Network
   * Social Network
