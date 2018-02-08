@@ -1,4 +1,5 @@
 ### Blockchain
+### Blockchain and Business Model
 ### Why The Data In Block CAN NOT (very difficul) Be Altered (changed)
 --------------------------------------------------------------------
 
@@ -61,6 +62,10 @@
   ```
   3:42f47f0617a1c98c590a92782d930cb46abc98ce:[{key:value}]
   ```
+  
+  ### Blockchain and Business Model
+  
+  
   
   
   ### Why The Data In Block CAN NOT (very difficul) Be Altered (changed)
