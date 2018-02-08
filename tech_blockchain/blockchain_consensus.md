@@ -1,4 +1,5 @@
 ### Blockchain Consensus
+### Methods Of Finding Consensus In A Blockchain
 
 --------------------------------------------------------
 
@@ -10,3 +11,7 @@
 
 * **consensus** is a rule for all node (miner) to competitive find out the hash of block with the dificulty (finding nonce)
 
+
+### Methods Of Finding Consensus In A Blockchain
+* Proof-of-work algorithm(PoW)
+* Proof-of-stake algorithm (PoS)
