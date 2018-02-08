@@ -16,6 +16,7 @@
   * **Distributed database** that maintains a continuously growing list of ordered records.
   * **Decentralized network** operate by many node (Miner) in the blockchain network.
   * **Peer to Peer**, without a middle-man (Third Party) to manage the exchange.
+  * **Keeping synchronized blockchain** across the network, if any block is added by a node, the new blockchain will be synchronized to all other node on network.
   
 * Blockchain is the same **linked list** data structure, Each block contain a **hash** of previous block
 
