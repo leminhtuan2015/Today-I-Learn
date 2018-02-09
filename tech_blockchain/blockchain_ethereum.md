@@ -23,3 +23,4 @@
 
 ### Ethereum Account
 * We **DO NOT have to** be conect to the internet or connect to blockchain to create a **Ethereum blockchain account**
+* Create account can happend **offline**
