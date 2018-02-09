@@ -1,6 +1,11 @@
+### Ethereum
 ### Ethereum miner
 
 ----------------------------------------------------------
+
+### Ethereum
+*  **Ethereum is an open software platform based on blockchain technology** that enables developers to build and deploy decentralized applications.
+* Ethereum is a distributed public blockchain network.
 
 ### Ethereum miner
 
