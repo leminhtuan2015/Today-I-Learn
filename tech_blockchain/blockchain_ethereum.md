@@ -1,4 +1,4 @@
-### Ethereum
+### Ethereum blockchain
 ### Ethereum miner
 
 ----------------------------------------------------------
