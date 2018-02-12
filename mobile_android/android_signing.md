@@ -1,3 +1,19 @@
+### keystore.properties
+
+```gradle
+# SHINCHAN
+# package name : vn.fujigame.shinchan.runner
+# SHA1: 52:9B:66:5E:55:2F:F4:BC:13:AA:C7:A9:DD:8F:38:73:C6:BD:44:0D
+
+storeFile=ks_ShinchanKasukabeRunner.keystore
+storePassword=5RfyRJxiCrMc
+keyPassword=DWGwjqdsf7v8
+keyAlias=ShinchanKasukabeRunner
+```
+
+
+### groupgo_release.keystore
+
 ```gradle
 apply plugin: 'com.android.application'
 
