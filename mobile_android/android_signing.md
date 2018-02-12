@@ -1,14 +1,14 @@
 ### keystore.properties
 
 ```gradle
-# SHINCHAN
-# package name : vn.fujigame.shinchan.runner
-# SHA1: 52:9B:66:5E:55:2F:F4:BC:13:AA:C7:A9:DD:8F:38:73:C6:BD:44:0D
+# Group_Go : keytool -list -v -keystore groupgo_release.keystore
+# package name :
+# SHA1: 5A:17:45:37:FE:E7:3E:A5:CE:AF:EF:3E:70:57:36:2E:F9:D5:BE:7A
 
-storeFile=groupgo_release.keystore
-storePassword=5RfyRJxiCrMc
-keyPassword=DWGwjqdsf7v8
-keyAlias=ShinchanKasukabeRunner
+storeFile=keystores/groupgo_release.keystore
+keyAlias=groupgo_release
+storePassword=LqEkejIL
+keyPassword=LqEkejIL
 ```
 
 
@@ -39,15 +39,7 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
-    defaultConfig {
-        applicationId "vn.fujigame.shinchan.runner"
-        minSdkVersion 16
-        targetSdkVersion 25
-        versionCode 11
-        versionName "1.1.1"
-    }
+
     buildTypes {
         debug {
             minifyEnabled false
