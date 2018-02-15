@@ -19,8 +19,6 @@
 * Xcode Build setting tab : HEADER_SEARCH_PATHS, Briding header
 * Build Phase > Copy files
 
-### React-native
-
 
 ### Blockchain
 
