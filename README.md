@@ -28,3 +28,7 @@ https://github.com/react-community/react-native-maps/issues/1465
 
 * https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54
 
+### Android
+
+xmlns:tools="http://schemas.android.com/tools">
+
