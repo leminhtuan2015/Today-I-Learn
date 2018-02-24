@@ -18,12 +18,13 @@ keyPassword=LqEkejIL
 apply plugin: 'com.android.application'
 
 //KEYSTORE
-def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystorePropertiesFile = rootProject.file("keystores/keystore.properties")
 def keystoreProperties = new Properties()
 keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 //END KEYSTORE
 
 android {
+    //BEGIN signingConfigs
     signingConfigs {
         release {
             storeFile rootProject.file(keystoreProperties['storeFile'])
@@ -39,6 +40,7 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
+    //END signingConfigs
 
     buildTypes {
         debug {
