@@ -30,7 +30,8 @@ https://github.com/react-community/react-native-maps/issues/1465
 
 ### Android
 
-* Track install from :  Play Install Referrer 
+* Track install from :  Android Play Install Referrer 
+* Android Deep Links
 
 * https://fabric.io/
   * Mobile crashlytics, Distribute .APK or .IPA for tester
