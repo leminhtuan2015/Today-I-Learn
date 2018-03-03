@@ -1,3 +1,8 @@
+### About Me
+
+* https://leminhtuan2015.github.io/LeMinhTuan_CV_2018_03.pdf
+
+
 ## To Do List
 
 Viettel HR: 097 327 5599
