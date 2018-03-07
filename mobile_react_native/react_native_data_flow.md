@@ -27,9 +27,13 @@
 
 
 ### React Native Connect
-  * subscribe the store when **did mount** (subscribe mean call re render when store change)
+  * subscribe the store when **did mount** (subscribe mean listening for store change)
   * unsubscribe the store when **will unmount**
-  * **subscribe** is the resason component will be re-render after reducer change state
+  * **subscribe** is the way component will be re-render after reducer change state
+  * In React-Native app, we have many **Component** but just which component is subscribing the **Store** will be call re render
+  
+  * Example: Components (Screens) A, B, C , the current component (screen) showing is **B** 
+    * **B** is showing => **B** subscribing the **Store** => when store change => re render **B** 
 
 ```js
 function connect(mapStateToProps, mapDispatchToProps) {
