@@ -1,6 +1,7 @@
 ### React Native Data flow
 ### React Native Redux Data flow
 ### React Native Redux Dispatch
+### React Native Connect
 
 ----------------------------------------------
 
@@ -23,3 +24,28 @@
 
 * When you call **this.props.dispatch({type: TYPE, data: {}})**
   * All reducers will be called and if which reducer equal the **type** will be used
+
+
+### React Native Connect
+
+```js
+function connect(mapStateToProps, mapDispatchToProps) {
+    ...
+    // It returns a component
+
+     componentDidMount() {
+       // it remembers to subscribe to the store so it doesn't miss updates
+       this.unsubscribe = store.subscribe(this.handleChange.bind(this))
+     }
+
+     componentWillUnmount() {
+       // and unsubscribe later
+       this.unsubscribe()
+     }
+
+     handleChange() {
+       // and whenever the store state changes, it re-renders.
+       this.forceUpdate()
+     }
+}
+```
