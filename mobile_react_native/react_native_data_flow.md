@@ -3,7 +3,7 @@
 
 ----------------------------------------------
 
-### React Native State
+### React Native Data flow
 
 * Component
   * state
@@ -13,7 +13,7 @@
 
 * this.setState() -> re render()
 
-### React Native Redux State
+### React Native Redux Data flow
 
 * When using Redux in React Native 
 * component -> dispatch(action) -> reducer -> new state -> re-render
