@@ -1,5 +1,6 @@
 ### React Native Data flow
 ### React Native Redux Data flow
+### React Native Redux Dispatch
 
 ----------------------------------------------
 
@@ -17,3 +18,8 @@
 
 * When using Redux in React Native 
 * component -> dispatch(action) -> reducer -> new state -> re-render
+
+### React Native Redux Dispatch
+
+* When you call **this.props.dispatch({type: TYPE, data: {}})**
+  * All reducers will be called and if which reducer equal the **type** will be used
