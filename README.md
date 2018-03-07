@@ -47,9 +47,6 @@ https://github.com/react-community/react-native-maps/issues/1465
 
 ### React native
 
-State of component change =>
-State of store change =>
+* RX lib
 
-RX lib
-
-Promiss + Saga
+* Promiss + Saga
