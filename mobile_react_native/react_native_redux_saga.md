@@ -1,5 +1,6 @@
-### Where do you put business logic + asynchronous actions in a React/Redux app?
-### Redux-Saga (for business logic +  asynchronous actions)
+### Where do you put asynchronous actions in a React/Redux app?
+### How to avoid callback hell, handle asynchronous flows.
+### Redux-Saga (for asynchronous actions)
 
 --------------------------------------------------------
 
@@ -19,6 +20,11 @@
 * Actions and Reducers are also the wrong place. Well, some might fit into a reducer. But as soon as you have async stuff (i.e. API calls) then it makes sense to have a separate layer for business logic.
 
 * When I started out, I tried thunks (via redux-thunk) and thought they were great. But over time it seemed like they weren't good enough. I struggled big time until I found **Redux-Saga**, which literally revolutionized the way I think about and write Redux code.
+
+### How to avoid callback hell, handle asynchronous flows.
+* If you have asynchronous actions in logic, you may be face callback-hell in your code, So **Redux Saga** will help you handle callback-hell.
+
+* **Redux Saga** allows you to write a complex sequence of synchronous and asynchronous events in a clear and declarative style without **callbacks**
 
 
 ### Redux-Saga (for business logic +  asynchronous actions)
