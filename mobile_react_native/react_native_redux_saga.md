@@ -1,6 +1,6 @@
 ### Where do you put asynchronous actions in a React/Redux app?
-### How to avoid callback hell, handle asynchronous flows.
-### Redux-Saga (for asynchronous actions)
+### How to avoid callback hell, handle asynchronous flows in a React/Redux app?
+### Redux-Saga (for asynchronous actions, avoid callback hell)
 
 --------------------------------------------------------
 
@@ -21,13 +21,13 @@
 
 * When I started out, I tried thunks (via redux-thunk) and thought they were great. But over time it seemed like they weren't good enough. I struggled big time until I found **Redux-Saga**, which literally revolutionized the way I think about and write Redux code.
 
-### How to avoid callback hell, handle asynchronous flows.
+### How to avoid callback hell, handle asynchronous flows in a React/Redux app?
 * If you have asynchronous actions in logic, you may be face callback-hell in your code, So **Redux Saga** will help you handle callback-hell.
 
 * **Redux Saga** allows you to write a complex sequence of synchronous and asynchronous events in a clear and declarative style without **callbacks**
 
 
-### Redux-Saga (for business logic +  asynchronous actions)
+### Redux-Saga (for asynchronous actions, avoid callback hell)
 
 * **redux-saga** is a **redux middleware**
 * **redux-saga** can access to the full **redux application state** and it can **dispatch redux actions** as well.
