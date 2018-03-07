@@ -1,7 +1,7 @@
 ### React Native Data flow
 ### React Native Redux Data flow
 ### React Native Redux Dispatch
-### React Native Connect
+### React Native Connect (Why, How, When Redux re-render a component (Screen))
 
 ----------------------------------------------
 
