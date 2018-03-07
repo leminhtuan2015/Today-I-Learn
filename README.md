@@ -49,3 +49,7 @@ https://github.com/react-community/react-native-maps/issues/1465
 
 State of component change =>
 State of store change =>
+
+RX lib
+
+Promiss + Saga
