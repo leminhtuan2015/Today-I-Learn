@@ -38,8 +38,6 @@
 * Config openURL on AppDelegate
 * Done
 
-
-
 ### Android Social Login
 
 #### Google (google-services.json, by default HAVE TO add into your YourProjectName/app/google-services.json)
