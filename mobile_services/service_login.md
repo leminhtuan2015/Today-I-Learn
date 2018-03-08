@@ -7,23 +7,23 @@
 ### IOS Social Login
 
 #### Google
-  * On Server Create a Firebase Project
-  * On Firebase project create IOS app (Dont need the same bundle id with app)
-  * Get Client_ID from GoogleService-Info.plist (at Firebase console)
-  * Install Google SDK on client (Pod or add .framework to project)
-  * Set GG Client_ID in code at client
-  * Config Info/URL on setting
-  * Config openURL on AppDelegate
-  * Done
+* On Server Create a Firebase Project
+* On Firebase project create IOS app (Dont need the same bundle id with app)
+* Get Client_ID from GoogleService-Info.plist (at Firebase console)
+* Install Google SDK on client (Pod or add .framework to project)
+* Set GG Client_ID in code at client
+* Config Info/URL on setting
+* Config openURL on AppDelegate
+* Done
 
 #### Facebook
-  * On Facebook Develop create a Facebook App
-  * Make app is live + Enable Single Sign On
-  * Copy XML contain Facebook ID to **info.plist**
-  * Install Facebook SDK on client (Pod or add .framework to project)
-  * Config Info/URL on setting
-  * Config openURL on AppDelegate
-  * Done
+* On Facebook Develop create a Facebook App
+* Make app is live + Enable Single Sign On
+* Copy XML contain Facebook ID to **info.plist**
+* Install Facebook SDK on client (Pod or add .framework to project)
+* Config Info/URL on setting
+* Config openURL on AppDelegate
+* Done
 
 
 
@@ -31,4 +31,13 @@
 
 #### Google
 
-#### Firebase
+#### Facebook
+* On Facebook Develop create a Facebook App
+* Make app is live + Enable Single Sign On
+* Add Facebook SDK (compile 'com.facebook.android:facebook-android-sdk:[4,5)')
+* Set **facebook_app_id** in AndroidManifest.xml.
+
+```xml
+<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+```
+
