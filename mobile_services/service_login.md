@@ -18,7 +18,7 @@
 
 #### Facebook
 * On Facebook Develop create a Facebook App
-* Make app is live + Enable Single Sign On
+* Make app is live + Enable Single Sign On for Your App
 * Copy XML contain Facebook ID to **info.plist**
 * Install Facebook SDK on client (Pod or add .framework to project)
 * Config Info/URL on setting
@@ -33,11 +33,17 @@
 
 #### Facebook
 * On Facebook Develop create a Facebook App
-* Make app is live + Enable Single Sign On
+* Make app is live + Enable Single Sign On for Your App
 * Add Facebook SDK (compile 'com.facebook.android:facebook-android-sdk:[4,5)')
 * Set **facebook_app_id** in AndroidManifest.xml.
 
 ```xml
 <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
 ```
+* Provide the Development and Release Key Hashes for Your App
+
+
+
+
+
 
