@@ -11,7 +11,7 @@
   * On Firebase project create IOS app
   * Get Client_ID from GoogleService-Info.plist (at Firebase console)
   * Install Google SDK on client (Pod or add .framework to project)
-  * Set GG Client_ID at client
+  * Set GG Client_ID in code at client
   * Config Info/URL on setting
   * Config openURL on AppDelegate
   * Done
@@ -28,3 +28,7 @@
 
 
 ### Android Social Login
+
+#### Google
+
+#### Firebase
