@@ -5,7 +5,7 @@
 ------------------------------------------------------
 
 * NOTICE For Login: 
-  * **Android** : Google Login need add **google-services.json** to project
+  * **Android** : Google Login need add **google-services.json** by default, or may be not need if we config
   * **IOS** : Google Login **NOT** need add **GoogleService-Info.plist** to project
   
 * NOTICE For Firebase:
@@ -39,11 +39,29 @@
 
 ### Android Social Login
 
-#### Google (google-services.json, HAVE TO add into your YourProjectName/app/google-services.json)
+#### Google (google-services.json, by default HAVE TO add into your YourProjectName/app/google-services.json)
 * On Server Create a Firebase Project
 * On Firebase project create Android app
 * Download and add **google-services.json** file to your project (YourProjectName/app/google-services.json)
 * Install Google Service on project (compile 'com.google.android.gms:play-services-auth:11.8.0')
+
+* IF you do not want to add **google-services.json** you can config as below:
+
+  * Deleting **apply plugin: 'com.google.gms.google-services' from your app build.gradle**
+  * Deleting the google-services.json from your project
+  * Removing the google-services plugin from your root build.gradle
+  * Config code : (this make google not load default from google-services.json)
+```java
+    public static final String CLIENT_ID = "27075818457-79ejo179an04f7up29jdrp28nbr0tht7.apps.googleusercontent.com";
+    public static final String CLIENT_SECRET = "LsAyDKUGccqYURXueUx9p2TZ";
+
+    private static GoogleSignInOptions gso = new GoogleSignInOptions
+            .Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(CLIENT_ID)
+            .requestServerAuthCode(CLIENT_ID)
+            .requestEmail()
+            .build();
+```
 
 #### Facebook
 * On Facebook Develop create a Facebook App
