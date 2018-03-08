@@ -22,6 +22,9 @@
 * Get Client_ID from **GoogleService-Info.plist** (at Firebase console)
 * Install Google SDK on project (Pod or add .framework to project)
 * Set GG Client_ID in code at client
+  ```swift
+      GIDSignIn.sharedInstance().clientID = "1000219161365-8h5c1ff11i0992er41gvevjc6iqj50ma.apps.googleusercontent.com"
+  ```
 * Config Info/URL on setting
 * Config openURL on AppDelegate
 * Done
