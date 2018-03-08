@@ -6,7 +6,7 @@
 
 * NOTICE : 
   * Android Google Login need add **google-services.json** to project
-  * IOS Google Login **NOT** need addGoogleService-Info.plist to project
+  * IOS Google Login **NOT** need add **GoogleService-Info.plist** to project
 
 
 ### IOS Social Login
