@@ -8,7 +8,7 @@
 
 #### Google
   * On Server Create a Firebase Project
-  * On Firebase project create IOS app
+  * On Firebase project create IOS app (Dont need the same bundle id with app)
   * Get Client_ID from GoogleService-Info.plist (at Firebase console)
   * Install Google SDK on client (Pod or add .framework to project)
   * Set GG Client_ID in code at client
