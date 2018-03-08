@@ -1,5 +1,6 @@
 ### Redux Saga Methods
 ### Redux Saga CALL Method
+### Redux Saga CALL with parameter is a Promise
 
 ------------------------------------------
 
