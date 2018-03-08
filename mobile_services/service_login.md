@@ -40,10 +40,14 @@
 ### Android Social Login
 
 #### Google (google-services.json, by default HAVE TO add into your YourProjectName/app/google-services.json)
+
+##### Case 1: (Default) need google-services.json  in you project
 * On Server Create a Firebase Project
 * On Firebase project create Android app
 * Download and add **google-services.json** file to your project (YourProjectName/app/google-services.json)
 * Install Google Service on project (compile 'com.google.android.gms:play-services-auth:11.8.0')
+
+##### Case 2: NOT need google-services.json  in you project
 
 * IF you do not want to add **google-services.json** you can config as below:
 
