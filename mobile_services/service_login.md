@@ -1,14 +1,17 @@
 ### IOS Social Login
 ### Android Social Login
-### IOS Firebase Backend
-### Android Firebase Backend
 
 
 ------------------------------------------------------
 
-* NOTICE : 
-  * Android Google Login need add **google-services.json** to project
-  * IOS Google Login **NOT** need add **GoogleService-Info.plist** to project
+* NOTICE For Login: 
+  * **Android** : Google Login need add **google-services.json** to project
+  * **IOS** : Google Login **NOT** need add **GoogleService-Info.plist** to project
+  
+* NOTICE For Firebase:
+
+  * **Android** : Firebase do need add **google-services.json** to project
+  * **IOS** :  Firebase do need add **GoogleService-Info.plist** to project
 
 
 ### IOS Social Login
