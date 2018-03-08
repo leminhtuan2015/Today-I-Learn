@@ -4,13 +4,18 @@
 
 ------------------------------------------------------
 
+* NOTICE : 
+  * Android Google Login need add **google-services.json** to project
+  * IOS Google Login **NOT** need addGoogleService-Info.plist to project
+
+
 ### IOS Social Login
 
-#### Google
+#### Google (GoogleService-Info.plist, NOT need to add to Xcode project)
 * On Server Create a Firebase Project
 * On Firebase project create IOS app (Dont need the same bundle id with app)
-* Get Client_ID from GoogleService-Info.plist (at Firebase console)
-* Install Google SDK on client (Pod or add .framework to project)
+* Get Client_ID from **GoogleService-Info.plist** (at Firebase console)
+* Install Google SDK on project (Pod or add .framework to project)
 * Set GG Client_ID in code at client
 * Config Info/URL on setting
 * Config openURL on AppDelegate
@@ -20,7 +25,7 @@
 * On Facebook Develop create a Facebook App
 * Make app is live + Enable Single Sign On for Your App
 * Copy XML contain Facebook ID to **info.plist**
-* Install Facebook SDK on client (Pod or add .framework to project)
+* Install Facebook SDK on project (Pod or add .framework to project)
 * Config Info/URL on setting
 * Config openURL on AppDelegate
 * Done
@@ -29,12 +34,16 @@
 
 ### Android Social Login
 
-#### Google
+#### Google (google-services.json, HAVE TO add into your YourProjectName/app/google-services.json)
+* On Server Create a Firebase Project
+* On Firebase project create Android app
+* Download and add **google-services.json** file to your project (YourProjectName/app/google-services.json)
+* Install Google Service on project (compile 'com.google.android.gms:play-services-auth:11.8.0')
 
 #### Facebook
 * On Facebook Develop create a Facebook App
 * Make app is live + Enable Single Sign On for Your App
-* Add Facebook SDK (compile 'com.facebook.android:facebook-android-sdk:[4,5)')
+* Install Facebook SDK on project (compile 'com.facebook.android:facebook-android-sdk:[4,5)')
 * Set **facebook_app_id** in AndroidManifest.xml.
 
 ```xml
