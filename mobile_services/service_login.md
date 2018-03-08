@@ -5,7 +5,7 @@
 ------------------------------------------------------
 
 * NOTICE For Login: 
-  * **Android** : Google Login need add **google-services.json** by default, or may be not need if we config
+  * **Android** : Google Login need add **google-services.json** by default, or may be **NOT need** if we config
   * **IOS** : Google Login **NOT** need add **GoogleService-Info.plist** to project
   
 * NOTICE For Firebase:
