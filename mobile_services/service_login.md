@@ -29,9 +29,7 @@
 * Config openURL on AppDelegate
 * Done
 
-### Android
-
-#### Google (google-services.json, NOT need to add to Android project )
+#### Android (google-services.json, NOT need to add to Android project ))
 
 ##### Case 1: (Default) need google-services.json  in you project
 * On Server Create a Firebase Project
