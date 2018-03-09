@@ -1,22 +1,22 @@
-### IOS Social Login
-### Android Social Login
+### Social Login Google
+### Social Login Facebook
+### Backend Firebase
 
 
 ------------------------------------------------------
 
-* NOTICE For **Login**: 
-  * **Android** : Google Login or need add **google-services.json** by default, or may be **NOT need** if we config
-  * **IOS** : Google Login **NOT** need add **GoogleService-Info.plist** to project
+* NOTICE For **Social Login**: 
+  * **Android** : Google Login **NOT** need to add **google-services.json** to project
+  * **IOS** : Google Login **NOT** need to add **GoogleService-Info.plist** to project
   
-* NOTICE For **Firebase**:
+* NOTICE For **Backend Firebase**:
 
   * **Android** : Firebase do need add **google-services.json** to project
   * **IOS** :  Firebase do need add **GoogleService-Info.plist** to project
 
+### Social Login Google
 
-### IOS Social Login
-
-#### Google (GoogleService-Info.plist, NOT need to add to Xcode project)
+#### IOS (GoogleService-Info.plist, NOT need to add to Xcode project)
 * On Server Create a Firebase Project
 * On Firebase project create IOS app (Dont need the same bundle id with app)
 * Get Client_ID from **GoogleService-Info.plist** (at Firebase console)
@@ -29,18 +29,9 @@
 * Config openURL on AppDelegate
 * Done
 
-#### Facebook
-* On Facebook Develop create a Facebook App
-* Make app is live + Enable Single Sign On for Your App
-* Copy XML contain Facebook ID to **info.plist**
-* Install Facebook SDK on project (Pod or add .framework to project)
-* Config Info/URL on setting
-* Config openURL on AppDelegate
-* Done
+### Android
 
-### Android Social Login
-
-#### Google (google-services.json, by default HAVE TO add into your YourProjectName/app/google-services.json)
+#### Google (google-services.json, NOT need to add to Android project )
 
 ##### Case 1: (Default) need google-services.json  in you project
 * On Server Create a Firebase Project
@@ -68,16 +59,46 @@
             .build();
 ```
 
-#### Facebook
+
+### Social Login Facebook
+
+#### IOS (Config Facebook ID in info.plist)
 * On Facebook Develop create a Facebook App
 * Make app is live + Enable Single Sign On for Your App
-* Install Facebook SDK on project (compile 'com.facebook.android:facebook-android-sdk:[4,5)')
-* Set **facebook_app_id** in AndroidManifest.xml.
+* Copy XML contain Facebook ID to **info.plist**
+* Install Facebook SDK on project (Pod or add .framework to project)
+* Config Info/URL on setting
+* Config openURL on AppDelegate
+* Done
 
 ```xml
-<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+<!-- Facebook ID to **info.plist** -->
+
+<key>FacebookAppID</key>
+	<string>1118793734903549</string>
+	<key>FacebookDisplayName</key>
+	<string>Fujigame</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 ```
+
+#### Android (Config Facebook ID in AndroidManifest.xml)
+* On Facebook Develop create a Facebook App
+* Make app is live + Enable Single Sign On for Your App
+* Set **facebook_app_id** in AndroidManifest.xml.
+* Install Facebook SDK on project : (compile 'com.facebook.android:facebook-android-sdk:4,5)'
 * Provide the Development and Release Key Hashes for Your App
+
+```xml
+<!-- Facebook ID to **AndroidManifest.xml** -->
+  <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+```
+
 
 
 
