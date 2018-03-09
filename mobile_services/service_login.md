@@ -37,7 +37,9 @@
 * On Server Create a Firebase Project
 * On Firebase project create Android app
 * Download and add **google-services.json** file to your project (YourProjectName/app/google-services.json)
-* Install Google Service on project (compile 'com.google.android.gms:play-services-auth:11.8.0')
+* Install Google Service on project 
+  * (compile 'com.google.android.gms:play-services-auth:11.8.0')
+  * apply plugin: 'com.google.gms.google-services' from your app build.gradle
 
 ##### Case 2: NOT need google-services.json  in you project
 
