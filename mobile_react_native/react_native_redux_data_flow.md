@@ -2,6 +2,7 @@
 ### Redux Data flow
 ### Redux Dispatch
 ### Redux Connect (Why, How, When Redux re-render a component (Screen))
+### Redux Connect + React Native Navigation : EXCEPTION
 
 ----------------------------------------------
 
@@ -62,3 +63,30 @@ function connect(mapStateToProps, mapDispatchToProps) {
      }
 }
 ```
+
+### Redux Connect + React Native Navigation : EXCEPTION
+
+* When using Redux + React Native Navigation Do not know why **componentWillUnmount** is not called => Screen still subscribe the store when we move to other screen  => Each time store updated by reducer , that screen still call re render
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
