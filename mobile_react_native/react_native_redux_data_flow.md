@@ -66,7 +66,13 @@ function connect(mapStateToProps, mapDispatchToProps) {
 
 ### Redux Connect + React Native Navigation : EXCEPTION
 
-* When using Redux + React Native Navigation Do not know why **componentWillUnmount** is not called => Screen still subscribe the store when we move to other screen  => Each time store updated by reducer , that screen still call re render
+* Screen A -> B -> C
+
+* When using Redux + React Native Navigation Do not know why **componentWillUnmount** is not called
+
+* Screen A still subscribe the store when we move to screen B => Each time store updated by reducer, screen A still call re render => When update store both A, B screen will be call re render
+
+* This is **React Native Navigation : EXCEPTION** because with nomal React Native, when the component is hide => that will call **componentWillUnmount**  => that component will un-subscribe the store => that will not re render when reducer update store
 
 
 
