@@ -1,16 +1,11 @@
 ### Component Lifecycles
-### Component APIs
-### Component Class Properties
-### Component Instance Properties
 ### Functions
   * Function **constructor()**
   * Function **setState()**
 
 ### Redux: this.props.dispatch({}) + Component API: componentWillReceiveProps()
-  
-### https://reactjs.org/docs/react-component.html
------------------------------------
 
+-----------------------------------
 
 ### Component Lifecycles
 * **Create instant of component**
