@@ -47,6 +47,6 @@ https://github.com/react-community/react-native-maps/issues/1465
 
 ### React native
 * https://rnfirebase.io
-* RX lib
+* RX lib : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 
 * Promiss + Saga
