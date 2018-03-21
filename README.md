@@ -50,3 +50,9 @@ https://github.com/react-community/react-native-maps/issues/1465
 * RX lib : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 * ReactiveX : http://reactivex.io/rxjs/
 * Promiss + Saga
+
+
+* https://www.meteor.com
+
+
+
