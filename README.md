@@ -64,7 +64,7 @@ https://github.com/react-community/react-native-maps/issues/1465
   * What is the features of this project.
   
 2. From requirement create a script of project
-  * Tạo ra kịch bản sử dụng của từng chức năng
+  * Tạo ra kịch bản sử dụng của từng chức năng
   
 3. Create mockup screen
 
