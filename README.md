@@ -46,7 +46,27 @@ https://github.com/react-community/react-native-maps/issues/1465
 * Access Token
 
 ### React native
-
-* RX lib
-
+* https://rnfirebase.io
+* RX lib : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+* ReactiveX : http://reactivex.io/rxjs/
 * Promiss + Saga
+
+
+* https://www.meteor.com
+
+
+
+### Project Mângerment
+
+1. Get requirement
+  * What is the purpose of this project
+  * Does this have a similar project (app, web)?
+  * What is the features of this project.
+  
+2. From requirement create a script of project
+  * Tạo ra kịch bản sử dụng của từng chức năng
+  
+3. Create mockup screen
+
+4. Coding.
+

@@ -1,7 +1,8 @@
 ### React Native Data flow
-### React Native Redux Data flow
-### React Native Redux Dispatch
-### React Native Connect (Why, How, When Redux re-render a component (Screen))
+### Redux Data flow
+### Redux Dispatch
+### Redux Connect (Why, How, When Redux re-render a component (Screen))
+### Redux Connect + React Native Navigation : EXCEPTION
 
 ----------------------------------------------
 
@@ -15,19 +16,23 @@
 
 * this.setState() -> re render()
 
-### React Native Redux Data flow
+### Redux Data flow
 
 * When using Redux in React Native 
 * component -> dispatch(action) -> reducer -> new state -> re-render
 
-### React Native Redux Dispatch
+### Redux Dispatch
 
 * When you call **this.props.dispatch({type: TYPE, data: {}})**
   * All reducers will be called and if which reducer equal the **type** will be used
 
 
-### React Native Connect 
+### Redux Connect
+
 #### Why, How, When Redux re-render a component (Screen)
+  * Khi Reducer thay đổi giá trị của store thì chỉ duy nhất component (screen) nào đang active (đang subscribe to store by connect) sẽ được gọi hàm **render()**
+  
+  * EX: Có n screen, A, B , C , ..., Screen B đang active, khi reducer update store thì chỉ duy nhất Screen B gọi hàm **render** vì Screen B đang **Subscribe** store
 
   * subscribe the store when **did mount** (subscribe mean listening for store change)
   * unsubscribe the store when **will unmount**
@@ -58,3 +63,36 @@ function connect(mapStateToProps, mapDispatchToProps) {
      }
 }
 ```
+
+### Redux Connect + React Native Navigation : EXCEPTION
+
+* Screen A -> B -> C
+
+* When using Redux + React Native Navigation Do not know why **componentWillUnmount** is not called
+
+* Screen A still subscribe the store when we move to screen B => Each time store updated by reducer, screen A still call re render => When update store both A, B screen will be call re render
+
+* This is **React Native Navigation : EXCEPTION** because with nomal React Native, when the component is hide => that will call **componentWillUnmount**  => that component will un-subscribe the store => that will not re render when reducer update store
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

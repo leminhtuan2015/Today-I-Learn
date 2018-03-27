@@ -46,5 +46,6 @@ allprojects {
 dependencies {
     ...
     compile "com.android.support:support-core-utils:25.3.1"
+    compile "com.android.support:appcompat-v7:23.0.1"
 }
 ```
