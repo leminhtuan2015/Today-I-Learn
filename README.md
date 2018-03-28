@@ -4,10 +4,6 @@
 
 
 ## To Do List
-
-Viettel HR: 097 327 5599
-
-https://github.com/react-community/react-native-maps/issues/1465
  
 ----------------------------------------------------------------------------
 
@@ -46,9 +42,7 @@ https://github.com/react-community/react-native-maps/issues/1465
 * Access Token
 
 ### React native
-* https://rnfirebase.io
-* RX lib : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
-* ReactiveX : http://reactivex.io/rxjs/
+* RX : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 * Promiss + Saga
 
 
