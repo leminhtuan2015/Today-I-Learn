@@ -45,6 +45,8 @@
 * RX : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 * Promiss + Saga
 
-
-
+* https://www.npmjs.com/package/rocketchat
+* https://github.com/JSzaszvari/rocketchat-ddp-listener/blob/master/package.json
+* https://www.npmjs.com/package/react-ddp
+* wss://open.rocket.chat/websocket
 
