@@ -50,3 +50,14 @@
 * https://www.npmjs.com/package/react-ddp
 * wss://open.rocket.chat/websocket
 
+* https://github.com/JSzaszvari/rocketchat-ddp-listener/blob/master/listen_to_room.js
+* https://www.npmjs.com/package/ddp
+* https://www.npmjs.com/package/react-native-meteor#meteorconnectendpoint-options
+* https://github.com/vsivsi/ddp-login/blob/master/src/index.coffee
+* https://rocket.chat/docs/developer-guides/realtime-api/method-calls/
+* https://rocket.chat/docs/developer-guides/realtime-api/subscriptions/
+* https://rocket.chat/docs/developer-guides/realtime-api/method-calls/login/
+
+
+
+
