@@ -11,7 +11,7 @@
  - Step 1: Create Certificate
  - Step 2: Create Provision
  - Step 3: Click on Certificate to add it to Keychain Access
- - Step 4: In Xcode link app to Provision (General tab -> Signing)
+ - Step 4: In Xcode link app to Provision file (General tab -> Signing), Xcode can **auto** find Provision file with matched bundle id
  - Step 5: Run/Build/Install to Iphone
  
 ### Certificate
