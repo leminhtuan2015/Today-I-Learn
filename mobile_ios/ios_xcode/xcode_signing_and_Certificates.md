@@ -22,7 +22,7 @@
 * Each app have one **Provisioning profile** and one **App id** 
 
 #### Create Certificate
-
+* Step 0: Certificate must contain your **Private Key** => You have create **.certSigningRequest** file on your Macbook first.
 * Step 1: Open Keychain Access
 * Step 2: Keychain Access > Certificate Assistant > Request a Certificate From a Certificate Authority > Saved to disk > **CertificateSigningRequest.certSigningRequest**
 * Step 3: On https://developer.apple.com/account/ > Certificate > Click on + to create Certificate > browse CertificateSigningRequest.certSigningRequest above
