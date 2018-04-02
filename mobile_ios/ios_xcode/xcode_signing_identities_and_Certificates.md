@@ -31,10 +31,10 @@
 
 * Provisioning profile at local: Users/[TUAN]/Library/MobileDevice/Provisioning\ Profiles
 * Provisioning profile Include: 
-     - certificates that can be used to sign the application
-     - bundle identifier
-     - method of deployment
-     - team identifier
+  * certificates that can be used to sign the application
+  * bundle identifier
+  * method of deployment
+  * team identifier
      
 #### Provisioning used for:
  - 1: Phải Provisioning mới có thể cài app lên thiết bị
