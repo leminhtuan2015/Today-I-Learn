@@ -8,7 +8,7 @@
 ### Code Signing
 * All apps must be **signed** to launch on a device, or to be uploaded to iTunes Connect
   
-#### Sign app
+#### Sign app step by step
 
 * Step 1: Create Certificate
 * Step 2: Create Provision
