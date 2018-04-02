@@ -1,9 +1,6 @@
 ### Code Signing
+### Certificate
 ### Provisioning profile
-### XCode Signing Identity and Provisioning Profiles
-### First time build and submit to Apple store
-### Export Apple Account
-### TL;DR
 
 
 -------------------------------------------
@@ -16,6 +13,8 @@
  - Step 3: Click on Certificate to add it to Keychain Access
  - Step 4: In Xcode link app to Provision (General tab -> Signing)
  - Step 5: Run/Build/Install to Iphone
+ 
+### Certificate
   
 ### Provisioning profile
   - Users/[TUAN]/Library/MobileDevice/Provisioning\ Profiles
