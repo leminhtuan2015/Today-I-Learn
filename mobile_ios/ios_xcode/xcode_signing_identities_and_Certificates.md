@@ -54,14 +54,14 @@
   * method of deployment
   * team identifier
   
-#### See Provisioning profile info
+#### Open Provisioning profile info
 * 1st way:
+
 ```sh
 security cms -D -i file.mobileprovision
 ```
 
 * 2nd way:
-
   * In Xcode
 
 #### Create Provisioning profile
@@ -69,8 +69,6 @@ security cms -D -i file.mobileprovision
 * Provisioning profile contain App Id + certificates infomation
 * Certificates + App ID must create first before you create Provisioning profile
  
-#### Chý ý
- - Tip & Trick để có thể cài app lên iphone mà không cần qua Apple Store hay không cần Provisioning là bạn phải ***Jail break*** máy
 
   
   
