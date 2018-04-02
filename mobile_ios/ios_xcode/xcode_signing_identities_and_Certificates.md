@@ -23,18 +23,19 @@
 
   
 ### Provisioning profile
-  - Users/[TUAN]/Library/MobileDevice/Provisioning\ Profiles
-  - **provisioning profile** là tên gọi của các file provision mà do Dev tạo ra, file này chứa những thông tin về người tạo ra app và ID của app như
-     - certificates that can be used to sign the application
+* Sử dụng file provisioning profile để provision lên app
+* Mục đích Provisioning là:
+  * để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
+  * để app có thể submit lên Appstore
+  * nếu KHÔNG Provisioning thì app không thể cài được trên các thiết bị Apple (IPhone, IPad)
+
+* Provisioning profile at local: Users/[TUAN]/Library/MobileDevice/Provisioning\ Profiles
+* Provisioning profile Include: 
+     - certificates that can be used to sign the application
      - bundle identifier
      - method of deployment
      - team identifier
-  - Sử dụng file provisioning profile để provision lên app
-  - Mục đích Provisioning là:
-    - để app có thể cài lên được các thiết bị của Apple (IPhone, IPad)
-    - để app có thể submit lên Appstore
-    - nếu KHÔNG Provisioning thì app không thể cài được trên các thiết bị Apple (IPhone, IPad)
-
+     
 #### Provisioning used for:
  - 1: Phải Provisioning mới có thể cài app lên thiết bị
  - 2: Khi đã Provisioning thì chỉ có thể cài thông qua Apple store
