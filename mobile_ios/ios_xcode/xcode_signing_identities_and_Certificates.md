@@ -68,6 +68,7 @@ security cms -D -i file.mobileprovision
 * Provisioning profile is just a **plist** file contain infomation
 * Provisioning profile contain App Id + certificates infomation
 * Certificates + App ID must create first before you create Provisioning profile
+* On https://developer.apple.com/account/ > Provisioning profile > select certificates and App Id > Download Provisioning profile
  
 
   
