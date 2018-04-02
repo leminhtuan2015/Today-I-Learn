@@ -1,6 +1,6 @@
 ### Code Signing
 ### Certificate
-### App ID
+### App ID (Bundle ID)
 ### Provisioning profile
 
 -------------------------------------------
