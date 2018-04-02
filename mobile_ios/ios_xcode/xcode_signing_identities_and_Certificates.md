@@ -2,7 +2,6 @@
 ### Certificate
 ### Provisioning profile
 
-
 -------------------------------------------
 
 ### Code Signing
@@ -10,16 +9,29 @@
   
 #### Sign app step by step
 
-* Step 1: Create Certificate
+* Step 0: Create Certificate
+* Step 1: Create App Id
 * Step 2: Create Provision
-* Step 3: Click on Certificate to add it to Keychain Access
+* Step 3: Double Click on Certificate (file.cer) to add it to Keychain Access
 * Step 4: In Xcode link app to Provision file (General tab -> Signing), Xcode can **auto** find Provision file with matched bundle id
 * Step 5: Run/Build/Install to Iphone
  
 ### Certificate
-
 * Each account should have only one **Certificate** for sign apps
 * Each app have one **Provisioning profile** and one **App id** 
+
+#### Create Certificate
+
+* Step 1: Open Keychain Access
+* Step 2: Keychain Access > Certificate Assistant > Request a Certificate From a Certificate Authority > Saved to disk > **CertificateSigningRequest.certSigningRequest**
+* Step 3: On https://developer.apple.com/account/ > Certificate > Click on + to create Certificate > browse CertificateSigningRequest.certSigningRequest above
+* Step 4: Download file **.cer**, Double click to import to Keychain Access
+
+#### Export Certificate to other machine
+
+* Step 1: Open Keychain Access
+* Step 2: Select both private key + .cer > Right click > export to **.p12**
+* Step 3: Double click on **.p12** to import Certificate on other Macbook
 
   
 ### Provisioning profile
