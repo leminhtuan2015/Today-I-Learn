@@ -8,6 +8,8 @@
 
 -----------------------------------------------------
 
+* https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee
+
 ### Javascript Asynchronous
 
 * In programming languages like Java, C#, ..., we have **main thread** and other threads that **runs code in parallel** to the **main thread**
