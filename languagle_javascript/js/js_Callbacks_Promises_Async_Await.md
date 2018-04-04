@@ -2,6 +2,8 @@
 ### Javascript Callbacks
 ### Javascript Callback hell
 ### Javascript Promises
+### Javascript Callbacks - Promises Compare
+### Turn "callback based asynchronous" into "Promise based"
 ### Javascript Async/Await
 
 -----------------------------------------------------
@@ -65,7 +67,8 @@ request("http://xxx", function (firstError, firstResponse, firstBody) {
   * **then(…)**  : for when a successful result is available
   * **catch(…)** : for when something went wrong
   
-* **Promises** will remove **Callback Hell**
+* Instead of nesting callbacks inside callbacks inside callbacks, you chain **.then()** calls together making it more readable and easier to follow
+* Example **Promises** will remove **Callback Hell**
   
 ```js
 const axios = require(‘axios’);
@@ -85,4 +88,66 @@ axios.get("http://xxx")
     // Handle error.
 });
 ```
+
+* .then() should either return a new Promise or just a value or object which will be passed to the next .then() in the chain
+
+### Javascript Callbacks - Promises Compare
+
+* The main difference between **Callback-based APIs** and **Promise-based API**
+* Callback-based APIs is it does not return a value, it just executes the callback function with the result.
+* Promise-based API immediately returns a Promise that wraps the asynchronous operation
+
+
+### Turn "callback based asynchronous" into "Promise based"
+
+* The process of wrapping a callback based asynchronous function inside a Promise and return that promise instead is called **promisification**. 
+
+* We can Turn **callback based asynchronous operation** into **Promise based** <=> **promisifying** a callback-based function.
+
+* We can wrap a callback based asynchronous operation with a Promise like this:
+
+```js
+function getAsyncData(someValue){
+    return new Promise(function(resolve, reject){
+        getData(someValue, function(error, result){
+            if(error){
+                reject(error);
+            } else {
+                resolve(result);
+            }
+        })
+    });
+}
+```
+
+```js
+getAsyncData(“someValue”)
+// Calling resolve in the Promise will get us here, to the first then(…)
+.then(function(result){
+    // Do stuff
+})
+// Calling reject in the Promise will get us here, to the catch(…)
+// Also if there is an error in any then(..) it will end up here
+.catch(function(error){
+    // Handle error
+});
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
