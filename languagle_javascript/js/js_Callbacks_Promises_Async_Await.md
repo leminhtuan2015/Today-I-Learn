@@ -57,6 +57,32 @@ request("http://xxx", function (firstError, firstResponse, firstBody) {
 * When you have a callback in a callback like this, the code tends to be a bit less readable and a bit messy
 * In some cases you may have a callback in a callback in a callback => **"callback hell"**
 
+### Javascript Promises
 
+* A promise is an object that wraps an asynchronous operation and notifies when it’s done.
+* A promise sounds exactly like callbacks, but the important differences are in the usage of Promises
+* The methods a promise provides are 
+  * **then(…)**  : for when a successful result is available
+  * **catch(…)** : for when something went wrong
+  
+* **Promises** will remove **Callback Hell**
+  
+```js
+const axios = require(‘axios’);
 
+axios.get("http://xxx")
+.then(function (response) { 
+    // Reponse being the result of the first request
+    // Returns another promise to the next .then(..) in the chain
+    
+    return axios.get("http://yyy}");
+})
+.then(function response { 
+    // Reponse being the result of the second request
+    // Handle response
+})
+.catch(function (error) {
+    // Handle error.
+});
+```
 
