@@ -6,9 +6,9 @@
 ### Turn "callback based asynchronous" into "Promise based"
 ### Javascript Async/Await
 
------------------------------------------------------
-
 * https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee
+
+-----------------------------------------------------
 
 ### Javascript Asynchronous
 
