@@ -1,7 +1,7 @@
-#### API
+#### API AppRegistry
 
 -----------------
 
-#### API
+#### API AppRegistry
 
-* AppRegistry.registerComponent('demo_react_native', () => Home);
+* AppRegistry is the **JS entry point** to running all React Native apps
