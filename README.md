@@ -46,5 +46,12 @@
 * Promiss + Saga
 
 
+--------------------
+
+* https://isach.info/story.php?list=story&category=kiem_hiep
+* https://linktruyen.com/the-loai/kiem-hiep.5.html
+* https://sites.google.com/site/vuvandailang/Home/ebook---link-mega/epub-truyen-kiem-hiep
+* https://github.com/FolioReader/FolioReader-Android
+
 
 
