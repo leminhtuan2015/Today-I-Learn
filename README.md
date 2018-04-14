@@ -51,7 +51,8 @@
 * https://isach.info/story.php?list=story&category=kiem_hiep
 * https://linktruyen.com/the-loai/kiem-hiep.5.html
 * https://sites.google.com/site/vuvandailang/Home/ebook---link-mega/epub-truyen-kiem-hiep
-* https://github.com/FolioReader/FolioReader-Android
+* http://www.mediafire.com/?zdp2tpd6unh63
+* http://www.vishareclub.com/2014/02/download-truyen-kiem-hiep/
 
 
 
