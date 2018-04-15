@@ -20,3 +20,6 @@
 
 ## IOS
 
+1. Connect your device to your Mac with a Lightning cable.
+2. Xcode > Window > Devices and Simulators > select **Connect via network** checkbox
+3. Disconnect your device cabe.
