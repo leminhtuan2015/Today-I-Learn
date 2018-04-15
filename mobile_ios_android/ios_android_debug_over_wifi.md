@@ -3,7 +3,9 @@
 
 ### How to Debug Your Android App over WiFi
 
-* You can connect **Android Studio** with **SmartPhone** over **Wifi**
+* You can connect **Android Studio**/**Xcode >=9** with **SmartPhone** over **Wifi**
+
+## ANDROID
 
 1. Connect the device via USB and make sure debugging is working, check by:
     * **adb devices**
@@ -14,3 +16,7 @@
     * **adb connect <DEVICE_IP_ADDRESS>:5555**
 5. Disconnect USB and proceed with wireless debugging.
 6. adb -s <DEVICE_IP_ADDRESS>:5555 usb to switch back when done.
+
+
+## IOS
+
