@@ -45,7 +45,7 @@
 * RX : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 * Promiss + Saga
 
-
+* runAfterInteractions + RN Navigation + setParams
 --------------------
 
 * https://isach.info/story.php?list=story&category=kiem_hiep
