@@ -38,5 +38,19 @@
 
 * runAfterInteractions + RN Navigation + setParams
 
+### Test
+
+1. Login screen
+  - Check password have at lead 1 Upper case char
+  - Username > 4 charactor
+  - If Username or password in-valid => SHow message 
+
+2. Search image screen
+  - After login success => go to search screen
+  - search field + submit button
+  - After click submit : search image and display as listview
+  
+  
+
 
 
