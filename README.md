@@ -50,7 +50,9 @@
   - search field + submit button
   - After click submit : search image and display as listview
   
-  
+3. 
+- API: https://jsonplaceholder.typicode.com
+- Photos: https://jsonplaceholder.typicode.com/photos
 
 
 
