@@ -56,3 +56,25 @@
 
 
 
+--------
+
+1. What is static variable (class variable)
+2. What is pointer?
+3. Data structures
+ - List (countable number of ordered values, where the same value may occur more than once), 
+ - Map (k-v)
+ - Set (without any particular order, and no repeated values)
+ - Stack
+ - Queue
+
+4. OOP vs FP which do you prefer?
+
+4.1 How to compare 2 object?
+  -
+  - 
+4.2 First-class and higher-order functions 
+  - take other functions as arguments or return them as results
+  -  supports passing functions as arguments to other functions
+
+
+
