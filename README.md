@@ -67,8 +67,7 @@
 4. OOP vs FP which do you prefer?
 
 4.1 How to compare 2 object?
-  -
-  - 
+
 4.2 First-class and higher-order functions 
   - take other functions as arguments or return them as results
   -  supports passing functions as arguments to other functions
