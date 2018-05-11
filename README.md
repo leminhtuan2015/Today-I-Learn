@@ -35,6 +35,14 @@
 
 * runAfterInteractions + RN Navigation + setParams
 
+* https://github.com/strapi/strapi
+* https://expo.io/learn
+
+
+
+
+
+
 ### Test
 
 1. Login screen
