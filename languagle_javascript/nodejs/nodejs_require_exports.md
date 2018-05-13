@@ -6,6 +6,10 @@
 
 * The export statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
 
+* There are two different types of export:
+  * export named
+  * export default
+
 ```js
 export { name1, name2, …, nameN };
 export { variable1 as name1, variable2 as name2, …, nameN };
