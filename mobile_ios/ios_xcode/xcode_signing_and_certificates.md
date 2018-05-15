@@ -28,7 +28,9 @@
 * Step 3: On https://developer.apple.com/account/ > Certificate > Click on + to create Certificate > browse CertificateSigningRequest.certSigningRequest above
 * Step 4: Download file **.cer**, Double click to import to Keychain Access
 
-#### Export Certificate to other machine (.p12)
+#### Export Certificate to other Mac OS machine (.p12)
+
+* If you work in team or you want to develop on other Mac OS, You need export Certificate to .p12 file and import to other Mac
 
 * Step 1: Open Keychain Access
 * Step 2: Select both private key + .cer > Right click > export to **.p12**
