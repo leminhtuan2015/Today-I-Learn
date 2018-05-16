@@ -1,8 +1,8 @@
-### Types of Apple Developer
+### Developer Program members
 
 -------------------------------
 
-### Types of Apple Developer
+### Developer Program members
 
 * There are 3 type of Apple Developer
 
