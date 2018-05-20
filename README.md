@@ -38,30 +38,14 @@
 * https://github.com/strapi/strapi
 * https://expo.io/learn
 
+----------------------------------------------------------
 
+- https://github.com/bclinkinbeard/calendar-matrix
+- https://github.com/philipphecht/react-native-doc-viewer/pull/94/commits/a6b16e5c6bce672a8d2a4815a7d0e724a58d759e
+- https://github.com/Osedea/react-native-action-bar
+- https://github.com/jhen0409/react-native-debugger
 
-
-
-
-### Test
-
-1. Login screen
-  - Check password have at lead 1 Upper case char
-  - Username > 4 charactor
-  - If Username or password in-valid => SHow message 
-
-2. Search image screen
-  - After login success => go to search screen
-  - search field + submit button
-  - After click submit : search image and display as listview
-  
-3. 
-- API: https://jsonplaceholder.typicode.com
-- Photos: https://jsonplaceholder.typicode.com/photos
-
-
-
---------
+----------------------------------------------------------
 
 1. What is static variable (class variable)
 2. What is pointer?
