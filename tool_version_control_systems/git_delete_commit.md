@@ -14,7 +14,7 @@
 | * e9ccecc - go_or_stay (3 days ago) <tuan.le>
 ```
 
-* How to delete 5a612f2 commit on both local + remote
+* How to delete "WRONG COMMIT" **5a612f2** commit on both **local + remote**
 
   * Step 1: gco master
   * Step 2: git reset --hard d2089a1  // Delete commit 5a612f2 on local
