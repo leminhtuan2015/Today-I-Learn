@@ -1,1 +1,1 @@
-Apple Singapo mobile: 0065 6482 1144
+Apple Singapore mobile: 0065 6482 1144
