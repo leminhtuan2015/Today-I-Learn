@@ -14,6 +14,10 @@ fgrep -R advertisingIdentifier ./
 
 * Minimum function
   * The content of app is very common, it can be get from web, internet
+  
+  
+* Asking for access
+  * Asking for access in Info.plit file is not clear
 
 * Metadata rejected 
   * Description too short
