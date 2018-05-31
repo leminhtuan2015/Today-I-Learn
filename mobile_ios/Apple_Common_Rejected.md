@@ -12,6 +12,9 @@ fgrep -R advertisingIdentifier ./
 
 --------------------------
 
+* Minimum function
+  * The content of app is very common, it can be get from web, internet
+
 * Metadata rejected 
   * Description too short
   * IAP wrong
