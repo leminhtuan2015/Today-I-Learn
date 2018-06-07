@@ -7,15 +7,11 @@
 ```
 * Project Name
    * Assets (Contain all source code, images, sounds, ...)
-      - Art
-      - Prefabs
       - Scenes
       - Scripts
       - Editor
-      - Gizmos
-      - NGUI
+      - Prefabs
       - Plugins
-      - Standard Assets
       
    * Project Settings (settings of project)
       
