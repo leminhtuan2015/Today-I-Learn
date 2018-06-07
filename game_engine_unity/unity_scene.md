@@ -21,6 +21,10 @@
 
 ### Connect Scene with Script
 
+* We need connect Scene with Script for: Implement logic code when user interact with Scene(View Layout)
+
 * In IOS we connect **StoryBoard** with **ViewController.swift** by **Identify Inspector > Custom class**
 * In Android we connect **XML Layout** with **Activity.java** by **Activity.findById()** (static function of Activity class)
 * In Unity we connect **Scene** with **script.cs** by **Inspector > Add Component > Scripts**
+
+* We should add **Script** for **Canvas in Scene**, That script will implement logic for that scene
