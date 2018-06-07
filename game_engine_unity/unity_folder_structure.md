@@ -5,8 +5,8 @@
 * Folders Structure
 
 ```
- - Project Name
-   - Assets
+* Project Name
+   * Assets (Contain all source code, images, sounds, ...)
       - Art
       - Prefabs
       - Scenes
@@ -16,5 +16,10 @@
       - NGUI
       - Plugins
       - Standard Assets
-   - Project Settings
+   * Project Settings
+   
+---------------------------
+   
+   * Library (Unity generated auto, should be git ignore)
+   * Temp (Unity generated auto, should be git ignore)
 ```
