@@ -15,6 +15,7 @@
 
 ### Unity Canvas (UI component)
 * Unity Canvas is the UI component, the same **div** html tag, That can contain other views (other UI component)
+* Unity Canvas contain Button, Image, Label, ScrollView, ...
   
 ### Unity Script (Controller Layer)
 
