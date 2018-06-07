@@ -1,7 +1,8 @@
 ### Unity Scene
-### Unity Script
-### Connect Scene with Script
 ### Unity Canvas
+### Unity Script
+### Connect UI component with Script
+
 --------------------------------------------------------
 
 ### Unity Scene (View Layer)
@@ -11,6 +12,9 @@
   * Unity scene = Storyboard in IOS
 
 * Unity Scene is just a **View Layer**
+
+### Unity Canvas (UI component)
+* Unity Canvas is the UI component, the same **div** html tag, That can contain other views (other UI component)
   
 ### Unity Script (Controller Layer)
 
@@ -18,17 +22,16 @@
   * Unity Script = **Activity** in Android
   * Unity Script = **ViewController** in Android
 
-* Unity Script is use for handle events for views in **Scene**, Implement logic
+* Unity Script is use for handle events for views in **Scene**, Implement logic when user interact with that UI component
 
-### Connect Scene with Script
+### Connect UI component with Script
 
-* We need connect Scene with Script for: Implement logic code when user interact with Scene(View Layout)
+* We need connect UI component with Script for: Implement logic code when user interact with that UI component (View Layout)
 
 * In IOS we connect **StoryBoard** with **ViewController.swift** by **Identify Inspector > Custom class**
 * In Android we connect **XML Layout** with **Activity.java** by **Activity.findById()** (static function of Activity class)
-* In Unity we connect **Scene** with **script.cs** by **Inspector > Add Component > Scripts**
+* In Unity we connect **UI component** with **script.cs** by **Inspector > Add Component > Scripts**
 
-* We should add **Script** for **Canvas in Scene**, That script will implement logic for that scene
+* We should add **Script** for **Canvas in Scene**, That script will implement logic for that canvas UI component
 
-### Unity Canvas
-* Unity Canvas is the same **div** html tag, That can contain other views
+
