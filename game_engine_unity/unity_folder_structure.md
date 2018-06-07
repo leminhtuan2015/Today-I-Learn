@@ -7,10 +7,10 @@
 ```
  - Project Name
    - Assets
-      - _Art
-      - _Prefabs
-      - _Scenes
-      - _Scripts
+      - Art
+      - Prefabs
+      - Scenes
+      - Scripts
       - Editor
       - Gizmos
       - NGUI
