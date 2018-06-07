@@ -1,6 +1,7 @@
 ### Unity Scene
 ### Unity Script
 ### Connect Scene with Script
+### Unity Canvas
 --------------------------------------------------------
 
 ### Unity Scene (View Layer)
@@ -28,3 +29,6 @@
 * In Unity we connect **Scene** with **script.cs** by **Inspector > Add Component > Scripts**
 
 * We should add **Script** for **Canvas in Scene**, That script will implement logic for that scene
+
+### Unity Canvas
+* Unity Canvas is the same **div** html tag, That can contain other views
