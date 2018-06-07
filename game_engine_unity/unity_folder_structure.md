@@ -1,8 +1,8 @@
-* Folders Structure
+### Folders Structure
 
 -------------------------------------------------------------------
 
-* Folders Structure
+### Folders Structure
 
 ```
 * Project Name
