@@ -19,11 +19,12 @@
   
 ### Unity Script (Controller Layer)
 
+* Unity Script is the C# code, implement logic for each **UI component** (Canvas, Button, Image, ...)
 * Unity Script is the same **Activity** in Android or **ViewController** in IOS
   * Unity Script = **Activity** in Android
-  * Unity Script = **ViewController** in Android
+  * Unity Script = **ViewController** in IOS
 
-* Unity Script is use for handle events for views in **Scene**, Implement logic when user interact with that UI component
+* Unity Script is use for handle events for views (UI component) in **Scene**, Implement logic when user interact with that UI component
 
 ### Connect UI component with Script
 
