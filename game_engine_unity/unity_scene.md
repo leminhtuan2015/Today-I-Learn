@@ -21,3 +21,6 @@
 
 ### Connect Scene with Script
 
+* In IOS we connect **StoryBoard** with **ViewController.swift** by **Identify Inspector > Custom class**
+* In Android we connect **XML Layout** with **Activity.java** by **Activity.findById()** (static function of Activity class)
+* In Unity we connect **Scene** with **script.cs** by **Inspector > Add Component > Scripts**
