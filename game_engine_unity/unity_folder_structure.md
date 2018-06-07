@@ -16,10 +16,9 @@
       - NGUI
       - Plugins
       - Standard Assets
-   * Project Settings
-   
----------------------------
-   
+      
+   * Project Settings (settings of project)
+      
    * Library (Unity generated auto, should be git ignore)
    * Temp (Unity generated auto, should be git ignore)
 ```
