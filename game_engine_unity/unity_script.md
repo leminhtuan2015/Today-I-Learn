@@ -1,6 +1,6 @@
 
 ### Unity Script
-### Unity Script Lifecycle
+### Unity Script Lifecycle (Execution Order)
 -----------------------------------------
 
 ### Unity Script
@@ -36,52 +36,14 @@ public class ExampleBehaviourScript : MonoBehaviour
 ```
 
 
-### Unity Script Lifecycle
+### Unity Script Lifecycle (Execution Order)
 
 * In Android/IOS the Activity/ViewController is the controller layer
 * In Unity the UnityScript is the controller layer for each UI object, In the same scene each Unity UI component may have an UnityScript
   * A button may have a UnityScript itself
   * A image may have a UnityScript itself
-
-* First Scene Load
-  * Awake
-  * OnEnable
-  * OnLevelWasLoaded
-* Editor
-  * Reset
-* Before the first frame update
-  * Start
-* In between frames
-  * OnApplicationPause
-* Update Order
-  * FixedUpdate
-  * Update
-  * LateUpdate
-* Rendering
-  * OnWillRenderObject
-  * OnGUI
-* Coroutines
-  * yield
-* When the Object is Destroyed
-  * OnDestroy
-* When Quitting
-  * OnApplicationQuit
-  * OnDisable
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+* **Android app or IOS app have Lifecycle for each Activity or ViewController but Unity have Lifecycle for each UI component**
+  
+* https://docs.unity3d.com/Manual/ExecutionOrder.html
 
