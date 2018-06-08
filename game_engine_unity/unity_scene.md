@@ -1,7 +1,7 @@
 ### Unity Scene
 ### Unity Canvas
 ### Unity Script
-### Connect UI component with Script
+### Attach Script to an UI component 
 
 --------------------------------------------------------
 
@@ -26,7 +26,7 @@
 
 * Unity Script is use for handle events for views (UI component) in **Scene**, Implement logic when user interact with that UI component
 
-### Connect UI component with Script
+### Attach Script to an UI component 
 
 * We need connect UI component with Script for: Implement logic code when user interact with that UI component (View Layout)
 
