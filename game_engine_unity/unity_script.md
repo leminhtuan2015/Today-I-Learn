@@ -1,11 +1,17 @@
 
 ### Unity Script
-
+### Unity Script Lifecycle
 -----------------------------------------
 
 ### Unity Script
 
-* 
+* **Unity Scene / Unity UI component** is just **View layer** the same **Storyboard IOS** or **XML layout Android**
+* **Unity Script** Is the **Controller Layer** (Place of logic code) You can use it to handle user input, controll objects in the scene, show/hide/remove/create game object, UI component
+
+* **MonoBehaviour** is the base class from which every Unity script.
+
+* The **Start** function will be called by Unity before gameplay begins (ie, before the Update function is called for the first time) and is an ideal place to do any initialization (The same constructor).
+* The **Update** function is the place to put code that will handle the frame update for the GameObject
 
 
 
@@ -31,4 +37,47 @@ public class ExampleBehaviourScript : MonoBehaviour
 ```
 
 
-The Update function is the place to put code that will handle the frame update for the GameObject
+### Unity Script Lifecycle
+
+* First Scene Load
+  * Awake
+  * OnEnable
+  * OnLevelWasLoaded
+* Editor
+  * Reset
+* Before the first frame update
+  * Start
+* In between frames
+  * OnApplicationPause
+* Update Order
+  * FixedUpdate
+  * Update
+  * LateUpdate
+* Rendering
+  * OnWillRenderObject
+  * OnGUI
+* Coroutines
+  * yield
+* When the Object is Destroyed
+  * OnDestroy
+* When Quitting
+  * OnApplicationQuit
+  * OnDisable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
