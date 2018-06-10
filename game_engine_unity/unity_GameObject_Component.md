@@ -98,7 +98,7 @@ public class MainPlayer : MonoBehaviour {
     * Text have Text Script component, Text Script component have properties is (Character, Paragraph)
 
 ### GameObject VS Component
-  * GameObject and Component is different, But some object is both GameObject or Component
+  * GameObject and Component are different, But some object is both GameObject or Component
   * Some object is both GameObject or Component, such as UI/Button/Panel/Image/... is a GameObject and also is a Component
   * A Button GameObject have:
     * Components is: RectTransform, Image (script), Button (script)
