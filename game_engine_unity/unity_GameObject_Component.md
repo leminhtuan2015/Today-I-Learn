@@ -13,7 +13,7 @@
   
   * Main Camera is a GameObject, every Scene has a Main Camera GameObject by default. It has several components
 
-##### Create a GameObject
+#### Create a GameObject
 
   * Click the **GameObject->Create Empty** menu item. Select the new GameObject, and look at the Inspector (Even empty GameObjects have a Transform Component)
   
@@ -25,7 +25,7 @@
   * Any script you make compiles as a type of component, so the Unity Editor treats your script like a built-in component
   * When you create a script and attach it to a GameObject, the script appears in the GameObject’s Inspector just like a built-in component. This is because scripts become components when you save them in your project.
 
-##### Adding Components
+#### Adding Components
 
   * Example add Rigidbody component to a GameObject
 
