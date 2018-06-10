@@ -44,7 +44,8 @@ public class ExampleBehaviourScript : MonoBehaviour
   * A button may have a Unity Script itself
   * A image may have a Unity Script itself
   
-* **Android app or IOS app have Lifecycle for each Activity or ViewController but Unity have Lifecycle for each UI component**
+* **Android app or IOS app each Activity or ViewController have a Lifecycle**
+* **Unity app each Unity Script have a Lifecycle, each Unity Script belong to an Unity UI component**
   
 * https://docs.unity3d.com/Manual/ExecutionOrder.html
 
