@@ -2,6 +2,7 @@
 ### Component
 ### Script Component
 ### Component Children
+### GameObject Children
 ### Component Properties
 ### GameObject VS Component
 
@@ -85,7 +86,10 @@ public class MainPlayer : MonoBehaviour {
   * For example: **Panel component** contain **Button component** contain **Text component**
     * Panel > Button > Text
 
-
+### GameObject Children
+  * A GameObject contains components
+  * A GameObject contains children GameObject
+  * For example: **Panel GameObject** contain **Button GameObject** contain **Text GameObject**
 
 ### Component Properties
   * Each component have properties
