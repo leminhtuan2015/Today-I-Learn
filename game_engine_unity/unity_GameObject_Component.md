@@ -41,14 +41,35 @@
 
 ### Script Component
 
+ * Unity Script is a Component, script component can be attached to GameObjects
+
  * Unity allows you to create your own Components using scripts. These allow you to trigger game events, modify Component properties over time and respond to user input in any way you like
  
  * Unity supports two programming languages natively:
    * C#
    * javascript
  
- * Unity Script is a Component, that can be attached to GameObjects
+* Each time you attach a script component to a GameObject, it creates a new instance of the object defined by the MonoBehaviour
 
+```cshap
+using UnityEngine;
+using System.Collections;
+
+public class MainPlayer : MonoBehaviour {
+
+    // Use this for initialization
+    void Start () {
+    
+    }
+    
+    // Update is called once per frame
+    void Update () {
+      // The Update function is the place to put code that will handle the frame update for the GameObject. 
+      // This might include movement, triggering actions and responding to user input, 
+      // basically anything that needs to be handled over time during gameplay
+    }
+}
+```
 
 
 
