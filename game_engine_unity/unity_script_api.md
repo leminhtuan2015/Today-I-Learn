@@ -22,10 +22,11 @@
   
 ### GameObject class
 
-  * Class in UnityEngine
-  * Inherits from: Object
-  * Implemented in: UnityEngine.CoreModule
-  * Base class for all entities in Unity scenes
+  * Description
+    * Class in UnityEngine
+    * Inherits from: Object
+    * Implemented in: UnityEngine.CoreModule
+    * Base class for all entities in Unity scenes
   
   * Properties
     * isStatic
