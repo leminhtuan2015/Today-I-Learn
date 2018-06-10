@@ -26,7 +26,7 @@
   * Any script you make compiles as a type of component, so the Unity Editor treats your script like a built-in component
   * When you create a script and attach it to a GameObject, the script appears in the GameObject’s Inspector just like a built-in component. This is because scripts become components when you save them in your project.
 
-#### Adding Components
+#### Adding Components to a GameObject
 
   * Example add Rigidbody component to a GameObject
 
@@ -71,10 +71,8 @@ public class MainPlayer : MonoBehaviour {
 }
 ```
 
-
-
-
-
+#### Adding Script Components to a GameObject
+  * Adding Script Components to a GameObject is the same add other components to a GameObject
 
 
 
