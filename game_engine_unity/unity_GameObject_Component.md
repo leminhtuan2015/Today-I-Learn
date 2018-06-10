@@ -1,7 +1,7 @@
 ### GameObject
 ### Component
 ### Script Component
-### component Children
+### Component Children
 ### Component Properties
 
 -------------------------------------------------------------------------
@@ -76,7 +76,44 @@ public class MainPlayer : MonoBehaviour {
   * Adding Script Components to a GameObject is the same add other components to a GameObject
 
 
-### Component properties
+### Component Children
+
+  * A GameObject contains components
+  * A component contain children component
+  * Parent component can contain child component
+  * For example: **Panel component** contain **Button component** contain **Text component**
+    * Panel > Button > Text
+
+
+
+### Component Properties
+  * Each component have properties
+  * For example: Button have Transform component, Transform component have properties such as width, height
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
