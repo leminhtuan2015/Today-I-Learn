@@ -3,6 +3,7 @@
 ### Script Component
 ### Component Children
 ### Component Properties
+### GameObject VS Component
 
 -------------------------------------------------------------------------
 
@@ -91,9 +92,9 @@ public class MainPlayer : MonoBehaviour {
   * For example: Button have Transform component, Transform component have properties such as (x, y, z, width, height)
 
 
+### GameObject VS Component
 
-
-
+  * Some object is both GameObject or Component, such as Button is GameObject and also Component
 
 
 
