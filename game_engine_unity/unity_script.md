@@ -38,9 +38,9 @@ public class ExampleBehaviourScript : MonoBehaviour
 
 ### Unity Script Lifecycle (Execution Order)
 
-* In Android/IOS the Activity/ViewController is the controller layer
+* In Android/IOS the Activity/ViewController is the controller layer, Activity/ViewController have a Lifecycle
 * In Unity the Unity Script is the controller layer for each UI object
-* In the scene each Unity UI component may have an UnityScript
+* In the scene each Unity UI component may have an Unity Script of itself
   * A button may have a Unity Script itself
   * A image may have a Unity Script itself
   
