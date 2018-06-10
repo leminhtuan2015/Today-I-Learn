@@ -52,19 +52,53 @@
   
 ### Component class
 
-  * class in UnityEngine
-  * Inherits from: Object
-  * Implemented in: UnityEngine.CoreModule
-  * Base class for everything attached to GameObjects (Base class for components)
+  * Description
+    * class in UnityEngine
+    * Inherits from: Object
+    * Implemented in: UnityEngine.CoreModule
+    * Base class for everything attached to GameObjects (Base class for components)
+    
+  * Properties
+    * gameObject (The game object this component is attached to. A component is always attached to a game object.)
+    * tag
+    
+  * Component (default)
+    * transform
+    
+  * Public Methods
+    * AddComponent
+    * GetComponent
+    * GetComponents
+    * GetComponentInChildren
+    * GetComponentInParent
+    * ...
   
 
 ### MonoBehaviour class
 
-  * class in UnityEngine
-  * Inherits from: Behaviour
-  * Implemented in:UnityEngine.CoreModule
-  * MonoBehaviour is the base class from which every Unity script derives.
+  * Description
+    * class in UnityEngine
+    * Inherits from: Behaviour
+    * Implemented in:UnityEngine.CoreModule
+    * MonoBehaviour is the base class from which every Unity script derives.
+    
+  * Properties
+    * runInEditMode
+    * useGUILayout
+    
+  * Inherited Members
+    * enabled
+    * gameObject (The game object this component is attached to. A component is always attached to a game object.)
+    * transform	(The Transform attached to this GameObject)
+    * name (The name of the object)
 
+  * Public Methods
+    * AddComponent
+    * GetComponent
+    * GetComponents
+    * GetComponentInChildren
+    * GetComponentInParent
+    * ...
 
 
 
