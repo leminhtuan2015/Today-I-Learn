@@ -88,7 +88,7 @@ public class MainPlayer : MonoBehaviour {
 
 ### Component Properties
   * Each component have properties
-  * For example: Button have Transform component, Transform component have properties such as width, height
+  * For example: Button have Transform component, Transform component have properties such as (x, y, z, width, height)
 
 
 
