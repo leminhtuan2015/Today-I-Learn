@@ -43,6 +43,7 @@ public class ExampleBehaviourScript : MonoBehaviour
 * In the scene each Unity UI component may have an Unity Script of itself
   * A button may have a Unity Script itself
   * A image may have a Unity Script itself
+  * Any UI component may have a Script for itself
   
 * **Android app or IOS app each Activity or ViewController have a Lifecycle**
 * **Unity app each Unity Script have a Lifecycle, each Unity Script belong to an Unity UI component**
