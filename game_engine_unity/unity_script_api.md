@@ -27,12 +27,35 @@
   * Implemented in: UnityEngine.CoreModule
   * Base class for all entities in Unity scenes
   
+  * Properties
+    * isStatic
+    * layer
+    * tag
+    * scene
+  * Component (default)
+    * transform
+    
+  * Public Methods
+    * AddComponent
+    * GetComponent
+    * GetComponents
+    * GetComponentInChildren
+    * GetComponentInParent
+    * ...
+    
+  * Static Methods
+    * Find
+    * FindGameObjectsWithTag
+    * FindWithTag
+    * ...
+  
 ### Component class
 
   * class in UnityEngine
   * Inherits from: Object
   * Implemented in: UnityEngine.CoreModule
   * Base class for everything attached to GameObjects (Base class for components)
+  
 
 ### MonoBehaviour class
 
