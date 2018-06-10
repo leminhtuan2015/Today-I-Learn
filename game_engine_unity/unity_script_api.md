@@ -1,5 +1,9 @@
 
 ### Script API
+### GameObject class
+### Component class
+### MonoBehaviour class
+
 
 ----------------------------------------
 
@@ -16,3 +20,41 @@
     * Android button = Button class
     * Unity button = UnityEngine.UI.Button
   
+### GameObject class
+
+  * Class in UnityEngine
+  * Inherits from: Object
+  * Implemented in: UnityEngine.CoreModule
+  * Base class for all entities in Unity scenes
+  
+### Component class
+
+  * class in UnityEngine
+  * Inherits from: Object
+  * Implemented in: UnityEngine.CoreModule
+  * Base class for everything attached to GameObjects (Base class for components)
+
+### MonoBehaviour class
+
+  * class in UnityEngine
+  * Inherits from: Behaviour
+  * Implemented in:UnityEngine.CoreModule
+  * MonoBehaviour is the base class from which every Unity script derives.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
