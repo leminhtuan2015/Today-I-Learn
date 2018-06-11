@@ -1,5 +1,6 @@
 
 ### Unity Canvas
+### Canvas Component
 
 ----------------------------------------------------------
 
@@ -9,3 +10,13 @@
 * The Canvas is the area that all **UI elements** should be inside
 * All UI elements must be children GameObject of such a Canvas GameObject
 * Creating a new UI element (such as an Image using the menu GameObject > UI > Image) automatically creates a Canvas, if there isn’t already a Canvas in the scene.
+
+### Canvas Component
+
+* The Canvas GameObject will have a Canvas component attached on it.
+* The Canvas GameObject is a special GameObject, Canvas will be rendered on screen without camera capture on it.
+* Canvas component have a property name "RenderMode"
+* RenderMode property of Canvas component have 3 value:
+  * Screen Space - Overlay // UI elements on the screen will be rendered on top of the scene
+  * Screen Space - Camera
+  * World Space
