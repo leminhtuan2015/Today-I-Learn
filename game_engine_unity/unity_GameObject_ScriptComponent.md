@@ -36,11 +36,11 @@
   * From script component, you can access a parent GameObject this script component is attached to by:
   
   ```c#
-  // parent (gameobject) -> child (gameobject)
+  // parent (GameObject) -> child (GameObject)
   
   transform.parent.gameObject
   
-  // transform.parent: return a transform component this parent GameObject
+  // transform.parent: return a transform component of parent GameObject
   // transform.parent.gameObject : return a gameObject this transform component is attached
   
   ```
@@ -48,11 +48,11 @@
   * From script component, you can access a grandparent GameObject this script component is attached to by:
   
   ```c#
-  // grandparent (gameobject) -> parent (gameobject) -> child (gameobject)
+  // grandparent (GameObject) -> parent (GameObject) -> child (GameObject)
   
   transform.parent.parent.gameObject
   
-  // transform.parent.parent: return a transform component this grandparent GameObject
+  // transform.parent.parent: return a transform component of grandparent GameObject
   // transform.parent.parent.gameObject : return a gameObject this transform component is attached
   
   ```
