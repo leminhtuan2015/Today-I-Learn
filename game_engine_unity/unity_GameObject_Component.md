@@ -1,7 +1,6 @@
 ### GameObject
 ### Component
 ### Script Component (special component of GameObject)
-### Component Children
 ### GameObject Children
 ### Component Properties
 ### GameObject VS Component
@@ -77,15 +76,6 @@ public class MainPlayer : MonoBehaviour {
 #### Adding Script Components to a GameObject
   * Adding Script Components to a GameObject is the same add other components to a GameObject
 
-
-### Component Children
-
-  * A GameObject contains components
-  * A component contain children component
-  * Parent component can contain child component
-  * For example: **Panel component** contain **Button component** contain **Text component**
-    * Panel > Button > Text
-
 ### GameObject Children
   * A GameObject contains components
   * A GameObject contains children GameObject
@@ -98,6 +88,34 @@ public class MainPlayer : MonoBehaviour {
     * Text have Text Script component, Text Script component have properties is (Character, Paragraph)
 
 ### GameObject VS Component
+  * GameObject VS Component
+    * GameObject is the same empty HTML DIV tag
+    * Component is the same class of DIV tag (a div tag may have many class)
+    * Component properties is the same properties each class
+    
+```html
+
+<style>
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+ 
+.name {
+ 
+ }
+</style>
+
+<div class="city, name">
+   <div>
+ 
+   </div>
+</div>
+
+
+```
+    
   * GameObject and Component are different, But some object is both GameObject or Component
   * Some object is both GameObject or Component, such as UI/Button/Panel/Image/... is a GameObject and also is a Component
   * A Button GameObject have:
