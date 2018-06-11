@@ -97,22 +97,25 @@ public class MainPlayer : MonoBehaviour {
 
 <style>
 .city {
-    background-color: tomato;
-    color: white;
-    padding: 10px;
+  background-color: tomato;
+  padding: 10px;
 }
- 
+
 .name {
- 
- }
+  color: white;
+}
 </style>
 
-<div class="city, name">
-   <div>
- 
+<div class="city name">
+   <div class="name">
+     <p class="city">
+     </p>
    </div>
 </div>
 
+// div is the GameObject
+// city, name is the component
+// background-color, padding, color is the component properties
 
 ```
     
