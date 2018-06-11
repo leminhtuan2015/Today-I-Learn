@@ -31,3 +31,13 @@
   * GetChild
   * Find
   * SetParent
+
+### Transform API
+
+  * **transform.gameObject**: return the game object this component is attached to. A component is always attached to a game object.
+  * **transform.parent**: return a transform component of parent GameObject
+  
+  * **transform.position**:	The position of the transform in world space.
+  
+  
+  
