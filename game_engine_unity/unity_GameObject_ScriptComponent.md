@@ -1,6 +1,8 @@
 ### Script Component
 ### Accessing GameObject
-### Accessing components
+### Accessing Components
+### Finding child GameObjects
+### Finding GameObjects in Scene
 -----------------------------------------
 
 ### Script Component
@@ -18,13 +20,51 @@
 
 ### Accessing GameObject
   * How to access a GameObject from a script component
+  
   * By default MonoBehaviour class have **gameObject** and **transform**
     * **gameObject**: The game object this component is attached to. A component is always attached to a game object.
     * **transform**: The Transform component attached to this GameObject.
-  * From script component, you can access a GameObject by:
+    
+  * From script component, you can access a GameObject this script component is attached to by:
   
   ```c#
   this.gameObject
   
   transform.gameObject
   ```
+  
+  * From script component, you can access a parent GameObject this script component is attached to by:
+  
+  ```c#
+  // parent (gameobject) -> child (gameobject)
+  
+  transform.parent.gameObject
+  
+  // transform.parent: return a transform component this parent GameObject
+  // transform.parent.gameObject : return a gameObject this transform component is attached
+  
+  ```
+  
+  * From script component, you can access a grandparent GameObject this script component is attached to by:
+  
+  ```c#
+  // grandparent (gameobject) -> parent (gameobject) -> child (gameobject)
+  
+  transform.parent.parent.gameObject
+  
+  // transform.parent.parent: return a transform component this grandparent GameObject
+  // transform.parent.parent.gameObject : return a gameObject this transform component is attached
+  
+  ```
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
