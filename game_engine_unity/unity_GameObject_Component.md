@@ -113,10 +113,10 @@ public class MainPlayer : MonoBehaviour {
    </div>
 </div>
 
-// div tag is the GameObject
-// city, name is the component
-// background-color, padding, color is the component properties
-// p tag is the child GameObject inside parent GameObject
+// GameObject: div tag is the GameObject
+// Component: city, name is the component
+// Component properties: background-color, padding, color is the component properties
+// GameObject Children: p tag is the child GameObject inside parent GameObject
 
 ```
     
