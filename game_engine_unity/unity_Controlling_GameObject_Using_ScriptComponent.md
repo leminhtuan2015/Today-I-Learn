@@ -68,15 +68,22 @@
   
 ### Accessing Components
   * How to access to other Components attached to the same GameObject?
+  * For example: A GameObject have 4 components
+    * Transform component
+    * SpriteRenderer component
+    * PlayScript script component
+    * Rigidbody2D component
+    
+    * => From PlayScript we want to get Rigidbody2D component of this Game Object
   
   ```c#
     void Start () {
     
-      // Access transform component is so easy
+      // Access transform component of this GameObject is so easy
       this.transform
     
-      // Access others component
-      Rigidbody rb = GetComponent<Rigidbody>();
+      // Access Rigidbody2D component of this GameObject
+      Rigidbody2D rb = GetComponent<Rigidbody2D>();
     }
   ```
   
