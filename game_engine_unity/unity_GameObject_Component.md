@@ -124,7 +124,7 @@ public class MainPlayer : MonoBehaviour {
   * Some object is both GameObject or Component, such as UI/Button/Panel/Image/... is a GameObject and also is a Component
   * A Button GameObject have:
     * Components is: RectTransform, Image (script), Button (script)
-    * Children component is: Text component
+    * Children GameObject is: Text GameObject
 
 
 
