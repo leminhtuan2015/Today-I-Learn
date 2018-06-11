@@ -10,8 +10,8 @@
 
 #### Opening the Sprite Editor
 
-* 1. Select the 2D image you want to edit from the Project View
-* 2. Set the **Sprite Mode** to **Multiple** in the Texture Import Inspector
-* 3. Click on the **Sprite Editor** button in the Texture Import Inspector
-* 4. In **Sprite Editor** click on ** Slice** menu => click on **Slice** => Click on **Apply**
-* 5. You will get multiple part from single image
+1. Select the 2D image you want to edit from the Project View
+2. Set the **Sprite Mode** to **Multiple** in the Texture Import Inspector
+3. Click on the **Sprite Editor** button in the Texture Import Inspector
+4. In **Sprite Editor** click on ** Slice** menu => click on **Slice** => Click on **Apply**
+5. You will get multiple part from single image
