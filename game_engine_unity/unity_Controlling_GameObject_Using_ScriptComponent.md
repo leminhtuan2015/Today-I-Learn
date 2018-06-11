@@ -60,6 +60,12 @@
   
   ```
   
+  * From script component, you can access a Child GameObject this script component is attached to by:
+  
+  ```c#
+    transform.GetChild (0).gameObject
+  ```
+  
 ### Accessing Components
   * How to access to other Components attached to the same GameObject?
   
