@@ -53,7 +53,7 @@
  
 * Each time you attach a script component to a GameObject, it creates a new instance of the object defined by the MonoBehaviour
 
-```cshap
+```c#
 using UnityEngine;
 using System.Collections;
 
