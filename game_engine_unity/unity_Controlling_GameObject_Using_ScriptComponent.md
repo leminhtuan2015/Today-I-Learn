@@ -74,7 +74,7 @@
     * PlayScript script component
     * Rigidbody2D component
     
-    * => From PlayScript we want to get Rigidbody2D component of this Game Object
+  * => From PlayScript script component we want to get Rigidbody2D component of this Game Object
   
   ```c#
     void Start () {
