@@ -1,6 +1,6 @@
 ### GameObject
 ### Component
-### Script Component
+### Script Component (special component of GameObject)
 ### Component Children
 ### GameObject Children
 ### Component Properties
