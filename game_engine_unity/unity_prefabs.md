@@ -28,11 +28,12 @@ public class CircleManager : MonoBehaviour {
 	}
   
 	void CreateCircle() {
-
 		GameObject circle = Resources.Load ("Prefabs/SmallCircle") as GameObject;
 
 		for (int y = 0; y < 5; y++) {
-			Instantiate(circle, new Vector3(0f, distance + y * distance, 0f), Quaternion.identity);
+		    Instantiate(circle, 
+		    	new Vector3(0f, distance + y * distance, 0f), 
+		    	Quaternion.identity);
 		}
 	}
 }
