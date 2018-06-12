@@ -12,6 +12,8 @@
 
 ### Instantiate Prefabs
 
+* Create GameObject at run-time (Create GameObject by script)
+
 ```c#
 
 using System.Collections;
