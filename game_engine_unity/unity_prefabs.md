@@ -1,6 +1,6 @@
 
 ### Unity Prefabs
-### Load Prefabs
+### Instantiate Prefabs
 ---------------------------------------
 
 ### Unity Prefabs
@@ -10,7 +10,7 @@
 * Prefabs help you instantiate (create) complicated GameObjects at runtime.
 * Any edits made to a prefab asset are immediately reflected in all instances produced from it but you can also override components and settings for each instance individually.
 
-### Load Prefabs
+### Instantiate Prefabs
 
 ```c#
 
