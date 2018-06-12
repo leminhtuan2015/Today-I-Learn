@@ -5,5 +5,6 @@
 
 ### Unity components
 
-* Rigid Body 2d // Vật Thể Rắn (trọng lực)
-* Circle Collider 2d // va chạm
+* RigidBody2d // Vật Thể Rắn (trọng lực)
+* CircleCollider2d // Bọc hình tròn, va chạm
+* PolygonCollider2d // Bọc đa giác, va chạm
