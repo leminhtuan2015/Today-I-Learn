@@ -1,6 +1,7 @@
 
 ### Unity Canvas
 ### Canvas Component
+### Canvas Order Rendering UI GameObject 
 ### Canvas: How to fit screen size for every resolution?
 
 ----------------------------------------------------------
@@ -21,6 +22,10 @@
   * Screen Space - Overlay // UI elements on the screen will be rendered on top of the scene
   * Screen Space - Camera
   * World Space
+  
+### Canvas Order Rendering UI GameObject
+
+* In Canvas have many GameObject, one GameObject may contain many childrent GameObject => Canvas will render GameObject by **Top to Bottom**
 
 ### Canvas: How to fit screen size for every resolution?
 
