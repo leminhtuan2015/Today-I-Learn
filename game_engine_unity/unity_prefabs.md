@@ -10,6 +10,7 @@
 * The prefab acts as a template from which you can create new object instances in the scene. 
 * Prefabs help you instantiate (create) complicated GameObjects at runtime.
 * Any edits made to a prefab asset are immediately reflected in all instances produced from it but you can also override components and settings for each instance individually.
+* Changes to the prefab asset itself will be reflected in all instances 
 
 ### Create A Prefab
 * You can create a prefab by :
