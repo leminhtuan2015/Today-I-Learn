@@ -6,6 +6,8 @@
 
 ### Unity Prefabs
 
+* Prefabs = GameObject is stored in .prefab file.
+* Prefabs is just a way store a GameObject to a file .prefab, we can re-use, clone, instantiate prefab by script
 * Unity has a Prefab asset type that allows you to store a GameObject object complete with components and properties. 
 * The prefab acts as a template from which you can create new object instances in the scene. 
 * Prefabs help you instantiate (create) complicated GameObjects at runtime.
@@ -14,6 +16,7 @@
 
 ### Create A Prefab
 * You can create a prefab by :
+  * Fist create a GameObject
   * Selecting **Asset > Create Prefab**
   * Then dragging a GameObject from the scene onto the "empty" prefab asset that appears
 
