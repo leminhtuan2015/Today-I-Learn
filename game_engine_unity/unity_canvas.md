@@ -1,6 +1,7 @@
 
 ### Unity Canvas
 ### Canvas Component
+### Canvas: How to fit screen size for every resolution?
 
 ----------------------------------------------------------
 
@@ -20,3 +21,11 @@
   * Screen Space - Overlay // UI elements on the screen will be rendered on top of the scene
   * Screen Space - Camera
   * World Space
+
+### Canvas: How to fit screen size for every resolution?
+
+1. Select **Canvas GameObject**
+2. Select **CanvasScaler component** of Canvas GameObject
+3. Select **UIScaleMode property** of CanvasScaler component
+4. **UIScaleMode property**
+  * Set **UIScaleMode property** = **Scale With Screen Size**
