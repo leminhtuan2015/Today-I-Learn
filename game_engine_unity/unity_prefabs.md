@@ -12,9 +12,9 @@
 * Any edits made to a prefab asset are immediately reflected in all instances produced from it but you can also override components and settings for each instance individually.
 
 ### Create A Prefab
-* You can create a prefab by selecting :
-  * **Asset > Create Prefab**
-  * then dragging an object from the scene onto the "empty" prefab asset that appears
+* You can create a prefab by :
+  * Selecting **Asset > Create Prefab**
+  * Then dragging a GameObject from the scene onto the "empty" prefab asset that appears
 
 ### Instantiate Prefabs
 
