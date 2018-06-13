@@ -24,8 +24,8 @@
 
 ### Canvas: How to fit screen size for every resolution?
 
-* Select **Canvas GameObject**
-* Select **CanvasScaler component** of Canvas GameObject
-* Select **UIScaleMode property** of CanvasScaler component
-* **UIScaleMode property**
-  * Set **UIScaleMode property** = **Scale With Screen Size**
+* Select **Canvas GameObject** > **CanvasScaler component**
+* Set **CanvasScaler properties**
+  * Set **UI Scale Mode** = **Scale With Screen Size**
+  * Set **Screen Match Mode** = **Match With Or Height**
+  * Set **Match** = **0.5**
