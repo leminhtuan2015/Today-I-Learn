@@ -5,10 +5,10 @@
 
 ### Unity Physics Components
 
-* SpriteRenderer // Ảnh, Đồ hoạ
-* RigidBody2d // Vật Thể Rắn (trọng lực)
-* CircleCollider2d // Bọc hình tròn, va chạm
-* PolygonCollider2d // Bọc đa giác, va chạm
+* Rigidbody // Vật Thể Rắn (trọng lực)
+* Colliders
+	* CircleCollider2d // Bọc hình tròn, va chạm
+	* PolygonCollider2d // Bọc đa giác, va chạm
 
 ### Collider2d
 
@@ -16,6 +16,6 @@
 
 ```c#
   void OnTriggerEnter2D (Collider2D collider) {
-		Debug.Log ("collider"); 
-	}
+      Debug.Log ("collider"); 
+  }
 ```
