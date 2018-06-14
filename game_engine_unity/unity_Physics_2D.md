@@ -27,9 +27,7 @@
 #### Collider
 * Collider components define the shape of an object for the purposes of physical collisions
 
-
-
-* OnTriggerEnter2D : called when Collider
+* Collider Property: IsTrigger
 
 ```c#
   void OnTriggerEnter2D (Collider2D collider) {
