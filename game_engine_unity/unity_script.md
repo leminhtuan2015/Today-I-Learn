@@ -6,9 +6,9 @@
 ### Unity Script
 
 * Unity Script is the component of GameObject, use for handle user input, handle GameObject (show, hide, spawn, ...)
-* Unity Scene / Unity UI component is just **View layer** the same **Storyboard IOS** or **XML layout Android**
-* In Android/IOS the Activity/ViewController is the controller layer (logic code)
 * Unity Script is the Controller Layer (Place of logic code) You can use it to handle user input, controll objects in the scene, show/hide/remove/create game object, UI component
+* One Script component can be attacched on n GameObject, one GameObject can be have n Script component
+* **Script n-----n GameObject**
 
 * **MonoBehaviour** is the base class from which every Unity script.
 
