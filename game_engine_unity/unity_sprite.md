@@ -1,6 +1,12 @@
+### Unity Sprite
 ### Unity Sprite Editor
 
 ------------------------------------------------------------------------
+
+### Unity Sprite
+  * Sprite is a GameObject
+  * Sprite is 2D Graphic object, such as GameObject with image
+  * Sprite = Empty GameObject + SpriteRenderer Component
 
 ### Unity Sprite Editor
 
