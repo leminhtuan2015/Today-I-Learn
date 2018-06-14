@@ -10,8 +10,11 @@
 ### GameObject
   * A GameObject contains components
   * Every object in your game is a GameObject
+  
   * Depending on what kind of GameObject object you want to create, you add different combinations of components to a GameObject.
+  
   * A GameObject is a container for many different Components. By default, all GameObjects automatically have a **Transform** Component
+  
   * GameObject is just a empty container, We should add components to GameObject to create a complete GameObject
   
   * Main Camera is a GameObject, every Scene has a Main Camera GameObject by default. It has several components
@@ -21,6 +24,14 @@
   * Click the **GameObject->Create Empty** menu item. Select the new GameObject, and look at the Inspector (Even empty GameObjects have a Transform Component)
   
   * Remember that you can always use the Inspector to see which Components are attached to the selected GameObject
+  
+#### Destroy a GameObject
+
+  * When destroy a GameObject
+    * That GameObject will be removed from the Scene (disappear from screen)
+    * All component attached to that GameObject will be destroy too, Script component attached to GameObject is destroy too
+    * **After destroy a GameObject, the code in Script component will not work anymore**
+  
   
 ### Component
   * Component are the functional pieces of every GameObject.
