@@ -1,9 +1,9 @@
 
-### Unity components
+### Unity Physics Components
 
 ----------------------------------------------------
 
-### Unity components
+### Unity Physics Components
 
 * SpriteRenderer // Ảnh, Đồ hoạ
 * RigidBody2d // Vật Thể Rắn (trọng lực)
