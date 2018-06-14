@@ -22,7 +22,6 @@
   
   * Remember that you can always use the Inspector to see which Components are attached to the selected GameObject
   
-  
 ### Component
   * Component are the functional pieces of every GameObject.
   * Any script you make compiles as a type of component, so the Unity Editor treats your script like a built-in component
