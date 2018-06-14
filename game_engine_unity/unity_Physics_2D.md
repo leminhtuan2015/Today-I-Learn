@@ -26,8 +26,8 @@
 #### Collisions
   * Collider components define the shape of an object for the purposes of physical collisions
   * **2 Collisions types**:
-    * **Non-Trigger Collisions** (Do not allow pass through each other)
-    * **Trigger Collisions** (Allow other colliders to pass through)
+    * **Non-Trigger Collisions** (Do not allow pass through each other), OnCollisionEnter will be called
+    * **Trigger Collisions** (Allow other colliders to pass through), OnTriggerEnter will be called
     
   * **Conditions for Collision between GameObject A and GameObject B**
     * Both A and B have Collider Component
