@@ -1,5 +1,6 @@
 
 ### Unity Physics
+### Unity Physics Components
 
 ----------------------------------------------------
 
@@ -12,7 +13,6 @@
   
 * Unity provide components that handle the physical simulation for you
 * We must attach physics components for a GameObject to make that GameObject have physics behaviour
-
 
 ### Unity Physics Components
 
