@@ -25,6 +25,8 @@
   
   * Remember that you can always use the Inspector to see which Components are attached to the selected GameObject
   
+  * We can create GameObjects at runtime (by code), We can create GameObjects in Unity Script (We should have a GameManager is a empty GameObject, attach any script to this GameObject for run that scripts)
+  
 #### Destroy a GameObject
 
   * When destroy a GameObject
