@@ -7,10 +7,10 @@
 * Windows
   * The Project Window - Assets
   * The Hierarchy Window - Scenes
-  * The Inspector Window - GameObject
+  * The Inspector Window - GameObjects
   * The Console Window
 * Views
-  * The Scene View
+  * The Scene View - GameObjects Position
   * The Game View
 
 #### The Project Window
@@ -32,6 +32,12 @@
   * Show error
 
 
+#### The Scene View
+  * Edit position, width, height of GameObjects
+  * Use the Scene View to select and position scenery, characters, cameras, lights, and all other types of Game Object
+
+#### The Game View
+  * The Game View is rendered from the Camera(s) in your game. It is representative of your final, published game
 
 
 
