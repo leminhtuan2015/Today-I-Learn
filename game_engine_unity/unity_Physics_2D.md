@@ -17,9 +17,7 @@
 ### Unity Physics Components
 
 * Rigidbody Component // Vật Thể Rắn (trọng lực)
-* Colliders Component
-	* CircleCollider2d // Bọc hình tròn, va chạm
-	* PolygonCollider2d // Bọc đa giác, va chạm
+* Colliders Component // Va Chạm 
 
 #### Rigidbody
 
