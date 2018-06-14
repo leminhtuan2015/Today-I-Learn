@@ -26,8 +26,6 @@
 #### Collisions
   * Collider components define the shape of an object for the purposes of physical collisions
   * **2 Collisions types**:
-    * Do not pass through each other
-    * Allow other colliders to pass through (Triggers Collision)
-    
-  * Triggers Collision: Allow other colliders to pass through
-    
+    * **Non-Trigger Collisions** (Do not allow pass through each other)
+    * **Trigger Collisions** (Allow other colliders to pass through)
+        
