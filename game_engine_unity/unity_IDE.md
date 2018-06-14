@@ -8,6 +8,7 @@
   * The Project Window
   * The Hierarchy Window
   * The Inspector Window
+  * The Console Window
 * Views
   * The Scene View
   * The Game View
