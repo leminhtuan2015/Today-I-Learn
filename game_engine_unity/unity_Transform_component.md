@@ -1,7 +1,8 @@
 
 ### Transform component
-### Transform class
+### Transform component properties
 ### Transform API
+### Transform class
 
 -------------------------------------------------
 
@@ -11,6 +12,19 @@
   * In Unity GameObject/Component must be have default **Transform component**, because Transform component describe (x, y, z, width, height) of GameObject/Component, without Transform component Unity can not how to display object on screen.
   * The Transform component define (x, y, z, width, height) of a component on the screen
   * The Transform is used to store a GameObject’s position, rotation, scale,...
+  
+### Transform component properties
+  * Transform component have 3 properties
+    * Position
+    * Rotation
+    * Scale
+
+### Transform API
+
+  * **transform.gameObject**: return the game object this component is attached to. A component is always attached to a game object.
+  * **transform.parent**: return a transform component of parent GameObject
+  
+  * **transform.position**:	The position of the transform in world space.
   
 ### Transform class
 
@@ -33,13 +47,6 @@
   * GetChild
   * Find
   * SetParent
-
-### Transform API
-
-  * **transform.gameObject**: return the game object this component is attached to. A component is always attached to a game object.
-  * **transform.parent**: return a transform component of parent GameObject
-  
-  * **transform.position**:	The position of the transform in world space.
   
   
   
