@@ -8,17 +8,22 @@
 ----------------------------------------
 
 ### Script API
-  
-  * In Android/IOS/Unity we have 2 ways for create a view component:
-    * Drag-Drop ui component in storyboard/layout/Scene
-    * Create UI programmatically by code
-  
-  * The same Android-Java or IOS-Swift, in Unity we can create components programmatically
-  * We can create Button, Image, TextBox programmatically (by code) => With each component we have a class of it.
-  * Each UI component is a class
-    * IOS button = UIButton class
-    * Android button = Button class
-    * Unity button = UnityEngine.UI.Button
+  * Everything in Unity extends from **GameObject** class
+  * Every Script is extends from **MonoBehaviour**
+  * Every Script have some default variables:
+    * Inherited Members
+      * enabled
+      * gameObject (The game object this component is attached to. A component is always attached to a game object.)
+      * transform	(The Transform attached to this GameObject)
+      * name (The name of the object)
+
+    * Public Methods
+      * AddComponent
+      * GetComponent
+      * GetComponents
+      * GetComponentInChildren
+      * GetComponentInParent
+      * ...
   
 ### GameObject class
 
