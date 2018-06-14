@@ -19,14 +19,15 @@
 * Rigidbody Component // Vật Thể Rắn (trọng lực)
 * Colliders Component // Va Chạm 
 
-#### Rigidbody
+* Rigidbody
+  * A Rigidbody is the main component that enables physical behaviour for a GameObject. 
+  * With a Rigidbody attached to a GameObject, the GameObject will immediately respond to gravity
 
-* A Rigidbody is the main component that enables physical behaviour for a GameObject. 
-* With a Rigidbody attached to a GameObject, the GameObject will immediately respond to gravity
+* Collisions
+  * Collider components define the shape of an object for the purposes of physical collisions
 
-#### Collider
-* Collider components define the shape of an object for the purposes of physical collisions
 
+### Collisions
 * Collider Property: IsTrigger
 
 ```c#
