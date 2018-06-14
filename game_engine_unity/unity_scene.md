@@ -1,5 +1,4 @@
 ### Unity Scene
-### Unity Canvas
 ### Unity Script
 ### Attach Script to an UI component 
 
@@ -8,23 +7,12 @@
 ### Unity Scene (View Layer)
 
 * Scene: Contain GameObjects, Every Scene have default Camera GameObject
-* Unity scene is the same layout in Android or Storyboard in IOS
-  * Unity scene = XML layout in Android
-  * Unity scene = Storyboard in IOS
-
-* Unity Scene is just a **View Layer**
-
-### Unity Canvas (UI component)
-* Unity Canvas is the UI component, the same **div** html tag, That can contain other views (other UI component)
-* Unity Canvas contain Button, Image, Label, ScrollView, ...
+* Scene is the collection of GameObjects
   
-### Unity Script (Controller Layer)
+### Unity Script (Component of GameObject)
 
 * Unity Script is the C# code, implement logic for each **UI component** (Canvas, Button, Image, ...)
-* Unity Script is the same **Activity** in Android or **ViewController** in IOS
-  * Unity Script = **Activity** in Android
-  * Unity Script = **ViewController** in IOS
-
+* Unity Script used for handle logic, movment, user input, ... for a GameObject this script component is attatched.
 * Unity Script is use for handle events for views (UI component) in **Scene**, Implement logic when user interact with that UI component
 
 ### Attach Script to an UI component 
