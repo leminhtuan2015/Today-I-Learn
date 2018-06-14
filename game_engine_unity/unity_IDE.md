@@ -34,6 +34,7 @@
 
 #### The Scene View
   * Edit position, width, height of GameObjects
+  * Every GameObject of Scene will be displayed on the Scene View
   * Use the Scene View to select and position scenery, characters, cameras, lights, and all other types of Game Object
 
 #### The Game View
