@@ -23,8 +23,13 @@
 
 #### Rigidbody
 
+* A Rigidbody is the main component that enables physical behaviour for a GameObject. 
+* With a Rigidbody attached to a GameObject, the GameObject will immediately respond to gravity
 
 #### Collider
+* Collider components define the shape of an object for the purposes of physical collisions
+
+
 
 * OnTriggerEnter2D : called when Collider
 
