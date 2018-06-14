@@ -28,4 +28,10 @@
   * **2 Collisions types**:
     * **Non-Trigger Collisions** (Do not allow pass through each other)
     * **Trigger Collisions** (Allow other colliders to pass through)
+    
+  * **Conditions for Collision between GameObject A and GameObject B**
+    * Both A and B have Collider Component
+    * At least A or B have Rigibody component
+    * If you want Non-Trigger Collisions: Both A and B have **IsTrigger = false**
+    * If you want Trigger Collisions : At least A or B have **IsTrigger = true**
         
