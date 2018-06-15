@@ -6,7 +6,6 @@
   * Component Properties
 ### Script Component (special component of GameObject)
 ### GameObject Children
-### Component Properties
 
 -------------------------------------------------------------------------
 
@@ -96,11 +95,6 @@ public class MainPlayer : MonoBehaviour {
   * A GameObject contains children GameObject
   * For example: **Panel GameObject** contain **Button GameObject** contain **Text GameObject**
 
-### Component Properties
-  * Each component have properties
-  * For example: 
-    * Button have Transform component, Transform component have properties is (x, y, z, width, height)
-    * Text have Text Script component, Text Script component have properties is (Character, Paragraph)
 
 
 
