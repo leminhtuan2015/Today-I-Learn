@@ -29,7 +29,10 @@
             * Property1
             * Property2
      * Scene2
-       * GameObject
+       * GameObjects
+         * ChilGameObjects
+           * Components
+             * Properties
   
     
     
