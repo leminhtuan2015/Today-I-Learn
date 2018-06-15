@@ -22,6 +22,8 @@
     
 ### GameObjects Interact With Each Other
 
+  * If you want GameObjects can interact with each other, you must have **reference variable of game object** in script component of each other
+
   * In Scene you have 2 GameObject:
     * Camera GameObject
     * Player GameObject
