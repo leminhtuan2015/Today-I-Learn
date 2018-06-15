@@ -9,7 +9,7 @@
 
 ### Script API
   * Everything in Unity extends from **GameObject** class
-  * Every Script is extends from **MonoBehaviour**
+  * Every Script is extends from **MonoBehaviour** (MonoBehaviour extend from GameObject)
   * Every Script have some default variables:
     * Inherited Members
       * enabled
