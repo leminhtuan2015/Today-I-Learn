@@ -6,7 +6,7 @@
 ### Unity Script
 
 * Unity Script is the component of GameObject, use for handle user input, handle GameObject (show, hide, spawn, ...)
-* Unity Script is the Controller Layer (Place of logic code) You can use it to handle user input, controll objects in the scene, show/hide/remove/create game object, UI component
+* Unity Script is the Controller Layer of GameObject You can use it to handle user input, controll objects in the scene, show/hide/remove/create game object, UI component
 * One Script component can be attacched on n GameObject, one GameObject can be have n Script component
 * **Script n-----n GameObject**
 
