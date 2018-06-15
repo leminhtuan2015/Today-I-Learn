@@ -1,5 +1,9 @@
 ### GameObject
+  * Create a GameObject
+  * Destroy a GameObject
 ### Component
+  * Attatch Components to a GameObject
+  * Component Properties
 ### Script Component (special component of GameObject)
 ### GameObject Children
 ### Component Properties
@@ -34,7 +38,7 @@
   * Any script you make compiles as a type of component, so the Unity Editor treats your script like a built-in component
   * When you create a script and attach it to a GameObject, the script appears in the GameObject’s Inspector just like a built-in component. This is because scripts become components when you save them in your project.
 
-#### Adding Components to a GameObject
+#### Attatch Components to a GameObject
 
   * Example add Rigidbody component to a GameObject
 
