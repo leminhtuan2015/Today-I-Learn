@@ -1,6 +1,6 @@
 ### Script Component
-### Accessing GameObject
-### Accessing Components
+### Accessing GameObject From Script
+### Accessing Components From Script
 ### Finding child GameObjects
 ### Finding GameObjects in Scene
 -----------------------------------------
