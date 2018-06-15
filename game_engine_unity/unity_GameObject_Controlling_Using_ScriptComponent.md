@@ -6,9 +6,9 @@
 -----------------------------------------
 
 ### Script Component
-  * Unity Script is a Component, script component can be attached to GameObjects
+  * Unity Script is a Component of GameObject, script component can be attached to GameObjects
   * Script Component is a C#/Javascript code-file implement MonoBehaviour class
-  * **Transform** is the very important component, by default every GameObject must have a transform component (all GameObjects implicitly have a Transform)
+
   
 #### MonoBehaviour class
 
