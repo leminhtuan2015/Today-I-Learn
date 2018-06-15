@@ -21,7 +21,7 @@
     * name (The name of the object)
     * ...
 
-### Accessing GameObject
+### Accessing GameObject From Script
   * How to access a GameObject from a script component
   
   * By default MonoBehaviour class have **gameObject** and **transform**
@@ -66,7 +66,7 @@
     transform.GetChild (0).gameObject
   ```
   
-### Accessing Components
+### Accessing Components From Script
   * How to access to other Components attached to the same GameObject?
   * For example: A GameObject have 4 components
     * Transform component
