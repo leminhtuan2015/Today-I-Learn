@@ -12,10 +12,7 @@
   
 #### MonoBehaviour class
 
-  * MonoBehaviour script component always can access to **transform** component is attached to a game object.
-
-  * Inherited Members
-    * enabled
+  * MonoBehaviour script component always can access to:
     * gameObject (The game object this component is attached to. A component is always attached to a game object.)
     * transform	(The Transform attached to this GameObject)
     * name (The name of the object)
