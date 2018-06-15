@@ -28,6 +28,8 @@
           * Component2 (has-many Properties)
             * Property1
             * Property2
+     * Scene2
+       * GameObject
   
     
     
