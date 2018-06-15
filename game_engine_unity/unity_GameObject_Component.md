@@ -3,21 +3,15 @@
 ### Script Component (special component of GameObject)
 ### GameObject Children
 ### Component Properties
-### GameObject VS Component
 
 -------------------------------------------------------------------------
 
 ### GameObject
-  * A GameObject contains components
-  * Every object in your game is a GameObject
+  * A Scene contains GameObjects
+  * A GameObject contains components (all GameObjects automatically have a **Transform** Component)
   
-  * Depending on what kind of GameObject object you want to create, you add different combinations of components to a GameObject.
-  
-  * A GameObject is a container for many different Components. By default, all GameObjects automatically have a **Transform** Component
-  
-  * GameObject is just a empty container, We should add components to GameObject to create a complete GameObject
-  
-  * Main Camera is a GameObject, every Scene has a Main Camera GameObject by default. It has several components
+  * Every object in your game is a GameObject  
+  * Main Camera is a GameObject, every Scene has a Main Camera GameObject by default.
 
 #### Create a GameObject
 
@@ -99,47 +93,6 @@ public class MainPlayer : MonoBehaviour {
   * For example: 
     * Button have Transform component, Transform component have properties is (x, y, z, width, height)
     * Text have Text Script component, Text Script component have properties is (Character, Paragraph)
-
-### GameObject VS Component
-  * GameObject VS Component
-    * GameObject is the same empty HTML DIV tag
-    * Component is the same class of DIV tag (a div tag may have many class)
-    * Component properties is the same properties each class
-    
-```html
-
-<style>
-.city {
-  background-color: tomato;
-  padding: 10px;
-}
-
-.name {
-  color: white;
-}
-</style>
-
-<div class="city name">
-   <div class="name">
-     <p class="city">
-     </p>
-   </div>
-</div>
-
-// GameObject: div tag is the GameObject (GameObject can contain child GameObject)
-// Component: city, name is the components
-// Component properties: background-color, padding, color is the component properties
-// GameObject Children: p tag is the child GameObject inside parent GameObject
-
-```
-    
-  * GameObject and Component are different, But some object is both GameObject or Component
-  * Some object is both GameObject or Component, such as UI/Button/Panel/Image/... is a GameObject and also is a Component
-  * A Button GameObject have:
-    * Components is: RectTransform, Image (script), Button (script)
-    * Children GameObject is: Text GameObject
-
-
 
 
 
