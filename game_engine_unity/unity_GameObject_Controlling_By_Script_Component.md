@@ -8,7 +8,7 @@
 ### Script Component
   * Unity Script is a Component of GameObject, script component can be attached to GameObjects
   * Script Component is a C#/Javascript code-file implement MonoBehaviour class
-
+  * We make Script Component and attatch to a GameObject for controlling that GameObject, handle logic for that GameObject.
   
 #### MonoBehaviour class
 
