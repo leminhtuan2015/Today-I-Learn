@@ -9,33 +9,7 @@
 * Unity Script is the Controller Layer of GameObject You can use it to handle user input, controll objects in the scene, show/hide/remove/create game object, UI component
 * One Script component can be attacched on n GameObject, one GameObject can be have n Script component
 * **Script n-----n GameObject**
-
 * **MonoBehaviour** is the base class from which every Unity script.
-
-* The **Start** function will be called by Unity before gameplay begins (ie, before the Update function is called for the first time) and is an ideal place to do any initialization (The same constructor).
-* The **Update** function is the place to put code that will handle the frame update for the GameObject
-
-```cshap
-using UnityEngine;
-using System.Collections;
-
-public class ExampleBehaviourScript : MonoBehaviour
-{
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            GetComponent<Renderer> ().material.color = Color.red;
-        }
-        
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            GetComponent<Renderer>().material.color = Color.green;
-        }
-    }
-}
-```
-
 
 ### Unity Script Lifecycle (Execution Order)
 
