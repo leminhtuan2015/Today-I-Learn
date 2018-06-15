@@ -1,4 +1,5 @@
 ### Script Component
+### GameObjects Interact With Each Other
 ### Accessing GameObject From Script
 ### Accessing Components From Script
 ### Finding child GameObjects
@@ -17,6 +18,52 @@
     * transform	(The Transform attached to this GameObject)
     * name (The name of the object)
     * ...
+    
+    
+### GameObjects Interact With Each Other
+
+  * In Scene you have 2 GameObject:
+    * Camera GameObject
+    * Player GameObject
+    
+  * Your game logic is "Camera alway follow Player" 
+    * => you have to make a script component and attach to Camera GameObject to implement logic.
+    * => in your **script component of Camera GameObject** you must have **Player GameObject** to get Player position
+    * => that mean Camera must have Player reference.
+    * => from Camera GameObject if you want to interact with Player GameObject you must have **Player reference variable** in your Camera script component
+  
+  * Create script component **CameraController.cs** and attach to Camera GameObject, in script store a reference to the Player game object
+    * We have 2 way to get Player game object by code or drag-drop in Inspector 
+ 
+ 
+ ```c#
+ using UnityEngine;
+using System.Collections;
+
+public class CameraController : MonoBehaviour {
+
+	// store a public reference to the Player game object, so we can refer to it's Transform
+	public GameObject player;
+
+	// Store a Vector3 offset from the player (a distance to place the camera from the player at all times)
+	private Vector3 offset;
+
+	// At the start of the game..
+	void Start ()
+	{
+		// Create an offset by subtracting the Camera's position from the player's position
+		offset = transform.position - player.transform.position;
+	}
+
+	// After the standard 'Update()' loop runs, and just before each frame is rendered..
+	void LateUpdate ()
+	{
+		// Set the position of the Camera (the game object this script is attached to)
+		// to the player's position, plus the offset amount
+		transform.position = player.transform.position + offset;
+	}
+}
+ ```
 
 ### Accessing GameObject From Script
   * How to access a GameObject from a script component
