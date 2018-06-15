@@ -45,7 +45,11 @@
   * Method 2:
     * Select a GameObject
     * Inspector->Add Component->Physics->Rigidbody
-
+    
+#### Component Properties
+  * A component have properties
+  * If properties of component is public => that properties will be show in **Inspector Windown**
+  * Script is a component => in Script, public variables (properties) will be show in **Inspector Windown**
 
 ### Script Component
 
