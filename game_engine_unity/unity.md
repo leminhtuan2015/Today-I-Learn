@@ -19,13 +19,13 @@
     * Camera trong Unity hoạt động giống như quay phim, chỉ vùng không gian nào được camera quay sẽ được hiển thị lên màn hình
   
   
-  * Project
-    * Scene1
-      * GameObject1
+  * Project (has-many Scenes)
+    * Scene1 (has-many GameObject)
+      * GameObject1 (has-many Chil GameObject)
         * ChilGameObject1
-        * ChildGameObject2
+        * ChildGameObject2 (has-many Components)
           * Component1
-          * Component2
+          * Component2 (has-many Properties)
             * Property1
             * Property2
   
