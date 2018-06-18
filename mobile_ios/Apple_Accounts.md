@@ -34,6 +34,7 @@
     * Developer works
       * Enrol Apple Developer Program, make sure your tax and banking information is set up in App Store Connect
       * Submit your app in Itunesconnect, select the custom B2B distribution option in App Store Connect
+      * "Pricing and Availability" > "Available privately as a custom B2B app" > Provide Apple ID of VPP customer 
       
     * Business Customers works
       * Enrol Volume Purchase Program (VPP)
