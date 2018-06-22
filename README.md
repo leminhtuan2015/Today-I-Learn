@@ -1,5 +1,7 @@
-Croatia
-Nigeria
+* Croatia
+* Nigeria
+* Brazil
+* Peru
 
 
 
