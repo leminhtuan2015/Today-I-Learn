@@ -1,5 +1,6 @@
 
 ### Unity Prefabs
+### When Use Prefab
 ### Create A Prefab
 ### Instantiate Prefabs
 ---------------------------------------
@@ -13,6 +14,12 @@
 * Prefabs help you instantiate (create) complicated GameObjects at runtime.
 * Any edits made to a prefab asset are immediately reflected in all instances produced from it but you can also override components and settings for each instance individually.
 * Changes to the prefab asset itself will be reflected in all instances 
+
+### When Use Prefab
+
+* When you want to create a GameOject at run-time
+* When you want to create a GameOject by code (script)
+* When you want to have dymamic/random number of GameObject
 
 ### Create A Prefab
 * You can create a prefab by :
