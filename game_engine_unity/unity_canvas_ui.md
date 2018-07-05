@@ -6,6 +6,8 @@
 ### Canvas UI
 
 * Canvas is a special component in Unity, Canvas use for contain other UI components.
+* Canvas will overlay the screen (Camera -> Canvas -> GameObjects)
+
 * With UI components such as Button, Image, Text must be placed inside a Canvas
 * If you place UI components outside Canvas that will be not appear
 
