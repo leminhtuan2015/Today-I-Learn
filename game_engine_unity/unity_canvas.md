@@ -19,7 +19,7 @@
 * The Canvas GameObject is a special GameObject, Canvas will be rendered on screen without camera capture on it.
 
 * **Canvas Object** have a **Canvas component**,  **Canvas component** have a property name **"RenderMode"**
- * RenderMode: 
+ * Canvas RenderMode property: 
    * Screen Space - Overlay
      * UI elements on the screen will be rendered on top of the scene
    * Screen Space - Camera
