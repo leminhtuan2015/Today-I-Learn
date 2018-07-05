@@ -13,3 +13,6 @@
   * If you place a Image outside Canvas => That image will be disappear
 
 ### Canvas Image vs GameObject Sprite
+
+* If you want to display a image in **Canvas** => Use **Image** UI object
+* If you want to display a image in **Camera** => Use **Sprite** object
