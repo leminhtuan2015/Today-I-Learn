@@ -1,9 +1,11 @@
-# Server HTML
+# Web Server 
 ## Run web without Java server
 
   - After compile to Javascript you can just need html server to run code (Do not need Apache Tomcat)
 
     - php -S localhost:8000
+    
+    - php -S localhost:3000 -t FOLDER
 
     - python -m SimpleHTTPServer 8080
 
