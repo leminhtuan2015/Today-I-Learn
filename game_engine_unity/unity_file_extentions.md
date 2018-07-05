@@ -11,4 +11,4 @@
 * .prefab
   * Unity prefab, prefab = GameObject stored in file.
 * .asset
-  * Unity Tile files
+  * That are configuration files, example: Unity Tile files
