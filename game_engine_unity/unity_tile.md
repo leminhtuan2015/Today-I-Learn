@@ -21,6 +21,7 @@
 * Tilemap = Container of Title Palettes
   * Title Palette = Multiple Tiles
     * Tile = **Sprite** GameObject
+    
 * The Tilemap GameObject is where Tiles are painted on
 * Tilemap is a special GameObject
   * If **UI GameObjects** must be placed in **Canvas** => Tilemap must be placed in **The Grid GameObject**
