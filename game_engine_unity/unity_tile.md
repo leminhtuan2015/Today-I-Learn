@@ -18,7 +18,7 @@
 * Title Palette is a .prefab file stored in Assests folder
 * Title Palette = Multiple Tiles (or single Tile)
 * We can group multiple Tiles together in a **Title Palette**
-* Title Palette is a **tool for painting tiles on Timemap**
+* Title Palette is a **tool for painting tiles on Timemap GameObject**
 * Title Palette is stored as **.prefab** extension, such as **MyTitlePalette.asset**
 
 ### Tilemap
@@ -33,4 +33,33 @@
 * The Grid GameObject will contain the child GameObject is called Tilemap 
 
 ### Painting Tilemap
+* **Tile Palette Windown** (Unity menu > Windown > Tile Palette) it is a tool for painting Tiles on Tilemap GameObject
 * To paint on a Tilemap it must be the selected Active Tilemap in the **Tile Palette Windown**
+  * Active Tilemap : Is the Tilemap GameObject you will paint Tiles on it.
+* You must be have a Tilemap GameObject in scene to paint on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
