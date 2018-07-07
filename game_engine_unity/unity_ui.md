@@ -1,10 +1,11 @@
-### Canvas UI
-### Canvas Image vs GameObject Sprite
+### UI
+### UI Image vs GameObject Sprite
 
 ---------------------------------------------
 
 ### Canvas UI
 
+* Any UI element (including text) must be the child of a Canvas Object in order to be drawn
 * Canvas is a special component in Unity, Canvas use for contain other UI components.
 
 * With UI components such as Button, Image, Text must be placed inside a Canvas
