@@ -23,3 +23,20 @@
         return false;
     }
 ```
+
+#### Unity Raycast handle touch on object
+
+```c#
+  public void TouchOnGameObject(){
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition - Vector3.up);
+        float z_plane_of_2d_game = 0;
+        Vector3 pos_at_z_0 = ray.origin + ray.direction * (z_plane_of_2d_game - ray.origin.z) / ray.direction.z;
+        Vector2 mousePos2D = new Vector2(pos_at_z_0.x, pos_at_z_0.y);
+        RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+
+        if (hit.collider != null)
+        {
+            Debug.Log("Position : " + hit.collider.gameObject.name);
+        }
+  }
+```
