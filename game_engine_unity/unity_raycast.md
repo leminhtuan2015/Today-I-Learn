@@ -1,6 +1,13 @@
+### What is Raycasting?
 ### Unity Raycasting
 
 ----------------------------------------
+
+### What is Raycasting?
+
+* Raycasting is a physics object
+* "Raycasting is the process of shooting an invisible ray from a point, in a specified direction to detect whether any colliders lay in the path of the ray."
+
 
 ### Unity Raycasting
 
