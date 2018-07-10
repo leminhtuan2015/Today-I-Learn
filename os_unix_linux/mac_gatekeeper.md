@@ -16,7 +16,7 @@ spctl --status
 
 ```
 
-* * To turn off **install from anywhere** : 
+* To turn off **install from anywhere** : 
 
 ```sh
 sudo spctl --master-enable
