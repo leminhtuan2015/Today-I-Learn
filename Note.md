@@ -1,3 +1,13 @@
+### Trainning IT Dev
+
+* 1 day for overview
+* Sharing exprience
+* Assign tasks for members
+* Get report at end of the day
+* 
+
+
+
 ### Interview
 
 - What is static variable (class variable)
