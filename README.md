@@ -38,7 +38,6 @@
 * https://github.com/RyanNielson/awesome-unity
 * https://github.com/leereilly/games/
 * https://github.com/UnityCommunity/UnityLibrary
-* https://github.com/JasonHein/Game-Eye-2D
 
 * https://github.com/EllanJiang/GameFramework
 * https://github.com/FlipWebApps/GameFramework
