@@ -14,7 +14,7 @@
 #### Unity Raycast check touch on object (not UI object)
 
 ```c#
-    public static bool IsPointerOverGameObject()
+    private static bool IsPointerOverGameObject()
     {
         //check mouse
         if (EventSystem.current.IsPointerOverGameObject())
@@ -34,7 +34,7 @@
 #### Unity Raycast handle touch on object
 
 ```c#
-  public void TouchOnGameObject(){
+  private void TouchOnGameObject(){
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition - Vector3.up);
         float z_plane_of_2d_game = 0;
         Vector3 pos_at_z_0 = ray.origin + ray.direction * (z_plane_of_2d_game - ray.origin.z) / ray.direction.z;
@@ -47,7 +47,7 @@
         }
   }
   
-   void HandleTap(){
+   private void HandleTap(){
         if (IsPointerOverGameObject()){
             Debug.Log("Clicked on the UI");
             return;
