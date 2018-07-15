@@ -34,7 +34,7 @@
 #### Unity Raycast handle touch on object
 
 ```c#
-  private void TouchOnGameObject(){
+  private void CheckTouchOnGameObject(){
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition - Vector3.up);
         float z_plane_of_2d_game = 0;
         Vector3 pos_at_z_0 = ray.origin + ray.direction * (z_plane_of_2d_game - ray.origin.z) / ray.direction.z;
@@ -54,7 +54,7 @@
         }
 
         if (Input.GetMouseButtonDown(0)){
-            TouchOnGameObject();
+            CheckTouchOnGameObject();
         }
     }
   
