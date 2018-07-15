@@ -46,4 +46,20 @@
             Debug.Log("Position : " + hit.collider.gameObject.name);
         }
   }
+  
+   void HandleTap(){
+        if (IsPointerOverGameObject()){
+            Debug.Log("Clicked on the UI");
+            return;
+        }
+
+        if (Input.GetMouseButtonDown(0)){
+            TouchOnGameObject();
+        }
+    }
+  
+  private void Update(){
+        HandleTap();
+  }
+
 ```
