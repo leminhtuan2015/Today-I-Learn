@@ -39,8 +39,6 @@ using UnityEngine;
 
 public class CircleManager : MonoBehaviour {
 
-	public float distance = 10f;
-
 	// Use this for initialization
 	void Start () {
 		CreateCircle ();
@@ -50,9 +48,7 @@ public class CircleManager : MonoBehaviour {
 		GameObject circle = Resources.Load ("Prefabs/SmallCircle") as GameObject;
 
 		for (int y = 0; y < 5; y++) {
-		    Instantiate(circle, 
-		    	new Vector3(0f, distance + y * distance, 0f), 
-		    	Quaternion.identity);
+		    Instantiate(circle, new Vector3(0f, 0f, 0f), Quaternion.identity);
 		}
 	}
 }
