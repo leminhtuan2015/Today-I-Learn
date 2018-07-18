@@ -45,6 +45,7 @@ public class CircleManager : MonoBehaviour {
 	}
   
 	void CreateCircle() {
+		// Prefabs/SmallCircle mus be placed in "Resources" folder
 		GameObject circle = Resources.Load ("Prefabs/SmallCircle") as GameObject;
 
 		for (int y = 0; y < 5; y++) {
