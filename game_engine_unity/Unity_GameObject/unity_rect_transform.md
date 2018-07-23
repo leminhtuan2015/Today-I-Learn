@@ -5,7 +5,7 @@
 
 ### Rect Transform
 
-* A GameObject **MUST HAVE** 4 properties to display on scren
+* A GameObject **MUST HAVE** 4 properties to display on screen
   * x
   * y
   * width
