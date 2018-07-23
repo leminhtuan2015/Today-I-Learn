@@ -15,5 +15,5 @@
   * Should be is : 1
   
 * Rect Transform (X, Y)
-  * (X, Y) of Rect Transform is at Top Left of GameObject
+  * (X, Y) of Rect Transform is at **Top Left of GameObject**
   * Toạ độ (x, y) Rect Transform của GameObject chính là toạ độ của điểm **góc trên bên trái**.
