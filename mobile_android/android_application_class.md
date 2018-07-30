@@ -11,6 +11,13 @@ java.lang.Object
    ↳	android.content.Context
  	   ↳	android.content.ContextWrapper
  	 	   ↳	android.app.Application
+         
+         
+java.lang.Object
+   ↳	android.content.Context
+ 	   ↳	android.content.ContextWrapper
+ 	 	   ↳	android.view.ContextThemeWrapper
+ 	 	 	   ↳	android.app.Activity
 ```
 
 * Base class for maintaining global application state.
