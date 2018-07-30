@@ -16,6 +16,14 @@ java.lang.Object
 * Base class for maintaining global application state.
 * AndroidManifest.xml file, have **application** tag, We can custom the default Application class by change android:name=".MyCustomApplication" of application tag
 
+```xml
+<application 
+   android:name=".MyCustomApplication"
+   android:icon="@drawable/icon" 
+   android:label="@string/app_name" 
+   ...>
+```
+
 
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fuji.fujisdk">
