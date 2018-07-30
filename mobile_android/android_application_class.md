@@ -14,6 +14,9 @@ java.lang.Object
 ```
 
 * Base class for maintaining global application state.
+* This class will take care of our application life cycle
+* The Application class in Android is the base class within an Android app that contains all other components such as activities and services
+* This class is primarily used for initialization of global state before the first Activity is displayed. Note that custom Application objects should be used carefully and are often not needed at all.
 * AndroidManifest.xml file, have **application** tag, We can custom the default Application class by change android:name=".MyCustomApplication" of application tag
 
 ```xml
