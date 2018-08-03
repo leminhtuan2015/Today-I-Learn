@@ -25,7 +25,10 @@
 #### External File Storage
 
 * Every Android device supports a shared "external storage" space that you can use to save files
-
+* **/storage/emulated/0** is the android external store
+* From **adb shell** only root can access to **/storage/emulated/0**
+* From **adb shell** you must be **root** to see **/storage/emulated/0**
+* From Android App you must be have **uses-permission WRITE_EXTERNAL_STORAGE/READ_EXTERNAL_STORAGE** to write/read on external store.
 
 ```
 Environment.getExternalStorageDirectory().getAbsolutePath() = /storage/emulated/0
