@@ -36,7 +36,7 @@ context.getPackageName() = com.name.package
 
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-Application.persistentDataPath + "/" = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + context.getPackageName() + "/" + "files" + "/"
+Application.persistentDataPath + "/" = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/data/" + context.getPackageName() + "/" + "files" + "/"
 
 ```
 
