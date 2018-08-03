@@ -8,7 +8,12 @@
 ### Android External Store
 
 * Environment.getExternalStorageDirectory().getAbsolutePath() = /storage/emulated/0
-* 
+* context.getPackageName() = com.name.package
+
+```
+Application.persistentDataPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + context.getPackageName() + "/" + "files/"
+
+```
 
 
 ### Unity Data Path
