@@ -23,7 +23,7 @@
   * Test APK is signed with the same certificate(s) as the one uploaded to dev.console.
   * Test account (not developer) - is the main account on the device.
 
-* If you're here from 2018
+* **If you're here from 2018**
 
 ```
 If you're here from 2018, you need to download the APK directly from Play Store and install the "derived" APK.
