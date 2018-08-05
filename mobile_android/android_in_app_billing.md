@@ -4,6 +4,8 @@
 
 ### Android In-app billing/product
 
+* https://stackoverflow.com/questions/13117081/the-item-you-requested-is-not-available-for-purchase
+
 * Here is the list of requirements for the Google IAB testing.
 
 * Prerequisites:
