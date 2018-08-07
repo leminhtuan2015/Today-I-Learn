@@ -1,10 +1,18 @@
-
-### Transform component
-### Transform component properties
+### Transform Position
+### Transform Component
+### Transform Component properties
 ### Transform API
-### Transform class
+### Transform Class
 
 -------------------------------------------------
+
+### Transform Position
+
+* Every Game Object or UI element in Unity **must have** a Transform to define (x, y, z, w, h)
+* (x, y, z, w, h) tell where to place the GameObject or UI element
+* (x, y, z) of Game Object or UI element is the center point of GameObject/UI
+* **Toạ độ (x, y, z) của mọi GameObject/UI chính là điểm chính giữa của (tâm) của GameObject/UI đó**
+* Trong IOS (x, y) của UIView chính là điểm **Phía trên bên trái**
 
 ### Transform component
   * Every GameObject/Component in Unity have a default component is **Transform component**
