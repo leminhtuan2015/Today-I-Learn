@@ -43,5 +43,14 @@ Application.persistentDataPath + "/" = Environment.getExternalStorageDirectory()
 ### Unity Data Path
 
 * Android
-  * Unity Application.persistentDataPath = External File Storage in Android
-  * Application.persistentDataPath = /storage/emulated/0/Android/data/com.name.package/files
+  * **Application.persistentDataPath** = **External File Storage in Android**
+  * **Application.persistentDataPath** = **/storage/emulated/0/Android/data/com.name.package/files**
+  
+* Android
+  * **Application.streamingAssetsPath** = **Project/src/main/assets**
+
+
+
+
+
+
