@@ -1,7 +1,7 @@
 
 ### Rect Transform
 ### Rect Transform VS Transform
-
+### Rect Transform change at runtime
 -------------------------------------------------------------
 
 ### Rect Transform
@@ -26,12 +26,14 @@
 * Transform -> GameObject
 
 
-### 
-
+### Rect Transform change at runtime
 
 ```
-object.GetComponent<RectTransform>().offsetMin = new Vector2 (10,12); //left-bottom  // left = 10, bottom = 12
-object.GetComponent<RectTransform>().offsetMax = new Vector2 (20,40); //right-top.   // right = 20, top = 40
+object.GetComponent<RectTransform>().offsetMin = new Vector2 (10,12); 
+//left-bottom  // left = 10, bottom = 12
+
+object.GetComponent<RectTransform>().offsetMax = new Vector2 (20,40); 
+//right-top.   // right = 20, top = 40
 
 rectTransform.offsetMin.x    // Left
 rectTransform.offsetMin.y    // Bottom
