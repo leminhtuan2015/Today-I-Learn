@@ -38,13 +38,6 @@
 * https://github.com/RyanNielson/awesome-unity
 * https://github.com/leereilly/games/
 * https://github.com/UnityCommunity/UnityLibrary
-
-* https://github.com/EllanJiang/GameFramework
-* https://github.com/FlipWebApps/GameFramework
-* https://github.com/liangxiegame/QFramework
-* https://github.com/mr-kelly/KSFramework
-
-* https://github.com/BayatGames/RedRunner
 * https://medium.com/@johntucker_48673/unity-leveling-up-with-async-await-tasks-2a7971df9c57
 
 
