@@ -28,6 +28,13 @@
   * Fragment is a sub-activity
   * You can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities
   
+* 10. What’s the difference between onCreate() and onStart()?
+  * The onCreate() method is **called once** during the Activity lifecycle, either when the application starts, or when the Activity has been destroyed and then recreated, for example during a configuration change.
+  * The onStart() method is called **whenever** the Activity becomes visible to the user, typically after onCreate() or onRestart().
+  
+*  Why would you do the setContentView() in onCreate() of Activity class?
+  * As **onCreate() of an Activity is called only once**, this is the point where most initialisation should go. It is inefficient to set the content in onResume() or onStart() (which are called multiple times) as the setContentView() is a heavy operation.
+  
 
 ------------------------------------------------------------------------------------------------------------
 
