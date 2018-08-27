@@ -28,13 +28,16 @@
   * Fragment is a sub-activity
   * You can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities
   
-* 10. What’s the difference between onCreate() and onStart()?
+* 7 What’s the difference between onCreate() and onStart()?
   * The onCreate() method is **called once** during the Activity lifecycle, either when the application starts, or when the Activity has been destroyed and then recreated, for example during a configuration change.
   * The onStart() method is called **whenever** the Activity becomes visible to the user, typically after onCreate() or onRestart().
   
-*  Why would you do the setContentView() in onCreate() of Activity class?
+*  8 Why would you do the setContentView() in onCreate() of Activity class?
   * As **onCreate() of an Activity is called only once**, this is the point where most initialisation should go. It is inefficient to set the content in onResume() or onStart() (which are called multiple times) as the setContentView() is a heavy operation.
   
+* 9 Difference between AsyncTasks & Threads?
+  * Thread should be used to separate long running operations from main thread so that performance is improved. But it can’t be cancelled elegantly and it can’t handle configuration changes of Android. **You can’t update UI from Thread**.
+  * AsyncTask can be used to handle work items shorter than 5ms in duration. With AsyncTask, **you can update UI** unlike java Thread. But many long running tasks will choke the performance.
 
 ------------------------------------------------------------------------------------------------------------
 
