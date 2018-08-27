@@ -1,4 +1,4 @@
-### JAVA
+### JAVA - ANDROID
 
 * 1 **What is static variable (class variable), when we use static variable** [Biến static là gì? khi nào sử dụng biến static]
   * Là biến share của tất cả các instance trong class, Sử dụng khi 1 tài nguyên là cố định với tất cả các object của class
@@ -38,6 +38,13 @@
 * 9 Difference between AsyncTasks & Threads?
   * Thread should be used to separate long running operations from main thread so that performance is improved. But it can’t be cancelled elegantly and it can’t handle configuration changes of Android. **You can’t update UI from Thread**.
   * AsyncTask can be used to handle work items shorter than 5ms in duration. With AsyncTask, **you can update UI** unlike java Thread. But many long running tasks will choke the performance.
+
+------------------------------------------------------------------------------------------------------------
+
+### JAVASCRIPT - REACT-NATIVE
+
+
+
 
 ------------------------------------------------------------------------------------------------------------
 
