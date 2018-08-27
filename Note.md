@@ -17,7 +17,9 @@
 
 * 4 **Toán tử == và hàm equals() khác nhau như thế nào, How to compare 2 object?**
 
-
+  * Toán tử == dành cho việc so sánh tham chiếu (so sánh địa chỉ lưu trữ) 
+  * method .equals() dành cho việc so sánh nội dung
+  * => 
 
 ------------------------------------------------------------------------------------------------------------
 
