@@ -17,8 +17,8 @@
 
 * 4 **Toán tử == và hàm equals() khác nhau như thế nào, How to compare 2 object?**
 
-  * Toán tử == dành cho việc so sánh tham chiếu (so sánh địa chỉ lưu trữ) 
-  * method .equals() dành cho việc so sánh nội dung
+  * The default implementation uses == operator to compare two objects, Toán tử == dành cho việc so sánh tham chiếu (so sánh địa chỉ lưu trữ) 
+  * method .equals() compare the values of two objects, dành cho việc so sánh nội dung
   * => Khi so sánh kiểu dữ liệu String, ng ta dùng .equals()
   
 * 5 **Activity Lifecycle in Android Applications, When onResume called :  Vòng đời của một Activity, khi nào onResume() được gọi?**
