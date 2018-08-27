@@ -58,7 +58,10 @@
 
 * 3 **What is strict mode in JS**
   
-  
+  * The purpose of "use strict" is to indicate that the code should be executed in "strict mode". With strict mode, you can not, for example, use undeclared variables.
+  * You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables.
+
+
   
 
 ------------------------------------------------------------------------------------------------------------
