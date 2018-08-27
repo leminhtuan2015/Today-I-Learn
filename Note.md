@@ -21,9 +21,12 @@
   * method .equals() dành cho việc so sánh nội dung
   * => Khi so sánh kiểu dữ liệu String, ng ta dùng .equals()
   
-* 8 **Activity Lifecycle in Android Applications, When onResume called :  Vòng đời của một Activity, khi nào onResume() được gọi?**
+* 5 **Activity Lifecycle in Android Applications, When onResume called :  Vòng đời của một Activity, khi nào onResume() được gọi?**
   * onResume : This event is called whenever the user returns to the activity after leaving the activity — such as receiving a call, pressing the home button, turning off the screen, or transitioning to another activity.
   
+* 6 Diffrent between fragment và activity là gì ?
+  * Fragment is a sub-activity
+  * You can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities
   
 
 ------------------------------------------------------------------------------------------------------------
