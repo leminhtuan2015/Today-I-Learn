@@ -47,8 +47,19 @@
 
 ### JAVASCRIPT - REACT-NATIVE
 
+* 1 **What is First-class functions ?**
 
+  * A programming language is said to have First-class functions when functions in that language are treated like any other variable
+  * A function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
+  
+* 2 **What is Hoited in JS**  
+  * Hoisting is JavaScript's default behavior of moving declarations to the top.
+  * Variables and function declarations are moved to the top of their scope before code execution.
 
+* 3 **What is strict mode in JS**
+  
+  
+  
 
 ------------------------------------------------------------------------------------------------------------
 
