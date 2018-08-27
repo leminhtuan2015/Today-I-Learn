@@ -40,7 +40,8 @@
   * AsyncTask can be used to handle work items shorter than 5ms in duration. With AsyncTask, **you can update UI** unlike java Thread. But many long running tasks will choke the performance.
   
 * 10 cách loại bỏ permission 
-  * Vào file manifest: <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
+  * Vào file manifest: 
+  ```<uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />```
 
 ------------------------------------------------------------------------------------------------------------
 
