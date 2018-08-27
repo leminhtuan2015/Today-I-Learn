@@ -19,7 +19,7 @@
 
   * Toán tử == dành cho việc so sánh tham chiếu (so sánh địa chỉ lưu trữ) 
   * method .equals() dành cho việc so sánh nội dung
-  * => 
+  * => Khi so sánh kiểu dữ liệu String, ng ta dùng .equals()
 
 ------------------------------------------------------------------------------------------------------------
 
