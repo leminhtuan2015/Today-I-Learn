@@ -1,10 +1,10 @@
 ### JAVA
 
-* 1 **What is static variable (class variable)**
-  * Biến static là gì?
+* 1 **What is static variable (class variable), when we use static variable** [Biến static là gì? khi nào sử dụng biến static]
+  * Là biến share của tất cả các instance trong class, Sử dụng khi 1 tài nguyên là cố định với tất cả các object của class
 
 * 2 **What is pointer? Object is the pointer? what is the diffrent between reference variable vs value variable?**
-  * Con trỏ là gì? , Object có phải con trỏ không, Object là biến tham trị hay tham chiếu, kiểu biến tham chiếu va tham chị khác nhau như thế nào?
+  * Con trỏ là gì? , Object có phải con trỏ không, Object là biến tham trị hay tham chiếu, kiểu biến tham chiếu va tham trị khác nhau như thế nào?
 
 * 3 **Data structures, When use List, when use Set**
    * List (countable number of ordered values, where the same value may occur more than once), 
