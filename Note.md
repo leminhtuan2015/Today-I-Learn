@@ -62,7 +62,8 @@
   * You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables.
 
 
-  
+* 4 : componentWillReceiveProps when it called: 
+  * Before our component does anything with the new props, componentWillReceiveProps is called
 
 ------------------------------------------------------------------------------------------------------------
 
