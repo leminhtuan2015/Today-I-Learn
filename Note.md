@@ -92,6 +92,26 @@ viewWillDisappear(_ animated: Bool)
 
 viewDidDisappear(_ animated: Bool)
 
+2. Auto-layout là gì?
+
+* Auto Layout là cơ chế tự động tính toán size và vị trí của tất các view nằm trong ứng dụng của bạn, nó dựa trên một hệ thống điều kiện gọi là constraint đặt trên từng view.
+
+3. Hàm nào được gọi khi application chuyển sang chạy background (nhấn nút home), và hàm nào được gọi khi chuyển lên chạy foreground.
+
+Trả lời :
+
+– Chuyển sang background: applicationDidEnterBackground (Trong AppDelegate class)
+
+– Chuyển lên foreground: applicationWillEnterForeground (Trong AppDelegate class)
+
+4. Delegate là gì ?
+
+Delegate là một pattern rất phổ biến trong công việc truyển dữ liệu giữa các View. Cơ chế hoạt động của nó là View B ủy quyền cho View A thực thi một hành động nào đó, View A sau khi nhận dữ liệu View.B trả về, sẽ dismiss View B và thực thi hành động mà view B đã ủy quyền trước đó
+
+5. Trong IOS có 2 cấu trúc dữ liệu NSSet, NSArray, Sự khác biệt là gì? Khi nào sử dụng NSSet/NSArray ? Duyệt NSSet/NSArray cái nào nhanh hơn.
+
+Khi thứ tự của các phần tử không quan trọng thì quá trình duyệt phần tử tại NSSet sẽ nhanh hơn vì NSSet sử dụng hash value để tìm phần tử, giống như từ điển. Còn NSArray sẽ duyệt qua nội dung của từng phần tử một.
+
 ------------------------------------------------------------------------------------------------------------
 
 ### JD
