@@ -69,8 +69,10 @@
 ------------------------------------------------------------------------------------------------------------
 
 ### Swift - IOS
+
+0. 33- What is Pointer ?
   
-1. Mô tả vòng đời của ViewController, Phân biệt viewDidLoad và viewDidAppear?
+1. Mô tả vòng đời của ViewController (Explain View Controller Lifecycle events order ?), Phân biệt viewDidLoad và viewDidAppear?
 
 * https://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
 
@@ -128,6 +130,15 @@ Weak pointer là một con trỏ, trỏ đến một đối tượng nhưng khô
   * là 1 kiểu Kiểu dữ liệu 
   * Tuple is a group of different values represented as one
   * The type of a tuple is determined by the values it has. So ("tuple", 1, true) will be of type (String, Int, Bool).
+  
+9: - What is bitcode ?
+  * Bitcode refers to to the type of code: “LLVM Bitcode” that is sent to iTunes Connect. This allows Apple to use certain calculations to re-optimize apps further (e.g: possibly downsize executable sizes). If Apple needs to alter your executable then they can do this without a new build being uploaded.
+  
+10- What’s the difference between a xib and a storyboard?
+Both are used in Xcode to layout screens (view controllers). A xib defines a single View or View Controller screen, while a storyboard shows many view controllers and also shows the relationship between them.
+  
+11. 28- What is the difference Delegates and Callbacks ?
+
 
 ------------------------------------------------------------------------------------------------------------
 
