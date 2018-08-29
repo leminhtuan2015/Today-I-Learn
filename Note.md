@@ -112,6 +112,18 @@ Delegate là một pattern rất phổ biến trong công việc truyển dữ l
 
 Khi thứ tự của các phần tử không quan trọng thì quá trình duyệt phần tử tại NSSet sẽ nhanh hơn vì NSSet sử dụng hash value để tìm phần tử, giống như từ điển. Còn NSArray sẽ duyệt qua nội dung của từng phần tử một.
 
+
+6.  What is the difference strong, weak pointer?
+
+Strong pointer là một con trỏ, trỏ đến một đối tượng và sở hữu (own) đối tượng đó. 
+Weak pointer là một con trỏ, trỏ đến một đối tượng nhưng không sở hữu (own) đối tượng đó.
+
+* Strong pointer: quyết định đến sự tồn tại của đối tượng.
+
+7. Khái niệm "higher order functions?" trong Swift là gì?
+  * Giống như first class functions trong JS
+  * Functions that take another function as a parameter, or return a function, as a result, are known as higher-order functions. 
+
 ------------------------------------------------------------------------------------------------------------
 
 ### JD
