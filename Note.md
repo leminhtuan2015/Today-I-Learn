@@ -64,6 +64,33 @@
 
 * 4 : componentWillReceiveProps when it called: 
   * Before our component does anything with the new props, componentWillReceiveProps is called
+  
+ 
+------------------------------------------------------------------------------------------------------------
+
+### Swift - IOS
+  
+1. Mô tả vòng đời của ViewController, Phân biệt viewDidLoad và viewDidAppear?
+
+* https://stackoverflow.com/questions/5562938/looking-to-understand-the-ios-uiviewcontroller-lifecycle
+
+LoadView()
+
+loadViewIfNeeded()
+
+viewDidLoad()  **Only called Once**
+
+viewWillAppear(_ animated: Bool)
+
+viewWillLayoutSubviews()
+
+viewDidLayoutSubviews()
+
+viewDidAppear(_ animated: Bool)
+
+viewWillDisappear(_ animated: Bool)
+
+viewDidDisappear(_ animated: Bool)
 
 ------------------------------------------------------------------------------------------------------------
 
