@@ -123,6 +123,11 @@ Weak pointer là một con trỏ, trỏ đến một đối tượng nhưng khô
 7. Khái niệm "higher order functions?" trong Swift là gì?
   * Giống như first class functions trong JS
   * Functions that take another function as a parameter, or return a function, as a result, are known as higher-order functions. 
+  
+8: Tuple in swift là gì?
+  * là 1 kiểu Kiểu dữ liệu 
+  * Tuple is a group of different values represented as one
+  * The type of a tuple is determined by the values it has. So ("tuple", 1, true) will be of type (String, Int, Bool).
 
 ------------------------------------------------------------------------------------------------------------
 
