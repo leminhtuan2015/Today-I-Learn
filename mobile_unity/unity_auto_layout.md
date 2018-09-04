@@ -9,3 +9,6 @@
   * Horizontal Layout Group
   * Vertical Layout Group
   * Grid Layout Group
+
+
+### Horizontal Layout Group + Content Size Fitter
