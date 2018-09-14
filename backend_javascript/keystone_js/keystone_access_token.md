@@ -15,9 +15,9 @@
 
 ### Access Token Diagram
 
-*
-*
-*
+$~$
+$~$
+$~$
 
 
 
