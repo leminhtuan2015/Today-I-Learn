@@ -1,9 +1,23 @@
 ### Project Structure
+### Important Files
+### Project Structure
+
+---------------------------------------------------------------------------
+
+### Project Structure
 
 * models — Contains database models. We will discuss this later in further detail.
 * public — Static resources publicly available to the app.
 * routes — Javascript files, such as view controllers and api controllers.
 * templates —Contains semantic view templates.
+
+### Important Files
+
+* keystone.js- The main application file which configures and starts the app.
+* routes/index.js- Route endpoints are registered here.
+* templates/views/layouts/default.hbs- This is the main template file.
+
+### Project Structure diagram
 
 ```
 |--lib
