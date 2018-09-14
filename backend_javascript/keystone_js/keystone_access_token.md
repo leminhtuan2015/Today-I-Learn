@@ -12,3 +12,6 @@
   * Step 2. Gym club admin sẽ cấp cho bạn 1 thẻ thành viên (giống như hệ thống sẽ response lại 1 access token, client lưu lại access token)
   * Step 3: Mỗi ngày đến gym club mình cần đưa thẻ để chứng minh là thành viên rùi mới có thể vào phòng (giống như việc mỗi lần mình request đến API thì gửi theo access token để xác thực mình là user của hệ thống)
   * Step 4: Nếu thẻ hết hạn bạn phải re-new để đc vào phòng tập (giống như khi access token bị expried bạn cần đăng nhập lại hoặc re-new access token để có thê tiếp tục truy cập API của hệ thống)
+
+
+[<img src="https://github.com/leminhtuan2015/Today-I-Learn/blob/master/backend_javascript/keystone_js/access_token_diagram.png?raw=true">](http://google.com.au/)
