@@ -1,6 +1,6 @@
 ### Project Structure
 
-
+```
 |--lib
 |  Custom libraries and other code
 |--models
@@ -31,3 +31,4 @@
 |  Project configuration for npm
 |--keystone.js
 |  Main script that starts your application
+```
