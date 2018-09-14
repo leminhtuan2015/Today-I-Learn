@@ -9,5 +9,6 @@
 * Examples of Digital Content can be Blog Posts, Images, Store Products, Events, etc.
 
 ### What is KeystoneJS ?
+* KeystoneJS is **a Javascript CMS**.
 * KeystoneJS is an Open Source, NodeJS based CMS and Web Application Platform.
 * **KeystoneJS = ExpressJS + MongoDB**
