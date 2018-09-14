@@ -26,3 +26,7 @@ node keystone
 npm start
 
 ```
+
+* Open CMS on browser
+
+http://localhost:3000/
