@@ -1,5 +1,10 @@
 ### Project Structure
 
+* models — Contains database models. We will discuss this later in further detail.
+* public — Static resources publicly available to the app.
+* routes — Javascript files, such as view controllers and api controllers.
+* templates —Contains semantic view templates.
+
 ```
 |--lib
 |  Custom libraries and other code
