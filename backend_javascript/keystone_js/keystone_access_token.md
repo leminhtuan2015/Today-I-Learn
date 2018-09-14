@@ -15,10 +15,8 @@
 
 ### Access Token Diagram
 
-$~$
-$~$
-$~$
-
-
+<br>
+<br>
+<br>
 
 [<img src="https://github.com/leminhtuan2015/Today-I-Learn/blob/master/backend_javascript/keystone_js/access_token_diagram.png?raw=true">](http://google.com.au/)
