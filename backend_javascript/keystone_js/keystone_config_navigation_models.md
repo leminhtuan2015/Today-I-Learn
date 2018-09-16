@@ -1,7 +1,7 @@
 
 ### Configure the navigation bar in Keystone's Admin UI
 
-keystone.set('nav', {NAME : MODEL_NAME});
+keystone.set('nav', {DISPLAY_NAME : MODEL_NAME});
 
 ```js
 keystone.set('nav', {
