@@ -9,10 +9,18 @@ keystone.set('nav', {
 	'galleries': 'galleries',
 	'enquiries': 'enquiries',
 	'users': 'users',
+	
 	'externalLink': {
 		label: 'Keystone',
 		key: 'keystone',
 		path: 'http://keystonejs.com/'
+	},
+	
+	content: {
+		novels: 'novels',
+		episodes: 'episodes',
+		stories: 'stories',
+		lines: 'lines',
 	}
 });
 ```
