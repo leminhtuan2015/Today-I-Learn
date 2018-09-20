@@ -7,7 +7,9 @@
 
 * Code
 // { type: Types.Code, height: 180, language: json }
-// Supported languages: c++, objectivec, css, asp, c, vb, xml, php, html, ini, js, java, coffee, lisp, perl, python, sql, json, less, sass, sh, ruby, jsp, tpl, jade
+// Supported languages: 
+// c++, objectivec, css, asp, c, vb, xml, php, html, ini, js, java, coffee,
+// lisp, perl, python, sql, json, less, sass, sh, ruby, jsp, tpl, jade
 
 * Color
 * Date
