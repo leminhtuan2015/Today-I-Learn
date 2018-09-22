@@ -1,8 +1,8 @@
-### Objective-C Programming/concepts
+### Objective-C Programming/Concepts
 
 ---------------------------------------------------------------------
 
-### Objective-C Programming/concepts
+### Objective-C Programming/Concepts
 
 * Objective-C is an object-oriented programming language, and is a layer over the C programming language.
 * Objective-C is just C (a superset of C) , with Lisp like object-oriented syntax
