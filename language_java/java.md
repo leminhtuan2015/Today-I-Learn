@@ -13,7 +13,7 @@
 
 #### When run/compile a Java project by console (terminal) like `java/ant/maven` we need point out where is class path (For Java Virtual Machine can see where is classpath)
 
-```
+```sh
 $ java -cp /path/to/libs   org.mypackage.HelloWorld             // Linux
 
 or
@@ -32,14 +32,14 @@ $ java -classpath  /path/to/libs   org.mypackage.HelloWorld     // Windown
   
   - Each time we run/compile a Java project by console **java/ant/maven** we need to point out where is **classpath**
   
-```
+```sh
 // First way
 // In .bashrc file add the below line
 export CLASSPATH=/home/myaccount/myproject/lib/CoolFramework.jar:/home/myaccount/myproject/output/
 
 ```
 
-```
+```sh
 //Second way
 // When run Java project by java
 # java -cp "/home/myaccount/myproject/lib/CoolFramework.jar:/home/myaccount/myproject/output/"  MyMainClass
