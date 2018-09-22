@@ -25,13 +25,7 @@
 ### React native
 * RX : https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 * Promiss + Saga
-
 * runAfterInteractions + RN Navigation + setParams
-
-* https://github.com/strapi/strapi
-* https://expo.io/learn
-
-
 
 ### Unity
 
