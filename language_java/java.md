@@ -49,20 +49,23 @@ export CLASSPATH=/home/myaccount/myproject/lib/CoolFramework.jar:/home/myaccount
 ```
 // When use ant to run/compile a Java project we need to point out where is classpath
 <path id="project.classpath">
-		<fileset dir="${lib.dir}">
-			<include name="**/*.jar" />
-		</fileset>
-		<fileset dir="${lib.dir}" includes="*.jar" />
-		<pathelement location="war/WEB-INF/classes" />
-		<pathelement location="${gwt.sdk}/gwt-user.jar" />
-		<pathelement location="${gwt.sdk}/gwt-dev.jar" />
-	</path>
+	<fileset dir="${lib.dir}">
+		<include name="**/*.jar" />
+	</fileset>
+	<fileset dir="${lib.dir}" includes="*.jar" />
+	<pathelement location="war/WEB-INF/classes" />
+	<pathelement location="${gwt.sdk}/gwt-user.jar" />
+	<pathelement location="${gwt.sdk}/gwt-dev.jar" />
+</path>
 	
-	<target name="javac" depends="libs" description="Compile java source to bytecode">
-		<javac srcdir="src" includes="**" encoding="utf-8" destdir="war/WEB-INF/classes" source="1.7" target="1.7" nowarn="true" debug="true" debuglevel="lines,vars,source">
-			<classpath refid="project.classpath" />
-		</javac>
-	</target>
+<target name="javac" depends="libs" description="Compile java source to bytecode">
+	<javac srcdir="src" includes="**" encoding="utf-8" 
+		destdir="war/WEB-INF/classes" source="1.7" target="1.7" 
+		nowarn="true" debug="true" debuglevel="lines,vars,source">
+		
+		<classpath refid="project.classpath" />
+	</javac>
+</target>
 ```
     
 
