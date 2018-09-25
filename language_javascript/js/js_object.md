@@ -10,7 +10,7 @@
 
 #### Create object
 
-* Method 1
+* Method 1 : Using object initializers
 
 ```js
 var x = {
@@ -32,7 +32,7 @@ x.tellName = function (){   // add thêm function "tellName" cho object x
 };
 ```
 
-* Method 3
+* Method 3: Using a constructor function
 
 ```js
 function Car(make, model, year) {
@@ -46,7 +46,7 @@ var kenscar = new Car('Nissan', '300ZX', 1992);
 var vpgscar = new Car('Mazda', 'Miata', 1990);
 ```
 
-* Method 4
+* Method 4 : Using the Object.create method
 
 ```js
 // Animal properties and method encapsulation
