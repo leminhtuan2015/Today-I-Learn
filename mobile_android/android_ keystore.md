@@ -29,3 +29,5 @@ keytool -exportcert -rfc -alias yourAliasName -file /The/path/to/your/upload_cer
 ```
 
 * Step 3: Sign your APK using the new Keystore file.
+* Step 4: Contact Google Play Support Team.
+  * Finally you just need to fill out this form (https://support.google.com/googleplay/android-developer/contact/otherbugs) and upload your upload_certificate.pem file. Within two working days you will be contacted by someone at google that will register your new upload key and give you a date when you will be able to update your app. Good luck!
