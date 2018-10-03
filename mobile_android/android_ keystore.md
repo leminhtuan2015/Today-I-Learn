@@ -19,7 +19,8 @@
 
 ### Lost Keystore – How to generate and register a new upload key (mac).
 
-- http://ghoulkeeper.com/lost-keystore-how-to-generate-and-register-a-new-upload-key-mac/
+* http://ghoulkeeper.com/lost-keystore-how-to-generate-and-register-a-new-upload-key-mac/
+* https://support.google.com/googleplay/android-developer/answer/7384423?hl=en
 
 * Step 1: Create new keystore
 * Step 2: Export the certificate for the new key to PEM format
