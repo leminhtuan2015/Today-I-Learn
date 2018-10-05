@@ -15,6 +15,7 @@
 * Trong IOS (x, y) của UIView chính là điểm **Phía trên bên trái**
 
 <br>
+
 * **localPosition**: Refer to parent game object (quy chiếu với object cha)
 * **position**: Refer to O(0, 0, 0) of OXY (quy chiếu với gốc toạ độ)
 
