@@ -14,9 +14,9 @@
 * **Toạ độ (x, y, z) của mọi GameObject/UI chính là điểm chính giữa của (tâm) của GameObject/UI đó**
 * Trong IOS (x, y) của UIView chính là điểm **Phía trên bên trái**
 
-
-#### localPosition: Refer to parent game object (quy chiếu với object cha)
-#### position: Refer to O(0, 0, 0) of OXY (quy chiếu với gốc toạ độ)
+<br>
+* **localPosition**: Refer to parent game object (quy chiếu với object cha)
+* **position**: Refer to O(0, 0, 0) of OXY (quy chiếu với gốc toạ độ)
 
 ### Transform component
   * Every GameObject/Component in Unity have a default component is **Transform component**
