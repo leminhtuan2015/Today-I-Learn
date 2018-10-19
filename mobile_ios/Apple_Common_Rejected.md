@@ -3,6 +3,7 @@
 * Crash on any function
 * UI not good
 * Metadata rejected
+* Not submit IAP
 
 * Check Advertising Identifier
 
