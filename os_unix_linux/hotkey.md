@@ -1,4 +1,4 @@
 
 ### Show all dot file
 
-* Control + Shift + .
+* **Control** + **Shift** + **.**
