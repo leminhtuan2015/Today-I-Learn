@@ -1,10 +1,10 @@
-### 1 Minimum function
-### 2 Asking for access (location, gallery, camera) not clearly
-### 3 Crash on any function
-### 4 UI not good
-### 5 Metadata rejected
-### 6 Not submit IAP
-### 7 IAP is more than 99,99$ (more than tier 60)
+### 1. Minimum function
+### 2. Asking for access (location, gallery, camera) not clearly
+### 3. Crash on any function
+### 4. UI not good
+### 5. Metadata rejected
+### 6. Not submit IAP/ IAP NOT at status "Ready to submit"
+### 7. IAP is more than 99,99$ (more than tier 60)
 
 * Check Advertising Identifier
 
@@ -28,8 +28,22 @@ fgrep -R advertisingIdentifier ./
 ### 5 Metadata rejected
 * Description not good
 * Description too short
+* Description contain link to other website
 * IAP wrong
 * Name is contain price such as free
+
+```
+Guideline 3.1.1 - Business - Payments - In-App Purchase
+
+
+We noticed that your app description references the following URL that links to external mechanisms for purchases or subscriptions to be used in the app:
+
+http://www.yume100.vn/
+
+Next Steps
+
+To resolve this issue, please remove any URL that links to external purchasing mechanisms from your app description.
+```
 
 ### 6 Not submit IAP
 * not submit IAP when submit app
