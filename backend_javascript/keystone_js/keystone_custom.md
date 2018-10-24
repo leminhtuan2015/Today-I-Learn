@@ -1,6 +1,7 @@
 
 ### Keep original upload file name
 ### Show image of File type
+### Clean up bundle React JS of admin ui
 
 -----------------------------------------------------------------
 
@@ -72,3 +73,24 @@ var LocalFileColumn = React.createClass({
 
 module.exports = LocalFileColumn;
 ```
+
+### Clean up bundle React JS of admin ui
+
+* PATH: node_modules/keystone/admin/bundles/js
+
+```sh
+cd node_modules/keystone/admin/bundles/js
+rm -r js
+```
+
+
+
+
+
+
+
+
+
+
+
+
