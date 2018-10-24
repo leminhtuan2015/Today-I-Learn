@@ -8,16 +8,8 @@
 ### 8. IAP is more than 99,99$ (more than tier 60)
 ### 9. App connect to server error
 ### 10. Server blocked IP => Apple reviewer cannot connect to server
+### 11. App contain Ads but you not check when submit
 
-
-
-
-
-* Check Advertising Identifier
-
-```
-fgrep -R advertisingIdentifier ./
-```
 
 --------------------------
 
@@ -74,8 +66,13 @@ Specifically, your app give error message upon loading screen.
 * Amazon server block ip => when Apple review they cannot connect to server
 
 
+### 11. App contain Ads but you not check when submit
 
+* Check Advertising Identifier
 
+```
+fgrep -R advertisingIdentifier ./
+```
 
 
 
