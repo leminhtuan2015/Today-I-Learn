@@ -32,13 +32,13 @@ import ItemsTableValue from '../../components/ItemsTableValue';
 import ImageThumbnail from '../../components/ImageThumbnail';
 
 var LocalFileColumn = React.createClass({
-renderValue: function () {
+    renderValue: function () {
 	var value = this.props.data.fields[this.props.col.path];
 	if (!value || !value.filename) return;
 	return value.filename;
-},
+    },
 
-render: function () {
+    render: function () {
 	var value = this.props.data.fields[this.props.col.path];
 	var href = value && value.url ? value.url : null;
 	var label = value && value.filename ? value.filename : null;
@@ -67,7 +67,7 @@ render: function () {
 	}
 
 	return cell;
-},
+    },
 });
 
 module.exports = LocalFileColumn;
