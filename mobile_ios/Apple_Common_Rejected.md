@@ -50,3 +50,12 @@ To resolve this issue, please remove any URL that links to external purchasing m
 
 ### 7 IAP is more than 99,99$ (more than tier 60)
 * Have IAP more than 99,99$ (more than tier 60)
+
+### 8 Connect to server error
+
+* When app is reviewed, May the app keep show diaglog "Connection to server error"
+
+```
+Specifically, your app give error message upon loading screen.
+```
+
