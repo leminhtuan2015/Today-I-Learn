@@ -5,6 +5,11 @@
 ### 5. Metadata rejected
 ### 6. Not submit IAP/ IAP NOT at status "Ready to submit"
 ### 7. IAP is more than 99,99$ (more than tier 60)
+### 8. App connect to server error
+
+
+
+
 
 * Check Advertising Identifier
 
@@ -51,7 +56,7 @@ To resolve this issue, please remove any URL that links to external purchasing m
 ### 7 IAP is more than 99,99$ (more than tier 60)
 * Have IAP more than 99,99$ (more than tier 60)
 
-### 8 Connect to server error
+### 8 App connect to server error
 
 * When app is reviewed, May the app keep show diaglog "Connection to server error"
 
