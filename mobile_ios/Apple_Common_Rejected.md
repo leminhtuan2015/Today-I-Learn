@@ -3,9 +3,10 @@
 ### 3. Crash on any function
 ### 4. UI not good
 ### 5. Metadata rejected
-### 6. Not submit IAP/ IAP NOT at status "Ready to submit"
-### 7. IAP is more than 99,99$ (more than tier 60)
-### 8. App connect to server error
+### 6. Not submit IAP
+### 7. IAP NOT at status "Ready to submit"
+### 8. IAP is more than 99,99$ (more than tier 60)
+### 9. App connect to server error
 
 
 
@@ -54,10 +55,13 @@ To resolve this issue, please remove any URL that links to external purchasing m
 * not submit IAP when submit app
 * IAP NOT at status "Ready to submit" when submit 
 
-### 7 IAP is more than 99,99$ (more than tier 60)
+### 7. IAP NOT at status "Ready to submit"
+* IAP NOT at status "Ready to submit" when submit 
+
+### 8 IAP is more than 99,99$ (more than tier 60)
 * Have IAP more than 99,99$ (more than tier 60)
 
-### 8 App connect to server error
+### 9 App connect to server error
 
 * When app is reviewed, May the app keep show diaglog "Connection to server error"
 
