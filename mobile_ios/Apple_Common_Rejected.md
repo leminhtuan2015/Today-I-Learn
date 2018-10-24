@@ -50,8 +50,9 @@ Next Steps
 To resolve this issue, please remove any URL that links to external purchasing mechanisms from your app description.
 ```
 
-### 6 Not submit IAP
+### 6. Not submit IAP/ IAP NOT at status "Ready to submit"
 * not submit IAP when submit app
+* IAP NOT at status "Ready to submit" when submit 
 
 ### 7 IAP is more than 99,99$ (more than tier 60)
 * Have IAP more than 99,99$ (more than tier 60)
