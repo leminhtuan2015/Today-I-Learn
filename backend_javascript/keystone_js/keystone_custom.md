@@ -2,6 +2,7 @@
 ### Keep original upload file name
 ### Show image of File type
 ### Clean up bundle React JS of admin ui
+### Add edit button for each row in table
 
 -----------------------------------------------------------------
 
@@ -83,10 +84,9 @@ cd node_modules/keystone/admin/bundles/js
 rm -r js
 ```
 
+### Add edit button for each row in table
 
-
-
-
+* https://github.com/leminhtuan2015/Keystone_CMS_Game_Master_Tool/commit/b440e0d85f0df7cb4fa597b0536874c6de6081a3
 
 
 
