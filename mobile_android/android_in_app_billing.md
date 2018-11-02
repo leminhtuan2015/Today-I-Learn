@@ -1,10 +1,10 @@
 ### Android In-app billing/product
+### The item you requested is not available for purchase
+### This version of the application is not configured for billing through Google Play
 
 --------------------------------------------------------------
 
 ### Android In-app billing/product
-
-* https://stackoverflow.com/questions/13117081/the-item-you-requested-is-not-available-for-purchase
 
 * Here is the list of requirements for the Google IAB testing.
 
@@ -29,3 +29,12 @@
 If you're here from 2018, you need to download the APK directly from Play Store and install the "derived" APK.
 Maybe it is because of Google's Play Store has a feature "App Signing by Google Play".
 ```
+
+### The item you requested is not available for purchase
+
+* https://stackoverflow.com/questions/13117081/the-item-you-requested-is-not-available-for-purchase
+
+### This version of the application is not configured for billing through Google Play
+
+* https://github.com/googlesamples/android-play-billing/issues/51
+* https://stackoverflow.com/questions/11068686/this-version-of-the-application-is-not-configured-for-billing-through-google-pla
