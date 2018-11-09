@@ -96,6 +96,17 @@
   
   x["age"] = 2
   x["name"]["firstName"] = "Le Minh"
+  
+  // Change properties
+  x.age = 3
+  x.name.firstName = "XXX"
 
 ```
+
+
+
+
+
+
+
 
