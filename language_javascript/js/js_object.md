@@ -1,6 +1,7 @@
 ### Javascript Object
 ### Javascript Create object
 ### Convert json to Javascript object
+### Change property of Javascript object
 
 ------------------------------------------------------------------
 
@@ -79,5 +80,22 @@
     var data = JSON.parse(JSON.stringify(data));
 ```
 
+### Change property of Javascript object
 
+```js
+
+  var x = {
+    "age": 1,
+    "name": {
+        "firstName": "Le",
+        "lastName": "Tuan"
+    }
+  }
+  
+  // Change properties
+  
+  x["age"] = 2
+  x["name"]["firstName"] = "Le Minh"
+
+```
 
