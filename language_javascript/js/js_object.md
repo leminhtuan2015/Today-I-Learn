@@ -9,6 +9,32 @@
 
 * In JS  **{}** use for object
 * In JS **[]**  use for array
+* When change object in a function => object will be changed (the same Java/C#) 
+
+```js
+
+var x = {
+  "age": 1,
+  "name": {
+    "firstName": "Le",
+    "lastName": "Tuan"
+  }
+}
+
+function huhu(y){
+  y["age"] = 2
+  y["name"]["firstName"] = "Le Minh"
+}
+
+console.log(x); // { age: 1, name: { firstName: 'Le', lastName: 'Tuan' } }
+
+huhu(x);
+
+console.log(x); // { age: 2, name: { firstName: 'Le Minh', lastName: 'Tuan' } }
+
+
+
+```
 
 ### Javascript Create object
 
