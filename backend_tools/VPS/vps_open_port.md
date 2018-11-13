@@ -1,5 +1,6 @@
 
 ### Firewall on VPS CentOS 6, CentOS 7
+### Check port on VPS is opening from telnet
 ### Check port on VPS is opening
 ### Open/Close port VPS on CentOS
 
@@ -12,6 +13,17 @@
   * CentOS 7 use **firewall-cmd**
   
 * FirewallD **(firewall-cmd)** replace of  **iptables**
+
+### Check port on VPS is opening from telnet
+
+```sh
+telnet 153.126.183.103 80
+# Connected to => port is opened
+# Connection refused => port is closed
+
+telnet google.com 80
+
+```
 
 ### Check port on VPS is opening
 
