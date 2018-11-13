@@ -18,6 +18,8 @@
 
 * https://ping.eu/port-chk/
 
+* Method 1: Check port open by **telnet**
+
 ```sh
 telnet 153.126.183.103 80
 # Connected to => port is opened
@@ -25,6 +27,15 @@ telnet 153.126.183.103 80
 
 telnet google.com 80
 
+```
+
+* Method 2: Check port open by **nmap**
+
+```sh
+brew install nmap
+
+nmap -p 80 153.126.183.103
+nmap -p 80 google.com
 ```
 
 ### Check port on VPS is opening
