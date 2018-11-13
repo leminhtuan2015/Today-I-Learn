@@ -1,6 +1,27 @@
+### Check port on VPS is opening
 ### Open/Close port VPS on CentOS
 
 ---------------------------------------------------------
+
+### Check port on VPS is opening
+
+* Method 1: check port status by **Iptables**
+
+```sh
+iptables -L -n
+```
+
+=> Port 80, 22 is opened
+```
+ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0           tcp dpt:80
+f2b-SSH    tcp  --  0.0.0.0/0            0.0.0.0/0           tcp dpt:22
+```
+
+* Method 2: check port status by **FirewallD**
+
+```sh
+firewall-cmd --list-all
+```
 
 ### Open/Close port VPS on CentOS
 
