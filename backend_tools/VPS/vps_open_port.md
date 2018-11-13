@@ -1,7 +1,15 @@
+
+### Firewall on VPS CentOS 6, CentOS 7
 ### Check port on VPS is opening
 ### Open/Close port VPS on CentOS
 
 ---------------------------------------------------------
+
+### Firewall on VPS CentOS 6, CentOS 7
+
+* CentOS VPS use some tools for manager firewall:
+  * CentOS 6 use **iptables**
+  * CentOS 7 use **firewall-cmd**
 
 ### Check port on VPS is opening
 
