@@ -16,6 +16,8 @@
 
 ### Check port on VPS is opening from telnet
 
+* https://ping.eu/port-chk/
+
 ```sh
 telnet 153.126.183.103 80
 # Connected to => port is opened
