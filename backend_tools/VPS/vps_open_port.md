@@ -10,6 +10,8 @@
 * CentOS VPS use some tools for manager firewall:
   * CentOS 6 use **iptables**
   * CentOS 7 use **firewall-cmd**
+  
+* FirewallD **(firewall-cmd)** replace of  **iptables**
 
 ### Check port on VPS is opening
 
