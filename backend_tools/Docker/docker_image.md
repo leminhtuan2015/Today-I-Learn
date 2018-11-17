@@ -18,15 +18,23 @@ docker images
 
 ### Build your own a Docker Image Dockerfile
 
-Step 1: Make a **Dockerfile**
+**Step 1:** Make a **Dockerfile**
 
-```docker
-FROM ubuntu # FROM [IMAGE_NAME]
+```sh
+FROM ubuntu 
+# FROM [IMAGE_NAME] : It tells docker, from which base image you want to base your image from
 
 RUN apt-get update 
+# The RUN command is used to run instructions against the image.
 RUN apt-get install –y nginx 
 CMD [“echo”,”Image created”]
 
+```
+
+**Step 2:**
+
+```sh
+docker build [path/to/folder/contain/Dockerfile]
 ```
 
 ### Pull Docker Image from Docker hub
