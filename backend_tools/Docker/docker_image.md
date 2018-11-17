@@ -24,6 +24,7 @@ docker images
 **Step 1:** Make a **Dockerfile**
 
 * **Dockerfile** : Is the description file for create a Docker Image
+* **Dockerfile** ===(Build)====> **Docker Image** ===(Run)====> **Docker Container**
 
 ```sh
 FROM ubuntu 
