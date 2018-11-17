@@ -1,5 +1,6 @@
 ### Docker Image
 ### Pull Docker Image
+### Pushing Docker Images to a Docker Repository (Docker hub)
 
 --------------------------------------------------------------------------------------------
 
@@ -32,4 +33,30 @@ docker pull DOCKER_IMAGE
 
 ```sh
 docker run -it [IMAGE ID|IMAGE NAME]
+```
+
+### Pushing Docker Images to a Docker Repository (Docker hub)
+
+* The same push code to **Github**
+
+* **Step 1:** Create an account on Docker Hub. Afterwards, to push your image, first log into Docker Hub. You'll be prompted to authenticate:
+
+```sh
+docker login -u [docker-hub-username]
+
+# EX
+docker login -u leminhtuan2015
+Password:
+Login Succeeded
+```
+
+* **Step 2:**
+
+```sh
+docker push [docker-hub-username]/[docker-image-name]
+
+# EX
+
+docker push leminhtuan2015/XXX_Image
+
 ```
