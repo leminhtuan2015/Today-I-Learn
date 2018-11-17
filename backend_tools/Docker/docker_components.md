@@ -17,3 +17,8 @@
 * Docker images = The Class
 * Docker containers = The object (instance of the Class)
 
+#### Dockerfile
+
+* Define a container with Dockerfile
+* **Dockerfile** defines what goes on in the environment inside your **Docker container**
+
