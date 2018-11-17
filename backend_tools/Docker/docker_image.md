@@ -7,6 +7,9 @@
 
 ### Docker images
 
+* Docker images = **OS** + **Tools (Mysql, Node, ...)** + **Application (Web services, API services, ...)**
+* Docker container = Instance of running Docker images
+
 * In Docker, everything is based on Images. An image is a combination of a file system and parameters
 * An image is an executable package that includes everything needed to run an application, the code, a runtime, libraries, environment variables, and configuration files.
 
