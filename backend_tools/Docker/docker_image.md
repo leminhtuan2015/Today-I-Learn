@@ -22,3 +22,13 @@ docker images
 docker pull DOCKER_IMAGE
 
 ```
+
+#### Run a Docker image
+
+* **Docker container** is the instance of **Docker Image**
+* Docker container = Class
+* Docker Image = Object (the instance of the class)
+
+```sh
+docker run [IMAGE ID|IMAGE NAME]
+```
