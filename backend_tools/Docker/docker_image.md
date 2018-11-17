@@ -1,5 +1,5 @@
 ### Docker Image
-### Build your own a Docker Image Dockerfile
+### Build your own a Docker Image by Dockerfile
 ### Pull Docker Image from Docker hub
 ### Pushing Docker Images to a Docker Repository (Docker hub)
 
@@ -19,9 +19,11 @@ docker image ls
 docker images
 ```
 
-### Build your own a Docker Image Dockerfile
+### Build your own a Docker Image by Dockerfile
 
 **Step 1:** Make a **Dockerfile**
+
+* **Dockerfile** : Is the description file for create a Docker Image
 
 ```sh
 FROM ubuntu 
