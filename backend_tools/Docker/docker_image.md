@@ -24,12 +24,12 @@ docker pull DOCKER_IMAGE
 
 ```
 
-#### Run a Docker image
+#### Run a Docker container from Docker Image
 
 * **Docker container** is the instance of **Docker Image**
 * Docker container = Class
 * Docker Image = Object (the instance of the class)
 
 ```sh
-docker run [IMAGE ID|IMAGE NAME]
+docker run -it [IMAGE ID|IMAGE NAME]
 ```
