@@ -37,16 +37,6 @@ CMD [“echo”,”Image created”]
 docker pull DOCKER_IMAGE
 ```
 
-#### Run a Docker container from Docker Image
-
-* **Docker container** is the instance of **Docker Image**
-* Docker container = Class
-* Docker Image = Object (the instance of the class)
-
-```sh
-docker run -it [IMAGE ID|IMAGE NAME]
-```
-
 ### Pushing Docker Images to a Docker Repository (Docker hub)
 
 * The same push code to **Github**
