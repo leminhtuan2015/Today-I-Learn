@@ -38,11 +38,14 @@
 * http://callbackhell.com
 * https://github.com/leminhtuan2015/Today-I-Learn/blob/master/language_javascript/js/js_Callbacks_Promises_Async_Await.md
 
-* Build docker
-* Nginx
 * ReactJs + NodeJs
 
 ### Flutter
 * flutter.io 
 - https://flutter.io/get-started/codelab/
+
+### Backend
+
+* Build docker
+* Nginx
 
