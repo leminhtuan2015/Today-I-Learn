@@ -25,6 +25,10 @@ docker ps
 
 ### Run a Docker container from Docker Image
 
+* **Docker container** is the instance of **Docker Image**
+* Docker container = Class
+* Docker Image = Object (the instance of the class)
+
 ```sh
 docker images
 
@@ -35,10 +39,9 @@ hello-world         latest              4ab4c602aa5e        2 months ago        
 ```
 
 ```sh
-docker run -it centos
-
+docker run -it [IMAGE ID|IMAGE NAME]
+# EX: docker run -it centos
 # Install tools on Docker container
-
 yum install ...
 ```
 
