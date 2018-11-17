@@ -45,6 +45,11 @@ docker build  -t [ImageName]:[TagName] [path/to/folder/contain/Dockerfile]
 # TagName : This is the tag you want to give to your image.
 # [path/to/folder/contain/Dockerfile] : The directory where the Docker File is present.
 
+# EX:
+
+sudo docker build –t myimage:0.1 ./
+
+
 ```
 
 ### Pull Docker Image from Docker hub
