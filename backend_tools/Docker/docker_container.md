@@ -1,5 +1,6 @@
 ### Docker containers
 ### Run a Docker container from Docker Image
+### Run Docker container in background (keep Docker container alive as service)
 ### Committing Changes in a Container to a Docker Image
 
 ---------------------------------------------------------------------------------------------------
@@ -43,6 +44,15 @@ docker run -it [IMAGE ID|IMAGE NAME]
 # EX: docker run -it centos
 # Install tools on Docker container
 yum install ...
+```
+
+### Run Docker container in background (keep Docker container alive as service)
+
+```sh
+docker run -p 49160:8080 -d <your username>/node-web-app
+
+-d = --detach : Run container in background and print container ID
+
 ```
 
 ### Committing Changes in a Container to a Docker Image
