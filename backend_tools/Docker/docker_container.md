@@ -1,4 +1,5 @@
 ### Docker containers
+### Run a Docker container from Docker Image
 
 ---------------------------------------------------------------------------------------------------
 
@@ -20,3 +21,18 @@ docker ps
 
 * Define a container with Dockerfile
 * **Dockerfile** defines what goes on in the environment inside your **Docker container**
+
+### Run a Docker container from Docker Image
+
+```sh
+docker images
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+mongo               latest              f4f3756fa507        39 hours ago        382MB
+centos              latest              75835a67d134        5 weeks ago         200MB
+hello-world         latest              4ab4c602aa5e        2 months ago        1.84kB
+```
+
+```sh
+docker run -it centos
+```
