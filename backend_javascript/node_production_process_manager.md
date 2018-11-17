@@ -24,5 +24,17 @@ pm2 delete   <app_name|id|'all'|json_conf>
 
 pm2 monit
 
+# Log Management
+
+pm2 logs
+
+pm2 logs APP-NAME       # Display APP-NAME logs
+pm2 logs --json         # JSON output
+pm2 logs --format       # Formated output
+
+pm2 flush               # Flush all logs
+pm2 reloadLogs          # Reload all logs
+
+
 ```
 
