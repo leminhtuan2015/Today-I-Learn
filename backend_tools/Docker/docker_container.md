@@ -1,5 +1,6 @@
 ### Docker containers
 ### Run a Docker container from Docker Image
+### Committing Changes in a Container to a Docker Image
 
 ---------------------------------------------------------------------------------------------------
 
@@ -17,7 +18,7 @@ docker container ls
 docker ps
 ```
 
-### Dockerfile
+#### Dockerfile
 
 * Define a container with Dockerfile
 * **Dockerfile** defines what goes on in the environment inside your **Docker container**
@@ -35,4 +36,20 @@ hello-world         latest              4ab4c602aa5e        2 months ago        
 
 ```sh
 docker run -it centos
+
+# Install tools on Docker container
+
+yum install ...
 ```
+
+### Committing Changes in a Container to a Docker Image
+
+```sh
+docker commit -m "What did you do to the image" -a "Author Name" [container-id] [repository/new_image_name]
+
+# EX
+
+docker commit -m "added mariadb-server" -a "TUANLM" 59839a1b7de2 tuanlm/centos-mariadb
+
+```
+
