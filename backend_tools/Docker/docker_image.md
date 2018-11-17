@@ -1,4 +1,5 @@
 ### Docker Image
+### Build your own a Docker Image Dockerfile
 ### Pull Docker Image from Docker hub
 ### Pushing Docker Images to a Docker Repository (Docker hub)
 
@@ -15,14 +16,25 @@ docker image ls
 docker images
 ```
 
+### Build your own a Docker Image Dockerfile
+
+Step 1: Make a **Dockerfile**
+
+```docker
+FROM ubuntu # FROM [IMAGE_NAME]
+
+RUN apt-get update 
+RUN apt-get install –y nginx 
+CMD [“echo”,”Image created”]
+
+```
+
 ### Pull Docker Image from Docker hub
 
 * We can pull a Docker image from Docker Hub : **https://hub.docker.com/explore/**
 
 ```sh
-
 docker pull DOCKER_IMAGE
-
 ```
 
 #### Run a Docker container from Docker Image
