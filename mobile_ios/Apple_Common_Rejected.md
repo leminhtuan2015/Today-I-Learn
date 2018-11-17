@@ -1,3 +1,7 @@
+## Apple Reject
+
+------------------------------------------------------------
+
 ### 1. Minimum function
 ### 2. Asking for access (location, gallery, camera) not clearly
 ### 3. Crash on any function
@@ -13,18 +17,18 @@
 
 --------------------------
 
-### 1 Minimum function
+#### 1 Minimum function
 * The content of app is very common, it can be get from web, internet
   
-### 2 Asking for access
+#### 2 Asking for access
 * Asking for access in Info.plit file is not clear
 
-### 3 Crash on any function
+#### 3 Crash on any function
   
-### 4 UI not good
+#### 4 UI not good
 * UI similar other apps
 
-### 5 Metadata rejected
+#### 5 Metadata rejected
 * Description not good
 * Description too short
 * Description contain link to other website
@@ -44,29 +48,29 @@ Next Steps
 To resolve this issue, please remove any URL that links to external purchasing mechanisms from your app description.
 ```
 
-### 6. Not submit IAP/ IAP NOT at status "Ready to submit"
+#### 6. Not submit IAP/ IAP NOT at status "Ready to submit"
 * not submit IAP when submit app
 * IAP NOT at status "Ready to submit" when submit 
 
-### 7. IAP NOT at status "Ready to submit"
+#### 7. IAP NOT at status "Ready to submit"
 * IAP NOT at status "Ready to submit" when submit 
 
-### 8 IAP is more than 99,99$ (more than tier 60)
+#### 8 IAP is more than 99,99$ (more than tier 60)
 * Have IAP more than 99,99$ (more than tier 60)
 
-### 9 App connect to server error
+#### 9 App connect to server error
 
 * When app is reviewed, May the app keep show diaglog "Connection to server error"
 
 ```
 Specifically, your app give error message upon loading screen.
 ```
-### 10. Server blocked IP => Apple reviewer cannot connect to server
+#### 10. Server blocked IP => Apple reviewer cannot connect to server
 
 * Amazon server block ip => when Apple review they cannot connect to server
 
 
-### 11. App contain Ads but you not check when submit
+#### 11. App contain Ads but you not check when submit
 
 * Check Advertising Identifier
 
