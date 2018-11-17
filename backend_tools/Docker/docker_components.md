@@ -9,6 +9,15 @@
 * In Docker, everything is based on Images. An image is a combination of a file system and parameters
 * An image is an executable package that includes everything needed to run an application, the code, a runtime, libraries, environment variables, and configuration files.
 
+```sh
+
+# List the Docker images
+
+docker image ls
+docker images
+
+```
+
 
 #### Docker containers
 
@@ -16,6 +25,17 @@
 
 * Docker images = The Class
 * Docker containers = The object (instance of the Class)
+
+```sh
+
+# List the Docker containers
+
+docker container ls
+
+# OR
+
+docker ps
+```
 
 #### Dockerfile
 
