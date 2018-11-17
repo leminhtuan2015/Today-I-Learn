@@ -58,11 +58,11 @@ docker run -p 49160:8080 -d <your username>/node-web-app
 ### Committing Changes in a Container to a Docker Image
 
 ```sh
-docker commit -m "What did you do to the image" -a "Author Name" [container-id] [repository/new_image_name]
+docker commit -m "What did you do to the image" -a "Author Name" [container-id] [docker_hub_username/new_image_name]
 
 # EX
 
-docker commit -m "added mariadb-server" -a "TUANLM" 59839a1b7de2 tuanlm/centos-mariadb
+docker commit -m "added mariadb-server" -a "TUANLM" 59839a1b7de2 leminhtuan2015/centos-mariadb
 
 ```
 
