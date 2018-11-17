@@ -1,4 +1,5 @@
 ### Docker Image
+### Pull Docker Image
 
 --------------------------------------------------------------------------------------------
 
@@ -13,7 +14,7 @@ docker image ls
 docker images
 ```
 
-#### Pull Docker Image
+### Pull Docker Image
 
 * We can pull a Docker image from Docker Hub : **https://hub.docker.com/explore/**
 
