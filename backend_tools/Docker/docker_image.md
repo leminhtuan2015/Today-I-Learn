@@ -35,6 +35,16 @@ CMD [“echo”,”Image created”]
 
 ```sh
 docker build [path/to/folder/contain/Dockerfile]
+
+#OR
+
+docker build  -t [ImageName]:[TagName] [path/to/folder/contain/Dockerfile]
+
+# -t : is to mention a tag to the image
+# ImageName : This is the name you want to give to your image.
+# TagName : This is the tag you want to give to your image.
+# [path/to/folder/contain/Dockerfile] : The directory where the Docker File is present.
+
 ```
 
 ### Pull Docker Image from Docker hub
