@@ -1,7 +1,15 @@
-### Copy directory from docker container to host
-
+### Copy directory from Docker container to host
+### Enter the Docker container
 --------------------------------------------------------
 
-### Copy directory from docker container to host
+### Copy directory from Docker container to host
 
-* docker cp DOCKER_ID:/path/to/folder ~/path/at/host
+```sh
+docker cp [DOCKER_CONTAINER_ID]:/path/to/folder ~/path/at/host
+```
+
+### Enter the Docker container
+
+```sh
+docker exec -it [DOCKER_CONTAINER_ID] /bin/bash
+```
