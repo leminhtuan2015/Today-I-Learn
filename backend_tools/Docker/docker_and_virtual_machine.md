@@ -5,8 +5,7 @@
 
 ### Docker vs Virtual machine (VMs)
 
-[logo]: https://github.com/leminhtuan2015/Today-I-Learn/blob/master/backend_tools/Docker/docker_vs_vm.png "Docker vs Virtual machine"
-
+![alt text](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/backend_tools/Docker/docker_vs_vm.png ""Docker vs Virtual machine"")
 
 * Both **VMs** and **Docker containers** can help get the most out of available computer hardware and software resources. Containers are the new one, but VMs have been, and continue to be, tremendously popular in data centers of all sizes.
 
