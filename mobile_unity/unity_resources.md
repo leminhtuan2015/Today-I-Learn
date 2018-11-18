@@ -13,3 +13,6 @@
 Sprite myFruit = Resources.Load <Sprite> ("Sprites/Graphics_3");
 ```
 
+#### `IMPORTANT`
+  * Assets loaded from resources will stay in memory **FOREVER**
+
