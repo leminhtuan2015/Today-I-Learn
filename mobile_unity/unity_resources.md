@@ -14,11 +14,12 @@ Sprite myFruit = Resources.Load <Sprite> ("Sprites/Graphics_3");
 ```
 
 #### `IMPORTANT`
-  * Assets loaded from resources will stay in memory **FOREVER**
+* https://answers.unity.com/questions/181033/how-do-i-destroy-things-properly-to-free-up-memory.html
+* Assets loaded from resources will stay in memory **FOREVER**
   
-  * To release memory :
+* To release memory :
   
-  ```c#
-  Resources.UnloadUnusedAssets() 
-  ```
+```c#
+Resources.UnloadUnusedAssets() 
+```
 
