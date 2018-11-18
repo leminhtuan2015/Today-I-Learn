@@ -1,5 +1,6 @@
 
 ### Resources.Load
+### A guide to AssetBundles and Resources
 
 ------------------------------------------------
 
@@ -23,4 +24,6 @@ Sprite myFruit = Resources.Load <Sprite> ("Sprites/Graphics_3");
 ```c#
 Resources.UnloadUnusedAssets() 
 ```
+### A guide to AssetBundles and Resources
 
+* https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources
