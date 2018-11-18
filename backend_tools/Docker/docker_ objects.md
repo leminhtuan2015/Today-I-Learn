@@ -1,8 +1,8 @@
-### Docker components
+### Docker objects
 
 ------------------------------------------------------------
 
-### Docker components
+### Docker objects
 * Docker images
 * Docker containers
 * Dockerfile
