@@ -34,6 +34,12 @@
 
 * So basically coroutines help us to break work into multiple frames, you might be thinking this we can do using Update function. You are right, but we do not have any control over the Update function, whereas Coroutine code can be executed on demand or at a different frequency (eg. every 5 seconds instead of every frame).
 
+* Coroutine is a function that allows pausing its own execution and resuming from the exact same point after a condition is met.
+* It helps us to **divide the complex work to multiple frames** (eg. if we want to instantiate 100 of enemy prefab, it is better to do this in Coroutine)
+* StartCoroutine() is used to start new Coroutine.
+* StopCoroutine() is used to Stop Coroutine.
+* Use yield return null instead of yield return 0.
+* Always use IEnumerator based method to Start and Stop Coroutine.
 
 ### Syntax
 
