@@ -1,6 +1,6 @@
 ### What is Design Pattern
 ### Object oriented programming Design Pattern vs Functional Programming Design Pattern
-### Types of patterns
+### Types of OOP design patterns
 
 ------------------------------------------------------------------
 
@@ -15,7 +15,7 @@
 * Design patterns are very popular in **Java** and **C#** can be applied in all **object oriented languanges**
 * In **functional oriented languages** like **Scala**, certain patterns are **not necesary anymore**.
 
-### Types of patterns
+### Types of OOP design patterns
 
 * **`Creational`** - abstraction of instantiation process
   * These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
