@@ -1,5 +1,6 @@
 ### What is Design Pattern
 ### Object oriented programming Design Pattern vs Functional Programming Design Pattern
+### Types of FB design patterns
 ### Types of OOP design patterns
 
 ------------------------------------------------------------------
@@ -7,13 +8,21 @@
 ### What is Design Pattern
 * It's not language
 * A design pattern is not a class or a library
-* A design pattern is a **principle theory** in programming
+* A design pattern is a **principle theory** in programming, Design patterns as a concept in programming
 * Design patterns are, by principle, well-thought out solutions to programming problems. Many programmers have encountered these problems before, and have used these 'solutions' to remedy them. If you encounter these problems, why recreate a solution when you can use an already proven answer?
 
 ### Object oriented programming Design Pattern vs Functional Programming Design Pattern
 * **OOP Design Pattern very different with FP Design Pattern**
 * Design patterns are very popular in **Java** and **C#** can be applied in all **object oriented languanges**
 * In **functional oriented languages** like **Scala**, certain patterns are **not necesary anymore**.
+
+### Types of FB design patterns
+
+* First-class functions
+* Pure functions
+* Immutable values
+* Currying
+
 
 ### Types of OOP design patterns
 
