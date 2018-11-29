@@ -12,6 +12,8 @@
 
 ### Examples
 
+* http://www.unitygeek.com/unity_c_singleton/
+
 ```c#
 public class SingletonController : MonoBehaviour {
 public static SingletonController Instance;
