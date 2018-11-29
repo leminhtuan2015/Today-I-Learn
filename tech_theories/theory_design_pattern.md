@@ -8,7 +8,7 @@
 
 ### Types of patterns
 
-* **Creational** - abstraction of instantiation process
+* **`Creational`** - abstraction of instantiation process
   * These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
   
     * **Abstract Factory**: Creates an instance of several families of classes
@@ -18,7 +18,7 @@
     * **Prototype** : A fully initialized instance to be copied or cloned
     * **Singleton** : A class of which only a single instance can exist
   
-* **Structural** - composition of classes and objects in formation of larger structures
+* **`Structural`** - composition of classes and objects in formation of larger structures
   * These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
     * **Adapter**: Match interfaces of different classes
     * **Bridge**: Separates an object’s interface from its implementation
@@ -30,7 +30,7 @@
     * **Proxy**: An object representing another object
 
 
-* Behavioral - abstraction of algorithms and assignment of responsibility between objects
+* **`Behavioral`** - abstraction of algorithms and assignment of responsibility between objects
   * These design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.
     * **Chain of responsibility** : A way of passing a request between a chain of objects
     * **Command** : Encapsulate a command request as an object
