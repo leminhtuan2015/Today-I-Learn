@@ -26,6 +26,13 @@ buildscript {
 
 ### Android Gradle plugin version - Gradle version 
 
+* Setting **Gradel version** : `gradle/wrapper/gradle-wrapper.properties`
+
+```
+distributionUrl = https\://services.gradle.org/distributions/gradle-4.6-all.zip
+
+```
+
 * 1.0.0 - 1.1.3 (Androi Gradle Plugin) >>>>>>Require>>>>>> 2.2.1 - 2.3 (Gradle version)
 * 1.2.0 - 1.3.1 (Androi Gradle Plugin) >>>>>>Require>>>>>> 2.2.1 - 2.9 (Gradle version)
 * 1.5.0	2.2.1 (Androi Gradle Plugin) >>>>>>Require>>>>>> 2.13 (Gradle version)
