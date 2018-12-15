@@ -5,6 +5,7 @@
 
 ### Designing UI for Multiple Resolutions (CanvasScaler)
 
+* https://docs.unity3d.com/Manual/HOWTO-UIMultiResolution.html
 * CanvasScaler class : https://docs.unity3d.com/ScriptReference/UI.CanvasScaler.html
 * CanvasScaler.referenceResolution : https://docs.unity3d.com/ScriptReference/UI.CanvasScaler-referenceResolution.html
 
