@@ -5,8 +5,17 @@
 
 ### Unity Create Texture In Background
 
-* If you use 
+* If you use `WWW www = new WWW(pathToFile);` => this will not smooth
 
+
+```c#
+        WWW www = new WWW(pathToFile);
+        yield return www;
+
+        Texture2D texture = www.texture;
+```
+
+* `UnityWebRequestTexture.GetTexture` => make loading is smooth
 
 ```c#
 using UnityEngine;
