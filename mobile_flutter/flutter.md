@@ -1,5 +1,7 @@
 ## Introduction
 
+* https://flutter.io/docs/resources/faq#what-is-flutter
+
 ### What is Flutter?
 
 * Flutter is the same **React**
