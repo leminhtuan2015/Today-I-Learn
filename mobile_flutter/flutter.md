@@ -4,6 +4,8 @@
 
 * Flutter is the same **React**
 
+* Flutter use Dart, React use Javascript
+
 * Flutter is **Google’s mobile app SDK** for crafting high-quality native experiences on iOS and Android in record time. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.
 
 * Flutter is for developers that want a faster way to build beautiful mobile apps, or a way to reach more users with a single investment
