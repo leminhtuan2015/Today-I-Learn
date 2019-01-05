@@ -1,5 +1,6 @@
 ### Apple Users
 ### Apple Accounts
+### Apple Accounts Expired
 ### Apple Accounts Description 
 
 --------------------------------------------------
@@ -15,6 +16,11 @@
   * Device Enrollment Program
   * Volume Purchase Program
 * Custom B2B apps
+
+### Apple Accounts Expired
+
+* When your Apple Developer is Expired => All you app will turn to "Pending Contract" and no longer ready for sale
+
 
 ### Apple Accounts Description 
 
