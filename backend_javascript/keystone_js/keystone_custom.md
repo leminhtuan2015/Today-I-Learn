@@ -3,6 +3,7 @@
 ### Show image of File type
 ### Clean up bundle React JS of admin ui
 ### Add edit button for each row in table
+### Table border remove
 
 -----------------------------------------------------------------
 
@@ -90,7 +91,10 @@ rm -r js
 
 
 
+### Table border remove
 
-
+vim node_modules/keystone/admin/public/styles/keystone.min.css
+/ .Table td,.Table th{border-top:1px solid rgba(0,0,0,0.06)
+.Table td,.Table th{border-top:0px solid rgba(0,0,0,0.06)
 
 
