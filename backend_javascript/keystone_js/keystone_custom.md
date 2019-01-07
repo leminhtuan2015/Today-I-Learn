@@ -93,8 +93,9 @@ rm -r js
 
 ### Table border remove
 
+```sh
 vim node_modules/keystone/admin/public/styles/keystone.min.css
 / .Table td,.Table th{border-top:1px solid rgba(0,0,0,0.06)
 .Table td,.Table th{border-top:0px solid rgba(0,0,0,0.06)
-
+```
 
