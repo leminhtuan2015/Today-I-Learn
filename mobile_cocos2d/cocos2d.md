@@ -9,7 +9,7 @@
 
 
 ### Cocos Creator
-* The same Unity
+* The same Unity (Smaller than Unity at this time 2019/01/01)
 * Cocos Creator is a complete package of game development tools and workflow, including a game engine (based on Cocos2d-x)
 * Cocos Creator based on Cocos2d-x
 * Cocos Creator supports some script languages, **Javascript, CoffeeScript, TypeScript**
