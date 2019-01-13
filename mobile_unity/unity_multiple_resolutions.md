@@ -6,13 +6,16 @@
 
 ### Unity Screen Ratio
 
+* Scale With Screen Size (If The same ratio)
+  * If the current screen resolution is **larger than the reference resolution**, the Canvas will keep having only the resolution of the reference resolution, but will scale up in order to fit the screen.
+  
+  * If the current screen resolution is **smaller than the reference resolution**, the Canvas will similarly be scaled down to fit.
 
 
+* If **Different aspect ratio than the reference resolution**
+  * If the current screen resolution has a **different aspect ratio than the reference resolution**, scaling each axis individually to fit the screen would result in non-uniform scaling, which is generally undesirable. Instead of this, the ReferenceResolution component will make the Canvas resolution deviate from the reference resolution in order to respect the aspect ratio of the screen. It is possible to control how this deviation should behave using the Screen Match Mode setting.
 
-
-
-
-
+![image](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_unity/unity_screen_ratio.jpg)
 
 
 ### Designing UI for Multiple Resolutions (CanvasScaler)
