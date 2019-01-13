@@ -1,7 +1,19 @@
 
+### Unity Screen Ratio
 ### Designing UI for Multiple Resolutions (CanvasScaler)
 
 ------------------------------------------------------------------------------
+
+### Unity Screen Ratio
+
+
+
+
+
+
+
+
+
 
 ### Designing UI for Multiple Resolutions (CanvasScaler)
 
