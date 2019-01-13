@@ -20,6 +20,14 @@
 
 * How to caculate scale
 
+```c#
+private float GetScale(int width, int height, Vector2 scalerReferenceResolution, float scalerMatchWidthOrHeight)
+{
+    return Mathf.Pow(width/scalerReferenceResolution.x, 1f - scalerMatchWidthOrHeight)*
+           Mathf.Pow(height/scalerReferenceResolution.y, scalerMatchWidthOrHeight);
+}
+```
+
 * Reference Resolution: 800x600
   * Screen Match mode: Match Width or Height
   * Match: 0.5
