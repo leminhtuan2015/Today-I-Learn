@@ -20,18 +20,18 @@
 
 * How to caculate scale
 
-Reference Resolution: 800x600
-Screen Match mode: Match Width or Height
-Match: 0.5
+* Reference Resolution: 800x600
+  * Screen Match mode: Match Width or Height
+  * Match: 0.5
 
-Screen 1: 800x600
-UI Scaling: 1
+* Screen 1: 800x600
+* UI Scaling: 1
 
-Screen 2: 1024x768
-UI Scaling: Pow(1024/800, 0.5) * Pow(768/600, 0.5) = 1.28
+* Screen 2: 1024x768
+* UI Scaling: Pow(1024/800, 0.5) * Pow(768/600, 0.5) = 1.28
 
-Screen 3: 1920x1080
-UI Scaling: Pow(1920/800, 0.5) * Pow(1080/600,0.5) = 2.078
+* Screen 3: 1920x1080
+* UI Scaling: Pow(1920/800, 0.5) * Pow(1080/600,0.5) = 2.078
 
 
 ### Designing UI for Multiple Resolutions (CanvasScaler)
