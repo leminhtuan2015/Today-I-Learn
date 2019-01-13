@@ -6,7 +6,7 @@
 
 ### Unity Screen Ratio
 
-* Scale With Screen Size (If The same ratio)
+* Scale With Screen Size (If the same ratio with the reference resolution)
   * If the current screen resolution is **larger than the reference resolution**, the Canvas will keep having only the resolution of the reference resolution, but will scale up in order to fit the screen.
   
   * If the current screen resolution is **smaller than the reference resolution**, the Canvas will similarly be scaled down to fit.
