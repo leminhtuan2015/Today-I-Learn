@@ -27,13 +27,6 @@
 * Promiss + Saga
 * runAfterInteractions + RN Navigation + setParams
 
-### Unity
-
-* https://github.com/RyanNielson/awesome-unity
-* https://github.com/leereilly/games/
-* https://github.com/UnityCommunity/UnityLibrary
-* https://medium.com/@johntucker_48673/unity-leveling-up-with-async-await-tasks-2a7971df9c57
-
 ### JS
 * http://callbackhell.com
 * https://github.com/leminhtuan2015/Today-I-Learn/blob/master/language_javascript/js/js_Callbacks_Promises_Async_Await.md
@@ -48,4 +41,24 @@
 
 * Build docker
 * Nginx
+
+
+### Unity
+
+* https://github.com/RyanNielson/awesome-unity
+* https://github.com/leereilly/games/
+* https://github.com/UnityCommunity/UnityLibrary
+* https://medium.com/@johntucker_48673/unity-leveling-up-with-async-await-tasks-2a7971df9c57
+
+### Todo
+unity animation
+Multiple screens
+node + reactjs
+
+pod repo update ?
+sudo gem install cocoapods?
+
+
+
+
 
