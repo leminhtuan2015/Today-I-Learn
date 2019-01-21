@@ -18,7 +18,7 @@
   
 * `When design resolution and screen resolution have difference ratio of width to height`
 
-  * The GameObject in scene will be scale by below 
+  * The GameObject in scene will be scaled by below formula
 
 ```c#
 private float GetScale(int width, int height, Vector2 scalerReferenceResolution, float scalerMatchWidthOrHeight)
