@@ -51,12 +51,11 @@
 * https://medium.com/@johntucker_48673/unity-leveling-up-with-async-await-tasks-2a7971df9c57
 
 ### Todo
-unity animation
-Multiple screens
-node + reactjs
+* Unity animation
+* Node + reactjs
 
-pod repo update ?
-sudo gem install cocoapods?
+* pod repo update ?
+* sudo gem install cocoapods?
 
 
 
