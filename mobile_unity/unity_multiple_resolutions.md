@@ -1,22 +1,40 @@
 
-### Unity Screen Ratio
+### Unity GameObject Real Size and Physical Size
+### Unity Screen Scale
 ### Designing UI for Multiple Resolutions (CanvasScaler)
 
 ------------------------------------------------------------------------------
 
-### Unity Screen Ratio
+### Unity GameObject Real Size and Physical Size
 
-* Scale With Screen Size (If the same ratio with the reference resolution)
-  * If the current screen resolution is **larger than the reference resolution**, the Canvas will keep having only the resolution of the reference resolution, but will scale up in order to fit the screen.
+* **Design resolution (reference resolution)** is the resolution sample used by content creators when creating the scene. 
+* But **screen resolution (Physical device resolution)** is the actual resolution of the device that the game is running on.
+
+* Normally, **design resolution** will use the screen resolution of the device that is being used the most by the targeted group on the market, such as: screen resolutions of 800x480 and 1280x720 that are being used by Android devices currently, or screen resolutions of 1136x640 and 960x640 that are being used by iOS devices.
+
+* `When design resolution and screen resolution have the same ratio of width to height`
+  * Very easy in this case => Just need to scale up or scale down
+  * When design resolution and screen resolution have the same ratio of width to height, supposing the screen resolution is 1600x960, enlarging the background image to 1600/800 = 2 times will perfectly fit the screen. This is the simplest situation, which will not be discussed in detail here.
   
-  * If the current screen resolution is **smaller than the reference resolution**, the Canvas will similarly be scaled down to fit.
+* `When design resolution and screen resolution have difference ratio of width to height`
+
+  * The GameObject in scene will be scale by below 
+
+```c#
+private float GetScale(int width, int height, Vector2 scalerReferenceResolution, float scalerMatchWidthOrHeight)
+{
+    return Mathf.Pow(width/scalerReferenceResolution.x, 1f - scalerMatchWidthOrHeight)*
+           Mathf.Pow(height/scalerReferenceResolution.y, scalerMatchWidthOrHeight);
+}
+```
+
+* Khi màn hình vật lý khác với reference resolution thì: Các GameObject sẽ đc scale theo một kích thước ảo.
+  * Ví dụ: Reference Resolution là 800x600
+    * Nếu trên màn hình vật lý 800x600 thì kích thước của Image sẽ đúng với kích thước thực của ảnh
+    * Nhưng nếu trên màn hình 1024x768 thì kích thước của Image sẽ là 1 kích thước ảo bị scale theo kích thước thực của ảnh (scale theo công thức trên)
 
 
-* If **Different aspect ratio than the reference resolution**
-  * If the current screen resolution has a **different aspect ratio than the reference resolution**, scaling each axis individually to fit the screen would result in non-uniform scaling, which is generally undesirable. Instead of this, the ReferenceResolution component will make the Canvas resolution deviate from the reference resolution in order to respect the aspect ratio of the screen. It is possible to control how this deviation should behave using the Screen Match Mode setting.
-
-![image](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_unity/unity_screen_ratio.jpg)
-
+### Unity Screen Scale
 
 * How to caculate scale
 
