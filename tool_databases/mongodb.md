@@ -22,3 +22,11 @@ brew info mongodb
 
 mongo
 ```
+
+### Run on CentOS
+
+```sh
+sudo service mongod start
+
+sudo service mongod restart
+```
