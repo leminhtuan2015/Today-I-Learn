@@ -153,7 +153,7 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
   * On the other hand, ASP.Net uses .Net languages like C# and VB.NET, which is compiled to Microsoft intermediate language.
 
 
-* What is the ASP.NET page life Cycle?
+* 2. What is the ASP.NET page life Cycle?
  
   * **Page request.** The user requests a page. ASP.NET decides whether to compile it or serve it from a cache.
   * **Start.** The page’s beginning conditions are set.
@@ -163,7 +163,7 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
   * **Rendering.** ASP.NET saves the view state for the page and writes the output of rendering to the output stream.
   * **Unload.** The rendered page gets sent to the client. ASP.NET unloads page properties and performs cleanup.
   
-* What is the difference between **ASP.NET Webforms** and **ASP.NET MVC**?
+* 3. What is the difference between **ASP.NET Webforms** and **ASP.NET MVC**?
 
   * ASP.NET Webforms uses the page controller approach for rendering layout. In this approach, every page has its controller.
   * On the other hand, ASP.NET MVC uses the Front Controller approach. In this approach, there is a common controller for all pages.
@@ -175,7 +175,13 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
   * **In reality, both ASP.NET MVC and ASP.NET Web Forms are tools with different strengths for different applications**
   
 
-* 2. Explain what LINQ is.
+* 4. Explain what LINQ is.
+
+  * Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language
+  
+* 5. Diffrent between Structure and Class
+  * Structure: Value type
+  * Class: Reference type
 
 ------------------------------------------------------------------------------------------------------------
 
