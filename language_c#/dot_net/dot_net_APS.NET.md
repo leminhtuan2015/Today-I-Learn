@@ -5,7 +5,8 @@
 
 ### ASP.NET
 
-* ASP = Active Server Pages
+* ASP = Active Server Pages (dot net web technology)
+* JSP = Java Servlet Pages (Java web technology)
 
 * **ASP.NET** is a set of tools and libraries for building **web applications** on the .NET platform.
 
