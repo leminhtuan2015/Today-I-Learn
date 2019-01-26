@@ -139,6 +139,43 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
   
 11. 28- What is the difference Delegates and Callbacks ?
 
+------------------------------------------------------------------------------------------------------------
+
+### C# - ASP.NET
+
+* 0. Descript .net architecture the name of Components in each layer in dot net framework
+
+* 1. What is the difference between the ASP and ASP.NET?
+
+  * ASP.Net is the next generation of ASP technology platform
+  * The main difference between ASP and ASP.Net is that ASP is interpreted, while ASP.Net is compiled. 
+  * ASP uses VBScript, therefore when the ASP page is executed, it is interpreted. 
+  * On the other hand, ASP.Net uses .Net languages like C# and VB.NET, which is compiled to Microsoft intermediate language.
+
+
+* What is the ASP.NET page life Cycle?
+ 
+  * **Page request.** The user requests a page. ASP.NET decides whether to compile it or serve it from a cache.
+  * **Start.** The page’s beginning conditions are set.
+  * **Initialization.** On-page controls become available, and any themes are applied.
+  * **Load.** ASP.NET uses the view state and control state properties to set the control properties.
+  * **Postback** event handling. When applicable, user input is handled.
+  * **Rendering.** ASP.NET saves the view state for the page and writes the output of rendering to the output stream.
+  * **Unload.** The rendered page gets sent to the client. ASP.NET unloads page properties and performs cleanup.
+  
+* What is the difference between **ASP.NET Webforms** and **ASP.NET MVC**?
+
+  * ASP.NET Webforms uses the page controller approach for rendering layout. In this approach, every page has its controller.
+  * On the other hand, ASP.NET MVC uses the Front Controller approach. In this approach, there is a common controller for all pages.
+  
+  * **ASP.NET Web Forms** were one of the first ways to create web apps with ASP.NET. They utilize a designer and server controls to make it easy to design a form with a point and click interface like Windows Forms applications.
+
+  * **ASP.NET MVC** or the Model View Controller separates a web app into data, display, and actions. Proponents of MVC point to its simplicity, reusability, and “less buggy” nature.
+
+  * **In reality, both ASP.NET MVC and ASP.NET Web Forms are tools with different strengths for different applications**
+  
+
+* 2. Explain what LINQ is.
 
 ------------------------------------------------------------------------------------------------------------
 
