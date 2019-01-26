@@ -5,8 +5,10 @@
 
 ### What is Serialization?
 
-  * Serialization is the process of converting the **state of an object instance** to a **stream of data**
+  * Serialization is the process of converting the **state of an object instance** to a **stream of data (bytes)**
   * Deserialization is its reverse process, that is unpacking stream of bytes to their original form
+  
+  * Uses for serialization: Use Serialization, a developer can perform actions like **sending the object** to a remote application by means of a Web Service
   
   
   ```c#
@@ -38,8 +40,8 @@
 
   * The different types of Serialization are: 
     * XML serialization
-    * SOAP
-    * Binary
+    * SOAP serialization
+    * Binary serialization
     
     * XML serialization – It serializes all the public properties to the XML document. Since the data is in XML format, it can be easily read and manipulated in various formats. The classes reside in System.sml.Serialization.
     * SOAP – Classes reside in System.Runtime.Serialization. Similar to XML but produces a complete SOAP compliant envelope which can be used by any system that understands SOAP.
