@@ -179,9 +179,38 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
 
   * Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language
   
-* 5. Diffrent between Structure and Class
+* 5. Boxing and Unboxing
+
+  * **Boxing** is the process of converting a **value type** to the **type object**
+  * **Boxing** copy the value of the value-type variable to object reference-type
+  
+  ```c#
+   int i = 123;
+   
+   object o = i;  // implicit boxing i
+   object o = (object)i;  // explicit boxing
+   i = (int)o;  // explicit unboxing i
+  
+  ```
+  
+  ```c#
+   int i = 123;
+   
+   object o = i;  // Boxing copies the value of i into object o.
+   i = 456;  // Change the value of i.
+   
+   System.Console.WriteLine("The value-type value = {0}", i);
+   System.Console.WriteLine("The object-type value = {0}", o);
+   
+    //The value-type value = 456
+    //The object-type value = 123
+   
+  ```
+  
+* 6. Diffrent between Structure and Class
   * Structure: Value type
   * Class: Reference type
+ 
 
 ------------------------------------------------------------------------------------------------------------
 
