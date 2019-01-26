@@ -251,6 +251,10 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
     * XML serialization – It serializes all the public properties to the XML document. Since the data is in XML format, it can be easily read and manipulated in various formats. The classes reside in System.sml.Serialization.
     * SOAP – Classes reside in System.Runtime.Serialization. Similar to XML but produces a complete SOAP compliant envelope which can be used by any system that understands SOAP.
     * Binary Serialization – Allows any code to be converted to its binary form. Can serialize and restore public and non-public properties. It is faster and occupies less space.
+    
+ * 9. What is the difference between dynamic type variables and object type variables?
+
+
 
 ------------------------------------------------------------------------------------------------------------
 
