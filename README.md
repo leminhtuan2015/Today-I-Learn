@@ -52,6 +52,7 @@
 
 ### Todo
 * Unity animation
+* Unity RX
 * Node + reactjs
 
 * pod repo update ?
