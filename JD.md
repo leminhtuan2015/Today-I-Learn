@@ -2,6 +2,16 @@
 
 ### React native
 
+##### Responsibilities
+
+Translate designs and wireframes into high quality code
+Design, build, and maintain high performance, reusable, and reliable Java code
+Ensure the best possible performance, quality, and responsiveness of the application
+Identify and correct bottlenecks and fix bugs
+Help maintain code quality, organization, and automatization
+
+
+##### Skills
 - At least 1 - 2 years of experience working in a full-time software development role
 - Experience working with Front-End libraries such as React/React Native, Redux
 - Strong knowledge of MVP, MVVM design pattern.
@@ -25,16 +35,37 @@
 
 ### Android
 
+##### Responsibilities
+
+Translate designs and wireframes into high quality code
+Design, build, and maintain high performance, reusable, and reliable Java code
+Ensure the best possible performance, quality, and responsiveness of the application
+Identify and correct bottlenecks and fix bugs
+Help maintain code quality, organization, and automatization
+
+##### Skills
 - At least 2 years experiences in programming with Android.
 - Extensive knowledge of UI elements & layout, advanced animation techniques.
 - Strong knowledge of MVP, MVVM design pattern.
 - Database Design
 - Experience on Android Studio, Android SDK.
-- Familiarity with RESTful APIs
 - Experience with Version control (GIT)
 - Have good knowledge in OOP and Java programming language.
 - Have experience working with Firebase, Crashlytics and other libraries will be a plus
 - UI / UX Knowledge in mobile is a plus
+- Strong knowledge of Android SDK, different versions of Android, and how to deal with different screen sizes
+- Familiarity with RESTful APIs to connect Android applications to back-end services
+- Strong knowledge of Android UI design principles, patterns, and best practices
+- Experience with offline storage, threading, and performance tuning
+- Ability to design applications around natural user interfaces, such as “touch”
+- Familiarity with the use of additional sensors, such as gyroscopes and accelerometers
+- Knowledge of the open-source Android ecosystem and the libraries available for common tasks
+- Ability to understand business requirements and translate them into technical requirements
+- Familiarity with cloud message APIs and push notifications
+- A knack for benchmarking and optimization
+- Understanding of Google’s Android design principles and interface guidelines
+- Proficient understanding of code versioning tools, such as Git
+- Familiarity with continuous integration
 
 ### IOS
 - 2+ years building complex applications for the iPhone or iPad using Objective-C/C++/Swift with Cocoa and other frameworks
