@@ -4,11 +4,11 @@
 
 ##### Responsibilities
 
-Translate designs and wireframes into high quality code
-Design, build, and maintain high performance, reusable, and reliable Java code
-Ensure the best possible performance, quality, and responsiveness of the application
-Identify and correct bottlenecks and fix bugs
-Help maintain code quality, organization, and automatization
+- Translate designs and wireframes into high quality code
+- Design, build, and maintain high performance, reusable, and reliable Java code
+- Ensure the best possible performance, quality, and responsiveness of the application
+- Identify and correct bottlenecks and fix bugs
+- Help maintain code quality, organization, and automatization
 
 
 ##### Skills
@@ -37,11 +37,11 @@ Help maintain code quality, organization, and automatization
 
 ##### Responsibilities
 
-Translate designs and wireframes into high quality code
-Design, build, and maintain high performance, reusable, and reliable Java code
-Ensure the best possible performance, quality, and responsiveness of the application
-Identify and correct bottlenecks and fix bugs
-Help maintain code quality, organization, and automatization
+- Translate designs and wireframes into high quality code
+- Design, build, and maintain high performance, reusable, and reliable Java code
+- Ensure the best possible performance, quality, and responsiveness of the application
+- Identify and correct bottlenecks and fix bugs
+- Help maintain code quality, organization, and automatization
 
 ##### Skills
 - At least 2 years experiences in programming with Android.
