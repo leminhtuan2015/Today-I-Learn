@@ -3,6 +3,7 @@
 ### When Use Prefab
 ### Create A Prefab
 ### Instantiate Prefabs
+### Why is Instantiated object's scale changing?
 ---------------------------------------
 
 ### Unity Prefabs
@@ -55,3 +56,26 @@ public class CircleManager : MonoBehaviour {
 }
 
 ```
+
+### Why is Instantiated object's scale changing?
+
+* Solution
+
+```c#
+SetParent(Transform parent, bool worldPositionStays);
+
+//you must set: worldPositionStays = false
+
+viewItem.transform.SetParent(verticalLayoutGroup.transform, false);
+
+```
+
+
+
+
+
+
+
+
+
+
