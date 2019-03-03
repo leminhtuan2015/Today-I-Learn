@@ -2,33 +2,34 @@
 
 ------------------------------------------------------------
 
-### 1. Minimum function
-### 2. Asking for access (location, gallery, camera) not clearly
-### 3. Crash on any function
-### 4. UI not good
-### 5. Metadata rejected
-### 6. Not submit IAP
-### 7. IAP NOT at status "Ready to submit"
-### 8. IAP is more than 99,99$ (more than tier 60)
-### 9. App connect to server error
-### 10. Server blocked IP => Apple reviewer cannot connect to server
-### 11. App contain Ads but you not check when submit
+### Minimum function
+### Asking for access (location, gallery, camera) not clearly
+### Crash on any function
+### UI not good
+### Metadata rejected
+### Not enought IAP in app
+### Not submit IAP/ IAP NOT at status "Ready to submit"
+### IAP NOT at status "Ready to submit"
+### IAP is more than 99,99$ (more than tier 60)
+### App connect to server error
+### Server blocked IP => Apple reviewer cannot connect to server
+### App contain Ads but you not check when submit
 
 
 --------------------------
 
-#### 1 Minimum function
+#### Minimum function
 * The content of app is very common, it can be get from web, internet
   
-#### 2 Asking for access
+#### Asking for access
 * Asking for access in Info.plit file is not clear
 
-#### 3 Crash on any function
+#### Crash on any function
   
-#### 4 UI not good
+#### UI not good
 * UI similar other apps
 
-#### 5 Metadata rejected
+#### Metadata rejected
 * Description not good
 * Description too short
 * Description contain link to other website
@@ -48,29 +49,33 @@ Next Steps
 To resolve this issue, please remove any URL that links to external purchasing mechanisms from your app description.
 ```
 
-#### 6. Not submit IAP/ IAP NOT at status "Ready to submit"
+#### Not enought IAP in app
+* Trong mục Features > In-App Purchases : Có thể khai báo 10 IAP nhưng trong app lại không có đủ 10 chỗ để mua IAP
+* => Phải có đủ IAP trong app như đã khai báo ở "Features > In-App Purchases"
+
+#### Not submit IAP/ IAP NOT at status "Ready to submit"
 * not submit IAP when submit app
 * IAP NOT at status "Ready to submit" when submit 
 
-#### 7. IAP NOT at status "Ready to submit"
+#### IAP NOT at status "Ready to submit"
 * IAP NOT at status "Ready to submit" when submit 
 
-#### 8 IAP is more than 99,99$ (more than tier 60)
+#### IAP is more than 99,99$ (more than tier 60)
 * Have IAP more than 99,99$ (more than tier 60)
 
-#### 9 App connect to server error
+#### App connect to server error
 
 * When app is reviewed, May the app keep show diaglog "Connection to server error"
 
 ```
 Specifically, your app give error message upon loading screen.
 ```
-#### 10. Server blocked IP => Apple reviewer cannot connect to server
+#### Server blocked IP => Apple reviewer cannot connect to server
 
 * Amazon server block ip => when Apple review they cannot connect to server
 
 
-#### 11. App contain Ads but you not check when submit
+#### App contain Ads but you not check when submit
 
 * Check Advertising Identifier
 
