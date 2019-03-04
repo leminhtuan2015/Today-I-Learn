@@ -29,14 +29,21 @@
 ### Rect Transform change at runtime
 
 ```
-object.GetComponent<RectTransform>().offsetMin = new Vector2 (10,12); 
+object.GetComponent<RectTransform>().offsetMin = new Vector2 (10, 12); 
 //left-bottom  // left = 10, bottom = 12
 
-object.GetComponent<RectTransform>().offsetMax = new Vector2 (20,40); 
+object.GetComponent<RectTransform>().offsetMax = new Vector2 (-20, -40); 
 //right-top.   // right = 20, top = 40
 
 rectTransform.offsetMin.x    // Left
 rectTransform.offsetMin.y    // Bottom
 rectTransform.OffsetMax.x    // Right
 rectTransform.offestMax.y    // Top
+
+
+ public static void SetRect(RectTransform trs, float left, float top, float right, float bottom)
+{
+    trs.offsetMin = new Vector2(left, bottom);
+    trs.offsetMax = new Vector2(-right, -top);
+}
 ```
