@@ -78,3 +78,33 @@
 - Experience with multithreading programming
 - Experience writing unit tests and testable code
 - UI / UX Knowledge in mobile is a plus
+
+
+
+### Unity 
+
+##### Responsibilities
+
+- Translate designs and wireframes into high quality code
+- Design, build, and maintain high performance, reusable, and reliable Java code
+- Ensure the best possible performance, quality, and responsiveness of the application
+- Identify and correct bottlenecks and fix bugs
+- Help maintain code quality, organization, and automatization
+
+##### Skills
+
+* Excellent knowledge of Unity, including experience with scripting, textures, animation, GUI styles, and user session management
+* Familiarity with level design and planning
+* Experience with game physics and particle systems
+* Experience with mobile and console game development
+* Experience optimizing memory and space usage for support of older hardware
+* Experience with 3D is a plus
+* Prior experience with a well-known mobile title or AAA titles are a significant asset
+* Ability to constantly learn and stay in touch with evolving game standards and development technologies
+* Strong understanding of object-oriented programming
+* Familiarity with current design and architectural patterns
+* Knack for writing clean, readable, and easily maintainable code
+* Experience implementing automated testing platforms and unit tests
+* Proficient knowledge of code versioning tools {{such as Git, SVN, and Mercurial}}
+* Familiarity with continuous integration
+
