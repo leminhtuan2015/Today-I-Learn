@@ -11,6 +11,7 @@
 ### Not submit IAP/ IAP NOT at status "Ready to submit"
 ### IAP NOT at status "Ready to submit"
 ### IAP is more than 99,99$ (more than tier 60)
+### IAP is NOT correct product type
 ### App connect to server error
 ### Server blocked IP => Apple reviewer cannot connect to server
 ### App contain Ads but you not check when submit
@@ -62,6 +63,11 @@ To resolve this issue, please remove any URL that links to external purchasing m
 
 #### IAP is more than 99,99$ (more than tier 60)
 * Have IAP more than 99,99$ (more than tier 60)
+
+### IAP is NOT correct product type
+
+* IAP must be correct such as "Consumable" or "None-Consumable"
+* If you sell the item just need to buy once but you select productype is "Consumable" => you will be rejected
 
 #### App connect to server error
 
