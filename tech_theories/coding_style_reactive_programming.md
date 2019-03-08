@@ -6,3 +6,4 @@
 ### RX
 
 * **ReactiveX** or **Rx** is the most popular API for **Reactive programming**
+* **Rx** built on the ideals of the `Observable Pattern`, `Iterator Pattern`, and `Functional Programming`
