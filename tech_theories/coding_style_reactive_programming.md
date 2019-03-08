@@ -7,6 +7,7 @@
 * **ReactiveX** or **Rx** is the most popular API for **Reactive programming**
 * **Rx (ReactiveX)** is an API for asynchronous programming with observable streams
 * Rx is a combination of the best ideas from the Observer pattern, the Iterator pattern, and functional programming
+* In Reactive programming , everything can be a stream of data.
 * Rx built on the ideals of the `Observable pattern`, `Iterator pattern`, and `Functional Programming`
 * `Rx` is based on:
   * Observables
