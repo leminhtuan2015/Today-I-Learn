@@ -4,6 +4,7 @@
 ### Rx support languages
 ### A Common Use-Case of Rx
 ### The hardest part of the learning Reactive Programming
+### The building blocks of Reactive Programming
 
 ------------------------------------------------------------------------------------------
 
@@ -74,7 +75,29 @@ const search = (action$, store) =>
 * The hardest part of the learning `Reactive Programming` is thinking in Reactive. It's a lot about letting go of old `imperative` and `stateful` habits of typical programming, and forcing your brain to work in a different paradigm
 
 
+### The building blocks of Reactive Programming
 
+* Observables
+  * Observables are the data source /stream
+  * can emit multiple values, just one, or none
+  * can also emit errors
+  * can be infinite or finite, in which case they emit their completion event
+  
+* Subscribers
+  * Subscribers subscribe to Observables
+  * they consume/observe the data
+  * they also receive the errors and completion events from the Observable
+  
+* Operators
+  * used to create Observables (timers, ranges, from other data sources)
+  * used to transform Observables (map, buffer, group, scan, etc)
+  * used to filter Observables (filter, distinct, skip, debounce, etc)
+  * used to combine Observables (zip, merge, combine latest, etc)
+
+* Schedulers
+  * mechanism that allows us to easily add threading to our Observables and Subscribers
+  * subscribeOn() specifies on which Scheduler to Observables should operate
+  * observeOn() specifies on which Scheduler/Thread the Subscribers should be notified
 
 
 
