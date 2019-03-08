@@ -4,8 +4,8 @@
 * **Reactive Programming** is an `asynchronous programming paradigm` concerned with `data streams` and the `propagation of change`.
 
 ### Rx
-
 * **ReactiveX** or **Rx** is the most popular API for **Reactive programming**
+* **Rx (ReactiveX)** is an API for asynchronous programming with observable streams
 * **Rx** built on the ideals of the `Observable Pattern`, `Iterator Pattern`, and `Functional Programming`
 * `Rx` is based on:
   * Observables
