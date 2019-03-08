@@ -1,5 +1,13 @@
 
 ### Reactive Programming
+### Rx
+### Rx support languages
+### A Common Use-Case of Rx
+### The hardest part of the learning Reactive Programming
+
+------------------------------------------------------------------------------------------
+
+### Reactive Programming
 
 * **Reactive Programming** is an `asynchronous programming paradigm` concerned with `data streams` and the `propagation of change`.
 
@@ -14,7 +22,7 @@
   * Observers : Observer essentially subscribes to an Observable
   * Operators: Operators allow you to transform, combine, manipulate, and work with the sequences of items emitted by Observables
   
-### Rx support
+### Rx support languages
 * Languages
   * Java: RxJava
   * JavaScript: RxJS
@@ -60,3 +68,37 @@ const search = (action$, store) =>
      .catch(payload => Observable.of({type: 'API_ERROR', payload}))
   )
 ```
+
+### The hardest part of the learning Reactive Programming
+
+* The hardest part of the learning `Reactive Programming` is thinking in Reactive. It's a lot about letting go of old `imperative` and `stateful` habits of typical programming, and forcing your brain to work in a different paradigm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
