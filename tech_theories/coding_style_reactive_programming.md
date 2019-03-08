@@ -5,6 +5,8 @@
 ### A Common Use-Case of Rx
 ### The hardest part of the learning Reactive Programming
 ### The building blocks of Reactive Programming
+### Referrences
+  * https://gist.github.com/leminhtuan2015/8830ed8d17629c2f24119edcb1335184
 
 ------------------------------------------------------------------------------------------
 
