@@ -2,6 +2,8 @@
  
 ----------------------------------------------------------------------------
 
+* https://leminhtuan2015.github.io/app/privacy-policy/
+
 ### IOS
 * https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
 
