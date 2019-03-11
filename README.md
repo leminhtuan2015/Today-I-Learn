@@ -3,6 +3,7 @@
 ----------------------------------------------------------------------------
 
 * https://leminhtuan2015.github.io/app/privacy-policy/
+* http://leminhtuan2015.github.io/js_games/hextris/index.html
 
 ### IOS
 * https://stackoverflow.com/questions/35932029/why-selector-not-calling-in-swift
