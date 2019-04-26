@@ -314,8 +314,17 @@ Generics are the most powerful features introduced in C# 2.0. It is a type-safe 
 * Reduce game size
 
 
+* What is the use of deltatime?
+  * This property provides the time between the current and previous frame.
 
 
+* Difference Between Destroy and DestroyImmediate Unity Functions
+  * http://www.unitygeek.com/difference-between-destroy-and-destroyimmediate-unity-functions/
+  
+* Difference Between Update and FixedUpdate
+  * http://www.unitygeek.com/difference-between-update-fixedupdate/
+  
+* Difference between overriding and overloading.
 
 
 
