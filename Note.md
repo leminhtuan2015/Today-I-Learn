@@ -275,6 +275,51 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
 
 * Set, Map, Hash
 
+* What Is Dynamic Keyword?
+Answer :
+The dynamic is a keyword which was introduced in .NET 4.0. Computer programming languages are two types: strongly typed and dynamically typed. In strongly types all types checks are happened at compile time, in dynamic types all types of checks are happened at run time.
+
+* What Is Serialization?
+Answer :
+When we want to transport an object through network then we need to convert the object into a stream of bytes. Serialization is a process to convert a complex objects into stream of bytes for storage (database, file, cache, etc) or transfer. Its main purpose is to save the state of an object.
+De-serialization is the reverse process of creating an object from a stream of bytes to their original form.
+
+* Question 11. What Are The Types Of Serialization?
+Answer :
+The types of Serializations are given bellow:
+1  Binary Serialization
+            In this process all the public, private, read only members are serialized and convert into stream of bytes. This is used when we want a complete conversion of our objects.
+2  SOAP Serialization
+           In this process only public members are converted into SOAP format. This is used in web services.
+3  XML Serialization
+            In this process only public members are converted into XML. This is a custom serialization. Required namespaces: System.Xml, System.Xml.Serialization.
+
+
+* 15. What Is Generics?
+Answer :
+Generics are the most powerful features introduced in C# 2.0. It is a type-safe data structure that allows us to write codes that works for any data types
+
+
+
+* Order of Execution for Event Functions
+
+  * Awake: This function is always called before any Start functions and also just after a prefab
+   is instantiated. (If a GameObject is inactive during start up Awake is not called until it is made active.)
+  * OnEnable: (only called if the Object is active): This function is called just after the object is enabled. This happens when a MonoBehaviour instance is created, such as when a level is loaded or a GameObject
+   with the script component is instantiated.
+  * OnLevelWasLoaded: This function is executed to inform the game that a new level has been loaded.
+
+  * Start: Start is called before the first frame update only if the script instance is enabled.
+  
+* Reduce game size
+
+
+
+
+
+
+
+
 
 
 ------------------------------------------------------------------------------------------------------------
