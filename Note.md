@@ -258,6 +258,27 @@ Both are used in Xcode to layout screens (view controllers). A xib defines a sin
 
 ------------------------------------------------------------------------------------------------------------
 
+
+### C#
+
+* Design pattern
+    * Signgeton
+    * Factory
+    
+* Value type, Referent type
+
+* Virtual functions
+
+* Life circle Gameobject
+
+* Resful
+
+* Set, Map, Hash
+
+
+
+------------------------------------------------------------------------------------------------------------
+
 ### JD
 
 * React native
