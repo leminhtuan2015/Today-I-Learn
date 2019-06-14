@@ -376,3 +376,30 @@ Generics are the most powerful features introduced in C# 2.0. It is a type-safe 
 - Experience with multithreading programming
 - Experience writing unit tests and testable code
 - UI / UX Knowledge in mobile is a plus
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
+* Giới thiệu về bản thân bạn?
+* Các dự án đã tham gia
+* Mục tiêu nghề nghiệp của bạn là gì, Hãy cho tôi biết bạn mơ ước công việc gì?
+* Khách hang chủ yếu
+* Kinh nghiệm của bạn trong công việc này?
+* Theo bạn nên làm việc độc lập hay theo nhóm?
+* Hỏi về tech
+  * Git
+  * ...
+* Welcome khi chuyển đổi công nghệ
+* Tự đánh giá bản thân
+* Tại sao bạn lại nghỉ việc ở công ty cũ?
+* Mục tiêu nghề nghiệp trong tương lại
+
+
