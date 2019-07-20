@@ -66,6 +66,14 @@
 * sudo gem install cocoapods?
 
 
-
+### Elec
+ * Chatwork
+ * Rocket Chat
+ * Skype
+ * Slack
+ * Zalo
+ * Brave Browser
+ * Github Deskto
+ * Atom
 
 
