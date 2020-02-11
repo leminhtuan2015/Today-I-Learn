@@ -54,3 +54,12 @@ apt-get install git-flow
  
  
  
+# Git Flow Diagram
+
+https://github.com/leminhtuan2015/Today-I-Learn/blob/master/tool_version_control_systems/github_FLOW.png
+
+[logo]: https://github.com/leminhtuan2015/Today-I-Learn/blob/master/tool_version_control_systems/github_FLOW.png "Logo Title Text 2"
+
+ 
+ 
+ 
