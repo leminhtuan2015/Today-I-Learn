@@ -50,7 +50,7 @@ apt-get install git-flow
       * Checkout from master branch
       * Merged into master and develop
     
- * Branch naming convention:release-*, or hotfix-*, feature-*
+ * Branch naming convention:release-, or hotfix-, feature-
  
  
  
