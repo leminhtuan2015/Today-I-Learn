@@ -27,26 +27,26 @@ apt-get install git-flow
 ```
 * GIT Flow base branchs
 
-    * Master : Anything in the master branch is always deployable
+    * **Master** : Anything in the master branch is always deployable
       * Checkout to develop branch
       * Checkout to hotfix branch
       * Merged from release
       * Merged from hotfix
 
-    * Develop : Develop branch serves as an integration branch for features branch
+    * **Develop** : Develop branch serves as an integration branch for features branch
       * Checkout from master branch
       * Merged into release branch
       
-    * Feature: 
+    * **Feature**: 
       * Never interact directly with master
       * Checkout from develop branch
       * Merged back into develop
       
-    * Release
+    * **Release**
       * Checkout from develop branch
       * Merged into master and develop
       
-    * Hotfix
+    * **Hotfix**
       * Checkout from master branch
       * Merged into master and develop
     
