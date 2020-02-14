@@ -23,7 +23,7 @@ pip uninstall PACKAGE_NAME
 
 ### Python packages
 
-* https://pypi.org/ : This is the package server for Python
+* https://pypi.org/ : This is the package server for Python (pypi = Python Package Index)
   * The same for IOS pod: https://cocoapods.org/
   * The same for Android gradle: https://mvnrepository.com/
   
