@@ -1,6 +1,8 @@
 ### RPI
 ### Arduino
 
+------------------------------------------------------------
+
 ### RPI
 * RPI is the computer with credit card size
 * RPI have the full power of the computer (LAN, HDMI, USB ports, Audio port)
