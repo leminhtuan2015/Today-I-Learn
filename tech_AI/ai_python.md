@@ -20,7 +20,7 @@
   * **Scientific computing and data analysis**: NumPy
   * **Computer vision**: OpenCV
   * **Natural language processing**: NLTK, spaCy
-  <br>
+  
   * Want to work with images — numpy, opencv, scikit
   * Want to work in text — nltk, numpy, scikit
   * Want to work in audio — librosa
@@ -29,3 +29,14 @@
   * Want to use deep learning — tensorflow, pytorch
   * Want to do scientific computing — scipy
   * Want to integrate web applications — Django
+  
+  
+### Other AI programming languages
+  * R
+  * Scala
+  * Julia
+  * Java
+  
+  
+  
+
