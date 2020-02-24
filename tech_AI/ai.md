@@ -2,6 +2,8 @@
 ### What is Artificial Intelligence(AI)?
 
 * **In 1950** English Mathematician Alan Turing published a paper entitled “Computing Machinery and Intelligence” which opened the doors to the field that would be called AI
+
+* Computer science -> Artificial Intelligence -> Machine Learning -> Deep Learning
  
 * Artificial intelligence (AI) is the ability of a machine or a computer program to think and learn by doing certain task.
 * The concept of AI is based on the idea of building machines capable of thinking, acting, and learning like humans. 
