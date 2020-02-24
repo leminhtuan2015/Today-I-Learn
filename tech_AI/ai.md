@@ -1,10 +1,13 @@
 
 ### What is Artificial Intelligence(AI)?
+
+* **In 1950** English Mathematician Alan Turing published a paper entitled “Computing Machinery and Intelligence” which opened the doors to the field that would be called AI
  
 * Artificial intelligence (AI) is the ability of a machine or a computer program to think and learn by doing certain task.
 * The concept of AI is based on the idea of building machines capable of thinking, acting, and learning like humans. 
 * On other words the creating the machine capable of understanding the environment, understanding the problem and act intelligently according to the situation.
 
+* **Khoa học và kỹ thuật giúp tạo ra những cái máy thông minh.**
 
 * Trí tuệ nhân tạo giúp tạo ra máy tính có khả năng suy nghĩ...máy tính có trí tuệ theo đầy đủ nghĩa của từ này (Haugeland, 1985).
 * Trí tuệ nhân tạo là khoa học nghiên cứu xem làm thế nào để máy tính có thể thực hiện được những công việc mà hiện con người con làm tốt hơn máy tính (Rich and Knight, 1991).
