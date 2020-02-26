@@ -1,5 +1,3 @@
-### AI Basic Concepts
-
 ### AI And Human Brain
 
 * Q: Có thể so sánh AI với bộ não con người về mức độ thông minh?
