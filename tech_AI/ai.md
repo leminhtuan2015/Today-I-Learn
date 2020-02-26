@@ -11,6 +11,8 @@
 
 * **Khoa học và kỹ thuật giúp tạo ra những cái máy thông minh.**
 
+* **Ngành khoa học và kỹ thuật giúp tạo ra những cái máy hoạt động, xử lý thông tin càng giống con người càng tốt.**
+
 * Trí tuệ nhân tạo giúp tạo ra máy tính có khả năng suy nghĩ...máy tính có trí tuệ theo đầy đủ nghĩa của từ này (Haugeland, 1985).
 * Trí tuệ nhân tạo là khoa học nghiên cứu xem làm thế nào để máy tính có thể thực hiện được những công việc mà hiện con người con làm tốt hơn máy tính (Rich and Knight, 1991).
 * Trí tuệ nhân tạo là khoa học nghiên cứu về các hoạt động trí não thông qua các mô hình tính toán (Chaniak và McDemott, 1985).
