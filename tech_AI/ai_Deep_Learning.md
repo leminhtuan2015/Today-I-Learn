@@ -1,4 +1,4 @@
-### Neural networks
+### Neural Networks
 
 * **Neural networks in AI is inspired by human brain**,  Neural networks programming paradigm which enables a computer to learn from observational data
 
