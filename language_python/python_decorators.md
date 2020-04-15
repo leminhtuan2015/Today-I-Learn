@@ -16,3 +16,6 @@
 before some_func
 2
 ```
+
+### The @ symbol applies a decorator to a function
+
