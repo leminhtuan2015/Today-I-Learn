@@ -41,6 +41,8 @@ abc_module.__name__
 
 
 ### Python Packages (__init__.py)
+
+* Packages are a way of structuring Python’s module, **packages is the collection of modules**
 * Files named `__init__.py` are used to **mark directories on disk as Python package directories**
 
 * Python defines two types of packages: 
