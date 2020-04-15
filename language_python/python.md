@@ -16,3 +16,6 @@
 * It provides very high-level **dynamic data types** and supports dynamic type checking.
 * It supports **automatic garbage collection**.
 * It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+
+### Functions are first class objects in Python
+* Can use functions as function parameters
