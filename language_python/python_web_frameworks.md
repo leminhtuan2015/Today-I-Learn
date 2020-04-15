@@ -27,6 +27,12 @@
   * Pyramid is a non-Full Stack Frameworks
 
 * Dash
+  * Dash is an open-source Python framework used for building **analytical web applications**.
+  * Powerful library development of data-driven applications
+  * It’s especially useful for Python **data scientists**
+  * Users can create amazing dashboards in their browser using dash.
+  * Built on top of **Plotly.js, React, and Flask**
+  * Dash applications **are written purely in python, so NO HTML or JavaScript is necessary**.
   * Provides access to configurable properties and Flask instance
   * Through Flash plugins, we can extend the capabilities of the Dash application
   * Mobile-ready
