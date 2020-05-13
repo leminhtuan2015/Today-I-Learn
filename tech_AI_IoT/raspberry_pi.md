@@ -1,6 +1,3 @@
-Document Updating (feedback: tuan.le@fujitechjsc.com)
-
-
 ## I. Raspberry
 
 ### 1. Setup Raspberry PI
