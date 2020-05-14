@@ -5,6 +5,7 @@
 ### 3. Raspberry PI Usage
 ### 4. Raspberry PI Configuration
 ### 5. Raspberry PI Remote Access
+### 6. Raspberry PI GPIO
 
 ## II. Intel Movidius
 
@@ -138,7 +139,7 @@
 * Network File System (NFS)
   * How to set up a NFS and connect clients to it
 
-### 5. Remote Access
+### 5. Raspberry PI Remote Access
 
 * Sometimes you need to access a Raspberry Pi without connecting it to a monitor. 
 * Perhaps the Pi is embedded in something like a robot, or you may want to view some information from it from elsewhere. 
@@ -160,7 +161,68 @@
 * **FTP**
   * Copy files between your Pi and another computer using FTP (File Transfer Protocol)
 
+
+
+### 6. Raspberry PI GPIO
+
+#### GPIO
+
+* GPIO = general-purpose input/output
+
+
+#### GPIO Outputs
+
+* A GPIO pin designated as an output pin can be set to high (3V3) or low (0V).
+
+#### GPIO Inputs
+
+* A GPIO pin designated as an input pin can be read as high (3V3) or low (0V). 
+* This is made easier with the use of internal pull-up or pull-down resistors. 
+* Pins GPIO2 and GPIO3 have fixed pull-up resistors, but for other pins this can be configured in software.
+
+#### GPIO pinout
+
+```sh
+#Accessed on the Raspberry Pi by opening a terminal window and running the command pinout
+
+pinout
+```
+
+#### GPIO types
+
+* https://pinout.xyz/pinout/i2c
+
+* **GPIO I2C** (Inter Integrated Circuit)
+  * **I2C pins** are an extremely useful way to talk to many different types of external peripheral
+
+* **GPIO Ground**
+  * The Ground pins on the Raspberry Pi are all electrically connected
   
+* **GPIO SPI** (Serial Peripheral Interface)
+
+  * Known as the four-wire serial bus, SPI lets you attach multiple compatible devices to a single set of pins by assigning them different chip-select pins.
+  
+
+#### GPIO in Python (Programming with GPIO)
+
+* Controlling GPIO devices with Python. To control an LED connected to GPIO17, you can use this code:
+
+```py
+
+from gpiozero import LED
+from time import sleep
+
+led = LED(17)
+
+while True:
+    led.on()
+    sleep(1)
+    led.off()
+    sleep(1)
+
+```
+
+
   
 ## II. Intel Movidius
 
