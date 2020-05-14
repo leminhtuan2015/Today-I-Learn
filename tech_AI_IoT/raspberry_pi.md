@@ -169,6 +169,13 @@
 
 * GPIO = general-purpose input/output
 
+* GPIO (General Purpose IO)
+* SPI (Serial Peripheral Interface)
+* I2C (Inter-integrated Circuit)
+* UART (Universal Asyncronous Receiver/Transmitter)
+* Ground
+* 5v (Power)
+* 3.3v (Power)
 
 #### GPIO Outputs
 
