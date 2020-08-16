@@ -38,17 +38,14 @@ bạn chỉ cần viết code, và không cần quan tâm nhiều về máy ch�
 ```
 sam local invoke "HelloWorldFunction"
 
-sam local invoke  RentracksMonthlyReport --event events/rentracks/rentracks-MonthlyReport.json
+sam local invoke  HelloWorldFunction --event events/event.json
 
 # param --event is the event pass to handler 
 
 event.json
 {
-	"username": "asp@xn--gmail-ow3b.com,
-	"password": "au123456”,
-	"target_start_date": "2020-01-01",
-	"target_end_date": "2020-12-31",
-	"site_id": ""
+	"username": "xxx,
+	"password": "yyy”,
  }
 
 ```
