@@ -21,7 +21,10 @@
 * A different port (eg. site at example.com calls example.com:3001)
 * A different protocol (eg. site at https://example.com calls http://example.com)
 
-### CORS at server side
+
+### CORS enable
+
+#### CORS enable at server side
 
 * Example CORS setting at server side
 
@@ -54,6 +57,23 @@ public class CORSInterceptor extends HandlerInterceptorAdapter {
 * Origin
   * This header is **part of the request** that the client is making, and will contain the domain from which the application is started. 
   * For security reasons **browsers will not allow you to overwrite this value.**
+
+#### CORS enable at client side
+
+* **credentials: 'include'**
+
+```js
+  async callApi()
+  {
+    await fetch("http://localhost:5555/test",{
+       method: 'GET',
+       credentials: 'include'
+    })
+  }
+```
+
+
+
 
 
 
