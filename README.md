@@ -16,8 +16,9 @@
   * https://github.com/react-native-community/react-native-webview/issues/528
 
 
-
-
+*  Cookie based authentication issues aggregation #23185 
+  * https://reactnative.dev/docs/network
+  * https://github.com/facebook/react-native/issues/23185
 
 
 
