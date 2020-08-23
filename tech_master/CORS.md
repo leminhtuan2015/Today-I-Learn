@@ -2,10 +2,9 @@
 
 * You have to understand that the **CORS behavior is not an error** — it’s a mechanism that’s working as expected in order to protect your users, you, or the site you’re calling
 
-* Cross-origin resource sharing (CORS) is a **browser mechanism**
-which enables controlled access to resources located **outside of a given domain**
+* Cross-origin resource sharing (CORS) is a **browser mechanism** - which enables controlled access to resources located **outside of a given domain**
 
-* Origin = The domain of web on browser
+* Origin = The domain of web on browser, this is set in request header when you make a http request
 * **Browser will set the origin in the header of each request with the domain** and you can not override this value
 
 * EX: If you web on browser "myweb.com" and you make a request to the other domain such as "otherweb.com" 
