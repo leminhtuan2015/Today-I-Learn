@@ -5,6 +5,9 @@
 * Cross-origin resource sharing (CORS) is a **browser mechanism**
 which enables controlled access to resources located **outside of a given domain**
 
+* Origin = The domain of web on browser
+* **Browser will set the origin in the header of each request with the domain** and you can not override this value
+
 * EX: If you web on browser "myweb.com" and you make a request to the other domain such as "otherweb.com" 
 => **the browser will throw CORS error*
 
