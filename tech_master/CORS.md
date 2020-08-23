@@ -1,5 +1,7 @@
 ### What is CORS
 
+* You have to understand that the **CORS behavior is not an error** — it’s a mechanism that’s working as expected in order to protect your users, you, or the site you’re calling
+
 * Cross-origin resource sharing (CORS) is a **browser mechanism**
 which enables controlled access to resources located **outside of a given domain**
 
