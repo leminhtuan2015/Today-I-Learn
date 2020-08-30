@@ -6,8 +6,8 @@
 
 ### Props vs State
 
-* props: **public final x = **
-* state : **private x = **
+* props: **public final x =**
+* state : **private x =**
 
 
 ### React Native : props vs state
