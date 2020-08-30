@@ -1,7 +1,6 @@
 ### React Native : props vs state
 ### React Native State
 ### State Updates are Merged
-  * When you call setState(), React **merges** the object you provide into the current state
 ### React Native Props
 ----------------------------------------------------------------------
 
