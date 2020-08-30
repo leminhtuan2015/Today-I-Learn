@@ -1,11 +1,17 @@
-### React Native : props vs state (Of Components)
+### React Native : props vs state
 ### React Native State
 ### State Updates are Merged
   * When you call setState(), React **merges** the object you provide into the current state
 ### React Native Props
 ----------------------------------------------------------------------
 
-### React Native : props vs state (Of Components)
+### Props vs State
+
+* props: **public final x = **
+* state : **private x = **
+
+
+### React Native : props vs state
 * React native is just **view layer**, Everything in react-native is component, You have to use **Redux, Saga** to make real app
 * **Components**, **props**, and **state** are key concepts of the **React Native framework**
 * props (short for properties) immutated : **is the immutated attribute of component**
