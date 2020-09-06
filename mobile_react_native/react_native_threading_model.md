@@ -24,4 +24,4 @@
 
 ![title](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_react_native/react_native_app_thread%20workflow_01.png?raw=true)
 
-![title](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_react_native/react_native_app_thread%20workflow_02.png?raw=true)
+![title](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_react_native/react_native_app_thread%20workflow_02.jpg?raw=true)
