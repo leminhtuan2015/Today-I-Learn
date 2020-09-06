@@ -1,4 +1,5 @@
 ### Javascript engine
+### React Native with Javascript engine
 ### Browser engine
 
 --------------------------
@@ -14,9 +15,18 @@
 * **JavaScriptCore** => Apple's JavaScript engine used in Safari
 * **V8** => Google's JavaScript engine used in Google Chrome, Node.js, Deno and V8.NET.
 * **SpiderMonkey** => Mozilla's JavaScript engine used in Firefox.
+* **Chakra** => Microsoft's JavaScript engine used in Microsoft Edge web browser.
 * **Nashorn** => Oracle's JavaScript engine used in Oracle Java Development Kit (JDK) since version 8
 * **Futhark** => Opera's Javascript engine used in Opera web browser versions 9.50 to 10.10.
 * **Tamarin** => Adobe's Javascipt engine used in Adobe Flash.
+
+### React Native with Javascript engine
+
+* React Native use the **Apple JavaScriptCore Javascript engine** for run all our JavaScript code 
+* JavaScriptCore is an Apple's open source JavaScript engine
+* In case of iOS, React Native uses the JavaScriptCore provided by the iOS platform. It was first introduced in iOS 7 along with OS X Mavericks.
+* In case of Android, React Native bundles the JavaScriptCore along with the application. This increases the Android APK app size
+
 
 ### Browser engine
 
