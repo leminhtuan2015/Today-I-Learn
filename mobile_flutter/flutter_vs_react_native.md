@@ -12,7 +12,9 @@
   * **stateless widgets** = **functional components**
   * **stateful widgets** = **class components**
   
-* **Stateful Components**
+#### **Stateful Components / Class Components**
+
+*  Class Components focus on manage state and have life cycle methods like constructor(), render() , componentDidMount()
 
 ```js
 class Main extends Component {
@@ -28,7 +30,9 @@ class Main extends Component {
 }
 ```
 
-* **Stateless Components**
+#### **Stateless Components / Functional Components**
+
+* Pure Functional components focus on rendering the UI rather than behaviour. They simply accept props and return valid JSX element.
 
 ```js
 const BooksList = ({books}) => {
