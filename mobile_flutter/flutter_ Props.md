@@ -1,11 +1,12 @@
-### Flutter Widget Property/State
+### Flutter Widget Property (props)
+### Flutter Widget State
 
 --------------------
 
-### Flutter Widget Property/State
+### Flutter Widget Property (props)
 
-* Props: public final x =
-* State : private x =
+* **Props**: public final x =
+* **State**: private x =
 
 * React Native  **Props of components** = Fluter **public final variable or function of Widget** 
 * React Native  **State of components** = Fluter **private variable or function of Widget** 
@@ -78,3 +79,19 @@ CustomCard(
   },
 )
 ```
+
+
+### Flutter Widget State
+
+#### Stateful and stateless widgets
+
+* In Flutter: A widget is either stateful or stateless
+* **React native function components = Flutter stateless widgets**
+* **React native class components = Flutter stateful widgets**
+
+* A stateless widget never changes. Icon, IconButton, and Text are examples of stateless widgets
+* A stateful widget is dynamic: for example, it can change its appearance in response to events triggered by user interactions or when it receives data. Checkbox, Radio...
+
+
+
+
