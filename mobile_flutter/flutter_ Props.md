@@ -1,6 +1,14 @@
-### Flutter Widget Property
+### Flutter Widget Property/State
 
-* React Native  **Props of components** = Fluter **private final variable or function of Widget** 
+--------------------
+
+### Flutter Widget Property/State
+
+* Props: public final x =
+* State : private x =
+
+* React Native  **Props of components** = Fluter **public final variable or function of Widget** 
+* React Native  **State of components** = Fluter **private variable or function of Widget** 
 
 ```js
 // React Native
