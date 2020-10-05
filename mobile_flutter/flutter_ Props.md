@@ -1,6 +1,6 @@
 ### Flutter Widget Property
 
-* In React Native **Props of components** is the same **Private final variable or function** in Fluter dart Widget
+* React Native  **Props of components** = Fluter **private final variable or function of Widget** 
 
 ```js
 // React Native
