@@ -1,6 +1,8 @@
 ### Documents
 ### Programming paradigm (Coding style)
 ### OOP vs FP
+### OOP Stateless/Stateful Class
+### OOP Stateless/Stateful Class = React Native Stateless/Stateful Component
 
 --------------
 
@@ -38,3 +40,85 @@
   - For example, most languages that contain **function pointers** can be used to credibly support **functional programming**
   
   ![](https://github.com/leminhtuan2015/Wiki/blob/master/images/oop_fp.png)
+
+
+
+### OOP Stateless/Stateful Class
+
+#### OOP Stateless Class
+
+* **OOP Stateless Class** is avoid **side effect**
+* Any change of instance or class field values is a **side effect**
+* **Stateless Class** if the class/object doesn't have any instance fields
+* Also it can be stateless if it has some fields, but their values are known and don't change.
+* **OOP Stateless Class** = **Functional Programing** 
+
+```java
+
+class Stateless {
+    void test() {
+        System.out.println("Test!");
+    }
+}
+
+class Stateless {
+    //No static modifier because we're talking about the object itself
+    final String TEST = "Test!";
+
+    void test() {
+        System.out.println(TEST);
+    }
+}
+
+```
+
+#### OOP Statefull Class
+
+* Just normal Class have instance or class field values
+
+
+### OOP Stateless/Stateful Class = React Native Stateless/Stateful Component
+
+* **OOP Stateless Class** is the same **React Native Stateless Component**
+  * OOP Stateless Class => 
+      * `Do not` have property or just only **final** properties
+  * React Native Stateless Component => 
+      * `Do not` have **state (state in RN is private property)**
+      * Always have **props (props in React Native is public final)** 
+  
+* **OOP Stateful Class** is the same **React Native Stateful Component**
+  * OOP Stateful Class => 
+      * Have properties
+  * React Native Stateful Component =>
+      * Have **state (state in RN is private property)**
+      * Always have **props (props in React Native is public final property)** 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
