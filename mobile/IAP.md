@@ -1,5 +1,6 @@
 ### IAP
 ### Restore Non-Consumable Purchases
+### Request Refund
 ---------------------------------------------------
 
 ### IAP
@@ -26,7 +27,12 @@
   * **IOS** : you have to manually restore in-app purchases by tapping a “Restore Purchases” button that App developer code in app
 
 
+### Request Refund
 
+* If a purchase was accidentally made by a friend or family member using your account
+* If you or a family member bought an item by accident
+* You can make a request to Google or Applr to refund your purchases
 
-
+* Android: https://support.google.com/googleplay/answer/2479637?hl=en
+* IOS: https://support.apple.com/en-us/HT204084
 
