@@ -3,6 +3,7 @@
 ### Cancel Subscription
 ### Request Refund
 ### ReactNative IAP
+### IOS Subscription groups (Upgrade Subscription)
 ---------------------------------------------------
 
 ### IAP
@@ -67,7 +68,14 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
     * Solution for checking: https://github.com/dooboolab/react-native-iap/issues/275#issuecomment-433582389
 
 
+### IOS Subscription groups (Upgrade Subscription)
 
+* How to upgrade subscription from monthly to yearly
+
+* **IOS subscription group** is a collection of subscription products that has some specific properties.
+  * No two products in a subscription group can be active at the same time.
+  * A subscription group also determines the service level of each product, determining the upgrade/downgrade/crossgrade behavior.
+  * Users could now upgrade or downgrade their subscriptions without having to cancel first, wait for the expiration, and re-purchase.
 
 
 
