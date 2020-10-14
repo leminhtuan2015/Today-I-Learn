@@ -57,9 +57,14 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
 
 ### ReactNative IAP
 
-#### Subscription
-
-* **getAvailablePurchases** method returns all the purchases made (already purchased), even the subscriptions that are not active at the moment.
+* Subscription
+  * **getAvailablePurchases** method returns all the purchases made (already purchased)
+  
+  * Android:
+    * When an active subscription expires, it does not show up in available purchases anymore
+  * IOS: 
+    * still show up in available purchases even the subscriptions that are expired.
+    * Solution for checking: https://github.com/dooboolab/react-native-iap/issues/275#issuecomment-433582389
 
 
 
