@@ -1,5 +1,5 @@
 ### IAP
-### Restore Non-Consumable Purchases
+### Restore Purchases
 ### Request Refund
 ---------------------------------------------------
 
@@ -15,14 +15,15 @@
   * `Subscription Auto-Renewable` : renew automatically : (use util subscription is canceled)
   * `Subscription Non-Renewing` : does not renew automatically
   
-### Restore Non-Consumable Purchases
+### Restore Purchases
+* If your app sells **non-consumable**, **auto-renewable subscription**, or **non-renewing subscription** products, then you must provide a UI that allows them to be restored
 
-* In-app purchases that **are NOT consumable can be restored**
-* If you reinstall an app, reset your Android device, or get a new Android device, you can regain access to Non-Consumable in-app purchases.
+* In-app purchases that **are NOT consumable or auto-renewable subscription or non-renewing subscription products can be restored**
+* If you reinstall an app, reset your Android device, or get a new Android device, you can regain access to already purchased in-app purchases.
 
-* **Restore Non-Consumable Purchases on Android Google is works differently on IOS Apple**
+* **Restore Purchases on Android Google is works differently on IOS Apple**
 
-* Restore Non-Consumable Purchases
+* Restore Purchases
   * **Android**: Most Android apps should automatically query Google Play and check for any in-app purchases you’ve made, automatically restoring them for you.
   * **IOS** : you have to manually restore in-app purchases by tapping a “Restore Purchases” button that App developer code in app
 
