@@ -2,6 +2,7 @@
 ### Restore Purchases
 ### Cancel Subscription
 ### Request Refund
+### ReactNative IAP
 ---------------------------------------------------
 
 ### IAP
@@ -52,4 +53,19 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
 
 * Android: https://support.google.com/googleplay/answer/2479637?hl=en
 * IOS: https://support.apple.com/en-us/HT204084
+
+
+### ReactNative IAP
+
+#### Subscription
+
+* **getAvailablePurchases** method returns all the purchases made (already purchased), even the subscriptions that are not active at the moment.
+
+
+
+
+
+
+
+
 
