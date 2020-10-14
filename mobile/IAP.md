@@ -1,5 +1,6 @@
 ### IAP
 ### Restore Purchases
+### Cancel Subscription
 ### Request Refund
 ---------------------------------------------------
 
@@ -27,6 +28,21 @@
   * **Android**: Most Android apps should automatically query Google Play and check for any in-app purchases you’ve made, automatically restoring them for you.
   * **IOS** : you have to manually restore in-app purchases by tapping a "Restore Purchases" button that App developer code in app
 
+### Cancel Subscription
+
+* For both iOS and Android your users cannot cancel subscriptions inside your app. You need to direct your users to iTunes/the App Store or Google Play.
+
+```js
+//IOS
+//IOS 12 or later
+Linking.openURL('https://apps.apple.com/account/subscriptions')
+
+//IOS before 12
+Linking.openURL('https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/manageSubscriptions')
+
+//Android
+Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOUR_PACKAGE_NAME&sku=YOUR_PRODUCT_ID
+```
 
 ### Request Refund
 
