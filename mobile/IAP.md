@@ -8,7 +8,7 @@
 * **One-time pruchase products**
   * `Consumable product` : (pruchase one-time use one)
     * Buy coin
-  * `None-Consumable product` : (pruchase one-time - use forever) => Can be restore
+  * `None-Consumable product` : (pruchase one-time - use forever)
     * Remove ads
   
 * **Subscription pruchase products**
