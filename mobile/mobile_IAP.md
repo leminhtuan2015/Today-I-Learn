@@ -1,4 +1,5 @@
 ### IAP
+### IAP Testing
 ### Restore Purchases
 ### Cancel Subscription
 ### Request Refund
@@ -17,6 +18,17 @@
 * **Subscription pruchase products**
   * `Subscription Auto-Renewable` : renew automatically : (use util subscription is canceled)
   * `Subscription Non-Renewing` : does not renew automatically
+  
+### IAP Testing
+
+* **IOS IAP Sanbox environment**
+  * Apple provide the **Sanbox** environment for testing IAP
+  * **In App Purchase Prompted twice for login using Sandbox Account**
+    * Two sign-in dialogs on in-app purchase on Sandbox environment
+    * If You are using sandbox testing app store account credentials for In-app purchase, then it will prompt to enter username and password twice for sure but it will work well on Live
+    * https://stackoverflow.com/questions/32123903/ios-in-app-purchase-prompted-twice-for-login-using-sandbox-account
+    * https://developer.apple.com/forums/thread/14088
+
   
 ### Restore Purchases
 * If your app sells **non-consumable**, **auto-renewable subscription**, or **non-renewing subscription** products, then you must provide a UI that allows them to be restored
