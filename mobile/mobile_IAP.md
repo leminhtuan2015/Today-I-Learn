@@ -111,4 +111,15 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
     * Step 5: Enable "In-App Purchase" in Xcode "Capabilities" and in Apple Developer -> "App ID" setting.
     * Step 6: Clean up builds (Delete the app on device => Restart device)
 
-
+* **IOS confirm purchase show two dialogs on Sandbox environment**
+  * This happend on Sandbox environment but on production that will be ok
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
