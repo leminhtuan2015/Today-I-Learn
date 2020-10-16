@@ -104,6 +104,7 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
 * **IOS IAP Invalid productId**
 
   * Please try below and make sure you've done the steps:
+    * Step 0: Make sure test on real device (NOT simulator) 
     * Step 1: Completed an effective "Agreements, Tax, and Banking."
     * Step 2: Setup sandbox testing account in "Users and Roles."
     * Step 3: Signed into iOS device with sandbox account in "Settings / iTunes & App Stores".
