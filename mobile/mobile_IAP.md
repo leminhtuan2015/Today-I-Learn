@@ -99,6 +99,7 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
 
 * **IOS IAP Cannot connect to iTunes Store**
     * https://developer.apple.com/forums/thread/98763
+    * https://developer.apple.com/forums/thread/90594
     
     
 * **IOS IAP Invalid productId**
