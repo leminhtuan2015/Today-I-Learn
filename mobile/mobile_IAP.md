@@ -97,7 +97,18 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
 
 #### IOS
 
-* IS IAP Cannot connect to iTunes Store
+* **IOS IAP Cannot connect to iTunes Store**
     * https://developer.apple.com/forums/thread/98763
+    
+    
+* **IOS IAP Invalid productId**
+
+  * Please try below and make sure you've done the steps:
+    * Step 1: Completed an effective "Agreements, Tax, and Banking."
+    * Step 2: Setup sandbox testing account in "Users and Roles."
+    * Step 3: Signed into iOS device with sandbox account in "Settings / iTunes & App Stores".
+    * Step 4: Set up three In-App Purchases with the following status (Ready to Submit or Missing Metadata or Waiting for Review)
+    * Step 5: Enable "In-App Purchase" in Xcode "Capabilities" and in Apple Developer -> "App ID" setting.
+    * Step 6: Clean up builds (Delete the app on device => Restart device)
 
 
