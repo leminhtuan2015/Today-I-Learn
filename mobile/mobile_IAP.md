@@ -5,6 +5,7 @@
 ### Request Refund
 ### ReactNative IAP
 ### IOS Subscription groups (Upgrade Subscription)
+### IAP Q&A
 ---------------------------------------------------
 
 ### IAP
@@ -91,6 +92,12 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
 
 
 
+### IAP Q&A
 
+
+#### IOS
+
+* IS IAP Cannot connect to iTunes Store
+    * https://developer.apple.com/forums/thread/98763
 
 
