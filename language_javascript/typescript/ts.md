@@ -1,5 +1,5 @@
 ### What is TypeScript
-
+### Compile TypeScript
 
 -----------------------------------------------------------------
 
@@ -11,4 +11,7 @@
 * TypeScript code is transformed into JavaScript code via the **TypeScript compiler** or **Babel**. 
 * In the end **TypeScript mus be compiled/transformed to JavaScript** to run on browsers or JS compiler
 
+### Compile TypeScript
 
+* JavaScript code doesn’t need to be compiled, but TypeScript code does need to be compiled. 
+* TypeScript code need to be compiled to becomes pure JavaScript
