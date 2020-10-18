@@ -19,13 +19,15 @@
   * 1.8 or 1.8.0 : both mean Java SE version 8
   * 1.8.0_5 mean : Java SE version 8 update 5
   * Both version numbers "1.8.0" and "8" are used to identify this release of the Java 8 Platform Standard Edition
-      * `Version 1.8.0` Used by Developers (developer version)
-      * `Version 8` Used in Platform and Product Names (product version)
+      * Developer version: `Version 1.8.0` Used by Developers
+      * Product version : `Version 8` Used in Platform and Product Names
 
 ```sh
 java -version
 
-# return: java version "1.8.0_131" => Java SE version 8 update 131
+# return: java version "1.8.0_131" 
+# developer version => Java SE version 1.8.0 update 131
+# product version => Java SE version 8 update 131
 
 ```
   
