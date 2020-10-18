@@ -35,6 +35,30 @@ java -version
 
 * In September 2017, Mark Reinhold, chief Architect of the Java Platform, proposed to change the release train to "one feature release every six months" rather than the current two-year.
 
+* JDK 1.0	
+* JDK 1.1	
+* J2SE 1.2 
+  * Version name changed from JDK to J2SE
+* J2SE 1.3	
+* J2SE 1.4	
+* J2SE 5.0	
+  * Product Version number changed from `1.x` to `x`
+  * Product Version number `5.0`
+  * Developer Verion number `1.5.0`
+* Java SE 6
+  * Version name changed from J2SE to Java SE
+* Java SE 7	
+* Java SE 8 (LTS)	
+* Java SE 9	
+* Java SE 10	
+* Java SE 11 (LTS)	
+* Java SE 12	
+* Java SE 13	
+* Java SE 14	
+* Java SE 15	
+
+
+
 
 
 
