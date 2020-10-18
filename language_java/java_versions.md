@@ -33,8 +33,6 @@ java -version
   
 ### Java Version History
 
-* In September 2017, Mark Reinhold, chief Architect of the Java Platform, proposed to change the release train to "one feature release every six months" rather than the current two-year.
-
 * JDK 1.0	
 * JDK 1.1	
 * J2SE 1.2 
@@ -50,6 +48,7 @@ java -version
 * Java SE 7	
 * Java SE 8 (LTS)	
 * Java SE 9	
+  * In September 2017 (after release Java SE 9	), Mark Reinhold, chief Architect of the Java Platform, proposed to change the release train to "one feature release every six months" rather than the current two-year.
 * Java SE 10	
 * Java SE 11 (LTS)	
 * Java SE 12	
