@@ -51,7 +51,7 @@ const element = (
 );
 ```
 
-COMPILED =============>
+Babel COMPILED =============>
 
 ```js
 const element = React.createElement(
