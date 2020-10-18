@@ -51,7 +51,7 @@ const element = (
 );
 ```
 
-**Babel COMPILED =============>**
+**=============> Babel COMPILED =============>**
 
 ```js
 const element = React.createElement(
