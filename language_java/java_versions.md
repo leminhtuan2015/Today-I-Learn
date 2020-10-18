@@ -40,7 +40,7 @@ java -version
 * J2SE 1.3	
 * J2SE 1.4	
 * J2SE 5.0	
-  * Product Version number changed from `1.x` to `x`
+  * Version number format changed from `1.x` to `x`
   * Product Version number `5.0`
   * Developer Verion number `1.5.0`
 * Java SE 6
