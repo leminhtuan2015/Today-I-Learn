@@ -1,4 +1,5 @@
 ### Java Version Number
+### Java Version History
 
 ------------------------------------------------------
 
@@ -15,14 +16,35 @@
   * JRE
 
 * **Version String**: have the form `1.x`, or `1.x.0`, where `x` is the product version number.
-  * 1.8 or 1.8.0 mean : Java SE version 8
+  * 1.8 or 1.8.0 : both mean Java SE version 8
   * 1.8.0_5 mean : Java SE version 8 update 5
+  * Both version numbers "1.8.0" and "8" are used to identify this release of the Java 8 Platform Standard Edition
+      * `Version 1.8.0` Used by Developers (developer version)
+      * `Version 8` Used in Platform and Product Names (product version)
 
 ```sh
 java -version
 
 # return: java version "1.8.0_131" => Java SE version 8 update 131
+
 ```
   
+### Java Version History
+
+* In September 2017, Mark Reinhold, chief Architect of the Java Platform, proposed to change the release train to "one feature release every six months" rather than the current two-year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
