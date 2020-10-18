@@ -15,7 +15,7 @@
   * JDK
   * JRE
 
-* **Version String**: have the form `1.x`, or `1.x.0`, where `x` is the product version number.
+* **Version String Number**: have the form `1.x`, or `1.x.0`, where `x` is the product version number.
   * 1.8 or 1.8.0 : both mean Java SE version 8
   * 1.8.0_5 mean : Java SE version 8 update 5
   * Both version numbers "1.8.0" and "8" are used to identify this release of the Java 8 Platform Standard Edition
