@@ -39,3 +39,23 @@ PHP code goes here
 
 ### Why PHP File Must Be have `<?php ?>`
 
+* Not like Python or C or Ruby, PHP file must wrap PHP code inside `<?php ?>`, The reason is PHP is very easy HTML embedded, PHP need `<?php ?>` to mark which is HTML client-side code, which is PHP server-side code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
