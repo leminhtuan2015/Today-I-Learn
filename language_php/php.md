@@ -1,6 +1,6 @@
 ### What is PHP?
 ### PHP File
-### Why PHP File Must Be have <?php ?>
+### Why PHP File Must Be have `<?php ?>`
 ---------------------------------------
 
 ### What is PHP?
@@ -37,5 +37,5 @@ PHP code goes here
 ?>
 ```
 
-### Why PHP File Must Be have <?php ?>
+### Why PHP File Must Be have `<?php ?>`
 
