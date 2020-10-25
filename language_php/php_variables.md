@@ -5,6 +5,8 @@
 
 ### Variables
 
+* Like SHELL script, PHP code keep create variable by `$`
+
 #### Value variable
 
 ```php
