@@ -4,14 +4,15 @@
 
 ### Variables
 
-* Value variable
+#### Value variable
+
 ```php
 $_string = "Hello world!";
 $_int = 5;
 $_float = 10.5;
 ```
 
-* Object variable
+#### Object variable
 
 ```php
 class Car {
@@ -29,7 +30,7 @@ class Car {
 $myCar = new Car("black", "Volvo");
 ```
 
-* CONSTANTS
+#### CONSTANTS
 
 ```
 <?php
@@ -60,4 +61,24 @@ class Constants
 }
 
 ?> 
+```
+
+#### Array
+
+```
+ /* First method to create array. */
+ $numbers = array(1, 2);
+
+ /* Second method to create array. */
+ $numbers[0] = 1;
+ $numbers[1] = 2;
+         
+/* First method to associate create array. */    
+$salaries = array("mohammad" => 2000, "qadir" => 1000, "zara" => 500);
+
+ /* Second method to create array. */
+ $salaries['mohammad'] = "high";
+ $salaries['qadir'] = "medium";
+ $salaries['zara'] = "low";
+         
 ```
