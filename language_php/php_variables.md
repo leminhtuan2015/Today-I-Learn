@@ -1,4 +1,5 @@
 ### Variables
+### PHP `isset()` `unset()`
 
 -----------------------------
 
@@ -82,3 +83,21 @@ $salaries = array("mohammad" => 2000, "qadir" => 1000, "zara" => 500);
  $salaries['zara'] = "low";
          
 ```
+
+
+### PHP `isset()` `unset()`
+
+* `isset` - Determine if a variable is declared and is different than NULL
+* `unset` -  Unset a given variable, make variable NULL
+
+
+
+
+
+
+
+
+
+
+
+
