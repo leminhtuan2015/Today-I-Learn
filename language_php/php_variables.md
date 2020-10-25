@@ -32,7 +32,7 @@ $myCar = new Car("black", "Volvo");
 
 #### CONSTANTS
 
-```
+```php
 <?php
 
 define('MIN_VALUE', '0.0');   // RIGHT - Works OUTSIDE of a class definition.
@@ -65,7 +65,7 @@ class Constants
 
 #### Array
 
-```
+```php
  /* First method to create array. */
  $numbers = array(1, 2);
 
