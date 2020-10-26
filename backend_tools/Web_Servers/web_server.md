@@ -9,9 +9,10 @@
 
 * A web server is a program that takes a request to your website from a user and does some processing on it. Then, it might give the request to your web app
 * Web server là một tool nhận HTTP request được gửi đến một IP và thực hiện một vài xử lí trước khi forward những request ấy đến web app của bạn.
-* Web server tools:
-    * Nginx
-    * Apache
+
+#### List of Web Servers
+ * Nginx
+ * Apache
 
 ### Application Server
 
@@ -23,20 +24,23 @@
     * App servers that can be directly exposed to the Internet: Phusion Passenger, Rainbows
     * App servers that may not be directly exposed to the Internet: Mongrel, Unicorn, Thin, Puma. These app servers must be put behind a reverse proxy web server like Apache and Nginx.
 
-#### List of application servers
+#### List of Application Servers
 * https://en.wikipedia.org/wiki/List_of_application_servers
 * Rails: 
    * Unicorn
    * Puma
    * Passenger
+   
 * Java: 
    * Tomcat
    * GlassFish
    * Jetty
    * JBoss
+   
 * JavaScript:
    * Node.js 
    * Deno
+   
 * Python 
    * WSGI
    * Gunicorn
@@ -47,6 +51,9 @@
    * Twisted
    * Web2py
    * Zope
+   
+ * .NET
+   * Internet Information Services (IIS)
   
 ### Apache/Nginx
 
