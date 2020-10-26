@@ -5,6 +5,10 @@
 
 ---------------------------------------------
 
+
+![Web Server](https://raw.githubusercontent.com/leminhtuan2015/Today-I-Learn/master/backend_tools/Web_Servers/web_server.png)
+
+
 ### Web Server
 
 * A web server is a program that takes a request to your website from a user and does some processing on it. Then, it might give the request to your web app
@@ -60,4 +64,5 @@
 
 * https://www.justinweiss.com/articles/a-web-server-vs-an-app-server/
 * https://stackoverflow.com/questions/4113299/ruby-on-rails-server-options
+* https://www.novell.com/documentation/extend52/Docs/help/AppServer/books/admWSI.html
 
