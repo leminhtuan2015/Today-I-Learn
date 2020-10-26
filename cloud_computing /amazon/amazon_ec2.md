@@ -22,6 +22,7 @@
 * You must specify an AMI when you launch an instance. 
 * You can launch multiple instances from a single AMI when you need multiple instances with the same configuration.
 * Amazon provide default many AMI for use select when create the Amazon EC2
+* You can make you own AMI from EC2 instance (this the same you make file `.GHO` from windown and then can install on other EC@ Instance)
 
 ### Upgrade EC2
 
