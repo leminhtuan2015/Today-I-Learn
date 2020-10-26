@@ -27,30 +27,16 @@
 #### List of Application Servers
 * https://en.wikipedia.org/wiki/List_of_application_servers
 * Rails: 
-   * Unicorn
-   * Puma
-   * Passenger
+   * Unicorn, Puma, Passenger
    
 * Java: 
-   * Tomcat
-   * GlassFish
-   * Jetty
-   * JBoss
+   * Tomcat, GlassFish, Jetty, JBoss
    
 * JavaScript:
-   * Node.js 
-   * Deno
+   * Node.js, Deno
    
 * Python 
-   * WSGI
-   * Gunicorn
-   * CherryPy
-   * Phusion Passenger
-   * Paste
-   * Tornado
-   * Twisted
-   * Web2py
-   * Zope
+   * WSGI, Gunicorn, CherryPy, Phusion Passenger, Paste, Tornado, Twisted, Web2py, Zope
    
  * .NET
    * Internet Information Services (IIS)
