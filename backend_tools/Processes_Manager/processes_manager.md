@@ -10,5 +10,6 @@
 #### UNIX-like
 
 * **Supervisor**
- * ```pip3 install supervisor```
- * ```apt-get install supervisor```
+  * ```pip3 install supervisor```
+  * ```apt-get install supervisor```
+  * https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps
