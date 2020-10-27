@@ -23,7 +23,7 @@
 * An app server is the thing that actually runs your web app.
 * Application server là tool để vận hành web app, execute web app code
 * Sau khi Application Server xử lí xong request, sẽ gửi response lại cho phía Web Server để trả dữ liệu về client.
-* Một Application Server cũng có thể chạy độc lập mà không cần có Web Server trước nó. Đây chính là việc ta vẫn làm ở môi trường development. Chỉ chạy app server mà không cần đến Web server. Tuy nhiên ở môi trường Product thì thường chúng ta sẽ cần đến web server.
+* **Một Application Server cũng có thể chạy độc lập mà không cần có Web Server trước nó**. Đây chính là việc ta vẫn làm ở môi trường development. Chỉ chạy app server mà không cần đến Web server. Tuy nhiên ở môi trường Product thì thường chúng ta sẽ cần đến web server.
 * Most Application servers could directly exposed to the Internet on port 80, while others may not.
     * App servers that can be directly exposed to the Internet: Phusion Passenger, Rainbows
     * App servers that may not be directly exposed to the Internet: Mongrel, Unicorn, Thin, Puma. These app servers must be put behind a reverse proxy web server like Apache and Nginx.
@@ -31,20 +31,11 @@
 #### List of Application Servers
 * https://en.wikipedia.org/wiki/List_of_application_servers
 
-* Rails: 
-   * Unicorn, Puma, Passenger
-   
-* Java: 
-   * Tomcat, GlassFish, Jetty, JBoss
-   
-* JavaScript:
-   * Node.js, Deno
-   
-* Python 
-   * WSGI, Gunicorn
-   
- * .NET
-   * Internet Information Services (IIS)
+* **Rails**: Unicorn, Puma, Passenger
+* **Java**: Tomcat, GlassFish, Jetty, JBoss
+* **JavaScript**: Node.js, Deno
+* **Python**: WSGI, Gunicorn
+* **.NET**: Internet Information Services (IIS)
   
 ### Apache/Nginx
 
