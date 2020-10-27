@@ -2,9 +2,9 @@
 
 #### NODE.JS
 
-* pm2
+* **pm2**
   * ```npm install pm2 -g```
-* forever
+* **forever**
   * ```npm install forever -g```
 
 #### UNIX-like
