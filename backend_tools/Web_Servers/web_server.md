@@ -11,6 +11,7 @@
 
 ### Web Server
 
+* **Tool để đón HTTP requests và forward tới Application Server**
 * A web server is a program that takes a request to your website from a user and does some processing on it. Then, it might give the request to your web app
 * Web server là một tool nhận HTTP request được gửi đến một IP và thực hiện một vài xử lí trước khi forward những request ấy đến web app của bạn.
 
@@ -20,6 +21,7 @@
 
 ### Application Server (WSGI = Web Server Gateway Interface)
 
+* **Tool để đón HTTP requests => execute code, run code => response data back for client**
 * An app server is the thing that actually runs your web app.
 * Application server là tool để vận hành web app, execute web app code
 * Sau khi Application Server xử lí xong request, sẽ gửi response lại cho phía Web Server để trả dữ liệu về client.
