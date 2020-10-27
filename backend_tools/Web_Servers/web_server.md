@@ -18,7 +18,7 @@
  * Nginx
  * Apache
 
-### Application Server
+### Application Server (WSGI = Web Server Gateway Interface)
 
 * An app server is the thing that actually runs your web app.
 * Application server là tool để vận hành web app, execute web app code
@@ -30,6 +30,7 @@
 
 #### List of Application Servers
 * https://en.wikipedia.org/wiki/List_of_application_servers
+
 * Rails: 
    * Unicorn, Puma, Passenger
    
@@ -40,7 +41,7 @@
    * Node.js, Deno
    
 * Python 
-   * WSGI, Gunicorn, CherryPy, Phusion Passenger, Paste, Tornado, Twisted, Web2py, Zope
+   * WSGI, Gunicorn
    
  * .NET
    * Internet Information Services (IIS)
