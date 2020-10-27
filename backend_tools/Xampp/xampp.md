@@ -6,7 +6,7 @@
 
 ### XAMPP Apache Web Server
 
-* **XAMPP = Apache + MariaDB + PHP + Perl**
+* **XAMPP = Web sever Apache + MariaDB + PHP + Perl**
 * XAMPP is a free and open-source cross-platform **web server** solution stack package developed by Apache Friends.
 * XAMPP = Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
 * To start XAMPP Apache, you have to disable OSX's built-in Apache server
@@ -15,6 +15,9 @@
 sudo apachectl stop
 
 sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
-
-
 ```
+
+* XAMPP : X = Can run on many environment
+* WAMP : Windows
+* MAMP : Mac OS X
+* LAMP : Linux
