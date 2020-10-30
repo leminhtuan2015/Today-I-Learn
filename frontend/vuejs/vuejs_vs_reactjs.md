@@ -1,4 +1,4 @@
-### Template VS JSX
+### VueJS Template VS ReactJS JSX
 
 * **VueJS using Template**
   * VueJS is NOT 100% pure Javascript, VueJS embed JS code in HTML code
