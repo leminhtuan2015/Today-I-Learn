@@ -6,3 +6,4 @@
 
 * **ReactJS using JSX**
   * React uses jsx approach. Everything is JavaScript for ReactJS. HTML and CSS are all part of JavaScript.
+  * In ReactJS Everything is JavaScript, HTML, CSS is Javascript components
