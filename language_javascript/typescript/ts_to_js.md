@@ -1,6 +1,8 @@
-### Convert .ts to .js
+### Convert TypeScript into JavaScript
 
-### Convert .ts to .js
+--------------------------------------------------
+
+### Convert TypeScript into JavaScript
 
 * Step 1: ```npm install -g typescript```
 * Step 2: Create one file `person.ts`
