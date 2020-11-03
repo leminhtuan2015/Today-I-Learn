@@ -1,5 +1,5 @@
 ### Convert TypeScript into JavaScript
-
+### Run TypeScript with Deno 
 --------------------------------------------------
 
 ### Convert TypeScript into JavaScript
@@ -40,3 +40,25 @@ node person.js
 
 # => Hello, I am a person!, and I am 30
 ```
+
+### Run TypeScript with Deno 
+
+* Step 1: Install deno: ```brew install deno```
+* Step 2: run .ts file
+
+```
+deno run person.ts
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
