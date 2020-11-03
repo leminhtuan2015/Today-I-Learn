@@ -28,6 +28,8 @@ x.say("Hello, I am a person!, and I am " + x.age)
 * Convert .ts file to .js
 
 ```
+# TypeScript compiler tsc
+
 tsc person.ts
 ```
 
@@ -35,4 +37,6 @@ tsc person.ts
 
 ```
 node person.js
+
+# => Hello, I am a person!, and I am 30
 ```
