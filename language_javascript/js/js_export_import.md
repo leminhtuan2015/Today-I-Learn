@@ -63,6 +63,13 @@ import { MyClass, MyOtherClass } from "./MyClass";
 import { MyClass2 as MyClass2Alias } from "./MyClass2";
 ```
 
+### Default Export + Named Export
+
+* It is possible to use a default along with named imports in the same statement:
+
+```js
+import MyDefaultExport, { MyClass, MyOtherClass} from "./MyClass";
+```
 
 
 
