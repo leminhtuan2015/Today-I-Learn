@@ -1,4 +1,9 @@
 ### Export - Import
+### Default Export (export default)
+### Named Export (export)
+
+---------------------------------------------------------------------
+### Export - Import
 
 * The export statement is used when creating JavaScript modules to export live bindings to :
   * functions
@@ -36,3 +41,38 @@ export { name1, name2, …, nameN } from …;
 export { import1 as name1, import2 as name2, …, nameN } from …;
 export { default } from …;
 ```
+
+### Default Export (export default)
+
+* You only have one default export per file
+* When you import you have to specify a name and import like so:
+
+```js
+import MyDefaultExport from "./MyFileWithADefaultExport";
+```
+
+### Named Export (export)
+
+* With named exports, you can have multiple named exports per file
+* Then import the specific exports you want surrounded in braces:
+
+```js
+// ex. importing multiple exports:
+import { MyClass, MyOtherClass } from "./MyClass";
+// ex. giving a named import a different name by using "as":
+import { MyClass2 as MyClass2Alias } from "./MyClass2";
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
