@@ -1,6 +1,7 @@
 ### Export - Import
 ### Default Export (export default)
 ### Named Export (export)
+### Default Export + Named Export
 
 ---------------------------------------------------------------------
 ### Export - Import
