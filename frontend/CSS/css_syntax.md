@@ -4,7 +4,7 @@
 
 ### CSS Syntax
 
-* The same **JSON** BUT seperate by `**;**`
+* The same **JSON** BUT seperate by `;`
 
 ```css
 {
