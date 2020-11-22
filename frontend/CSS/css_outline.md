@@ -4,6 +4,9 @@
 
 ### CSS Outline
 
+![](https://github.com/leminhtuan2015/Today-I-Learn/blob/master/frontend/CSS/css_outline.png)
+
+
 * An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out". 
 
 * CSS has the following outline properties:
