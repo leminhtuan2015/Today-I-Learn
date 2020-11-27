@@ -22,17 +22,29 @@ ls
 ```
 
 ```
-put filename - Upload a file to the server
+mput * 
+- Push all file in folder
+```
 
-get filename - Download a file from the server
+```
+put filename 
+- Upload a file to the server
 
-mput filename - Put multiple files on the server
+get filename 
+- Download a file from the server
 
-mget filename - Get multiple files on the server
+mput filename 
+- Put multiple files on the server
 
-ls - Get a list of files in the current directory
+mget filename 
+- Get multiple files on the server
 
-cd - Change directory
+ls 
+- Get a list of files in the current directory
 
-quit - Ends your ftp session
+cd 
+- Change directory
+
+quit 
+- Ends your ftp session
 ```
