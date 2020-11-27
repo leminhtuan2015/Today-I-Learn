@@ -20,3 +20,19 @@ ftp [HOST/IP]
 ls
 
 ```
+
+```
+put filename - Upload a file to the server
+
+get filename - Download a file from the server
+
+mput filename - Put multiple files on the server
+
+mget filename - Get multiple files on the server
+
+ls - Get a list of files in the current directory
+
+cd - Change directory
+
+quit - Ends your ftp session
+```
