@@ -2,6 +2,8 @@
 ### 'this' in Function
 ### Arrow Function
 ### 'this' in Arrow Function
+### Arrow Function
+### Anonymous Function
 
 -----------------------------
 
@@ -155,6 +157,19 @@ hello = val => "Hello " + val;
 
 
 
+### Anonymous Function
+
+* An anonymous function is a function that was declared without any named identifier to refer to it. 
+* As such, an anonymous function is usually not accessible after its initial creation.
+
+* Anonymous function definition:
+
+```js
+var hello = function() {
+  alert('I am anonymous');
+}
+hello();
+```
 
 
 
