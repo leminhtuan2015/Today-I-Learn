@@ -7,12 +7,8 @@
  
  * Trước khi execute code, thằng JS có cơ chế pre-execute để thực hiện quá trình **hoisted** cho toàn bộ file code.js, sau đó nó mới thực sự execute code.
  
- - Như chúng ta đã biết Javascript (JS) là một ngôn ngữ "Interpreter" tương tự Ruby, Khi chưa đọc về khái niệm "hoisted" và cũng chỉ là 1 dev nghiệp dư về JS tôi luôn nghĩ rằng mỗi khi chúng ta run một app JS thì bộ Interpreter của JS engine sẽ thực thi các lệnh theo thứ tự Top to Bottom, nhưng Javascript tồn tại một điều thú vị chỉ ở Javascript có đó là khái niệm "hoisted".
- 
  - Hiểu đơn giản "hoisted" là một cơ chế trong cách thực thi code mà chỉ tồn tại trong JS, nó làm nhiều new dev cảm thấy "confuse" và có thể gây ra lỗi trong app nếu không hiểu rõ về "hoisted".
  
- - Trong quá trình tìm hiểu "hoisted" tôi đã tự viết ra một số định nghĩa về khái niệm "hoisted trong JS" cho riêng mình đó là:
-
 >  - Định Nghĩa 1: "Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần: phần 1: khai báo (variable declaration), phần 2: gán giá trị (variable definition)" 
  
  
@@ -78,35 +74,40 @@
 
 - "Hoisted" mang tất cả những khai báo biến lên top của scope, cho dù ta khai báo biến ở bất kì đâu thì nó cũng sẽ được mang (move) lên đặt ở đầu tiên của scope
 
-- Hoisted sẽ làm như sau.
+- Hoisted sẽ làm như sau:
 
-- Cũng đã khá dài rùi ạ, 2 định nghĩa khá dài 
+    * Định Nghĩa 1: "Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần: phần 1: khai báo (variable declaration), phần 2: gán giá trị (variable definition)"
 
-> Định Nghĩa 1: "Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần: phần 1: khai báo (variable declaration), phần 2: gán giá trị (variable definition)"
-
-> Định Nghĩa 2: "Hoisted Javascript là một cơ chế luôn luôn đưa phần khai báo biến (variable declaration), lên đầu tiên của scope"
+    * Định Nghĩa 2: "Hoisted Javascript là một cơ chế luôn luôn đưa phần khai báo biến (variable declaration), lên đầu tiên của **scope**"
 
 - Vậy một câu hỏi đặt ra như sau:
 
 ```js 
-    console.log(name);
-    var name = "Am Handsome"
+    function hello(){
+        console.log(name);
+        var name = "Am Handsome"
+    }
 ```
 
 - Bước 1 theo định nghĩa 1: cắt : 
 
 ```js
-    console.log(name);
-    var name;
-    name = "Am Handsome"
+    function hello(){
+        console.log(name);
+        var name;
+        name = "Am Handsome"
+    }
+
 ```
 
 - Bước 2 theo định nghĩa 2: move phần khai báo
 
 ```js
-    var name;
-    console.log(name);
-    name = "Am Handsome"
+    function hello(){
+        var name;
+        console.log(name);
+        name = "Am Handsome"  
+    }
 ```
 
 - Vậy phần gán giá trị có đc move lên đầu sope hay không, phần gán gán giá trị được xử lý như nào?
