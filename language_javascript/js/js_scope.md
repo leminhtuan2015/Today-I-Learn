@@ -1,15 +1,14 @@
-#### JavaScript Scope
-#### Local JavaScript Variables
-#### Global JavaScript Variables
-#### Automatically Global
+### JavaScript Scope
+### Local JavaScript Variables
+### Global JavaScript Variables
+### Automatically Global
 
 --------------------------------
 
-#### JavaScript Scope
+### JavaScript Scope
   - In JavaScript, objects and functions are also variables.
   - In JavaScript, scope is the set of variables, objects, and functions you have access to.
-
-#### Local JavaScript Variables
+### Local JavaScript Variables
   - Variables declared within a JavaScript **function**, become LOCAL to the function.
   - Local variables have local scope: They can only be accessed within the function.
 
@@ -22,7 +21,7 @@
       // code here can use x
 ```
 
-#### Global JavaScript Variables
+### Global JavaScript Variables
   - A variable declared outside a function, becomes GLOBAL.
   - A global variable has global scope: All scripts and functions on a web page can access it. 
 
@@ -35,7 +34,7 @@
     }
 ```
 
-#### Automatically Global
+### Automatically Global
   - If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
   - Do NOT create global variables unless you intend to.
 
