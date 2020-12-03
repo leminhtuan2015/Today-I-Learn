@@ -19,6 +19,9 @@
       var x = "Volvo";
 
       // code here can use x
+  }
+  
+  // code here cannot use x
 ```
 
 ### Global JavaScript Variables
@@ -32,6 +35,8 @@
     function myFunction() {
         // code here can use carName 
     }
+    
+    // code here can use carName
 ```
 
 ### Automatically Global
