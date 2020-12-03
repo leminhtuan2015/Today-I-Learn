@@ -18,6 +18,18 @@ var x = {
   "name": {
     "firstName": "Le",
     "lastName": "Tuan"
+  },
+  
+  sayHello(){
+    console.log("Hello: " + this.name)
+  },
+
+  sayHello1: function(){
+    console.log("Hello 1 : " + this.name)
+  },
+
+  sayHello2: () => {
+    console.log("Hello 2 : " + this.name)
   }
 }
 
