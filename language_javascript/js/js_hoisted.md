@@ -1,9 +1,9 @@
-### 1. What is Hoisting javascript.
+### 1. Javascript Hoisting .
 ### 2. Hoisting with variable.  
 
 --------------------------------------------------------------------------------------------
 
- ### 1. What is Hoisting javascript. 
+ ### 1. Javascript Hoisting. 
  
  * In short: **Hoisting đưa tất cả các biến trong 1 `scope` lên khai báo ở đầu của `scope` đó.**
  
