@@ -1,8 +1,5 @@
 ### 1. What is Hoisting javascript.
-
-#### 2. Hoisting with variable.  
-
-**Trả lời :**
+### 2. Hoisting with variable.  
 
 
  ### 1. What is Hoisting javascript. 
