@@ -13,7 +13,7 @@
 
 ```js
 
-var x = {
+var x_object = {
   "age": 1,
   "name": {
     "firstName": "Le",
@@ -33,18 +33,16 @@ var x = {
   }
 }
 
-function huhu(y){
+function edit_object(y){
   y["age"] = 2
   y["name"]["firstName"] = "Le Minh"
 }
 
-console.log(x); // { age: 1, name: { firstName: 'Le', lastName: 'Tuan' } }
+console.log(x_object); // { age: 1, name: { firstName: 'Le', lastName: 'Tuan' } }
 
-huhu(x);
+edit_object(x_object);
 
-console.log(x); // { age: 2, name: { firstName: 'Le Minh', lastName: 'Tuan' } }
-
-
+console.log(x_object); // { age: 2, name: { firstName: 'Le Minh', lastName: 'Tuan' } }
 
 ```
 
