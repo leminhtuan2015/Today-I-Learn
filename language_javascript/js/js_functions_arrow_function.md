@@ -1,7 +1,7 @@
 ### Function
+### 'this' in Function
 ### Arrow Function
-### Keyword 'this' in Function
-### Keyword 'this' in Arrow Function
+### 'this' in Arrow Function
 
 -----------------------------
 
@@ -24,7 +24,7 @@ console.log("My name :" + p.name) // My name :tuan
 
 ```
 
-### Keyword 'this' in Function
+### 'this' in Function
 
 * **'this'** in function is the object that called the function
 
@@ -117,6 +117,44 @@ console.log("the name is : " + p.name) //the name is : tuan
 
 console.log("the name is : " + this.name) //the name is : undefined
 ```
+
+### Arrow Function
+
+* Arrow functions were introduced in ES6.
+* Arrow functions allow us to write shorter function syntax:
+
+```js
+hello = () => {
+  return "Hello World!";
+}
+```
+
+* If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword:
+
+```js
+hello = () => "Hello World!";
+```
+
+* Arrow Function have only 1 Parameters:
+
+```js
+hello = (val) => "Hello " + val;
+
+OR
+
+hello = val => "Hello " + val;
+```
+
+### 'this' in Arrow Function
+
+* **this** is also different in **arrow functions** compared to **regular functions**.
+* In short, with **arrow functions there are no binding of this**.
+
+* **In regular functions** : `this` keyword represented the object that called the function
+* **In arrow functions the** : `this` keyword always represents the object that defined the arrow function.
+
+
+
 
 
 
