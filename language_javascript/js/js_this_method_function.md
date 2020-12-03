@@ -11,6 +11,7 @@
 
 ### Method
 
+* Method is also a function
 * Method is the function of an Object
 * **this** in method refers to the "owner" of the method.
 
