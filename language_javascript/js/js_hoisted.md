@@ -1,13 +1,17 @@
 ### 1. What is Hoisting javascript.
 ### 2. Hoisting with variable.  
 
+--------------------------------------------------------------------------------------------
 
  ### 1. What is Hoisting javascript. 
- - Như chúng ta đã biết Javascript (JS) là một ngôn ngữ "Interpreter" tương tự Ruby, Khi chưa đọc về khái niệm "hoisted" và cũng chỉ là 1 dev nghiệp dư về JS em luôn nghĩ rằng mỗi khi chúng ta run một app JS thì bộ Interpreter của JS engine sẽ thực thi các lệnh theo thứ tự Top to Bottom, nhưng Javascript tồn tại một điều thú vị chỉ ở Javascript có đó là khái niệm "hoisted".
+ 
+ * Trước khi execute code, thằng JS có cơ chế pre-execute để thực hiện quá trình **hoisted** cho toàn bộ file code.js, sau đó nó mới thực sự execute code.
+ 
+ - Như chúng ta đã biết Javascript (JS) là một ngôn ngữ "Interpreter" tương tự Ruby, Khi chưa đọc về khái niệm "hoisted" và cũng chỉ là 1 dev nghiệp dư về JS tôi luôn nghĩ rằng mỗi khi chúng ta run một app JS thì bộ Interpreter của JS engine sẽ thực thi các lệnh theo thứ tự Top to Bottom, nhưng Javascript tồn tại một điều thú vị chỉ ở Javascript có đó là khái niệm "hoisted".
  
  - Hiểu đơn giản "hoisted" là một cơ chế trong cách thực thi code mà chỉ tồn tại trong JS, nó làm nhiều new dev cảm thấy "confuse" và có thể gây ra lỗi trong app nếu không hiểu rõ về "hoisted".
  
- - Trong quá trình tìm hiểu "hoisted" em đã tự viết ra một số định nghĩa về khái niệm "hoisted trong JS" cho riêng mình đó là:
+ - Trong quá trình tìm hiểu "hoisted" tôi đã tự viết ra một số định nghĩa về khái niệm "hoisted trong JS" cho riêng mình đó là:
 
 >  - Định Nghĩa 1: "Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần: phần 1: khai báo (variable declaration), phần 2: gán giá trị (variable definition)" 
  
@@ -29,7 +33,7 @@
 ```js
     var name = "TuanLM vd2";
 ```
-- Ví dụ này có lẽ cũng không hề khác so với ví dụ một chẳng qua ta chỉ gộp 2 câu lệnh thành 1 câu lệnh, nhưng hãy suy nghĩ một chút về định nghĩa "Hoisted" em vừa đề cập rất rõ phía trên. dòng code sẽ được JS thực thi theo đúng cơ chế "Hoisted" (Cắt câu lệnh trên ra làm 2 câu lệnh riêng biệt), Nghĩa là nó sẽ được chạy như sau:
+- Ví dụ này có lẽ cũng không hề khác so với ví dụ một chẳng qua ta chỉ gộp 2 câu lệnh thành 1 câu lệnh, nhưng hãy suy nghĩ một chút về định nghĩa "Hoisted" tôi vừa đề cập rất rõ phía trên. dòng code sẽ được JS thực thi theo đúng cơ chế "Hoisted" (Cắt câu lệnh trên ra làm 2 câu lệnh riêng biệt), Nghĩa là nó sẽ được chạy như sau:
 
 ```js
     //Bước 1 : Khai báo:
@@ -48,6 +52,8 @@
  
 ```js
     console.log(name);
+    
+    # => Error
 ```
 
 - Kết quả : Không có gì đặc biệt vì cũng giống bất kỳ trình biên dịch của những ngôn ngữ khác, bộ Interpreter của JS cũng thực thi từ Top to Bottom, nên khi không tìm thấy biến name trình biên dịch sẽ báo lỗi "name is not defined" do không tồn tại biến "name"
@@ -59,6 +65,9 @@
  ```js
     console.log(name);
     var name;
+    
+    # NOT eror
+    # => undefined
 ```
 
 - Kết quả : ta nhận lại đc giá trị của biến name là undefined (name = undefined), nghĩa là biến name chưa được gán giá trị, nhưng đã tồn tại
