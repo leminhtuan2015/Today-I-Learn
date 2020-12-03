@@ -5,11 +5,16 @@
 
  ### 1. What is Hoisting javascript. 
  
+ * In short: **Hoisting đưa tất cả các biến trong 1 `scope` lên khai báo ở đầu của `scope` đó.**
+ 
  * Trước khi execute code, thằng JS có cơ chế pre-execute để thực hiện quá trình **hoisted** cho toàn bộ file code.js, sau đó nó mới thực sự execute code.
  
  - Hiểu đơn giản "hoisted" là một cơ chế trong cách thực thi code mà chỉ tồn tại trong JS, nó làm nhiều new dev cảm thấy "confuse" và có thể gây ra lỗi trong app nếu không hiểu rõ về "hoisted".
  
->  - Định Nghĩa 1: "Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần: phần 1: khai báo (variable declaration), phần 2: gán giá trị (variable definition)" 
+>  - Định Nghĩa 1: 
+    * Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần: 
+      * phần 1: khai báo (variable declaration), 
+      * phần 2: gán giá trị (variable definition)
  
  
  ### 2. Hoisting with variable.  
@@ -76,9 +81,13 @@
 
 - Hoisted sẽ làm như sau:
 
-    * Định Nghĩa 1: "Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần: phần 1: khai báo (variable declaration), phần 2: gán giá trị (variable definition)"
+    * Định Nghĩa 1: 
+      * Hoisted Javascript là một cơ chế luôn luôn tách việc tạo ra biến thành 2 phần
+        * phần 1: khai báo (variable declaration)
+        * phần 2: gán giá trị (variable definition)"
 
-    * Định Nghĩa 2: "Hoisted Javascript là một cơ chế luôn luôn đưa phần khai báo biến (variable declaration), lên đầu tiên của **scope**"
+    * Định Nghĩa 2: 
+      * "Hoisted Javascript là một cơ chế luôn luôn đưa phần khai báo biến (variable declaration), lên đầu tiên của **scope**"
 
 - Vậy một câu hỏi đặt ra như sau:
 
