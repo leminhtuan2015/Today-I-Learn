@@ -20,7 +20,9 @@ person = {
     name: "Tuan",
     
     sayHello: function() {
-      console.log("Hello, My name is: " + this.name) // this.name , this refer to the scope of object person
+      console.log("Hello, My name is: " + this.name) 
+      // this.name , this refer to the scope of object person
+      
       return this.name;
     }
 }
