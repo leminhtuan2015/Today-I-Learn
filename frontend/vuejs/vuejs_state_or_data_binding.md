@@ -29,7 +29,8 @@ export default {
 
 ### Vuejs Data VS Reactjs state
 
-* Vuejs Data = Reactjs state
+* **Vuejs Data** = **Reactjs State**
+
 * In React : When the state object changes, the component re-renders.
 * In Vuejs : When the data object changes, the template re-renders.
 
