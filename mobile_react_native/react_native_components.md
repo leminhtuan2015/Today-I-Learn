@@ -1,4 +1,10 @@
 ### React Components
+### Class Components
+### Functional Components
+
+--------------------------------------------------------------
+
+### React Components
 
 * React Native Components = **Class in OOP**
   * States = **private** variables of class
@@ -9,7 +15,7 @@
     * Class components
     * Function components
     
-#### Class Components
+### Class Components
 
 * Must be extend from **Component**
 * Must be have **render function**
@@ -29,7 +35,7 @@ class App extends Component {
 }
 ```
 
-#### Functional Components
+### Functional Components
 
 * Using when your view is NOT dynamic and the view never change
 
