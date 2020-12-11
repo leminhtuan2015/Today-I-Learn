@@ -1,6 +1,11 @@
 ### Threading in React Native apps
+### React native workflow
 
-#### React Native apps have 3 threads are:
+
+-------------------------------------
+
+
+### React Native apps have 3 threads are:
   * **Main (UI) Thread**
     * (or Main thread or Native Thread): Android/iOS applications in the main thread, **display UI to the screen**
     * The Main Thread also listens to the UI events like 'press', 'touch', etc. These events are then passed to the Javascript thread via the RN Bridge
@@ -11,7 +16,7 @@
     * Javascript Thread will use **Apple JavaScriptCore Javascript engine** for execute javascript code
     * react_native_javascript_engine => https://github.com/leminhtuan2015/Today-I-Learn/blob/master/mobile_react_native/react_native_javascript_engine.md
 
-#### React native workflow
+### React native workflow
   * Step 1: When the React native app starts up, the **Main thread** starts execution and start loading JS.
   * Step 2: When JavaScript code has been loaded main thread sends it to **Javascript Thread** to keep main thread response which is responsible for the UI. Having a separate thread for JavaScript is a good idea, because when JS does some heavy calculations freezing the thread for a while , the UI thread will not suffer.
   * Step 3: When React start rendering Reconciler starts "diffing", and when it generates a new virtual DOM(layout) it sends changes to **Shadow thread**.
