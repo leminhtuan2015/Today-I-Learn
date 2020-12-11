@@ -36,6 +36,7 @@
     * Các sự kiện sẽ được gửi xuống **Javascript Thread (JS thread)** để các mã nguồn logic sẽ thực hiện ở đó
     * Toàn bộ logic trong RN đều giữ nguyên là logic của JS code, Chỉ riêng JSX (HTML code) là được convert sang native UI
     * Vì thế trong RN toàn bộ logic code là như nhau trên Android/IOS và đều được execute bởi tool **Apple JavaScriptCore Javascript engine**, tool này được build kèm cùng các ứng dụng RN  
+    * Sau khi thực thi logic code, nếu có thay đổi JSX (HTML code) chính là việc ta setState() thì **Javascript Thread (JS thread)** lại convert JSX sang DOM(layout) và tiếp tục lặp lại step 3 ở trên 
 
 #### React native workflow diagram
 
