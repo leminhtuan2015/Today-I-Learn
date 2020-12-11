@@ -25,6 +25,8 @@
   * Step 4: Shadow thread ("shadow" because it generates shadow nodes) calculates layout and then sends layout parameters/objects to the **Main(UI) thread**
   * Step 5. Since only the main thread is able to render something on the screen, shadow thread should send generated layout to the main thread, and only then UI renders. 
   
+  *---------------
+  
   * Step 1: Khi chạy 1 ứng dụng RN, **Main thread** khởi tạo và thực thi việc loading JS code
   * Step 2: Sau khi Javascript code đã load hoàn toàn, **Main thread** sẽ chuyển tiếp sang cho **Javascript Thread (JS thread)**
   * Step 3: **Javascript Thread (JS thread)** sẽ convert JSX (HTML code) sang virtual DOM(layout) và chuyển cho **Shadow thread**.
