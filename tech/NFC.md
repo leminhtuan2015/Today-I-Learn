@@ -1,6 +1,8 @@
-NFC (Near-Field Communications)
+### NFC (Near-Field Communications)
 
 --------------------
+
+### NFC (Near-Field Communications)
 
 * Near-Field-Communication (NFC) is a set of **communication protocols** for communication between two electronic devices over a distance of 4 cm (1​1⁄2 in) or less
 
@@ -21,3 +23,21 @@ NFC (Near-Field Communications)
 * Chẳng hạn như điện thoại vừa có thể đóng vai trò initiator hay target, Ví dụ khi thanh toán, thay vì quẹt thẻ, Bạn có thể chạm điện thoại vào máy POS point of sale (POS) or point of purchase (POP), lúc này điện thoại đóng vai trò là target, May Post sẽ đọc thông tin từ điện thoại và tiên hành giao dịch 
 
 * NFC phần mềm: Chúng ta cần có những tools để điều khiển đc (NFC Reader/Writer) để đọc hoặc dữ liệu từ target hoặc ghi dữ liệu vào target, ĐỐi với điện thoại cũng cần có 2 phần là app và phần cứng, app sẽ điều khiển phần cứng để đọc hay ghi dữ liệu từ target
+
+
+* Smart-phone vừa có thể bắt Wifi từ máy khác và cũng vừa có thể phát Wifi cho máy khác dùng => NCF trên Smart-phone cũng tương tự: Smart-phone vừa có thể đọc/ghi data từ target và cũng có thể là target để cho các thiết bị khác đọc/ghi data 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
