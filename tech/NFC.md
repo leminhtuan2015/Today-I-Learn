@@ -1,5 +1,5 @@
 ### NFC (Near-Field Communications)
-
+### NFC Data Exchange Format (NDEF)
 --------------------
 
 ### NFC (Near-Field Communications)
@@ -26,6 +26,25 @@
 
 
 * Smart-phone vừa có thể bắt Wifi từ máy khác và cũng vừa có thể phát Wifi cho máy khác dùng => NCF trên Smart-phone cũng tương tự: Smart-phone vừa có thể đọc/ghi data từ target và cũng có thể là target để cho các thiết bị khác đọc/ghi data 
+
+
+### NFC Data Exchange Format (NDEF)
+
+* NDEF (NFC Data Exchange Format) is a light-weight binary format, used to encapsulate typed data. It is specified by the NFC Forum, for transmission and storage with NFC
+
+* NDEF defines messages and records. 
+  * An NDEF Record contains typed data, such as MIME-type media, a URI, or a custom application payload. 
+  * An NDEF Message is a container for one or more NDEF Records.
+
+* **An NDEF Message is a container for one or more NDEF Records.**
+
+* There are currently **4 NFC Forum standardized tag types** that can be formatted to contain NDEF data.
+  * NFC Forum Type 1 Tag (NFC_FORUM_TYPE_1), such as the Innovision Topaz
+  * NFC Forum Type 2 Tag (NFC_FORUM_TYPE_2), such as the NXP MIFARE Ultralight
+  * NFC Forum Type 3 Tag (NFC_FORUM_TYPE_3), such as Sony Felica
+  * NFC Forum Type 4 Tag (NFC_FORUM_TYPE_4), such as NXP MIFARE Desfire
+
+* Some vendors have their own well defined specifications for storing NDEF data on tags that do not fall into the above categories
 
 
 
