@@ -27,9 +27,9 @@
 
 ### Mindset
 
-* IOS - ViewController = Android - Activity
-* IOS - StoryBoard = Android - XML-Layout (Both are XML)
-* IOS - Object = Android - Object
+* IOS (Controller) ViewController = Android (Controller) Activity
+* IOS (View) StoryBoard = Android (View) XML
+* IOS (Model) Object = Android (Model) Object
 * IOS - info.plist = Android - manifest.xml
 
 ### Entry-point
