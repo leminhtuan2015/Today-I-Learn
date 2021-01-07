@@ -26,7 +26,7 @@
   * VM : State (Binding Components/Views to State)
   * **V <-> C** : When State update => View auto updated
   
-  * **Vue**
+* **Vue**
 
   * M : Javascript Object
   * V : Template
