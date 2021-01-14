@@ -6,6 +6,7 @@
 ### ReactNative IAP
 ### IOS Subscription groups (Upgrade Subscription)
 ### IAP Q&A
+### Payment Goods and Services Outside of the App
 ---------------------------------------------------
 
 ### IAP
@@ -117,11 +118,38 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
   * This happend on Sandbox environment but on production that will be ok
   
   
+### Payment Goods and Services Outside of the App
   
-  
-  
-  
-  
-  
+#### IOS Apple policy về việc giao dịch mua “digital content”
+
+* Tài liệu về policy của Apple đối với các giao dịch mua bán : Mục 
+    * 3. Business > 3.1 Payments > 3.1.1 In-App Purchase
+    * https://developer.apple.com/app-store/review/guidelines/#business
+    * **Apps and their metadata may not include buttons, external links, or other calls to action that direct customers to purchasing mechanisms other than in-app purchase.**
+    * Apps may not use their own mechanisms to unlock content or functionality,
+
+* Tài liệu tham khảo các nguồn trên Internet về vấn đề payment digital content
+    * https://stackoverflow.com/questions/23790971/managing-payments-outside-the-app-store
+    * https://developer.apple.com/forums/thread/100438
+    * https://developer.apple.com/forums/thread/60415
+    
+* Thông tin kết luận đối với việc mua bán sản phẩm “digital content”: 
+    * Tất cả các giao dịch mua bán digital content của người dùng phải thông qua tính năng IAP của Apple 
+    * Ứng dụng mua bán digital content không được phép sử dụng cơ chế thanh toán riêng nào khác ngoài IAP 
+    * Thông tin ứng dụng (thông tin mô tả ứng dụng trên store) và ứng dụng không được phép chứa link, button để chuyển user đến 1 kênh thanh toán khác để mua bán digital content
+
+————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+#### IOS Apple policy về việc giao dịch mua “Goods and Services Outside of the App”
+
+* Chỉ những app bên dưới mới có thể sử dụng phương thức thanh toán ngoài IAP (3.1.3 Other Purchase Methods: )
+    * https://developer.apple.com/app-store/review/guidelines/#business
+    *  3.1.3(e) Goods and Services Outside of the App
+
+* Policy Apple chỉ xác nhận là :
+    * 3.1.3(e) Goods and Services Outside of the App: If your app enables people to purchase physical goods or services that will be consumed outside of the app, you must use purchase methods other than in-app purchase to collect those payments, such as Apple Pay or traditional credit card entry.
+    * Những vật phẩm thực tế phải sử dụng phương thức thanh toán khác không phải IAP
+* Theo như policy 3.1.3(e): Thì việc giao dịch mua bán vật phẩm thực tế vẫn có thể dùng phương thức thanh toán khác không phải IAP 
   
   
