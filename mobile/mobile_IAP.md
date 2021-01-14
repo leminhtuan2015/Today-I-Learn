@@ -138,8 +138,6 @@ Linking.openURL('https://play.google.com/store/account/subscriptions?package=YOU
     * Ứng dụng mua bán digital content không được phép sử dụng cơ chế thanh toán riêng nào khác ngoài IAP 
     * Thông tin ứng dụng (thông tin mô tả ứng dụng trên store) và ứng dụng không được phép chứa link, button để chuyển user đến 1 kênh thanh toán khác để mua bán digital content
 
-————————————————————————————————————————————————————————————————————————————————————————————————
-
 
 #### IOS Apple policy về việc giao dịch mua “Goods and Services Outside of the App”
 
