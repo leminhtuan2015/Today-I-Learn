@@ -1,11 +1,11 @@
-### GraphQL
+### GraphQL server
 ### GraphQL API vs REST API
 ### Data Fetching with GraphQL vs REST
 ### GraphQL server and GraphQL client
 ### GraphQL server with a database
 --------
 
-### GraphQL
+### GraphQL server
 
 * GraphQL is a tool work at server-side
 * GraphQL is a **query language** for your APIs, the same SQL - **NOT databases**
@@ -13,6 +13,7 @@
 * GraphQL **is NOT** tied to any specific database or storage engine, GraphQL work with **existing data**
 * GraphQL allow client define the data query at client side (**with REST API, SQL query must be define at server side**)
 * GraphQL gives clients the power to ask for exactly data they need, NOT depend at the logic of server 
+* GraphQL allow Client send the **query** directly to Server (In REST query must be in server-side)
 
 * Example:
 
