@@ -1,9 +1,20 @@
+### GraphQL diagram
 ### GraphQL server
 ### GraphQL API vs REST API
 ### Data Fetching with GraphQL vs REST
 ### GraphQL server and GraphQL client
 ### GraphQL server with a database
+
 --------
+
+### GraphQL diagram
+
+#### REST diagram
+Client ===(send the **query**)===> Server ===(access to database to get/set data)===> Respose json data to Client
+
+#### GraphQL diagram
+Client ===(send the **params**)===> Server ===(access to database to get/set data)===> Respose json data to Client
+
 
 ### GraphQL server
 
