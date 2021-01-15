@@ -44,18 +44,20 @@
 
 ### GraphQL API vs REST API
 
+* GraphQL API and REST API : Can be implemented in any programing language (JS, Java, Python, C/C++, PHP, Ruby, Scala, ...)
+
 #### REST API
-  * Client call HTTP REST API
-  * Server receive the request
+  * Client-side call HTTP REST API
+  * Server-side receive the request
       * Server handle logic
       * Server using SQL to CRUD with database
       * Server response data to client
-  * Client recevied the response JSON data from server
+  * Client-side recevied the response JSON data from server
       
 #### GraphQL API
-  * Client define the data query at client side
-  * Client the power to ask for exactly what they need 
-  * Client controll all data what they get, **NOT the server**.
+  * Client-side define the data query at client side
+  * Client-side the power to ask for exactly what they need 
+  * Client-side controll all data what they get, **NOT the server**.
 
 * GraphQL APIs get all the data your app needs in a single request
   * While typical REST APIs require request from multiple URLs (**each REST API only response for one resource object**)
@@ -73,14 +75,15 @@
   * /users/<id>/followers
 
 * **With REST, Client have to make three requests to different endpoints to fetch the enough required data.** 
-* With REST Client do not know which data will response from API until you received the JSON response
-* With REST, Client can NOT controll which data will fetch or post
+* With REST Client-side do not know which data will response from API until you received the JSON response
+* With REST, Client-side can NOT controll which data will fetch or post
 
 #### GraphQL
 
-* With GraphQL Client just send a single query to the GraphQL server that includes the only data requirements
-* With GraphQL, Client already know which data you will be received
-* With GraphQL, Client totaly controll which data will fetch or post
+* With GraphQL: Client-side just send a single query to the GraphQL server that includes the only data requirements
+* With GraphQL: Client-side make less request to server-side than REST API
+* With GraphQL: Client-side already know which data you will be received
+* With GraphQL: Client-side totaly controll which data will fetch or post
 
  ```js
    query {
@@ -98,16 +101,22 @@
 ### GraphQL server and GraphQL client
 
 * GraphQL server is a **query language** for your APIs at *server side*
-* Client can access GraphQL server by any HTTP client (fetch-JS, axios-JS, Retrofit-Android, Alamofire-IOS )
+* Client-side can access GraphQL server by any HTTP client (fetch-JS, axios-JS, Retrofit-Android, Alamofire-IOS )
 * **Client just need to call HTTP request to access GraphQL APIs enpoints, GraphQL can be use any HTTP client to make request  => WHY WE NEED GraphQL client**
   * => ANSWER: In short, we should use a GraphQL client for tasks that are repetitive and agnostic to the app we’re building
 
 
 ### GraphQL server with a database
 
+### GraphQL server just only the query language work on-top of database (it is NOT a database)
 * GraphQL also doesn’t care about the database or the format that is used to store the data
 * GraphQL can be used with any kind of database or even no database at all.
 * GraphQL could use a SQL database like AWS Aurora or a NoSQL database like MongoDB.
+
+### GraphQL server with MySQL Database
+
+* GraphQL or REST API : both must be CRUD to Database to read/write data in database
+* GraphQL or REST API : both can NOT access directly to Database, must use third-party tool to access
 
 
 
