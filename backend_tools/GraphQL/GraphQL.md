@@ -97,7 +97,7 @@
 ### GraphQL server and GraphQL client
 
 * GraphQL server is a **query language** for your APIs at *server side*
-* Client can access GraphQL server by any HTTP client
+* Client can access GraphQL server by any HTTP client (fetch-JS, axios-JS, Retrofit-Android, Alamofire-IOS )
 * **Client just need to call HTTP request to access GraphQL APIs enpoints, GraphQL can be use any HTTP client to make request  => WHY WE NEED GraphQL client**
   * => ANSWER: In short, we should use a GraphQL client for tasks that are repetitive and agnostic to the app we’re building
 
