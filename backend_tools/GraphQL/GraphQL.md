@@ -108,12 +108,12 @@
 
 ### GraphQL server with a database
 
-### GraphQL server just only the query language work on-top of database (it is NOT a database)
+#### GraphQL server just only the query language work on-top of database (it is NOT a database)
 * GraphQL also doesn’t care about the database or the format that is used to store the data
 * GraphQL can be used with any kind of database or even no database at all.
 * GraphQL could use a SQL database like AWS Aurora or a NoSQL database like MongoDB.
 
-### GraphQL server with MySQL Database
+#### GraphQL server with MySQL Database
 
 * GraphQL or REST API : both must be CRUD to Database to read/write data in database
 * GraphQL or REST API : both can NOT access directly to Database, must use third-party tool to access
