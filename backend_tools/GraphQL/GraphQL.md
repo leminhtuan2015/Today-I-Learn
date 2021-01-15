@@ -10,10 +10,10 @@
 ### GraphQL diagram
 
 #### REST diagram
-Client ===(send the **query**)===> Server ===(access to database to get/set data)===> Respose json data to Client
+Client =(send the **query**)=> Server =(access to database to get/set data)=> Respose json data to Client
 
 #### GraphQL diagram
-Client ===(send the **params**)===> Server ===(access to database to get/set data)===> Respose json data to Client
+Client =(send the **params**)=> Server =(access to database to get/set data)=> Respose json data to Client
 
 
 ### GraphQL server
