@@ -34,7 +34,7 @@
   function User_name(user) {
     return user.getName();
   }
-```
+  ```
 
   * GraphQL query
 
