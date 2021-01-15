@@ -1,6 +1,8 @@
 ### GraphQL
 ### GraphQL API vs REST API
 ### Data Fetching with GraphQL vs REST
+### GraphQL server and GraphQL client
+### GraphQL server with a database
 --------
 
 ### GraphQL
@@ -69,7 +71,7 @@
   * /users/<id>/posts
   * /users/<id>/followers
 
-* **With REST, Client have to make three requests to different endpoints to fetch the required data.** 
+* **With REST, Client have to make three requests to different endpoints to fetch the enough required data.** 
 * With REST Client do not know which data will response from API until you received the JSON response
 * With REST, Client can NOT controll which data will fetch or post
 
@@ -90,7 +92,27 @@
          name
        }
    }
-  ```
+```
+  
+### GraphQL server and GraphQL client
+
+* GraphQL server is a **query language** for your APIs at *server side*
+* Client can access GraphQL server by any HTTP client
+* **Client just need to call HTTP request to access GraphQL APIs enpoints, GraphQL can be use any HTTP client to make request  => WHY WE NEED GraphQL client**
+  * => ANSWER: In short, we should use a GraphQL client for tasks that are repetitive and agnostic to the app we’re building
+
+
+### GraphQL server with a database
+
+* GraphQL also doesn’t care about the database or the format that is used to store the data
+* GraphQL can be used with any kind of database or even no database at all.
+* GraphQL could use a SQL database like AWS Aurora or a NoSQL database like MongoDB.
+
+
+
+
+
+
 
 
 
