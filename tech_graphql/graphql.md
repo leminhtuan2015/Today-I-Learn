@@ -38,7 +38,7 @@
 
 * In GraphQL you don’t use URLs/endpoints to identify what is available in the API. Instead, you use a GraphQL schema:
 
-
+```
 type Query {
   book(id: ID!): Book
   author(id: ID!): Author
@@ -52,7 +52,7 @@ type Book { ... }
 type Author { ... }
 type Comment { ... }
 input AddCommentInput { ... }
-
+```
 
 ### GraphQL Queries, Fields, Arguments and Mutations
 
@@ -60,7 +60,7 @@ input AddCommentInput { ... }
 
 * GraphQL is about asking for specific fields on objects
 
-
+```
 {
   hero {
     name
@@ -70,20 +70,20 @@ input AddCommentInput { ... }
     }
   }
 }
-
+```
 
 #### Arguments
 
 * You have the ability to pass arguments to fields, things get much more interesting.
 
-
+```
 {
   human(id: "1000") {
     name
     height(unit: FOOT)
   }
 }
-
+```
 
 #### Mutations
 
