@@ -4,7 +4,7 @@
 ### React Native Props
 ----------------------------------------------------------------------
 
-### Props vs State
+### Props vs State (Props stands for properties))
 
 * Props: **public final x =**
 * State : **private x =**
