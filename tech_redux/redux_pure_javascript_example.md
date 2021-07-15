@@ -1,3 +1,27 @@
+### Redux steps
+### HTML code for Redux with pure Javascript app
+
+----------------------------------------------------------
+
+### Redux coding steps
+
+* Step 1: Create reducers
+  * Reducer is a function return one state
+  * We can understand that **each reducer is a state and is a piece of global state**
+  * Reducer is the function for handle logic for update it own state and return that state
+  * Reducer return it own state object
+  * **Reducers = small states**
+
+* Step 2: Create redux store 
+  * From the reducers (small states), use **createStore** function for create a redux store javascript object
+  * Redux store is the **Global state** that contain all the state of each reducers
+  * **Store = Global state = contain all small states of each reducer**
+
+* Step 3: Connect redux store to the view
+  * When store object is changed, we nee to update the UI
+  * We need to connect/subscribe the Store with the UI => this is the way of callback when store is change
+  * **Callback UI when store is changed**
+
 
 ### HTML code for Redux with pure Javascript app
 
