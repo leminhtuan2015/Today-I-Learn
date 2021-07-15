@@ -1,7 +1,7 @@
 
 ### What is Redux?
 ### Why Should I Use Redux?
-### ### Redux Data Flow/ life cyrcle
+### Redux Data Flow/ life cyrcle
 -----------------------------------
 
 ### What is Redux?
