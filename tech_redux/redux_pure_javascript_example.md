@@ -1,4 +1,4 @@
-### Redux steps
+### Redux coding steps
 ### HTML code for Redux with pure Javascript app
 
 ----------------------------------------------------------
@@ -17,7 +17,7 @@
   * Redux store is the **Global state** that contain all the state of each reducers
   * **Store = Global state = contain all small states of each reducer**
 
-* Step 3: Connect redux store to the view
+* Step 3: Connect redux store to the views
   * When store object is changed, we nee to update the UI
   * We need to connect/subscribe the Store with the UI => this is the way of callback when store is change
   * **Callback UI when store is changed**
