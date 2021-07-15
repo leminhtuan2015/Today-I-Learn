@@ -1,4 +1,5 @@
 ### Props vs State (Props stands for properties)
+### Why are React props immutable?
 ### React Native : props vs state
 ### React Native State
 ### State Updates are Merged
@@ -14,7 +15,7 @@
 * All React components must act like **pure functions** (concepts of functional programming) with respect to their props.
 * Whether you declare a component as a function or a class, **it must never modify its own props**, if you try to modify its own props => error occur
 
-#### Why are React props immutable?
+### Why are React props immutable?
 
 * Fist: the reason React props immutable because this is the concept of React component, this is the rule of React component
   * `React is pretty flexible but it has a single strict rule: all React components must act like pure functions with respect to their props.`
