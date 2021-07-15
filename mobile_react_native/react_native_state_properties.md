@@ -1,26 +1,56 @@
+### Props vs State (Props stands for properties)
 ### React Native : props vs state
 ### React Native State
 ### State Updates are Merged
 ### React Native Props
 ----------------------------------------------------------------------
 
-### Props vs State (Props stands for properties))
+### Props vs State (Props stands for properties)
 
 * Props: **public final x =**
 * State : **private x =**
 * **Props** and **state** both is variable of **component**
-* The main difference between **props** and **state** is that `props` are immutable.
+* The main difference between **props** and **state** is that `props` are immutable => **Props are Read-Only**
+* All React components must act like **pure functions** (concepts of functional programming) with respect to their props.
+* Whether you declare a component as a function or a class, **it must never modify its own props**, if you try to modify its own props => error occur
+
+#### Why are React props immutable?
+
+* Fist: the reason React props immutable because this is the concept of React component, this is the rule of React component
+  * `React is pretty flexible but it has a single strict rule: all React components must act like pure functions with respect to their props.`
+
+* Second: props can be a function or primitive variable or object variable (reference variable) => In case props is object variable and you can change the props that mean, you change the object variable => that make the **side effect** for your app and it will generate many uncontrolled bugs for a React App.
+
+* Thrird: React component follow the concept of functional programing **must be Pure** function and **never Side effect**
+    * Pure: https://en.wikipedia.org/wiki/Pure_function
+    * Side effect: https://en.wikipedia.org/wiki/Side_effect_(computer_science)
+
+#### Example init props and state
+
 * **Props** and **State** init:
   * **Props** is passed as parameters of function contructor of component
-    ```js
-        ===> Variable headerProp will be passed to contructor function of class component Header
+    ```js        
+    
+        ===> props will be passed to function component (Stateless components)
 
-        <Header headerProp = "hello"/>
+        function Welcome(props) {
+          return <h1>Hello, {props.name}</h1>;
+        }
+        
+        ===> props will be passed to contructor of class component (Statefull components))
+
+        class Welcome extends React.Component {
+          render() {
+            return <h1>Hello, {this.props.name}</h1>;
+          }
+        }
+
+        <Welcome name="tuan"/>
     ```
   
   * **State** is the local private variable inside a component
     ```js
-        ===> Variavle state is inited inside the contructor of component
+        ===> Variavle state is init inside the contructor of component
         
         Class App extends React.Component {
           constructor(props) {
@@ -54,7 +84,7 @@
 
 ### React Native State (Of Components)
 
-* **state** : is the attribute in each **Components**
+* **State** : is the attribute in each **Components**
 * Initial **state** is defined inside the Components class by using the state = {} syntax
 * Each time when **setState** is called, the **render()** function in a Component will be called simultaneously
 * Each react component has its own state. State is a collection of values that need to be maintained by component itself
