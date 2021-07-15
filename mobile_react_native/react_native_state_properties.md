@@ -6,8 +6,33 @@
 
 ### Props vs State
 
-* props: **public final x =**
-* state : **private x =**
+* Props: **public final x =**
+* State : **private x =**
+* **Props** and **state** both is variable of **component**
+* The main difference between **props** and **state** is that `props` are immutable.
+* **Props** and **State** init:
+  * **Props** is passed as parameters of function contructor of component
+    ```js
+        ===> Variable headerProp will be passed to contructor function of class component Header
+
+        <Header headerProp = "hello"/>
+    ```
+  
+  * **State** is the local private variable inside a component
+    ```js
+        ===> Variavle state is inited inside the contructor of component
+        
+        Class App extends React.Component {
+          constructor(props) {
+             super(props);
+             
+             this.state = {
+                header: "Header from props...",
+                content: "Content from props..."
+             }
+          }
+        }
+    ```
 
 
 ### React Native : props vs state
